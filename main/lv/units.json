@@ -3,8 +3,8 @@
     "lv": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12307 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "lv"
       },
@@ -59,7 +59,8 @@
             "displayName": "kvadrātkilometri",
             "unitPattern-count-zero": "{0} kvadrātkilometri",
             "unitPattern-count-one": "{0} kvadrātkilometrs",
-            "unitPattern-count-other": "{0} kvadrātkilometri"
+            "unitPattern-count-other": "{0} kvadrātkilometri",
+            "perUnitPattern": "{0} uz kvadrātkilometru"
           },
           "area-hectare": {
             "displayName": "hektāri",
@@ -85,7 +86,8 @@
             "displayName": "kvadrātjūdzes",
             "unitPattern-count-zero": "{0} kvadrātjūdzes",
             "unitPattern-count-one": "{0} kvadrātjūdze",
-            "unitPattern-count-other": "{0} kvadrātjūdzes"
+            "unitPattern-count-other": "{0} kvadrātjūdzes",
+            "perUnitPattern": "{0} uz kvadrātjūdzi"
           },
           "area-acre": {
             "displayName": "akri",
@@ -119,16 +121,22 @@
             "unitPattern-count-other": "{0} karāti"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "miligrami uz dekalitru",
+            "unitPattern-count-zero": "{0} miligrami uz dekalitru",
+            "unitPattern-count-one": "{0} miligrams uz dekalitru",
+            "unitPattern-count-other": "{0} miligrami uz dekalitru"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "milimoli uz litru",
+            "unitPattern-count-zero": "{0} milimoli uz litru",
+            "unitPattern-count-one": "{0} milimols uz litru",
+            "unitPattern-count-other": "{0} milimoli uz litru"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "miljonās daļas",
+            "unitPattern-count-zero": "{0} miljonās daļas",
+            "unitPattern-count-one": "{0} miljonā daļa",
+            "unitPattern-count-other": "{0} miljonās daļas"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "litri uz kilometru",
@@ -149,8 +157,10 @@
             "unitPattern-count-other": "{0} jūdzes ar galonu"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "jūdzes ar imp. galonu",
+            "unitPattern-count-zero": "{0} jūdzes ar imp. galonu",
+            "unitPattern-count-one": "{0} jūdze ar imp. galonu",
+            "unitPattern-count-other": "{0} jūdzes ar imp. galonu"
           },
           "digital-terabyte": {
             "displayName": "terabaiti",
@@ -223,7 +233,7 @@
             "unitPattern-count-zero": "{0} gadi",
             "unitPattern-count-one": "{0} gads",
             "unitPattern-count-other": "{0} gadi",
-            "perUnitPattern": "{0}/g."
+            "perUnitPattern": "{0} gadā"
           },
           "duration-month": {
             "displayName": "mēneši",
@@ -258,7 +268,7 @@
             "unitPattern-count-zero": "{0} minūtes",
             "unitPattern-count-one": "{0} minūte",
             "unitPattern-count-other": "{0} minūtes",
-            "perUnitPattern": "{0}/minūtē"
+            "perUnitPattern": "{0} minūtē"
           },
           "duration-second": {
             "displayName": "sekundes",
@@ -760,10 +770,10 @@
             "unitPattern-count-other": "{0} metriskās pintes"
           },
           "volume-cup-metric": {
-            "displayName": "metr.gl.",
-            "unitPattern-count-zero": "{0} metr.gl.",
-            "unitPattern-count-one": "{0} metr.gl.",
-            "unitPattern-count-other": "{0} metr.gl."
+            "displayName": "metriskā glāze",
+            "unitPattern-count-zero": "{0} metriskās glāzes",
+            "unitPattern-count-one": "{0} metriskā glāze",
+            "unitPattern-count-other": "{0} metriskās glāzes"
           },
           "volume-acre-foot": {
             "displayName": "akrpēdas",
@@ -783,9 +793,11 @@
             "perUnitPattern": "{0}/gal."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "imperiālie galoni",
+            "unitPattern-count-zero": "{0} imperiālie galoni",
+            "unitPattern-count-one": "{0} imperiālais galons",
+            "unitPattern-count-other": "{0} imperiālie galoni",
+            "perUnitPattern": "{0} uz imperiālo galonu"
           },
           "volume-quart": {
             "displayName": "kvartas",
@@ -880,7 +892,8 @@
             "displayName": "km²",
             "unitPattern-count-zero": "{0} km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "ha",
@@ -893,20 +906,21 @@
             "unitPattern-count-zero": "{0} m²",
             "unitPattern-count-one": "{0} m²",
             "unitPattern-count-other": "{0} m²",
-            "perUnitPattern": "{0} uz m²"
+            "perUnitPattern": "{0}/m²"
           },
           "area-square-centimeter": {
             "displayName": "cm²",
             "unitPattern-count-zero": "{0} cm²",
             "unitPattern-count-one": "{0} cm²",
             "unitPattern-count-other": "{0} cm²",
-            "perUnitPattern": "{0} uz cm²"
+            "perUnitPattern": "{0}/cm²"
           },
           "area-square-mile": {
             "displayName": "mi²",
             "unitPattern-count-zero": "{0} mi²",
             "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "ac",
@@ -941,14 +955,20 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-zero": "{0} mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-zero": "{0} mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-zero": "{0} ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -971,6 +991,8 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-zero": "{0} mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1242,36 +1264,36 @@
             "unitPattern-count-other": "{0} pm"
           },
           "length-mile": {
-            "displayName": "mi",
-            "unitPattern-count-zero": "{0} mi",
-            "unitPattern-count-one": "{0} mi",
-            "unitPattern-count-other": "{0} mi"
+            "displayName": "jūdzes",
+            "unitPattern-count-zero": "{0} jūdzes",
+            "unitPattern-count-one": "{0} jūdze",
+            "unitPattern-count-other": "{0} jūdzes"
           },
           "length-yard": {
-            "displayName": "yd",
-            "unitPattern-count-zero": "{0} yd",
-            "unitPattern-count-one": "{0} yd",
-            "unitPattern-count-other": "{0} yd"
+            "displayName": "jardi",
+            "unitPattern-count-zero": "{0} jardi",
+            "unitPattern-count-one": "{0} jards",
+            "unitPattern-count-other": "{0} jardi"
           },
           "length-foot": {
-            "displayName": "ft",
-            "unitPattern-count-zero": "{0} ft",
-            "unitPattern-count-one": "{0} ft",
-            "unitPattern-count-other": "{0} ft",
+            "displayName": "pēdas",
+            "unitPattern-count-zero": "{0} pēdas",
+            "unitPattern-count-one": "{0} pēda",
+            "unitPattern-count-other": "{0} pēdas",
             "perUnitPattern": "{0}/pēda"
           },
           "length-inch": {
-            "displayName": "c.",
-            "unitPattern-count-zero": "{0} c.",
-            "unitPattern-count-one": "{0} c.",
-            "unitPattern-count-other": "{0} c.",
+            "displayName": "colla",
+            "unitPattern-count-zero": "{0} collas",
+            "unitPattern-count-one": "{0} colla",
+            "unitPattern-count-other": "{0} collas",
             "perUnitPattern": "{0}/colla"
           },
           "length-parsec": {
-            "displayName": "pc",
-            "unitPattern-count-zero": "{0} pc",
-            "unitPattern-count-one": "{0} pc",
-            "unitPattern-count-other": "{0} pc"
+            "displayName": "parseki",
+            "unitPattern-count-zero": "{0} parseki",
+            "unitPattern-count-one": "{0} parseks",
+            "unitPattern-count-other": "{0} parseki"
           },
           "length-light-year": {
             "displayName": "g.g.",
@@ -1294,10 +1316,10 @@
             "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
-            "displayName": "nmi",
-            "unitPattern-count-zero": "{0} nmi",
-            "unitPattern-count-one": "{0} nmi",
-            "unitPattern-count-other": "{0} nmi"
+            "displayName": "jūras jūdzes",
+            "unitPattern-count-zero": "{0} jūras jūdzes",
+            "unitPattern-count-one": "{0} jūras jūdze",
+            "unitPattern-count-other": "{0} jūras jūdzes"
           },
           "length-mile-scandinavian": {
             "displayName": "skandināvu jūdze",
@@ -1604,9 +1626,11 @@
             "perUnitPattern": "{0}/gal."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "imp. gal.",
+            "unitPattern-count-zero": "{0} imp. gal.",
+            "unitPattern-count-one": "{0} imp. gal.",
+            "unitPattern-count-other": "{0} imp. gal.",
+            "perUnitPattern": "{0}/imp. gal."
           },
           "volume-quart": {
             "displayName": "qt",
@@ -1701,7 +1725,8 @@
             "displayName": "km²",
             "unitPattern-count-zero": "{0}km²",
             "unitPattern-count-one": "{0}km²",
-            "unitPattern-count-other": "{0}km²"
+            "unitPattern-count-other": "{0}km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "ha",
@@ -1714,20 +1739,21 @@
             "unitPattern-count-zero": "{0}m²",
             "unitPattern-count-one": "{0}m²",
             "unitPattern-count-other": "{0}m²",
-            "perUnitPattern": "{0} uz m²"
+            "perUnitPattern": "{0}/m²"
           },
           "area-square-centimeter": {
             "displayName": "cm²",
             "unitPattern-count-zero": "{0} cm²",
             "unitPattern-count-one": "{0} cm²",
             "unitPattern-count-other": "{0} cm²",
-            "perUnitPattern": "{0} uz cm²"
+            "perUnitPattern": "{0}/cm²"
           },
           "area-square-mile": {
             "displayName": "mi²",
             "unitPattern-count-zero": "{0}mi²",
             "unitPattern-count-one": "{0}mi²",
-            "unitPattern-count-other": "{0}mi²"
+            "unitPattern-count-other": "{0}mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "ac",
@@ -1762,14 +1788,20 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-zero": "{0} mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-zero": "{0} mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-zero": "{0} ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1792,6 +1824,8 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-zero": "{0} mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -2063,36 +2097,36 @@
             "unitPattern-count-other": "{0}pm"
           },
           "length-mile": {
-            "displayName": "mi",
+            "displayName": "jūdzes",
             "unitPattern-count-zero": "{0}mi",
             "unitPattern-count-one": "{0}mi",
             "unitPattern-count-other": "{0}mi"
           },
           "length-yard": {
-            "displayName": "yd",
+            "displayName": "jardi",
             "unitPattern-count-zero": "{0}yd",
             "unitPattern-count-one": "{0}yd",
             "unitPattern-count-other": "{0}yd"
           },
           "length-foot": {
-            "displayName": "ft",
+            "displayName": "pēdas",
             "unitPattern-count-zero": "{0}ft",
             "unitPattern-count-one": "{0}ft",
             "unitPattern-count-other": "{0}ft",
             "perUnitPattern": "{0}/pēda"
           },
           "length-inch": {
-            "displayName": "c.",
+            "displayName": "colla",
             "unitPattern-count-zero": "{0}in",
             "unitPattern-count-one": "{0}in",
             "unitPattern-count-other": "{0}in",
             "perUnitPattern": "{0}/colla"
           },
           "length-parsec": {
-            "displayName": "pc",
-            "unitPattern-count-zero": "{0} pc",
-            "unitPattern-count-one": "{0} pc",
-            "unitPattern-count-other": "{0} pc"
+            "displayName": "parseki",
+            "unitPattern-count-zero": "{0} parseki",
+            "unitPattern-count-one": "{0} parseks",
+            "unitPattern-count-other": "{0} parseki"
           },
           "length-light-year": {
             "displayName": "g.g.",
@@ -2115,15 +2149,15 @@
             "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
-            "displayName": "nmi",
-            "unitPattern-count-zero": "{0} nmi",
-            "unitPattern-count-one": "{0} nmi",
-            "unitPattern-count-other": "{0} nmi"
+            "displayName": "jūras jūdzes",
+            "unitPattern-count-zero": "{0} jūras jūdzes",
+            "unitPattern-count-one": "{0} jūras jūdze",
+            "unitPattern-count-other": "{0} jūras jūdzes"
           },
           "length-mile-scandinavian": {
             "displayName": "skandināvu jūdze",
             "unitPattern-count-zero": "{0} skandināvu jūdzes",
-            "unitPattern-count-one": "{0} skandināvu jūdzes",
+            "unitPattern-count-one": "{0} skandināvu jūdze",
             "unitPattern-count-other": "{0} skandināvu jūdzes"
           },
           "light-lux": {
@@ -2167,7 +2201,7 @@
           "mass-ton": {
             "displayName": "tonnas",
             "unitPattern-count-zero": "{0} tonnas",
-            "unitPattern-count-one": "{0} tonnas",
+            "unitPattern-count-one": "{0} tonna",
             "unitPattern-count-other": "{0} tonnas"
           },
           "mass-stone": {
@@ -2287,7 +2321,7 @@
           "speed-knot": {
             "displayName": "mezgls",
             "unitPattern-count-zero": "{0} mezgli",
-            "unitPattern-count-one": "{0} mezgli",
+            "unitPattern-count-one": "{0} mezgls",
             "unitPattern-count-other": "{0} mezgli"
           },
           "temperature-generic": {
@@ -2425,9 +2459,11 @@
             "perUnitPattern": "{0}/gal."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "imp. gal.",
+            "unitPattern-count-zero": "{0} imp. gal.",
+            "unitPattern-count-one": "{0} imp. gal.",
+            "unitPattern-count-other": "{0} imp. gal.",
+            "perUnitPattern": "{0}/imp. gal."
           },
           "volume-quart": {
             "displayName": "qt",

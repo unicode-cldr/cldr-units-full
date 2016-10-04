@@ -3,8 +3,8 @@
     "ka": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12920 $",
+          "_cldrVersion": "30"
         },
         "language": "ka"
       },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "კვადრატული კილომეტრი",
             "unitPattern-count-one": "{0} კვადრატული კილომეტრი",
-            "unitPattern-count-other": "{0} კვადრატული კილომეტრი"
+            "unitPattern-count-other": "{0} კვადრატული კილომეტრი",
+            "perUnitPattern": "{0} კვადრატულ კილომეტრში"
           },
           "area-hectare": {
             "displayName": "ჰექტარი",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "კვადრატული მილი",
             "unitPattern-count-one": "{0} კვადრატული მილი",
-            "unitPattern-count-other": "{0} კვადრატული მილი"
+            "unitPattern-count-other": "{0} კვადრატული მილი",
+            "perUnitPattern": "{0} კვადრატულ მილში"
           },
           "area-acre": {
             "displayName": "აკრი",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} კარატი"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "მილიგრამი დეცილიტრზე",
+            "unitPattern-count-one": "{0} მილიგრამი დეცილიტრზე",
+            "unitPattern-count-other": "{0} მილიგრამი დეცილიტრზე"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "მილიმოლი ლიტრზე",
+            "unitPattern-count-one": "{0} მილიმოლი ლიტრზე",
+            "unitPattern-count-other": "{0} მილიმოლი ლიტრზე"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "ნაწილი მილიონზე",
+            "unitPattern-count-one": "{0} ნაწილი მილიონზე",
+            "unitPattern-count-other": "{0} ნაწილი მილიონზე"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ლიტრი კილომეტრზე",
@@ -129,8 +134,9 @@
             "unitPattern-count-other": "{0} მილი გალონზე"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "იმპ. გალონი მილზე",
+            "unitPattern-count-one": "{0} იმპ. გალონი მილზე",
+            "unitPattern-count-other": "{0} იმპ. გალონი მილზე"
           },
           "digital-terabyte": {
             "displayName": "ტერაბაიტი",
@@ -664,9 +670,10 @@
             "perUnitPattern": "{0} გალონში"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "იმპ. გალონი",
+            "unitPattern-count-one": "{0} იმპ. გალონი",
+            "unitPattern-count-other": "{0} იმპ. გალონი",
+            "perUnitPattern": "{0}/იმპ. გალ."
           },
           "volume-quart": {
             "displayName": "კვარტა",
@@ -747,7 +754,8 @@
           "area-square-kilometer": {
             "displayName": "კმ²",
             "unitPattern-count-one": "{0} კმ²",
-            "unitPattern-count-other": "{0} კმ²"
+            "unitPattern-count-other": "{0} კმ²",
+            "perUnitPattern": "{0}/კმ²"
           },
           "area-hectare": {
             "displayName": "ჰა",
@@ -769,7 +777,8 @@
           "area-square-mile": {
             "displayName": "მილი²",
             "unitPattern-count-one": "{0} მილი²",
-            "unitPattern-count-other": "{0} მილი²"
+            "unitPattern-count-other": "{0} მილი²",
+            "perUnitPattern": "{0}/მილი²"
           },
           "area-acre": {
             "displayName": "აკრი",
@@ -798,15 +807,18 @@
             "unitPattern-count-other": "{0} კარ."
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "მგ/დლ",
+            "unitPattern-count-one": "{0} მგ/დლ",
+            "unitPattern-count-other": "{0} მგ/დლ"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "მმოლ/ლ",
+            "unitPattern-count-one": "{0} მმოლ/ლ",
+            "unitPattern-count-other": "{0} მმოლ/ლ"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "ნაწილი/მილიონზე",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -825,8 +837,9 @@
             "unitPattern-count-other": "{0} მილი/გალ."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "მილი/იმპ. გალონზე",
+            "unitPattern-count-one": "{0} მილი/იმპ. გალონზე",
+            "unitPattern-count-other": "{0} მილი/იმპ. გალონზე"
           },
           "digital-terabyte": {
             "displayName": "ტბაიტი",
@@ -1360,9 +1373,10 @@
             "perUnitPattern": "{0}/გალონი"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "იმპ. გალ.",
+            "unitPattern-count-one": "{0} იმპ. გალ.",
+            "unitPattern-count-other": "{0} იმპ. გალ.",
+            "perUnitPattern": "{0}/იმპ. გალ."
           },
           "volume-quart": {
             "displayName": "კვარტა",
@@ -1443,7 +1457,8 @@
           "area-square-kilometer": {
             "displayName": "კმ²",
             "unitPattern-count-one": "{0} კმ²",
-            "unitPattern-count-other": "{0} კმ²"
+            "unitPattern-count-other": "{0} კმ²",
+            "perUnitPattern": "{0}/კმ²"
           },
           "area-hectare": {
             "displayName": "ჰა",
@@ -1465,7 +1480,8 @@
           "area-square-mile": {
             "displayName": "მილი²",
             "unitPattern-count-one": "{0} მილი²",
-            "unitPattern-count-other": "{0} მილი²"
+            "unitPattern-count-other": "{0} მილი²",
+            "perUnitPattern": "{0}/მილი²"
           },
           "area-acre": {
             "displayName": "აკრი",
@@ -1494,15 +1510,18 @@
             "unitPattern-count-other": "{0} კარ."
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "მგ/დლ",
+            "unitPattern-count-one": "{0} მგ/დლ",
+            "unitPattern-count-other": "{0} მგ/დლ"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "მმოლ/ლ",
+            "unitPattern-count-one": "{0} მმოლ/ლ",
+            "unitPattern-count-other": "{0} მმოლ/ლ"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "ნაწილი/მილიონზე",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1521,8 +1540,9 @@
             "unitPattern-count-other": "{0} მილი/გალ."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "მილი/იმპ. გალონზე",
+            "unitPattern-count-one": "{0} მილი/იმპ. გალონზე",
+            "unitPattern-count-other": "{0} მილი/იმპ. გალონზე"
           },
           "digital-terabyte": {
             "displayName": "ტბაიტი",
@@ -2056,9 +2076,10 @@
             "perUnitPattern": "{0}/გალონი"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "იმპ. გალ.",
+            "unitPattern-count-one": "{0} იმპ. გალ.",
+            "unitPattern-count-other": "{0} იმპ. გალ.",
+            "perUnitPattern": "{0}/იმპ. გალ."
           },
           "volume-quart": {
             "displayName": "კვარტა",

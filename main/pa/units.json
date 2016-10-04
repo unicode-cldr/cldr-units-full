@@ -3,8 +3,8 @@
     "pa": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "pa"
       },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "ਵਰਗ ਕਿਲੋਮੀਟਰ",
             "unitPattern-count-one": "{0} ਵਰਗ ਕਿਲੋਮੀਟਰ",
-            "unitPattern-count-other": "{0} ਵਰਗ ਕਿਲੋਮੀਟਰ"
+            "unitPattern-count-other": "{0} ਵਰਗ ਕਿਲੋਮੀਟਰ",
+            "perUnitPattern": "{0} ਪ੍ਰਤੀ ਵਰਗ ਕਿਲੋਮੀਟਰ"
           },
           "area-hectare": {
             "displayName": "ਹੈਕਟੇਅਰ",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "ਵਰਗ ਮੀਲ",
             "unitPattern-count-one": "{0} ਵਰਗ ਮੀਲ",
-            "unitPattern-count-other": "{0} ਵਰਗ ਮੀਲ"
+            "unitPattern-count-other": "{0} ਵਰਗ ਮੀਲ",
+            "perUnitPattern": "{0} ਪ੍ਰਤੀ ਵਰਗ ਮੀਲ"
           },
           "area-acre": {
             "displayName": "ਏਕੜ",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} ਕੇਰਟ"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "ਮਿਲੀਗ੍ਰਾਮ ਪ੍ਰਤੀ ਡੈਸੀਲਿਟਰ",
+            "unitPattern-count-one": "{0} ਮਿਲੀਗ੍ਰਾਮ ਪ੍ਰਤੀ ਡੈਸੀਲਿਟਰ",
+            "unitPattern-count-other": "{0} ਮਿਲੀਗ੍ਰਾਮ ਪ੍ਰਤੀ ਡੈਸੀਲਿਟਰ"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "ਮਿਲੀਮੋਲ ਪ੍ਰਤੀ ਲਿਟਰ",
+            "unitPattern-count-one": "{0} ਮਿਲੀਮੋਲ ਪ੍ਰਤੀ ਲਿਟਰ",
+            "unitPattern-count-other": "{0} ਮਿਲੀਮੋਲ ਪ੍ਰਤੀ ਲਿਟਰ"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "ਹਿੱਸੇ ਪ੍ਰਤੀ ਮਿਲੀਅਨ",
+            "unitPattern-count-one": "{0} ਹਿੱਸਾ ਪ੍ਰਤੀ ਮਿਲੀਅਨ",
+            "unitPattern-count-other": "{0} ਹਿੱਸੇ ਪ੍ਰਤੀ ਮਿਲੀਅਨ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ਲਿਟਰ ਪ੍ਰਤੀ ਕਿਲੋਮੀਟਰ",
@@ -129,13 +134,14 @@
             "unitPattern-count-other": "{0} ਮੀਲ ਪ੍ਰਤੀ ਗੈਲਨ"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ਮੀਲ ਪ੍ਰਤੀ ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਮੀਲ ਪ੍ਰਤੀ ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-other": "{0} ਮੀਲ ਪ੍ਰਤੀ ਇੰਪ. ਗੈਲਨ"
           },
           "digital-terabyte": {
-            "displayName": "ਟੇਰਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} ਟੇਰਾਬਾਇਟ",
-            "unitPattern-count-other": "{0} ਟੇਰਾਬਾਇਟ"
+            "displayName": "ਟੈਰਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} ਟੈਰਾਬਾਇਟ",
+            "unitPattern-count-other": "{0} ਟੈਰਾਬਾਇਟ"
           },
           "digital-terabit": {
             "displayName": "ਟੇਰਾਬਿਟ",
@@ -668,9 +674,10 @@
             "perUnitPattern": "{0} ਪ੍ਰਤੀ ਗੈਲਨ"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-other": "{0} ਇੰਪ. ਗੈਲਨ",
+            "perUnitPattern": "{0} ਪ੍ਰਤੀ ਇੰਪ. ਗੈਲਨ"
           },
           "volume-quart": {
             "displayName": "ਕੁਆਟ",
@@ -751,7 +758,8 @@
           "area-square-kilometer": {
             "displayName": "ਕਿਮੀ²",
             "unitPattern-count-one": "{0} ਕਿਮੀ²",
-            "unitPattern-count-other": "{0} ਕਿਮੀ²"
+            "unitPattern-count-other": "{0} ਕਿਮੀ²",
+            "perUnitPattern": "{0}/ਕਿਮੀ²"
           },
           "area-hectare": {
             "displayName": "ਹੈਕਟੇਅਰ",
@@ -773,7 +781,8 @@
           "area-square-mile": {
             "displayName": "ਵਰਗ ਮੀਲ",
             "unitPattern-count-one": "{0} ਵ. ਮੀਲ",
-            "unitPattern-count-other": "{0} ਵ. ਮੀਲ"
+            "unitPattern-count-other": "{0} ਵ. ਮੀਲ",
+            "perUnitPattern": "{0}/ਮੀਲ²"
           },
           "area-acre": {
             "displayName": "ਏਕੜ",
@@ -802,15 +811,18 @@
             "unitPattern-count-other": "{0} ਕੇਰਟ"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "ਮਿ.ਗ੍ਰਾ./ਡੈ.ਲਿ.",
+            "unitPattern-count-one": "{0}ਮਿਗ੍ਰਾ/ਡੈ.ਲਿ",
+            "unitPattern-count-other": "{0}ਮਿਗ੍ਰਾ/ਡੈ.ਲਿ"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "ਮਿਲੀਮੋਲ/ਲਿਟਰ",
+            "unitPattern-count-one": "{0} ਮਿ.ਮੋ./ਲਿ.",
+            "unitPattern-count-other": "{0} ਮਿ.ਮੋ./ਲਿ."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -820,8 +832,8 @@
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "ਲਿ./100ਕਿ.ਮੀ.",
-            "unitPattern-count-one": "{0} ਲਿ./100 ਕਿ.ਮੀ.",
-            "unitPattern-count-other": "{0} ਲਿ./100 ਕਿ.ਮੀ."
+            "unitPattern-count-one": "{0}ਲਿ/100 ਕਿਮੀ",
+            "unitPattern-count-other": "{0}ਲਿ/100 ਕਿਮੀ"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ਮੀਲ/ਗੈਲਨ",
@@ -829,11 +841,12 @@
             "unitPattern-count-other": "{0} ਮੀ.ਪ੍ਰ.ਗੈ."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ਮੀਲ/ਗੈਲਨ ਇੰਪ.",
+            "unitPattern-count-one": "{0} mpg ਇੰਪ.",
+            "unitPattern-count-other": "{0} mpg ਇੰਪ."
           },
           "digital-terabyte": {
-            "displayName": "ਟੇਰਾਬਾਇਟ",
+            "displayName": "ਟੈਰਾਬਾਇਟ",
             "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
@@ -1368,9 +1381,10 @@
             "perUnitPattern": "{0}/ਗੈਲਨ"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਗੈਲਨ ਇੰਪ.",
+            "unitPattern-count-other": "{0} ਗੈਲਨ ਇੰਪ.",
+            "perUnitPattern": "{0}/ਗੈਲਨ ਇੰਪ."
           },
           "volume-quart": {
             "displayName": "ਕੁਆਟ",
@@ -1451,7 +1465,8 @@
           "area-square-kilometer": {
             "displayName": "ਕਿਮੀ²",
             "unitPattern-count-one": "{0} ਕਿਮੀ²",
-            "unitPattern-count-other": "{0} ਕਿਮੀ²"
+            "unitPattern-count-other": "{0} ਕਿਮੀ²",
+            "perUnitPattern": "{0}/ਕਿਮੀ²"
           },
           "area-hectare": {
             "displayName": "ਹੈਕਟੇਅਰ",
@@ -1473,7 +1488,8 @@
           "area-square-mile": {
             "displayName": "ਵਰਗ ਮੀਲ",
             "unitPattern-count-one": "{0}ਮੀਲ²",
-            "unitPattern-count-other": "{0}ਮੀਲ²"
+            "unitPattern-count-other": "{0}ਮੀਲ²",
+            "perUnitPattern": "{0}/ਮੀਲ²"
           },
           "area-acre": {
             "displayName": "ਏਕੜ",
@@ -1502,15 +1518,18 @@
             "unitPattern-count-other": "{0} ਕੇਰਟ"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "ਮਿ.ਗ੍ਰਾ./ਡੈ.ਲਿ.",
+            "unitPattern-count-one": "{0}ਮਿਗ੍ਰਾ/ਡੈ.ਲਿ",
+            "unitPattern-count-other": "{0}ਮਿਗ੍ਰਾ/ਡੈ.ਲਿ"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "ਮਿਲੀਮੋਲ/ਲਿਟਰ",
+            "unitPattern-count-one": "{0} ਮਿ.ਮੋ./ਲਿ.",
+            "unitPattern-count-other": "{0} ਮਿ.ਮੋ./ਲਿ."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1529,11 +1548,12 @@
             "unitPattern-count-other": "{0} ਮੀ.ਪ੍ਰ.ਗੈ."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ਮੀਲ/ਗੈਲਨ ਇੰਪ.",
+            "unitPattern-count-one": "{0} mpg ਇੰਪ.",
+            "unitPattern-count-other": "{0} mpg ਇੰਪ."
           },
           "digital-terabyte": {
-            "displayName": "ਟੇਰਾਬਾਇਟ",
+            "displayName": "ਟੈਰਾਬਾਇਟ",
             "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
@@ -2068,9 +2088,10 @@
             "perUnitPattern": "{0}/ਗੈਲਨ"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ਇੰਪ. ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਗੈਲਨ ਇੰਪ.",
+            "unitPattern-count-other": "{0} ਗੈਲਨ ਇੰਪ.",
+            "perUnitPattern": "{0}/ਗੈਲਨ ਇੰਪ."
           },
           "volume-quart": {
             "displayName": "ਕੁਆਟ",

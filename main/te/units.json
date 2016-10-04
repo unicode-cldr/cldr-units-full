@@ -3,8 +3,8 @@
     "te": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "te"
       },
@@ -24,9 +24,9 @@
             "unitPattern-count-other": "{0} మీటర్లు/స్క్వేర్ సెకన్లు"
           },
           "angle-revolution": {
-            "displayName": "విప్లవం",
-            "unitPattern-count-one": "{0} విప్లవం",
-            "unitPattern-count-other": "{0} విప్లవంలు"
+            "displayName": "భ్రమణాలు",
+            "unitPattern-count-one": "{0} భ్రమణం",
+            "unitPattern-count-other": "{0} భ్రమణాలు"
           },
           "angle-radian": {
             "displayName": "రేడియన్లు",
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "చదరపు కిలోమీటర్లు",
             "unitPattern-count-one": "{0} చదరపు కిలోమీటరు",
-            "unitPattern-count-other": "{0} చదరపు కిలోమీటర్లు"
+            "unitPattern-count-other": "{0} చదరపు కిలోమీటర్లు",
+            "perUnitPattern": "{0}/ చదరపు కిలోమీటర్లు"
           },
           "area-hectare": {
             "displayName": "హెక్టార్లు",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "చదరపు మైళ్లు",
             "unitPattern-count-one": "{0} చదరపు మైలు",
-            "unitPattern-count-other": "{0} చదరపు మైళ్లు"
+            "unitPattern-count-other": "{0} చదరపు మైళ్లు",
+            "perUnitPattern": "{0}/ చదరపు మైలు"
           },
           "area-acre": {
             "displayName": "ఎకరాలు",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} కేరట్లు"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "మిల్లీగ్రాములు/డెసిలీటర్",
+            "unitPattern-count-one": "{0} మిల్లీగ్రాము/డెసిలీటర్",
+            "unitPattern-count-other": "{0} మిల్లీగ్రాములు/డెసిలీటర్"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "మిల్లీమోల్‌లు/లీటర్",
+            "unitPattern-count-one": "{0} మిల్లీమోల్‌/లీటర్",
+            "unitPattern-count-other": "{0} మిల్లీమోల్‌లు/లీటర్"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "భాగాలు/మిలియన్",
+            "unitPattern-count-one": "{0} భాగం/మిలియన్",
+            "unitPattern-count-other": "{0} భాగాలు/మిలియన్"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "లీటర్లు/కిలోమీటరు",
@@ -119,9 +124,9 @@
             "unitPattern-count-other": "{0} లీటర్లు/కిలోమీటరు"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "లీటర్లు/100 కిలోమీటర్లకు",
-            "unitPattern-count-one": "{0} లీటరు/100 కిలోమీటర్లకు",
-            "unitPattern-count-other": "{0} లీటర్లు/100 కిలోమీటర్లకు"
+            "displayName": "లీటర్లు/100 కీలోమీటర్లు",
+            "unitPattern-count-one": "{0} లీటర్లు/100 కీలోమీటర్లు",
+            "unitPattern-count-other": "{0} లీటర్లు/100 కీలోమీటర్లు"
           },
           "consumption-mile-per-gallon": {
             "displayName": "మైళ్లు/గ్యాలన్",
@@ -129,8 +134,9 @@
             "unitPattern-count-other": "{0} మైళ్లు/గ్యాలన్"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "మైళ్లు/ఇంపీరియల్ గ్యాలన్",
+            "unitPattern-count-one": "{0} మైలు/ఇంపీరియల్ గ్యాలన్",
+            "unitPattern-count-other": "{0} మైళ్లు/ఇంపీరియల్ గ్యాలన్"
           },
           "digital-terabyte": {
             "displayName": "టెరాబైట్లు",
@@ -173,14 +179,14 @@
             "unitPattern-count-other": "{0} కిలోబిట్లు"
           },
           "digital-byte": {
-            "displayName": "బైట్లు",
+            "displayName": "బైట్‌లు",
             "unitPattern-count-one": "{0} బైట్",
             "unitPattern-count-other": "{0} బైట్‌లు"
           },
           "digital-bit": {
-            "displayName": "బిట్లు",
+            "displayName": "బిట్‌లు",
             "unitPattern-count-one": "{0} బిట్",
-            "unitPattern-count-other": "{0} బిట్లు"
+            "unitPattern-count-other": "{0} బిట్‌లు"
           },
           "duration-century": {
             "displayName": "శతాబ్దాలు",
@@ -548,7 +554,7 @@
           "speed-knot": {
             "displayName": "నాట్",
             "unitPattern-count-one": "{0} నాట్",
-            "unitPattern-count-other": "{0} నాటులు"
+            "unitPattern-count-other": "{0} నాట్‌లు"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -561,9 +567,9 @@
             "unitPattern-count-other": "{0} డిగ్రీల సెల్సియస్"
           },
           "temperature-fahrenheit": {
-            "displayName": "డిగ్రీల ఫారన్హీట్",
-            "unitPattern-count-one": "{0} డిగ్రీ ఫారన్హీట్",
-            "unitPattern-count-other": "{0} డిగ్రీల ఫారన్హీట్"
+            "displayName": "డిగ్రీల ఫారెన్‌హీట్",
+            "unitPattern-count-one": "{0} డిగ్రీల ఫారెన్‌హీట్",
+            "unitPattern-count-other": "{0} డిగ్రీల ఫారెన్‌హీట్"
           },
           "temperature-kelvin": {
             "displayName": "కెల్విన్స్",
@@ -664,9 +670,10 @@
             "perUnitPattern": "గ్యాలనుకు {0}"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ఇంపీరియల్ గ్యాలన్లు",
+            "unitPattern-count-one": "{0} ఇంపీరియల్ గ్యాలన్",
+            "unitPattern-count-other": "{0} ఇంపీరియల్ గ్యాలన్లు",
+            "perUnitPattern": "{0}/ ఇంపీరియల్ గ్యాలన్"
           },
           "volume-quart": {
             "displayName": "పావు వంతులు",
@@ -720,9 +727,9 @@
             "unitPattern-count-other": "{0} మీ/సె²"
           },
           "angle-revolution": {
-            "displayName": "వి.",
-            "unitPattern-count-one": "{0} వి.",
-            "unitPattern-count-other": "{0} వి."
+            "displayName": "భ్రమ.",
+            "unitPattern-count-one": "{0} భ్రమ",
+            "unitPattern-count-other": "{0} భ్రమ."
           },
           "angle-radian": {
             "displayName": "రేడియన్లు",
@@ -747,7 +754,8 @@
           "area-square-kilometer": {
             "displayName": "కి.మీ²",
             "unitPattern-count-one": "{0} కి.మీ²",
-            "unitPattern-count-other": "{0} కి.మీ²"
+            "unitPattern-count-other": "{0} కి.మీ²",
+            "perUnitPattern": "{0}/ కి.మీ²"
           },
           "area-hectare": {
             "displayName": "హెక్టార్లు",
@@ -769,7 +777,8 @@
           "area-square-mile": {
             "displayName": "చద. మైళ్లు",
             "unitPattern-count-one": "{0} చద. మై.",
-            "unitPattern-count-other": "{0} చద. మై."
+            "unitPattern-count-other": "{0} చద. మై.",
+            "perUnitPattern": "{0}/ చద. మై²"
           },
           "area-acre": {
             "displayName": "ఎకరాలు",
@@ -798,16 +807,19 @@
             "unitPattern-count-other": "{0} కేర."
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "మి.గ్రా./డె.లీ.",
+            "unitPattern-count-one": "{0} మి.గ్రా./డె.లీ.",
+            "unitPattern-count-other": "{0} మి.గ్రా./డె.లీ."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "మిల్లీమోల్‌/లీటర్",
+            "unitPattern-count-one": "{0} మి.మో./లీ.",
+            "unitPattern-count-other": "{0} మి.మో./లీ."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "భాగాలు/మిలియన్",
+            "unitPattern-count-one": "{0} భా./మి.",
+            "unitPattern-count-other": "{0} భా./మి."
           },
           "consumption-liter-per-kilometer": {
             "displayName": "లీటర్లు/కి.మీ",
@@ -825,8 +837,9 @@
             "unitPattern-count-other": "{0} మై./గ్యా."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "మైళ్లు/గ్యా. ఇంపీరియల్",
+            "unitPattern-count-one": "{0} మై./గ్యా. ఇంపీరియల్",
+            "unitPattern-count-other": "{0} మై./గ్యా. ఇంపీరియల్"
           },
           "digital-terabyte": {
             "displayName": "టె.బైట్",
@@ -1360,9 +1373,10 @@
             "perUnitPattern": "{0}/గ్యా."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ఇంపీరియల్ గ్యా.",
+            "unitPattern-count-one": "{0} గ్యా. ఇంపీరియల్",
+            "unitPattern-count-other": "{0} గ్యా. ఇంపీరియల్",
+            "perUnitPattern": "{0}/ గ్యా. ఇంపీరియల్"
           },
           "volume-quart": {
             "displayName": "పావు వం.",
@@ -1416,9 +1430,9 @@
             "unitPattern-count-other": "{0} మీ/సె²"
           },
           "angle-revolution": {
-            "displayName": "వి.",
-            "unitPattern-count-one": "{0} వి.",
-            "unitPattern-count-other": "{0} వి."
+            "displayName": "భ్రమ.",
+            "unitPattern-count-one": "{0} భ్రమ",
+            "unitPattern-count-other": "{0} భ్రమ."
           },
           "angle-radian": {
             "displayName": "రేడియన్లు",
@@ -1443,7 +1457,8 @@
           "area-square-kilometer": {
             "displayName": "కి.మీ²",
             "unitPattern-count-one": "{0} కి.మీ²",
-            "unitPattern-count-other": "{0} కి.మీ²"
+            "unitPattern-count-other": "{0} కి.మీ²",
+            "perUnitPattern": "{0}/ కి.మీ²"
           },
           "area-hectare": {
             "displayName": "హెక్టార్లు",
@@ -1465,7 +1480,8 @@
           "area-square-mile": {
             "displayName": "చద. మైళ్లు",
             "unitPattern-count-one": "{0} మై²",
-            "unitPattern-count-other": "{0} మై²"
+            "unitPattern-count-other": "{0} మై²",
+            "perUnitPattern": "{0}/ చద. మై²"
           },
           "area-acre": {
             "displayName": "ఎకరాలు",
@@ -1494,16 +1510,19 @@
             "unitPattern-count-other": "{0} కేర."
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "మి.గ్రా./డె.లీ.",
+            "unitPattern-count-one": "{0} మి.గ్రా./డె.లీ.",
+            "unitPattern-count-other": "{0} మి.గ్రా./డె.లీ."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "మిల్లీమోల్‌/లీటర్",
+            "unitPattern-count-one": "{0} మి.మో./లీ.",
+            "unitPattern-count-other": "{0} మి.మో./లీ."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "భాగాలు/మిలియన్",
+            "unitPattern-count-one": "{0} భా./మి.",
+            "unitPattern-count-other": "{0} భా./మి."
           },
           "consumption-liter-per-kilometer": {
             "displayName": "లీటర్లు/కి.మీ",
@@ -1511,9 +1530,9 @@
             "unitPattern-count-other": "{0} లీ./కి.మీ"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "లీ/100 కి.మీ.",
-            "unitPattern-count-one": "{0}లీ/100 కి.మీ.",
-            "unitPattern-count-other": "{0}లీ/100 కి.మీ."
+            "displayName": "లీ/100కి.మీ.",
+            "unitPattern-count-one": "{0}లీ/100కి.మీ.",
+            "unitPattern-count-other": "{0}లీ/100కి.మీ."
           },
           "consumption-mile-per-gallon": {
             "displayName": "మైళ్లు/గ్యా.",
@@ -1521,8 +1540,9 @@
             "unitPattern-count-other": "{0} మై./గ్యా."
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "మైళ్లు/గ్యా. ఇంపీరియల్",
+            "unitPattern-count-one": "{0} మై./గ్యా. ఇంపీరియల్",
+            "unitPattern-count-other": "{0} మై./గ్యా. ఇంపీరియల్"
           },
           "digital-terabyte": {
             "displayName": "టె.బైట్",
@@ -1531,7 +1551,7 @@
           },
           "digital-terabit": {
             "displayName": "టె.బిట్",
-            "unitPattern-count-one": "{0} టె.బిట్లు",
+            "unitPattern-count-one": "{0} టె.బిట్",
             "unitPattern-count-other": "{0} టె.బిట్లు"
           },
           "digital-gigabyte": {
@@ -1541,7 +1561,7 @@
           },
           "digital-gigabit": {
             "displayName": "గి.బిట్",
-            "unitPattern-count-one": "{0} గి.బిట్లు",
+            "unitPattern-count-one": "{0} గి.బిట్",
             "unitPattern-count-other": "{0} గి.బిట్లు"
           },
           "digital-megabyte": {
@@ -1551,7 +1571,7 @@
           },
           "digital-megabit": {
             "displayName": "మె.బిట్",
-            "unitPattern-count-one": "{0} మె.బిట్లు",
+            "unitPattern-count-one": "{0} మె.బిట్",
             "unitPattern-count-other": "{0} మె.బిట్లు"
           },
           "digital-kilobyte": {
@@ -1561,7 +1581,7 @@
           },
           "digital-kilobit": {
             "displayName": "కి.బిట్",
-            "unitPattern-count-one": "{0} కి.బిట్లు",
+            "unitPattern-count-one": "{0} కి.బిట్",
             "unitPattern-count-other": "{0} కి.బిట్లు"
           },
           "digital-byte": {
@@ -1783,7 +1803,7 @@
           },
           "length-astronomical-unit": {
             "displayName": "au",
-            "unitPattern-count-one": "{0} au",
+            "unitPattern-count-one": "au",
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
@@ -2056,9 +2076,10 @@
             "perUnitPattern": "{0}/గ్యా."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "ఇంపీరియల్ గ్యా.",
+            "unitPattern-count-one": "{0} గ్యా. ఇంపీరియల్",
+            "unitPattern-count-other": "{0} గ్యా. ఇంపీరియల్",
+            "perUnitPattern": "{0}/ గ్యా. ఇంపీరియల్"
           },
           "volume-quart": {
             "displayName": "పావు వం.",

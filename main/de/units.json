@@ -3,8 +3,8 @@
     "de": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "de"
       },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "Quadratkilometer",
             "unitPattern-count-one": "{0} Quadratkilometer",
-            "unitPattern-count-other": "{0} Quadratkilometer"
+            "unitPattern-count-other": "{0} Quadratkilometer",
+            "perUnitPattern": "{0} pro Quadratkilometer"
           },
           "area-hectare": {
             "displayName": "Hektar",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "Quadratmeilen",
             "unitPattern-count-one": "{0} Quadratmeile",
-            "unitPattern-count-other": "{0} Quadratmeilen"
+            "unitPattern-count-other": "{0} Quadratmeilen",
+            "perUnitPattern": "{0} pro Quadratmeile"
           },
           "area-acre": {
             "displayName": "Acres",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} Karat"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "Milligramm pro Deziliter",
+            "unitPattern-count-one": "{0} Milligramm pro Deziliter",
+            "unitPattern-count-other": "{0} Milligramm pro Deziliter"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "Millimol pro Liter",
+            "unitPattern-count-one": "{0} Millimol pro Liter",
+            "unitPattern-count-other": "{0} Millimol pro Liter"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "Parts per million",
+            "unitPattern-count-one": "{0} Parts per million",
+            "unitPattern-count-other": "{0} Parts per million"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "Liter pro Kilometer",
@@ -129,8 +134,9 @@
             "unitPattern-count-other": "{0} Meilen pro Gallone"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "Meilen pro Imp. Gallone",
+            "unitPattern-count-one": "{0} Meile pro Imp. Gallone",
+            "unitPattern-count-other": "{0} Meilen pro Imp. Gallone"
           },
           "digital-terabyte": {
             "displayName": "Terabytes",
@@ -668,9 +674,10 @@
             "perUnitPattern": "{0} pro Gallone"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "Imp. Gallone",
+            "unitPattern-count-one": "{0} Imp. Gallone",
+            "unitPattern-count-other": "{0} Imp. Gallonen",
+            "perUnitPattern": "{0} pro Imp. Gallone"
           },
           "volume-quart": {
             "displayName": "Quart",
@@ -751,7 +758,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "Hektar",
@@ -773,7 +781,8 @@
           "area-square-mile": {
             "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "Acres",
@@ -803,14 +812,17 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
+            "displayName": "Millimol/Liter",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "parts/million",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -829,7 +841,8 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
+            "displayName": "Meilen/ Imp. Gal.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1015,7 +1028,7 @@
             "unitPattern-count-other": "{0} Hz"
           },
           "length-kilometer": {
-            "displayName": "Kilometer",
+            "displayName": "km",
             "unitPattern-count-one": "{0} km",
             "unitPattern-count-other": "{0} km",
             "perUnitPattern": "{0}/km"
@@ -1038,7 +1051,7 @@
             "perUnitPattern": "{0}/cm"
           },
           "length-millimeter": {
-            "displayName": "Millimeter",
+            "displayName": "mm",
             "unitPattern-count-one": "{0} mm",
             "unitPattern-count-other": "{0} mm"
           },
@@ -1075,9 +1088,9 @@
           },
           "length-inch": {
             "displayName": "Zoll",
-            "unitPattern-count-one": "{0} in",
-            "unitPattern-count-other": "{0} in",
-            "perUnitPattern": "{0}/in"
+            "unitPattern-count-one": "{0} Zoll",
+            "unitPattern-count-other": "{0} Zoll",
+            "perUnitPattern": "{0}/Zoll"
           },
           "length-parsec": {
             "displayName": "Parsec",
@@ -1189,7 +1202,7 @@
             "unitPattern-count-other": "{0} MW"
           },
           "power-kilowatt": {
-            "displayName": "Kilowatt",
+            "displayName": "kW",
             "unitPattern-count-one": "{0} kW",
             "unitPattern-count-other": "{0} kW"
           },
@@ -1369,8 +1382,9 @@
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "unitPattern-count-one": "{0} Imp. gal",
+            "unitPattern-count-other": "{0} Imp. gal",
+            "perUnitPattern": "{0} pro Imp. gal"
           },
           "volume-quart": {
             "displayName": "Quart",
@@ -1451,7 +1465,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "Hektar",
@@ -1473,7 +1488,8 @@
           "area-square-mile": {
             "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "Acres",
@@ -1503,14 +1519,17 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
+            "displayName": "Millimol/Liter",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "parts/million",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1529,7 +1548,8 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
+            "displayName": "Meilen/ Imp. Gal.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1777,7 +1797,7 @@
             "displayName": "Zoll",
             "unitPattern-count-one": "{0} in",
             "unitPattern-count-other": "{0} in",
-            "perUnitPattern": "{0}/in"
+            "perUnitPattern": "{0}/Zoll"
           },
           "length-parsec": {
             "displayName": "Parsec",
@@ -1889,7 +1909,7 @@
             "unitPattern-count-other": "{0} MW"
           },
           "power-kilowatt": {
-            "displayName": "Kilowatt",
+            "displayName": "kW",
             "unitPattern-count-one": "{0} kW",
             "unitPattern-count-other": "{0} kW"
           },
@@ -2069,8 +2089,9 @@
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "unitPattern-count-one": "{0} Imp. gal",
+            "unitPattern-count-other": "{0} Imp. gal",
+            "perUnitPattern": "{0} pro Imp. gal"
           },
           "volume-quart": {
             "displayName": "Quart",

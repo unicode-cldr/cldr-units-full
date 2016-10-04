@@ -3,8 +3,8 @@
     "th": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "th"
       },
@@ -43,7 +43,8 @@
           },
           "area-square-kilometer": {
             "displayName": "ตารางกิโลเมตร",
-            "unitPattern-count-other": "{0} ตารางกิโลเมตร"
+            "unitPattern-count-other": "{0} ตารางกิโลเมตร",
+            "perUnitPattern": "{0} ต่อตารางกิโลเมตร"
           },
           "area-hectare": {
             "displayName": "เฮกตาร์",
@@ -52,7 +53,7 @@
           "area-square-meter": {
             "displayName": "ตารางเมตร",
             "unitPattern-count-other": "{0} ตารางเมตร",
-            "perUnitPattern": "{0} ต่อ ตร.ม."
+            "perUnitPattern": "{0} ต่อตารางเมตร"
           },
           "area-square-centimeter": {
             "displayName": "ตารางเซนติเมตร",
@@ -61,15 +62,16 @@
           },
           "area-square-mile": {
             "displayName": "ตารางไมล์",
-            "unitPattern-count-other": "{0} ตารางไมล์"
+            "unitPattern-count-other": "{0} ตารางไมล์",
+            "perUnitPattern": "{0} ต่อตารางไมล์"
           },
           "area-acre": {
             "displayName": "เอเคอร์",
             "unitPattern-count-other": "{0} เอเคอร์"
           },
           "area-square-yard": {
-            "displayName": "ตารางวา",
-            "unitPattern-count-other": "{0} ตารางวา"
+            "displayName": "ตารางหลา",
+            "unitPattern-count-other": "{0} ตารางหลา"
           },
           "area-square-foot": {
             "displayName": "ตารางฟุต",
@@ -85,16 +87,16 @@
             "unitPattern-count-other": "{0} กะรัต"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "มิลลิกรัมต่อเดซิลิตร",
+            "unitPattern-count-other": "{0} มิลลิกรัมต่อเดซิลิตร"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "มิลลิโมลต่อลิตร",
+            "unitPattern-count-other": "{0} มิลลิโมลต่อลิตร"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "ส่วนต่อล้าน",
+            "unitPattern-count-other": "{0} ส่วนต่อล้าน"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ลิตรต่อกิโลเมตร",
@@ -102,15 +104,15 @@
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "ลิตรต่อ100 กิโลเมตร",
-            "unitPattern-count-other": "{0} ลิตร/100 กิโลเมตร"
+            "unitPattern-count-other": "{0} ลิตรต่อ100 กิโลเมตร"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ไมล์ต่อแกลลอน",
             "unitPattern-count-other": "{0} ไมล์ต่อแกลลอน"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ไมล์ต่อแกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} ไมล์ต่อแกลลอนอังกฤษ"
           },
           "digital-terabyte": {
             "displayName": "เทราไบต์",
@@ -499,8 +501,8 @@
             "unitPattern-count-other": "{0} ลูกบาศก์นิ้ว"
           },
           "volume-megaliter": {
-            "displayName": "เมกกะลิตร",
-            "unitPattern-count-other": "{0} เมกกะลิตร"
+            "displayName": "เมกะลิตร",
+            "unitPattern-count-other": "{0} เมกะลิตร"
           },
           "volume-hectoliter": {
             "displayName": "เฮกโตลิตร",
@@ -545,9 +547,9 @@
             "perUnitPattern": "{0} ต่อแกลลอน"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "แกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} แกลลอนอังกฤษ",
+            "perUnitPattern": "{0} ต่อแกลลอนอังกฤษ"
           },
           "volume-quart": {
             "displayName": "ควอร์ต",
@@ -590,7 +592,7 @@
           },
           "acceleration-meter-per-second-squared": {
             "displayName": "เมตร/วินาที²",
-            "unitPattern-count-other": "{0} ม./วินาที²"
+            "unitPattern-count-other": "{0} ม./วิ²"
           },
           "angle-revolution": {
             "displayName": "รอบ",
@@ -614,7 +616,8 @@
           },
           "area-square-kilometer": {
             "displayName": "ตร.กม.",
-            "unitPattern-count-other": "{0} ตร.กม."
+            "unitPattern-count-other": "{0} ตร.กม.",
+            "perUnitPattern": "{0}/ตร.กม."
           },
           "area-hectare": {
             "displayName": "เฮกตาร์",
@@ -623,24 +626,25 @@
           "area-square-meter": {
             "displayName": "ตร.ม.",
             "unitPattern-count-other": "{0} ตร.ม.",
-            "perUnitPattern": "{0} ต่อ ตร.ม."
+            "perUnitPattern": "{0}/ตร.ม."
           },
           "area-square-centimeter": {
             "displayName": "ตร.ซม.",
             "unitPattern-count-other": "{0} ตร.ซม.",
-            "perUnitPattern": "{0} ต่อ ตร.ซม."
+            "perUnitPattern": "{0}/ตร.ซม."
           },
           "area-square-mile": {
             "displayName": "ตร.ไมล์",
-            "unitPattern-count-other": "{0} ตร.ไมล์"
+            "unitPattern-count-other": "{0} ตร.ไมล์",
+            "perUnitPattern": "{0}/ตร.ไมล์"
           },
           "area-acre": {
             "displayName": "เอเคอร์",
             "unitPattern-count-other": "{0} เอเคอร์"
           },
           "area-square-yard": {
-            "displayName": "ตร.ว.",
-            "unitPattern-count-other": "{0} ตร.ว."
+            "displayName": "ตร.หลา",
+            "unitPattern-count-other": "{0} ตร.หลา"
           },
           "area-square-foot": {
             "displayName": "ตร.ฟุต",
@@ -649,30 +653,30 @@
           "area-square-inch": {
             "displayName": "ตร.นิ้ว",
             "unitPattern-count-other": "{0} ตร.นิ้ว",
-            "perUnitPattern": "{0} ต่อตารางนิ้ว"
+            "perUnitPattern": "{0}/ตร.นิ้ว"
           },
           "concentr-karat": {
             "displayName": "กะรัต",
             "unitPattern-count-other": "{0} กะรัต"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "มก./ดล.",
+            "unitPattern-count-other": "{0} มก./ดล."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "มิลลิโมล/ลิตร",
+            "unitPattern-count-other": "{0} มลม./ล."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "ส่วน/ล้าน",
+            "unitPattern-count-other": "{0} สตล."
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ลิตร/กม.",
             "unitPattern-count-other": "{0} ล./กม."
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "ลิตร/100 กิโลเมตร",
+            "displayName": "ล./100 กม.",
             "unitPattern-count-other": "{0} ล./100กม."
           },
           "consumption-mile-per-gallon": {
@@ -680,8 +684,8 @@
             "unitPattern-count-other": "{0} ไมล์/แกลลอน"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ไมล์/แกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} ไมล์ต่อแกลลอนอังกฤษ"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -922,12 +926,12 @@
           "mass-kilogram": {
             "displayName": "กก.",
             "unitPattern-count-other": "{0} กก.",
-            "perUnitPattern": "{0}/ก.ก."
+            "perUnitPattern": "{0}/กก."
           },
           "mass-gram": {
             "displayName": "กรัม",
             "unitPattern-count-other": "{0} ก.",
-            "perUnitPattern": "{0}/กรัม"
+            "perUnitPattern": "{0}/ก."
           },
           "mass-milligram": {
             "displayName": "มก.",
@@ -1070,8 +1074,8 @@
             "unitPattern-count-other": "{0} ลบ.นิ้ว"
           },
           "volume-megaliter": {
-            "displayName": "เมกกะลิตร",
-            "unitPattern-count-other": "{0} เมกกะลิตร"
+            "displayName": "เมกะลิตร",
+            "unitPattern-count-other": "{0} เมกะลิตร"
           },
           "volume-hectoliter": {
             "displayName": "ฮล.",
@@ -1116,9 +1120,9 @@
             "perUnitPattern": "{0}/แกลลอน"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "แกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} แกลลอนอังกฤษ",
+            "perUnitPattern": "{0}/แกลลอนอังกฤษ"
           },
           "volume-quart": {
             "displayName": "คว.",
@@ -1161,7 +1165,7 @@
           },
           "acceleration-meter-per-second-squared": {
             "displayName": "เมตร/วินาที²",
-            "unitPattern-count-other": "{0} ม./วินาที²"
+            "unitPattern-count-other": "{0} ม./วิ²"
           },
           "angle-revolution": {
             "displayName": "รอบ",
@@ -1185,7 +1189,8 @@
           },
           "area-square-kilometer": {
             "displayName": "ตร.กม.",
-            "unitPattern-count-other": "{0}ตร.กม."
+            "unitPattern-count-other": "{0}ตร.กม.",
+            "perUnitPattern": "{0}/ตร.กม."
           },
           "area-hectare": {
             "displayName": "เฮกตาร์",
@@ -1194,24 +1199,25 @@
           "area-square-meter": {
             "displayName": "ตร.ม.",
             "unitPattern-count-other": "{0}ตร.ม.",
-            "perUnitPattern": "{0} ต่อ ตร.ม."
+            "perUnitPattern": "{0}/ตร.ม."
           },
           "area-square-centimeter": {
             "displayName": "ตร.ซม.",
             "unitPattern-count-other": "{0} ตร.ซม.",
-            "perUnitPattern": "{0} ต่อ ตร.ซม."
+            "perUnitPattern": "{0}/ตร.ซม."
           },
           "area-square-mile": {
             "displayName": "ตร.ไมล์",
-            "unitPattern-count-other": "{0}ตร.ไมล์"
+            "unitPattern-count-other": "{0}ตร.ไมล์",
+            "perUnitPattern": "{0}/ตร.ไมล์"
           },
           "area-acre": {
             "displayName": "เอเคอร์",
             "unitPattern-count-other": "{0}เอเคอร์"
           },
           "area-square-yard": {
-            "displayName": "ตร.ว.",
-            "unitPattern-count-other": "{0} ตร.ว."
+            "displayName": "ตร.หลา",
+            "unitPattern-count-other": "{0} ตร.หลา"
           },
           "area-square-foot": {
             "displayName": "ตร.ฟุต",
@@ -1220,23 +1226,23 @@
           "area-square-inch": {
             "displayName": "ตร.นิ้ว",
             "unitPattern-count-other": "{0} ตร.นิ้ว",
-            "perUnitPattern": "{0} ต่อตารางนิ้ว"
+            "perUnitPattern": "{0}/ตร.นิ้ว"
           },
           "concentr-karat": {
             "displayName": "กะรัต",
             "unitPattern-count-other": "{0} กะรัต"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "มก./ดล.",
+            "unitPattern-count-other": "{0} มก./ดล."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "มิลลิโมล/ลิตร",
+            "unitPattern-count-other": "{0} มลม./ล."
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "ส่วน/ล้าน",
+            "unitPattern-count-other": "{0} สตล."
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ลิตร/กม.",
@@ -1244,15 +1250,15 @@
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "ล. /100 กม.",
-            "unitPattern-count-other": "{0}ล/100กม"
+            "unitPattern-count-other": "{0} ล./100กม."
           },
           "consumption-mile-per-gallon": {
             "displayName": "ไมล์/แกลลอน",
             "unitPattern-count-other": "{0} ไมล์/แกลลอน"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "ไมล์/แกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} ไมล์ต่อแกลลอนอังกฤษ"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1493,12 +1499,12 @@
           "mass-kilogram": {
             "displayName": "กก.",
             "unitPattern-count-other": "{0}กก.",
-            "perUnitPattern": "{0}/ก.ก."
+            "perUnitPattern": "{0}/กก."
           },
           "mass-gram": {
             "displayName": "กรัม",
             "unitPattern-count-other": "{0}ก.",
-            "perUnitPattern": "{0}/กรัม"
+            "perUnitPattern": "{0}/ก."
           },
           "mass-milligram": {
             "displayName": "มก.",
@@ -1641,8 +1647,8 @@
             "unitPattern-count-other": "{0} ลบ.นิ้ว"
           },
           "volume-megaliter": {
-            "displayName": "เมกกะลิตร",
-            "unitPattern-count-other": "{0} เมกกะลิตร"
+            "displayName": "เมกะลิตร",
+            "unitPattern-count-other": "{0} เมกะลิตร"
           },
           "volume-hectoliter": {
             "displayName": "ฮล.",
@@ -1687,9 +1693,9 @@
             "perUnitPattern": "{0}/แกลลอน"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "แกลลอนอังกฤษ",
+            "unitPattern-count-other": "{0} แกลลอนอังกฤษ",
+            "perUnitPattern": "{0}/แกลลอนอังกฤษ"
           },
           "volume-quart": {
             "displayName": "คว.",

@@ -3,8 +3,8 @@
     "hi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "hi"
       },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "वर्ग किलोमीटर",
             "unitPattern-count-one": "{0} वर्ग किलोमीटर",
-            "unitPattern-count-other": "{0} वर्ग किलोमीटर"
+            "unitPattern-count-other": "{0} वर्ग किलोमीटर",
+            "perUnitPattern": "{0} प्रति वर्ग किलोमीटर"
           },
           "area-hectare": {
             "displayName": "हेक्टेयर",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "वर्ग मील",
             "unitPattern-count-one": "{0} वर्ग मील",
-            "unitPattern-count-other": "{0} वर्ग मील"
+            "unitPattern-count-other": "{0} वर्ग मील",
+            "perUnitPattern": "{0}/वर्ग मील"
           },
           "area-acre": {
             "displayName": "एकड़",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} कैरट"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "मिलिग्राम प्रति डेसीलीटर",
+            "unitPattern-count-one": "{0} मिलिग्राम प्रति डेसीलीटर",
+            "unitPattern-count-other": "{0} मिलिग्राम प्रति डेसीलीटर"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "मिलीमोल प्रति लीटर",
+            "unitPattern-count-one": "{0} मिलीमोल प्रति लीटर",
+            "unitPattern-count-other": "{0} मिलीमोल प्रति लीटर"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-other": "{0} हिस्सा प्रति दस लाख"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "लीटर प्रति किलोमीटर",
@@ -130,6 +135,7 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -664,9 +670,10 @@
             "perUnitPattern": "{0}/गैलन"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इम्पीरियल गैलन",
+            "unitPattern-count-one": "{0} इम्पीरियल गैलन",
+            "unitPattern-count-other": "{0} इम्पीरियल गैलन",
+            "perUnitPattern": "{0}/इम्पीरियल गैलन"
           },
           "volume-quart": {
             "displayName": "क्वार्ट",
@@ -747,7 +754,8 @@
           "area-square-kilometer": {
             "displayName": "वर्ग कि.मी.",
             "unitPattern-count-one": "{0} वर्ग कि.मी.",
-            "unitPattern-count-other": "{0} वर्ग कि.मी."
+            "unitPattern-count-other": "{0} वर्ग कि.मी.",
+            "perUnitPattern": "{0}/वर्ग कि.मी."
           },
           "area-hectare": {
             "displayName": "हेक्टेयर",
@@ -769,7 +777,8 @@
           "area-square-mile": {
             "displayName": "वर्ग मील",
             "unitPattern-count-one": "{0} वर्ग मील",
-            "unitPattern-count-other": "{0} वर्ग मील"
+            "unitPattern-count-other": "{0} वर्ग मील",
+            "perUnitPattern": "{0}/मील²"
           },
           "area-acre": {
             "displayName": "एकड़",
@@ -798,15 +807,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "मि.ग्रा./डे.ली.",
+            "unitPattern-count-one": "{0} मि.ग्रा./डे.ली.",
+            "unitPattern-count-other": "{0} मि.ग्रा./डे.ली."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "मिलीमोल/लीटर",
+            "unitPattern-count-one": "{0} मिलीमोल/ली.",
+            "unitPattern-count-other": "{0} मिलीमोल/ली."
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -826,6 +838,7 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1360,9 +1373,10 @@
             "perUnitPattern": "{0}/गैलन"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इम्पी. गैलन",
+            "unitPattern-count-one": "{0} इम्पी. गैलन",
+            "unitPattern-count-other": "{0} इम्पी. गैलन",
+            "perUnitPattern": "{0}/इम्पी. गैलन"
           },
           "volume-quart": {
             "displayName": "क्वार्ट",
@@ -1412,7 +1426,7 @@
           },
           "acceleration-meter-per-second-squared": {
             "displayName": "मीटर/से²",
-            "unitPattern-count-one": "{0} m/s²",
+            "unitPattern-count-one": "{0} मीटर/से²",
             "unitPattern-count-other": "{0} m/s²"
           },
           "angle-revolution": {
@@ -1443,7 +1457,8 @@
           "area-square-kilometer": {
             "displayName": "वर्ग कि.मी.",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/वर्ग कि.मी."
           },
           "area-hectare": {
             "displayName": "हेक्टेयर",
@@ -1465,7 +1480,8 @@
           "area-square-mile": {
             "displayName": "वर्ग मील",
             "unitPattern-count-one": "{0}वर्ग मील",
-            "unitPattern-count-other": "{0}वर्ग मील"
+            "unitPattern-count-other": "{0}वर्ग मील",
+            "perUnitPattern": "{0}/मील²"
           },
           "area-acre": {
             "displayName": "एकड़",
@@ -1494,15 +1510,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "मि.ग्रा./डे.ली.",
+            "unitPattern-count-one": "{0} मि.ग्रा./डे.ली.",
+            "unitPattern-count-other": "{0} मि.ग्रा./डे.ली."
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "मिलीमोल/लीटर",
+            "unitPattern-count-one": "{0} मिलीमोल/ली.",
+            "unitPattern-count-other": "{0} मिलीमोल/ली."
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1522,6 +1541,7 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -2056,9 +2076,10 @@
             "perUnitPattern": "{0}/गैलन"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इम्पी. गैलन",
+            "unitPattern-count-one": "{0} इम्पी. गैलन",
+            "unitPattern-count-other": "{0} इम्पी. गैलन",
+            "perUnitPattern": "{0}/इम्पी. गैलन"
           },
           "volume-quart": {
             "displayName": "क्वार्ट",

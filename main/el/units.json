@@ -3,8 +3,8 @@
     "el": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "el"
       },
@@ -14,7 +14,7 @@
             "compoundUnitPattern": "{0} ανά {1}"
           },
           "acceleration-g-force": {
-            "displayName": "ατμοσφαιρική επιτάχυνση βαρύτητας",
+            "displayName": "δύναμη επιτάχυνσης",
             "unitPattern-count-one": "{0} δύναμη επιτάχυνσης",
             "unitPattern-count-other": "{0} δύναμη επιτάχυνσης"
           },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "τετραγωνικά χιλιόμετρα",
             "unitPattern-count-one": "{0} τετραγωνικό χιλιόμετρο",
-            "unitPattern-count-other": "{0} τετραγωνικά χιλιόμετρα"
+            "unitPattern-count-other": "{0} τετραγωνικά χιλιόμετρα",
+            "perUnitPattern": "{0}/τετραγωνικό χιλιόμετρο"
           },
           "area-hectare": {
             "displayName": "εκτάρια",
@@ -62,18 +63,19 @@
             "displayName": "τετραγωνικά μέτρα",
             "unitPattern-count-one": "{0} τετραγωνικό μέτρο",
             "unitPattern-count-other": "{0} τετραγωνικά μέτρα",
-            "perUnitPattern": "{0}/m²"
+            "perUnitPattern": "{0}/τετραγωνικό μέτρο"
           },
           "area-square-centimeter": {
             "displayName": "τετραγωνικά εκατοστά",
             "unitPattern-count-one": "{0} τετραγωνικό εκατοστό",
             "unitPattern-count-other": "{0} τετραγωνικά εκατοστά",
-            "perUnitPattern": "{0}/cm²"
+            "perUnitPattern": "{0}/τετραγωνικό εκατοστό"
           },
           "area-square-mile": {
             "displayName": "τετραγωνικά μίλια",
             "unitPattern-count-one": "{0} τετραγωνικό μίλι",
-            "unitPattern-count-other": "{0} τετραγωνικά μίλια"
+            "unitPattern-count-other": "{0} τετραγωνικά μίλια",
+            "perUnitPattern": "{0}/τετραγωνικό μίλι"
           },
           "area-acre": {
             "displayName": "ακρ",
@@ -94,7 +96,7 @@
             "displayName": "τετραγωνικές ίντσες",
             "unitPattern-count-one": "{0} τετραγωνική ίντσα",
             "unitPattern-count-other": "{0} τετραγωνικές ίντσες",
-            "perUnitPattern": "{0}/in²"
+            "perUnitPattern": "{0} ανά τετραγωνική ίντσα"
           },
           "concentr-karat": {
             "displayName": "καράτια",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} καράτια"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "χιλιοστόγραμμα ανά δεκατόλιτρο",
+            "unitPattern-count-one": "{0} χιλιοστόγραμμο ανά δεκατόλιτρο",
+            "unitPattern-count-other": "{0} χιλιοστόγραμμα ανά δεκατόλιτρο"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "χιλιοστογραμμομόριο ανά λίτρο",
+            "unitPattern-count-one": "{0} χιλιοστογραμμομόριο ανά λίτρο",
+            "unitPattern-count-other": "{0} χιλιοστογραμμομόρια ανά λίτρο"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "μέρη ανά εκατομμύριο",
+            "unitPattern-count-one": "{0} μέρος ανά εκατομμύριο",
+            "unitPattern-count-other": "{0} μέρη ανά εκατομμύριο"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "λίτρα ανά χιλιόμετρο",
@@ -129,8 +134,9 @@
             "unitPattern-count-other": "{0} μίλια ανά γαλόνι"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "μίλια ανά αγγλοσαξονικό γαλόνι",
+            "unitPattern-count-one": "{0} μίλι ανά αγγλοσαξονικό γαλόνι",
+            "unitPattern-count-other": "{0} μίλια ανά αγγλοσαξονικό γαλόνι"
           },
           "digital-terabyte": {
             "displayName": "terabyte",
@@ -197,7 +203,7 @@
             "displayName": "μήνες",
             "unitPattern-count-one": "{0} μήνας",
             "unitPattern-count-other": "{0} μήνες",
-            "perUnitPattern": "{0}/μήνα"
+            "perUnitPattern": "{0} ανά μήνα"
           },
           "duration-week": {
             "displayName": "εβδομάδες",
@@ -276,8 +282,8 @@
           },
           "energy-foodcalorie": {
             "displayName": "Θερμίδες",
-            "unitPattern-count-one": "{0} Θερμίδα",
-            "unitPattern-count-other": "{0} Θερμίδες"
+            "unitPattern-count-one": "{0} θερμίδα",
+            "unitPattern-count-other": "{0} θερμίδες"
           },
           "energy-kilojoule": {
             "displayName": "κιλοτζάουλ",
@@ -318,13 +324,13 @@
             "displayName": "χιλιόμετρα",
             "unitPattern-count-one": "{0} χιλιόμετρο",
             "unitPattern-count-other": "{0} χιλιόμετρα",
-            "perUnitPattern": "{0}/χλμ."
+            "perUnitPattern": "{0} ανά χιλιόμετρο"
           },
           "length-meter": {
             "displayName": "μέτρα",
             "unitPattern-count-one": "{0} μέτρο",
             "unitPattern-count-other": "{0} μέτρα",
-            "perUnitPattern": "{0}/μ."
+            "perUnitPattern": "{0} ανά μέτρο"
           },
           "length-decimeter": {
             "displayName": "δεκατόμετρα",
@@ -335,7 +341,7 @@
             "displayName": "εκατοστά",
             "unitPattern-count-one": "{0} εκατοστό",
             "unitPattern-count-other": "{0} εκατοστά",
-            "perUnitPattern": "{0}/εκ."
+            "perUnitPattern": "{0} ανά εκατοστό"
           },
           "length-millimeter": {
             "displayName": "χιλιοστόμετρα",
@@ -371,13 +377,13 @@
             "displayName": "πόδια",
             "unitPattern-count-one": "{0} πόδι",
             "unitPattern-count-other": "{0} πόδια",
-            "perUnitPattern": "{0}/ft"
+            "perUnitPattern": "{0} ανά πόδι"
           },
           "length-inch": {
             "displayName": "ίντσες",
             "unitPattern-count-one": "{0} ίντσα",
             "unitPattern-count-other": "{0} ίντσες",
-            "perUnitPattern": "{0}/in"
+            "perUnitPattern": "{0} ανά ίντσα"
           },
           "length-parsec": {
             "displayName": "παρσέκ",
@@ -408,9 +414,9 @@
             "unitPattern-count-other": "{0} ναυτικά μίλια"
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-one": "{0} smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "σκανδιναβικά μίλια",
+            "unitPattern-count-one": "{0} σκανδιναβικό μίλι",
+            "unitPattern-count-other": "{0} σκανδιναβικά μίλια"
           },
           "light-lux": {
             "displayName": "lux",
@@ -426,13 +432,13 @@
             "displayName": "χιλιόγραμμα",
             "unitPattern-count-one": "{0} χιλιόγραμμο",
             "unitPattern-count-other": "{0} χιλιόγραμμα",
-            "perUnitPattern": "{0}/κιλό"
+            "perUnitPattern": "{0} ανά κιλό"
           },
           "mass-gram": {
             "displayName": "γραμμάρια",
             "unitPattern-count-one": "{0} γραμμάριο",
             "unitPattern-count-other": "{0} γραμμάρια",
-            "perUnitPattern": "{0} ανά γραμ."
+            "perUnitPattern": "{0} ανά γραμμάριο"
           },
           "mass-milligram": {
             "displayName": "χιλιοστόγραμμα",
@@ -621,7 +627,7 @@
             "displayName": "λίτρα",
             "unitPattern-count-one": "{0} λίτρο",
             "unitPattern-count-other": "{0} λίτρα",
-            "perUnitPattern": "{0}/λ."
+            "perUnitPattern": "{0} ανά λίτρο"
           },
           "volume-deciliter": {
             "displayName": "δεκατόλιτρα",
@@ -634,17 +640,17 @@
             "unitPattern-count-other": "{0} εκατοστόλιτρα"
           },
           "volume-milliliter": {
-            "displayName": "χιλιοστόλιτρο",
+            "displayName": "χιλιοστόλιτρα",
             "unitPattern-count-one": "{0} χιλιοστόλιτρο",
             "unitPattern-count-other": "{0} χιλιοστόλιτρα"
           },
           "volume-pint-metric": {
-            "displayName": "μετρική πίντα",
+            "displayName": "μετρικές πίντες",
             "unitPattern-count-one": "{0} μετρική πίντα",
             "unitPattern-count-other": "{0} μετρικές πίντες"
           },
           "volume-cup-metric": {
-            "displayName": "μετρικό κύπελλο",
+            "displayName": "μετρικά κύπελλα",
             "unitPattern-count-one": "{0} μετρικό κύπελλο",
             "unitPattern-count-other": "{0} μετρικά κύπελλα"
           },
@@ -664,9 +670,10 @@
             "perUnitPattern": "{0} ανά γαλόνι"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "Αγγλοσαξονικά γαλόνια",
+            "unitPattern-count-one": "{0} αγγλοσαξονικό γαλόνι",
+            "unitPattern-count-other": "{0} αγγλοσαξονικά γαλόνια",
+            "perUnitPattern": "{0} ανά αγγλοσαξονικό γαλόνι"
           },
           "volume-quart": {
             "displayName": "τέταρτα του γαλονιού",
@@ -679,14 +686,14 @@
             "unitPattern-count-other": "{0} πίντες"
           },
           "volume-cup": {
-            "displayName": "κύπελλο",
+            "displayName": "κύπελλα",
             "unitPattern-count-one": "{0} κύπελλο",
             "unitPattern-count-other": "{0} κύπελλα"
           },
           "volume-fluid-ounce": {
-            "displayName": "ουγγιές υγρού",
-            "unitPattern-count-one": "{0} ουγγιά υγρού",
-            "unitPattern-count-other": "{0} ουγγιές υγρού"
+            "displayName": "ουγγιές όγκου",
+            "unitPattern-count-one": "{0} ουγγιά όγκου",
+            "unitPattern-count-other": "{0} ουγγιές όγκου"
           },
           "volume-tablespoon": {
             "displayName": "κουταλιές της σούπας",
@@ -720,14 +727,14 @@
             "unitPattern-count-other": "{0} m/s²"
           },
           "angle-revolution": {
-            "displayName": "rev",
-            "unitPattern-count-one": "{0} rev",
-            "unitPattern-count-other": "{0} rev"
+            "displayName": "στρφ",
+            "unitPattern-count-one": "{0} στρφ",
+            "unitPattern-count-other": "{0} στρφ"
           },
           "angle-radian": {
-            "displayName": "ακτίνια",
-            "unitPattern-count-one": "{0} rad",
-            "unitPattern-count-other": "{0} rad"
+            "displayName": "ακτν",
+            "unitPattern-count-one": "{0} ακτν",
+            "unitPattern-count-other": "{0} ακτν"
           },
           "angle-degree": {
             "displayName": "μοίρες",
@@ -745,68 +752,73 @@
             "unitPattern-count-other": "{0} arcsec"
           },
           "area-square-kilometer": {
-            "displayName": "τ. χλμ.",
-            "unitPattern-count-one": "{0} τ. χλμ.",
-            "unitPattern-count-other": "{0} τ. χλμ."
+            "displayName": "τ.χλμ.",
+            "unitPattern-count-one": "{0} τ.χλμ.",
+            "unitPattern-count-other": "{0} τ.χλμ.",
+            "perUnitPattern": "{0}/τ.χλμ."
           },
           "area-hectare": {
-            "displayName": "εκτάρια",
-            "unitPattern-count-one": "{0} ha",
-            "unitPattern-count-other": "{0} ha"
+            "displayName": "εκτ.",
+            "unitPattern-count-one": "{0} εκτ.",
+            "unitPattern-count-other": "{0} εκτ."
           },
           "area-square-meter": {
             "displayName": "τ. μέτρα",
             "unitPattern-count-one": "{0} τ.μ.",
             "unitPattern-count-other": "{0} τ.μ.",
-            "perUnitPattern": "{0}/m²"
+            "perUnitPattern": "{0}/τ.μ."
           },
           "area-square-centimeter": {
-            "displayName": "τ. εκ.",
-            "unitPattern-count-one": "{0} τ. εκ.",
-            "unitPattern-count-other": "{0} τ. εκ.",
-            "perUnitPattern": "{0}/cm²"
+            "displayName": "τ.εκ.",
+            "unitPattern-count-one": "{0} τ.εκ.",
+            "unitPattern-count-other": "{0} τ.εκ.",
+            "perUnitPattern": "{0}/τ.εκ."
           },
           "area-square-mile": {
-            "displayName": "τ. μίλια",
-            "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "displayName": "τετρ. μίλια",
+            "unitPattern-count-one": "{0} τ.μίλι",
+            "unitPattern-count-other": "{0} τ.μίλια",
+            "perUnitPattern": "{0}/τ.μίλι"
           },
           "area-acre": {
             "displayName": "ακρ",
-            "unitPattern-count-one": "{0} ac",
-            "unitPattern-count-other": "{0} ac"
+            "unitPattern-count-one": "{0} ακρ",
+            "unitPattern-count-other": "{0} ακρ"
           },
           "area-square-yard": {
             "displayName": "τετρ. γιάρδες",
-            "unitPattern-count-one": "{0} yd²",
-            "unitPattern-count-other": "{0} yd²"
+            "unitPattern-count-one": "{0} τ.γρδ",
+            "unitPattern-count-other": "{0} τ.γρδ"
           },
           "area-square-foot": {
             "displayName": "τετρ. πόδια",
-            "unitPattern-count-one": "{0} ft²",
-            "unitPattern-count-other": "{0} ft²"
+            "unitPattern-count-one": "{0} τ.πδ",
+            "unitPattern-count-other": "{0} τ.πδ"
           },
           "area-square-inch": {
             "displayName": "τετρ. ίντσες",
-            "unitPattern-count-one": "{0} in²",
-            "unitPattern-count-other": "{0} in²",
-            "perUnitPattern": "{0}/in²"
+            "unitPattern-count-one": "{0} τ. ίντσα",
+            "unitPattern-count-other": "{0} τ. ίντσες",
+            "perUnitPattern": "{0}/τ. ίντσα"
           },
           "concentr-karat": {
-            "displayName": "καράτια",
-            "unitPattern-count-one": "{0} kt",
-            "unitPattern-count-other": "{0} kt"
+            "displayName": "κρτ",
+            "unitPattern-count-one": "{0} κρτ",
+            "unitPattern-count-other": "{0} κρτ"
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -825,8 +837,9 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "μίλια/αγγλ. γαλόνι",
+            "unitPattern-count-one": "{0} μίλι/αγγλ. γαλόνι",
+            "unitPattern-count-other": "{0} μίλια/αγγλ. γαλόνι"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -911,7 +924,7 @@
             "displayName": "ώρες",
             "unitPattern-count-one": "{0} ώρα",
             "unitPattern-count-other": "{0} ώρ.",
-            "perUnitPattern": "{0} α.ώ."
+            "perUnitPattern": "{0}/ώ."
           },
           "duration-minute": {
             "displayName": "λεπ.",
@@ -923,7 +936,7 @@
             "displayName": "δευτ.",
             "unitPattern-count-one": "{0} δευτ.",
             "unitPattern-count-other": "{0} δευτ.",
-            "perUnitPattern": "{0} ανα δευτ."
+            "perUnitPattern": "{0}/δευτ."
           },
           "duration-millisecond": {
             "displayName": "χιλιοστά δευτ.",
@@ -966,14 +979,14 @@
             "unitPattern-count-other": "{0} kcal"
           },
           "energy-calorie": {
-            "displayName": "cal",
-            "unitPattern-count-one": "{0} cal",
-            "unitPattern-count-other": "{0} cal"
+            "displayName": "θερμ.",
+            "unitPattern-count-one": "{0} θερμ.",
+            "unitPattern-count-other": "{0} θερμ."
           },
           "energy-foodcalorie": {
-            "displayName": "Cal",
-            "unitPattern-count-one": "{0} Cal",
-            "unitPattern-count-other": "{0} Cal"
+            "displayName": "θερμ.",
+            "unitPattern-count-one": "{0} θερμ.",
+            "unitPattern-count-other": "{0} θερμ."
           },
           "energy-kilojoule": {
             "displayName": "κιλοτζάουλ",
@@ -1060,20 +1073,20 @@
           },
           "length-yard": {
             "displayName": "γιάρδες",
-            "unitPattern-count-one": "{0} yd",
-            "unitPattern-count-other": "{0} yd"
+            "unitPattern-count-one": "{0} γρδ",
+            "unitPattern-count-other": "{0} γρδ"
           },
           "length-foot": {
             "displayName": "πόδια",
-            "unitPattern-count-one": "{0} ft",
-            "unitPattern-count-other": "{0} ft",
-            "perUnitPattern": "{0}/ft"
+            "unitPattern-count-one": "{0} πδ",
+            "unitPattern-count-other": "{0} πδ",
+            "perUnitPattern": "{0}/πδ"
           },
           "length-inch": {
             "displayName": "ίντσες",
-            "unitPattern-count-one": "{0} in",
-            "unitPattern-count-other": "{0} in",
-            "perUnitPattern": "{0}/in"
+            "unitPattern-count-one": "{0} ίν.",
+            "unitPattern-count-other": "{0} ίν.",
+            "perUnitPattern": "{0}/ίν."
           },
           "length-parsec": {
             "displayName": "παρσέκ",
@@ -1082,8 +1095,8 @@
           },
           "length-light-year": {
             "displayName": "έτη φωτός",
-            "unitPattern-count-one": "{0} ly",
-            "unitPattern-count-other": "{0} ly"
+            "unitPattern-count-one": "{0} έ.φ.",
+            "unitPattern-count-other": "{0} έ.φ."
           },
           "length-astronomical-unit": {
             "displayName": "α.μ.",
@@ -1104,9 +1117,9 @@
             "unitPattern-count-other": "{0} ν.μ."
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-one": "{0} smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "σκανδ. μίλια",
+            "unitPattern-count-one": "{0} σκανδ. μίλι",
+            "unitPattern-count-other": "{0} σκανδ. μίλια"
           },
           "light-lux": {
             "displayName": "lux",
@@ -1125,7 +1138,7 @@
             "perUnitPattern": "{0}/κιλό"
           },
           "mass-gram": {
-            "displayName": "γραμμάρια",
+            "displayName": "γραμμ.",
             "unitPattern-count-one": "{0} γρ.",
             "unitPattern-count-other": "{0} γρ.",
             "perUnitPattern": "{0}/γρ."
@@ -1142,8 +1155,8 @@
           },
           "mass-ton": {
             "displayName": "τόνοι",
-            "unitPattern-count-one": "{0} t",
-            "unitPattern-count-other": "{0} t"
+            "unitPattern-count-one": "{0} τ.",
+            "unitPattern-count-other": "{0} τ."
           },
           "mass-stone": {
             "displayName": "st",
@@ -1151,9 +1164,9 @@
           },
           "mass-pound": {
             "displayName": "λίβρες",
-            "unitPattern-count-one": "{0} lb",
-            "unitPattern-count-other": "{0} lb",
-            "perUnitPattern": "{0}/lb"
+            "unitPattern-count-one": "{0} λβ",
+            "unitPattern-count-other": "{0} λβ",
+            "perUnitPattern": "{0}/λβ"
           },
           "mass-ounce": {
             "displayName": "oz",
@@ -1168,8 +1181,8 @@
           },
           "mass-carat": {
             "displayName": "καράτια",
-            "unitPattern-count-one": "{0} ct",
-            "unitPattern-count-other": "{0} ct"
+            "unitPattern-count-one": "{0} κρτ",
+            "unitPattern-count-other": "{0} κρτ"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -1198,31 +1211,31 @@
           },
           "power-horsepower": {
             "displayName": "ίπποι",
-            "unitPattern-count-one": "{0} hp",
-            "unitPattern-count-other": "{0} hp"
+            "unitPattern-count-one": "{0} ίπ.",
+            "unitPattern-count-other": "{0} ίπ."
           },
           "pressure-hectopascal": {
-            "displayName": "εκτοπασκάλ",
+            "displayName": "hPa",
             "unitPattern-count-one": "{0} hPa",
             "unitPattern-count-other": "{0} hPa"
           },
           "pressure-millimeter-of-mercury": {
-            "displayName": "χιλιοστόμετρα στήλης υδραργύρου",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-per-square-inch": {
-            "displayName": "λίβρα ανά τετραγωνική ίντσα",
+            "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
-            "displayName": "ίντσες στήλης υδραργύρου",
+            "displayName": "inHg",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
           "pressure-millibar": {
-            "displayName": "μιλιμπάρ",
+            "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
           },
@@ -1232,7 +1245,7 @@
             "unitPattern-count-other": "{0} χλμ./ώρα"
           },
           "speed-meter-per-second": {
-            "displayName": "μέτρα/δευτερόλεπτο",
+            "displayName": "μέτρα/δευτ.",
             "unitPattern-count-one": "{0} μέτρο/δευτ.",
             "unitPattern-count-other": "{0} μέτρα/δευτ."
           },
@@ -1242,9 +1255,9 @@
             "unitPattern-count-other": "{0} μίλια/ώρα"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-one": "{0} kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "κμβ",
+            "unitPattern-count-one": "{0} κμβ",
+            "unitPattern-count-other": "{0} κμβ"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1252,12 +1265,12 @@
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
-            "displayName": "βαθμοί Κελσίου",
+            "displayName": "βθμ C",
             "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
-            "displayName": "βαθμοί Φαρενάιτ",
+            "displayName": "βθμ F",
             "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
@@ -1336,8 +1349,8 @@
           },
           "volume-pint-metric": {
             "displayName": "μετρικές πίντες",
-            "unitPattern-count-one": "{0} μετρική πίντα",
-            "unitPattern-count-other": "{0} μετρικές πίντες"
+            "unitPattern-count-one": "{0} μετρ. πίντα",
+            "unitPattern-count-other": "{0} μετρ. πίντες"
           },
           "volume-cup-metric": {
             "displayName": "μετρ. κύπελλο",
@@ -1346,38 +1359,39 @@
           },
           "volume-acre-foot": {
             "displayName": "ακρ πόδια",
-            "unitPattern-count-one": "{0} ac ft",
-            "unitPattern-count-other": "{0} ac ft"
+            "unitPattern-count-one": "{0} ακρ πδ",
+            "unitPattern-count-other": "{0} ακρ πδ"
           },
           "volume-bushel": {
             "displayName": "bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
-            "displayName": "gal",
-            "unitPattern-count-one": "{0} gal",
-            "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "displayName": "γαλ.",
+            "unitPattern-count-one": "{0} γαλ.",
+            "unitPattern-count-other": "{0} γαλ.",
+            "perUnitPattern": "{0}/γαλ."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "αγγλοσαξ. γαλόνια",
+            "unitPattern-count-one": "{0} αγγλοσαξ. γαλόνι",
+            "unitPattern-count-other": "{0} αγγλοσαξ. γαλόνια",
+            "perUnitPattern": "{0}/αγγλοσαξ. γαλόνι"
           },
           "volume-quart": {
             "displayName": "τέταρτα γαλονιού",
-            "unitPattern-count-one": "{0} qt",
-            "unitPattern-count-other": "{0} qt"
+            "unitPattern-count-one": "{0} τέτ. γαλ.",
+            "unitPattern-count-other": "{0} τέτ. γαλ."
           },
           "volume-pint": {
             "displayName": "πίντες",
-            "unitPattern-count-one": "{0} pt",
-            "unitPattern-count-other": "{0} pt"
+            "unitPattern-count-one": "{0} πντ",
+            "unitPattern-count-other": "{0} πντ"
           },
           "volume-cup": {
-            "displayName": "κύπελλα",
-            "unitPattern-count-one": "{0} c",
-            "unitPattern-count-other": "{0} c"
+            "displayName": "κύπ.",
+            "unitPattern-count-one": "{0} κύπ.",
+            "unitPattern-count-other": "{0} κύπ."
           },
           "volume-fluid-ounce": {
             "displayName": "fl oz",
@@ -1416,14 +1430,14 @@
             "unitPattern-count-other": "{0} m/s²"
           },
           "angle-revolution": {
-            "displayName": "rev",
-            "unitPattern-count-one": "{0} rev",
-            "unitPattern-count-other": "{0} rev"
+            "displayName": "στρφ",
+            "unitPattern-count-one": "{0} στρφ",
+            "unitPattern-count-other": "{0} στρφ"
           },
           "angle-radian": {
-            "displayName": "ακτίνια",
-            "unitPattern-count-one": "{0} rad",
-            "unitPattern-count-other": "{0} rad"
+            "displayName": "ακτν",
+            "unitPattern-count-one": "{0} ακτν",
+            "unitPattern-count-other": "{0} ακτν"
           },
           "angle-degree": {
             "displayName": "μοίρες",
@@ -1441,12 +1455,13 @@
             "unitPattern-count-other": "{0}″"
           },
           "area-square-kilometer": {
-            "displayName": "τ. χλμ.",
+            "displayName": "τ.χλμ.",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/τ.χλμ."
           },
           "area-hectare": {
-            "displayName": "εκτάρια",
+            "displayName": "εκτ.",
             "unitPattern-count-one": "{0} ha",
             "unitPattern-count-other": "{0} ha"
           },
@@ -1454,18 +1469,19 @@
             "displayName": "τ. μέτρα",
             "unitPattern-count-one": "{0} m²",
             "unitPattern-count-other": "{0} m²",
-            "perUnitPattern": "{0}/m²"
+            "perUnitPattern": "{0}/τ.μ."
           },
           "area-square-centimeter": {
-            "displayName": "τ. εκ.",
-            "unitPattern-count-one": "{0} τ. εκ.",
-            "unitPattern-count-other": "{0} τ. εκ.",
-            "perUnitPattern": "{0}/cm²"
+            "displayName": "τ.εκ.",
+            "unitPattern-count-one": "{0} τ.εκ.",
+            "unitPattern-count-other": "{0} τ.εκ.",
+            "perUnitPattern": "{0}/τ.εκ."
           },
           "area-square-mile": {
-            "displayName": "τ. μίλια",
+            "displayName": "τετρ. μίλια",
             "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/τ.μίλι"
           },
           "area-acre": {
             "displayName": "ακρ",
@@ -1474,8 +1490,8 @@
           },
           "area-square-yard": {
             "displayName": "τετρ. γιάρδες",
-            "unitPattern-count-one": "{0} yd²",
-            "unitPattern-count-other": "{0} yd²"
+            "unitPattern-count-one": "{0} τ.γρδ",
+            "unitPattern-count-other": "{0} τ.γρδ"
           },
           "area-square-foot": {
             "displayName": "τετρ. πόδια",
@@ -1484,30 +1500,33 @@
           },
           "area-square-inch": {
             "displayName": "τετρ. ίντσες",
-            "unitPattern-count-one": "{0} in²",
-            "unitPattern-count-other": "{0} in²",
-            "perUnitPattern": "{0}/in²"
+            "unitPattern-count-one": "{0} τ. ίντσα",
+            "unitPattern-count-other": "{0} τ. ίντσες",
+            "perUnitPattern": "{0}/τ. ίντσα"
           },
           "concentr-karat": {
-            "displayName": "καράτια",
-            "unitPattern-count-one": "{0} kt",
-            "unitPattern-count-other": "{0} kt"
+            "displayName": "κρτ",
+            "unitPattern-count-one": "{0} κρτ",
+            "unitPattern-count-other": "{0} κρτ"
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "λίτρα/χλμ.",
-            "unitPattern-count-one": "{0} λίτρα/χλμ",
+            "unitPattern-count-one": "{0} λίτρο/χλμ",
             "unitPattern-count-other": "{0} λίτρα/χλμ"
           },
           "consumption-liter-per-100kilometers": {
@@ -1521,8 +1540,9 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "μίλια/αγγλ. γαλόνι",
+            "unitPattern-count-one": "{0} μίλι/αγγλ. γαλόνι",
+            "unitPattern-count-other": "{0} μίλια/αγγλ. γαλόνι"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1607,7 +1627,7 @@
             "displayName": "ώρα",
             "unitPattern-count-one": "{0} ώ",
             "unitPattern-count-other": "{0} ώ",
-            "perUnitPattern": "{0} α.ώ."
+            "perUnitPattern": "{0}/ώ."
           },
           "duration-minute": {
             "displayName": "λεπ.",
@@ -1619,7 +1639,7 @@
             "displayName": "δευτ.",
             "unitPattern-count-one": "{0} δ",
             "unitPattern-count-other": "{0} δ",
-            "perUnitPattern": "{0} ανα δευτ."
+            "perUnitPattern": "{0}/δευτ."
           },
           "duration-millisecond": {
             "displayName": "χιλ. δευτ.",
@@ -1662,14 +1682,14 @@
             "unitPattern-count-other": "{0} kcal"
           },
           "energy-calorie": {
-            "displayName": "cal",
-            "unitPattern-count-one": "{0} cal",
-            "unitPattern-count-other": "{0} cal"
+            "displayName": "θερμ.",
+            "unitPattern-count-one": "{0} θερμ.",
+            "unitPattern-count-other": "{0} θερμ."
           },
           "energy-foodcalorie": {
-            "displayName": "Cal",
-            "unitPattern-count-one": "{0} Cal",
-            "unitPattern-count-other": "{0} Cal"
+            "displayName": "θερμ.",
+            "unitPattern-count-one": "{0} θερμ.",
+            "unitPattern-count-other": "{0} θερμ."
           },
           "energy-kilojoule": {
             "displayName": "κιλοτζάουλ",
@@ -1763,13 +1783,13 @@
             "displayName": "πόδια",
             "unitPattern-count-one": "{0} ft",
             "unitPattern-count-other": "{0} ft",
-            "perUnitPattern": "{0}/ft"
+            "perUnitPattern": "{0}/πδ"
           },
           "length-inch": {
             "displayName": "ίντσες",
             "unitPattern-count-one": "{0} in",
             "unitPattern-count-other": "{0} in",
-            "perUnitPattern": "{0}/in"
+            "perUnitPattern": "{0}/ίν."
           },
           "length-parsec": {
             "displayName": "παρσέκ",
@@ -1800,9 +1820,9 @@
             "unitPattern-count-other": "{0} ν.μ."
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-one": "{0} smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "σκανδ. μίλια",
+            "unitPattern-count-one": "{0} σκανδ. μίλι",
+            "unitPattern-count-other": "{0} σκανδ. μίλια"
           },
           "light-lux": {
             "displayName": "lux",
@@ -1838,8 +1858,8 @@
           },
           "mass-ton": {
             "displayName": "τόνοι",
-            "unitPattern-count-one": "{0} t",
-            "unitPattern-count-other": "{0} t"
+            "unitPattern-count-one": "{0} τ.",
+            "unitPattern-count-other": "{0} τ."
           },
           "mass-stone": {
             "displayName": "st",
@@ -1849,7 +1869,7 @@
             "displayName": "λίβρες",
             "unitPattern-count-one": "{0} lb",
             "unitPattern-count-other": "{0} lb",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/λβ"
           },
           "mass-ounce": {
             "displayName": "oz",
@@ -1864,8 +1884,8 @@
           },
           "mass-carat": {
             "displayName": "καράτια",
-            "unitPattern-count-one": "{0} ct",
-            "unitPattern-count-other": "{0} ct"
+            "unitPattern-count-one": "{0} κρτ",
+            "unitPattern-count-other": "{0} κρτ"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -1898,37 +1918,37 @@
             "unitPattern-count-other": "{0} hp"
           },
           "pressure-hectopascal": {
-            "displayName": "εκτοπασκάλ",
+            "displayName": "hPa",
             "unitPattern-count-one": "{0} hPa",
             "unitPattern-count-other": "{0} hPa"
           },
           "pressure-millimeter-of-mercury": {
-            "displayName": "χιλιοστόμετρα στήλης υδραργύρου",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-per-square-inch": {
-            "displayName": "λίβρα ανά τετραγωνική ίντσα",
+            "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
-            "displayName": "ίντσες στήλης υδραργύρου",
+            "displayName": "inHg",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
           "pressure-millibar": {
-            "displayName": "μιλιμπάρ",
+            "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "χλμ./ώρα",
-            "unitPattern-count-one": "{0} χλμ./ώρα",
-            "unitPattern-count-other": "{0} χλμ./ώρα"
+            "displayName": "χλμ/ώ.",
+            "unitPattern-count-one": "{0} χλμ/ώ.",
+            "unitPattern-count-other": "{0} χλμ/ώ."
           },
           "speed-meter-per-second": {
-            "displayName": "μέτρα/δευτερόλεπτο",
+            "displayName": "μέτρα/δευτ.",
             "unitPattern-count-one": "{0} m/s",
             "unitPattern-count-other": "{0} m/s"
           },
@@ -1938,9 +1958,9 @@
             "unitPattern-count-other": "{0} mi/h"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-one": "{0} kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "κμβ",
+            "unitPattern-count-one": "{0} κμβ",
+            "unitPattern-count-other": "{0} κμβ"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1953,7 +1973,7 @@
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
-            "displayName": "βαθμοί Φαρενάιτ",
+            "displayName": "βθμ F",
             "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
@@ -2011,8 +2031,8 @@
           },
           "volume-liter": {
             "displayName": "λίτρο",
-            "unitPattern-count-one": "{0} l",
-            "unitPattern-count-other": "{0} l",
+            "unitPattern-count-one": "{0} λ.",
+            "unitPattern-count-other": "{0} λ.",
             "perUnitPattern": "{0}/λ."
           },
           "volume-deciliter": {
@@ -2032,48 +2052,49 @@
           },
           "volume-pint-metric": {
             "displayName": "μετρικές πίντες",
-            "unitPattern-count-one": "{0} μετρικές πίντες",
-            "unitPattern-count-other": "{0} μετρικές πίντες"
+            "unitPattern-count-one": "{0} μετρ. πίντα",
+            "unitPattern-count-other": "{0} μετρ. πίντες"
           },
           "volume-cup-metric": {
             "displayName": "μετρ. κύπελλο",
-            "unitPattern-count-one": "{0} μετρ. κύπελλα",
+            "unitPattern-count-one": "{0} μετρ. κύπελλο",
             "unitPattern-count-other": "{0} μετρ. κύπελλα"
           },
           "volume-acre-foot": {
             "displayName": "ακρ πόδια",
-            "unitPattern-count-one": "{0} ac ft",
-            "unitPattern-count-other": "{0} ac ft"
+            "unitPattern-count-one": "{0} ακρ πδ",
+            "unitPattern-count-other": "{0} ακρ πδ"
           },
           "volume-bushel": {
             "displayName": "bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
-            "displayName": "gal",
-            "unitPattern-count-one": "{0} gal",
-            "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "displayName": "γαλ.",
+            "unitPattern-count-one": "{0} γαλ.",
+            "unitPattern-count-other": "{0} γαλ.",
+            "perUnitPattern": "{0}/γαλ."
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "αγγλοσαξ. γαλόνια",
+            "unitPattern-count-one": "{0} αγγλοσαξ. γαλόνι",
+            "unitPattern-count-other": "{0} αγγλοσαξ. γαλόνια",
+            "perUnitPattern": "{0}/αγγλοσαξ. γαλόνι"
           },
           "volume-quart": {
             "displayName": "τέταρτα γαλονιού",
-            "unitPattern-count-one": "{0} qt",
-            "unitPattern-count-other": "{0} qt"
+            "unitPattern-count-one": "{0} τέτ. γαλ.",
+            "unitPattern-count-other": "{0} τέτ. γαλ."
           },
           "volume-pint": {
             "displayName": "πίντες",
-            "unitPattern-count-one": "{0} pt",
-            "unitPattern-count-other": "{0} pt"
+            "unitPattern-count-one": "{0} πντ",
+            "unitPattern-count-other": "{0} πντ"
           },
           "volume-cup": {
-            "displayName": "κύπελλα",
-            "unitPattern-count-one": "{0} c",
-            "unitPattern-count-other": "{0} c"
+            "displayName": "κύπ.",
+            "unitPattern-count-one": "{0} κύπ.",
+            "unitPattern-count-other": "{0} κύπ."
           },
           "volume-fluid-ounce": {
             "displayName": "fl oz",

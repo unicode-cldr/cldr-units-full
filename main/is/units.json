@@ -3,8 +3,8 @@
     "is": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12965 $",
+          "_cldrVersion": "30"
         },
         "language": "is"
       },
@@ -29,9 +29,9 @@
             "unitPattern-count-other": "{0} snúningar"
           },
           "angle-radian": {
-            "displayName": "bogaeiningar",
-            "unitPattern-count-one": "{0} bogaeining",
-            "unitPattern-count-other": "{0} bogaeiningar"
+            "displayName": "radíanar",
+            "unitPattern-count-one": "{0} radían",
+            "unitPattern-count-other": "{0} radíanar"
           },
           "angle-degree": {
             "displayName": "gráður",
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "ferkílómetrar",
             "unitPattern-count-one": "{0} ferkílómetri",
-            "unitPattern-count-other": "{0} ferkílómetrar"
+            "unitPattern-count-other": "{0} ferkílómetrar",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektarar",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "fermílur",
             "unitPattern-count-one": "{0} fermíla",
-            "unitPattern-count-other": "{0} fermílur"
+            "unitPattern-count-other": "{0} fermílur",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "ekrur",
@@ -110,8 +112,9 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "milljónarhlutar",
+            "unitPattern-count-one": "{0} milljónarhluti",
+            "unitPattern-count-other": "{0} milljónarhlutar"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "lítrar á kílómetra",
@@ -208,7 +211,7 @@
             "displayName": "dagar",
             "unitPattern-count-one": "{0} dagur",
             "unitPattern-count-other": "{0} dagar",
-            "perUnitPattern": "{0}/d."
+            "perUnitPattern": "{0} á dag"
           },
           "duration-hour": {
             "displayName": "klukkustundir",
@@ -220,7 +223,7 @@
             "displayName": "mínútur",
             "unitPattern-count-one": "{0} mínúta",
             "unitPattern-count-other": "{0} mínútur",
-            "perUnitPattern": "{0}/min"
+            "perUnitPattern": "{0} á mínútu"
           },
           "duration-second": {
             "displayName": "sekúndur",
@@ -664,7 +667,8 @@
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
+            "unitPattern-count-one": "{0} breskt gallon",
+            "unitPattern-count-other": "{0} breskt gallon",
             "perUnitPattern": "{0}/gal Imp."
           },
           "volume-quart": {
@@ -746,7 +750,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektarar",
@@ -768,7 +773,8 @@
           "area-square-mile": {
             "displayName": "fermílur",
             "unitPattern-count-one": "{0} fermíla",
-            "unitPattern-count-other": "{0} fermílur"
+            "unitPattern-count-other": "{0} fermílur",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "ekrur",
@@ -805,7 +811,7 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "milljónarhlutar",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1441,7 +1447,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektarar",
@@ -1463,7 +1470,8 @@
           "area-square-mile": {
             "displayName": "fermílur",
             "unitPattern-count-one": "{0}mí²",
-            "unitPattern-count-other": "{0}mí²"
+            "unitPattern-count-other": "{0}mí²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "ekrur",
@@ -1500,7 +1508,7 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "milljónarhlutar",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1569,7 +1577,7 @@
           },
           "digital-bit": {
             "displayName": "biti",
-            "unitPattern-count-one": "{0} bitar",
+            "unitPattern-count-one": "{0} biti",
             "unitPattern-count-other": "{0} bitar"
           },
           "duration-century": {
@@ -2034,7 +2042,7 @@
           },
           "volume-cup-metric": {
             "displayName": "ástr. bolli",
-            "unitPattern-count-one": "{0} ástr. bollar",
+            "unitPattern-count-one": "{0} ástr. bolli",
             "unitPattern-count-other": "{0} ástr. bollar"
           },
           "volume-acre-foot": {
@@ -2069,7 +2077,7 @@
           },
           "volume-cup": {
             "displayName": "bollar",
-            "unitPattern-count-one": "{0} bollar",
+            "unitPattern-count-one": "{0} bolli",
             "unitPattern-count-other": "{0} bollar"
           },
           "volume-fluid-ounce": {

@@ -3,8 +3,8 @@
     "hu": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12293 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12879 $",
+          "_cldrVersion": "30"
         },
         "language": "hu"
       },
@@ -51,7 +51,8 @@
           "area-square-kilometer": {
             "displayName": "négyzetkilométer",
             "unitPattern-count-one": "{0} négyzetkilométer",
-            "unitPattern-count-other": "{0} négyzetkilométer"
+            "unitPattern-count-other": "{0} négyzetkilométer",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektár",
@@ -73,7 +74,8 @@
           "area-square-mile": {
             "displayName": "négyzetmérföld",
             "unitPattern-count-one": "{0} négyzetmérföld",
-            "unitPattern-count-other": "{0} négyzetmérföld"
+            "unitPattern-count-other": "{0} négyzetmérföld",
+            "perUnitPattern": "{0}/négyzetmérföld"
           },
           "area-acre": {
             "displayName": "hold",
@@ -102,16 +104,19 @@
             "unitPattern-count-other": "{0} karát"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "milligramm/deciliter",
+            "unitPattern-count-one": "{0} milligramm/deciliter",
+            "unitPattern-count-other": "{0} milligramm/deciliter"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "millimól/liter",
+            "unitPattern-count-one": "{0} millimól/liter",
+            "unitPattern-count-other": "{0} millimól/liter"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "részecske/millió",
+            "unitPattern-count-one": "{0} részecske/millió",
+            "unitPattern-count-other": "{0} részecske/millió"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "liter per kilométer",
@@ -129,8 +134,9 @@
             "unitPattern-count-other": "{0} mérföld per gallon"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mérföld/birodalmi gallon",
+            "unitPattern-count-one": "{0} mérföld/birodalmi gallon",
+            "unitPattern-count-other": "{0} mérföld/birodalmi gallon"
           },
           "digital-terabyte": {
             "displayName": "terabájt",
@@ -664,9 +670,10 @@
             "perUnitPattern": "{0}/gallon"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "birodalmi gallon",
+            "unitPattern-count-one": "{0} birodalmi gallon",
+            "unitPattern-count-other": "{0} birodalmi gallon",
+            "perUnitPattern": "{0}/birodalmi gallon"
           },
           "volume-quart": {
             "displayName": "quart",
@@ -747,7 +754,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "ha",
@@ -767,9 +775,10 @@
             "perUnitPattern": "{0}/cm²"
           },
           "area-square-mile": {
-            "displayName": "mf²",
-            "unitPattern-count-one": "{0} mf²",
-            "unitPattern-count-other": "{0} mf²"
+            "displayName": "mi²",
+            "unitPattern-count-one": "{0} mi²",
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "kh",
@@ -798,15 +807,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "mg/dl",
+            "unitPattern-count-one": "{0} mg/dl",
+            "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "millimól/liter",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "részecske/millió",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -825,8 +837,9 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mérföld/bir. gallon",
+            "unitPattern-count-one": "{0} mpg bir.",
+            "unitPattern-count-other": "{0} mpg bir."
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1360,9 +1373,10 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "bir. gal",
+            "unitPattern-count-one": "{0} bir. gal",
+            "unitPattern-count-other": "{0} bir. gal",
+            "perUnitPattern": "{0}/bir. gal"
           },
           "volume-quart": {
             "displayName": "qt",
@@ -1443,7 +1457,8 @@
           "area-square-kilometer": {
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "ha",
@@ -1463,9 +1478,10 @@
             "perUnitPattern": "{0}/cm²"
           },
           "area-square-mile": {
-            "displayName": "mf²",
+            "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "kh",
@@ -1494,15 +1510,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "mg/dl",
+            "unitPattern-count-one": "{0} mg/dl",
+            "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "millimól/liter",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
+            "displayName": "részecske/millió",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1521,8 +1540,9 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mérföld/bir. gallon",
+            "unitPattern-count-one": "{0} mpg bir.",
+            "unitPattern-count-other": "{0} mpg bir."
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -2056,9 +2076,10 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "bir. gal",
+            "unitPattern-count-one": "{0} bir. gal",
+            "unitPattern-count-other": "{0} bir. gal",
+            "perUnitPattern": "{0}/bir. gal"
           },
           "volume-quart": {
             "displayName": "qt",

@@ -3,8 +3,8 @@
     "sr-Latn": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12417 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12933 $",
+          "_cldrVersion": "30"
         },
         "language": "sr",
         "script": "Latn"
@@ -60,7 +60,8 @@
             "displayName": "kvadratni kilometri",
             "unitPattern-count-one": "{0} kvadratni kilometar",
             "unitPattern-count-few": "{0} kvadratna kilometra",
-            "unitPattern-count-other": "{0} kvadratnih kilometara"
+            "unitPattern-count-other": "{0} kvadratnih kilometara",
+            "perUnitPattern": "{0} po kvadratnom kilometru"
           },
           "area-hectare": {
             "displayName": "hektari",
@@ -86,7 +87,8 @@
             "displayName": "kvadratne milje",
             "unitPattern-count-one": "{0} kvadratna milja",
             "unitPattern-count-few": "{0} kvadratne milje",
-            "unitPattern-count-other": "{0} kvadratnih milja"
+            "unitPattern-count-other": "{0} kvadratnih milja",
+            "perUnitPattern": "{0} po kvadratnoj milji"
           },
           "area-acre": {
             "displayName": "akeri",
@@ -120,16 +122,22 @@
             "unitPattern-count-other": "{0} karata"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "miligrami po decilitru",
+            "unitPattern-count-one": "{0} miligram po decilitru",
+            "unitPattern-count-few": "{0} miligrama po decilitru",
+            "unitPattern-count-other": "{0} miligrama po decilitru"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "milimol po litri",
+            "unitPattern-count-one": "{0} milimol po litri",
+            "unitPattern-count-few": "{0} milimola po litri",
+            "unitPattern-count-other": "{0} milimola po litri"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "čestica na milion",
+            "unitPattern-count-one": "{0} čestica na milion",
+            "unitPattern-count-few": "{0} čestica na milion",
+            "unitPattern-count-other": "{0} čestica na milion"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "litri po kilometru",
@@ -150,8 +158,10 @@
             "unitPattern-count-other": "{0} milja po galonu"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "milja po imperijalnom galonu",
+            "unitPattern-count-one": "{0} milja po imperijalnom galonu",
+            "unitPattern-count-few": "{0} milje po imperijalnom galonu",
+            "unitPattern-count-other": "{0} milja po imperijalnom galonu"
           },
           "digital-terabyte": {
             "displayName": "terabajti",
@@ -266,7 +276,7 @@
             "unitPattern-count-one": "{0} sekunda",
             "unitPattern-count-few": "{0} sekunde",
             "unitPattern-count-other": "{0} sekundi",
-            "perUnitPattern": "{0}/sek"
+            "perUnitPattern": "{0}/u sekundi"
           },
           "duration-millisecond": {
             "displayName": "milisekunde",
@@ -299,7 +309,7 @@
             "unitPattern-count-other": "{0} miliampera"
           },
           "electric-ohm": {
-            "displayName": "om",
+            "displayName": "omi",
             "unitPattern-count-one": "{0} om",
             "unitPattern-count-few": "{0} oma",
             "unitPattern-count-other": "{0} oma"
@@ -481,9 +491,9 @@
           },
           "length-mile-scandinavian": {
             "displayName": "skandinavska milja",
-            "unitPattern-count-one": "{0} smi",
-            "unitPattern-count-few": "{0} smi",
-            "unitPattern-count-other": "{0} smi"
+            "unitPattern-count-one": "{0} skandinavska milja",
+            "unitPattern-count-few": "{0} skandinavske milje",
+            "unitPattern-count-other": "{0} skandinavskih milja"
           },
           "light-lux": {
             "displayName": "luks",
@@ -644,8 +654,10 @@
             "unitPattern-count-other": "{0} milja na sat"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "čvor",
+            "unitPattern-count-one": "{0} čvor",
+            "unitPattern-count-few": "{0} čvora",
+            "unitPattern-count-other": "{0} čvorova"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -782,9 +794,11 @@
             "perUnitPattern": "{0} po galonu"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "imperijalni galon",
+            "unitPattern-count-one": "{0} imp. galon",
+            "unitPattern-count-few": "{0} imp. galona",
+            "unitPattern-count-other": "{0} imp. galona",
+            "perUnitPattern": "{0} po imp. galonu"
           },
           "volume-quart": {
             "displayName": "kvarti",
@@ -823,10 +837,10 @@
             "unitPattern-count-other": "{0} kašičica"
           },
           "coordinateUnit": {
-            "east": "{0}E",
-            "north": "{0}N",
-            "south": "{0}S",
-            "west": "{0}W"
+            "east": "{0}I",
+            "north": "{0}S",
+            "south": "{0}J",
+            "west": "{0}Z"
           }
         },
         "short": {
@@ -870,7 +884,7 @@
             "unitPattern-count-other": "{0}′"
           },
           "angle-arc-second": {
-            "displayName": "sekundi",
+            "displayName": "lučne sek",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-few": "{0}″",
             "unitPattern-count-other": "{0}″"
@@ -879,7 +893,8 @@
             "displayName": "kvadratni kilometri",
             "unitPattern-count-one": "{0} km²",
             "unitPattern-count-few": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektari",
@@ -905,7 +920,8 @@
             "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
             "unitPattern-count-few": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "akeri",
@@ -940,14 +956,20 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
+            "unitPattern-count-few": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
+            "unitPattern-count-few": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-few": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -957,10 +979,10 @@
             "unitPattern-count-other": "{0} L/km"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "L/100km",
-            "unitPattern-count-one": "{0} L/100km",
-            "unitPattern-count-few": "{0} L/100km",
-            "unitPattern-count-other": "{0} L/100km"
+            "displayName": "L/100 km",
+            "unitPattern-count-one": "{0} L/100 km",
+            "unitPattern-count-few": "{0} L/100 km",
+            "unitPattern-count-other": "{0} L/100 km"
           },
           "consumption-mile-per-gallon": {
             "displayName": "mpg",
@@ -970,6 +992,8 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
+            "unitPattern-count-few": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1071,7 +1095,7 @@
             "unitPattern-count-one": "{0} sat",
             "unitPattern-count-few": "{0} sata",
             "unitPattern-count-other": "{0} sati",
-            "perUnitPattern": "{0}/s"
+            "perUnitPattern": "{0}/č"
           },
           "duration-minute": {
             "displayName": "min",
@@ -1085,7 +1109,7 @@
             "unitPattern-count-one": "{0} sek",
             "unitPattern-count-few": "{0} sek",
             "unitPattern-count-other": "{0} sek",
-            "perUnitPattern": "{0}/sek"
+            "perUnitPattern": "{0}/s"
           },
           "duration-millisecond": {
             "displayName": "ms",
@@ -1106,7 +1130,7 @@
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
-            "displayName": "amperi",
+            "displayName": "A",
             "unitPattern-count-one": "{0} A",
             "unitPattern-count-few": "{0} A",
             "unitPattern-count-other": "{0} A"
@@ -1118,13 +1142,13 @@
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "omi",
+            "displayName": "Ω",
             "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-few": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "volti",
+            "displayName": "V",
             "unitPattern-count-one": "{0} V",
             "unitPattern-count-few": "{0} V",
             "unitPattern-count-other": "{0} V"
@@ -1154,7 +1178,7 @@
             "unitPattern-count-other": "{0} kJ"
           },
           "energy-joule": {
-            "displayName": "džuli",
+            "displayName": "J",
             "unitPattern-count-one": "{0} J",
             "unitPattern-count-few": "{0} J",
             "unitPattern-count-other": "{0} J"
@@ -1361,9 +1385,9 @@
           },
           "mass-ounce": {
             "displayName": "oz",
-            "unitPattern-count-one": "{0} unca",
-            "unitPattern-count-few": "{0} unce",
-            "unitPattern-count-other": "{0} unci",
+            "unitPattern-count-one": "{0} oz",
+            "unitPattern-count-few": "{0} oz",
+            "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
           "mass-ounce-troy": {
@@ -1397,7 +1421,7 @@
             "unitPattern-count-other": "{0} kW"
           },
           "power-watt": {
-            "displayName": "vati",
+            "displayName": "W",
             "unitPattern-count-one": "{0} W",
             "unitPattern-count-few": "{0} W",
             "unitPattern-count-other": "{0} W"
@@ -1445,7 +1469,7 @@
             "unitPattern-count-other": "{0} mbar"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "kilometri na sat",
+            "displayName": "km/h",
             "unitPattern-count-one": "{0} km/h",
             "unitPattern-count-few": "{0} km/h",
             "unitPattern-count-other": "{0} km/h"
@@ -1463,8 +1487,10 @@
             "unitPattern-count-other": "{0} mi/h"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "čv",
+            "unitPattern-count-one": "{0} čv",
+            "unitPattern-count-few": "{0} čv",
+            "unitPattern-count-other": "{0} čv"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1602,6 +1628,8 @@
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
+            "unitPattern-count-one": "{0} gal Imp.",
+            "unitPattern-count-few": "{0} gal Imp.",
             "unitPattern-count-other": "{0} gal Imp.",
             "perUnitPattern": "{0}/gal Imp."
           },
@@ -1642,10 +1670,10 @@
             "unitPattern-count-other": "{0} kašič."
           },
           "coordinateUnit": {
-            "east": "{0}E",
-            "north": "{0}N",
-            "south": "{0}S",
-            "west": "{0}W"
+            "east": "{0}I",
+            "north": "{0}S",
+            "south": "{0}J",
+            "west": "{0}Z"
           }
         },
         "narrow": {
@@ -1689,7 +1717,7 @@
             "unitPattern-count-other": "{0}′"
           },
           "angle-arc-second": {
-            "displayName": "sekundi",
+            "displayName": "lučne sek",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-few": "{0}″",
             "unitPattern-count-other": "{0}″"
@@ -1698,7 +1726,8 @@
             "displayName": "kvadratni kilometri",
             "unitPattern-count-one": "{0} km²",
             "unitPattern-count-few": "{0} km²",
-            "unitPattern-count-other": "{0} km²"
+            "unitPattern-count-other": "{0} km²",
+            "perUnitPattern": "{0}/km²"
           },
           "area-hectare": {
             "displayName": "hektari",
@@ -1724,7 +1753,8 @@
             "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
             "unitPattern-count-few": "{0} mi²",
-            "unitPattern-count-other": "{0} mi²"
+            "unitPattern-count-other": "{0} mi²",
+            "perUnitPattern": "{0}/mi²"
           },
           "area-acre": {
             "displayName": "akeri",
@@ -1759,14 +1789,20 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
+            "unitPattern-count-few": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "mmol/L",
+            "unitPattern-count-one": "{0} mmol/L",
+            "unitPattern-count-few": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-few": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1789,6 +1825,8 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mpg Imp.",
+            "unitPattern-count-one": "{0} mpg Imp.",
+            "unitPattern-count-few": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-terabyte": {
@@ -1879,18 +1917,18 @@
             "perUnitPattern": "{0}/n"
           },
           "duration-day": {
-            "displayName": "d.",
+            "displayName": "d",
             "unitPattern-count-one": "{0} d",
             "unitPattern-count-few": "{0} d",
             "unitPattern-count-other": "{0} d",
             "perUnitPattern": "{0}/d"
           },
           "duration-hour": {
-            "displayName": "sat",
-            "unitPattern-count-one": "{0} sat",
-            "unitPattern-count-few": "{0} sata",
-            "unitPattern-count-other": "{0} sati",
-            "perUnitPattern": "{0}/s"
+            "displayName": "č",
+            "unitPattern-count-one": "{0} č",
+            "unitPattern-count-few": "{0} č",
+            "unitPattern-count-other": "{0} č",
+            "perUnitPattern": "{0}/č"
           },
           "duration-minute": {
             "displayName": "min",
@@ -1900,11 +1938,11 @@
             "perUnitPattern": "{0}/min"
           },
           "duration-second": {
-            "displayName": "sek",
-            "unitPattern-count-one": "{0} sek",
-            "unitPattern-count-few": "{0} sek",
-            "unitPattern-count-other": "{0} sek",
-            "perUnitPattern": "{0}/sek"
+            "displayName": "s",
+            "unitPattern-count-one": "{0} s",
+            "unitPattern-count-few": "{0} s",
+            "unitPattern-count-other": "{0} s",
+            "perUnitPattern": "{0}/s"
           },
           "duration-millisecond": {
             "displayName": "ms",
@@ -1925,7 +1963,7 @@
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
-            "displayName": "amperi",
+            "displayName": "A",
             "unitPattern-count-one": "{0} A",
             "unitPattern-count-few": "{0} A",
             "unitPattern-count-other": "{0} A"
@@ -1937,13 +1975,13 @@
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "omi",
+            "displayName": "Ω",
             "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-few": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "volti",
+            "displayName": "V",
             "unitPattern-count-one": "{0} V",
             "unitPattern-count-few": "{0} V",
             "unitPattern-count-other": "{0} V"
@@ -1973,7 +2011,7 @@
             "unitPattern-count-other": "{0} kJ"
           },
           "energy-joule": {
-            "displayName": "džuli",
+            "displayName": "J",
             "unitPattern-count-one": "{0} J",
             "unitPattern-count-few": "{0} J",
             "unitPattern-count-other": "{0} J"
@@ -2216,7 +2254,7 @@
             "unitPattern-count-other": "{0} kW"
           },
           "power-watt": {
-            "displayName": "vati",
+            "displayName": "W",
             "unitPattern-count-one": "{0} W",
             "unitPattern-count-few": "{0} W",
             "unitPattern-count-other": "{0} W"
@@ -2282,8 +2320,10 @@
             "unitPattern-count-other": "{0} mi/h"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "čv",
+            "unitPattern-count-one": "{0} čv",
+            "unitPattern-count-few": "{0} čv",
+            "unitPattern-count-other": "{0} čv"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -2421,6 +2461,8 @@
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
+            "unitPattern-count-one": "{0} gal Imp.",
+            "unitPattern-count-few": "{0} gal Imp.",
             "unitPattern-count-other": "{0} gal Imp.",
             "perUnitPattern": "{0}/gal Imp."
           },
@@ -2461,10 +2503,10 @@
             "unitPattern-count-other": "{0} kašič."
           },
           "coordinateUnit": {
-            "east": "{0}E",
-            "north": "{0}N",
-            "south": "{0}S",
-            "west": "{0}W"
+            "east": "{0}I",
+            "north": "{0}S",
+            "south": "{0}J",
+            "west": "{0}Z"
           }
         },
         "durationUnit-type-hm": {
