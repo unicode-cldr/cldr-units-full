@@ -3,8 +3,8 @@
     "te": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13186 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13686 $",
+          "_cldrVersion": "32"
         },
         "language": "te"
       },
@@ -52,7 +52,7 @@
             "displayName": "చదరపు కిలోమీటర్లు",
             "unitPattern-count-one": "{0} చదరపు కిలోమీటరు",
             "unitPattern-count-other": "{0} చదరపు కిలోమీటర్లు",
-            "perUnitPattern": "{0}/ చదరపు కిలోమీటర్లు"
+            "perUnitPattern": "చదరపు కిలోమీటరుకు {0}"
           },
           "area-hectare": {
             "displayName": "హెక్టార్లు",
@@ -63,19 +63,19 @@
             "displayName": "చదరపు మీటర్లు",
             "unitPattern-count-one": "{0} చదరపు మీటరు",
             "unitPattern-count-other": "{0} చదరపు మీటర్లు",
-            "perUnitPattern": "{0}/చదరపు మీటర్లు"
+            "perUnitPattern": "చదరపు మీటరుకు {0}"
           },
           "area-square-centimeter": {
             "displayName": "చదరపు సెంటీమీటర్లు",
             "unitPattern-count-one": "{0} చదరపు సెంటీమీటరు",
             "unitPattern-count-other": "{0} చదరపు సెంటీమీటర్లు",
-            "perUnitPattern": "{0}/చదరపు సెంటీమీటర్లు"
+            "perUnitPattern": "చదరపు సెంటీమీటరుకు {0}"
           },
           "area-square-mile": {
             "displayName": "చదరపు మైళ్లు",
             "unitPattern-count-one": "{0} చదరపు మైలు",
             "unitPattern-count-other": "{0} చదరపు మైళ్లు",
-            "perUnitPattern": "{0}/ చదరపు మైలు"
+            "perUnitPattern": "చదరపు మైలుకు {0}"
           },
           "area-acre": {
             "displayName": "ఎకరాలు",
@@ -96,7 +96,7 @@
             "displayName": "చదరపు అంగుళాలు",
             "unitPattern-count-one": "{0} చదరపు అంగుళం",
             "unitPattern-count-other": "{0} చదరపు అంగుళాలు",
-            "perUnitPattern": "{0}/చదరపు అంగుళాలు"
+            "perUnitPattern": "చదరపు అంగుళానికి {0}"
           },
           "concentr-karat": {
             "displayName": "కేరట్లు",
@@ -125,7 +125,7 @@
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "లీటర్లు/100 కీలోమీటర్లు",
-            "unitPattern-count-one": "{0} లీటర్లు/100 కీలోమీటర్లు",
+            "unitPattern-count-one": "{0} లీటరు/100 కీలోమీటర్లు",
             "unitPattern-count-other": "{0} లీటర్లు/100 కీలోమీటర్లు"
           },
           "consumption-mile-per-gallon": {
@@ -233,7 +233,7 @@
             "displayName": "సెకన్లు",
             "unitPattern-count-one": "{0} సెకను",
             "unitPattern-count-other": "{0} సెకన్లు",
-            "perUnitPattern": "{0}/సెకను"
+            "perUnitPattern": "సెకనుకు {0}"
           },
           "duration-millisecond": {
             "displayName": "మిల్లీసెకన్లు",
@@ -419,8 +419,9 @@
             "unitPattern-count-other": "{0} స్కాండినేవియన్ మైళ్లు"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "పాయింట్‌లు",
+            "unitPattern-count-one": "{0} పాయింట్",
+            "unitPattern-count-other": "{0} పాయింట్‌లు"
           },
           "light-lux": {
             "displayName": "లక్స్",
@@ -460,8 +461,9 @@
             "unitPattern-count-other": "{0} టన్నులు"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "స్టోన్లు",
+            "unitPattern-count-one": "{0} స్టోను",
+            "unitPattern-count-other": "{0} స్టోన్లు"
           },
           "mass-pound": {
             "displayName": "పౌండ్లు",
@@ -526,9 +528,9 @@
             "unitPattern-count-other": "{0} మిల్లీమీటర్ల పాదరసం"
           },
           "pressure-pound-per-square-inch": {
-            "displayName": "పౌండ్లు/చదరపు అంగుళం",
-            "unitPattern-count-one": "{0} పౌండు/చదరపు అంగుళం",
-            "unitPattern-count-other": "{0} పౌండ్లు/చదరపు అంగుళం"
+            "displayName": "చదరపు అంగుళానికి పౌండ్లు",
+            "unitPattern-count-one": "చదరపు అంగుళానికి {0} పౌండు",
+            "unitPattern-count-other": "చదరపు అంగుళానికి {0} పౌండ్లు"
           },
           "pressure-inch-hg": {
             "displayName": "అంగుళాల పాదరసం",
@@ -542,18 +544,18 @@
           },
           "speed-kilometer-per-hour": {
             "displayName": "కిలోమీటర్లు/గంట",
-            "unitPattern-count-one": "{0} కిలోమీటరు/గంట",
-            "unitPattern-count-other": "{0} కిలోమీటర్లు/గంట"
+            "unitPattern-count-one": "గంటకు {0} కిలోమీటరు",
+            "unitPattern-count-other": "గంటకు {0} కిలోమీటర్లు"
           },
           "speed-meter-per-second": {
             "displayName": "మీటర్లు/సెకను",
-            "unitPattern-count-one": "{0} మీటరు/సెకను",
-            "unitPattern-count-other": "{0} మీటర్లు/సెకను"
+            "unitPattern-count-one": "సెకనుకు {0} మీటరు",
+            "unitPattern-count-other": "సెకనుకు {0} మీటర్లు"
           },
           "speed-mile-per-hour": {
-            "displayName": "మైళ్లు/గంట",
-            "unitPattern-count-one": "{0} మైలు/గంట",
-            "unitPattern-count-other": "{0} మైళ్లు/గంట"
+            "displayName": "గంటకు మైళ్లు",
+            "unitPattern-count-one": "గంటకు {0} మైలు",
+            "unitPattern-count-other": "గంటకు {0} మైళ్లు"
           },
           "speed-knot": {
             "displayName": "నాట్",
@@ -677,7 +679,7 @@
             "displayName": "ఇంపీరియల్ గ్యాలన్లు",
             "unitPattern-count-one": "{0} ఇంపీరియల్ గ్యాలన్",
             "unitPattern-count-other": "{0} ఇంపీరియల్ గ్యాలన్లు",
-            "perUnitPattern": "{0}/ ఇంపీరియల్ గ్యాలన్"
+            "perUnitPattern": "ఇంపీరియల్ గ్యాలనుకు {0}"
           },
           "volume-quart": {
             "displayName": "పావు వంతులు",
@@ -1094,7 +1096,7 @@
           },
           "length-parsec": {
             "displayName": "పార్సెక్‌లు",
-            "unitPattern-count-one": "{0} పా.",
+            "unitPattern-count-one": "{0} పా.లు",
             "unitPattern-count-other": "{0} పా."
           },
           "length-light-year": {
@@ -1126,7 +1128,7 @@
             "unitPattern-count-other": "{0} స్కాం.మై."
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "పాయింట్‌లు",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1167,8 +1169,9 @@
             "unitPattern-count-other": "{0} టన్ను"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "స్టోన్లు",
+            "unitPattern-count-one": "{0} స్టో",
+            "unitPattern-count-other": "{0} స్టో"
           },
           "mass-pound": {
             "displayName": "పౌండ్లు",
@@ -1419,7 +1422,7 @@
           "coordinateUnit": {
             "east": "{0} తూ.",
             "north": "{0} ఉ.",
-            "south": "{0}ద",
+            "south": "{0} ద.",
             "west": "{0} ప."
           }
         },
@@ -1801,7 +1804,7 @@
           },
           "length-parsec": {
             "displayName": "పార్సెక్‌లు",
-            "unitPattern-count-one": "{0} పా.",
+            "unitPattern-count-one": "{0} పా.లు",
             "unitPattern-count-other": "{0} పా."
           },
           "length-light-year": {
@@ -1833,7 +1836,7 @@
             "unitPattern-count-other": "{0} స్కాం.మై."
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "పాయింట్‌లు",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1874,8 +1877,9 @@
             "unitPattern-count-other": "{0} టన్ను"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "స్టోను",
+            "unitPattern-count-one": "{0} స్టో",
+            "unitPattern-count-other": "{0} స్టో"
           },
           "mass-pound": {
             "displayName": "పౌండ్లు",
@@ -1985,7 +1989,7 @@
             "unitPattern-count-other": "{0}°సెల్సి"
           },
           "temperature-fahrenheit": {
-            "displayName": "డి.ఫా",
+            "displayName": "°ఫా",
             "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },

@@ -4,7 +4,7 @@
       "identity": {
         "version": {
           "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_cldrVersion": "32"
         },
         "language": "zh",
         "script": "Hans"
@@ -12,15 +12,15 @@
       "units": {
         "long": {
           "per": {
-            "compoundUnitPattern": "{0}每{1}"
+            "compoundUnitPattern": "每{1}{0}"
           },
           "acceleration-g-force": {
             "displayName": "G力",
             "unitPattern-count-other": "{0}G力"
           },
           "acceleration-meter-per-second-squared": {
-            "displayName": "米每二次方秒",
-            "unitPattern-count-other": "{0}米每二次方秒"
+            "displayName": "米/秒²",
+            "unitPattern-count-other": "每平方秒{0}米"
           },
           "angle-revolution": {
             "displayName": "转",
@@ -88,19 +88,19 @@
             "unitPattern-count-other": "{0}克拉"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "毫克每分升",
+            "displayName": "毫克/分升",
             "unitPattern-count-other": "每分升{0}毫克"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "毫摩尔每升",
+            "displayName": "毫摩尔/升",
             "unitPattern-count-other": "每升{0}毫摩尔"
           },
           "concentr-part-per-million": {
-            "displayName": "百万分之几",
+            "displayName": "ppm",
             "unitPattern-count-other": "百万分之{0}"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "升每公里",
+            "displayName": "升/公里",
             "unitPattern-count-other": "每公里{0}升"
           },
           "consumption-liter-per-100kilometers": {
@@ -108,11 +108,11 @@
             "unitPattern-count-other": "{0}升/100千米"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "英里每加仑",
+            "displayName": "英里/加仑",
             "unitPattern-count-other": "每加仑{0}英里"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "英里每英制加仑",
+            "displayName": "英里/英制加仑",
             "unitPattern-count-other": "每英制加仑{0}英里"
           },
           "digital-terabyte": {
@@ -182,7 +182,7 @@
           "duration-hour": {
             "displayName": "小时",
             "unitPattern-count-other": "{0}小时",
-            "perUnitPattern": "{0}每小时"
+            "perUnitPattern": "每小时{0}"
           },
           "duration-minute": {
             "displayName": "分钟",
@@ -444,15 +444,15 @@
             "unitPattern-count-other": "{0}毫巴"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "千米每小时",
-            "unitPattern-count-other": "{0}千米每小时"
+            "displayName": "公里/小时",
+            "unitPattern-count-other": "每小时{0}公里"
           },
           "speed-meter-per-second": {
-            "displayName": "米每秒",
-            "unitPattern-count-other": "{0}米每秒"
+            "displayName": "米/秒",
+            "unitPattern-count-other": "每秒{0}米"
           },
           "speed-mile-per-hour": {
-            "displayName": "英里每小时",
+            "displayName": "英里/小时",
             "unitPattern-count-other": "每小时{0}英里"
           },
           "speed-knot": {
@@ -665,12 +665,12 @@
             "unitPattern-count-other": "{0}克拉"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0}mg/dL"
+            "displayName": "毫克/分升",
+            "unitPattern-count-other": "{0}毫克/分升"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0}mmol/L"
+            "displayName": "毫摩尔/升",
+            "unitPattern-count-other": "{0}毫摩尔/升"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
@@ -678,7 +678,7 @@
           },
           "consumption-liter-per-kilometer": {
             "displayName": "升/公里",
-            "unitPattern-count-other": "每公里{0}升"
+            "unitPattern-count-other": "{0}升/公里"
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "升/100千米",
@@ -686,11 +686,11 @@
           },
           "consumption-mile-per-gallon": {
             "displayName": "英里/加仑",
-            "unitPattern-count-other": "每加仑{0}英里"
+            "unitPattern-count-other": "{0}英里/加仑"
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "英里/英制加仑",
-            "unitPattern-count-other": "每英制加仑{0}英里"
+            "unitPattern-count-other": "{0}英里/英制加仑"
           },
           "digital-terabyte": {
             "displayName": "太字节",
@@ -1021,7 +1021,7 @@
             "unitPattern-count-other": "{0}毫巴"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "千米/小时",
+            "displayName": "公里/小时",
             "unitPattern-count-other": "每小时{0}公里"
           },
           "speed-meter-per-second": {
@@ -1242,12 +1242,12 @@
             "unitPattern-count-other": "{0}克拉"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0}mg/dL"
+            "displayName": "毫克/分升",
+            "unitPattern-count-other": "{0}毫克/分升"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0}mmol/L"
+            "displayName": "毫摩尔/升",
+            "unitPattern-count-other": "{0}毫摩尔/升"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
@@ -1255,7 +1255,7 @@
           },
           "consumption-liter-per-kilometer": {
             "displayName": "升/公里",
-            "unitPattern-count-other": "每公里{0}升"
+            "unitPattern-count-other": "{0}升/公里"
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "升/100千米",
@@ -1263,11 +1263,11 @@
           },
           "consumption-mile-per-gallon": {
             "displayName": "英里/加仑",
-            "unitPattern-count-other": "每加仑{0}英里"
+            "unitPattern-count-other": "{0}英里/加仑"
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "英里/英制加仑",
-            "unitPattern-count-other": "每英制加仑{0}英里"
+            "unitPattern-count-other": "{0}英里/英制加仑"
           },
           "digital-terabyte": {
             "displayName": "太字节",
@@ -1598,8 +1598,8 @@
             "unitPattern-count-other": "{0}mb"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "千米/小时",
-            "unitPattern-count-other": "每小时{0}公里"
+            "displayName": "公里/小时",
+            "unitPattern-count-other": "{0}公里/小时"
           },
           "speed-meter-per-second": {
             "displayName": "米/秒",

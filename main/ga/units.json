@@ -3,8 +3,8 @@
     "ga": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13186 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13705 $",
+          "_cldrVersion": "32"
         },
         "language": "ga"
       },
@@ -655,8 +655,12 @@
             "unitPattern-count-other": "{0} míle Lochlannach"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "pointí",
+            "unitPattern-count-one": "{0} phointe",
+            "unitPattern-count-two": "{0} phointe",
+            "unitPattern-count-few": "{0} phointe",
+            "unitPattern-count-many": "{0} bpointe",
+            "unitPattern-count-other": "{0} pointe"
           },
           "light-lux": {
             "displayName": "lucsa",
@@ -1683,7 +1687,7 @@
             "unitPattern-count-two": "{0} mhíle",
             "unitPattern-count-few": "{0} mhíle",
             "unitPattern-count-many": "{0} míle",
-            "unitPattern-count-other": "{0} míle"
+            "unitPattern-count-other": "{0} mi"
           },
           "length-yard": {
             "displayName": "slata",
@@ -1745,6 +1749,10 @@
           },
           "length-fathom": {
             "displayName": "feánna",
+            "unitPattern-count-one": "{0} fm",
+            "unitPattern-count-two": "{0} fm",
+            "unitPattern-count-few": "{0} fm",
+            "unitPattern-count-many": "{0} fm",
             "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
@@ -1764,7 +1772,11 @@
             "unitPattern-count-other": "{0} míle Lch"
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "pointí",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-two": "{0} pt",
+            "unitPattern-count-few": "{0} pt",
+            "unitPattern-count-many": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1980,12 +1992,12 @@
             "unitPattern-count-other": "{0} msu"
           },
           "speed-knot": {
-            "displayName": "muirmh/u",
+            "displayName": "mrml/u",
             "unitPattern-count-one": "{0} mhuirmh/u",
-            "unitPattern-count-two": "{0} mhuirmh/u",
-            "unitPattern-count-few": "{0} mhuirmh/u",
-            "unitPattern-count-many": "{0} muirmh/u",
-            "unitPattern-count-other": "{0} muirmh/u"
+            "unitPattern-count-two": "{0} muirmh/u",
+            "unitPattern-count-few": "{0} mrml/u",
+            "unitPattern-count-many": "{0} mrml/u",
+            "unitPattern-count-other": "{0} mrml/u"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -2152,6 +2164,10 @@
           },
           "volume-bushel": {
             "displayName": "buiséil",
+            "unitPattern-count-one": "{0} bu",
+            "unitPattern-count-two": "{0} bu",
+            "unitPattern-count-few": "{0} bu",
+            "unitPattern-count-many": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2422,11 +2438,11 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "mílte/gal. imp.",
-            "unitPattern-count-one": "{0} msg imp",
-            "unitPattern-count-two": "{0} msg imp",
-            "unitPattern-count-few": "{0} msg imp",
-            "unitPattern-count-many": "{0} msg imp",
-            "unitPattern-count-other": "{0} msg imp"
+            "unitPattern-count-one": "{0}m/gRA",
+            "unitPattern-count-two": "{0}m/gRA",
+            "unitPattern-count-few": "{0}m/gRA",
+            "unitPattern-count-many": "{0}m/gRA",
+            "unitPattern-count-other": "{0}m/gRA"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -2850,6 +2866,10 @@
           },
           "length-fathom": {
             "displayName": "feá",
+            "unitPattern-count-one": "{0} fm",
+            "unitPattern-count-two": "{0} fm",
+            "unitPattern-count-few": "{0} fm",
+            "unitPattern-count-many": "{0} fm",
             "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
@@ -2862,14 +2882,18 @@
           },
           "length-mile-scandinavian": {
             "displayName": "míle Lochl.",
-            "unitPattern-count-one": "{0} míle Lch",
-            "unitPattern-count-two": "{0} mhíle Lch",
-            "unitPattern-count-few": "{0} mhíle Lch",
-            "unitPattern-count-many": "{0} míle Lch",
-            "unitPattern-count-other": "{0} míle Lch"
+            "unitPattern-count-one": "{0} m lch",
+            "unitPattern-count-two": "{0} mh lch",
+            "unitPattern-count-few": "{0} m lch",
+            "unitPattern-count-many": "{0} m lch",
+            "unitPattern-count-other": "{0} m lch"
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-two": "{0} pt",
+            "unitPattern-count-few": "{0} pt",
+            "unitPattern-count-many": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -2961,7 +2985,7 @@
             "unitPattern-count-one": "{0} unsa t",
             "unitPattern-count-two": "{0} unsa t",
             "unitPattern-count-few": "{0} unsa t",
-            "unitPattern-count-many": "{0} n-unsa t",
+            "unitPattern-count-many": "{0} unsa t",
             "unitPattern-count-other": "{0} unsa t"
           },
           "mass-carat": {
@@ -3085,12 +3109,12 @@
             "unitPattern-count-other": "{0}msu"
           },
           "speed-knot": {
-            "displayName": "muirmh/u",
-            "unitPattern-count-one": "{0} mhuirmh/u",
-            "unitPattern-count-two": "{0} mhuirmh/u",
-            "unitPattern-count-few": "{0} mhuirmh/u",
-            "unitPattern-count-many": "{0} muirmh/u",
-            "unitPattern-count-other": "{0} muirmh/u"
+            "displayName": "mrml/u",
+            "unitPattern-count-one": "{0} mrml/u",
+            "unitPattern-count-two": "{0} mrml/u",
+            "unitPattern-count-few": "{0} mrml/u",
+            "unitPattern-count-many": "{0} mrml/u",
+            "unitPattern-count-other": "{0} mrml/u"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -3257,6 +3281,10 @@
           },
           "volume-bushel": {
             "displayName": "buiséil",
+            "unitPattern-count-one": "{0} bu",
+            "unitPattern-count-two": "{0} bu",
+            "unitPattern-count-few": "{0} bu",
+            "unitPattern-count-many": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -3270,11 +3298,11 @@
           },
           "volume-gallon-imperial": {
             "displayName": "gal. imp.",
-            "unitPattern-count-one": "{0} ghal. imp.",
-            "unitPattern-count-two": "{0} ghal. imp.",
-            "unitPattern-count-few": "{0} ghal. imp.",
-            "unitPattern-count-many": "{0} ngal. imp.",
-            "unitPattern-count-other": "{0} gal. imp.",
+            "unitPattern-count-one": "{0}ghalIm",
+            "unitPattern-count-two": "{0}ghalIm",
+            "unitPattern-count-few": "{0} ghalIm",
+            "unitPattern-count-many": "{0} ngalIm",
+            "unitPattern-count-other": "{0}galIm",
             "perUnitPattern": "{0}/gal. imp."
           },
           "volume-quart": {
@@ -3306,7 +3334,7 @@
             "unitPattern-count-one": "{0} unsa l.",
             "unitPattern-count-two": "{0} unsa l.",
             "unitPattern-count-few": "{0} unsa l.",
-            "unitPattern-count-many": "{0} n-unsa l.",
+            "unitPattern-count-many": "{0} unsa l.",
             "unitPattern-count-other": "{0} unsa l."
           },
           "volume-tablespoon": {

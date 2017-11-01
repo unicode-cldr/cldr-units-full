@@ -3,8 +3,8 @@
     "mk": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13259 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13705 $",
+          "_cldrVersion": "32"
         },
         "language": "mk"
       },
@@ -209,7 +209,7 @@
             "displayName": "седмици",
             "unitPattern-count-one": "{0} седмица",
             "unitPattern-count-other": "{0} седмици",
-            "perUnitPattern": "{0} неделно"
+            "perUnitPattern": "{0} седмично"
           },
           "duration-day": {
             "displayName": "дена",
@@ -421,8 +421,9 @@
             "unitPattern-count-other": "{0} скандинавски милји"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "точки",
+            "unitPattern-count-one": "{0} точка",
+            "unitPattern-count-other": "{0} точки"
           },
           "light-lux": {
             "displayName": "лукс",
@@ -714,7 +715,7 @@
             "unitPattern-count-other": "{0} кафени лажици"
           },
           "coordinateUnit": {
-            "east": "{0}И",
+            "east": "{0} исток",
             "north": "{0}С",
             "south": "{0}Ј",
             "west": "{0}З"
@@ -930,24 +931,24 @@
           },
           "duration-hour": {
             "displayName": "часа",
-            "unitPattern-count-one": "{0} час",
-            "unitPattern-count-other": "{0} часа",
-            "perUnitPattern": "{0}/ч"
+            "unitPattern-count-one": "{0} ч.",
+            "unitPattern-count-other": "{0} ч.",
+            "perUnitPattern": "{0}/ч."
           },
           "duration-minute": {
-            "displayName": "минути",
+            "displayName": "мин.",
             "unitPattern-count-one": "{0} мин.",
             "unitPattern-count-other": "{0} мин.",
             "perUnitPattern": "{0}/мин."
           },
           "duration-second": {
-            "displayName": "секунди",
+            "displayName": "сек.",
             "unitPattern-count-one": "{0} сек.",
             "unitPattern-count-other": "{0} сек.",
             "perUnitPattern": "{0}/с"
           },
           "duration-millisecond": {
-            "displayName": "ms",
+            "displayName": "мс",
             "unitPattern-count-one": "{0} мс",
             "unitPattern-count-other": "{0} мс"
           },
@@ -1133,6 +1134,7 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1436,12 +1438,12 @@
             "compoundUnitPattern": "{0}/{1}"
           },
           "acceleration-g-force": {
-            "displayName": "гравитациска сила",
+            "displayName": "G",
             "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-second-squared": {
-            "displayName": "метри/сек²",
+            "displayName": "м/с²",
             "unitPattern-count-one": "{0} м/с²",
             "unitPattern-count-other": "{0} м/с²"
           },
@@ -1616,49 +1618,49 @@
             "unitPattern-count-other": "{0} в."
           },
           "duration-year": {
-            "displayName": "год.",
-            "unitPattern-count-one": "{0} год.",
-            "unitPattern-count-other": "{0} год.",
-            "perUnitPattern": "{0}/год."
+            "displayName": "г.",
+            "unitPattern-count-one": "{0} г.",
+            "unitPattern-count-other": "{0} г.",
+            "perUnitPattern": "{0}/г."
           },
           "duration-month": {
             "displayName": "месец",
-            "unitPattern-count-one": "{0} мес.",
-            "unitPattern-count-other": "{0} мес.",
-            "perUnitPattern": "{0}/мес."
+            "unitPattern-count-one": "{0} м.",
+            "unitPattern-count-other": "{0} м.",
+            "perUnitPattern": "{0}/м."
           },
           "duration-week": {
             "displayName": "сед.",
-            "unitPattern-count-one": "{0} сед.",
-            "unitPattern-count-other": "{0} сед.",
-            "perUnitPattern": "{0}/сед."
+            "unitPattern-count-one": "{0} с.",
+            "unitPattern-count-other": "{0} с.",
+            "perUnitPattern": "{0}/с."
           },
           "duration-day": {
             "displayName": "ден",
-            "unitPattern-count-one": "{0} ден",
-            "unitPattern-count-other": "{0} дена",
-            "perUnitPattern": "{0}/ден"
+            "unitPattern-count-one": "{0} д.",
+            "unitPattern-count-other": "{0} д.",
+            "perUnitPattern": "{0}/д."
           },
           "duration-hour": {
             "displayName": "час",
-            "unitPattern-count-one": "{0} час",
-            "unitPattern-count-other": "{0} часа",
-            "perUnitPattern": "{0}/ч"
+            "unitPattern-count-one": "{0} ч.",
+            "unitPattern-count-other": "{0} ч.",
+            "perUnitPattern": "{0}/ч."
           },
           "duration-minute": {
             "displayName": "мин",
-            "unitPattern-count-one": "{0} мин.",
-            "unitPattern-count-other": "{0} мин.",
-            "perUnitPattern": "{0}/мин."
+            "unitPattern-count-one": "{0} м.",
+            "unitPattern-count-other": "{0} м.",
+            "perUnitPattern": "{0}/м."
           },
           "duration-second": {
             "displayName": "сек.",
-            "unitPattern-count-one": "{0} сек.",
-            "unitPattern-count-other": "{0} сек.",
-            "perUnitPattern": "{0}/с"
+            "unitPattern-count-one": "{0} с.",
+            "unitPattern-count-other": "{0} с.",
+            "perUnitPattern": "{0}/с."
           },
           "duration-millisecond": {
-            "displayName": "мсек",
+            "displayName": "мс",
             "unitPattern-count-one": "{0} мс",
             "unitPattern-count-other": "{0} мс"
           },
@@ -1786,23 +1788,23 @@
             "unitPattern-count-other": "{0} пм"
           },
           "length-mile": {
-            "displayName": "милји",
+            "displayName": "ми",
             "unitPattern-count-one": "{0} ми",
             "unitPattern-count-other": "{0} ми"
           },
           "length-yard": {
-            "displayName": "јарди",
+            "displayName": "јд",
             "unitPattern-count-one": "{0} јд",
             "unitPattern-count-other": "{0} јд"
           },
           "length-foot": {
-            "displayName": "стапки",
+            "displayName": "ст",
             "unitPattern-count-one": "{0}′",
             "unitPattern-count-other": "{0}′",
             "perUnitPattern": "{0}/ст"
           },
           "length-inch": {
-            "displayName": "инчи",
+            "displayName": "ин",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-other": "{0}″",
             "perUnitPattern": "{0}/ин"
@@ -1813,7 +1815,7 @@
             "unitPattern-count-other": "{0} пс"
           },
           "length-light-year": {
-            "displayName": "свет. год.",
+            "displayName": "сг",
             "unitPattern-count-one": "{0} сг",
             "unitPattern-count-other": "{0} сг"
           },
@@ -1838,12 +1840,13 @@
             "unitPattern-count-other": "{0} нми"
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-one": "{0} smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "сми",
+            "unitPattern-count-one": "{0} сми",
+            "unitPattern-count-other": "{0} сми"
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1971,19 +1974,19 @@
             "unitPattern-count-other": "{0} к/ч"
           },
           "speed-meter-per-second": {
-            "displayName": "метри/сек",
+            "displayName": "м/с",
             "unitPattern-count-one": "{0} м/с",
             "unitPattern-count-other": "{0} м/с"
           },
           "speed-mile-per-hour": {
-            "displayName": "милји/час",
+            "displayName": "ми/ч",
             "unitPattern-count-one": "{0} ми/ч",
             "unitPattern-count-other": "{0} ми/ч"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-one": "{0} kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "ја",
+            "unitPattern-count-one": "{0} ја",
+            "unitPattern-count-other": "{0} ја"
           },
           "temperature-generic": {
             "displayName": "°",

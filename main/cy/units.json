@@ -3,8 +3,8 @@
     "cy": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13186 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13717 $",
+          "_cldrVersion": "32"
         },
         "language": "cy"
       },
@@ -208,13 +208,13 @@
             "unitPattern-count-other": "{0} litr y cilometr"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "litrau wrth y 100 cilometr",
+            "displayName": "litrau y 100 cilometr",
             "unitPattern-count-zero": "{0} litr wrth y 100 cilometr",
-            "unitPattern-count-one": "{0} litr wrth y 100 cilometr",
-            "unitPattern-count-two": "{0} litr wrth y 100 cilometr",
-            "unitPattern-count-few": "{0} litr wrth y 100 cilometr",
-            "unitPattern-count-many": "{0} litr wrth y 100 cilometr",
-            "unitPattern-count-other": "{0} litr wrth y 100 cilometr"
+            "unitPattern-count-one": "{0} litr y 100 cilometr",
+            "unitPattern-count-two": "{0} litr y 100 cilometr",
+            "unitPattern-count-few": "{0} litr y 100 cilometr",
+            "unitPattern-count-many": "{0} litr y 100 cilometr",
+            "unitPattern-count-other": "{0} litr y 100 cilometr"
           },
           "consumption-mile-per-gallon": {
             "displayName": "milltiroedd y galwyn",
@@ -724,7 +724,7 @@
             "unitPattern-count-other": "{0} milltir fôr"
           },
           "length-mile-scandinavian": {
-            "displayName": "milltir Sgandinafia",
+            "displayName": "milltiroedd Sgandinafia",
             "unitPattern-count-zero": "{0} milltir Sgandinafia",
             "unitPattern-count-one": "{0} filltir Sgandinafia",
             "unitPattern-count-two": "{0} filltir Sgandinafia",
@@ -733,8 +733,13 @@
             "unitPattern-count-other": "{0} milltir Sgandinafia"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "pwyntiau",
+            "unitPattern-count-zero": "{0} pwynt",
+            "unitPattern-count-one": "{0} pwynt",
+            "unitPattern-count-two": "{0} bwynt",
+            "unitPattern-count-few": "{0} phwynt",
+            "unitPattern-count-many": "{0} phwynt",
+            "unitPattern-count-other": "{0} pwynt"
           },
           "light-lux": {
             "displayName": "lycsau",
@@ -867,7 +872,7 @@
             "unitPattern-count-other": "{0} megawat"
           },
           "power-kilowatt": {
-            "displayName": "cilawatiau",
+            "displayName": "cilowatiau",
             "unitPattern-count-zero": "{0} cilowat",
             "unitPattern-count-one": "{0} cilowat",
             "unitPattern-count-two": "{0} gilowat",
@@ -939,7 +944,7 @@
             "unitPattern-count-other": "{0} modfedd o fercwri"
           },
           "pressure-millibar": {
-            "displayName": "milibarrau",
+            "displayName": "milibarau",
             "unitPattern-count-zero": "{0} milibar",
             "unitPattern-count-one": "{0} milibar",
             "unitPattern-count-two": "{0} filibar",
@@ -1814,14 +1819,14 @@
             "perUnitPattern": "{0}/km"
           },
           "length-meter": {
-            "displayName": "metrau",
+            "displayName": "m",
             "unitPattern-count-zero": "{0} m",
             "unitPattern-count-one": "{0} m",
             "unitPattern-count-two": "{0} m",
             "unitPattern-count-few": "{0} m",
             "unitPattern-count-many": "{0} m",
             "unitPattern-count-other": "{0} m",
-            "perUnitPattern": "{0} y metr"
+            "perUnitPattern": "{0}/m"
           },
           "length-decimeter": {
             "displayName": "dm",
@@ -1976,6 +1981,11 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-zero": "{0} pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-two": "{0} pt",
+            "unitPattern-count-few": "{0} pt",
+            "unitPattern-count-many": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -2154,13 +2164,13 @@
             "unitPattern-count-other": "{0} hPa"
           },
           "pressure-millimeter-of-mercury": {
-            "displayName": "mm Hg",
-            "unitPattern-count-zero": "{0} mm Hg",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-two": "{0} mm Hg",
-            "unitPattern-count-few": "{0} mm Hg",
-            "unitPattern-count-many": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-zero": "{0} mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-two": "{0} mmHg",
+            "unitPattern-count-few": "{0} mmHg",
+            "unitPattern-count-many": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "psi",
@@ -2492,10 +2502,10 @@
             "unitPattern-count-other": "{0} tsp"
           },
           "coordinateUnit": {
-            "east": "{0}dn",
-            "north": "{0}g",
-            "south": "{0}d",
-            "west": "{0}gn"
+            "east": "{0} dn",
+            "north": "{0} g",
+            "south": "{0} d",
+            "west": "{0} gn"
           }
         },
         "narrow": {
@@ -3056,7 +3066,7 @@
             "perUnitPattern": "{0}/km"
           },
           "length-meter": {
-            "displayName": "metr",
+            "displayName": "m",
             "unitPattern-count-zero": "{0}m",
             "unitPattern-count-one": "{0}m",
             "unitPattern-count-two": "{0}m",
@@ -3218,6 +3228,11 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-zero": "{0} pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-two": "{0} pt",
+            "unitPattern-count-few": "{0} pt",
+            "unitPattern-count-many": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -3396,13 +3411,13 @@
             "unitPattern-count-other": "{0}hPa"
           },
           "pressure-millimeter-of-mercury": {
-            "displayName": "mm Hg",
-            "unitPattern-count-zero": "{0}mm Hg",
-            "unitPattern-count-one": "{0}mm Hg",
-            "unitPattern-count-two": "{0}mm Hg",
-            "unitPattern-count-few": "{0}mm Hg",
-            "unitPattern-count-many": "{0}mm Hg",
-            "unitPattern-count-other": "{0}mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-zero": "{0}mmHg",
+            "unitPattern-count-one": "{0}mmHg",
+            "unitPattern-count-two": "{0}mmHg",
+            "unitPattern-count-few": "{0}mmHg",
+            "unitPattern-count-many": "{0}mmHg",
+            "unitPattern-count-other": "{0}mmHg"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "psi",

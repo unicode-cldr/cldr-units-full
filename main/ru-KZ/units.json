@@ -4,7 +4,7 @@
       "identity": {
         "version": {
           "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_cldrVersion": "32"
         },
         "language": "ru",
         "territory": "KZ"
@@ -12,7 +12,7 @@
       "units": {
         "long": {
           "per": {
-            "compoundUnitPattern": "{0} на {1}"
+            "compoundUnitPattern": "{0}/{1}"
           },
           "acceleration-g-force": {
             "displayName": "ускорение свободного падения",
@@ -550,12 +550,18 @@
             "unitPattern-count-other": "{0} астрономической единицы"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фурлонги",
+            "unitPattern-count-one": "{0} фурлонг",
+            "unitPattern-count-few": "{0} фурлонга",
+            "unitPattern-count-many": "{0} фурлонгов",
+            "unitPattern-count-other": "{0} фурлонга"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "displayName": "морские сажени",
+            "unitPattern-count-one": "{0} морская сажень",
+            "unitPattern-count-few": "{0} морских сажени",
+            "unitPattern-count-many": "{0} морских саженей",
+            "unitPattern-count-other": "{0} морской сажени"
           },
           "length-nautical-mile": {
             "displayName": "морские мили",
@@ -565,15 +571,18 @@
             "unitPattern-count-other": "{0} морской мили"
           },
           "length-mile-scandinavian": {
-            "displayName": "скандинавская миля",
+            "displayName": "скандинавские мили",
             "unitPattern-count-one": "{0} скандинавская миля",
             "unitPattern-count-few": "{0} скандинавские мили",
             "unitPattern-count-many": "{0} скандинавских миль",
             "unitPattern-count-other": "{0} скандинавской мили"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "пункты",
+            "unitPattern-count-one": "{0} пункт",
+            "unitPattern-count-few": "{0} пункта",
+            "unitPattern-count-many": "{0} пунктов",
+            "unitPattern-count-other": "{0} пункта"
           },
           "light-lux": {
             "displayName": "люксы",
@@ -627,8 +636,11 @@
             "unitPattern-count-other": "{0} американской тонны"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стоуны",
+            "unitPattern-count-one": "{0} стоун",
+            "unitPattern-count-few": "{0} стоуна",
+            "unitPattern-count-many": "{0} стоунов",
+            "unitPattern-count-other": "{0} стоуна"
           },
           "mass-pound": {
             "displayName": "фунты",
@@ -1265,26 +1277,26 @@
           },
           "duration-hour": {
             "displayName": "ч",
-            "unitPattern-count-one": "{0} ч",
-            "unitPattern-count-few": "{0} ч",
-            "unitPattern-count-many": "{0} ч",
-            "unitPattern-count-other": "{0} ч",
+            "unitPattern-count-one": "{0} ч.",
+            "unitPattern-count-few": "{0} ч.",
+            "unitPattern-count-many": "{0} ч.",
+            "unitPattern-count-other": "{0} ч.",
             "perUnitPattern": "{0}/ч"
           },
           "duration-minute": {
             "displayName": "мин",
-            "unitPattern-count-one": "{0} мин",
-            "unitPattern-count-few": "{0} мин",
-            "unitPattern-count-many": "{0} мин",
-            "unitPattern-count-other": "{0} мин",
+            "unitPattern-count-one": "{0} мин.",
+            "unitPattern-count-few": "{0} мин.",
+            "unitPattern-count-many": "{0} мин.",
+            "unitPattern-count-other": "{0} мин.",
             "perUnitPattern": "{0}/мин"
           },
           "duration-second": {
             "displayName": "с",
-            "unitPattern-count-one": "{0} с",
-            "unitPattern-count-few": "{0} с",
-            "unitPattern-count-many": "{0} с",
-            "unitPattern-count-other": "{0} с",
+            "unitPattern-count-one": "{0} с.",
+            "unitPattern-count-few": "{0} с.",
+            "unitPattern-count-many": "{0} с.",
+            "unitPattern-count-other": "{0} с.",
             "perUnitPattern": "{0}/c"
           },
           "duration-millisecond": {
@@ -1480,12 +1492,12 @@
             "unitPattern-count-other": "{0} ярд."
           },
           "length-foot": {
-            "displayName": "фут.",
+            "displayName": "фт",
             "unitPattern-count-one": "{0} фут",
-            "unitPattern-count-few": "{0} фут.",
-            "unitPattern-count-many": "{0} фут.",
-            "unitPattern-count-other": "{0} фут.",
-            "perUnitPattern": "{0}/фут"
+            "unitPattern-count-few": "{0} фута",
+            "unitPattern-count-many": "{0} футов",
+            "unitPattern-count-other": "{0} фута",
+            "perUnitPattern": "{0}/фт"
           },
           "length-inch": {
             "displayName": "дюйм.",
@@ -1517,12 +1529,18 @@
             "unitPattern-count-other": "{0} а. е."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фурлонги",
+            "unitPattern-count-one": "{0} фурл.",
+            "unitPattern-count-few": "{0} фурл.",
+            "unitPattern-count-many": "{0} фурл.",
+            "unitPattern-count-other": "{0} фурл."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "displayName": "мор. сажени",
+            "unitPattern-count-one": "{0} мор. сажень",
+            "unitPattern-count-few": "{0} мор. сажени",
+            "unitPattern-count-many": "{0} мор. саженей",
+            "unitPattern-count-other": "{0} мор. сажени"
           },
           "length-nautical-mile": {
             "displayName": "мор. мили",
@@ -1539,8 +1557,11 @@
             "unitPattern-count-other": "{0} ск. мил."
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "пкт",
+            "unitPattern-count-one": "{0} пкт",
+            "unitPattern-count-few": "{0} пкт",
+            "unitPattern-count-many": "{0} пкт",
+            "unitPattern-count-other": "{0} пкт"
           },
           "light-lux": {
             "displayName": "лк",
@@ -1594,8 +1615,11 @@
             "unitPattern-count-other": "{0} амер. т"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стоуны",
+            "unitPattern-count-one": "{0} стоун",
+            "unitPattern-count-few": "{0} стоуна",
+            "unitPattern-count-many": "{0} стоунов",
+            "unitPattern-count-other": "{0} стоуна"
           },
           "mass-pound": {
             "displayName": "фунт.",
@@ -1720,7 +1744,7 @@
           },
           "speed-mile-per-hour": {
             "displayName": "мили/час",
-            "unitPattern-count-one": "{0} миль/час",
+            "unitPattern-count-one": "{0} миля/час",
             "unitPattern-count-few": "{0} мили/час",
             "unitPattern-count-many": "{0} миль/час",
             "unitPattern-count-other": "{0} мили/час"
@@ -1786,9 +1810,9 @@
           "volume-cubic-mile": {
             "displayName": "миля³",
             "unitPattern-count-one": "{0} миля³",
-            "unitPattern-count-few": "{0} миля³",
-            "unitPattern-count-many": "{0} миля³",
-            "unitPattern-count-other": "{0} миля³"
+            "unitPattern-count-few": "{0} мили³",
+            "unitPattern-count-many": "{0} миль³",
+            "unitPattern-count-other": "{0} мили³"
           },
           "volume-cubic-yard": {
             "displayName": "ярд³",
@@ -2204,7 +2228,7 @@
             "unitPattern-count-few": "{0} г.",
             "unitPattern-count-many": "{0} л.",
             "unitPattern-count-other": "{0} г.",
-            "perUnitPattern": "{0}/г"
+            "perUnitPattern": "{0}/г."
           },
           "duration-month": {
             "displayName": "м.",
@@ -2212,7 +2236,7 @@
             "unitPattern-count-few": "{0} м.",
             "unitPattern-count-many": "{0} м.",
             "unitPattern-count-other": "{0} м.",
-            "perUnitPattern": "{0}/мес"
+            "perUnitPattern": "{0}/м."
           },
           "duration-week": {
             "displayName": "н.",
@@ -2220,7 +2244,7 @@
             "unitPattern-count-few": "{0} н.",
             "unitPattern-count-many": "{0} н.",
             "unitPattern-count-other": "{0} н.",
-            "perUnitPattern": "{0}/нед"
+            "perUnitPattern": "{0}/н."
           },
           "duration-day": {
             "displayName": "д.",
@@ -2228,30 +2252,30 @@
             "unitPattern-count-few": "{0} д.",
             "unitPattern-count-many": "{0} д.",
             "unitPattern-count-other": "{0} д.",
-            "perUnitPattern": "{0}/д"
+            "perUnitPattern": "{0}/д."
           },
           "duration-hour": {
             "displayName": "ч",
-            "unitPattern-count-one": "{0} ч",
-            "unitPattern-count-few": "{0} ч",
-            "unitPattern-count-many": "{0} ч",
-            "unitPattern-count-other": "{0} ч",
-            "perUnitPattern": "{0}/ч"
+            "unitPattern-count-one": "{0} ч.",
+            "unitPattern-count-few": "{0} ч.",
+            "unitPattern-count-many": "{0} ч.",
+            "unitPattern-count-other": "{0} ч.",
+            "perUnitPattern": "{0}/ч."
           },
           "duration-minute": {
             "displayName": "мин",
-            "unitPattern-count-one": "{0} мин",
-            "unitPattern-count-few": "{0} мин",
-            "unitPattern-count-many": "{0} мин",
-            "unitPattern-count-other": "{0} мин",
-            "perUnitPattern": "{0}/мин"
+            "unitPattern-count-one": "{0} мин.",
+            "unitPattern-count-few": "{0} мин.",
+            "unitPattern-count-many": "{0} мин.",
+            "unitPattern-count-other": "{0} мин.",
+            "perUnitPattern": "{0}/мин."
           },
           "duration-second": {
             "displayName": "c",
-            "unitPattern-count-one": "{0} с",
-            "unitPattern-count-few": "{0} с",
-            "unitPattern-count-many": "{0} с",
-            "unitPattern-count-other": "{0} с",
+            "unitPattern-count-one": "{0} с.",
+            "unitPattern-count-few": "{0} с.",
+            "unitPattern-count-many": "{0} с.",
+            "unitPattern-count-other": "{0} с.",
             "perUnitPattern": "{0}/c"
           },
           "duration-millisecond": {
@@ -2433,7 +2457,7 @@
             "unitPattern-count-other": "{0} pm"
           },
           "length-mile": {
-            "displayName": "мили",
+            "displayName": "мл.",
             "unitPattern-count-one": "{0} миля",
             "unitPattern-count-few": "{0} миль",
             "unitPattern-count-many": "{0} миль",
@@ -2447,12 +2471,12 @@
             "unitPattern-count-other": "{0} ярда"
           },
           "length-foot": {
-            "displayName": "фут.",
-            "unitPattern-count-one": "{0} фут",
-            "unitPattern-count-few": "{0} фута",
-            "unitPattern-count-many": "{0} футов",
-            "unitPattern-count-other": "{0} фута",
-            "perUnitPattern": "{0}/фут"
+            "displayName": "фт",
+            "unitPattern-count-one": "{0} фт",
+            "unitPattern-count-few": "{0} фт",
+            "unitPattern-count-many": "{0} фт",
+            "unitPattern-count-other": "{0} фт",
+            "perUnitPattern": "{0}/фт"
           },
           "length-inch": {
             "displayName": "дюйм.",
@@ -2460,7 +2484,7 @@
             "unitPattern-count-few": "{0} дюйма",
             "unitPattern-count-many": "{0} дюймов",
             "unitPattern-count-other": "{0} дюйма",
-            "perUnitPattern": "{0}/дюйм"
+            "perUnitPattern": "{0}/дюйм."
           },
           "length-parsec": {
             "displayName": "пк",
@@ -2484,30 +2508,39 @@
             "unitPattern-count-other": "{0} а. е."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фрл",
+            "unitPattern-count-one": "{0} фрл",
+            "unitPattern-count-few": "{0} фрл",
+            "unitPattern-count-many": "{0} фрл",
+            "unitPattern-count-other": "{0} фрл"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "displayName": "м. саж.",
+            "unitPattern-count-one": "{0} м. саж.",
+            "unitPattern-count-few": "{0} м. саж.",
+            "unitPattern-count-many": "{0} м. саж.",
+            "unitPattern-count-other": "{0} м. саж."
           },
           "length-nautical-mile": {
             "displayName": "мор. мили",
-            "unitPattern-count-one": "{0} мор. миля",
-            "unitPattern-count-few": "{0} мор. мили",
-            "unitPattern-count-many": "{0} мор. миль",
-            "unitPattern-count-other": "{0} мор. мили"
+            "unitPattern-count-one": "{0} м. мл.",
+            "unitPattern-count-few": "{0} м. мл.",
+            "unitPattern-count-many": "{0} м. мл.",
+            "unitPattern-count-other": "{0} м. мл."
           },
           "length-mile-scandinavian": {
-            "displayName": "ск. мил.",
-            "unitPattern-count-one": "{0} ск. мил.",
-            "unitPattern-count-few": "{0} ск. мил.",
-            "unitPattern-count-many": "{0} ск. мил.",
-            "unitPattern-count-other": "{0} ск. мил."
+            "displayName": "ск. мл.",
+            "unitPattern-count-one": "{0} ск. мл.",
+            "unitPattern-count-few": "{0} ск. мл.",
+            "unitPattern-count-many": "{0} ск. мл.",
+            "unitPattern-count-other": "{0} ск. мл."
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "пкт",
+            "unitPattern-count-one": "{0} пкт",
+            "unitPattern-count-few": "{0} пкт",
+            "unitPattern-count-many": "{0} пкт",
+            "unitPattern-count-other": "{0} пкт"
           },
           "light-lux": {
             "displayName": "лк",
@@ -2554,23 +2587,26 @@
             "unitPattern-count-other": "{0} мкг"
           },
           "mass-ton": {
-            "displayName": "амер. т",
-            "unitPattern-count-one": "{0} амер. т",
-            "unitPattern-count-few": "{0} амер. т",
-            "unitPattern-count-many": "{0} амер. т",
-            "unitPattern-count-other": "{0} амер. т"
+            "displayName": "ам. т",
+            "unitPattern-count-one": "{0} ам. т",
+            "unitPattern-count-few": "{0} ам. т",
+            "unitPattern-count-many": "{0} ам. т",
+            "unitPattern-count-other": "{0} ам. т"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стн",
+            "unitPattern-count-one": "{0} стн",
+            "unitPattern-count-few": "{0} стн",
+            "unitPattern-count-many": "{0} стн",
+            "unitPattern-count-other": "{0} стн"
           },
           "mass-pound": {
-            "displayName": "фунт.",
+            "displayName": "фнт",
             "unitPattern-count-one": "{0} lb",
             "unitPattern-count-few": "{0} lb",
             "unitPattern-count-many": "{0} lb",
             "unitPattern-count-other": "{0} lb",
-            "perUnitPattern": "{0}/фунт"
+            "perUnitPattern": "{0}/фнт"
           },
           "mass-ounce": {
             "displayName": "унц.",
@@ -2578,7 +2614,7 @@
             "unitPattern-count-few": "{0} oz",
             "unitPattern-count-many": "{0} oz",
             "unitPattern-count-other": "{0} oz",
-            "perUnitPattern": "{0}/унц"
+            "perUnitPattern": "{0}/унц."
           },
           "mass-ounce-troy": {
             "displayName": "тр. унц.",

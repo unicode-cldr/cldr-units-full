@@ -3,8 +3,8 @@
     "ar-TN": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13701 $",
+          "_cldrVersion": "32"
         },
         "language": "ar",
         "territory": "TN"
@@ -53,8 +53,8 @@
           "angle-degree": {
             "displayName": "درجة",
             "unitPattern-count-zero": "{0} درجة",
-            "unitPattern-count-one": "{0} درجة",
-            "unitPattern-count-two": "درجتان ({0})",
+            "unitPattern-count-one": "درجة",
+            "unitPattern-count-two": "درجتان",
             "unitPattern-count-few": "{0} درجات",
             "unitPattern-count-many": "{0} درجة",
             "unitPattern-count-other": "{0} درجة"
@@ -91,8 +91,8 @@
             "displayName": "هكتار",
             "unitPattern-count-zero": "{0} هكتار",
             "unitPattern-count-one": "{0} هكتار",
-            "unitPattern-count-two": "هكتاران",
-            "unitPattern-count-few": "{0} هكتارات",
+            "unitPattern-count-two": "{0} هكتار",
+            "unitPattern-count-few": "{0} هكتار",
             "unitPattern-count-many": "{0} هكتار",
             "unitPattern-count-other": "{0} هكتار"
           },
@@ -328,8 +328,8 @@
           "duration-century": {
             "displayName": "قرون",
             "unitPattern-count-zero": "{0} قرن",
-            "unitPattern-count-one": "قرن ({0})",
-            "unitPattern-count-two": "قرنان ({0})",
+            "unitPattern-count-one": "قرن",
+            "unitPattern-count-two": "قرنان",
             "unitPattern-count-few": "{0} قرون",
             "unitPattern-count-many": "{0} قرنًا",
             "unitPattern-count-other": "{0} قرن"
@@ -472,7 +472,7 @@
             "unitPattern-count-zero": "{0} كيلو سعرة",
             "unitPattern-count-one": "{0} كيلو سعرة",
             "unitPattern-count-two": "{0} كيلو سعرة",
-            "unitPattern-count-few": "{0} كيلو كالوري",
+            "unitPattern-count-few": "{0} كيلو سعرة",
             "unitPattern-count-many": "{0} كيلو سعرة",
             "unitPattern-count-other": "{0} كيلو سعرة"
           },
@@ -724,8 +724,13 @@
             "unitPattern-count-other": "{0} ميل اسكندنافي"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "نقطة",
+            "unitPattern-count-zero": "{0} نقطة",
+            "unitPattern-count-one": "نقطة",
+            "unitPattern-count-two": "نقطتان",
+            "unitPattern-count-few": "{0} نقاط",
+            "unitPattern-count-many": "{0} نقطة",
+            "unitPattern-count-other": "{0} نقطة"
           },
           "light-lux": {
             "displayName": "لكس",
@@ -758,8 +763,8 @@
           "mass-gram": {
             "displayName": "غرام",
             "unitPattern-count-zero": "{0} غرام",
-            "unitPattern-count-one": "غرام ({0})",
-            "unitPattern-count-two": "غرامان ({0})",
+            "unitPattern-count-one": "غرام",
+            "unitPattern-count-two": "غرامان",
             "unitPattern-count-few": "{0} غرامات",
             "unitPattern-count-many": "{0} غرامًا",
             "unitPattern-count-other": "{0} غرام",
@@ -898,13 +903,13 @@
             "unitPattern-count-other": "{0} هكتوباسكال"
           },
           "pressure-millimeter-of-mercury": {
-            "displayName": "ملليمتر زئبقي",
-            "unitPattern-count-zero": "{0} ملليمتر زئبقي",
-            "unitPattern-count-one": "{0} ملليمتر زئبقي",
-            "unitPattern-count-two": "{0} ملليمتر زئبقي",
-            "unitPattern-count-few": "{0} ملليمتر زئبقي",
-            "unitPattern-count-many": "{0} ملليمتر زئبقي",
-            "unitPattern-count-other": "{0} ملليمتر زئبقي"
+            "displayName": "مليمتر زئبقي",
+            "unitPattern-count-zero": "{0} مليمتر زئبقي",
+            "unitPattern-count-one": "{0} مليمتر زئبقي",
+            "unitPattern-count-two": "{0} مليمتر زئبقي",
+            "unitPattern-count-few": "{0} مليمتر زئبقي",
+            "unitPattern-count-many": "{0} مليمتر زئبقي",
+            "unitPattern-count-other": "{0} مليمتر زئبقي"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "رطل لكل بوصة مربعة",
@@ -1280,7 +1285,7 @@
           "angle-degree": {
             "displayName": "درجة",
             "unitPattern-count-zero": "{0} درجة",
-            "unitPattern-count-one": "{0} درجة",
+            "unitPattern-count-one": "درجة",
             "unitPattern-count-two": "درجتان",
             "unitPattern-count-few": "{0} درجات",
             "unitPattern-count-many": "{0} درجة",
@@ -1632,7 +1637,7 @@
             "perUnitPattern": "{0}/ث"
           },
           "duration-millisecond": {
-            "displayName": "مللي ثانية",
+            "displayName": "ملي ثانية",
             "unitPattern-count-zero": "{0} ملي ث",
             "unitPattern-count-one": "{0} ملي ث",
             "unitPattern-count-two": "{0} ملي ث",
@@ -1709,16 +1714,16 @@
             "unitPattern-count-one": "{0} سع",
             "unitPattern-count-two": "{0} سع",
             "unitPattern-count-few": "{0} سع",
-            "unitPattern-count-many": "{0} كالوري",
+            "unitPattern-count-many": "{0} سع",
             "unitPattern-count-other": "{0} سع"
           },
           "energy-foodcalorie": {
             "displayName": "سع",
             "unitPattern-count-zero": "{0} سع",
             "unitPattern-count-one": "{0} سع",
-            "unitPattern-count-two": "{0} كالوري",
-            "unitPattern-count-few": "{0} كالوري",
-            "unitPattern-count-many": "{0} كالوري",
+            "unitPattern-count-two": "{0} سع",
+            "unitPattern-count-few": "{0} سع",
+            "unitPattern-count-many": "{0} سع",
             "unitPattern-count-other": "{0} سع"
           },
           "energy-kilojoule": {
@@ -1825,12 +1830,12 @@
           },
           "length-millimeter": {
             "displayName": "مليمتر",
-            "unitPattern-count-zero": "{0} ملم",
-            "unitPattern-count-one": "{0} ملم",
-            "unitPattern-count-two": "{0} ملم",
-            "unitPattern-count-few": "{0} ملم",
-            "unitPattern-count-many": "{0} ملم",
-            "unitPattern-count-other": "{0} ملم"
+            "unitPattern-count-zero": "{0} مم",
+            "unitPattern-count-one": "{0} مم",
+            "unitPattern-count-two": "{0} مم",
+            "unitPattern-count-few": "{0} مم",
+            "unitPattern-count-many": "{0} مم",
+            "unitPattern-count-other": "{0} مم"
           },
           "length-micrometer": {
             "displayName": "ميكرومتر",
@@ -1951,8 +1956,13 @@
             "unitPattern-count-other": "{0} ميل اسكندنافي"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "نقطة",
+            "unitPattern-count-zero": "{0} ن",
+            "unitPattern-count-one": "{0} ن",
+            "unitPattern-count-two": "{0} ن",
+            "unitPattern-count-few": "{0} ن",
+            "unitPattern-count-many": "{0} ن",
+            "unitPattern-count-other": "{0} ن"
           },
           "light-lux": {
             "displayName": "لكس",
@@ -1985,12 +1995,12 @@
           "mass-gram": {
             "displayName": "غرام",
             "unitPattern-count-zero": "{0} غرام",
-            "unitPattern-count-one": "غرام ({0})",
-            "unitPattern-count-two": "غرامان ({0})",
-            "unitPattern-count-few": "{0} غرامات",
-            "unitPattern-count-many": "{0} غرامًا",
-            "unitPattern-count-other": "{0} غ",
-            "perUnitPattern": "{0}/غ"
+            "unitPattern-count-one": "غرام",
+            "unitPattern-count-two": "{0} غرام",
+            "unitPattern-count-few": "{0} غرام",
+            "unitPattern-count-many": "{0} غرام",
+            "unitPattern-count-other": "{0} غرام",
+            "perUnitPattern": "{0}/غرام"
           },
           "mass-milligram": {
             "displayName": "مغم",
@@ -2387,9 +2397,9 @@
             "displayName": "غالون",
             "unitPattern-count-zero": "{0} غالون",
             "unitPattern-count-one": "غالون",
-            "unitPattern-count-two": "غالونان",
-            "unitPattern-count-few": "{0} غالونات",
-            "unitPattern-count-many": "{0} غالونًا",
+            "unitPattern-count-two": "{0} غالون",
+            "unitPattern-count-few": "{0} غالون",
+            "unitPattern-count-many": "{0} غالون",
             "unitPattern-count-other": "{0} غالون",
             "perUnitPattern": "{0}/غالون"
           },
@@ -2440,7 +2450,7 @@
             "unitPattern-count-other": "{0} أونصة س"
           },
           "volume-tablespoon": {
-            "displayName": "ملعقة المائدة",
+            "displayName": "ملعقة كبيرة",
             "unitPattern-count-zero": "{0} ملعقة ك.",
             "unitPattern-count-one": "ملعقة ك.",
             "unitPattern-count-two": "{0} ملعقة ك.",
@@ -2936,16 +2946,16 @@
             "unitPattern-count-one": "{0} سع",
             "unitPattern-count-two": "{0} سع",
             "unitPattern-count-few": "{0} سع",
-            "unitPattern-count-many": "{0} كالوري",
+            "unitPattern-count-many": "{0} سع",
             "unitPattern-count-other": "{0} سع"
           },
           "energy-foodcalorie": {
             "displayName": "سع",
             "unitPattern-count-zero": "{0} سع",
             "unitPattern-count-one": "{0} سع",
-            "unitPattern-count-two": "{0} كالوري",
-            "unitPattern-count-few": "{0} كالوري",
-            "unitPattern-count-many": "{0} كالوري",
+            "unitPattern-count-two": "{0} سع",
+            "unitPattern-count-few": "{0} سع",
+            "unitPattern-count-many": "{0} سع",
             "unitPattern-count-other": "{0} سع"
           },
           "energy-kilojoule": {
@@ -3024,7 +3034,7 @@
           "length-meter": {
             "displayName": "متر",
             "unitPattern-count-zero": "{0} م",
-            "unitPattern-count-one": "{0} متر",
+            "unitPattern-count-one": "{0} م",
             "unitPattern-count-two": "{0} م",
             "unitPattern-count-few": "{0} م",
             "unitPattern-count-many": "{0} م",
@@ -3052,12 +3062,12 @@
           },
           "length-millimeter": {
             "displayName": "مم",
-            "unitPattern-count-zero": "{0} ملم",
-            "unitPattern-count-one": "{0} ملم",
-            "unitPattern-count-two": "{0} ملم",
-            "unitPattern-count-few": "{0} ملم",
-            "unitPattern-count-many": "{0} ملم",
-            "unitPattern-count-other": "{0} ملم"
+            "unitPattern-count-zero": "{0} مم",
+            "unitPattern-count-one": "{0} مم",
+            "unitPattern-count-two": "{0} مم",
+            "unitPattern-count-few": "{0} مم",
+            "unitPattern-count-many": "{0} مم",
+            "unitPattern-count-other": "{0} مم"
           },
           "length-micrometer": {
             "displayName": "ميكرومتر",
@@ -3178,8 +3188,13 @@
             "unitPattern-count-other": "{0} ميل اسكندنافي"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "نقطة",
+            "unitPattern-count-zero": "{0} ن",
+            "unitPattern-count-one": "{0} ن",
+            "unitPattern-count-two": "{0} ن",
+            "unitPattern-count-few": "{0} ن",
+            "unitPattern-count-many": "{0} ن",
+            "unitPattern-count-other": "{0} ن"
           },
           "light-lux": {
             "displayName": "لكس",
@@ -3202,7 +3217,7 @@
           "mass-kilogram": {
             "displayName": "كغ",
             "unitPattern-count-zero": "{0} كغ",
-            "unitPattern-count-one": "{0} كغم",
+            "unitPattern-count-one": "{0} كغ",
             "unitPattern-count-two": "{0} كغ",
             "unitPattern-count-few": "{0} كغ",
             "unitPattern-count-many": "{0} كغ",
@@ -3216,8 +3231,8 @@
             "unitPattern-count-two": "{0} غ",
             "unitPattern-count-few": "{0} غ",
             "unitPattern-count-many": "{0} غ",
-            "unitPattern-count-other": "{0}غ",
-            "perUnitPattern": "{0}/غ"
+            "unitPattern-count-other": "{0} غ",
+            "perUnitPattern": "{0}/غرام"
           },
           "mass-milligram": {
             "displayName": "مغم",
@@ -3614,9 +3629,9 @@
             "displayName": "غالون",
             "unitPattern-count-zero": "{0} غالون",
             "unitPattern-count-one": "غالون",
-            "unitPattern-count-two": "غالونان",
-            "unitPattern-count-few": "{0} غالونات",
-            "unitPattern-count-many": "{0} غالونًا",
+            "unitPattern-count-two": "{0} غالون",
+            "unitPattern-count-few": "{0} غالون",
+            "unitPattern-count-many": "{0} غالون",
             "unitPattern-count-other": "{0} غالون",
             "perUnitPattern": "{0}/غالون"
           },
@@ -3667,7 +3682,7 @@
             "unitPattern-count-other": "{0} أونصة س"
           },
           "volume-tablespoon": {
-            "displayName": "ملعقة المائدة",
+            "displayName": "ملعقة كبيرة",
             "unitPattern-count-zero": "{0} ملعقة ك.",
             "unitPattern-count-one": "ملعقة ك.",
             "unitPattern-count-two": "{0} ملعقة ك.",

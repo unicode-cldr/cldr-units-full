@@ -3,8 +3,8 @@
     "gd": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13186 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13701 $",
+          "_cldrVersion": "32"
         },
         "language": "gd"
       },
@@ -68,7 +68,7 @@
             "unitPattern-count-two": "{0} chilemeatair ceàrnagach",
             "unitPattern-count-few": "{0} cilemeatairean ceàrnagach",
             "unitPattern-count-other": "{0} cilemeatair ceàrnagach",
-            "perUnitPattern": "{0}/km²"
+            "perUnitPattern": "{0} sa chilemeatair cheàrnagach"
           },
           "area-hectare": {
             "displayName": "heactair",
@@ -99,7 +99,7 @@
             "unitPattern-count-two": "{0} mhìle cheàrnagach",
             "unitPattern-count-few": "{0} mìltean ceàrnagach",
             "unitPattern-count-other": "{0} mìle cheàrnagach",
-            "perUnitPattern": "{0}/mi²"
+            "perUnitPattern": "{0} sa mhìle cheàrnagach"
           },
           "area-acre": {
             "displayName": "acair",
@@ -138,16 +138,25 @@
             "unitPattern-count-other": "{0} karat"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "mille-ghrama san deicheamh-liotair",
+            "unitPattern-count-one": "{0} mhille-ghrama san deicheamh-liotair",
+            "unitPattern-count-two": "{0} mhille-ghrama san deicheamh-liotair",
+            "unitPattern-count-few": "{0} mille-ghramaichean san deicheamh-liotair",
+            "unitPattern-count-other": "{0} mille-ghrama san deicheamh-liotair"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mille-mhòl san liotair",
+            "unitPattern-count-one": "{0} mhille-mhòl san liotair",
+            "unitPattern-count-two": "{0} mhille-mhòl san liotair",
+            "unitPattern-count-few": "{0} mille-mhòlaichean san liotair",
+            "unitPattern-count-other": "{0} mille-mhòl san liotair"
           },
           "concentr-part-per-million": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "pàirt sa mhillean",
+            "unitPattern-count-one": "{0} phàirt sa mhillean",
+            "unitPattern-count-two": "{0} phàirt sa mhillean",
+            "unitPattern-count-few": "{0} pàirtean sa mhillean",
+            "unitPattern-count-other": "{0} pàirt sa mhillean"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "liotair sa chilemeatair",
@@ -171,8 +180,11 @@
             "unitPattern-count-other": "{0} mìle sa ghalan"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mìle sa ghalan impireil",
+            "unitPattern-count-one": "{0} mhìle sa ghalan impireil",
+            "unitPattern-count-two": "{0} mhìle sa ghalan impireil",
+            "unitPattern-count-few": "{0} mìltean sa ghalan impireil",
+            "unitPattern-count-other": "{0} mìle sa ghalan impireil"
           },
           "digital-terabyte": {
             "displayName": "tera-baidht",
@@ -565,8 +577,11 @@
             "unitPattern-count-other": "{0} mìle Lochlannach"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "puing",
+            "unitPattern-count-one": "{0} phuing",
+            "unitPattern-count-two": "{0} phuing",
+            "unitPattern-count-few": "{0} puingean",
+            "unitPattern-count-other": "{0} puing"
           },
           "light-lux": {
             "displayName": "lux",
@@ -920,9 +935,12 @@
             "perUnitPattern": "{0} sa ghalan"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "galan impireil",
+            "unitPattern-count-one": "{0} ghalan impireil",
+            "unitPattern-count-two": "{0} ghalan impireil",
+            "unitPattern-count-few": "{0} galanan impireil",
+            "unitPattern-count-other": "{0} galan impireil",
+            "perUnitPattern": "{0} sa ghalan impireil"
           },
           "volume-quart": {
             "displayName": "càrt",
@@ -1063,7 +1081,7 @@
             "unitPattern-count-two": "{0} mì²",
             "unitPattern-count-few": "{0} mì²",
             "unitPattern-count-other": "{0} mì²",
-            "perUnitPattern": "{0}/mi²"
+            "perUnitPattern": "{0}/mì²"
           },
           "area-acre": {
             "displayName": "acair",
@@ -1103,14 +1121,23 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
+            "unitPattern-count-one": "{0} mg/dL",
+            "unitPattern-count-two": "{0} mg/dL",
+            "unitPattern-count-few": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmòl/L",
+            "unitPattern-count-one": "{0} mmòl/L",
+            "unitPattern-count-two": "{0} mmòl/L",
+            "unitPattern-count-few": "{0} mmòl/L",
+            "unitPattern-count-other": "{0} mmòl/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-two": "{0} ppm",
+            "unitPattern-count-few": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "consumption-liter-per-kilometer": {
@@ -1135,8 +1162,11 @@
             "unitPattern-count-other": "{0} mì/g"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mìle/gal imp.",
+            "unitPattern-count-one": "{0} mhì/gal imp.",
+            "unitPattern-count-two": "{0} mhì/gal imp.",
+            "unitPattern-count-few": "{0} mì/gal imp.",
+            "unitPattern-count-other": "{0} mì/gal imp."
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1529,7 +1559,10 @@
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "puing",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-two": "{0} pt",
+            "unitPattern-count-few": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1884,9 +1917,12 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "gal imp.",
+            "unitPattern-count-one": "{0} ghal imp.",
+            "unitPattern-count-two": "{0} ghal imp.",
+            "unitPattern-count-few": "{0} gal imp.",
+            "unitPattern-count-other": "{0} gal imp.",
+            "perUnitPattern": "{0}/gal imp."
           },
           "volume-quart": {
             "displayName": "càrt",
@@ -2027,7 +2063,7 @@
             "unitPattern-count-two": "{0}mì²",
             "unitPattern-count-few": "{0}mì²",
             "unitPattern-count-other": "{0}mì²",
-            "perUnitPattern": "{0}/mi²"
+            "perUnitPattern": "{0}/mì²"
           },
           "area-acre": {
             "displayName": "acair",
@@ -2067,15 +2103,24 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "unitPattern-count-one": "{0}mg/dL",
+            "unitPattern-count-two": "{0}mg/dL",
+            "unitPattern-count-few": "{0}mg/dL",
+            "unitPattern-count-other": "{0}mg/dL"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmòl/L",
+            "unitPattern-count-one": "{0}mmòl/L",
+            "unitPattern-count-two": "{0}mmòl/L",
+            "unitPattern-count-few": "{0}mmòl/L",
+            "unitPattern-count-other": "{0}mmòl/L"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "unitPattern-count-one": "{0}ppm",
+            "unitPattern-count-two": "{0}ppm",
+            "unitPattern-count-few": "{0}ppm",
+            "unitPattern-count-other": "{0}ppm"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "L/km",
@@ -2099,8 +2144,11 @@
             "unitPattern-count-other": "{0}mì/g"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "mìle/gal RA",
+            "unitPattern-count-one": "{0}m/gRA",
+            "unitPattern-count-two": "{0}m/gRA",
+            "unitPattern-count-few": "{0}m/gRA",
+            "unitPattern-count-other": "{0}m/gRA"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -2494,7 +2542,10 @@
           },
           "length-point": {
             "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "unitPattern-count-one": "{0}pt",
+            "unitPattern-count-two": "{0}pt",
+            "unitPattern-count-few": "{0}pt",
+            "unitPattern-count-other": "{0}pt"
           },
           "light-lux": {
             "displayName": "lux",
@@ -2848,9 +2899,12 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "gal imp.",
+            "unitPattern-count-one": "{0} ghal i.",
+            "unitPattern-count-two": "{0} ghal i.",
+            "unitPattern-count-few": "{0} gal i.",
+            "unitPattern-count-other": "{0} gal i.",
+            "perUnitPattern": "{0}/gal i."
           },
           "volume-quart": {
             "displayName": "càrt",

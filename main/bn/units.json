@@ -3,8 +3,8 @@
     "bn": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13259 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13686 $",
+          "_cldrVersion": "32"
         },
         "language": "bn"
       },
@@ -52,7 +52,7 @@
             "displayName": "বর্গ কিলোমিটার",
             "unitPattern-count-one": "{0} বর্গ কিলোমিটার",
             "unitPattern-count-other": "{0} বর্গ কিলোমিটার",
-            "perUnitPattern": "প্রতি বর্গ কিলোমিটারে {0}"
+            "perUnitPattern": "{0} প্রতি বর্গ কিলোমিটার"
           },
           "area-hectare": {
             "displayName": "হেক্টর",
@@ -63,7 +63,7 @@
             "displayName": "বর্গ মিটার",
             "unitPattern-count-one": "{0} বর্গ মিটার",
             "unitPattern-count-other": "{0} বর্গ মিটার",
-            "perUnitPattern": "প্রতি বর্গ মিটারে {0}"
+            "perUnitPattern": "{0} প্রতি বর্গ মিটার"
           },
           "area-square-centimeter": {
             "displayName": "বর্গ সেন্টিমিটার",
@@ -401,11 +401,13 @@
             "unitPattern-count-other": "{0} জ্যোতির্বিজ্ঞান একক"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ফার্লং",
+            "unitPattern-count-one": "{0} ফার্লং",
+            "unitPattern-count-other": "{0} ফার্লং"
           },
           "length-fathom": {
             "displayName": "fm",
+            "unitPattern-count-one": "{0} fm",
             "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
@@ -420,6 +422,7 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -461,6 +464,7 @@
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -756,7 +760,7 @@
             "unitPattern-count-other": "{0} আর্কসেক"
           },
           "area-square-kilometer": {
-            "displayName": "km²",
+            "displayName": "বর্গ কিমি",
             "unitPattern-count-one": "{0} km²",
             "unitPattern-count-other": "{0} km²",
             "perUnitPattern": "{0}/বর্গ কিমি"
@@ -773,7 +777,7 @@
             "perUnitPattern": "{0}/m²"
           },
           "area-square-centimeter": {
-            "displayName": "cm²",
+            "displayName": "বর্গ সেমি",
             "unitPattern-count-one": "{0} cm²",
             "unitPattern-count-other": "{0} cm²",
             "perUnitPattern": "{0}/cm²"
@@ -1108,12 +1112,14 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ফার্লং",
+            "unitPattern-count-one": "{0} ফার্লং",
+            "unitPattern-count-other": "{0} ফার্লং"
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-one": "{0} ftm",
+            "unitPattern-count-other": "{0} ftm"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1127,6 +1133,7 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1168,6 +1175,7 @@
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -1418,9 +1426,9 @@
           },
           "coordinateUnit": {
             "east": "{0}পূ",
-            "north": "{0}উ",
-            "south": "{0}দ",
-            "west": "{0}প"
+            "north": "{0} উ",
+            "south": "{0} দ",
+            "west": "{0} প"
           }
         },
         "narrow": {
@@ -1463,7 +1471,7 @@
             "unitPattern-count-other": "{0}সেকেন্ড"
           },
           "area-square-kilometer": {
-            "displayName": "km²",
+            "displayName": "বর্গ কিমি",
             "unitPattern-count-one": "{0} বর্গ কিমি",
             "unitPattern-count-other": "{0} বর্গ কিমি",
             "perUnitPattern": "{0}/বর্গ কিমি"
@@ -1480,7 +1488,7 @@
             "perUnitPattern": "{0}/m²"
           },
           "area-square-centimeter": {
-            "displayName": "cm²",
+            "displayName": "বর্গ সেমি",
             "unitPattern-count-one": "{0} cm²",
             "unitPattern-count-other": "{0} cm²",
             "perUnitPattern": "{0}/cm²"
@@ -1611,43 +1619,43 @@
             "displayName": "বছর",
             "unitPattern-count-one": "{0} বছর",
             "unitPattern-count-other": "{0} বছর",
-            "perUnitPattern": "{0} প্রতি বছর"
+            "perUnitPattern": "{0}/বছর"
           },
           "duration-month": {
             "displayName": "মাস",
             "unitPattern-count-one": "{0} মাস",
             "unitPattern-count-other": "{0} মাস",
-            "perUnitPattern": "{0} প্রতি মাস"
+            "perUnitPattern": "{0}/মাস"
           },
           "duration-week": {
             "displayName": "সপ্তাহ",
             "unitPattern-count-one": "{0} সপ্তাহ",
             "unitPattern-count-other": "{0} সপ্তাহ",
-            "perUnitPattern": "{0} প্রতি সপ্তাহ"
+            "perUnitPattern": "{0}/সপ্তাহ"
           },
           "duration-day": {
             "displayName": "দিন",
             "unitPattern-count-one": "{0} দিন",
             "unitPattern-count-other": "{0} দিন",
-            "perUnitPattern": "{0} প্রতি দিন"
+            "perUnitPattern": "{0}/দিন"
           },
           "duration-hour": {
             "displayName": "ঘন্টা",
             "unitPattern-count-one": "{0} ঘঃ",
             "unitPattern-count-other": "{0} ঘঃ",
-            "perUnitPattern": "{0} প্রতি ঘন্টা"
+            "perUnitPattern": "{0}/ঘ:"
           },
           "duration-minute": {
             "displayName": "মিনিট",
             "unitPattern-count-one": "{0} মিঃ",
             "unitPattern-count-other": "{0} মিঃ",
-            "perUnitPattern": "{0} প্রতি মিনিট"
+            "perUnitPattern": "{0}/মি:"
           },
           "duration-second": {
             "displayName": "সেকেন্ড",
             "unitPattern-count-one": "{0} সেঃ",
             "unitPattern-count-other": "{0} সেঃ",
-            "perUnitPattern": "{0} প্রতি সেকেন্ড"
+            "perUnitPattern": "{0}/সে:"
           },
           "duration-millisecond": {
             "displayName": "মিলিসেকেন্ড",
@@ -1656,13 +1664,13 @@
           },
           "duration-microsecond": {
             "displayName": "μsecs",
-            "unitPattern-count-one": "{0} μs",
-            "unitPattern-count-other": "{0} μs"
+            "unitPattern-count-one": "{0}μs",
+            "unitPattern-count-other": "{0}μs"
           },
           "duration-nanosecond": {
             "displayName": "ন্যানোসেকেন্ড",
-            "unitPattern-count-one": "{0} ns",
-            "unitPattern-count-other": "{0} ns"
+            "unitPattern-count-one": "{0}ns",
+            "unitPattern-count-other": "{0}ns"
           },
           "electric-ampere": {
             "displayName": "amp",
@@ -1738,13 +1746,13 @@
             "displayName": "কিলোমিটার",
             "unitPattern-count-one": "{0} কিমি",
             "unitPattern-count-other": "{0} কিমি",
-            "perUnitPattern": "{0} প্রতি কিমি"
+            "perUnitPattern": "{0}/কিমি"
           },
           "length-meter": {
             "displayName": "মিটার",
             "unitPattern-count-one": "{0} মি",
             "unitPattern-count-other": "{0} মি",
-            "perUnitPattern": "{0} প্রতি মি"
+            "perUnitPattern": "{0}/মি"
           },
           "length-decimeter": {
             "displayName": "ডেমি",
@@ -1755,7 +1763,7 @@
             "displayName": "সেমি",
             "unitPattern-count-one": "{0} সেমি",
             "unitPattern-count-other": "{0} সেমি",
-            "perUnitPattern": "{0} প্রতি সেমি"
+            "perUnitPattern": "{0}/সেমি"
           },
           "length-millimeter": {
             "displayName": "মিমি",
@@ -1763,7 +1771,7 @@
             "unitPattern-count-other": "{0} মিমি"
           },
           "length-micrometer": {
-            "displayName": "µmeters",
+            "displayName": "µm",
             "unitPattern-count-one": "{0} µm",
             "unitPattern-count-other": "{0} µm"
           },
@@ -1797,7 +1805,7 @@
             "displayName": "ইঞ্চি",
             "unitPattern-count-one": "{0} ইঞ্চি",
             "unitPattern-count-other": "{0} ইঞ্চি",
-            "perUnitPattern": "{0} প্রতি ইঞ্চি"
+            "perUnitPattern": "{0}/ইঞ্চি"
           },
           "length-parsec": {
             "displayName": "parsecs",
@@ -1815,12 +1823,14 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ফার্লং",
+            "unitPattern-count-one": "{0} ফার্লং",
+            "unitPattern-count-other": "{0} ফার্লং"
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-one": "{0} ftm",
+            "unitPattern-count-other": "{0} ftm"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1833,7 +1843,8 @@
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "pts",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1842,26 +1853,26 @@
             "unitPattern-count-other": "{0} lx"
           },
           "mass-metric-ton": {
-            "displayName": "t",
-            "unitPattern-count-one": "{0} t",
-            "unitPattern-count-other": "{0} t"
+            "displayName": "টন",
+            "unitPattern-count-one": "{0} টন",
+            "unitPattern-count-other": "{0} টন"
           },
           "mass-kilogram": {
             "displayName": "কেজি",
             "unitPattern-count-one": "{0} কেজি",
             "unitPattern-count-other": "{0} কেজি",
-            "perUnitPattern": "{0} প্রতি কেজি"
+            "perUnitPattern": "{0}/কেজি"
           },
           "mass-gram": {
             "displayName": "গ্রাম",
             "unitPattern-count-one": "{0} গ্রাম",
             "unitPattern-count-other": "{0} গ্রাম",
-            "perUnitPattern": "{0} প্রতি গ্রাম"
+            "perUnitPattern": "{0}/গ্রা:"
           },
           "mass-milligram": {
-            "displayName": "mg",
-            "unitPattern-count-one": "{0} mg",
-            "unitPattern-count-other": "{0} mg"
+            "displayName": "মিগ্রা:",
+            "unitPattern-count-one": "{0}/মিগ্রা:",
+            "unitPattern-count-other": "{0}/মিগ্রা:"
           },
           "mass-microgram": {
             "displayName": "µg",
@@ -1869,25 +1880,26 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "tn",
-            "unitPattern-count-one": "{0} tn",
-            "unitPattern-count-other": "{0} tn"
+            "displayName": "টন",
+            "unitPattern-count-one": "{0} টন",
+            "unitPattern-count-other": "{0} টন"
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
             "displayName": "পাউন্ড",
             "unitPattern-count-one": "{0} পাউন্ড",
             "unitPattern-count-other": "{0} পাউন্ড",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/পাউন্ড"
           },
           "mass-ounce": {
             "displayName": "আউন্স",
             "unitPattern-count-one": "{0} আউন্স",
             "unitPattern-count-other": "{0} আউন্স",
-            "perUnitPattern": "{0} প্রতি আউন্স"
+            "perUnitPattern": "{0}/আউন্স"
           },
           "mass-ounce-troy": {
             "displayName": "oz t",
@@ -1960,12 +1972,12 @@
             "unitPattern-count-other": "{0}kph"
           },
           "speed-meter-per-second": {
-            "displayName": "মিটার প্রতি সেকেন্ড",
+            "displayName": "মি/সেক",
             "unitPattern-count-one": "{0}m/s",
             "unitPattern-count-other": "{0}m/s"
           },
           "speed-mile-per-hour": {
-            "displayName": "ঘন্টা প্রতি মাইল",
+            "displayName": "মাইল/ঘ:",
             "unitPattern-count-one": "{0}mph",
             "unitPattern-count-other": "{0}mph"
           },

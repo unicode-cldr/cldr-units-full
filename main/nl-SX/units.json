@@ -4,7 +4,7 @@
       "identity": {
         "version": {
           "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_cldrVersion": "32"
         },
         "language": "nl",
         "territory": "SX"
@@ -53,7 +53,7 @@
             "displayName": "vierkante kilometer",
             "unitPattern-count-one": "{0} vierkante kilometer",
             "unitPattern-count-other": "{0} vierkante kilometer",
-            "perUnitPattern": "{0}/km²"
+            "perUnitPattern": "{0} per vierkante kilometer"
           },
           "area-hectare": {
             "displayName": "hectare",
@@ -76,7 +76,7 @@
             "displayName": "vierkante mijl",
             "unitPattern-count-one": "{0} vierkante mijl",
             "unitPattern-count-other": "{0} vierkante mijl",
-            "perUnitPattern": "{0}/mi²"
+            "perUnitPattern": "{0} per vierkante mijl"
           },
           "area-acre": {
             "displayName": "acre",
@@ -422,8 +422,9 @@
             "unitPattern-count-other": "{0} Scandinavische mijl"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "punten",
+            "unitPattern-count-one": "{0} punt",
+            "unitPattern-count-other": "{0} punten"
           },
           "light-lux": {
             "displayName": "lux",
@@ -764,7 +765,7 @@
             "displayName": "km²",
             "unitPattern-count-one": "{0} km²",
             "unitPattern-count-other": "{0} km²",
-            "perUnitPattern": "{0}/km²"
+            "perUnitPattern": "{0} per km²"
           },
           "area-hectare": {
             "displayName": "ha",
@@ -787,7 +788,7 @@
             "displayName": "mi²",
             "unitPattern-count-one": "{0} mi²",
             "unitPattern-count-other": "{0} mi²",
-            "perUnitPattern": "{0}/mi²"
+            "perUnitPattern": "{0} per mi²"
           },
           "area-acre": {
             "displayName": "acre",
@@ -945,7 +946,7 @@
             "displayName": "sec",
             "unitPattern-count-one": "{0} sec",
             "unitPattern-count-other": "{0} sec",
-            "perUnitPattern": "{0} sec"
+            "perUnitPattern": "{0}/sec"
           },
           "duration-millisecond": {
             "displayName": "ms",
@@ -1133,7 +1134,8 @@
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
-            "displayName": "pt",
+            "displayName": "punten",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -1370,8 +1372,8 @@
           },
           "volume-cup-metric": {
             "displayName": "metrische cup",
-            "unitPattern-count-one": "{0} metrische cup",
-            "unitPattern-count-other": "{0} metrische cup"
+            "unitPattern-count-one": "{0} mc",
+            "unitPattern-count-other": "{0} mc"
           },
           "volume-acre-foot": {
             "displayName": "acre ft",
@@ -1486,13 +1488,13 @@
             "displayName": "m²",
             "unitPattern-count-one": "{0} m²",
             "unitPattern-count-other": "{0} m²",
-            "perUnitPattern": "{0} per m²"
+            "perUnitPattern": "{0}/m²"
           },
           "area-square-centimeter": {
             "displayName": "cm²",
             "unitPattern-count-one": "{0} cm²",
             "unitPattern-count-other": "{0} cm²",
-            "perUnitPattern": "{0} per cm²"
+            "perUnitPattern": "{0}/cm²"
           },
           "area-square-mile": {
             "displayName": "mi²",
@@ -1519,7 +1521,7 @@
             "displayName": "in²",
             "unitPattern-count-one": "{0} in²",
             "unitPattern-count-other": "{0} in²",
-            "perUnitPattern": "{0} per in²"
+            "perUnitPattern": "{0}/in²"
           },
           "concentr-karat": {
             "displayName": "K",
@@ -1626,37 +1628,37 @@
             "displayName": "m",
             "unitPattern-count-one": "{0} m",
             "unitPattern-count-other": "{0} m",
-            "perUnitPattern": "{0}/mnd"
+            "perUnitPattern": "{0}/m"
           },
           "duration-week": {
             "displayName": "w",
             "unitPattern-count-one": "{0} w",
             "unitPattern-count-other": "{0} w",
-            "perUnitPattern": "{0}/wk"
+            "perUnitPattern": "{0}/w"
           },
           "duration-day": {
             "displayName": "d",
             "unitPattern-count-one": "{0} d",
             "unitPattern-count-other": "{0} d",
-            "perUnitPattern": "{0}/dag"
+            "perUnitPattern": "{0}/d"
           },
           "duration-hour": {
             "displayName": "u",
             "unitPattern-count-one": "{0} u",
             "unitPattern-count-other": "{0} u",
-            "perUnitPattern": "{0}/uur"
+            "perUnitPattern": "{0}/u"
           },
           "duration-minute": {
             "displayName": "m",
             "unitPattern-count-one": "{0} m",
             "unitPattern-count-other": "{0} m",
-            "perUnitPattern": "{0}/min"
+            "perUnitPattern": "{0}/m"
           },
           "duration-second": {
             "displayName": "s",
             "unitPattern-count-one": "{0} s",
             "unitPattern-count-other": "{0} s",
-            "perUnitPattern": "{0} sec"
+            "perUnitPattern": "{0}/s"
           },
           "duration-millisecond": {
             "displayName": "ms",
@@ -1792,7 +1794,7 @@
             "unitPattern-count-other": "{0} mi"
           },
           "length-yard": {
-            "displayName": "yards",
+            "displayName": "yd",
             "unitPattern-count-one": "{0} yd",
             "unitPattern-count-other": "{0} yd"
           },
@@ -1803,7 +1805,7 @@
             "perUnitPattern": "{0}/ft"
           },
           "length-inch": {
-            "displayName": "inches",
+            "displayName": "in",
             "unitPattern-count-one": "{0}\\\"",
             "unitPattern-count-other": "{0}\\\"",
             "perUnitPattern": "{0}/in"
@@ -1845,6 +1847,7 @@
           },
           "length-point": {
             "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "light-lux": {
@@ -2080,9 +2083,9 @@
             "unitPattern-count-other": "{0} mpt"
           },
           "volume-cup-metric": {
-            "displayName": "metrische cup",
-            "unitPattern-count-one": "{0} metrische cup",
-            "unitPattern-count-other": "{0} metrische cup"
+            "displayName": "mcup",
+            "unitPattern-count-one": "{0}mc",
+            "unitPattern-count-other": "{0}mc"
           },
           "volume-acre-foot": {
             "displayName": "acre ft",
@@ -2102,9 +2105,9 @@
           },
           "volume-gallon-imperial": {
             "displayName": "imp. gal",
-            "unitPattern-count-one": "{0} imp. gal",
-            "unitPattern-count-other": "{0} imp. gal",
-            "perUnitPattern": "{0}/imp. gal"
+            "unitPattern-count-one": "{0}galIm",
+            "unitPattern-count-other": "{0}galIm",
+            "perUnitPattern": "{0}/galIm"
           },
           "volume-quart": {
             "displayName": "qt",
