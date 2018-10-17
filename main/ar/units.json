@@ -3,8 +3,8 @@
     "ar": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13920 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14350 $",
+          "_cldrVersion": "34"
         },
         "language": "ar"
       },
@@ -198,6 +198,24 @@
             "unitPattern-count-many": "{0} جزء في المليون",
             "unitPattern-count-other": "{0} جزء في المليون"
           },
+          "concentr-percent": {
+            "displayName": "بالمائة",
+            "unitPattern-count-zero": "{0}٪",
+            "unitPattern-count-one": "{0} بالمائة",
+            "unitPattern-count-two": "{0}٪",
+            "unitPattern-count-few": "{0}٪",
+            "unitPattern-count-many": "{0}٪",
+            "unitPattern-count-other": "{0} بالمائة"
+          },
+          "concentr-permille": {
+            "displayName": "في الألف",
+            "unitPattern-count-zero": "{0}‰",
+            "unitPattern-count-one": "{0} في الألف",
+            "unitPattern-count-two": "{0}‰",
+            "unitPattern-count-few": "{0}‰",
+            "unitPattern-count-many": "{0}‰",
+            "unitPattern-count-other": "{0} في الألف"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "لتر لكل كيلومتر",
             "unitPattern-count-zero": "{0} لتر لكل كيلومتر",
@@ -233,6 +251,15 @@
             "unitPattern-count-few": "{0} ميل لكل غالون إمبراطوري",
             "unitPattern-count-many": "{0} ميل لكل غالون إمبراطوري",
             "unitPattern-count-other": "{0} ميل لكل غالون إمبراطوري"
+          },
+          "digital-petabyte": {
+            "displayName": "بيتابايت",
+            "unitPattern-count-zero": "{0} بيتابايت",
+            "unitPattern-count-one": "{0} بيتابايت",
+            "unitPattern-count-two": "{0} بيتابايت",
+            "unitPattern-count-few": "{0} بيتابايت",
+            "unitPattern-count-many": "{0} بيتابايت",
+            "unitPattern-count-other": "{0} بيتابايت"
           },
           "digital-terabyte": {
             "displayName": "تيرابايت",
@@ -702,7 +729,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -936,6 +963,15 @@
             "unitPattern-count-few": "{0} ملي بار",
             "unitPattern-count-many": "{0} ملي بار",
             "unitPattern-count-other": "{0} ملي بار"
+          },
+          "pressure-atmosphere": {
+            "displayName": "وحدة الضغط الجوي",
+            "unitPattern-count-zero": "{0} ض.ج",
+            "unitPattern-count-one": "{0} ضغط جوي",
+            "unitPattern-count-two": "{0} ض.ج",
+            "unitPattern-count-few": "{0} ض.ج",
+            "unitPattern-count-many": "{0} ض.ج",
+            "unitPattern-count-other": "{0} ضغط جوي"
           },
           "speed-kilometer-per-hour": {
             "displayName": "كيلومتر في الساعة",
@@ -1235,6 +1271,7 @@
             "unitPattern-count-other": "{0} ملعقة صغيرة"
           },
           "coordinateUnit": {
+            "displayName": "اتجاه",
             "east": "{0} شرقًا",
             "north": "{0} شمالاً",
             "south": "{0} جنوبًا",
@@ -1430,6 +1467,24 @@
             "unitPattern-count-many": "{0} جزء/مليون",
             "unitPattern-count-other": "{0} جزء/مليون"
           },
+          "concentr-percent": {
+            "displayName": "بالمائة",
+            "unitPattern-count-zero": "{0}٪",
+            "unitPattern-count-one": "{0}٪",
+            "unitPattern-count-two": "{0}٪",
+            "unitPattern-count-few": "{0}٪",
+            "unitPattern-count-many": "{0}٪",
+            "unitPattern-count-other": "{0}٪"
+          },
+          "concentr-permille": {
+            "displayName": "في الألف",
+            "unitPattern-count-zero": "{0}‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-two": "{0}‰",
+            "unitPattern-count-few": "{0}‰",
+            "unitPattern-count-many": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "لتر/كم",
             "unitPattern-count-zero": "{0} لتر/كم",
@@ -1465,6 +1520,15 @@
             "unitPattern-count-few": "{0} ميل/غ. إمبراطوري",
             "unitPattern-count-many": "{0} ميل/غ. إمبراطوري",
             "unitPattern-count-other": "{0} ميل/غ. إمبراطوري"
+          },
+          "digital-petabyte": {
+            "displayName": "بيتابايت",
+            "unitPattern-count-zero": "{0} بيتابايت",
+            "unitPattern-count-one": "{0} بيتابايت",
+            "unitPattern-count-two": "{0} بيتابايت",
+            "unitPattern-count-few": "{0} بيتابايت",
+            "unitPattern-count-many": "{0} بيتابايت",
+            "unitPattern-count-other": "{0} بيتابايت"
           },
           "digital-terabyte": {
             "displayName": "تيرابايت",
@@ -1934,7 +1998,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -2168,6 +2232,15 @@
             "unitPattern-count-few": "{0} م. بار",
             "unitPattern-count-many": "{0} م. بار",
             "unitPattern-count-other": "{0} م. بار"
+          },
+          "pressure-atmosphere": {
+            "displayName": "ض.ج",
+            "unitPattern-count-zero": "{0} ض.ج",
+            "unitPattern-count-one": "{0} ض.ج",
+            "unitPattern-count-two": "{0} ض.ج",
+            "unitPattern-count-few": "{0} ض.ج",
+            "unitPattern-count-many": "{0} ض.ج",
+            "unitPattern-count-other": "{0} ض.ج"
           },
           "speed-kilometer-per-hour": {
             "displayName": "كم/س",
@@ -2467,6 +2540,7 @@
             "unitPattern-count-other": "{0} ملعقة ص"
           },
           "coordinateUnit": {
+            "displayName": "اتجاه",
             "east": "{0} شرق",
             "north": "{0} شمال",
             "south": "{0} ج",
@@ -2662,6 +2736,24 @@
             "unitPattern-count-many": "{0} جزء/مليون",
             "unitPattern-count-other": "{0} جزء/مليون"
           },
+          "concentr-percent": {
+            "displayName": "٪",
+            "unitPattern-count-zero": "{0}٪",
+            "unitPattern-count-one": "{0}٪",
+            "unitPattern-count-two": "{0}٪",
+            "unitPattern-count-few": "{0}٪",
+            "unitPattern-count-many": "{0}٪",
+            "unitPattern-count-other": "{0}٪"
+          },
+          "concentr-permille": {
+            "displayName": "في الألف",
+            "unitPattern-count-zero": "{0}‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-two": "{0}‰",
+            "unitPattern-count-few": "{0}‰",
+            "unitPattern-count-many": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "لتر/كم",
             "unitPattern-count-zero": "{0} لتر/كم",
@@ -2697,6 +2789,15 @@
             "unitPattern-count-few": "{0} ميل/غ. إمبراطوري",
             "unitPattern-count-many": "{0} ميل/غ. إمبراطوري",
             "unitPattern-count-other": "{0} ميل/غ. إمبراطوري"
+          },
+          "digital-petabyte": {
+            "displayName": "بيتابايت",
+            "unitPattern-count-zero": "{0} بيتابايت",
+            "unitPattern-count-one": "{0} بيتابايت",
+            "unitPattern-count-two": "{0} بيتابايت",
+            "unitPattern-count-few": "{0} بيتابايت",
+            "unitPattern-count-many": "{0} بيتابايت",
+            "unitPattern-count-other": "{0} بيتابايت"
           },
           "digital-terabyte": {
             "displayName": "تيرابايت",
@@ -3166,7 +3267,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -3400,6 +3501,15 @@
             "unitPattern-count-few": "{0} مللي بار",
             "unitPattern-count-many": "{0} مللي بار",
             "unitPattern-count-other": "{0} مللي بار"
+          },
+          "pressure-atmosphere": {
+            "displayName": "ض.ج",
+            "unitPattern-count-zero": "{0} ض.ج",
+            "unitPattern-count-one": "{0} ض.ج",
+            "unitPattern-count-two": "{0} ض.ج",
+            "unitPattern-count-few": "{0} ض.ج",
+            "unitPattern-count-many": "{0} ض.ج",
+            "unitPattern-count-other": "{0} ض.ج"
           },
           "speed-kilometer-per-hour": {
             "displayName": "كم/س",
@@ -3699,6 +3809,7 @@
             "unitPattern-count-other": "{0} ملعقة ص"
           },
           "coordinateUnit": {
+            "displayName": "اتجاه",
             "east": "{0} شرق",
             "north": "{0} شمال",
             "south": "{0} ج",

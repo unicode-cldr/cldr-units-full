@@ -3,8 +3,8 @@
     "gu": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14402 $",
+          "_cldrVersion": "34"
         },
         "language": "gu"
       },
@@ -118,6 +118,16 @@
             "unitPattern-count-one": "{0} કણ પ્રતિ મિલિયન",
             "unitPattern-count-other": "{0} કણ પ્રતિ મિલિયન"
           },
+          "concentr-percent": {
+            "displayName": "ટકા",
+            "unitPattern-count-one": "{0} ટકા",
+            "unitPattern-count-other": "{0} ટકા"
+          },
+          "concentr-permille": {
+            "displayName": "પ્રતિમાઈલ",
+            "unitPattern-count-one": "{0} પ્રતિમાઈલ",
+            "unitPattern-count-other": "{0} પ્રતિમાઈલ"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "લીટર પ્રતિ કિલોમીટર",
             "unitPattern-count-one": "{0} લીટર પ્રતિ કિલોમીટર",
@@ -137,6 +147,11 @@
             "displayName": "માઈલ પ્રતિ ઈમ્પે. ગેલન",
             "unitPattern-count-one": "{0} માઈલ પ્રતિ ઈમ્પે. ગેલન",
             "unitPattern-count-other": "{0} માઈલ પ્રતિ ઈમ્પે. ગેલન"
+          },
+          "digital-petabyte": {
+            "displayName": "પેટાબાઈટ્સ",
+            "unitPattern-count-one": "{0} પેટાબાઈટ",
+            "unitPattern-count-other": "{0} પેટાબાઈટ્સ"
           },
           "digital-terabyte": {
             "displayName": "ટેરાબાઇટ",
@@ -406,7 +421,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "નૉટિકલ માઇલ",
@@ -541,6 +556,11 @@
             "displayName": "મિલિબાર",
             "unitPattern-count-one": "{0} મિલિબાર",
             "unitPattern-count-other": "{0} મિલિબાર"
+          },
+          "pressure-atmosphere": {
+            "displayName": "વાતાવરણ",
+            "unitPattern-count-one": "{0} વાતાવરણ",
+            "unitPattern-count-other": "{0} વાતાવરણ"
           },
           "speed-kilometer-per-hour": {
             "displayName": "કિલોમીટર પ્રતિ કલાક",
@@ -712,6 +732,7 @@
             "unitPattern-count-other": "{0} ટીસ્પૂન"
           },
           "coordinateUnit": {
+            "displayName": "મુખ્ય દિશા",
             "east": "{0}પૂર્વ",
             "north": "{0}ઉત્તર",
             "south": "{0}દક્ષિણ",
@@ -739,8 +760,8 @@
           },
           "angle-radian": {
             "displayName": "સમત્રિજ્યાકોણ",
-            "unitPattern-count-one": "{0} rad",
-            "unitPattern-count-other": "{0} rad"
+            "unitPattern-count-one": "{0} સમત્રિજ્યાકોણ",
+            "unitPattern-count-other": "{0} સમત્રિજ્યાકોણ"
           },
           "angle-degree": {
             "displayName": "અંશ",
@@ -824,8 +845,18 @@
           },
           "concentr-part-per-million": {
             "displayName": "કણ/મિલિયન",
-            "unitPattern-count-one": "{0} ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "unitPattern-count-one": "{0} પીપીએમ",
+            "unitPattern-count-other": "{0} પીપીએમ"
+          },
+          "concentr-percent": {
+            "displayName": "ટકા",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "પ્રતિમાઈલ",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "લીટર/કિમી",
@@ -846,6 +877,11 @@
             "displayName": "માઈલ/ઈમ્પે. ગેલન",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "પીબાઈટ",
+            "unitPattern-count-one": "{0} પીબી",
+            "unitPattern-count-other": "{0} પીબી"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1115,7 +1151,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "નૉટિકલ માઇલ",
@@ -1250,6 +1286,11 @@
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "કિમી/કલાક",
@@ -1421,6 +1462,7 @@
             "unitPattern-count-other": "{0} ટીસ્પૂન"
           },
           "coordinateUnit": {
+            "displayName": "દિશા",
             "east": "{0}પૂ",
             "north": "{0}ઉ",
             "south": "{0}દ",
@@ -1448,8 +1490,8 @@
           },
           "angle-radian": {
             "displayName": "સમત્રિજ્યાકોણ",
-            "unitPattern-count-one": "{0} rad",
-            "unitPattern-count-other": "{0} rad"
+            "unitPattern-count-one": "{0} સમત્રિજ્યાકોણ",
+            "unitPattern-count-other": "{0} સમત્રિજ્યાકોણ"
           },
           "angle-degree": {
             "displayName": "અંશ",
@@ -1533,8 +1575,18 @@
           },
           "concentr-part-per-million": {
             "displayName": "કણ/મિલિયન",
-            "unitPattern-count-one": "{0} ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "unitPattern-count-one": "{0} પીપીએમ",
+            "unitPattern-count-other": "{0} પીપીએમ"
+          },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "પ્રતિમાઈલ",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "લીટર/કિમી",
@@ -1555,6 +1607,11 @@
             "displayName": "માઈલ/ઈમ્પે. ગેલન",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "પીબાઈટ",
+            "unitPattern-count-one": "{0} પીબી",
+            "unitPattern-count-other": "{0} પીબી"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1824,7 +1881,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "નૉટિકલ માઇલ",
@@ -1959,6 +2016,11 @@
             "displayName": "mbar",
             "unitPattern-count-one": "{0}મિલીબાર",
             "unitPattern-count-other": "{0}મિલીબાર"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "કિમી/કલાક",
@@ -2130,6 +2192,7 @@
             "unitPattern-count-other": "{0} ટીસ્પૂન"
           },
           "coordinateUnit": {
+            "displayName": "દિશા",
             "east": "{0}પૂ",
             "north": "{0}ઉ",
             "south": "{0}દ",

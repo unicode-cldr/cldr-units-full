@@ -3,8 +3,8 @@
     "da": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13920 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14365 $",
+          "_cldrVersion": "34"
         },
         "language": "da"
       },
@@ -118,6 +118,16 @@
             "unitPattern-count-one": "{0} parts per million",
             "unitPattern-count-other": "{0} parts per million"
           },
+          "concentr-percent": {
+            "displayName": "procent",
+            "unitPattern-count-one": "{0} procent",
+            "unitPattern-count-other": "{0} procent"
+          },
+          "concentr-permille": {
+            "displayName": "promille",
+            "unitPattern-count-one": "{0} promille",
+            "unitPattern-count-other": "{0} promille"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "liter pr. kilometer",
             "unitPattern-count-one": "{0} liter pr. kilometer",
@@ -138,10 +148,15 @@
             "unitPattern-count-one": "{0} mil pr. engelsk gallon",
             "unitPattern-count-other": "{0} mil pr. engelsk gallon"
           },
+          "digital-petabyte": {
+            "displayName": "petabytes",
+            "unitPattern-count-one": "{0} petabyte",
+            "unitPattern-count-other": "{0} petabytes"
+          },
           "digital-terabyte": {
-            "displayName": "terabyte",
+            "displayName": "terabytes",
             "unitPattern-count-one": "{0} terabyte",
-            "unitPattern-count-other": "{0} terabyte"
+            "unitPattern-count-other": "{0} terabytes"
           },
           "digital-terabit": {
             "displayName": "terabit",
@@ -149,9 +164,9 @@
             "unitPattern-count-other": "{0} terabit"
           },
           "digital-gigabyte": {
-            "displayName": "gigabyte",
+            "displayName": "gigabytes",
             "unitPattern-count-one": "{0} gigabyte",
-            "unitPattern-count-other": "{0} GB"
+            "unitPattern-count-other": "{0} gigabytes"
           },
           "digital-gigabit": {
             "displayName": "gigabit",
@@ -159,9 +174,9 @@
             "unitPattern-count-other": "{0} gigabit"
           },
           "digital-megabyte": {
-            "displayName": "megabyte",
+            "displayName": "megabytes",
             "unitPattern-count-one": "{0} megabyte",
-            "unitPattern-count-other": "{0} megabyte"
+            "unitPattern-count-other": "{0} megabytes"
           },
           "digital-megabit": {
             "displayName": "megabit",
@@ -169,9 +184,9 @@
             "unitPattern-count-other": "{0} megabit"
           },
           "digital-kilobyte": {
-            "displayName": "kilobyte",
+            "displayName": "kilobytes",
             "unitPattern-count-one": "{0} kilobyte",
-            "unitPattern-count-other": "{0} kilobyte"
+            "unitPattern-count-other": "{0} kilobytes"
           },
           "digital-kilobit": {
             "displayName": "kilobit",
@@ -179,9 +194,9 @@
             "unitPattern-count-other": "{0} kilobit"
           },
           "digital-byte": {
-            "displayName": "byte",
+            "displayName": "bytes",
             "unitPattern-count-one": "{0} byte",
-            "unitPattern-count-other": "{0} byte"
+            "unitPattern-count-other": "{0} bytes"
           },
           "digital-bit": {
             "displayName": "bit",
@@ -406,7 +421,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "sømil",
@@ -540,6 +555,11 @@
             "displayName": "millibar",
             "unitPattern-count-one": "{0} millibar",
             "unitPattern-count-other": "{0} millibar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atmosfære",
+            "unitPattern-count-one": "{0} atmosfære",
+            "unitPattern-count-other": "{0} atmosfære"
           },
           "speed-kilometer-per-hour": {
             "displayName": "kilometer i timen",
@@ -711,6 +731,7 @@
             "unitPattern-count-other": "{0} teskeer"
           },
           "coordinateUnit": {
+            "displayName": "kompasretning",
             "east": "{0} øst",
             "north": "{0} nord",
             "south": "{0} syd",
@@ -747,12 +768,12 @@
             "unitPattern-count-other": "{0}°"
           },
           "angle-arc-minute": {
-            "displayName": "bueminutter",
+            "displayName": "buemin.",
             "unitPattern-count-one": "{0}′",
             "unitPattern-count-other": "{0}′"
           },
           "angle-arc-second": {
-            "displayName": "buesekunder",
+            "displayName": "buesek.",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-other": "{0}″"
           },
@@ -808,8 +829,8 @@
           },
           "concentr-karat": {
             "displayName": "karat",
-            "unitPattern-count-one": "{0} kt",
-            "unitPattern-count-other": "{0} kt"
+            "unitPattern-count-one": "{0} kt.",
+            "unitPattern-count-other": "{0} kt."
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dl",
@@ -825,6 +846,16 @@
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
+          },
+          "concentr-percent": {
+            "displayName": "pct.",
+            "unitPattern-count-one": "{0} pct.",
+            "unitPattern-count-other": "{0} pct."
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -846,15 +877,20 @@
             "unitPattern-count-one": "{0} eng. mpg",
             "unitPattern-count-other": "{0} eng. mpg"
           },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
+          },
           "digital-terabyte": {
             "displayName": "TB",
             "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
-            "displayName": "Tb",
-            "unitPattern-count-one": "{0} Tb",
-            "unitPattern-count-other": "{0} Tb"
+            "displayName": "Tbit",
+            "unitPattern-count-one": "{0} Tbit",
+            "unitPattern-count-other": "{0} Tbit"
           },
           "digital-gigabyte": {
             "displayName": "GB",
@@ -872,9 +908,9 @@
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
-            "unitPattern-count-one": "{0} Mb",
-            "unitPattern-count-other": "{0} Mb"
+            "displayName": "Mbit",
+            "unitPattern-count-one": "{0} Mbit",
+            "unitPattern-count-other": "{0} Mbit"
           },
           "digital-kilobyte": {
             "displayName": "kB",
@@ -882,9 +918,9 @@
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
-            "displayName": "kb",
-            "unitPattern-count-one": "{0} kb",
-            "unitPattern-count-other": "{0} kb"
+            "displayName": "kbit",
+            "unitPattern-count-one": "{0} kbit",
+            "unitPattern-count-other": "{0} kbit"
           },
           "digital-byte": {
             "displayName": "byte",
@@ -1114,7 +1150,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "sømil",
@@ -1248,6 +1284,11 @@
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/t",
@@ -1419,6 +1460,7 @@
             "unitPattern-count-other": "{0} tsk."
           },
           "coordinateUnit": {
+            "displayName": "retning",
             "east": "{0}Ø",
             "north": "{0}N",
             "south": "{0}S",
@@ -1455,12 +1497,12 @@
             "unitPattern-count-other": "{0}°"
           },
           "angle-arc-minute": {
-            "displayName": "bueminutter",
+            "displayName": "buemin.",
             "unitPattern-count-one": "{0}′",
             "unitPattern-count-other": "{0}′"
           },
           "angle-arc-second": {
-            "displayName": "buesekunder",
+            "displayName": "buesek.",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-other": "{0}″"
           },
@@ -1516,8 +1558,8 @@
           },
           "concentr-karat": {
             "displayName": "karat",
-            "unitPattern-count-one": "{0} kt",
-            "unitPattern-count-other": "{0} kt"
+            "unitPattern-count-one": "{0} kt.",
+            "unitPattern-count-other": "{0} kt."
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "mg/dl",
@@ -1533,6 +1575,16 @@
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
+          },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -1554,15 +1606,20 @@
             "unitPattern-count-one": "{0} eng. mpg",
             "unitPattern-count-other": "{0} eng. mpg"
           },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
+          },
           "digital-terabyte": {
             "displayName": "TB",
             "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
-            "displayName": "Tb",
-            "unitPattern-count-one": "{0} Tb",
-            "unitPattern-count-other": "{0} Tb"
+            "displayName": "Tbit",
+            "unitPattern-count-one": "{0} Tbit",
+            "unitPattern-count-other": "{0} Tbit"
           },
           "digital-gigabyte": {
             "displayName": "GB",
@@ -1580,9 +1637,9 @@
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
-            "unitPattern-count-one": "{0} Mb",
-            "unitPattern-count-other": "{0} Mb"
+            "displayName": "Mbit",
+            "unitPattern-count-one": "{0} Mbit",
+            "unitPattern-count-other": "{0} Mbit"
           },
           "digital-kilobyte": {
             "displayName": "kB",
@@ -1590,9 +1647,9 @@
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
-            "displayName": "kb",
-            "unitPattern-count-one": "{0} kb",
-            "unitPattern-count-other": "{0} kb"
+            "displayName": "kbit",
+            "unitPattern-count-one": "{0} kbit",
+            "unitPattern-count-other": "{0} kbit"
           },
           "digital-byte": {
             "displayName": "byte",
@@ -1822,7 +1879,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "sømil",
@@ -1957,6 +2014,11 @@
             "displayName": "mbar",
             "unitPattern-count-one": "{0}mbar",
             "unitPattern-count-other": "{0}mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/t",
@@ -2128,6 +2190,7 @@
             "unitPattern-count-other": "{0} tsk."
           },
           "coordinateUnit": {
+            "displayName": "retning",
             "east": "{0}Ø",
             "north": "{0}N",
             "south": "{0}S",

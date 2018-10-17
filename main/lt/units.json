@@ -3,8 +3,8 @@
     "lt": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14491 $",
+          "_cldrVersion": "34"
         },
         "language": "lt"
       },
@@ -23,8 +23,8 @@
           "acceleration-meter-per-second-squared": {
             "displayName": "metrai per kvadratinę sekundę",
             "unitPattern-count-one": "{0} metras per kvadratinę sekundę",
-            "unitPattern-count-few": "{0} metrai per kvadratinę sekundę",
-            "unitPattern-count-many": "{0} metro per kvadratinę sekundę",
+            "unitPattern-count-few": "{0} m/s²",
+            "unitPattern-count-many": "{0} m/s²",
             "unitPattern-count-other": "{0} metrų per kvadratinę sekundę"
           },
           "angle-revolution": {
@@ -158,6 +158,20 @@
             "unitPattern-count-many": "{0} milijoninės dalies",
             "unitPattern-count-other": "{0} milijoninių dalių"
           },
+          "concentr-percent": {
+            "displayName": "procentas",
+            "unitPattern-count-one": "{0} procentas",
+            "unitPattern-count-few": "{0} %",
+            "unitPattern-count-many": "{0} %",
+            "unitPattern-count-other": "{0} procentas"
+          },
+          "concentr-permille": {
+            "displayName": "promilė",
+            "unitPattern-count-one": "{0} promilė",
+            "unitPattern-count-few": "{0} ‰",
+            "unitPattern-count-many": "{0} ‰",
+            "unitPattern-count-other": "{0} promilė"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "litrai kilometrui",
             "unitPattern-count-one": "{0} litras kilometrui",
@@ -185,6 +199,13 @@
             "unitPattern-count-few": "{0} mylios už imperinį galoną",
             "unitPattern-count-many": "{0} mylios už imperinį galoną",
             "unitPattern-count-other": "{0} mylių už imperinį galoną"
+          },
+          "digital-petabyte": {
+            "displayName": "pentabaitai",
+            "unitPattern-count-one": "{0} pentabaitas",
+            "unitPattern-count-few": "{0} PB",
+            "unitPattern-count-many": "{0} PB",
+            "unitPattern-count-other": "{0} pentabaitų"
           },
           "digital-terabyte": {
             "displayName": "terabaitai",
@@ -560,7 +581,7 @@
             "unitPattern-count-one": "{0} fadomas",
             "unitPattern-count-few": "{0} fadomai",
             "unitPattern-count-many": "{0} fadomo",
-            "unitPattern-count-other": "{0} ftm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "jūrmylės",
@@ -747,6 +768,13 @@
             "unitPattern-count-few": "{0} milibarai",
             "unitPattern-count-many": "{0} milibaro",
             "unitPattern-count-other": "{0} milibarų"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atmosferos",
+            "unitPattern-count-one": "{0} atmosfera",
+            "unitPattern-count-few": "{0} atmosferos",
+            "unitPattern-count-many": "{0} atmosferos",
+            "unitPattern-count-other": "{0} atmosferų"
           },
           "speed-kilometer-per-hour": {
             "displayName": "kilometrai per valandą",
@@ -985,6 +1013,7 @@
             "unitPattern-count-other": "{0} arbatinių šaukštelių"
           },
           "coordinateUnit": {
+            "displayName": "pagrindinė kryptis",
             "east": "{0} rytų",
             "north": "{0} šiaurės",
             "south": "{0} pietų",
@@ -1140,6 +1169,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "procentas",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-few": "{0} %",
+            "unitPattern-count-many": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "promilė",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-few": "{0} ‰",
+            "unitPattern-count-many": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
             "unitPattern-count-one": "{0} l/km",
@@ -1167,6 +1210,13 @@
             "unitPattern-count-few": "{0} my/imp. g",
             "unitPattern-count-many": "{0} my/imp. g",
             "unitPattern-count-other": "{0} my/imp. g"
+          },
+          "digital-petabyte": {
+            "displayName": "Petabaitas",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-few": "{0} PB",
+            "unitPattern-count-many": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1538,11 +1588,11 @@
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "ftm",
-            "unitPattern-count-one": "{0} ftm",
-            "unitPattern-count-few": "{0} ftm",
-            "unitPattern-count-many": "{0} ftm",
-            "unitPattern-count-other": "{0} ftm"
+            "displayName": "fth",
+            "unitPattern-count-one": "{0} fth",
+            "unitPattern-count-few": "{0} fth",
+            "unitPattern-count-many": "{0} fth",
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "M",
@@ -1729,6 +1779,13 @@
             "unitPattern-count-few": "{0} mbar",
             "unitPattern-count-many": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-few": "{0} atm",
+            "unitPattern-count-many": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/val.",
@@ -1967,6 +2024,7 @@
             "unitPattern-count-other": "{0} a. š."
           },
           "coordinateUnit": {
+            "displayName": "kryptis",
             "east": "{0} R",
             "north": "{0} Š",
             "south": "{0} P",
@@ -2122,6 +2180,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-few": "{0} %",
+            "unitPattern-count-many": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "promilė",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-few": "{0} ‰",
+            "unitPattern-count-many": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
             "unitPattern-count-one": "{0} l/km",
@@ -2149,6 +2221,13 @@
             "unitPattern-count-few": "{0} my/imp. g",
             "unitPattern-count-many": "{0} my/imp. g",
             "unitPattern-count-other": "{0} my/imp. g"
+          },
+          "digital-petabyte": {
+            "displayName": "Petabaitas",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-few": "{0} PB",
+            "unitPattern-count-many": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -2520,11 +2599,11 @@
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "ftm",
-            "unitPattern-count-one": "{0} ftm",
-            "unitPattern-count-few": "{0} ftm",
-            "unitPattern-count-many": "{0} ftm",
-            "unitPattern-count-other": "{0} ftm"
+            "displayName": "fth",
+            "unitPattern-count-one": "{0} fth",
+            "unitPattern-count-few": "{0} fth",
+            "unitPattern-count-many": "{0} fth",
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "M",
@@ -2711,6 +2790,13 @@
             "unitPattern-count-few": "{0} mbar",
             "unitPattern-count-many": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-few": "{0} atm",
+            "unitPattern-count-many": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
@@ -2949,6 +3035,7 @@
             "unitPattern-count-other": "{0} a. š."
           },
           "coordinateUnit": {
+            "displayName": "kryptis",
             "east": "{0} R",
             "north": "{0} Š",
             "south": "{0} P",

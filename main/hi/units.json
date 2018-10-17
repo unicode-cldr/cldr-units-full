@@ -3,8 +3,8 @@
     "hi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14350 $",
+          "_cldrVersion": "34"
         },
         "language": "hi"
       },
@@ -19,7 +19,7 @@
             "unitPattern-count-other": "{0} गु–बल"
           },
           "acceleration-meter-per-second-squared": {
-            "displayName": "मीटर प्रति सेकंड वर्ग",
+            "displayName": "मीटर/से²",
             "unitPattern-count-one": "{0} मीटर प्रति सेकंड वर्ग",
             "unitPattern-count-other": "{0} मीटर प्रति सेकंड वर्ग"
           },
@@ -118,6 +118,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} हिस्सा प्रति दस लाख"
           },
+          "concentr-percent": {
+            "displayName": "प्रतिशत",
+            "unitPattern-count-one": "{0} प्रतिशत",
+            "unitPattern-count-other": "{0} प्रतिशत"
+          },
+          "concentr-permille": {
+            "displayName": "प्रति हज़ार",
+            "unitPattern-count-one": "{0} प्रति हज़ार",
+            "unitPattern-count-other": "{0} प्रति हज़ार"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "लीटर प्रति किलोमीटर",
             "unitPattern-count-one": "{0} लीटर प्रति किलोमीटर",
@@ -137,6 +147,11 @@
             "displayName": "मील प्रति इंपीरियल गैलन",
             "unitPattern-count-one": "{0} मील प्रति इंपीरियल गैलन",
             "unitPattern-count-other": "{0} मील प्रति इंपीरियल गैलन"
+          },
+          "digital-petabyte": {
+            "displayName": "पेटाबाइट",
+            "unitPattern-count-one": "{0} पेटाबाइट",
+            "unitPattern-count-other": "{0} पेटाबाइट"
           },
           "digital-terabyte": {
             "displayName": "टेराबाइट",
@@ -406,7 +421,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "नॉटिकल मील",
@@ -540,6 +555,11 @@
             "displayName": "मिलीबार",
             "unitPattern-count-one": "{0} मिलीबार",
             "unitPattern-count-other": "{0} मिलीबार"
+          },
+          "pressure-atmosphere": {
+            "displayName": "वायुमण्डलीय दबाव",
+            "unitPattern-count-one": "{0} वायुमंडलीय दबाव",
+            "unitPattern-count-other": "{0} वायुमंडलीय दबाव"
           },
           "speed-kilometer-per-hour": {
             "displayName": "किलोमीटर प्रति घंटा",
@@ -711,6 +731,7 @@
             "unitPattern-count-other": "{0} टी स्पून"
           },
           "coordinateUnit": {
+            "displayName": "प्रधान दिशा",
             "east": "{0}E",
             "north": "{0}N",
             "south": "{0}S",
@@ -723,8 +744,8 @@
           },
           "acceleration-g-force": {
             "displayName": "गु–बल",
-            "unitPattern-count-one": "{0} गु॰",
-            "unitPattern-count-other": "{0} गु॰"
+            "unitPattern-count-one": "{0} G",
+            "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-second-squared": {
             "displayName": "मीटर/से²",
@@ -826,6 +847,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "प्रतिशत",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "प्रति हज़ार",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "लीटर/किमी",
             "unitPattern-count-one": "{0} ली/किमी",
@@ -845,6 +876,11 @@
             "displayName": "mpg इंपीरियल",
             "unitPattern-count-one": "{0} mpg इंपीरियल",
             "unitPattern-count-other": "{0} mpg इंपीरियल"
+          },
+          "digital-petabyte": {
+            "displayName": "पेटाबाइट",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1114,7 +1150,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "नॉ॰ मी॰",
@@ -1180,8 +1216,8 @@
           },
           "mass-ounce": {
             "displayName": "औंस",
-            "unitPattern-count-one": "{0} औं॰",
-            "unitPattern-count-other": "{0} औं॰",
+            "unitPattern-count-one": "{0} औंस",
+            "unitPattern-count-other": "{0} औंस",
             "perUnitPattern": "{0}/औंस"
           },
           "mass-ounce-troy": {
@@ -1249,13 +1285,18 @@
             "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
           },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "कि॰मी॰/घं॰",
-            "unitPattern-count-one": "{0} कि॰मी॰ प्रति घं॰",
-            "unitPattern-count-other": "{0} कि॰मी॰ प्रति घं॰"
+            "unitPattern-count-one": "{0} कि॰मी॰/घं॰",
+            "unitPattern-count-other": "{0} कि॰मी॰/घं॰"
           },
           "speed-meter-per-second": {
-            "displayName": "मी॰/से॰",
+            "displayName": "मीटर/से॰",
             "unitPattern-count-one": "{0} मी॰/से॰",
             "unitPattern-count-other": "{0} मी॰/से॰"
           },
@@ -1281,8 +1322,8 @@
           },
           "temperature-fahrenheit": {
             "displayName": "डिग्री फ़ेरनहाइट",
-            "unitPattern-count-one": "{0}°फेरन॰",
-            "unitPattern-count-other": "{0}°फेरन॰"
+            "unitPattern-count-one": "{0}°फ़ेरन",
+            "unitPattern-count-other": "{0}°फ़ेरन"
           },
           "temperature-kelvin": {
             "displayName": "K",
@@ -1419,6 +1460,7 @@
             "unitPattern-count-other": "{0} टी स्पून"
           },
           "coordinateUnit": {
+            "displayName": "दिशा",
             "east": "{0}E",
             "north": "{0}N",
             "south": "{0}S",
@@ -1534,6 +1576,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "प्रति हज़ार",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "लीटर/किमी",
             "unitPattern-count-one": "{0} ली/किमी",
@@ -1553,6 +1605,11 @@
             "displayName": "mpg इंपीरियल",
             "unitPattern-count-one": "{0} mpg इंपीरियल",
             "unitPattern-count-other": "{0} mpg इंपीरियल"
+          },
+          "digital-petabyte": {
+            "displayName": "पेटाबाइट",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1822,7 +1879,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "नॉ॰ मी॰",
@@ -1957,13 +2014,18 @@
             "unitPattern-count-one": "{0}mb",
             "unitPattern-count-other": "{0}mb"
           },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "कि॰मी॰/घं॰",
             "unitPattern-count-one": "{0}किमी/घं",
             "unitPattern-count-other": "{0}किमी/घं"
           },
           "speed-meter-per-second": {
-            "displayName": "मी॰/से॰",
+            "displayName": "मीटर/से॰",
             "unitPattern-count-one": "{0}मी॰/से॰",
             "unitPattern-count-other": "{0}मी॰/से॰"
           },
@@ -2127,6 +2189,7 @@
             "unitPattern-count-other": "{0} टी स्पून"
           },
           "coordinateUnit": {
+            "displayName": "दिशा",
             "east": "{0}E",
             "north": "{0}N",
             "south": "{0}S",

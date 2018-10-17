@@ -3,15 +3,15 @@
     "sd": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14394 $",
+          "_cldrVersion": "34"
         },
         "language": "sd"
       },
       "units": {
         "long": {
           "per": {
-            "compoundUnitPattern": "{0}/{1}"
+            "compoundUnitPattern": "في {1} تي {0}"
           },
           "acceleration-g-force": {
             "displayName": "ڪشش ثقل",
@@ -118,15 +118,25 @@
             "unitPattern-count-one": "{0} حصا في ملين",
             "unitPattern-count-other": "{0} حصا في ملين"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ليٽرز في ڪلو ميٽر",
             "unitPattern-count-one": "{0} ليٽرز في ڪلو ميٽر",
             "unitPattern-count-other": "{0} ليٽرز في ڪلو ميٽر"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "ليٽرز في سوءِ ڪلو ميٽر",
+            "displayName": "ليٽرز في 100 ڪلو ميٽر",
             "unitPattern-count-one": "{0} L/100km",
-            "unitPattern-count-other": "{0} ليٽرز في سوءِ ڪلو ميٽر"
+            "unitPattern-count-other": "{0} ليٽرز في 100 ڪلو ميٽر"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ميل في گيلن",
@@ -137,6 +147,11 @@
             "displayName": "ميل في امپيريل گيلن",
             "unitPattern-count-one": "{0} ميل في امپيريل گيلن",
             "unitPattern-count-other": "{0} ميل في امپيريل گيلن"
+          },
+          "digital-petabyte": {
+            "displayName": "پيرا بائيٽس",
+            "unitPattern-count-one": "{0} پيرا بائيٽس",
+            "unitPattern-count-other": "{0} پيرا بائيٽس"
           },
           "digital-terabyte": {
             "displayName": "ٽيرا بائيٽز",
@@ -262,7 +277,7 @@
           },
           "electric-ohm": {
             "displayName": "اوهمس",
-            "unitPattern-count-one": "{0} Ω",
+            "unitPattern-count-one": "{0} اوهم",
             "unitPattern-count-other": "{0} اوهمس"
           },
           "electric-volt": {
@@ -406,7 +421,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "سمندري ميل",
@@ -540,6 +555,11 @@
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
             "unitPattern-count-other": "{0} ملي بارز"
+          },
+          "pressure-atmosphere": {
+            "displayName": "ايٽماس فيئر",
+            "unitPattern-count-one": "{0} ايٽماس فيئر",
+            "unitPattern-count-other": "{0} ايٽماس فيئر"
           },
           "speed-kilometer-per-hour": {
             "displayName": "ڪلوميٽر في ڪلاڪ",
@@ -711,6 +731,7 @@
             "unitPattern-count-other": "{0} چانهن جا چمچا"
           },
           "coordinateUnit": {
+            "displayName": "ڪارڊينل ڊائريڪشن",
             "east": "{0} اوڀر",
             "north": "{0} اتر",
             "south": "{0} ڏکڻ",
@@ -826,13 +847,23 @@
             "unitPattern-count-one": "{0} حصا في ملين",
             "unitPattern-count-other": "{0} حصا في ملين"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ليٽرز في ڪلو ميٽر",
-            "unitPattern-count-one": "{0} ليٽرز في ڪلو ميٽر",
-            "unitPattern-count-other": "{0} ليٽرز في ڪلو ميٽر"
+            "unitPattern-count-one": "{0} L/km",
+            "unitPattern-count-other": "{0} L/km"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "ليٽرز في سوءِ ڪلو ميٽر",
+            "displayName": "L/100km",
             "unitPattern-count-one": "{0} L/100km",
             "unitPattern-count-other": "{0} L/100km"
           },
@@ -845,6 +876,11 @@
             "displayName": "ميل في امپيريل گيلن",
             "unitPattern-count-one": "{0} ميل في امپيريل گيلن",
             "unitPattern-count-other": "{0} ميل في امپيريل گيلن"
+          },
+          "digital-petabyte": {
+            "displayName": "پيرا بائيٽس",
+            "unitPattern-count-one": "{0} پيرا بائيٽس",
+            "unitPattern-count-other": "{0} پيرا بائيٽس"
           },
           "digital-terabyte": {
             "displayName": "ٽيرا بائيٽز",
@@ -1114,7 +1150,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "سمندري ميل",
@@ -1142,8 +1178,8 @@
             "unitPattern-count-other": "{0} ٽَـ"
           },
           "mass-kilogram": {
-            "displayName": "ڪ.گـ.",
-            "unitPattern-count-one": "{0} ڪ.گـ.",
+            "displayName": "ڪلو گرام",
+            "unitPattern-count-one": "{0} ڪلو گرام",
             "unitPattern-count-other": "{0} ڪ.گـ.",
             "perUnitPattern": "{0}/ڪ.گـ."
           },
@@ -1248,6 +1284,11 @@
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
             "unitPattern-count-other": "{0} ملي بارز"
+          },
+          "pressure-atmosphere": {
+            "displayName": "ايٽماس فيئر",
+            "unitPattern-count-one": "{0} ايٽماس فيئر",
+            "unitPattern-count-other": "{0} ايٽماس فيئر"
           },
           "speed-kilometer-per-hour": {
             "displayName": "ڪلوميٽر في ڪلاڪ",
@@ -1419,6 +1460,7 @@
             "unitPattern-count-other": "{0} چانهن جا چمچا"
           },
           "coordinateUnit": {
+            "displayName": "ڊائريڪشن",
             "east": "{0} اوڀر",
             "north": "{0} اتر",
             "south": "{0} ڏکڻ",
@@ -1534,13 +1576,23 @@
             "unitPattern-count-one": "{0} حصا في ملين",
             "unitPattern-count-other": "{0} حصا في ملين"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ليٽرز في ڪلو ميٽر",
-            "unitPattern-count-one": "{0} ليٽرز في ڪلو ميٽر",
-            "unitPattern-count-other": "{0} ليٽرز في ڪلو ميٽر"
+            "unitPattern-count-one": "{0} L/km",
+            "unitPattern-count-other": "{0} L/km"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "ليٽرز في سوءِ ڪلو ميٽر",
+            "displayName": "L/100km",
             "unitPattern-count-one": "{0} L/100km",
             "unitPattern-count-other": "{0} L/100km"
           },
@@ -1553,6 +1605,11 @@
             "displayName": "ميل في امپيريل گيلن",
             "unitPattern-count-one": "{0} ميل في امپيريل گيلن",
             "unitPattern-count-other": "{0} ميل في امپيريل گيلن"
+          },
+          "digital-petabyte": {
+            "displayName": "پيرا بائيٽس",
+            "unitPattern-count-one": "{0} پيرا بائيٽس",
+            "unitPattern-count-other": "{0} پيرا بائيٽس"
           },
           "digital-terabyte": {
             "displayName": "ٽيرا بائيٽز",
@@ -1822,7 +1879,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "سمندري ميل",
@@ -1956,6 +2013,11 @@
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
             "unitPattern-count-other": "{0} ملي بارز"
+          },
+          "pressure-atmosphere": {
+            "displayName": "ايٽماس فيئر",
+            "unitPattern-count-one": "{0} ايٽماس فيئر",
+            "unitPattern-count-other": "{0} ايٽماس فيئر"
           },
           "speed-kilometer-per-hour": {
             "displayName": "ڪلوميٽر في ڪلاڪ",
@@ -2127,6 +2189,7 @@
             "unitPattern-count-other": "{0} چانهن جا چمچا"
           },
           "coordinateUnit": {
+            "displayName": "ڊائريڪشن",
             "east": "{0} اوڀر",
             "north": "{0} اتر",
             "south": "{0} ڏکڻ",

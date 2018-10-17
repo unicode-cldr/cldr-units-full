@@ -4,7 +4,7 @@
       "identity": {
         "version": {
           "_number": "$Revision: 13839 $",
-          "_cldrVersion": "33"
+          "_cldrVersion": "34"
         },
         "language": "ru",
         "territory": "BY"
@@ -159,6 +159,20 @@
             "unitPattern-count-many": "{0} миллионных долей",
             "unitPattern-count-other": "{0} миллионной доли"
           },
+          "concentr-percent": {
+            "displayName": "проценты",
+            "unitPattern-count-one": "{0} процент",
+            "unitPattern-count-few": "{0} процента",
+            "unitPattern-count-many": "{0} процентов",
+            "unitPattern-count-other": "{0} процента"
+          },
+          "concentr-permille": {
+            "displayName": "промилле",
+            "unitPattern-count-one": "{0} промилле",
+            "unitPattern-count-few": "{0} промилле",
+            "unitPattern-count-many": "{0} промилле",
+            "unitPattern-count-other": "{0} промилле"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литры на километр",
             "unitPattern-count-one": "{0} литр на километр",
@@ -186,6 +200,13 @@
             "unitPattern-count-few": "{0} мили на имп. галлон",
             "unitPattern-count-many": "{0} миль на имп. галлон",
             "unitPattern-count-other": "{0} мили на имп. галлон"
+          },
+          "digital-petabyte": {
+            "displayName": "петабайты",
+            "unitPattern-count-one": "{0} петабайт",
+            "unitPattern-count-few": "{0} петабайта",
+            "unitPattern-count-many": "{0} петабайт",
+            "unitPattern-count-other": "{0} петабайта"
           },
           "digital-terabyte": {
             "displayName": "терабайты",
@@ -749,6 +770,13 @@
             "unitPattern-count-many": "{0} миллибар",
             "unitPattern-count-other": "{0} миллибара"
           },
+          "pressure-atmosphere": {
+            "displayName": "атмосферы",
+            "unitPattern-count-one": "{0} атмосфера",
+            "unitPattern-count-few": "{0} атмосферы",
+            "unitPattern-count-many": "{0} атмосфер",
+            "unitPattern-count-other": "{0} атмосферы"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "километры в час",
             "unitPattern-count-one": "{0} километр в час",
@@ -759,7 +787,7 @@
           "speed-meter-per-second": {
             "displayName": "метры в секунду",
             "unitPattern-count-one": "{0} метр в секунду",
-            "unitPattern-count-few": "{0} метра в секундыу",
+            "unitPattern-count-few": "{0} метра в секунду",
             "unitPattern-count-many": "{0} метров в секунду",
             "unitPattern-count-other": "{0} метра в секунду"
           },
@@ -983,6 +1011,7 @@
             "unitPattern-count-other": "{0} чайной ложки"
           },
           "coordinateUnit": {
+            "displayName": "направление",
             "east": "{0} восточной долготы",
             "north": "{0} северной широты",
             "south": "{0} южной широты",
@@ -1096,11 +1125,11 @@
             "unitPattern-count-other": "{0} ярд²"
           },
           "area-square-foot": {
-            "displayName": "фут²",
-            "unitPattern-count-one": "{0} фут²",
-            "unitPattern-count-few": "{0} фут²",
-            "unitPattern-count-many": "{0} фут²",
-            "unitPattern-count-other": "{0} фут²"
+            "displayName": "фт²",
+            "unitPattern-count-one": "{0} фт²",
+            "unitPattern-count-few": "{0} фт²",
+            "unitPattern-count-many": "{0} фт²",
+            "unitPattern-count-other": "{0} фт²"
           },
           "area-square-inch": {
             "displayName": "дюйм²",
@@ -1138,6 +1167,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-few": "{0} %",
+            "unitPattern-count-many": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-few": "{0} ‰",
+            "unitPattern-count-many": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "л/км",
             "unitPattern-count-one": "{0} л/км",
@@ -1165,6 +1208,13 @@
             "unitPattern-count-few": "{0} мили/имп. гал",
             "unitPattern-count-many": "{0} миль/имп. гал",
             "unitPattern-count-other": "{0} мили/имп. галл."
+          },
+          "digital-petabyte": {
+            "displayName": "ПБ",
+            "unitPattern-count-one": "{0} ПБ",
+            "unitPattern-count-few": "{0} ПБ",
+            "unitPattern-count-many": "{0} ПБ",
+            "unitPattern-count-other": "{0} ПБ"
           },
           "digital-terabyte": {
             "displayName": "ТБ",
@@ -1276,7 +1326,7 @@
             "perUnitPattern": "{0}/д"
           },
           "duration-hour": {
-            "displayName": "ч",
+            "displayName": "ч.",
             "unitPattern-count-one": "{0} ч.",
             "unitPattern-count-few": "{0} ч.",
             "unitPattern-count-many": "{0} ч.",
@@ -1292,11 +1342,11 @@
             "perUnitPattern": "{0}/мин"
           },
           "duration-second": {
-            "displayName": "с",
-            "unitPattern-count-one": "{0} с.",
-            "unitPattern-count-few": "{0} с.",
-            "unitPattern-count-many": "{0} с.",
-            "unitPattern-count-other": "{0} с.",
+            "displayName": "сек.",
+            "unitPattern-count-one": "{0} сек.",
+            "unitPattern-count-few": "{0} сек.",
+            "unitPattern-count-many": "{0} сек.",
+            "unitPattern-count-other": "{0} сек.",
             "perUnitPattern": "{0}/c"
           },
           "duration-millisecond": {
@@ -1728,6 +1778,13 @@
             "unitPattern-count-many": "{0} мбар",
             "unitPattern-count-other": "{0} мбар"
           },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-few": "{0} атм",
+            "unitPattern-count-many": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/ч",
             "unitPattern-count-one": "{0} км/ч",
@@ -1822,11 +1879,11 @@
             "unitPattern-count-other": "{0} ярд³"
           },
           "volume-cubic-foot": {
-            "displayName": "фут³",
-            "unitPattern-count-one": "{0} фут³",
-            "unitPattern-count-few": "{0} фут³",
-            "unitPattern-count-many": "{0} фут³",
-            "unitPattern-count-other": "{0} фут³"
+            "displayName": "фт³",
+            "unitPattern-count-one": "{0} фт³",
+            "unitPattern-count-few": "{0} фт³",
+            "unitPattern-count-many": "{0} фт³",
+            "unitPattern-count-other": "{0} фт³"
           },
           "volume-cubic-inch": {
             "displayName": "дюйм³",
@@ -1962,6 +2019,7 @@
             "unitPattern-count-other": "{0} ч. л."
           },
           "coordinateUnit": {
+            "displayName": "направление",
             "east": "{0} в. д.",
             "north": "{0} с. ш.",
             "south": "{0} ю. ш.",
@@ -2075,7 +2133,7 @@
             "unitPattern-count-other": "{0} ярд²"
           },
           "area-square-foot": {
-            "displayName": "фут²",
+            "displayName": "фт²",
             "unitPattern-count-one": "{0} кв. фут",
             "unitPattern-count-few": "{0} кв. фута",
             "unitPattern-count-many": "{0} кв. футов",
@@ -2117,6 +2175,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-few": "{0}%",
+            "unitPattern-count-many": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-few": "{0} ‰",
+            "unitPattern-count-many": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "л/км",
             "unitPattern-count-one": "{0} л/км",
@@ -2144,6 +2216,13 @@
             "unitPattern-count-few": "{0} мили/имп. гал",
             "unitPattern-count-many": "{0} миль/имп. гал",
             "unitPattern-count-other": "{0} мили/имп. галл."
+          },
+          "digital-petabyte": {
+            "displayName": "ПБ",
+            "unitPattern-count-one": "{0} ПБ",
+            "unitPattern-count-few": "{0} ПБ",
+            "unitPattern-count-many": "{0} ПБ",
+            "unitPattern-count-other": "{0} ПБ"
           },
           "digital-terabyte": {
             "displayName": "ТБ",
@@ -2707,6 +2786,13 @@
             "unitPattern-count-many": "{0} мбар",
             "unitPattern-count-other": "{0} мбар"
           },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-few": "{0} атм",
+            "unitPattern-count-many": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/ч",
             "unitPattern-count-one": "{0} км/ч",
@@ -2801,11 +2887,11 @@
             "unitPattern-count-other": "{0} ярд³"
           },
           "volume-cubic-foot": {
-            "displayName": "фут³",
-            "unitPattern-count-one": "{0} фут³",
-            "unitPattern-count-few": "{0} фут³",
-            "unitPattern-count-many": "{0} фут³",
-            "unitPattern-count-other": "{0} фут³"
+            "displayName": "фт³",
+            "unitPattern-count-one": "{0} фт³",
+            "unitPattern-count-few": "{0} фт³",
+            "unitPattern-count-many": "{0} фт³",
+            "unitPattern-count-other": "{0} фт³"
           },
           "volume-cubic-inch": {
             "displayName": "дюйм³",
@@ -2941,6 +3027,7 @@
             "unitPattern-count-other": "{0} ч. л."
           },
           "coordinateUnit": {
+            "displayName": "напр.",
             "east": "{0} в. д.",
             "north": "{0} с. ш.",
             "south": "{0} ю. ш.",

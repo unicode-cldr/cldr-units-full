@@ -3,8 +3,8 @@
     "mk": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14365 $",
+          "_cldrVersion": "34"
         },
         "language": "mk"
       },
@@ -52,7 +52,7 @@
             "displayName": "квадратни километри",
             "unitPattern-count-one": "{0} квадратен километар",
             "unitPattern-count-other": "{0} квадратни километри",
-            "perUnitPattern": "{0}/km²"
+            "perUnitPattern": "{0} по квадратен километар"
           },
           "area-hectare": {
             "displayName": "хектари",
@@ -63,7 +63,7 @@
             "displayName": "квадратни метри",
             "unitPattern-count-one": "{0} квадратен метар",
             "unitPattern-count-other": "{0} квадратни метри",
-            "perUnitPattern": "{0} по метар квадратен"
+            "perUnitPattern": "{0} по квадратен метар"
           },
           "area-square-centimeter": {
             "displayName": "квадратни сантиметри",
@@ -99,7 +99,7 @@
             "perUnitPattern": "{0} по квадратен инч"
           },
           "concentr-karat": {
-            "displayName": "карат",
+            "displayName": "карати",
             "unitPattern-count-one": "{0} карат",
             "unitPattern-count-other": "{0} карати"
           },
@@ -117,6 +117,16 @@
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
+          },
+          "concentr-percent": {
+            "displayName": "процент",
+            "unitPattern-count-one": "{0} процент",
+            "unitPattern-count-other": "{0} проценти"
+          },
+          "concentr-permille": {
+            "displayName": "промил",
+            "unitPattern-count-one": "{0} промили",
+            "unitPattern-count-other": "{0} промили"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "литри на километар",
@@ -137,6 +147,11 @@
             "displayName": "mpg Imp.",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "петабајти",
+            "unitPattern-count-one": "{0} петабајт",
+            "unitPattern-count-other": "{0} петабајти"
           },
           "digital-terabyte": {
             "displayName": "терабајти",
@@ -544,6 +559,11 @@
             "unitPattern-count-one": "{0} милибар",
             "unitPattern-count-other": "{0} милибари"
           },
+          "pressure-atmosphere": {
+            "displayName": "атмосфери",
+            "unitPattern-count-one": "{0} атмосфера",
+            "unitPattern-count-other": "{0} атмосфери"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "километри на час",
             "unitPattern-count-one": "{0} километар на час",
@@ -715,10 +735,11 @@
             "unitPattern-count-other": "{0} кафени лажици"
           },
           "coordinateUnit": {
+            "displayName": "насока",
             "east": "{0} исток",
-            "north": "{0}С",
-            "south": "{0}Ј",
-            "west": "{0}З"
+            "north": "{0} север",
+            "south": "{0} југ",
+            "west": "{0} запад"
           }
         },
         "short": {
@@ -830,6 +851,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "процент",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "промили",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литри/км",
             "unitPattern-count-one": "{0} L/km",
@@ -849,6 +880,11 @@
             "displayName": "mpg Imp.",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TByte",
@@ -1256,6 +1292,11 @@
             "unitPattern-count-one": "{0} мбар",
             "unitPattern-count-other": "{0} мб."
           },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/час",
             "unitPattern-count-one": "{0} к/ч",
@@ -1427,6 +1468,7 @@
             "unitPattern-count-other": "{0} tsp"
           },
           "coordinateUnit": {
+            "displayName": "насока",
             "east": "{0}И",
             "north": "{0}С",
             "south": "{0}Ј",
@@ -1542,6 +1584,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-other": "{0} %"
+          },
+          "concentr-permille": {
+            "displayName": "промили",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литри/км",
             "unitPattern-count-one": "{0} л/км",
@@ -1561,6 +1613,11 @@
             "displayName": "mpg Imp.",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1968,6 +2025,11 @@
             "unitPattern-count-one": "{0} мб",
             "unitPattern-count-other": "{0} мб"
           },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/ч",
             "unitPattern-count-one": "{0} к/ч",
@@ -2139,6 +2201,7 @@
             "unitPattern-count-other": "{0}tsp"
           },
           "coordinateUnit": {
+            "displayName": "насока",
             "east": "{0}И",
             "north": "{0}С",
             "south": "{0}Ј",

@@ -3,8 +3,8 @@
     "zh-Hant-HK": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14365 $",
+          "_cldrVersion": "34"
         },
         "language": "zh",
         "script": "Hant",
@@ -100,6 +100,14 @@
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "百分比",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "千分比",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0} 公升/公里"
@@ -115,6 +123,10 @@
           "consumption-mile-per-gallon-imperial": {
             "displayName": "每英制加侖英里",
             "unitPattern-count-other": "每英制加侖 {0} 英里"
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -444,6 +456,10 @@
             "displayName": "毫巴",
             "unitPattern-count-other": "{0} 毫巴"
           },
+          "pressure-atmosphere": {
+            "displayName": "氣壓",
+            "unitPattern-count-other": "{0} 大氣壓"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "公里每小時",
             "unitPattern-count-other": "每小時 {0} 公里"
@@ -582,6 +598,7 @@
             "unitPattern-count-other": "{0} 茶匙"
           },
           "coordinateUnit": {
+            "displayName": "基本方向",
             "east": "東經 {0}",
             "north": "北緯 {0}",
             "south": "南緯 {0}",
@@ -677,6 +694,14 @@
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "百分比",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "千分比",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0} 升每公里"
@@ -692,6 +717,10 @@
           "consumption-mile-per-gallon-imperial": {
             "displayName": "英里/英制加侖",
             "unitPattern-count-other": "{0} 英里/英制加侖"
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1021,6 +1050,10 @@
             "displayName": "毫巴",
             "unitPattern-count-other": "{0} 毫巴"
           },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-other": "{0} atm"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "公里每小時",
             "unitPattern-count-other": "{0} 公里每小時"
@@ -1159,6 +1192,7 @@
             "unitPattern-count-other": "{0} 茶匙"
           },
           "coordinateUnit": {
+            "displayName": "方向",
             "east": "{0} 東",
             "north": "{0} 北",
             "south": "{0} 南",
@@ -1254,6 +1288,14 @@
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "百分比",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "千分比",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0}L/km"
@@ -1269,6 +1311,10 @@
           "consumption-mile-per-gallon-imperial": {
             "displayName": "英里/英制加侖",
             "unitPattern-count-other": "{0}m/gUK"
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1312,17 +1358,17 @@
           },
           "duration-century": {
             "displayName": "世紀",
-            "unitPattern-count-other": "{0} 世紀"
+            "unitPattern-count-other": "{0}世紀"
           },
           "duration-year": {
             "displayName": "年",
             "unitPattern-count-other": "{0}年",
-            "perUnitPattern": "{0}/年"
+            "perUnitPattern": "{0} 每年"
           },
           "duration-month": {
             "displayName": "月",
             "unitPattern-count-other": "{0}個月",
-            "perUnitPattern": "{0}/月"
+            "perUnitPattern": "{0} 每月"
           },
           "duration-week": {
             "displayName": "週",
@@ -1332,16 +1378,16 @@
           "duration-day": {
             "displayName": "日",
             "unitPattern-count-other": "{0}日",
-            "perUnitPattern": "{0}/天"
+            "perUnitPattern": "{0} 每日"
           },
           "duration-hour": {
             "displayName": "小時",
             "unitPattern-count-other": "{0}小時",
-            "perUnitPattern": "{0}/小時"
+            "perUnitPattern": "{0} 每小時"
           },
           "duration-minute": {
             "displayName": "分",
-            "unitPattern-count-other": "{0} 分鐘",
+            "unitPattern-count-other": "{0}分",
             "perUnitPattern": "{0} 每分鐘"
           },
           "duration-second": {
@@ -1488,7 +1534,7 @@
           },
           "length-fathom": {
             "displayName": "英尋",
-            "unitPattern-count-other": "{0}fm"
+            "unitPattern-count-other": "{0}fth"
           },
           "length-nautical-mile": {
             "displayName": "浬",
@@ -1513,12 +1559,12 @@
           "mass-kilogram": {
             "displayName": "公斤",
             "unitPattern-count-other": "{0} 公斤",
-            "perUnitPattern": "{0}/kg"
+            "perUnitPattern": "{0} 每公斤"
           },
           "mass-gram": {
             "displayName": "克",
             "unitPattern-count-other": "{0}克",
-            "perUnitPattern": "{0}/g"
+            "perUnitPattern": "{0} 每克"
           },
           "mass-milligram": {
             "displayName": "毫克",
@@ -1539,12 +1585,12 @@
           "mass-pound": {
             "displayName": "磅",
             "unitPattern-count-other": "{0}磅",
-            "perUnitPattern": "{0}/磅"
+            "perUnitPattern": "{0} 每磅"
           },
           "mass-ounce": {
             "displayName": "安士",
             "unitPattern-count-other": "{0} 安士",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0} 每安士"
           },
           "mass-ounce-troy": {
             "displayName": "金衡安士",
@@ -1597,6 +1643,10 @@
           "pressure-millibar": {
             "displayName": "毫巴",
             "unitPattern-count-other": "{0}毫巴"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "公里/小時",
@@ -1678,7 +1728,7 @@
             "unitPattern-count-other": "{0}dL"
           },
           "volume-centiliter": {
-            "displayName": "釐升",
+            "displayName": "厘升",
             "unitPattern-count-other": "{0}cL"
           },
           "volume-milliliter": {
@@ -1736,6 +1786,7 @@
             "unitPattern-count-other": "{0}tsp"
           },
           "coordinateUnit": {
+            "displayName": "方向",
             "east": "{0}E",
             "north": "{0}N",
             "south": "{0}S",

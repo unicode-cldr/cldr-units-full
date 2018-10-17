@@ -3,8 +3,8 @@
     "kk": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13911 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14488 $",
+          "_cldrVersion": "34"
         },
         "language": "kk"
       },
@@ -118,6 +118,16 @@
             "unitPattern-count-one": "{0} миллиондық үлес",
             "unitPattern-count-other": "{0} миллиондық үлес"
           },
+          "concentr-percent": {
+            "displayName": "пайыз",
+            "unitPattern-count-one": "{0} пайыз",
+            "unitPattern-count-other": "{0} пайыз"
+          },
+          "concentr-permille": {
+            "displayName": "промилле",
+            "unitPattern-count-one": "{0} промилле",
+            "unitPattern-count-other": "{0} промилле"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/километр",
             "unitPattern-count-one": "{0} литр/километр",
@@ -137,6 +147,11 @@
             "displayName": "миля/имп. галлон",
             "unitPattern-count-one": "{0} миля/имп. галлон",
             "unitPattern-count-other": "{0} миля/имп. галлон"
+          },
+          "digital-petabyte": {
+            "displayName": "петабайт",
+            "unitPattern-count-one": "{0} петабайт",
+            "unitPattern-count-other": "{0} петабайт"
           },
           "digital-terabyte": {
             "displayName": "терабайт",
@@ -406,7 +421,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "теңіз милясы",
@@ -540,6 +555,11 @@
             "displayName": "миллибар",
             "unitPattern-count-one": "{0} миллибар",
             "unitPattern-count-other": "{0} миллибар"
+          },
+          "pressure-atmosphere": {
+            "displayName": "атмосфера",
+            "unitPattern-count-one": "{0} атмосфера",
+            "unitPattern-count-other": "{0} атмосфера"
           },
           "speed-kilometer-per-hour": {
             "displayName": "километр/сағат",
@@ -711,10 +731,11 @@
             "unitPattern-count-other": "{0} шай қасық"
           },
           "coordinateUnit": {
-            "east": "{0} Ш",
-            "north": "{0} С",
-            "south": "{0} О",
-            "west": "{0} Б"
+            "displayName": "негізгі бағыт",
+            "east": "{0} шығыс",
+            "north": "{0} солтүстік",
+            "south": "{0} оңтүстік",
+            "west": "{0} батыс"
           }
         },
         "short": {
@@ -826,6 +847,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "пайыз",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "промилле",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/км",
             "unitPattern-count-one": "{0} л/км",
@@ -845,6 +876,11 @@
             "displayName": "mpg Imp.",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "Пбайт",
+            "unitPattern-count-one": "{0} ПБ",
+            "unitPattern-count-other": "{0} ПБ"
           },
           "digital-terabyte": {
             "displayName": "Тбайт",
@@ -1035,7 +1071,7 @@
             "perUnitPattern": "{0}/км"
           },
           "length-meter": {
-            "displayName": "метр",
+            "displayName": "м",
             "unitPattern-count-one": "{0} м",
             "unitPattern-count-other": "{0} м",
             "perUnitPattern": "{0}/м"
@@ -1114,7 +1150,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1240,7 +1276,7 @@
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
-            "displayName": "in Hg",
+            "displayName": "сынап бағаны дюймі",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -1248,6 +1284,11 @@
             "displayName": "мбар",
             "unitPattern-count-one": "{0} мб",
             "unitPattern-count-other": "{0} мб"
+          },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
           },
           "speed-kilometer-per-hour": {
             "displayName": "км/сағ",
@@ -1419,6 +1460,7 @@
             "unitPattern-count-other": "{0} ш. қ."
           },
           "coordinateUnit": {
+            "displayName": "бағыт",
             "east": "{0} Ш",
             "north": "{0} С",
             "south": "{0} О",
@@ -1534,6 +1576,16 @@
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "промилле",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/км",
             "unitPattern-count-one": "{0} л/км",
@@ -1553,6 +1605,11 @@
             "displayName": "mpg Imp.",
             "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "Пбайт",
+            "unitPattern-count-one": "{0} ПБ",
+            "unitPattern-count-other": "{0} ПБ"
           },
           "digital-terabyte": {
             "displayName": "Тбайт",
@@ -1743,7 +1800,7 @@
             "perUnitPattern": "{0}/км"
           },
           "length-meter": {
-            "displayName": "метр",
+            "displayName": "м",
             "unitPattern-count-one": "{0} м",
             "unitPattern-count-other": "{0} м",
             "perUnitPattern": "{0}/м"
@@ -1822,7 +1879,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1948,7 +2005,7 @@
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
-            "displayName": "in Hg",
+            "displayName": "сынап бағаны дюймі",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -1956,6 +2013,11 @@
             "displayName": "мбар",
             "unitPattern-count-one": "{0} мб",
             "unitPattern-count-other": "{0} мб"
+          },
+          "pressure-atmosphere": {
+            "displayName": "атм",
+            "unitPattern-count-one": "{0} атм",
+            "unitPattern-count-other": "{0} атм"
           },
           "speed-kilometer-per-hour": {
             "displayName": "км/сағ",
@@ -2127,6 +2189,7 @@
             "unitPattern-count-other": "{0} ш. қ."
           },
           "coordinateUnit": {
+            "displayName": "бағыт",
             "east": "{0} Ш",
             "north": "{0} С",
             "south": "{0} О",

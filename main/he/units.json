@@ -3,8 +3,8 @@
     "he": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13920 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14394 $",
+          "_cldrVersion": "34"
         },
         "language": "he"
       },
@@ -158,6 +158,20 @@
             "unitPattern-count-many": "{0} חלקים למיליון",
             "unitPattern-count-other": "{0} חלקים למיליון"
           },
+          "concentr-percent": {
+            "displayName": "אחוז",
+            "unitPattern-count-one": "{0} אחוז",
+            "unitPattern-count-two": "{0} אחוז",
+            "unitPattern-count-many": "{0} אחוז",
+            "unitPattern-count-other": "{0} אחוז"
+          },
+          "concentr-permille": {
+            "displayName": "פרומיל",
+            "unitPattern-count-one": "{0} פרומיל",
+            "unitPattern-count-two": "{0} פרומיל",
+            "unitPattern-count-many": "{0} פרומיל",
+            "unitPattern-count-other": "{0} פרומיל"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ליטרים/קילומטר",
             "unitPattern-count-one": "{0} ליטר/קילומטר",
@@ -186,19 +200,26 @@
             "unitPattern-count-many": "{0} מייל/גלון אימפריאלי",
             "unitPattern-count-other": "{0} מייל/גלון אימפריאלי"
           },
+          "digital-petabyte": {
+            "displayName": "פטה-בייט",
+            "unitPattern-count-one": "{0} פטה-בייט",
+            "unitPattern-count-two": "{0} פטה-בייט",
+            "unitPattern-count-many": "{0} פטה-בייט",
+            "unitPattern-count-other": "{0} פטה-בייט"
+          },
           "digital-terabyte": {
             "displayName": "טרה-בייט",
             "unitPattern-count-one": "טרה-בייט {0}",
-            "unitPattern-count-two": "{0} טרה-בתים",
-            "unitPattern-count-many": "{0} טרה-בתים",
-            "unitPattern-count-other": "{0} טרה-בתים"
+            "unitPattern-count-two": "טרה-בייט {0}",
+            "unitPattern-count-many": "טרה-בייט {0}",
+            "unitPattern-count-other": "טרה-בייט {0}"
           },
           "digital-terabit": {
             "displayName": "טרה-ביט",
             "unitPattern-count-one": "טרה-ביט {0}",
-            "unitPattern-count-two": "{0} טרה-סיביות",
-            "unitPattern-count-many": "{0} טרה-סיביות",
-            "unitPattern-count-other": "{0} טרה-סיביות"
+            "unitPattern-count-two": "טרה-ביט {0}",
+            "unitPattern-count-many": "טרה-ביט {0}",
+            "unitPattern-count-other": "טרה-ביט {0}"
           },
           "digital-gigabyte": {
             "displayName": "ג׳יגה-בייט",
@@ -208,7 +229,7 @@
             "unitPattern-count-other": "{0} ג׳יגה-בייט"
           },
           "digital-gigabit": {
-            "displayName": "גיגהסיביות",
+            "displayName": "גיגהביט",
             "unitPattern-count-one": "{0} גיגהביט",
             "unitPattern-count-two": "{0} גיגהביט",
             "unitPattern-count-many": "{0} גיגהביט",
@@ -222,11 +243,11 @@
             "unitPattern-count-other": "{0} מגה-בייט"
           },
           "digital-megabit": {
-            "displayName": "מגהביט",
+            "displayName": "מגה-ביט",
             "unitPattern-count-one": "מגה-ביט {0}",
-            "unitPattern-count-two": "{0} מגה-סיביות",
-            "unitPattern-count-many": "{0} מגה-סיביות",
-            "unitPattern-count-other": "{0} מגה-סיביות"
+            "unitPattern-count-two": "מגה-ביט {0}",
+            "unitPattern-count-many": "מגה-ביט {0}",
+            "unitPattern-count-other": "מגה-ביט {0}"
           },
           "digital-kilobyte": {
             "displayName": "קילו-בייט",
@@ -237,14 +258,14 @@
           },
           "digital-kilobit": {
             "displayName": "קילוביט",
-            "unitPattern-count-one": "{0} קילוסיבית",
-            "unitPattern-count-two": "{0} קילוסיביות",
-            "unitPattern-count-many": "{0} קילוסיביות",
-            "unitPattern-count-other": "{0} קילוסיביות"
+            "unitPattern-count-one": "{0} קילוביט",
+            "unitPattern-count-two": "{0} קילוביט",
+            "unitPattern-count-many": "{0} קילוביט",
+            "unitPattern-count-other": "{0} קילוביט"
           },
           "digital-byte": {
             "displayName": "בייט",
-            "unitPattern-count-one": "בית {0}",
+            "unitPattern-count-one": "{0} בייט",
             "unitPattern-count-two": "{0} בייט",
             "unitPattern-count-many": "{0} בייט",
             "unitPattern-count-other": "{0} בייט"
@@ -252,9 +273,9 @@
           "digital-bit": {
             "displayName": "ביט",
             "unitPattern-count-one": "ביט {0}",
-            "unitPattern-count-two": "{0} סיביות",
-            "unitPattern-count-many": "{0} סיביות",
-            "unitPattern-count-other": "{0} סיביות"
+            "unitPattern-count-two": "ביט {0}",
+            "unitPattern-count-many": "ביט {0}",
+            "unitPattern-count-other": "ביט {0}"
           },
           "duration-century": {
             "displayName": "מאות",
@@ -554,7 +575,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "מייל ימי",
@@ -741,6 +762,13 @@
             "unitPattern-count-two": "{0} מיליבר",
             "unitPattern-count-many": "{0} מיליבר",
             "unitPattern-count-other": "{0} מיליבר"
+          },
+          "pressure-atmosphere": {
+            "displayName": "אטמוספרות",
+            "unitPattern-count-one": "{0} אטמוספרה",
+            "unitPattern-count-two": "{0} אטמוספרה",
+            "unitPattern-count-many": "{0} אטמוספרה",
+            "unitPattern-count-other": "{0} אטמוספרות"
           },
           "speed-kilometer-per-hour": {
             "displayName": "קילומטר לשעה",
@@ -976,6 +1004,7 @@
             "unitPattern-count-other": "{0} כפיות"
           },
           "coordinateUnit": {
+            "displayName": "רוחות השמיים",
             "east": "{0} מזרח",
             "north": "{0} צפון",
             "south": "{0} דרום",
@@ -1131,6 +1160,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-two": "{0}%",
+            "unitPattern-count-many": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-two": "{0}‰",
+            "unitPattern-count-many": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ליטרים/ק״מ",
             "unitPattern-count-one": "{0} ל׳/ק״מ",
@@ -1158,6 +1201,13 @@
             "unitPattern-count-two": "{0} mpg Imp.",
             "unitPattern-count-many": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-two": "{0} PB",
+            "unitPattern-count-many": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -1225,9 +1275,9 @@
           "digital-bit": {
             "displayName": "ביט",
             "unitPattern-count-one": "ביט {0}",
-            "unitPattern-count-two": "{0} סיביות",
-            "unitPattern-count-many": "{0} סיביות",
-            "unitPattern-count-other": "{0} סיביות"
+            "unitPattern-count-two": "ביט {0}",
+            "unitPattern-count-many": "ביט {0}",
+            "unitPattern-count-other": "ביט {0}"
           },
           "duration-century": {
             "displayName": "מאות",
@@ -1466,9 +1516,9 @@
           "length-picometer": {
             "displayName": "פ״מ",
             "unitPattern-count-one": "פ“מ {0}",
-            "unitPattern-count-two": "{0} פיקומטר",
-            "unitPattern-count-many": "{0} פיקומטר",
-            "unitPattern-count-other": "{0} פיקומטר"
+            "unitPattern-count-two": "פ“מ {0}",
+            "unitPattern-count-many": "פ“מ {0}",
+            "unitPattern-count-other": "פ“מ {0}"
           },
           "length-mile": {
             "displayName": "מייל",
@@ -1527,7 +1577,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "מ״י",
@@ -1714,6 +1764,13 @@
             "unitPattern-count-two": "{0} mbar",
             "unitPattern-count-many": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-two": "{0} atm",
+            "unitPattern-count-many": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "קמ״ש",
@@ -1949,6 +2006,7 @@
             "unitPattern-count-other": "{0} כפי׳"
           },
           "coordinateUnit": {
+            "displayName": "כיוון",
             "east": "{0} מז׳",
             "north": "{0} צפ׳",
             "south": "{0} דר׳",
@@ -2104,6 +2162,20 @@
             "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
+            "unitPattern-count-two": "{0}%",
+            "unitPattern-count-many": "{0}%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "concentr-permille": {
+            "displayName": "‰",
+            "unitPattern-count-one": "{0}‰",
+            "unitPattern-count-two": "{0}‰",
+            "unitPattern-count-many": "{0}‰",
+            "unitPattern-count-other": "{0}‰"
+          },
           "consumption-liter-per-kilometer": {
             "displayName": "ליטרים/ק״מ",
             "unitPattern-count-one": "{0} ל׳/ק״מ",
@@ -2131,6 +2203,13 @@
             "unitPattern-count-two": "{0} mpg Imp.",
             "unitPattern-count-many": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
+            "unitPattern-count-two": "{0} PB",
+            "unitPattern-count-many": "{0} PB",
+            "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
@@ -2211,10 +2290,10 @@
           },
           "duration-year": {
             "displayName": "ש׳",
-            "unitPattern-count-one": "שנה {0}",
-            "unitPattern-count-two": "{0} שנים",
-            "unitPattern-count-many": "{0} שנים",
-            "unitPattern-count-other": "{0} שנים",
+            "unitPattern-count-one": "ש′ {0}",
+            "unitPattern-count-two": "{0} ש′",
+            "unitPattern-count-many": "{0} ש′",
+            "unitPattern-count-other": "{0} ש′",
             "perUnitPattern": "{0}/שנה"
           },
           "duration-month": {
@@ -2500,7 +2579,7 @@
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fm"
+            "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
             "displayName": "מ״י",
@@ -2687,6 +2766,13 @@
             "unitPattern-count-two": "{0} מיליבר",
             "unitPattern-count-many": "{0} מיליבר",
             "unitPattern-count-other": "{0} מיליבר"
+          },
+          "pressure-atmosphere": {
+            "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
+            "unitPattern-count-two": "{0} atm",
+            "unitPattern-count-many": "{0} atm",
+            "unitPattern-count-other": "{0} atm"
           },
           "speed-kilometer-per-hour": {
             "displayName": "קמ״ש",
@@ -2922,6 +3008,7 @@
             "unitPattern-count-other": "{0} כפי׳"
           },
           "coordinateUnit": {
+            "displayName": "כיוון",
             "east": "{0} מז׳",
             "north": "{0} צפ׳",
             "south": "{0} דר׳",
