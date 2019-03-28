@@ -3,8 +3,8 @@
     "it": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14486 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14842 $",
+          "_cldrVersion": "35"
         },
         "language": "it"
       },
@@ -98,6 +98,11 @@
             "unitPattern-count-other": "{0} pollici quadrati",
             "perUnitPattern": "{0} per pollice quadrato"
           },
+          "area-dunam": {
+            "displayName": "dunum",
+            "unitPattern-count-one": "{0} dunum",
+            "unitPattern-count-other": "{0} dunum"
+          },
           "concentr-karat": {
             "displayName": "carati",
             "unitPattern-count-one": "{0} carato",
@@ -127,6 +132,16 @@
             "displayName": "permille",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "punto base",
+            "unitPattern-count-one": "{0} punto base",
+            "unitPattern-count-other": "{0} punti base"
+          },
+          "concentr-mole": {
+            "displayName": "moli",
+            "unitPattern-count-one": "{0} mole",
+            "unitPattern-count-other": "{0} moli"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "litri per chilometro",
@@ -315,6 +330,26 @@
             "unitPattern-count-one": "{0} chilowattora",
             "unitPattern-count-other": "{0} chilowattora"
           },
+          "energy-electronvolt": {
+            "displayName": "elettronvolt",
+            "unitPattern-count-one": "{0} elettronvolt",
+            "unitPattern-count-other": "{0} elettronvolt"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} BTU",
+            "unitPattern-count-other": "{0} BTU"
+          },
+          "force-pound-force": {
+            "displayName": "libbre-forza",
+            "unitPattern-count-one": "{0} libbra-forza",
+            "unitPattern-count-other": "{0} libbre-forza"
+          },
+          "force-newton": {
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} newton",
+            "unitPattern-count-other": "{0} newton"
+          },
           "frequency-gigahertz": {
             "displayName": "gigahertz",
             "unitPattern-count-one": "{0} gigahertz",
@@ -438,10 +473,20 @@
             "unitPattern-count-one": "{0} punto",
             "unitPattern-count-other": "{0} punti"
           },
+          "length-solar-radius": {
+            "displayName": "raggi solari",
+            "unitPattern-count-one": "{0} raggio solare",
+            "unitPattern-count-other": "{0} raggi solari"
+          },
           "light-lux": {
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-solar-luminosity": {
+            "displayName": "luminosità solari",
+            "unitPattern-count-one": "{0} luminosità solare",
+            "unitPattern-count-other": "{0} luminosità solari"
           },
           "mass-metric-ton": {
             "displayName": "tonnellate metriche",
@@ -500,6 +545,21 @@
             "displayName": "carati",
             "unitPattern-count-one": "{0} carato",
             "unitPattern-count-other": "{0} carati"
+          },
+          "mass-dalton": {
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} dalton",
+            "unitPattern-count-other": "{0} dalton"
+          },
+          "mass-earth-mass": {
+            "displayName": "masse terrestri",
+            "unitPattern-count-one": "{0} massa terrestre",
+            "unitPattern-count-other": "{0} masse terrestri"
+          },
+          "mass-solar-mass": {
+            "displayName": "masse solari",
+            "unitPattern-count-one": "{0} massa solare",
+            "unitPattern-count-other": "{0} masse solari"
           },
           "power-gigawatt": {
             "displayName": "gigawatt",
@@ -561,6 +621,16 @@
             "unitPattern-count-one": "{0} atmosfera",
             "unitPattern-count-other": "{0} atmosfere"
           },
+          "pressure-kilopascal": {
+            "displayName": "chilopascal",
+            "unitPattern-count-one": "{0} chilopascal",
+            "unitPattern-count-other": "{0} chilopascal"
+          },
+          "pressure-megapascal": {
+            "displayName": "megapascal",
+            "unitPattern-count-one": "{0} megapascal",
+            "unitPattern-count-other": "{0} megapascal"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "chilometri orari",
             "unitPattern-count-one": "{0} chilometro orario",
@@ -600,6 +670,16 @@
             "displayName": "Kelvin",
             "unitPattern-count-one": "{0} Kelvin",
             "unitPattern-count-other": "{0} Kelvin"
+          },
+          "torque-pound-foot": {
+            "displayName": "libbre-piede",
+            "unitPattern-count-one": "{0} libbra-piede",
+            "unitPattern-count-other": "{0} libbre-piedi"
+          },
+          "torque-newton-meter": {
+            "displayName": "newton metri",
+            "unitPattern-count-one": "{0} newton metro",
+            "unitPattern-count-other": "{0} newton metri"
           },
           "volume-cubic-kilometer": {
             "displayName": "chilometri cubi",
@@ -721,6 +801,11 @@
             "unitPattern-count-one": "{0} oncia fluida",
             "unitPattern-count-other": "{0} once fluide"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "once liquide imperiali",
+            "unitPattern-count-one": "{0} oncia liquida imperiale",
+            "unitPattern-count-other": "{0} once liquide imperiali"
+          },
           "volume-tablespoon": {
             "displayName": "cucchiai da tavola",
             "unitPattern-count-one": "{0} cucchiaio da tavola",
@@ -730,6 +815,11 @@
             "displayName": "cucchiai da tè",
             "unitPattern-count-one": "{0} cucchiaio da tè",
             "unitPattern-count-other": "{0} cucchiai da tè"
+          },
+          "volume-barrel": {
+            "displayName": "barrel",
+            "unitPattern-count-one": "{0} barrel",
+            "unitPattern-count-other": "{0} barrel"
           },
           "coordinateUnit": {
             "displayName": "punti cardinali",
@@ -828,6 +918,11 @@
             "unitPattern-count-other": "{0} in²",
             "perUnitPattern": "{0}/in²"
           },
+          "area-dunam": {
+            "displayName": "dunum",
+            "unitPattern-count-one": "{0} dunum",
+            "unitPattern-count-other": "{0} dunum"
+          },
           "concentr-karat": {
             "displayName": "kt",
             "unitPattern-count-one": "{0} kt",
@@ -857,6 +952,16 @@
             "displayName": "‰",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "‱",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "mol",
+            "unitPattern-count-one": "{0} mol",
+            "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "L/km",
@@ -1045,6 +1150,26 @@
             "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "eV",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} BTU",
+            "unitPattern-count-other": "{0} BTU"
+          },
+          "force-pound-force": {
+            "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "N",
+            "unitPattern-count-one": "{0} N",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
             "unitPattern-count-one": "{0} GHz",
@@ -1168,10 +1293,20 @@
             "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
+          "length-solar-radius": {
+            "displayName": "R☉",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-solar-luminosity": {
+            "displayName": "L☉",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "t",
@@ -1230,6 +1365,21 @@
             "displayName": "carati",
             "unitPattern-count-one": "{0} kt",
             "unitPattern-count-other": "{0} kt"
+          },
+          "mass-dalton": {
+            "displayName": "Da",
+            "unitPattern-count-one": "{0} Da",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "M⊕",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "M☉",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1291,6 +1441,16 @@
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
             "unitPattern-count-one": "{0} km/h",
@@ -1330,6 +1490,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lb-ft",
+            "unitPattern-count-one": "{0} lb-ft",
+            "unitPattern-count-other": "{0} lb-ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "Nm",
+            "unitPattern-count-one": "{0} Nm",
+            "unitPattern-count-other": "{0} Nm"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1450,6 +1620,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "fl oz imp.",
+            "unitPattern-count-one": "{0} fl oz imp.",
+            "unitPattern-count-other": "{0} fl oz imp."
+          },
           "volume-tablespoon": {
             "displayName": "tbsp",
             "unitPattern-count-one": "{0} tbsp",
@@ -1459,6 +1634,11 @@
             "displayName": "tsp",
             "unitPattern-count-one": "{0} tsp",
             "unitPattern-count-other": "{0} tsp"
+          },
+          "volume-barrel": {
+            "displayName": "barrel",
+            "unitPattern-count-one": "{0} barrel",
+            "unitPattern-count-other": "{0} barrel"
           },
           "coordinateUnit": {
             "displayName": "punto",
@@ -1557,6 +1737,11 @@
             "unitPattern-count-other": "{0} in²",
             "perUnitPattern": "{0}/in²"
           },
+          "area-dunam": {
+            "displayName": "dunum",
+            "unitPattern-count-one": "{0} dunum",
+            "unitPattern-count-other": "{0} dunum"
+          },
           "concentr-karat": {
             "displayName": "kt",
             "unitPattern-count-one": "{0} kt",
@@ -1586,6 +1771,16 @@
             "displayName": "‰",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "‱",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "mol",
+            "unitPattern-count-one": "{0} mol",
+            "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "L/km",
@@ -1774,6 +1969,26 @@
             "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "eV",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} BTU",
+            "unitPattern-count-other": "{0} BTU"
+          },
+          "force-pound-force": {
+            "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "N",
+            "unitPattern-count-one": "{0} N",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
             "unitPattern-count-one": "{0} GHz",
@@ -1897,10 +2112,20 @@
             "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
+          "length-solar-radius": {
+            "displayName": "R☉",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-solar-luminosity": {
+            "displayName": "L☉",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "t",
@@ -1959,6 +2184,21 @@
             "displayName": "carati",
             "unitPattern-count-one": "{0} kt",
             "unitPattern-count-other": "{0} kt"
+          },
+          "mass-dalton": {
+            "displayName": "Da",
+            "unitPattern-count-one": "{0} Da",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "M⊕",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "M☉",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2020,6 +2260,16 @@
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
             "unitPattern-count-one": "{0}km/h",
@@ -2052,13 +2302,23 @@
           },
           "temperature-fahrenheit": {
             "displayName": "°F",
-            "unitPattern-count-one": "{0}°F",
-            "unitPattern-count-other": "{0}°F"
+            "unitPattern-count-one": "{0} °F",
+            "unitPattern-count-other": "{0} °F"
           },
           "temperature-kelvin": {
             "displayName": "K",
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lb-ft",
+            "unitPattern-count-one": "{0} lb-ft",
+            "unitPattern-count-other": "{0} lb-ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "Nm",
+            "unitPattern-count-one": "{0} Nm",
+            "unitPattern-count-other": "{0} Nm"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -2179,6 +2439,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "fl oz imp.",
+            "unitPattern-count-one": "{0} fl oz imp.",
+            "unitPattern-count-other": "{0} fl oz imp."
+          },
           "volume-tablespoon": {
             "displayName": "tbsp",
             "unitPattern-count-one": "{0} tbsp",
@@ -2188,6 +2453,11 @@
             "displayName": "tsp",
             "unitPattern-count-one": "{0} tsp",
             "unitPattern-count-other": "{0} tsp"
+          },
+          "volume-barrel": {
+            "displayName": "barrel",
+            "unitPattern-count-one": "{0} barrel",
+            "unitPattern-count-other": "{0} barrel"
           },
           "coordinateUnit": {
             "displayName": "punto",

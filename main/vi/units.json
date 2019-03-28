@@ -3,8 +3,8 @@
     "vi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14365 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14842 $",
+          "_cldrVersion": "35"
         },
         "language": "vi"
       },
@@ -82,6 +82,10 @@
             "unitPattern-count-other": "{0} inch vuông",
             "perUnitPattern": "{0}/in²"
           },
+          "area-dunam": {
+            "displayName": "dunam",
+            "unitPattern-count-other": "{0} dunam"
+          },
           "concentr-karat": {
             "displayName": "karat",
             "unitPattern-count-other": "{0} karat"
@@ -105,6 +109,14 @@
           "concentr-permille": {
             "displayName": "‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "phần chục nghìn",
+            "unitPattern-count-other": "{0} phần chục nghìn"
+          },
+          "concentr-mole": {
+            "displayName": "mol",
+            "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "lít/km",
@@ -226,7 +238,7 @@
             "unitPattern-count-other": "{0} mili ampe"
           },
           "electric-ohm": {
-            "displayName": "ohm",
+            "displayName": "Ω",
             "unitPattern-count-other": "{0} ohm"
           },
           "electric-volt": {
@@ -256,6 +268,22 @@
           "energy-kilowatt-hour": {
             "displayName": "kilôoát giờ",
             "unitPattern-count-other": "{0} kilôoát giờ"
+          },
+          "energy-electronvolt": {
+            "displayName": "electronvôn",
+            "unitPattern-count-other": "{0} electronvôn"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "đơn vị nhiệt Anh",
+            "unitPattern-count-other": "{0} đơn vị nhiệt Anh"
+          },
+          "force-pound-force": {
+            "displayName": "pound lực",
+            "unitPattern-count-other": "{0} pound lực"
+          },
+          "force-newton": {
+            "displayName": "newton",
+            "unitPattern-count-other": "{0} newton"
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
@@ -358,9 +386,17 @@
             "displayName": "đ",
             "unitPattern-count-other": "{0} đ"
           },
+          "length-solar-radius": {
+            "displayName": "bán kính mặt trời",
+            "unitPattern-count-other": "{0} bán kính mặt trời"
+          },
           "light-lux": {
             "displayName": "lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-solar-luminosity": {
+            "displayName": "độ sáng của mặt trời",
+            "unitPattern-count-other": "{0} độ sáng của mặt trời"
           },
           "mass-metric-ton": {
             "displayName": "MT",
@@ -410,6 +446,18 @@
             "displayName": "carat",
             "unitPattern-count-other": "{0} carat"
           },
+          "mass-dalton": {
+            "displayName": "dalton",
+            "unitPattern-count-other": "{0} dalton"
+          },
+          "mass-earth-mass": {
+            "displayName": "Trọng lượng trái đất",
+            "unitPattern-count-other": "{0} trọng lượng trái đất"
+          },
+          "mass-solar-mass": {
+            "displayName": "trọng lượng mặt trời",
+            "unitPattern-count-other": "{0} trọng lượng mặt trời"
+          },
           "power-gigawatt": {
             "displayName": "gigaoát",
             "unitPattern-count-other": "{0} gigaoát"
@@ -458,6 +506,14 @@
             "displayName": "atm",
             "unitPattern-count-other": "{0} átmốtphe"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "kilômét/giờ",
             "unitPattern-count-other": "{0} kilômét/giờ"
@@ -489,6 +545,14 @@
           "temperature-kelvin": {
             "displayName": "độ K",
             "unitPattern-count-other": "{0} độ K"
+          },
+          "torque-pound-foot": {
+            "displayName": "pound-feet",
+            "unitPattern-count-other": "{0} pound-feet"
+          },
+          "torque-newton-meter": {
+            "displayName": "newton-mét",
+            "unitPattern-count-other": "{0} newton-mét"
           },
           "volume-cubic-kilometer": {
             "displayName": "kilômét khối",
@@ -580,12 +644,16 @@
             "unitPattern-count-other": "{0} pint"
           },
           "volume-cup": {
-            "displayName": "cup",
+            "displayName": "c",
             "unitPattern-count-other": "{0} cup"
           },
           "volume-fluid-ounce": {
             "displayName": "fl oz",
             "unitPattern-count-other": "{0} fl oz"
+          },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "Aoxơ chất lỏng theo hệ đo lường Anh",
+            "unitPattern-count-other": "{0} Aoxơ chất lỏng theo hệ đo lường Anh"
           },
           "volume-tablespoon": {
             "displayName": "muỗng canh",
@@ -594,6 +662,10 @@
           "volume-teaspoon": {
             "displayName": "muỗng cà phê",
             "unitPattern-count-other": "{0} muỗng cà phê"
+          },
+          "volume-barrel": {
+            "displayName": "thùng",
+            "unitPattern-count-other": "{0} thùng"
           },
           "coordinateUnit": {
             "displayName": "phương trời",
@@ -676,6 +748,10 @@
             "unitPattern-count-other": "{0} in²",
             "perUnitPattern": "{0}/in²"
           },
+          "area-dunam": {
+            "displayName": "dunam",
+            "unitPattern-count-other": "{0} dunam"
+          },
           "concentr-karat": {
             "displayName": "kt",
             "unitPattern-count-other": "{0} kt"
@@ -699,6 +775,14 @@
           "concentr-permille": {
             "displayName": "‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "phần vạn",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "mol",
+            "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -851,6 +935,22 @@
             "displayName": "kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "electronvôn",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "pound-lực",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "newton",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
             "unitPattern-count-other": "{0} GHz"
@@ -952,9 +1052,17 @@
             "displayName": "đ",
             "unitPattern-count-other": "{0} đ"
           },
+          "length-solar-radius": {
+            "displayName": "bán kính mặt trời",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-solar-luminosity": {
+            "displayName": "độ sáng của mặt trời",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "t",
@@ -1004,6 +1112,18 @@
             "displayName": "CD",
             "unitPattern-count-other": "{0} CD"
           },
+          "mass-dalton": {
+            "displayName": "dalton",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "Trọng lượng trái đất",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "trọng lượng mặt trời",
+            "unitPattern-count-other": "{0} M☉"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-other": "{0} GW"
@@ -1052,6 +1172,14 @@
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
             "unitPattern-count-other": "{0} km/h"
@@ -1083,6 +1211,14 @@
           "temperature-kelvin": {
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "N⋅m",
+            "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1181,6 +1317,10 @@
             "displayName": "fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "Oz",
+            "unitPattern-count-other": "{0} fl oz Imp."
+          },
           "volume-tablespoon": {
             "displayName": "thìa xúp",
             "unitPattern-count-other": "{0} tbsp"
@@ -1188,6 +1328,10 @@
           "volume-teaspoon": {
             "displayName": "tsp",
             "unitPattern-count-other": "{0} tsp"
+          },
+          "volume-barrel": {
+            "displayName": "thùng",
+            "unitPattern-count-other": "{0} thùng"
           },
           "coordinateUnit": {
             "displayName": "hướng",
@@ -1270,6 +1414,10 @@
             "unitPattern-count-other": "{0} in²",
             "perUnitPattern": "{0}/in²"
           },
+          "area-dunam": {
+            "displayName": "dunam",
+            "unitPattern-count-other": "{0} dunam"
+          },
           "concentr-karat": {
             "displayName": "kt",
             "unitPattern-count-other": "{0} kt"
@@ -1293,6 +1441,14 @@
           "concentr-permille": {
             "displayName": "‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "phần vạn",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "mol",
+            "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -1445,6 +1601,22 @@
             "displayName": "kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "electronvôn",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "pound-lực",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "newton",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
             "unitPattern-count-other": "{0} GHz"
@@ -1546,9 +1718,17 @@
             "displayName": "đ",
             "unitPattern-count-other": "{0} đ"
           },
+          "length-solar-radius": {
+            "displayName": "bán kính mặt trời",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-solar-luminosity": {
+            "displayName": "độ sáng của mặt trời",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "t",
@@ -1598,6 +1778,18 @@
             "displayName": "CD",
             "unitPattern-count-other": "{0} CD"
           },
+          "mass-dalton": {
+            "displayName": "dalton",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "Trọng lượng trái đất",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "trọng lượng mặt trời",
+            "unitPattern-count-other": "{0} M☉"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-other": "{0} GW"
@@ -1646,6 +1838,14 @@
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
             "unitPattern-count-other": "{0}km/h"
@@ -1677,6 +1877,14 @@
           "temperature-kelvin": {
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "N⋅m",
+            "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1775,6 +1983,10 @@
             "displayName": "fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "Oz",
+            "unitPattern-count-other": "{0} fl ozIm"
+          },
           "volume-tablespoon": {
             "displayName": "thìa xúp",
             "unitPattern-count-other": "{0} tbsp"
@@ -1782,6 +1994,10 @@
           "volume-teaspoon": {
             "displayName": "tsp",
             "unitPattern-count-other": "{0} tsp"
+          },
+          "volume-barrel": {
+            "displayName": "thùng",
+            "unitPattern-count-other": "{0} thùng"
           },
           "coordinateUnit": {
             "displayName": "hướng",

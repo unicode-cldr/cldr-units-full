@@ -3,8 +3,8 @@
     "el": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14365 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14926 $",
+          "_cldrVersion": "35"
         },
         "language": "el"
       },
@@ -98,6 +98,11 @@
             "unitPattern-count-other": "{0} τετραγωνικές ίντσες",
             "perUnitPattern": "{0} ανά τετραγωνική ίντσα"
           },
+          "area-dunam": {
+            "displayName": "ντούναμ",
+            "unitPattern-count-one": "{0} ντούναμ",
+            "unitPattern-count-other": "{0} ντούναμ"
+          },
           "concentr-karat": {
             "displayName": "καράτια",
             "unitPattern-count-one": "{0} καράτι",
@@ -127,6 +132,16 @@
             "displayName": "τοις χιλίοις",
             "unitPattern-count-one": "{0} τοις χιλίοις",
             "unitPattern-count-other": "{0} τοις χιλίοις"
+          },
+          "concentr-permyriad": {
+            "displayName": "ποσοστόσημο τοις δεκάκις χιλίοις",
+            "unitPattern-count-one": "{0} ποσοστόσημο τοις δεκάκις χιλίοις",
+            "unitPattern-count-other": "{0} ποσοστόσημο τοις δεκάκις χιλίοις"
+          },
+          "concentr-mole": {
+            "displayName": "μολ",
+            "unitPattern-count-one": "{0} μολ",
+            "unitPattern-count-other": "{0} μολ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "λίτρα ανά χιλιόμετρο",
@@ -315,6 +330,26 @@
             "unitPattern-count-one": "{0} κιλοβατώρα",
             "unitPattern-count-other": "{0} κιλοβατώρες"
           },
+          "energy-electronvolt": {
+            "displayName": "ηλεκτρονιοβόλτ",
+            "unitPattern-count-one": "{0} ηλεκτρονιοβόλτ",
+            "unitPattern-count-other": "{0} ηλεκτρονιοβόλτ"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "βρετανικές μονάδες θερμότητας",
+            "unitPattern-count-one": "{0} βρετανική μονάδα θερμότητας",
+            "unitPattern-count-other": "{0} βρετανικές μονάδες θερμότητας"
+          },
+          "force-pound-force": {
+            "displayName": "λίβρες δύναμης",
+            "unitPattern-count-one": "{0} λίβρα δύναμης",
+            "unitPattern-count-other": "{0} λίβρες δύναμης"
+          },
+          "force-newton": {
+            "displayName": "νιούτον",
+            "unitPattern-count-one": "{0} νιούτον",
+            "unitPattern-count-other": "{0} νιούτον"
+          },
           "frequency-gigahertz": {
             "displayName": "γιγαχέρτζ",
             "unitPattern-count-one": "{0} γιγαχέρτζ",
@@ -438,10 +473,20 @@
             "unitPattern-count-one": "{0} στιγμή",
             "unitPattern-count-other": "{0} στιγμές"
           },
+          "length-solar-radius": {
+            "displayName": "ακτίνες Ήλιου",
+            "unitPattern-count-one": "{0} ακτίνα του Ήλιου",
+            "unitPattern-count-other": "{0} ακτίνες του Ήλιου"
+          },
           "light-lux": {
             "displayName": "λουξ",
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
+          },
+          "light-solar-luminosity": {
+            "displayName": "ηλιακές φωτεινότητες",
+            "unitPattern-count-one": "{0} ηλιακή φωτεινότητα",
+            "unitPattern-count-other": "{0} ηλιακές φωτεινότητες"
           },
           "mass-metric-ton": {
             "displayName": "μετρικοί τόνοι",
@@ -500,6 +545,21 @@
             "displayName": "καράτια",
             "unitPattern-count-one": "{0} καράτι",
             "unitPattern-count-other": "{0} καράτια"
+          },
+          "mass-dalton": {
+            "displayName": "Ντάλτον",
+            "unitPattern-count-one": "{0} Ντάλτον",
+            "unitPattern-count-other": "{0} Ντάλτον"
+          },
+          "mass-earth-mass": {
+            "displayName": "μάζες της Γης",
+            "unitPattern-count-one": "{0} μάζα της Γης",
+            "unitPattern-count-other": "{0} μάζες της Γης"
+          },
+          "mass-solar-mass": {
+            "displayName": "μάζες του Ήλιου",
+            "unitPattern-count-one": "{0} μάζα του Ήλιου",
+            "unitPattern-count-other": "{0} μάζες του Ήλιου"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -561,6 +621,16 @@
             "unitPattern-count-one": "{0} ατμόσφαιρα",
             "unitPattern-count-other": "{0} ατμόσφαιρες"
           },
+          "pressure-kilopascal": {
+            "displayName": "κιλοπασκάλ",
+            "unitPattern-count-one": "{0} κιλοπασκάλ",
+            "unitPattern-count-other": "{0} κιλοπασκάλ"
+          },
+          "pressure-megapascal": {
+            "displayName": "μεγαπασκάλ",
+            "unitPattern-count-one": "{0} μεγαπασκάλ",
+            "unitPattern-count-other": "{0} μεγαπασκάλ"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "χιλιόμετρα ανά ώρα",
             "unitPattern-count-one": "{0} χιλιόμετρο ανά ώρα",
@@ -600,6 +670,16 @@
             "displayName": "βαθμοί Κέλβιν",
             "unitPattern-count-one": "{0} βαθμός Κέλβιν",
             "unitPattern-count-other": "{0} βαθμοί Κέλβιν"
+          },
+          "torque-pound-foot": {
+            "displayName": "λίβρες-πόδια",
+            "unitPattern-count-one": "{0} λίβρα-πόδι",
+            "unitPattern-count-other": "{0} λίβρες-πόδια"
+          },
+          "torque-newton-meter": {
+            "displayName": "νιουτόμετρα",
+            "unitPattern-count-one": "{0} νιουτόμετρο",
+            "unitPattern-count-other": "{0} νιουτόμετρα"
           },
           "volume-cubic-kilometer": {
             "displayName": "κυβικά χιλιόμετρα",
@@ -720,6 +800,11 @@
             "unitPattern-count-one": "{0} ουγγιά όγκου",
             "unitPattern-count-other": "{0} ουγγιές όγκου"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "αγγλοσαξονικές ουγγιές όγκου",
+            "unitPattern-count-one": "{0} αγγλοσαξονική ουγγιά όγκου",
+            "unitPattern-count-other": "{0} αγγλοσαξονικές ουγγιές όγκου"
+          },
           "volume-tablespoon": {
             "displayName": "κουταλιές της σούπας",
             "unitPattern-count-one": "{0} κουταλιά της σούπας",
@@ -729,6 +814,11 @@
             "displayName": "κουταλιές του γλυκού",
             "unitPattern-count-one": "{0} κουταλιά του γλυκού",
             "unitPattern-count-other": "{0} κουταλιές του γλυκού"
+          },
+          "volume-barrel": {
+            "displayName": "βαρέλι",
+            "unitPattern-count-one": "{0} βαρέλι",
+            "unitPattern-count-other": "{0} βαρέλι"
           },
           "coordinateUnit": {
             "displayName": "σημεία ορίζοντα",
@@ -827,6 +917,11 @@
             "unitPattern-count-other": "{0} τ. ίντσες",
             "perUnitPattern": "{0}/τ. ίντσα"
           },
+          "area-dunam": {
+            "displayName": "ντούναμ",
+            "unitPattern-count-one": "{0} ντούναμ",
+            "unitPattern-count-other": "{0} ντούναμ"
+          },
           "concentr-karat": {
             "displayName": "κρτ",
             "unitPattern-count-one": "{0} κρτ",
@@ -856,6 +951,16 @@
             "displayName": "τοις χιλίοις",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "ποσοστόσημο τοις δεκάκις χιλίοις",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "μολ",
+            "unitPattern-count-one": "{0} μολ",
+            "unitPattern-count-other": "{0} μολ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "λίτρα/χλμ.",
@@ -1044,6 +1149,26 @@
             "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "ηλεκτρονιοβόλτ",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} BTU",
+            "unitPattern-count-other": "{0} BTU"
+          },
+          "force-pound-force": {
+            "displayName": "λίβρες δύναμης",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "νιούτον",
+            "unitPattern-count-one": "{0} N",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "γιγαχέρτζ",
             "unitPattern-count-one": "{0} GHz",
@@ -1167,10 +1292,20 @@
             "unitPattern-count-one": "{0} στ.",
             "unitPattern-count-other": "{0} στ."
           },
+          "length-solar-radius": {
+            "displayName": "ακτίνες Ήλιου",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "λουξ",
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
+          },
+          "light-solar-luminosity": {
+            "displayName": "ηλιακές φωτεινότητες",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "μ.τ.",
@@ -1229,6 +1364,21 @@
             "displayName": "καράτια",
             "unitPattern-count-one": "{0} κρτ",
             "unitPattern-count-other": "{0} κρτ"
+          },
+          "mass-dalton": {
+            "displayName": "Ντάλτον",
+            "unitPattern-count-one": "{0} Da",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "μάζες Γης",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "μάζες Ήλιου",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -1290,6 +1440,16 @@
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "χλμ./ώρα",
             "unitPattern-count-one": "{0} χλμ./ώρα",
@@ -1329,6 +1489,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "λβρ⋅πδ",
+            "unitPattern-count-one": "{0} λβρ⋅πδ",
+            "unitPattern-count-other": "{0} λβρ⋅πδ"
+          },
+          "torque-newton-meter": {
+            "displayName": "N⋅m",
+            "unitPattern-count-one": "{0} N⋅m",
+            "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1449,6 +1619,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "αγγλ. ουγγιές όγκου",
+            "unitPattern-count-one": "{0} αγγλ. ουγγιά όγκου",
+            "unitPattern-count-other": "{0} αγγλ. ουγγιές όγκου"
+          },
           "volume-tablespoon": {
             "displayName": "κ.σ.",
             "unitPattern-count-one": "{0} κ.σ.",
@@ -1458,6 +1633,11 @@
             "displayName": "κ.γ.",
             "unitPattern-count-one": "{0} κ.γ.",
             "unitPattern-count-other": "{0} κ.γ."
+          },
+          "volume-barrel": {
+            "displayName": "βαρέλι",
+            "unitPattern-count-one": "{0} βρλ",
+            "unitPattern-count-other": "{0} βρλ"
           },
           "coordinateUnit": {
             "displayName": "σημείο",
@@ -1556,6 +1736,11 @@
             "unitPattern-count-other": "{0} τ. ίντσες",
             "perUnitPattern": "{0}/τ. ίντσα"
           },
+          "area-dunam": {
+            "displayName": "ντούναμ",
+            "unitPattern-count-one": "{0} ντούναμ",
+            "unitPattern-count-other": "{0} ντούναμ"
+          },
           "concentr-karat": {
             "displayName": "κρτ",
             "unitPattern-count-one": "{0} κρτ",
@@ -1585,6 +1770,16 @@
             "displayName": "τοις χιλίοις",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "ποσοστόσημο τοις δεκάκις χιλίοις",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "μολ",
+            "unitPattern-count-one": "{0} μολ",
+            "unitPattern-count-other": "{0} μολ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "λίτρα/χλμ.",
@@ -1773,6 +1968,26 @@
             "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
+          "energy-electronvolt": {
+            "displayName": "ηλεκτρονιοβόλτ",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} BTU",
+            "unitPattern-count-other": "{0} BTU"
+          },
+          "force-pound-force": {
+            "displayName": "λίβρες δύναμης",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "νιούτον",
+            "unitPattern-count-one": "{0} N",
+            "unitPattern-count-other": "{0} N"
+          },
           "frequency-gigahertz": {
             "displayName": "γιγαχέρτζ",
             "unitPattern-count-one": "{0} GHz",
@@ -1896,10 +2111,20 @@
             "unitPattern-count-one": "{0} στ.",
             "unitPattern-count-other": "{0} στ."
           },
+          "length-solar-radius": {
+            "displayName": "ακτίνες Ήλιου",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "λουξ",
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
+          },
+          "light-solar-luminosity": {
+            "displayName": "ηλιακές φωτεινότητες",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "μ.τ.",
@@ -1958,6 +2183,21 @@
             "displayName": "καράτια",
             "unitPattern-count-one": "{0} κρτ",
             "unitPattern-count-other": "{0} κρτ"
+          },
+          "mass-dalton": {
+            "displayName": "Ντάλτον",
+            "unitPattern-count-one": "{0} Da",
+            "unitPattern-count-other": "{0} Da"
+          },
+          "mass-earth-mass": {
+            "displayName": "μάζες Γης",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "μάζες Ήλιου",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -2019,6 +2259,16 @@
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
           },
+          "pressure-kilopascal": {
+            "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
+            "unitPattern-count-other": "{0} kPa"
+          },
+          "pressure-megapascal": {
+            "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
+            "unitPattern-count-other": "{0} MPa"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "χλμ/ώ.",
             "unitPattern-count-one": "{0} χλμ/ώ.",
@@ -2058,6 +2308,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "λβρ⋅πδ",
+            "unitPattern-count-one": "{0} λβρ⋅πδ",
+            "unitPattern-count-other": "{0} λβρ⋅πδ"
+          },
+          "torque-newton-meter": {
+            "displayName": "N⋅m",
+            "unitPattern-count-one": "{0} N⋅m",
+            "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -2178,6 +2438,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "αγγλ. ουγγιές όγκου",
+            "unitPattern-count-one": "{0} αγγλ. ουγγιά όγκου",
+            "unitPattern-count-other": "{0} αγγλ. ουγγιές όγκου"
+          },
           "volume-tablespoon": {
             "displayName": "κ.σ.",
             "unitPattern-count-one": "{0} κ.σ.",
@@ -2187,6 +2452,11 @@
             "displayName": "κ.γ.",
             "unitPattern-count-one": "{0} κ.γ.",
             "unitPattern-count-other": "{0} κ.γ."
+          },
+          "volume-barrel": {
+            "displayName": "βαρέλι",
+            "unitPattern-count-one": "{0} βρλ",
+            "unitPattern-count-other": "{0} βρλ"
           },
           "coordinateUnit": {
             "displayName": "σημεία",

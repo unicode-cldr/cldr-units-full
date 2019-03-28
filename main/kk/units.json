@@ -3,8 +3,8 @@
     "kk": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14488 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14817 $",
+          "_cldrVersion": "35"
         },
         "language": "kk"
       },
@@ -98,6 +98,11 @@
             "unitPattern-count-other": "{0} шаршы дюйм",
             "perUnitPattern": "{0}/дюйм²"
           },
+          "area-dunam": {
+            "displayName": "дунам",
+            "unitPattern-count-one": "{0} дунам",
+            "unitPattern-count-other": "{0} дунам"
+          },
           "concentr-karat": {
             "displayName": "карат",
             "unitPattern-count-one": "{0} карат",
@@ -127,6 +132,16 @@
             "displayName": "промилле",
             "unitPattern-count-one": "{0} промилле",
             "unitPattern-count-other": "{0} промилле"
+          },
+          "concentr-permyriad": {
+            "displayName": "промириад",
+            "unitPattern-count-one": "{0} промириад",
+            "unitPattern-count-other": "{0} промириад"
+          },
+          "concentr-mole": {
+            "displayName": "моль",
+            "unitPattern-count-one": "{0} моль",
+            "unitPattern-count-other": "{0} моль"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/километр",
@@ -315,6 +330,26 @@
             "unitPattern-count-one": "{0} киловатт-сағат",
             "unitPattern-count-other": "{0} киловатт-сағат"
           },
+          "energy-electronvolt": {
+            "displayName": "электронвольт",
+            "unitPattern-count-one": "{0} электронвольт",
+            "unitPattern-count-other": "{0} электронвольт"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "британдық жылу бірлігі",
+            "unitPattern-count-one": "{0} британдық жылу бірлігі",
+            "unitPattern-count-other": "{0} британдық жылу бірлігі"
+          },
+          "force-pound-force": {
+            "displayName": "фунт-күш",
+            "unitPattern-count-one": "{0} фунт-күш",
+            "unitPattern-count-other": "{0} фунт-күш"
+          },
+          "force-newton": {
+            "displayName": "ньютон",
+            "unitPattern-count-one": "{0} ньютон",
+            "unitPattern-count-other": "{0} ньютон"
+          },
           "frequency-gigahertz": {
             "displayName": "гигагерц",
             "unitPattern-count-one": "{0} гигагерц",
@@ -438,10 +473,20 @@
             "unitPattern-count-one": "{0} ұпай",
             "unitPattern-count-other": "{0} ұпай"
           },
+          "length-solar-radius": {
+            "displayName": "Күн радиусы",
+            "unitPattern-count-one": "{0} Күн радиусы",
+            "unitPattern-count-other": "{0} Күн радиусы"
+          },
           "light-lux": {
             "displayName": "люкс",
             "unitPattern-count-one": "{0} люкс",
             "unitPattern-count-other": "{0} люкс"
+          },
+          "light-solar-luminosity": {
+            "displayName": "Күн жарықтығы",
+            "unitPattern-count-one": "{0} Күн жарықтығы",
+            "unitPattern-count-other": "{0} Күн жарықтығы"
           },
           "mass-metric-ton": {
             "displayName": "метрлік тонна",
@@ -500,6 +545,21 @@
             "displayName": "карат",
             "unitPattern-count-one": "{0} карат",
             "unitPattern-count-other": "{0} карат"
+          },
+          "mass-dalton": {
+            "displayName": "дальтон",
+            "unitPattern-count-one": "{0} дальтон",
+            "unitPattern-count-other": "{0} дальтон"
+          },
+          "mass-earth-mass": {
+            "displayName": "Жер массасы",
+            "unitPattern-count-one": "{0} жер массасы",
+            "unitPattern-count-other": "{0} жер массасы"
+          },
+          "mass-solar-mass": {
+            "displayName": "Күн массасы",
+            "unitPattern-count-one": "{0} Күн массасы",
+            "unitPattern-count-other": "{0} Күн массасы"
           },
           "power-gigawatt": {
             "displayName": "гигаватт",
@@ -561,6 +621,16 @@
             "unitPattern-count-one": "{0} атмосфера",
             "unitPattern-count-other": "{0} атмосфера"
           },
+          "pressure-kilopascal": {
+            "displayName": "килопаскаль",
+            "unitPattern-count-one": "{0} килопаскаль",
+            "unitPattern-count-other": "{0} килопаскаль"
+          },
+          "pressure-megapascal": {
+            "displayName": "мегапаскаль",
+            "unitPattern-count-one": "{0} мегапаскаль",
+            "unitPattern-count-other": "{0} мегапаскаль"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "километр/сағат",
             "unitPattern-count-one": "{0} километр/сағат",
@@ -600,6 +670,16 @@
             "displayName": "кельвин",
             "unitPattern-count-one": "{0} кельвин",
             "unitPattern-count-other": "{0} кельвин"
+          },
+          "torque-pound-foot": {
+            "displayName": "фунт-фут",
+            "unitPattern-count-one": "{0} фунт-фут",
+            "unitPattern-count-other": "{0} фунт-фут"
+          },
+          "torque-newton-meter": {
+            "displayName": "ньютон-метр",
+            "unitPattern-count-one": "{0} ньютон-метр",
+            "unitPattern-count-other": "{0} ньютон-метр"
           },
           "volume-cubic-kilometer": {
             "displayName": "текше километр",
@@ -720,6 +800,11 @@
             "unitPattern-count-one": "{0} сұйық унция",
             "unitPattern-count-other": "{0} сұйық унция"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "имп. сұйық унция",
+            "unitPattern-count-one": "{0} имп. сұйық унция",
+            "unitPattern-count-other": "{0} имп. сұйық унция"
+          },
           "volume-tablespoon": {
             "displayName": "ас қасық",
             "unitPattern-count-one": "{0} ас қасық",
@@ -729,6 +814,11 @@
             "displayName": "шай қасық",
             "unitPattern-count-one": "{0} шай қасық",
             "unitPattern-count-other": "{0} шай қасық"
+          },
+          "volume-barrel": {
+            "displayName": "баррель",
+            "unitPattern-count-one": "{0} баррель",
+            "unitPattern-count-other": "{0} баррель"
           },
           "coordinateUnit": {
             "displayName": "негізгі бағыт",
@@ -827,6 +917,11 @@
             "unitPattern-count-other": "{0} дюйм²",
             "perUnitPattern": "{0}/дюйм²"
           },
+          "area-dunam": {
+            "displayName": "дунам",
+            "unitPattern-count-one": "{0} дунам",
+            "unitPattern-count-other": "{0} дунам"
+          },
           "concentr-karat": {
             "displayName": "карат",
             "unitPattern-count-one": "{0} КТ",
@@ -856,6 +951,16 @@
             "displayName": "промилле",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "‱",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "моль",
+            "unitPattern-count-one": "{0} моль",
+            "unitPattern-count-other": "{0} моль"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/км",
@@ -1044,6 +1149,26 @@
             "unitPattern-count-one": "{0} кВт-сағ",
             "unitPattern-count-other": "{0} кВт-сағ"
           },
+          "energy-electronvolt": {
+            "displayName": "эВ",
+            "unitPattern-count-one": "{0} эВ",
+            "unitPattern-count-other": "{0} эВ"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} Btu",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "Н",
+            "unitPattern-count-one": "{0} Н",
+            "unitPattern-count-other": "{0} Н"
+          },
           "frequency-gigahertz": {
             "displayName": "ГГц",
             "unitPattern-count-one": "{0} ГГц",
@@ -1167,10 +1292,20 @@
             "unitPattern-count-one": "{0} ұпай",
             "unitPattern-count-other": "{0} ұпай"
           },
+          "length-solar-radius": {
+            "displayName": "R☉",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "люкс",
             "unitPattern-count-one": "{0} лк",
             "unitPattern-count-other": "{0} лк"
+          },
+          "light-solar-luminosity": {
+            "displayName": "L☉",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "т",
@@ -1229,6 +1364,21 @@
             "displayName": "карат",
             "unitPattern-count-one": "{0} КТ",
             "unitPattern-count-other": "{0} КТ"
+          },
+          "mass-dalton": {
+            "displayName": "Да",
+            "unitPattern-count-one": "{0} Да",
+            "unitPattern-count-other": "{0} Да"
+          },
+          "mass-earth-mass": {
+            "displayName": "M⊕",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "M☉",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "ГВт",
@@ -1290,6 +1440,16 @@
             "unitPattern-count-one": "{0} атм",
             "unitPattern-count-other": "{0} атм"
           },
+          "pressure-kilopascal": {
+            "displayName": "кПа",
+            "unitPattern-count-one": "{0} кПа",
+            "unitPattern-count-other": "{0} кПа"
+          },
+          "pressure-megapascal": {
+            "displayName": "МПа",
+            "unitPattern-count-one": "{0} МПа",
+            "unitPattern-count-other": "{0} МПа"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/сағ",
             "unitPattern-count-one": "{0} км/сағ",
@@ -1329,6 +1489,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0} К",
             "unitPattern-count-other": "{0} К"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "Н⋅м",
+            "unitPattern-count-one": "{0} Н⋅м",
+            "unitPattern-count-other": "{0} Н⋅м"
           },
           "volume-cubic-kilometer": {
             "displayName": "км³",
@@ -1449,6 +1619,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "имп. fl oz",
+            "unitPattern-count-one": "{0} fl oz имп.",
+            "unitPattern-count-other": "{0} fl oz имп."
+          },
           "volume-tablespoon": {
             "displayName": "ас қ.",
             "unitPattern-count-one": "{0} ас қ.",
@@ -1458,6 +1633,11 @@
             "displayName": "ш. қ.",
             "unitPattern-count-one": "{0} ш. қ.",
             "unitPattern-count-other": "{0} ш. қ."
+          },
+          "volume-barrel": {
+            "displayName": "bbl",
+            "unitPattern-count-one": "{0} bbl",
+            "unitPattern-count-other": "{0} bbl"
           },
           "coordinateUnit": {
             "displayName": "бағыт",
@@ -1556,6 +1736,11 @@
             "unitPattern-count-other": "{0} дюйм²",
             "perUnitPattern": "{0}/дюйм²"
           },
+          "area-dunam": {
+            "displayName": "дунам",
+            "unitPattern-count-one": "{0} дунам",
+            "unitPattern-count-other": "{0} дунам"
+          },
           "concentr-karat": {
             "displayName": "карат",
             "unitPattern-count-one": "{0} КТ",
@@ -1585,6 +1770,16 @@
             "displayName": "промилле",
             "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "‱",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "моль",
+            "unitPattern-count-one": "{0} моль",
+            "unitPattern-count-other": "{0} моль"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "литр/км",
@@ -1773,6 +1968,26 @@
             "unitPattern-count-one": "{0} кВт-сағ",
             "unitPattern-count-other": "{0} кВт-сағ"
           },
+          "energy-electronvolt": {
+            "displayName": "эВ",
+            "unitPattern-count-one": "{0} эВ",
+            "unitPattern-count-other": "{0} эВ"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} Btu",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "Н",
+            "unitPattern-count-one": "{0} Н",
+            "unitPattern-count-other": "{0} Н"
+          },
           "frequency-gigahertz": {
             "displayName": "ГГц",
             "unitPattern-count-one": "{0} ГГц",
@@ -1896,10 +2111,20 @@
             "unitPattern-count-one": "{0} ұпай",
             "unitPattern-count-other": "{0} ұпай"
           },
+          "length-solar-radius": {
+            "displayName": "R☉",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
+          },
           "light-lux": {
             "displayName": "люкс",
             "unitPattern-count-one": "{0} лк",
             "unitPattern-count-other": "{0} лк"
+          },
+          "light-solar-luminosity": {
+            "displayName": "L☉",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
             "displayName": "т",
@@ -1958,6 +2183,21 @@
             "displayName": "карат",
             "unitPattern-count-one": "{0} КТ",
             "unitPattern-count-other": "{0} КТ"
+          },
+          "mass-dalton": {
+            "displayName": "Да",
+            "unitPattern-count-one": "{0} Да",
+            "unitPattern-count-other": "{0} Да"
+          },
+          "mass-earth-mass": {
+            "displayName": "M⊕",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "M☉",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "ГВт",
@@ -2019,6 +2259,16 @@
             "unitPattern-count-one": "{0} атм",
             "unitPattern-count-other": "{0} атм"
           },
+          "pressure-kilopascal": {
+            "displayName": "кПа",
+            "unitPattern-count-one": "{0} кПа",
+            "unitPattern-count-other": "{0} кПа"
+          },
+          "pressure-megapascal": {
+            "displayName": "МПа",
+            "unitPattern-count-one": "{0} МПа",
+            "unitPattern-count-other": "{0} МПа"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "км/сағ",
             "unitPattern-count-one": "{0} км/сағ",
@@ -2058,6 +2308,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0} К",
             "unitPattern-count-other": "{0} К"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "Н⋅м",
+            "unitPattern-count-one": "{0} Н⋅м",
+            "unitPattern-count-other": "{0} Н⋅м"
           },
           "volume-cubic-kilometer": {
             "displayName": "км³",
@@ -2178,6 +2438,11 @@
             "unitPattern-count-one": "{0} fl oz",
             "unitPattern-count-other": "{0} fl oz"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "имп. fl oz",
+            "unitPattern-count-one": "{0} fl oz имп.",
+            "unitPattern-count-other": "{0} fl oz имп."
+          },
           "volume-tablespoon": {
             "displayName": "ас қ.",
             "unitPattern-count-one": "{0} ас қ.",
@@ -2187,6 +2452,11 @@
             "displayName": "ш. қ.",
             "unitPattern-count-one": "{0} ш. қ.",
             "unitPattern-count-other": "{0} ш. қ."
+          },
+          "volume-barrel": {
+            "displayName": "bbl",
+            "unitPattern-count-one": "{0} bbl",
+            "unitPattern-count-other": "{0} bbl"
           },
           "coordinateUnit": {
             "displayName": "бағыт",

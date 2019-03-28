@@ -3,8 +3,8 @@
     "pa": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14365 $",
-          "_cldrVersion": "34"
+          "_number": "$Revision: 14820 $",
+          "_cldrVersion": "35"
         },
         "language": "pa"
       },
@@ -98,6 +98,11 @@
             "unitPattern-count-other": "{0} ਵਰਗ ਇੰਚ",
             "perUnitPattern": "{0} ਪ੍ਰਤੀ ਵਰਗ ਇੰਚ"
           },
+          "area-dunam": {
+            "displayName": "ਦੁਨਮ",
+            "unitPattern-count-one": "{0} ਦੁਨਮ",
+            "unitPattern-count-other": "{0} ਦੁਨਮ"
+          },
           "concentr-karat": {
             "displayName": "ਕੇਰਟ",
             "unitPattern-count-one": "{0} ਕੇਰਟ",
@@ -127,6 +132,16 @@
             "displayName": "ਪਰਮਾਈਲ",
             "unitPattern-count-one": "{0} ਪਰਮਾਈਲ",
             "unitPattern-count-other": "{0} ਪਰਮਾਈਲ"
+          },
+          "concentr-permyriad": {
+            "displayName": "ਪ੍ਰਤੀ ਦਸ ਹਜ਼ਾਰ",
+            "unitPattern-count-one": "{0} ਪ੍ਰਤੀ ਦਸ ਹਜ਼ਾਰ",
+            "unitPattern-count-other": "{0} ਪ੍ਰਤੀ ਦਸ ਹਜ਼ਾਰ"
+          },
+          "concentr-mole": {
+            "displayName": "ਮੋਲ",
+            "unitPattern-count-one": "{0} ਮੋਲ",
+            "unitPattern-count-other": "{0} ਮੋਲ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ਲਿਟਰ ਪ੍ਰਤੀ ਕਿਲੋਮੀਟਰ",
@@ -315,6 +330,26 @@
             "unitPattern-count-one": "{0} ਕਿਲੋਵਾਟ ਘੰਟਾ",
             "unitPattern-count-other": "{0} ਕਿਲੋਵਾਟ ਘੰਟੇ"
           },
+          "energy-electronvolt": {
+            "displayName": "ਇਲੈਕਟ੍ਰਾਨਵੋਲਟ",
+            "unitPattern-count-one": "{0} ਇਲੈਕਟ੍ਰਾਨਵੋਲਟ",
+            "unitPattern-count-other": "{0} ਇਲੈਕਟ੍ਰਾਨਵੋਲਟ"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "ਬਰਤਾਨਵੀ ਤਾਪ ਇਕਾਈ",
+            "unitPattern-count-one": "{0} ਬਰਤਾਨਵੀ ਤਾਪ ਇਕਾਈ",
+            "unitPattern-count-other": "{0} ਬਰਤਾਨਵੀ ਤਾਪ ਇਕਾਈ"
+          },
+          "force-pound-force": {
+            "displayName": "ਪੌਂਡ ਬਲ",
+            "unitPattern-count-one": "{0} ਪੌਂਡ ਬਲ",
+            "unitPattern-count-other": "{0} ਪੌਂਡ ਬਲ"
+          },
+          "force-newton": {
+            "displayName": "ਨਿਊਟਨ",
+            "unitPattern-count-one": "{0} ਨਿਊਟਨ",
+            "unitPattern-count-other": "{0} ਨਿਊਟਨ"
+          },
           "frequency-gigahertz": {
             "displayName": "ਗੀਗਾਹਰਟਜ਼",
             "unitPattern-count-one": "{0} ਗੀਗਾਹਰਟਜ਼",
@@ -440,10 +475,20 @@
             "unitPattern-count-one": "{0} ਪੁਆਇੰਟ",
             "unitPattern-count-other": "{0} ਪੁਆਇੰਟ"
           },
+          "length-solar-radius": {
+            "displayName": "ਸੋਲਰ ਰੇਡੀਅਸ",
+            "unitPattern-count-one": "{0} ਸੋਲਰ ਰੇਡੀਅਸ",
+            "unitPattern-count-other": "{0} ਸੋਲਰ ਰੇਡੀਅਸ"
+          },
           "light-lux": {
             "displayName": "ਲਕਸ",
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
+          },
+          "light-solar-luminosity": {
+            "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
+            "unitPattern-count-one": "{0} ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
+            "unitPattern-count-other": "{0} ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ"
           },
           "mass-metric-ton": {
             "displayName": "ਮੀਟਰਿਕ ਟਨ",
@@ -503,6 +548,21 @@
             "displayName": "ਕੈਰਟ",
             "unitPattern-count-one": "{0} ਕੈਰਟ",
             "unitPattern-count-other": "{0} ਕੈਰਟ"
+          },
+          "mass-dalton": {
+            "displayName": "ਡਾਲਟਨ",
+            "unitPattern-count-one": "{0} ਡਾਲਟਨ",
+            "unitPattern-count-other": "{0} ਡਾਲਟਨ"
+          },
+          "mass-earth-mass": {
+            "displayName": "ਅਰਥ ਮਾਸ",
+            "unitPattern-count-one": "{0} ਅਰਥ ਮਾਸ",
+            "unitPattern-count-other": "{0} ਅਰਥ ਮਾਸ"
+          },
+          "mass-solar-mass": {
+            "displayName": "ਸੋਲਰ ਮਾਸ",
+            "unitPattern-count-one": "{0} ਸੋਲਰ ਮਾਸ",
+            "unitPattern-count-other": "{0} ਸੋਲਰ ਮਾਸ"
           },
           "power-gigawatt": {
             "displayName": "ਗੀਗਾਵਾਟ",
@@ -564,6 +624,16 @@
             "unitPattern-count-one": "{0} ਵਾਯੂਮੰਡਲ",
             "unitPattern-count-other": "{0} ਵਾਯੂਮੰਡਲ"
           },
+          "pressure-kilopascal": {
+            "displayName": "ਕਿੱਲੋਪਾਸਕਲ",
+            "unitPattern-count-one": "{0} ਕਿੱਲੋਪਾਸਕਲ",
+            "unitPattern-count-other": "{0} ਕਿੱਲੋਪਾਸਕਲ"
+          },
+          "pressure-megapascal": {
+            "displayName": "ਮੈਗਾਪਾਸਕਲ",
+            "unitPattern-count-one": "{0} ਮੈਗਾਪਾਸਕਲ",
+            "unitPattern-count-other": "{0} ਮੈਗਾਪਾਸਕਲ"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ",
             "unitPattern-count-one": "{0} ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ",
@@ -586,7 +656,6 @@
           },
           "temperature-generic": {
             "displayName": "°",
-            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -603,6 +672,16 @@
             "displayName": "ਕੈਲਵਿਨ",
             "unitPattern-count-one": "{0} ਕੈਲਵਿਨ",
             "unitPattern-count-other": "{0} ਕੈਲਵਿਨ"
+          },
+          "torque-pound-foot": {
+            "displayName": "ਪੌਂਡ-ਫੁੱਟ",
+            "unitPattern-count-one": "{0} ਪੌਂਡ-ਫੁੱਟ",
+            "unitPattern-count-other": "{0} ਪੌਂਡ-ਫੁੱਟ"
+          },
+          "torque-newton-meter": {
+            "displayName": "ਨਿਊਟਨ-ਮੀਟਰ",
+            "unitPattern-count-one": "{0} ਨਿਊਟਨ-ਮੀਟਰ",
+            "unitPattern-count-other": "{0} ਨਿਊਟਨ-ਮੀਟਰ"
           },
           "volume-cubic-kilometer": {
             "displayName": "ਘਣ ਕਿਲੋਮੀਟਰ",
@@ -724,6 +803,11 @@
             "unitPattern-count-one": "{0} ਤਰਲ ਔਂਸ",
             "unitPattern-count-other": "{0} ਤਰਲ ਔਂਸ"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਫਲੁਡ ਔਂਸ",
+            "unitPattern-count-one": "{0} ਇੰਪੀਰੀਅਲ ਫਲੁਡ ਔਂਸ",
+            "unitPattern-count-other": "{0} ਇੰਪੀਰੀਅਲ ਫਲੁਡ ਔਂਸ"
+          },
           "volume-tablespoon": {
             "displayName": "ਟੇਬਲ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੇਬਲ ਸਪੂਨ",
@@ -733,6 +817,11 @@
             "displayName": "ਟੀ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੀ ਸਪੂਨ",
             "unitPattern-count-other": "{0} ਟੀ ਸਪੂਨ"
+          },
+          "volume-barrel": {
+            "displayName": "ਬੈਰਲ",
+            "unitPattern-count-one": "{0} ਬੈਰਲ",
+            "unitPattern-count-other": "{0} ਬੈਰਲ"
           },
           "coordinateUnit": {
             "displayName": "ਮੁੱਖ ਦਿਸ਼ਾ",
@@ -748,7 +837,6 @@
           },
           "acceleration-g-force": {
             "displayName": "ਗੁਰੂਤਾਕਰਸ਼ਣ ਬਲ",
-            "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-second-squared": {
@@ -831,6 +919,11 @@
             "unitPattern-count-other": "{0} ਇੰਚ²",
             "perUnitPattern": "{0} ਪ੍ਰਤੀ ਇੰਚ²"
           },
+          "area-dunam": {
+            "displayName": "ਦੁਨਮ",
+            "unitPattern-count-one": "{0} ਦੁਨਮ",
+            "unitPattern-count-other": "{0} ਦੁਨਮ"
+          },
           "concentr-karat": {
             "displayName": "ਕੇਰਟ",
             "unitPattern-count-one": "{0} ਕੇਰਟ",
@@ -848,18 +941,25 @@
           },
           "concentr-part-per-million": {
             "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
-            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
             "displayName": "ਪ੍ਰਤੀਸ਼ਤ",
-            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ਪਰਮਾਈਲ",
-            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "ਪ੍ਰਤੀ ਦਸ ਹਜ਼ਾਰ",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "ਮੋਲ",
+            "unitPattern-count-one": "{0} ਮੋਲ",
+            "unitPattern-count-other": "{0} ਮੋਲ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ਲਿਟਰ/ਕਿ.ਮੀ.",
@@ -883,47 +983,38 @@
           },
           "digital-petabyte": {
             "displayName": "ਪੈਟਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "ਟੈਰਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
             "displayName": "ਟੇਰਾਬਿਟ",
-            "unitPattern-count-one": "{0} Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
             "displayName": "ਗੀਗਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} GB",
             "unitPattern-count-other": "{0} GB"
           },
           "digital-gigabit": {
             "displayName": "Gbit",
-            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
             "displayName": "ਮੈਗਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} MB",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
             "displayName": "ਮੈਗਾਬਿਟ",
-            "unitPattern-count-one": "{0} Mb",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
             "displayName": "ਕਿਲੋਬਾਇਟ",
-            "unitPattern-count-one": "{0} kB",
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
             "displayName": "ਕਿਲੋਬਿਟ",
-            "unitPattern-count-one": "{0} kb",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -990,32 +1081,26 @@
           },
           "duration-microsecond": {
             "displayName": "ਮਾਈਕਰੋਸਕਿੰਟ",
-            "unitPattern-count-one": "{0} μs",
             "unitPattern-count-other": "{0} μs"
           },
           "duration-nanosecond": {
             "displayName": "ਨੈਨੋਸਕਿੰਟ",
-            "unitPattern-count-one": "{0} ns",
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
             "displayName": "ਐਮਪੀਅਰ",
-            "unitPattern-count-one": "{0} A",
             "unitPattern-count-other": "{0} A"
           },
           "electric-milliampere": {
             "displayName": "ਮਿਲੀਐਮਪੀਅਰ",
-            "unitPattern-count-one": "{0} mA",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
             "displayName": "ਓਹਮ",
-            "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
             "displayName": "ਵੋਲਟ",
-            "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
           "energy-kilocalorie": {
@@ -1040,7 +1125,6 @@
           },
           "energy-joule": {
             "displayName": "ਜੂਲ",
-            "unitPattern-count-one": "{0} J",
             "unitPattern-count-other": "{0} J"
           },
           "energy-kilowatt-hour": {
@@ -1048,24 +1132,40 @@
             "unitPattern-count-one": "{0} ਕਿ.ਵਾ.ਘੰ.",
             "unitPattern-count-other": "{0} ਕਿ.ਵਾ.ਘੰ."
           },
+          "energy-electronvolt": {
+            "displayName": "ਇਲੈਕਟ੍ਰਾਨਵੋਲਟ",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} Btu",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "ਪੌਂਡ-ਬਲ",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "ਨਿਊਟਨ",
+            "unitPattern-count-one": "{0} ਨਿ",
+            "unitPattern-count-other": "{0} ਨਿ"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
-            "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
             "displayName": "MHz",
-            "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
             "displayName": "kHz",
-            "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
             "displayName": "Hz",
-            "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
           },
           "length-kilometer": {
@@ -1098,7 +1198,6 @@
           },
           "length-micrometer": {
             "displayName": "ਮਾਈਕਰੋਮੀਟਰ",
-            "unitPattern-count-one": "{0} µm",
             "unitPattern-count-other": "{0} µm"
           },
           "length-nanometer": {
@@ -1145,7 +1244,6 @@
           },
           "length-astronomical-unit": {
             "displayName": "au",
-            "unitPattern-count-one": "{0} au",
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
@@ -1170,17 +1268,25 @@
           },
           "length-point": {
             "displayName": "ਪੁਆਇੰਟ",
-            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
+          },
+          "length-solar-radius": {
+            "displayName": "ਸੋਲਰ ਰੇਡੀਅਸ",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
             "displayName": "ਲਕਸ",
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
           },
+          "light-solar-luminosity": {
+            "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
+          },
           "mass-metric-ton": {
             "displayName": "t",
-            "unitPattern-count-one": "{0} t",
             "unitPattern-count-other": "{0} t"
           },
           "mass-kilogram": {
@@ -1202,7 +1308,6 @@
           },
           "mass-microgram": {
             "displayName": "µg",
-            "unitPattern-count-one": "{0} µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
@@ -1236,6 +1341,21 @@
             "displayName": "ਕੈਰਟ",
             "unitPattern-count-one": "{0} ਕੈਰਟ",
             "unitPattern-count-other": "{0} ਕੈਰਟ"
+          },
+          "mass-dalton": {
+            "displayName": "ਡਾਲਟਨ",
+            "unitPattern-count-one": "{0} ਡਾ",
+            "unitPattern-count-other": "{0} ਡਾ"
+          },
+          "mass-earth-mass": {
+            "displayName": "ਅਰਥ ਮਾਸ",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "ਸੋਲਰ ਮਾਸ",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "ਗੀ.ਵਾਟ",
@@ -1297,6 +1417,16 @@
             "unitPattern-count-one": "{0} ਵਾ. ਮੰ.",
             "unitPattern-count-other": "{0} ਵਾ. ਮੰ."
           },
+          "pressure-kilopascal": {
+            "displayName": "ਕਿ.ਪਾ",
+            "unitPattern-count-one": "{0} ਕਿ.ਪਾ",
+            "unitPattern-count-other": "{0} ਕਿ.ਪਾ"
+          },
+          "pressure-megapascal": {
+            "displayName": "ਮੈ.ਪਾ",
+            "unitPattern-count-one": "{0} ਮੈ.ਪਾ",
+            "unitPattern-count-other": "{0} ਮੈ.ਪਾ"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "ਕਿ.ਮੀ./ਘੰਟਾ",
             "unitPattern-count-one": "{0} ਕਿ.ਪ੍ਰ.ਘੰ.",
@@ -1314,28 +1444,33 @@
           },
           "speed-knot": {
             "displayName": "kn",
-            "unitPattern-count-one": "{0} kn",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
             "displayName": "°",
-            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "ਦਰਜਾ ਸੈਲਸੀਅਸ",
-            "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "ਦਰਜਾ ਫਾਰੇਨਹਾਈਟ",
-            "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {
             "displayName": "K",
-            "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "ਨਿ⋅ਮੀ",
+            "unitPattern-count-one": "{0} ਨਿ⋅ਮੀ",
+            "unitPattern-count-other": "{0} ਨਿ⋅ਮੀ"
           },
           "volume-cubic-kilometer": {
             "displayName": "ਕਿਮੀ³",
@@ -1457,6 +1592,11 @@
             "unitPattern-count-one": "{0} ਤ. ਔਂਸ",
             "unitPattern-count-other": "{0} ਤ. ਔਂਸ"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "Imp. fl oz",
+            "unitPattern-count-one": "{0} fl oz Imp.",
+            "unitPattern-count-other": "{0} fl oz Imp."
+          },
           "volume-tablespoon": {
             "displayName": "ਟੇਬਲ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੇਬਲ ਸਪੂਨ",
@@ -1466,6 +1606,11 @@
             "displayName": "ਟੀ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੀ ਸਪੂਨ",
             "unitPattern-count-other": "{0} ਟੀ ਸਪੂਨ"
+          },
+          "volume-barrel": {
+            "displayName": "ਬੈਰਲ",
+            "unitPattern-count-one": "{0} ਬੈਰਲ",
+            "unitPattern-count-other": "{0} ਬੈਰਲ"
           },
           "coordinateUnit": {
             "displayName": "ਦਿਸ਼ਾ",
@@ -1564,6 +1709,11 @@
             "unitPattern-count-other": "{0}ਇੰਚ²",
             "perUnitPattern": "{0} ਪ੍ਰਤੀ ਇੰਚ²"
           },
+          "area-dunam": {
+            "displayName": "ਦੁਨਮ",
+            "unitPattern-count-one": "{0} ਦੁਨਮ",
+            "unitPattern-count-other": "{0} ਦੁਨਮ"
+          },
           "concentr-karat": {
             "displayName": "ਕੇਰਟ",
             "unitPattern-count-one": "{0} ਕੇਰਟ",
@@ -1581,18 +1731,25 @@
           },
           "concentr-part-per-million": {
             "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
-            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
             "displayName": "ਪ੍ਰਤੀਸ਼ਤ",
-            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ਪਰਮਾਈਲ",
-            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
+          },
+          "concentr-permyriad": {
+            "displayName": "ਪ੍ਰਤੀ ਦਸ ਹਜ਼ਾਰ",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-other": "{0}‱"
+          },
+          "concentr-mole": {
+            "displayName": "ਮੋਲ",
+            "unitPattern-count-one": "{0} ਮੋਲ",
+            "unitPattern-count-other": "{0} ਮੋਲ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ਲਿਟਰ/ਕਿ.ਮੀ.",
@@ -1601,8 +1758,8 @@
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "ਲਿ./100ਕਿ.ਮੀ.",
-            "unitPattern-count-one": "{0} L/100km",
-            "unitPattern-count-other": "{0} L/100km"
+            "unitPattern-count-one": "{0}ਲਿ/100 ਕਿਮੀ",
+            "unitPattern-count-other": "{0}ਲਿ/100 ਕਿਮੀ"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ਮੀਲ/ਗੈਲਨ",
@@ -1616,7 +1773,6 @@
           },
           "digital-petabyte": {
             "displayName": "ਪੈਟਾਬਾਇਟ",
-            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1718,8 +1874,8 @@
           },
           "duration-millisecond": {
             "displayName": "ਮਿਲੀਸਕਿੰਟ",
-            "unitPattern-count-one": "{0} ms",
-            "unitPattern-count-other": "{0} ms"
+            "unitPattern-count-one": "{0} ਮਿਲੀਸਕਿੰਟ",
+            "unitPattern-count-other": "{0} ਮਿਲੀਸਕਿੰਟ"
           },
           "duration-microsecond": {
             "displayName": "ਮਾਈਕਰੋਸਕਿੰਟ",
@@ -1781,6 +1937,26 @@
             "unitPattern-count-one": "{0} ਕਿ.ਵਾ.ਘੰ.",
             "unitPattern-count-other": "{0} ਕਿ.ਵਾ.ਘੰ."
           },
+          "energy-electronvolt": {
+            "displayName": "ਇਲੈਕਟ੍ਰਾਨਵੋਲਟ",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-other": "{0} eV"
+          },
+          "energy-british-thermal-unit": {
+            "displayName": "BTU",
+            "unitPattern-count-one": "{0} Btu",
+            "unitPattern-count-other": "{0} Btu"
+          },
+          "force-pound-force": {
+            "displayName": "ਪੌਂਡ-ਬਲ",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-other": "{0} lbf"
+          },
+          "force-newton": {
+            "displayName": "ਨਿਊਟਨ",
+            "unitPattern-count-one": "{0} ਨਿ",
+            "unitPattern-count-other": "{0} ਨਿ"
+          },
           "frequency-gigahertz": {
             "displayName": "GHz",
             "unitPattern-count-one": "{0}GHz",
@@ -1831,7 +2007,6 @@
           },
           "length-micrometer": {
             "displayName": "ਮਾਇਕ੍ਰੋ. ਮੀ.",
-            "unitPattern-count-one": "{0} µm",
             "unitPattern-count-other": "{0} µm"
           },
           "length-nanometer": {
@@ -1903,17 +2078,25 @@
           },
           "length-point": {
             "displayName": "ਪੁਆਇੰਟ",
-            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
+          },
+          "length-solar-radius": {
+            "displayName": "ਸੋਲਰ ਰੇਡੀਅਸ",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
             "displayName": "ਲਕਸ",
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
           },
+          "light-solar-luminosity": {
+            "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-other": "{0} L☉"
+          },
           "mass-metric-ton": {
             "displayName": "t",
-            "unitPattern-count-one": "{0} t",
             "unitPattern-count-other": "{0} t"
           },
           "mass-kilogram": {
@@ -1935,7 +2118,6 @@
           },
           "mass-microgram": {
             "displayName": "µg",
-            "unitPattern-count-one": "{0} µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
@@ -1969,6 +2151,21 @@
             "displayName": "ਕੈਰਟ",
             "unitPattern-count-one": "{0} ਕੈਰਟ",
             "unitPattern-count-other": "{0} ਕੈਰਟ"
+          },
+          "mass-dalton": {
+            "displayName": "ਡਾਲਟਨ",
+            "unitPattern-count-one": "{0} ਡਾ",
+            "unitPattern-count-other": "{0} ਡਾ"
+          },
+          "mass-earth-mass": {
+            "displayName": "ਅਰਥ ਮਾਸ",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-other": "{0} M⊕"
+          },
+          "mass-solar-mass": {
+            "displayName": "ਸੋਲਰ ਮਾਸ",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
             "displayName": "ਗੀ.ਵਾਟ",
@@ -2030,6 +2227,16 @@
             "unitPattern-count-one": "{0} ਵਾ. ਮੰ.",
             "unitPattern-count-other": "{0} ਵਾ. ਮੰ."
           },
+          "pressure-kilopascal": {
+            "displayName": "ਕਿ.ਪਾ",
+            "unitPattern-count-one": "{0} ਕਿ.ਪਾ",
+            "unitPattern-count-other": "{0} ਕਿ.ਪਾ"
+          },
+          "pressure-megapascal": {
+            "displayName": "ਮੈ.ਪਾ",
+            "unitPattern-count-one": "{0} ਮੈ.ਪਾ",
+            "unitPattern-count-other": "{0} ਮੈ.ਪਾ"
+          },
           "speed-kilometer-per-hour": {
             "displayName": "ਕਿ.ਮੀ./ਘੰਟਾ",
             "unitPattern-count-one": "{0} ਕਿ.ਪ੍ਰ.ਘੰ.",
@@ -2047,21 +2254,18 @@
           },
           "speed-knot": {
             "displayName": "kn",
-            "unitPattern-count-one": "{0} kn",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
             "displayName": "°",
-            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
-            "displayName": "°C",
-            "unitPattern-count-one": "{0}°C",
+            "displayName": "ਦਰਜਾ ਸੈਲਸੀਅਸ",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
-            "displayName": "°F",
+            "displayName": "ਦਰਜਾ ਫਾਰੇਨਹਾਈਟ",
             "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
@@ -2069,6 +2273,16 @@
             "displayName": "K",
             "unitPattern-count-one": "{0}°K",
             "unitPattern-count-other": "{0}°K"
+          },
+          "torque-pound-foot": {
+            "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
+            "unitPattern-count-other": "{0} lbf⋅ft"
+          },
+          "torque-newton-meter": {
+            "displayName": "ਨਿ⋅ਮੀ",
+            "unitPattern-count-one": "{0} ਨਿ⋅ਮੀ",
+            "unitPattern-count-other": "{0} ਨਿ⋅ਮੀ"
           },
           "volume-cubic-kilometer": {
             "displayName": "ਕਿਮੀ³",
@@ -2190,6 +2404,11 @@
             "unitPattern-count-one": "{0} ਤ. ਔਂਸ",
             "unitPattern-count-other": "{0} ਤ. ਔਂਸ"
           },
+          "volume-fluid-ounce-imperial": {
+            "displayName": "Imp. fl oz",
+            "unitPattern-count-one": "{0} fl oz Imp.",
+            "unitPattern-count-other": "{0} fl oz Imp."
+          },
           "volume-tablespoon": {
             "displayName": "ਟੇਬਲ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੇਬਲ ਸਪੂਨ",
@@ -2199,6 +2418,11 @@
             "displayName": "ਟੀ ਸਪੂਨ",
             "unitPattern-count-one": "{0} ਟੀ ਸਪੂਨ",
             "unitPattern-count-other": "{0} ਟੀ ਸਪੂਨ"
+          },
+          "volume-barrel": {
+            "displayName": "ਬੈਰਲ",
+            "unitPattern-count-one": "{0} ਬੈਰਲ",
+            "unitPattern-count-other": "{0} ਬੈਰਲ"
           },
           "coordinateUnit": {
             "displayName": "ਦਿਸ਼ਾ",
