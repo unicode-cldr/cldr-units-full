@@ -3,15 +3,17 @@
     "kn": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14817 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "kn"
       },
       "units": {
         "long": {
           "per": {
-            "compoundUnitPattern": "{0} ಪ್ರತಿ {1} ಗೆ"
+            "compoundUnitPattern": "ಪ್ರತಿ {1} ಗೆ {0}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ಜಿ-ಫೋರ್ಸ್",
@@ -24,9 +26,9 @@
             "unitPattern-count-other": "{0} ಮೀಟರ್‌ಗಳು ಪ್ರತಿ ಸೆಕೆಂಡ್‌ ಸ್ಕ್ವೇರ್‌ಗಳಿಗೆ"
           },
           "angle-revolution": {
-            "displayName": "ಕ್ರಾಂತಿ",
-            "unitPattern-count-one": "{0} ಕ್ರಾಂತಿ",
-            "unitPattern-count-other": "{0} ಕ್ರಾಂತಿಗಳು"
+            "displayName": "ತಿರುಗುವಿಕೆ",
+            "unitPattern-count-one": "{0} ತಿರುಗುವಿಕೆ",
+            "unitPattern-count-other": "{0} ತಿರುಗುವಿಕೆಗಳು"
           },
           "angle-radian": {
             "displayName": "ರೇಡಿಯಾನ್‌ಗಳು",
@@ -35,24 +37,24 @@
           },
           "angle-degree": {
             "displayName": "ಡಿಗ್ರಿಗಳು",
-            "unitPattern-count-one": "{0}ಡಿಗ್ರಿ",
+            "unitPattern-count-one": "{0} ಡಿಗ್ರಿ",
             "unitPattern-count-other": "{0}ಡಿಗ್ರಿಗಳು"
           },
           "angle-arc-minute": {
-            "displayName": "ನಿಮಿಷಗಳು",
-            "unitPattern-count-one": "{0} ನಿಮಿಷ",
-            "unitPattern-count-other": "{0} ನಿಮಿಷಗಳು"
+            "displayName": "ಆರ್ಕ್‌ಮಿನಿಟ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಆರ್ಕ್‌ಮಿನಿಟ್",
+            "unitPattern-count-other": "{0} ಆರ್ಕ್‌ಮಿನಿಟ್‌ಗಳು"
           },
           "angle-arc-second": {
-            "displayName": "ಸೆಕೆಂಡುಗಳು",
-            "unitPattern-count-one": "{0} ಸೆಕೆಂಡ್",
-            "unitPattern-count-other": "{0} ಸೆಕೆಂಡುಗಳು"
+            "displayName": "ಆರ್ಕ್‌ಸೆಕೆಂಡುಗಳು",
+            "unitPattern-count-one": "{0} ಆರ್ಕ್‌ಸೆಕೆಂಡ್",
+            "unitPattern-count-other": "{0} ಆರ್ಕ್‌ಸೆಕೆಂಡುಗಳು"
           },
           "area-square-kilometer": {
             "displayName": "ಚದರ ಕಿಲೋಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಚದರ ಕಿಲೋಮೀಟರ್",
             "unitPattern-count-other": "{0} ಚದರ ಕಿಲೋಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಚದರ ಕಿಲೋಮೀಟರ್‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಚದರ ಕಿಲೋಮೀಟರ್‌ಗೆ {0}"
           },
           "area-hectare": {
             "displayName": "ಹೆಕ್ಟೇರುಗಳು",
@@ -63,19 +65,19 @@
             "displayName": "ಚದರ ಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಚದರ ಮೀಟರ್",
             "unitPattern-count-other": "{0} ಚದರ ಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಚದರ ಮೀಟರ್‌ಗೆ"
+            "perUnitPattern": "ಚದರ ಮೀಟರ್‌ಗೆ {0}"
           },
           "area-square-centimeter": {
             "displayName": "ಚದರ ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಚದರ ಸೆಂಟಿಮೀಟರ್",
             "unitPattern-count-other": "{0} ಚದರ ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಚದರ ಸೆಂಟಿಮೀಟರ್‌‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಚದರ ಸೆಂಟಿಮೀಟರ್‌‌ಗೆ {0}"
           },
           "area-square-mile": {
             "displayName": "ಚದರ ಮೈಲುಗಳು",
             "unitPattern-count-one": "{0} ಚದರ ಮೈಲು",
             "unitPattern-count-other": "{0} ಚದರ ಮೈಲುಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಚದರ ಮೈಲಿಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಚದರ ಮೈಲಿಗೆ {0}"
           },
           "area-acre": {
             "displayName": "ಎಕರೆಗಳು",
@@ -96,7 +98,7 @@
             "displayName": "ಚದರ ಅಂಗುಲಗಳು",
             "unitPattern-count-one": "{0} ಚದರ ಅಂಗುಲ",
             "unitPattern-count-other": "{0} ಚದರ ಅಂಗುಲಗಳು",
-            "perUnitPattern": "{0} ಚದರ ಅಂಗುಲಕ್ಕೆ"
+            "perUnitPattern": "{0} ಪ್ರತಿ ಚದರ ಇಂಚಿಗೆ"
           },
           "area-dunam": {
             "displayName": "ಡುನಮ್ಸ್‌",
@@ -109,9 +111,9 @@
             "unitPattern-count-other": "{0} ಕಾರಟ್‌ಗಳು"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "ಡೆಸಿಲೀಟರ್ ಮಿಲಿಗ್ರಾಂ",
+            "displayName": "ಪ್ರತಿ ಡೆಸಿಲೀಟರ್‌ಗೆ ಮಿಲಿಗ್ರಾಂಗಳು",
             "unitPattern-count-one": "{0} ಪ್ರತಿ ಡೆಸಿಲೀಟರ್‌ಗೆ ಮಿಲಿಗ್ರಾಂ",
-            "unitPattern-count-other": "{0} ಪ್ರತಿ ಡೆಸಿಲೀಟರ್‌ಗೆ ಮಿಲಿಗ್ರಾಂ"
+            "unitPattern-count-other": "{0} ಪ್ರತಿ ಡೆಸಿಲೀಟರ್‌ಗೆ ಮಿಲಿಗ್ರಾಂಗಳು"
           },
           "concentr-millimole-per-liter": {
             "displayName": "ಪ್ರತಿ ಲೀಟರ್ ಮಿಲ್ಲಿಮೋಲ್ಸ್",
@@ -134,24 +136,24 @@
             "unitPattern-count-other": "{0} ಪ್ರತಿ ಸಾವಿರಕ್ಕೆ"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-one": "{0}‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "ಪರ್ಮಿರೈಡ್",
+            "unitPattern-count-one": "{0} ಪರ್ಮಿರೈಡ್",
+            "unitPattern-count-other": "{0} ಪರ್ಮಿರೈಡ್"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "ಮೋಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಮೋಲ್‌ಗಳು",
+            "unitPattern-count-other": "{0} ಮೋಲ್‌ಗಳು"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "ಲೀಟರ್ ಪ್ರತಿ ಕಿಲೋಮೀಟರ್‌ಗೆ",
+            "displayName": "ಪ್ರತಿ ಕಿಲೋಮೀಟರ್‌ಗೆ ಲೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಲೀಟರ್ ಪ್ರತಿ ಕಿಲೋಮೀಟರ್‌ಗೆ",
             "unitPattern-count-other": "{0} ಪ್ರತಿ ಕಿಲೋಮೀಟರ್‌‌ಗೆ ಲೀಟರ್‌ಗಳು"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "ಲೀ/100ಕಿಮೀ",
-            "unitPattern-count-one": "{0} ಲೀಟರ್‌ಗಳು ಪ್ರತಿ 100 ಕಿಲೋಮೀಟರ್‌ಗಳಿಗೆ",
-            "unitPattern-count-other": "{0} ಲೀಟರ್‌ಗಳು ಪ್ರತಿ 100 ಕಿಲೋಮೀಟರ್‌ಗಳಿಗೆ"
+            "displayName": "ಪ್ರತಿ 100 ಕಿಲೋಮೀಟರ್‌ಗಳಿಗೆ ಲೀಟರ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಪ್ರತಿ 100 ಕಿಲೋಮೀಟರ್‌ಗಳಿಗೆ ಲೀಟರ್‌ಗಳು",
+            "unitPattern-count-other": "{0} ಪ್ರತಿ 100 ಕಿಲೋಮೀಟರ್‌ಗಳಿಗೆ ಲೀಟರ್‌ಗಳು"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ಪ್ರತಿ ಗ್ಯಾಲನ್‌‌ಗೆ ಮೈಲಿಗಳು",
@@ -223,17 +225,22 @@
             "unitPattern-count-one": "{0} ಶತಮಾನ",
             "unitPattern-count-other": "{0}ಶತಮಾನಗಳು"
           },
+          "duration-decade": {
+            "displayName": "ದಶಕಗಳು",
+            "unitPattern-count-one": "{0} ದಶಕ",
+            "unitPattern-count-other": "{0} ದಶಕಗಳು"
+          },
           "duration-year": {
             "displayName": "ವರ್ಷಗಳು",
             "unitPattern-count-one": "{0} ವರ್ಷ",
             "unitPattern-count-other": "{0} ವರ್ಷಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ವರ್ಷಕ್ಕೆ"
+            "perUnitPattern": "ಪ್ರತಿ ವರ್ಷಕ್ಕೆ {0}"
           },
           "duration-month": {
             "displayName": "ತಿಂಗಳು",
             "unitPattern-count-one": "{0} ತಿಂಗಳು",
             "unitPattern-count-other": "{0} ತಿಂಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ತಿಂಗಳಿಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ತಿಂಗಳಿಗೆ {0}"
           },
           "duration-week": {
             "displayName": "ವಾರಗಳು",
@@ -251,19 +258,19 @@
             "displayName": "ಗಂಟೆಗಳು",
             "unitPattern-count-one": "{0} ಗಂಟೆ",
             "unitPattern-count-other": "{0} ಗಂಟೆಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಗಂಟೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಗಂಟೆಗೆ {0}"
           },
           "duration-minute": {
             "displayName": "ನಿಮಿಷಗಳು",
             "unitPattern-count-one": "{0} ನಿಮಿಷ",
             "unitPattern-count-other": "{0} ನಿಮಿಷಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ನಿಮಿಷಕ್ಕೆ"
+            "perUnitPattern": "ಪ್ರತಿ ನಿಮಿಷಕ್ಕೆ {0}"
           },
           "duration-second": {
             "displayName": "ಸೆಕೆಂಡುಗಳು",
             "unitPattern-count-one": "{0} ಸೆಕೆಂಡ್",
             "unitPattern-count-other": "{0} ಸೆಕೆಂಡುಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಸೆಕೆಂಡ್"
+            "perUnitPattern": "ಪ್ರತಿ ಸೆಕೆಂಡ್‌ಗೆ {0}"
           },
           "duration-millisecond": {
             "displayName": "ಮಿಲಿಸೆಕೆಂಡುಗಳು",
@@ -331,24 +338,29 @@
             "unitPattern-count-other": "{0} ಕಿಲೋವ್ಯಾಟ್‌-ಗಂಟೆಗಳು"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-one": "{0} eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "ಎಲೆಕ್ಟ್ರಾನ್‌ವೋಲ್ಟ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಎಲೆಕ್ಟ್ರಾನ್‌ವೋಲ್ಟ್‌",
+            "unitPattern-count-other": "{0} ಎಲೆಕ್ಟ್ರಾನ್‌ವೋಲ್ಟ್‌ಗಳು"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-one": "{0} Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ಬ್ರಿಟಿಷ್ ಉಷ್ಣ ಘಟಕಗಳು",
+            "unitPattern-count-one": "{0} ಬ್ರಿಟಿಷ್ ಉಷ್ಣ ಘಟಕ",
+            "unitPattern-count-other": "{0} ಬ್ರಿಟಿಷ್ ಉಷ್ಣ ಘಟಕಗಳು"
+          },
+          "energy-therm-us": {
+            "displayName": "ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-one": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-other": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-one": "{0} lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "ಪೌಂಡ್ಸ್ ಆಫ್ ಫೋರ್ಸ್",
+            "unitPattern-count-one": "{0} ಪೌಂಡ್ ಆಫ್ ಫೋರ್ಸ್",
+            "unitPattern-count-other": "{0} ಪೌಂಡ್ಸ್ ಆಫ್ ಫೋರ್ಸ್"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-one": "{0} N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "ನ್ಯೂಟೋನ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ನ್ಯೂಟೋನ್‌",
+            "unitPattern-count-other": "{0} ನ್ಯೂಟೋನ್‌ಗಳು"
           },
           "frequency-gigahertz": {
             "displayName": "ಗಿಗಾಹರ್ಟ್ಸ್‌",
@@ -370,17 +382,52 @@
             "unitPattern-count-one": "{0} ಹರ್ಟ್ಸ್‌",
             "unitPattern-count-other": "{0} ಹರ್ಟ್ಸ್‌"
           },
+          "graphics-em": {
+            "displayName": "ಟೈಪೊಗ್ರಾಫಿಕ್ em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} ems"
+          },
+          "graphics-pixel": {
+            "displayName": "ಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಪಿಕ್ಸೆಲ್",
+            "unitPattern-count-other": "{0} ಪಿಕ್ಸೆಲ್‌ಗಳು"
+          },
+          "graphics-megapixel": {
+            "displayName": "ಮೆಗಾಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಮೆಗಾಪಿಕ್ಸೆಲ್",
+            "unitPattern-count-other": "{0} ಮೆಗಾಪಿಕ್ಸೆಲ್‌ಗಳು"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ಪಿಕ್ಸೆಲ್ಸ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್",
+            "unitPattern-count-one": "{0} ಪಿಕ್ಸೆಲ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್",
+            "unitPattern-count-other": "{0} ಪಿಕ್ಸೆಲ್ಸ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ಪಿಕ್ಸೆಲ್ಸ್ ಪರ್ ಇಂಚ್",
+            "unitPattern-count-one": "{0} ಪಿಕ್ಸೆಲ್ ಪರ್ ಇಂಚ್",
+            "unitPattern-count-other": "{0} ಪಿಕ್ಸೆಲ್ಸ್ ಪರ್ ಇಂಚ್"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "ಡಾಟ್ಸ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್",
+            "unitPattern-count-one": "{0} ಡಾಟ್ಸ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್",
+            "unitPattern-count-other": "{0} ಡಾಟ್ಸ್ ಪರ್ ಸೆಂಟಿಮೀಟರ್"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "ಡಾಟ್ಸ್ ಪರ್ ಇಂಚ್",
+            "unitPattern-count-one": "{0} ಡಾಟ್ ಪರ್ ಇಂಚ್",
+            "unitPattern-count-other": "{0} ಡಾಟ್ಸ್ ಪರ್ ಇಂಚ್"
+          },
           "length-kilometer": {
             "displayName": "ಕಿಲೋಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಕಿಲೋಮೀಟರ್",
             "unitPattern-count-other": "{0} ಕಿಲೋಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಕಿಲೋಮೀಟ‍ರ್‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಕಿಲೋಮೀಟ‍ರ್‌ಗೆ {0}"
           },
           "length-meter": {
             "displayName": "ಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಮೀಟರ್",
             "unitPattern-count-other": "{0} ಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಮೀಟರ್‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಮೀಟರ್‌ಗೆ {0}"
           },
           "length-decimeter": {
             "displayName": "ಡೆಸಿಮೀಟರ್‌ಗಳು",
@@ -391,7 +438,7 @@
             "displayName": "ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಸೆಂಟಿಮೀಟರ್",
             "unitPattern-count-other": "{0} ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಸೆಂಟಿಮೀಟರ್‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಸೆಂಟಿಮೀಟರ್‌ಗೆ {0}"
           },
           "length-millimeter": {
             "displayName": "ಮಿಲಿಮೀಟರ್‌ಗಳು",
@@ -427,13 +474,13 @@
             "displayName": "ಅಡಿ",
             "unitPattern-count-one": "{0} ಅಡಿ",
             "unitPattern-count-other": "{0} ಅಡಿ",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಅಡಿಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಅಡಿಗೆ {0}"
           },
           "length-inch": {
             "displayName": "ಅಂಗುಲಗಳು",
             "unitPattern-count-one": "{0} ಅಂಗುಲ",
             "unitPattern-count-other": "{0} ಅಂಗುಲಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಅಂಗುಲಕ್ಕೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಅಂಗುಲಕ್ಕೆ {0}"
           },
           "length-parsec": {
             "displayName": "ಪಾರ್‌‍ಸೆಕೆಂ",
@@ -484,9 +531,9 @@
             "unitPattern-count-other": "{0} ಲಕ್ಸ್‌‌"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-one": "{0} L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "ಸೌರ ಪ್ರಕಾಶಗಳು",
+            "unitPattern-count-one": "{0} ಸೌರ ಪ್ರಕಾಶಗಳು",
+            "unitPattern-count-other": "{0} ಸೌರ ಪ್ರಕಾಶಗಳು"
           },
           "mass-metric-ton": {
             "displayName": "ಮೆಟ್ರಿಕ್‌‌ ಟನ್‌ಗಳು",
@@ -553,9 +600,9 @@
             "unitPattern-count-other": "{0} ಡಿಎ"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-one": "{0} M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "ಭೂಮಿಯ ದೃವ್ಯರಾಶಿ",
+            "unitPattern-count-one": "{0} ಭೂಮಿಯ ದೃವ್ಯರಾಶಿ",
+            "unitPattern-count-other": "{0} ಭೂಮಿಯ ದೃವ್ಯರಾಶಿ"
           },
           "mass-solar-mass": {
             "displayName": "ಸೋಲಾರ್‌ ಮಾಸ್‌",
@@ -592,11 +639,6 @@
             "unitPattern-count-one": "{0} ಹಾರ್ಸ್‌ಪವರ್",
             "unitPattern-count-other": "{0} ಹಾರ್ಸ್‌ಪವರ್"
           },
-          "pressure-hectopascal": {
-            "displayName": "ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್‌ಗಳು",
-            "unitPattern-count-one": "{0} ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್",
-            "unitPattern-count-other": "{0} ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್‌ಗಳು"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ಮರ್ಕ್ಯುರಿ ಮಿಲಿಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಮರ್ಕ್ಯುರಿ ಮಿಲಿಮೀಟರ್‌",
@@ -612,6 +654,11 @@
             "unitPattern-count-one": "{0} ಮರ್ಕ್ಯುರಿ ಅಂಗುಲ",
             "unitPattern-count-other": "{0} ಮರ್ಕ್ಯುರಿ ಅಂಗುಲಗಳು"
           },
+          "pressure-bar": {
+            "displayName": "ಬಾರ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಬಾರ್‌",
+            "unitPattern-count-other": "{0} ಬಾರ್‌ಗಳು"
+          },
           "pressure-millibar": {
             "displayName": "ಮಿಲಿಬಾರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಮಿಲಿಬಾರ್",
@@ -621,6 +668,16 @@
             "displayName": "ವಾತಾವರಣಗಳು",
             "unitPattern-count-one": "{0} ವಾತಾವರಣ",
             "unitPattern-count-other": "{0} ವಾತಾವರಣಗಳು"
+          },
+          "pressure-pascal": {
+            "displayName": "ಪಾಸ್ಕಲ್ಸ್",
+            "unitPattern-count-one": "{0} ಪ್ಯಾಸ್ಕಲ್",
+            "unitPattern-count-other": "{0} ಪ್ಯಾಸ್ಕಲ್ಸ್"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್",
+            "unitPattern-count-other": "{0} ಹೆಕ್ಟೋಪ್ಯಾಸ್ಕಲ್‌ಗಳು"
           },
           "pressure-kilopascal": {
             "displayName": "ಕಿಲೋಪಾಸ್ಕಲ್‌ಗಳು",
@@ -673,14 +730,14 @@
             "unitPattern-count-other": "{0} ಕೆಲ್ವಿನ್‍ಗಳು"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-one": "{0} lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ಪೌಂಡ್-ಅಡಿ",
+            "unitPattern-count-one": "{0} ಪೌಂಡ್-ಅಡಿ",
+            "unitPattern-count-other": "{0} ಪೌಂಡ್-ಅಡಿ"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-one": "{0} N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ನ್ಯೂಟನ್-ಮೀಟರ್",
+            "unitPattern-count-one": "{0} ನ್ಯೂಟನ್-ಮೀಟರ್",
+            "unitPattern-count-other": "{0} ನ್ಯೂಟನ್-ಮೀಟರ್"
           },
           "volume-cubic-kilometer": {
             "displayName": "ಘನ ಕಿಲೋಮೀಟರ್‌ಗಳು",
@@ -697,7 +754,7 @@
             "displayName": "ಕ್ಯೂಬಿಕ್ ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಕ್ಯೂಬಿಕ್ ಸೆಂಟಿಮೀಟರ್",
             "unitPattern-count-other": "{0} ಕ್ಯೂಬಿಕ್ ಸೆಂಟಿಮೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಕ್ಯೂಬಿಕ್ ಸೆಂಟಿಮೀಟರ್‌ಗಳಿಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಕ್ಯೂಬಿಕ್ ಸೆಂಟಿಮೀಟರ್‌ಗಳಿಗೆ {0}"
           },
           "volume-cubic-mile": {
             "displayName": "ಘನ ಮೈಲುಗಳು",
@@ -733,7 +790,7 @@
             "displayName": "ಲೀಟರ್‌‌ಗಳು",
             "unitPattern-count-one": "{0} ಲೀಟರ್",
             "unitPattern-count-other": "{0} ಲೀಟರ್‌ಗಳು",
-            "perUnitPattern": "{0} ಪ್ರತಿ ಲೀಟರ್‌ಗೆ"
+            "perUnitPattern": "ಪ್ರತಿ ಲೀಟರ್‌ಗೆ {0}"
           },
           "volume-deciliter": {
             "displayName": "ಡೆಸಿಲೀಟರ್‌ಗಳು",
@@ -802,9 +859,9 @@
             "unitPattern-count-other": "{0} ಫ್ಲೂಡ್ ಔನ್ಸ್‌ಗಳು"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-one": "{0} fl oz Imp.",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ಇಂಪಿರಿಯಲ್ ಫ್ಲೂಡ್ ಔನ್ಸ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಇಂಪಿರಿಯಲ್ ಫ್ಲೂಡ್ ಔನ್ಸ್‌",
+            "unitPattern-count-other": "{0} ಇಂಪಿರಿಯಲ್ ಫ್ಲೂಡ್ ಔನ್ಸ್‌ಗಳು"
           },
           "volume-tablespoon": {
             "displayName": "ಟೇಬಲ್ ಸ್ಪೂನ್‍ಗಳು",
@@ -817,9 +874,9 @@
             "unitPattern-count-other": "{0} ಟೀ ಸ್ಪೂನ್‍ಗಳು"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-one": "{0} bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "ಬ್ಯಾರೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} ಬ್ಯಾರೆಲ್",
+            "unitPattern-count-other": "{0} ಬ್ಯಾರೆಲ್‌ಗಳು"
           },
           "coordinateUnit": {
             "displayName": "ಕಾರ್ಡಿನಲ್ ನಿರ್ದೇಶನ",
@@ -833,23 +890,26 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ಜಿ-ಫೋರ್ಸ್",
-            "unitPattern-count-one": "{0} ಜಿ-ಫೋ.",
-            "unitPattern-count-other": "{0} ಜಿ-ಫೋ."
+            "unitPattern-count-one": "{0} ಜಿ",
+            "unitPattern-count-other": "{0} ಜಿ"
           },
           "acceleration-meter-per-second-squared": {
-            "displayName": "ಮೀ/ಸೆ²",
+            "displayName": "ಮೀಟರ್‌ಗಳು/ಸೆ²",
             "unitPattern-count-one": "{0} ಮೀ/ಸೆ²",
             "unitPattern-count-other": "{0} ಮೀ/ಸೆ²"
           },
           "angle-revolution": {
-            "displayName": "ಕ್ರಾಂ",
-            "unitPattern-count-one": "{0} ಕ್ರಾಂ",
-            "unitPattern-count-other": "{0} ಕ್ರಾಂ"
+            "displayName": "ತಿರುಗು",
+            "unitPattern-count-one": "{0} ತಿರುಗು",
+            "unitPattern-count-other": "{0} ತಿರುಗು"
           },
           "angle-radian": {
-            "displayName": "ರೇಡಿ.",
+            "displayName": "ರೇಡಿಯಾನ್‌ಗಳು",
             "unitPattern-count-one": "{0} ರೇಡಿ.",
             "unitPattern-count-other": "{0} ರೇಡಿ"
           },
@@ -859,14 +919,14 @@
             "unitPattern-count-other": "{0} ಡಿ."
           },
           "angle-arc-minute": {
-            "displayName": "ನಿ.",
-            "unitPattern-count-one": "{0} ನಿ.",
-            "unitPattern-count-other": "{0} ನಿ.ಗಳು"
+            "displayName": "ಆರ್ಕ್‌ಮಿನಿ",
+            "unitPattern-count-one": "{0} ಆರ್ಕ್‌ಮಿನಿ",
+            "unitPattern-count-other": "{0} ಆರ್ಕ್‌ಮಿನಿ"
           },
           "angle-arc-second": {
-            "displayName": "ಸೆಕೆಂ.ಗಳು",
-            "unitPattern-count-one": "{0} ಸೆಕೆಂ",
-            "unitPattern-count-other": "{0} ಸೆಕೆಂ.ಗಳು"
+            "displayName": "ಆರ್ಕ್‌ಸೆಕೆಂ",
+            "unitPattern-count-one": "{0} ಆರ್ಕ್ಸ್‌ ಸೆಂ",
+            "unitPattern-count-other": "{0} ಆರ್ಕ್‌ಸೆಕೆಂ"
           },
           "area-square-kilometer": {
             "displayName": "ಕಿಮೀ²",
@@ -880,10 +940,10 @@
             "unitPattern-count-other": "{0} ಹೆ."
           },
           "area-square-meter": {
-            "displayName": "ಚದರ ಮೀಟರ್‌ಗಳು",
+            "displayName": "ಮೀಟರ್‌ಗಳು²",
             "unitPattern-count-one": "{0} ಮೀ²",
             "unitPattern-count-other": "{0} ಮೀ²",
-            "perUnitPattern": "{0}/ಮೀ²ಗೆ"
+            "perUnitPattern": "{0}/ಮೀ²"
           },
           "area-square-centimeter": {
             "displayName": "ಸೆಂ.ಮೀ²",
@@ -916,7 +976,7 @@
             "displayName": "ಅಂಗುಲಗಳು²",
             "unitPattern-count-one": "{0} ಅಂ²",
             "unitPattern-count-other": "{0} ಅಂ²",
-            "perUnitPattern": "{0}/ಅಂ²ಕ್ಕೆ"
+            "perUnitPattern": "{0}/ಅಂ²"
           },
           "area-dunam": {
             "displayName": "ಡುನಮ್‌",
@@ -945,24 +1005,26 @@
           },
           "concentr-percent": {
             "displayName": "ಶೇಕಡಾ",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ಪ್ರತಿ ಸಾವಿರಕ್ಕೆ",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "ಪರ್ಮಿರೈಡ್",
             "unitPattern-count-one": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "ಮೋಲ್‌",
+            "unitPattern-count-one": "{0} ಮೋಲ್",
+            "unitPattern-count-other": "{0} ಮೋಲ್"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "ಲೀ/ಕಿ.ಮೀ",
+            "displayName": "ಲೀಟರ್‌ಗಳು/ಕಿಮೀ",
             "unitPattern-count-one": "{0} ಲೀ/ಕಿ.ಮೀ",
             "unitPattern-count-other": "{0} ಲೀ/ಕಿ.ಮೀ"
           },
@@ -972,7 +1034,7 @@
             "unitPattern-count-other": "{0} ಲೀ/100ಕಿ.ಮೀ"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "ಮೈ/ಗ್ಯಾ",
+            "displayName": "ಮೈಲಿಗಳು/ಗ್ಯಾ",
             "unitPattern-count-one": "{0} ಪ್ರಗ್ಯಾಮೈ",
             "unitPattern-count-other": "{0} ಪ್ರ.ಗ್ಯಾ.ಮೈ."
           },
@@ -1027,19 +1089,24 @@
             "unitPattern-count-other": "{0} ಕಿ.ಬಿ."
           },
           "digital-byte": {
-            "displayName": "ಬೈ.",
-            "unitPattern-count-one": "{0} ಬೈ.",
+            "displayName": "ಬೈಟ್",
+            "unitPattern-count-one": "{0} ಬೈಟ್",
             "unitPattern-count-other": "{0} ಬೈ."
           },
           "digital-bit": {
             "displayName": "ಬಿಟ್‌",
-            "unitPattern-count-one": "{0} ಬಿ.",
+            "unitPattern-count-one": "{0} ಬಿಟ್",
             "unitPattern-count-other": "{0} ಬಿ."
           },
           "duration-century": {
             "displayName": "ಶ",
             "unitPattern-count-one": "{0} ಶ",
             "unitPattern-count-other": "{0} ಶ"
+          },
+          "duration-decade": {
+            "displayName": "ದಶ",
+            "unitPattern-count-one": "{0} ದಶ",
+            "unitPattern-count-other": "{0} ದಶ"
           },
           "duration-year": {
             "displayName": "ವರ್ಷಗಳು",
@@ -1149,24 +1216,29 @@
             "unitPattern-count-other": "{0} ಕಿವ್ಯಾಗಂ"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-one": "{0} eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "ಎಲೆಕ್ಟ್ರಾನ್‌ವೋಲ್ಟ್‌",
+            "unitPattern-count-one": "{0} ಎವೋ",
+            "unitPattern-count-other": "{0} ಎವೋ"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-one": "{0} Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ಬ್ರಿಉಘ",
+            "unitPattern-count-one": "{0} ಬ್ರಿಉಘ",
+            "unitPattern-count-other": "{0} ಬ್ರಿಉಘ"
+          },
+          "energy-therm-us": {
+            "displayName": "ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-one": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-other": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-one": "{0} lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "ಪೌಂಡ್ - ಫೋರ್ಸ್",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಬಿಎಫ್",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಬಿಎಫ್"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-one": "{0} N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "ನ್ಯೂಟೋನ್‌",
+            "unitPattern-count-one": "{0} ನ್ಯೂ",
+            "unitPattern-count-other": "{0} ನ್ಯೂ"
           },
           "frequency-gigahertz": {
             "displayName": "ಗಿ.ಹ",
@@ -1188,6 +1260,41 @@
             "unitPattern-count-one": "{0} ಹರ್ಟ್ಸ್‌",
             "unitPattern-count-other": "{0} ಹರ್ಟ್ಸ್‌"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "ಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "ಮೆಗಾಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
+          },
           "length-kilometer": {
             "displayName": "ಕಿಲೋಮೀಟರ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಕಿಮೀ",
@@ -1195,7 +1302,7 @@
             "perUnitPattern": "{0}/ಕಿ.ಮೀ"
           },
           "length-meter": {
-            "displayName": "ಮೀಟರ್‌ಗಳು",
+            "displayName": "ಮೀ",
             "unitPattern-count-one": "{0} ಮೀ",
             "unitPattern-count-other": "{0} ಮೀ",
             "perUnitPattern": "{0}/ಮೀ"
@@ -1289,7 +1396,7 @@
           "length-point": {
             "displayName": "ಪಾಯಿಂಟ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಪಾಯಿಂಟ್",
-            "unitPattern-count-other": "{0} ಪಾಯಿಂಟ್‌ಗಳು"
+            "unitPattern-count-other": "{0} ಪಾಯಿಂಟ್‌"
           },
           "length-solar-radius": {
             "displayName": "ಸೋಲಾರ್‌ ರೇಡಿ",
@@ -1297,12 +1404,12 @@
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
-            "displayName": "ಲ.",
-            "unitPattern-count-one": "{0} ಲ.",
-            "unitPattern-count-other": "{0} ಲ."
+            "displayName": "ಲಕ್ಸ್",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಎಕ್ಸ್",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಎಕ್ಸ್"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "ಸೌರ ಪ್ರಕಾಶಗಳು",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
@@ -1371,14 +1478,14 @@
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-one": "{0} M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "ಭೂಮಿಯ ದೃವ್ಯರಾಶಿ",
+            "unitPattern-count-one": "{0} ದೃ⊕",
+            "unitPattern-count-other": "{0} ದೃ⊕"
           },
           "mass-solar-mass": {
             "displayName": "ಸೋಲಾರ್‌ ಮಾಸ್‌ಗಳು",
-            "unitPattern-count-one": "{0} M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "unitPattern-count-one": "{0} ದೃ☉",
+            "unitPattern-count-other": "{0} ದೃ☉"
           },
           "power-gigawatt": {
             "displayName": "ಗಿ.ವ್ಯಾ",
@@ -1410,11 +1517,6 @@
             "unitPattern-count-one": "{0} ಹೆಚ್‌ಪಿ",
             "unitPattern-count-other": "{0} ಹೆಚ್‌ಪಿ"
           },
-          "pressure-hectopascal": {
-            "displayName": "ಹೆ.ಪ್ಯಾ.",
-            "unitPattern-count-one": "{0} ಹೆ.ಪ್ಯಾ",
-            "unitPattern-count-other": "{0} ಹೆ.ಪ್ಯಾ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ಮರ್ಕ್ಯು.ಮಿ.ಮೀ.",
             "unitPattern-count-one": "{0} ಮರ್ಕ್ಯು ಮಿಮೀ",
@@ -1430,6 +1532,11 @@
             "unitPattern-count-one": "{0} ಮರ್ಕ್ಯುಅಂ",
             "unitPattern-count-other": "{0} ಮರ್ಕ್ಯುಅಂ"
           },
+          "pressure-bar": {
+            "displayName": "ಬಾರ್‌",
+            "unitPattern-count-one": "{0} ಬಾರ್‌",
+            "unitPattern-count-other": "{0} ಬಾರ್‌ಗಳು"
+          },
           "pressure-millibar": {
             "displayName": "ಮಿ.ಬಾರ್‌",
             "unitPattern-count-one": "{0} ಮಿ.ಬಾರ್",
@@ -1439,6 +1546,16 @@
             "displayName": "ವಾತಾವರಣಗಳು",
             "unitPattern-count-one": "{0} ವಾತಾವರಣ",
             "unitPattern-count-other": "{0} ವಾತಾವರಣ"
+          },
+          "pressure-pascal": {
+            "displayName": "ಪಾ",
+            "unitPattern-count-one": "{0} ಪಾ",
+            "unitPattern-count-other": "{0} ಪ್ಯಾ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ಹೆ.ಪ್ಯಾ.",
+            "unitPattern-count-one": "{0} ಹೆ.ಪ್ಯಾ",
+            "unitPattern-count-other": "{0} ಹೆ.ಪ್ಯಾ"
           },
           "pressure-kilopascal": {
             "displayName": "ಕೆಪಿಎ",
@@ -1451,7 +1568,7 @@
             "unitPattern-count-other": "{0} ಎಂಪಿಎ"
           },
           "speed-kilometer-per-hour": {
-            "displayName": "ಕಿ.ಮೀ/ಗಂ",
+            "displayName": "ಕಿ.ಮೀ/ಗಂಟೆ",
             "unitPattern-count-one": "{0} ಕಿ.ಮೀ./ಗಂ",
             "unitPattern-count-other": "{0} ಕಿ.ಮೀ./ಗಂ"
           },
@@ -1461,7 +1578,7 @@
             "unitPattern-count-other": "{0} ಮೀ/ಸೆ."
           },
           "speed-mile-per-hour": {
-            "displayName": "ಮೈ/ಗಂ",
+            "displayName": "ಮೈಲುಗಳು/ಗಂಟೆ",
             "unitPattern-count-one": "{0} ಮೈ/ಗಂ",
             "unitPattern-count-other": "{0} ಮೈ/ಗಂ"
           },
@@ -1491,14 +1608,14 @@
             "unitPattern-count-other": "{0} ಕೆ"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-one": "{0} lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-one": "{0} N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ನ್ಯೂ.ಮೀ",
+            "unitPattern-count-one": "{0} ನ್ಯೂ.ಮೀ",
+            "unitPattern-count-other": "{0} ನ್ಯೂ.ಮೀ"
           },
           "volume-cubic-kilometer": {
             "displayName": "ಕಿಮೀ³",
@@ -1620,7 +1737,7 @@
             "unitPattern-count-other": "{0} ಫ್ಲೂ.ಔ"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
+            "displayName": "ಇಂಪಿ. ಫ್ಲೂ. ಔ.",
             "unitPattern-count-one": "{0} fl oz Imp.",
             "unitPattern-count-other": "{0} fl oz Imp."
           },
@@ -1635,7 +1752,7 @@
             "unitPattern-count-other": "{0} ಟೀ ಸ್ಪೂ"
           },
           "volume-barrel": {
-            "displayName": "bbl",
+            "displayName": "ಬ್ಯಾರೆಲ್",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
@@ -1651,23 +1768,26 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ಜಿ-ಫೋರ್ಸ್",
             "unitPattern-count-one": "{0}ಜಿ-ಫೋ.",
             "unitPattern-count-other": "{0}ಜಿ-ಫೋ."
           },
           "acceleration-meter-per-second-squared": {
-            "displayName": "ಮೀ/ಸೆ²",
+            "displayName": "ಮೀಟರ್‌ಗಳು/ಸೆ²",
             "unitPattern-count-one": "{0} ಮೀ/ಸೆ²",
             "unitPattern-count-other": "{0} ಮೀ/ಸೆ²"
           },
           "angle-revolution": {
-            "displayName": "ಕ್ರಾಂ",
-            "unitPattern-count-one": "{0} ಕ್ರಾಂ",
-            "unitPattern-count-other": "{0} ಕ್ರಾಂ"
+            "displayName": "ತಿರುಗು",
+            "unitPattern-count-one": "{0} ತಿರುಗು",
+            "unitPattern-count-other": "{0} ತಿರುಗು"
           },
           "angle-radian": {
-            "displayName": "ರೇಡಿ.",
+            "displayName": "ರೇಡಿಯಾನ್‌ಗಳು",
             "unitPattern-count-one": "{0} ರೇಡಿ.",
             "unitPattern-count-other": "{0} ರೇಡಿ"
           },
@@ -1677,12 +1797,12 @@
             "unitPattern-count-other": "{0} ಡಿ."
           },
           "angle-arc-minute": {
-            "displayName": "ನಿ.",
+            "displayName": "ಆರ್ಕ್‌ಮಿನಿ",
             "unitPattern-count-one": "{0}ನಿ.",
             "unitPattern-count-other": "{0}ನಿ."
           },
           "angle-arc-second": {
-            "displayName": "ಸೆಕೆಂ.ಗಳು",
+            "displayName": "ಆರ್ಕ್‌ಸೆಕೆಂ",
             "unitPattern-count-one": "{0}ಸೆಕೆಂ",
             "unitPattern-count-other": "{0}ಸೆಕೆಂ"
           },
@@ -1698,10 +1818,10 @@
             "unitPattern-count-other": "{0} ಹೆ."
           },
           "area-square-meter": {
-            "displayName": "ಚದರ ಮೀಟರ್‌ಗಳು",
+            "displayName": "ಮೀಟರ್‌ಗಳು²",
             "unitPattern-count-one": "{0} ಮೀ²",
             "unitPattern-count-other": "{0} ಮೀ²",
-            "perUnitPattern": "{0}/ಮೀ²ಗೆ"
+            "perUnitPattern": "{0}/ಮೀ²"
           },
           "area-square-centimeter": {
             "displayName": "ಸೆಂ.ಮೀ²",
@@ -1734,7 +1854,7 @@
             "displayName": "ಅಂಗುಲಗಳು²",
             "unitPattern-count-one": "{0} ಅಂ²",
             "unitPattern-count-other": "{0} ಅಂ²",
-            "perUnitPattern": "{0}/ಅಂ²ಕ್ಕೆ"
+            "perUnitPattern": "{0}/ಅಂ²"
           },
           "area-dunam": {
             "displayName": "ಡುನಮ್‌",
@@ -1762,25 +1882,27 @@
             "unitPattern-count-other": "{0} ಭಾಪ್ರಮಿ"
           },
           "concentr-percent": {
-            "displayName": "ಶೇಕಡಾ",
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ಪ್ರತಿ ಸಾವಿರಕ್ಕೆ",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "ಪರ್ಮಿರೈಡ್",
             "unitPattern-count-one": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "ಮೋಲ್‌",
+            "unitPattern-count-one": "{0} ಮೋಲ್",
+            "unitPattern-count-other": "{0} ಮೋಲ್"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "ಲೀ/ಕಿ.ಮೀ",
+            "displayName": "ಲೀಟರ್‌ಗಳು/ಕಿಮೀ",
             "unitPattern-count-one": "{0} ಲೀ/ಕಿ.ಮೀ",
             "unitPattern-count-other": "{0} ಲೀ/ಕಿ.ಮೀ"
           },
@@ -1790,7 +1912,7 @@
             "unitPattern-count-other": "{0} ಲೀ/100ಕಿಮೀ"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "ಮೈ/ಗ್ಯಾ",
+            "displayName": "ಮೈಲಿಗಳು/ಗ್ಯಾ",
             "unitPattern-count-one": "{0} ಪ್ರಗ್ಯಾಮೈ",
             "unitPattern-count-other": "{0} ಪ್ರ.ಗ್ಯಾ.ಮೈ."
           },
@@ -1845,13 +1967,13 @@
             "unitPattern-count-other": "{0} ಕಿ.ಬಿ."
           },
           "digital-byte": {
-            "displayName": "ಬೈ.",
-            "unitPattern-count-one": "{0} ಬೈ.",
+            "displayName": "ಬೈಟ್",
+            "unitPattern-count-one": "{0} ಬೈಟ್",
             "unitPattern-count-other": "{0} ಬೈ."
           },
           "digital-bit": {
             "displayName": "ಬಿಟ್‌",
-            "unitPattern-count-one": "{0} ಬಿ.",
+            "unitPattern-count-one": "{0} ಬಿಟ್",
             "unitPattern-count-other": "{0} ಬಿ."
           },
           "duration-century": {
@@ -1859,8 +1981,13 @@
             "unitPattern-count-one": "{0} ಶ",
             "unitPattern-count-other": "{0} ಶ"
           },
+          "duration-decade": {
+            "displayName": "ದಶ",
+            "unitPattern-count-one": "{0} ದಶ",
+            "unitPattern-count-other": "{0} ದಶ"
+          },
           "duration-year": {
-            "displayName": "ವರ್ಷಗಳು",
+            "displayName": "ವ",
             "unitPattern-count-one": "{0}ವ",
             "unitPattern-count-other": "{0}ವ",
             "perUnitPattern": "{0}/ವ"
@@ -1873,14 +2000,14 @@
           },
           "duration-week": {
             "displayName": "ವಾರ",
-            "unitPattern-count-one": "{0}ವಾರ",
-            "unitPattern-count-other": "{0}ವಾರ",
+            "unitPattern-count-one": "{0}ವಾ",
+            "unitPattern-count-other": "{0}ವಾ",
             "perUnitPattern": "{0}/ವಾ"
           },
           "duration-day": {
             "displayName": "ದಿನ",
-            "unitPattern-count-one": "{0}ದಿನ",
-            "unitPattern-count-other": "{0}ದಿನ",
+            "unitPattern-count-one": "{0}ದಿ",
+            "unitPattern-count-other": "{0}ದಿ",
             "perUnitPattern": "{0}/ದಿ"
           },
           "duration-hour": {
@@ -1967,24 +2094,29 @@
             "unitPattern-count-other": "{0} ಕಿವ್ಯಾಗಂ"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-one": "{0} eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "ಎಲೆಕ್ಟ್ರಾನ್‌ವೋಲ್ಟ್‌",
+            "unitPattern-count-one": "{0} ಎವೋ",
+            "unitPattern-count-other": "{0} ಎವೋ"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-one": "{0} Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ಬ್ರಿಉಘ",
+            "unitPattern-count-one": "{0} ಬ್ರಿಉಘ",
+            "unitPattern-count-other": "{0} ಬ್ರಿಉಘ"
+          },
+          "energy-therm-us": {
+            "displayName": "ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-one": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್",
+            "unitPattern-count-other": "{0} ಯುಎಸ್ ಥರ್ಮ್ಸ್"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-one": "{0} lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "ಪೌಂಡ್ - ಫೋರ್ಸ್",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಬಿಎಫ್",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಬಿಎಫ್"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-one": "{0} N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "ನ್ಯೂಟೋನ್‌",
+            "unitPattern-count-one": "{0} ನ್ಯೂ",
+            "unitPattern-count-other": "{0} ನ್ಯೂ"
           },
           "frequency-gigahertz": {
             "displayName": "ಗಿ.ಹ",
@@ -2006,6 +2138,41 @@
             "unitPattern-count-one": "{0} ಹರ್ಟ್ಸ್‌",
             "unitPattern-count-other": "{0} ಹರ್ಟ್ಸ್‌"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "ಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "ಮೆಗಾಪಿಕ್ಸೆಲ್‌ಗಳು",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
+          },
           "length-kilometer": {
             "displayName": "ಕಿಮೀ",
             "unitPattern-count-one": "{0}ಕಿಮೀ",
@@ -2013,7 +2180,7 @@
             "perUnitPattern": "{0}/ಕಿ.ಮೀ"
           },
           "length-meter": {
-            "displayName": "ಮೀಟರ್‌ಗಳು",
+            "displayName": "ಮೀ",
             "unitPattern-count-one": "{0}ಮೀ",
             "unitPattern-count-other": "{0}ಮೀ",
             "perUnitPattern": "{0}/ಮೀ"
@@ -2107,7 +2274,7 @@
           "length-point": {
             "displayName": "ಪಾಯಿಂಟ್‌ಗಳು",
             "unitPattern-count-one": "{0} ಪಾಯಿಂಟ್",
-            "unitPattern-count-other": "{0} ಪಾಯಿಂಟ್‌ಗಳು"
+            "unitPattern-count-other": "{0} ಪಾಯಿಂಟ್‌"
           },
           "length-solar-radius": {
             "displayName": "ಸೋಲಾರ್‌ ರೇಡಿ",
@@ -2115,12 +2282,12 @@
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
-            "displayName": "ಲ.",
-            "unitPattern-count-one": "{0} ಲ.",
-            "unitPattern-count-other": "{0} ಲ."
+            "displayName": "ಲಕ್ಸ್",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಎಕ್ಸ್",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಎಕ್ಸ್"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "ಸೌರ ಪ್ರಕಾಶಗಳು",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
@@ -2189,14 +2356,14 @@
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-one": "{0} M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "ಭೂಮಿಯ ದೃವ್ಯರಾಶಿ",
+            "unitPattern-count-one": "{0} ದೃ⊕",
+            "unitPattern-count-other": "{0} ದೃ⊕"
           },
           "mass-solar-mass": {
             "displayName": "ಸೋಲಾರ್‌ ಮಾಸ್‌ಗಳು",
-            "unitPattern-count-one": "{0} M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "unitPattern-count-one": "{0} ದೃ☉",
+            "unitPattern-count-other": "{0} ದೃ☉"
           },
           "power-gigawatt": {
             "displayName": "ಗಿ.ವ್ಯಾ",
@@ -2228,11 +2395,6 @@
             "unitPattern-count-one": "{0}ಹೆಚ್‌ಪಿ",
             "unitPattern-count-other": "{0}ಹೆಚ್‌ಪಿ"
           },
-          "pressure-hectopascal": {
-            "displayName": "ಹೆ.ಪ್ಯಾ.",
-            "unitPattern-count-one": "{0}ಹೆ.ಪ್ಯಾ",
-            "unitPattern-count-other": "{0}ಹೆ.ಪ್ಯಾ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ಮರ್ಕ್ಯು.ಮಿ.ಮೀ.",
             "unitPattern-count-one": "{0}mmHg",
@@ -2248,6 +2410,11 @@
             "unitPattern-count-one": "{0}\\\" Hg",
             "unitPattern-count-other": "{0}\\\" Hg"
           },
+          "pressure-bar": {
+            "displayName": "ಬಾರ್‌",
+            "unitPattern-count-one": "{0} ಬಾರ್‌",
+            "unitPattern-count-other": "{0} ಬಾರ್‌ಗಳು"
+          },
           "pressure-millibar": {
             "displayName": "ಮಿ.ಬಾರ್‌",
             "unitPattern-count-one": "{0}ಮಿ.ಬಾ.",
@@ -2257,6 +2424,16 @@
             "displayName": "ವಾತಾವರಣಗಳು",
             "unitPattern-count-one": "{0} ವಾತಾವರಣ",
             "unitPattern-count-other": "{0} ವಾತಾವರಣ"
+          },
+          "pressure-pascal": {
+            "displayName": "ಪಾ",
+            "unitPattern-count-one": "{0} ಪಾ",
+            "unitPattern-count-other": "{0} ಪ್ಯಾ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ಹೆ.ಪ್ಯಾ.",
+            "unitPattern-count-one": "{0}ಹೆ.ಪ್ಯಾ",
+            "unitPattern-count-other": "{0}ಹೆ.ಪ್ಯಾ"
           },
           "pressure-kilopascal": {
             "displayName": "ಕೆಪಿಎ",
@@ -2309,14 +2486,14 @@
             "unitPattern-count-other": "{0} ಕೆ"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-one": "{0} lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ",
+            "unitPattern-count-one": "{0} ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ",
+            "unitPattern-count-other": "{0} ಎಲ್‌ಬಿಎಫ್-ಎಫ್‌ಟಿ"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-one": "{0} N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ನ್ಯೂ.ಮೀ",
+            "unitPattern-count-one": "{0} ನ್ಯೂ.ಮೀ",
+            "unitPattern-count-other": "{0} ನ್ಯೂ.ಮೀ"
           },
           "volume-cubic-kilometer": {
             "displayName": "ಕಿಮೀ³",
@@ -2438,7 +2615,7 @@
             "unitPattern-count-other": "{0} ಫ್ಲೂ.ಔ"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
+            "displayName": "ಇಂಪಿ. ಫ್ಲೂ. ಔ.",
             "unitPattern-count-one": "{0} fl oz Imp.",
             "unitPattern-count-other": "{0} fl oz Imp."
           },
@@ -2453,7 +2630,7 @@
             "unitPattern-count-other": "{0} ಟೀ ಸ್ಪೂ"
           },
           "volume-barrel": {
-            "displayName": "bbl",
+            "displayName": "ಬ್ಯಾರೆಲ್",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },

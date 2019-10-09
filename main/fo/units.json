@@ -3,8 +3,7 @@
     "fo": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14809 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "fo"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G-kreftir",
@@ -100,6 +102,7 @@
           },
           "area-dunam": {
             "displayName": "dunam",
+            "unitPattern-count-one": "{0} dunam",
             "unitPattern-count-other": "{0} dunam"
           },
           "concentr-karat": {
@@ -123,19 +126,23 @@
             "unitPattern-count-other": "{0} partar fyri hvørja millión"
           },
           "concentr-percent": {
-            "displayName": "%",
-            "unitPattern-count-other": "{0}%"
+            "displayName": "prosent",
+            "unitPattern-count-one": "{0} prosent",
+            "unitPattern-count-other": "{0} prosent"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "promillur",
+            "unitPattern-count-one": "{0} promilla",
+            "unitPattern-count-other": "{0} promillur"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "promyriad",
+            "unitPattern-count-one": "{0} promyriad",
+            "unitPattern-count-other": "{0} promyriad"
           },
           "concentr-mole": {
             "displayName": "mol",
+            "unitPattern-count-one": "{0} mol",
             "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
@@ -159,8 +166,9 @@
             "unitPattern-count-other": "{0} míl fyri hvønn bretska gallon"
           },
           "digital-petabyte": {
-            "displayName": "PB",
-            "unitPattern-count-other": "{0} PB"
+            "displayName": "petabýt",
+            "unitPattern-count-one": "{0} petabýt",
+            "unitPattern-count-other": "{0} petabýt"
           },
           "digital-terabyte": {
             "displayName": "terabýt",
@@ -216,6 +224,11 @@
             "displayName": "øldir",
             "unitPattern-count-one": "{0} øld",
             "unitPattern-count-other": "{0} øldir"
+          },
+          "duration-decade": {
+            "displayName": "áratíggju",
+            "unitPattern-count-one": "{0} áratíggju",
+            "unitPattern-count-other": "{0} áratíggju"
           },
           "duration-year": {
             "displayName": "ár",
@@ -325,20 +338,29 @@
             "unitPattern-count-other": "{0} kilowatttímar"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "elektronvolt",
+            "unitPattern-count-one": "{0} elektronvolt",
+            "unitPattern-count-other": "{0} elektronvolt"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "bretskar hitaeindir",
+            "unitPattern-count-one": "{0} bretsk hitaeind",
+            "unitPattern-count-other": "{0} bretskar hitaeindir"
+          },
+          "energy-therm-us": {
+            "displayName": "hitaeindir",
+            "unitPattern-count-one": "{0} hitaeind",
+            "unitPattern-count-other": "{0} hitaeindir"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "pund av kraft",
+            "unitPattern-count-one": "{0} pund av kraft",
+            "unitPattern-count-other": "{0} pund av kraft"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} newton",
+            "unitPattern-count-other": "{0} newton"
           },
           "frequency-gigahertz": {
             "displayName": "gigahertz",
@@ -359,6 +381,41 @@
             "displayName": "hertz",
             "unitPattern-count-one": "{0} hertz",
             "unitPattern-count-other": "{0} hertz"
+          },
+          "graphics-em": {
+            "displayName": "prent em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "skíggjadeplar",
+            "unitPattern-count-one": "{0} skíggjadeplar",
+            "unitPattern-count-other": "{0} skíggjadeplar"
+          },
+          "graphics-megapixel": {
+            "displayName": "megaskíggjadeplar",
+            "unitPattern-count-one": "{0} megaskíggjadepil",
+            "unitPattern-count-other": "{0} megaskíggjadeplar"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "skíggjadeplar fyri hvønn sentimetur",
+            "unitPattern-count-one": "{0} skíggjadeplar fyri hvønn sentimetur",
+            "unitPattern-count-other": "{0} skíggjadeplar fyri hvønn sentimetur"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "skíggjadeplar fyri hvønn tunna",
+            "unitPattern-count-one": "{0} skíggjadepil fyri hvønn tunna",
+            "unitPattern-count-other": "{0} skíggjadeplar fyri hvønn tunna"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "punkt fyri hvønn sentimetur",
+            "unitPattern-count-one": "{0} punkt fyri hvønn sentimetur",
+            "unitPattern-count-other": "{0} punkt fyri hvønn sentimetur"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "punkt fyri hvønn tumma",
+            "unitPattern-count-one": "{0} punkt fyri hvønn tumma",
+            "unitPattern-count-other": "{0} punkt fyri hvønn tumma"
           },
           "length-kilometer": {
             "displayName": "kilometrar",
@@ -464,8 +521,9 @@
             "unitPattern-count-other": "{0} punkt"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "sólarradii",
+            "unitPattern-count-one": "{0} sólarradius",
+            "unitPattern-count-other": "{0} sólarradii"
           },
           "light-lux": {
             "displayName": "luks",
@@ -473,8 +531,9 @@
             "unitPattern-count-other": "{0} luks"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "sólarljósmegi",
+            "unitPattern-count-one": "{0} sólarljósmegi",
+            "unitPattern-count-other": "{0} sólarljósmegi"
           },
           "mass-metric-ton": {
             "displayName": "tons",
@@ -535,16 +594,19 @@
             "unitPattern-count-other": "{0} karat"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} dalton",
+            "unitPattern-count-other": "{0} dalton"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "jarðmassi",
+            "unitPattern-count-one": "{0} jarðmassi",
+            "unitPattern-count-other": "{0} jarðmassar"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "sólarmassi",
+            "unitPattern-count-one": "{0} sólarmassi",
+            "unitPattern-count-other": "{0} sólarmassar"
           },
           "power-gigawatt": {
             "displayName": "gigawatt",
@@ -576,11 +638,6 @@
             "unitPattern-count-one": "{0} hestakraft",
             "unitPattern-count-other": "{0} hestakreftur"
           },
-          "pressure-hectopascal": {
-            "displayName": "hektopascal",
-            "unitPattern-count-one": "{0} hektopascal",
-            "unitPattern-count-other": "{0} hektopascal"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "millimetrar av kviksilvur",
             "unitPattern-count-one": "{0} millimetur av kviksilvur",
@@ -596,22 +653,40 @@
             "unitPattern-count-one": "{0} tummi av kviksilvur",
             "unitPattern-count-other": "{0} tummar av kviksilvur"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "millibar",
             "unitPattern-count-one": "{0} millibar",
             "unitPattern-count-other": "{0} millibar"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "lufttrýst",
+            "unitPattern-count-one": "{0} lufttrýst",
+            "unitPattern-count-other": "{0} lufttrýst"
+          },
+          "pressure-pascal": {
+            "displayName": "pascal",
+            "unitPattern-count-one": "{0} Pascal",
+            "unitPattern-count-other": "{0} Pascal"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hektopascal",
+            "unitPattern-count-one": "{0} hektopascal",
+            "unitPattern-count-other": "{0} hektopascal"
           },
           "pressure-kilopascal": {
-            "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "displayName": "kilopascal",
+            "unitPattern-count-one": "{0} kilopascal",
+            "unitPattern-count-other": "{0} kilopascal"
           },
           "pressure-megapascal": {
-            "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "displayName": "megapascal",
+            "unitPattern-count-one": "{0} megapascal",
+            "unitPattern-count-other": "{0} megapascal"
           },
           "speed-kilometer-per-hour": {
             "displayName": "kilometrar um tíman",
@@ -654,12 +729,14 @@
             "unitPattern-count-other": "{0} Kelvin"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "pund føtur",
+            "unitPattern-count-one": "{0} pund fótur",
+            "unitPattern-count-other": "{0} pund føtur"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "newtonmetur",
+            "unitPattern-count-one": "{0} newtonmetur",
+            "unitPattern-count-other": "{0} newtonmetrar"
           },
           "volume-cubic-kilometer": {
             "displayName": "kubikkkilometrar",
@@ -781,8 +858,9 @@
             "unitPattern-count-other": "{0} flótandi unsur"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "bretskar flótandi unsur",
+            "unitPattern-count-one": "{0} bretsk flótandi unsa",
+            "unitPattern-count-other": "{0} bretskar flótandi unsur"
           },
           "volume-tablespoon": {
             "displayName": "súpiskeiðir",
@@ -795,11 +873,12 @@
             "unitPattern-count-other": "{0} teskeiðir"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "tunnur",
+            "unitPattern-count-one": "{0} tunna",
+            "unitPattern-count-other": "{0} tunnur"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "ætt",
             "east": "{0} eystur",
             "north": "{0} norður",
             "south": "{0} suður",
@@ -809,6 +888,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -897,6 +979,7 @@
           },
           "area-dunam": {
             "displayName": "dunam",
+            "unitPattern-count-one": "{0} dunam",
             "unitPattern-count-other": "{0} dunam"
           },
           "concentr-karat": {
@@ -920,19 +1003,23 @@
             "unitPattern-count-other": "{0} partar/mill."
           },
           "concentr-percent": {
-            "displayName": "%",
-            "unitPattern-count-other": "{0}%"
+            "displayName": "prosent",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-other": "{0} %"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "promillur",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "promyriad",
+            "unitPattern-count-one": "{0} ‱",
+            "unitPattern-count-other": "{0} ‱"
           },
           "concentr-mole": {
             "displayName": "mol",
+            "unitPattern-count-one": "{0} mol",
             "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
@@ -957,6 +1044,7 @@
           },
           "digital-petabyte": {
             "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1014,6 +1102,11 @@
             "unitPattern-count-one": "{0} ø.",
             "unitPattern-count-other": "{0} ø."
           },
+          "duration-decade": {
+            "displayName": "áratí.",
+            "unitPattern-count-one": "{0} áratí.",
+            "unitPattern-count-other": "{0} áratí."
+          },
           "duration-year": {
             "displayName": "ár",
             "unitPattern-count-one": "{0} ár",
@@ -1021,9 +1114,9 @@
             "perUnitPattern": "{0}/ár"
           },
           "duration-month": {
-            "displayName": "mán.",
-            "unitPattern-count-one": "{0} mán.",
-            "unitPattern-count-other": "{0} mán.",
+            "displayName": "mnð.",
+            "unitPattern-count-one": "{0} mnð.",
+            "unitPattern-count-other": "{0} mnð.",
             "perUnitPattern": "{0}/m."
           },
           "duration-week": {
@@ -1122,19 +1215,28 @@
             "unitPattern-count-other": "{0} kWh"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
+            "displayName": "elektronvolt",
+            "unitPattern-count-one": "{0} eV",
             "unitPattern-count-other": "{0} eV"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
+            "displayName": "bretskar hitaeindir",
+            "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "hitaeindir",
+            "unitPattern-count-one": "{0} thm",
+            "unitPattern-count-other": "{0} thm"
           },
           "force-pound-force": {
             "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
-            "displayName": "N",
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} N",
             "unitPattern-count-other": "{0} N"
           },
           "frequency-gigahertz": {
@@ -1156,6 +1258,41 @@
             "displayName": "Hz",
             "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "skíggjadeplar",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megaskíggjadeplar",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1261,7 +1398,8 @@
             "unitPattern-count-other": "{0} pkt"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
+            "displayName": "sólarradii",
+            "unitPattern-count-one": "{0} R☉",
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
@@ -1270,7 +1408,8 @@
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "sólarljósmegi",
+            "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
@@ -1332,15 +1471,18 @@
             "unitPattern-count-other": "{0} CD"
           },
           "mass-dalton": {
-            "displayName": "Da",
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} Da",
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "jarðmassi",
+            "unitPattern-count-one": "{0} M⊕",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "sólarmassi",
+            "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
@@ -1373,11 +1515,6 @@
             "unitPattern-count-one": "{0} hk",
             "unitPattern-count-other": "{0} hk"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
@@ -1393,21 +1530,39 @@
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mb",
             "unitPattern-count-one": "{0} mb",
             "unitPattern-count-other": "{0} mb"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "lufttrýst",
+            "unitPattern-count-one": "{0} lufttrýst",
+            "unitPattern-count-other": "{0} lufttrýst"
+          },
+          "pressure-pascal": {
+            "displayName": "pascal",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
             "unitPattern-count-other": "{0} kPa"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
             "unitPattern-count-other": "{0} MPa"
           },
           "speed-kilometer-per-hour": {
@@ -1452,10 +1607,12 @@
           },
           "torque-pound-foot": {
             "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
+            "unitPattern-count-one": "{0} N⋅m",
             "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
@@ -1578,8 +1735,9 @@
             "unitPattern-count-other": "{0} flótandi unsur"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "bretskar flótandi unsur",
+            "unitPattern-count-one": "{0} bretsk flótandi unsa",
+            "unitPattern-count-other": "{0} bretskar flót. unsur"
           },
           "volume-tablespoon": {
             "displayName": "súpisk.",
@@ -1592,11 +1750,12 @@
             "unitPattern-count-other": "{0} tesk."
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "tunna",
+            "unitPattern-count-one": "{0} tunna",
+            "unitPattern-count-other": "{0} tunnur"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "ætt",
             "east": "{0} E",
             "north": "{0} N",
             "south": "{0} S",
@@ -1606,6 +1765,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -1694,6 +1856,7 @@
           },
           "area-dunam": {
             "displayName": "dunam",
+            "unitPattern-count-one": "{0} dunam",
             "unitPattern-count-other": "{0} dunam"
           },
           "concentr-karat": {
@@ -1717,19 +1880,23 @@
             "unitPattern-count-other": "{0} partar/mill."
           },
           "concentr-percent": {
-            "displayName": "%",
-            "unitPattern-count-other": "{0}%"
+            "displayName": "prosent",
+            "unitPattern-count-one": "{0} %",
+            "unitPattern-count-other": "{0} %"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "promillur",
+            "unitPattern-count-one": "{0} ‰",
+            "unitPattern-count-other": "{0} ‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "promyriad",
+            "unitPattern-count-one": "{0} ‱",
+            "unitPattern-count-other": "{0} ‱"
           },
           "concentr-mole": {
             "displayName": "mol",
+            "unitPattern-count-one": "{0} mol",
             "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
@@ -1754,6 +1921,7 @@
           },
           "digital-petabyte": {
             "displayName": "PB",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1810,6 +1978,11 @@
             "displayName": "ø.",
             "unitPattern-count-one": "{0} ø.",
             "unitPattern-count-other": "{0} ø."
+          },
+          "duration-decade": {
+            "displayName": "áratí.",
+            "unitPattern-count-one": "{0} áratí.",
+            "unitPattern-count-other": "{0} áratí."
           },
           "duration-year": {
             "displayName": "ár",
@@ -1919,19 +2092,28 @@
             "unitPattern-count-other": "{0} kWh"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
+            "displayName": "elektronvolt",
+            "unitPattern-count-one": "{0} eV",
             "unitPattern-count-other": "{0} eV"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
+            "displayName": "bretskar hitaeindir",
+            "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "hitaeindir",
+            "unitPattern-count-one": "{0} thm",
+            "unitPattern-count-other": "{0} thm"
           },
           "force-pound-force": {
             "displayName": "lbf",
+            "unitPattern-count-one": "{0} lbf",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
-            "displayName": "N",
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} N",
             "unitPattern-count-other": "{0} N"
           },
           "frequency-gigahertz": {
@@ -1953,6 +2135,41 @@
             "displayName": "Hz",
             "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "skíggjadeplar",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megaskíggjadeplar",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2058,7 +2275,8 @@
             "unitPattern-count-other": "{0} pkt"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
+            "displayName": "sólarradii",
+            "unitPattern-count-one": "{0} R☉",
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
@@ -2067,7 +2285,8 @@
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "sólarljósmegi",
+            "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
@@ -2129,15 +2348,18 @@
             "unitPattern-count-other": "{0} CD"
           },
           "mass-dalton": {
-            "displayName": "Da",
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} Da",
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "jarðmassi",
+            "unitPattern-count-one": "{0} M⊕",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "sólarmassi",
+            "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
@@ -2170,11 +2392,6 @@
             "unitPattern-count-one": "{0} hk",
             "unitPattern-count-other": "{0} hk"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0}hPa",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
@@ -2190,21 +2407,39 @@
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mb",
             "unitPattern-count-one": "{0}mbar",
             "unitPattern-count-other": "{0}mbar"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "lufttrýst",
+            "unitPattern-count-one": "{0} lufttrýst",
+            "unitPattern-count-other": "{0} lufttrýst"
+          },
+          "pressure-pascal": {
+            "displayName": "pascal",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0}hPa",
+            "unitPattern-count-other": "{0}hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
             "unitPattern-count-other": "{0} kPa"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
             "unitPattern-count-other": "{0} MPa"
           },
           "speed-kilometer-per-hour": {
@@ -2249,10 +2484,12 @@
           },
           "torque-pound-foot": {
             "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
+            "unitPattern-count-one": "{0} N⋅m",
             "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
@@ -2375,8 +2612,9 @@
             "unitPattern-count-other": "{0} flótandi unsur"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "bretskar flótandi unsur",
+            "unitPattern-count-one": "{0} bretsk flótandi unsa",
+            "unitPattern-count-other": "{0} bretskar flót. unsur"
           },
           "volume-tablespoon": {
             "displayName": "súpisk.",
@@ -2389,11 +2627,12 @@
             "unitPattern-count-other": "{0} tesk."
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "tunna",
+            "unitPattern-count-one": "{0} tunna",
+            "unitPattern-count-other": "{0} tunnur"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "ætt",
             "east": "{0}E",
             "north": "{0}N",
             "south": "{0}S",

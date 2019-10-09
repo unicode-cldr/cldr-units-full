@@ -3,8 +3,7 @@
     "el": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "el"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} ανά {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "δύναμη επιτάχυνσης",
@@ -31,7 +33,7 @@
           "angle-radian": {
             "displayName": "ακτίνια",
             "unitPattern-count-one": "{0} ακτίνιο",
-            "unitPattern-count-other": "{0} ακτίνιο"
+            "unitPattern-count-other": "{0} ακτίνια"
           },
           "angle-degree": {
             "displayName": "μοίρες",
@@ -114,7 +116,7 @@
             "unitPattern-count-other": "{0} χιλιοστόγραμμα ανά δεκατόλιτρο"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "χιλιοστογραμμομόριο ανά λίτρο",
+            "displayName": "χιλιοστογραμμομόρια ανά λίτρο",
             "unitPattern-count-one": "{0} χιλιοστογραμμομόριο ανά λίτρο",
             "unitPattern-count-other": "{0} χιλιοστογραμμομόρια ανά λίτρο"
           },
@@ -222,6 +224,11 @@
             "displayName": "αιώνες",
             "unitPattern-count-one": "{0} αιώνας",
             "unitPattern-count-other": "{0} αιώνες"
+          },
+          "duration-decade": {
+            "displayName": "δεκαετίες",
+            "unitPattern-count-one": "{0} δεκαετία",
+            "unitPattern-count-other": "{0} δεκαετίες"
           },
           "duration-year": {
             "displayName": "έτη",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} βρετανική μονάδα θερμότητας",
             "unitPattern-count-other": "{0} βρετανικές μονάδες θερμότητας"
           },
+          "energy-therm-us": {
+            "displayName": "θερμικές μονάδες ΗΠΑ",
+            "unitPattern-count-one": "{0} θερμ. μονάδα ΗΠΑ",
+            "unitPattern-count-other": "{0} θερμικές μονάδες ΗΠΑ"
+          },
           "force-pound-force": {
             "displayName": "λίβρες δύναμης",
             "unitPattern-count-one": "{0} λίβρα δύναμης",
@@ -370,6 +382,41 @@
             "unitPattern-count-one": "{0} χερτζ",
             "unitPattern-count-other": "{0} χερτζ"
           },
+          "graphics-em": {
+            "displayName": "τυπογραφικό em",
+            "unitPattern-count-one": "{0} τυπογραφικό em",
+            "unitPattern-count-other": "{0} τυπογραφικά em"
+          },
+          "graphics-pixel": {
+            "displayName": "pixel",
+            "unitPattern-count-one": "{0} pixel",
+            "unitPattern-count-other": "{0} pixel"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-one": "{0} megapixel",
+            "unitPattern-count-other": "{0} megapixel"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "pixel ανά εκατοστό",
+            "unitPattern-count-one": "{0} pixel ανά εκατοστό",
+            "unitPattern-count-other": "{0} pixel ανά εκατοστό"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "pixel ανά ίντσα",
+            "unitPattern-count-one": "{0} pixel ανά ίντσα",
+            "unitPattern-count-other": "{0} pixel ανά ίντσα"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "κουκκίδες ανά εκατοστό",
+            "unitPattern-count-one": "{0} κουκκίδα ανά εκατοστό",
+            "unitPattern-count-other": "{0} κουκκίδες ανά εκατοστό"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "κουκκίδες ανά ίντσα",
+            "unitPattern-count-one": "{0} κουκκίδα ανά ίντσα",
+            "unitPattern-count-other": "{0} κουκκίδες ανά ίντσα"
+          },
           "length-kilometer": {
             "displayName": "χιλιόμετρα",
             "unitPattern-count-one": "{0} χιλιόμετρο",
@@ -399,7 +446,7 @@
             "unitPattern-count-other": "{0} χιλιοστόμετρα"
           },
           "length-micrometer": {
-            "displayName": "µm",
+            "displayName": "μικρόμετρα",
             "unitPattern-count-one": "{0} μικρόμετρο",
             "unitPattern-count-other": "{0} μικρόμετρα"
           },
@@ -469,12 +516,12 @@
             "unitPattern-count-other": "{0} σκανδιναβικά μίλια"
           },
           "length-point": {
-            "displayName": "στιγμή",
+            "displayName": "στιγμές",
             "unitPattern-count-one": "{0} στιγμή",
             "unitPattern-count-other": "{0} στιγμές"
           },
           "length-solar-radius": {
-            "displayName": "ακτίνες Ήλιου",
+            "displayName": "ακτίνες του Ήλιου",
             "unitPattern-count-one": "{0} ακτίνα του Ήλιου",
             "unitPattern-count-other": "{0} ακτίνες του Ήλιου"
           },
@@ -497,7 +544,7 @@
             "displayName": "χιλιόγραμμα",
             "unitPattern-count-one": "{0} χιλιόγραμμο",
             "unitPattern-count-other": "{0} χιλιόγραμμα",
-            "perUnitPattern": "{0} ανά κιλό"
+            "perUnitPattern": "{0} ανά χιλιόγραμμο"
           },
           "mass-gram": {
             "displayName": "γραμμάρια",
@@ -591,18 +638,13 @@
             "unitPattern-count-one": "{0} ίππος",
             "unitPattern-count-other": "{0} ίπποι"
           },
-          "pressure-hectopascal": {
-            "displayName": "εκτοπασκάλ",
-            "unitPattern-count-one": "{0} εκτοπασκάλ",
-            "unitPattern-count-other": "{0} εκτοπασκάλ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "χιλιοστόμετρα στήλης υδραργύρου",
-            "unitPattern-count-one": "{0} χιλιοστόμετρα στήλης υδραργύρου",
+            "unitPattern-count-one": "{0} χιλιοστόμετρο στήλης υδραργύρου",
             "unitPattern-count-other": "{0} χιλιοστόμετρα στήλης υδραργύρου"
           },
           "pressure-pound-per-square-inch": {
-            "displayName": "λίβρα ανά τετραγωνική ίντσα",
+            "displayName": "λίβρες ανά τετραγωνική ίντσα",
             "unitPattern-count-one": "{0} λίβρα ανά τετραγωνική ίντσα",
             "unitPattern-count-other": "{0} λίβρες ανά τετραγωνική ίντσα"
           },
@@ -610,6 +652,11 @@
             "displayName": "ίντσες στήλης υδραργύρου",
             "unitPattern-count-one": "{0} ίντσα στήλης υδραργύρου",
             "unitPattern-count-other": "{0} ίντσες στήλης υδραργύρου"
+          },
+          "pressure-bar": {
+            "displayName": "μπαρ",
+            "unitPattern-count-one": "{0} μπαρ",
+            "unitPattern-count-other": "{0} μπαρ"
           },
           "pressure-millibar": {
             "displayName": "μιλιμπάρ",
@@ -620,6 +667,16 @@
             "displayName": "ατμόσφαιρες",
             "unitPattern-count-one": "{0} ατμόσφαιρα",
             "unitPattern-count-other": "{0} ατμόσφαιρες"
+          },
+          "pressure-pascal": {
+            "displayName": "πασκάλ",
+            "unitPattern-count-one": "{0} πασκάλ",
+            "unitPattern-count-other": "{0} πασκάλ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "εκτοπασκάλ",
+            "unitPattern-count-one": "{0} εκτοπασκάλ",
+            "unitPattern-count-other": "{0} εκτοπασκάλ"
           },
           "pressure-kilopascal": {
             "displayName": "κιλοπασκάλ",
@@ -689,7 +746,7 @@
           "volume-cubic-meter": {
             "displayName": "κυβικά μέτρα",
             "unitPattern-count-one": "{0} κυβικό μέτρο",
-            "unitPattern-count-other": "{0} κυβικό μέτρο",
+            "unitPattern-count-other": "{0} κυβικά μέτρα",
             "perUnitPattern": "{0} ανά κυβικό μέτρο"
           },
           "volume-cubic-centimeter": {
@@ -816,9 +873,9 @@
             "unitPattern-count-other": "{0} κουταλιές του γλυκού"
           },
           "volume-barrel": {
-            "displayName": "βαρέλι",
+            "displayName": "βαρέλια",
             "unitPattern-count-one": "{0} βαρέλι",
-            "unitPattern-count-other": "{0} βαρέλι"
+            "unitPattern-count-other": "{0} βαρέλια"
           },
           "coordinateUnit": {
             "displayName": "σημεία ορίζοντα",
@@ -831,6 +888,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "δύν. επιτάχ.",
@@ -1042,6 +1102,11 @@
             "unitPattern-count-one": "{0} αιών.",
             "unitPattern-count-other": "{0} αιών."
           },
+          "duration-decade": {
+            "displayName": "δεκ.",
+            "unitPattern-count-one": "{0} δεκ.",
+            "unitPattern-count-other": "{0} δεκ."
+          },
           "duration-year": {
             "displayName": "έτη",
             "unitPattern-count-one": "{0} έτ.",
@@ -1100,22 +1165,22 @@
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
-            "displayName": "αμπέρ",
+            "displayName": "A",
             "unitPattern-count-one": "{0} A",
             "unitPattern-count-other": "{0} A"
           },
           "electric-milliampere": {
-            "displayName": "μιλιαμπέρ",
+            "displayName": "mA",
             "unitPattern-count-one": "{0} mA",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "ωμ",
+            "displayName": "Ω",
             "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "βολτ",
+            "displayName": "V",
             "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
@@ -1159,6 +1224,11 @@
             "unitPattern-count-one": "{0} BTU",
             "unitPattern-count-other": "{0} BTU"
           },
+          "energy-therm-us": {
+            "displayName": "θερμ. μονάδες ΗΠΑ",
+            "unitPattern-count-one": "{0} θερμ. μονάδα ΗΠΑ",
+            "unitPattern-count-other": "{0} θερμ. μονάδες ΗΠΑ"
+          },
           "force-pound-force": {
             "displayName": "λίβρες δύναμης",
             "unitPattern-count-one": "{0} lbf",
@@ -1170,24 +1240,59 @@
             "unitPattern-count-other": "{0} N"
           },
           "frequency-gigahertz": {
-            "displayName": "γιγαχέρτζ",
+            "displayName": "GHz",
             "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
-            "displayName": "μεγαχέρτζ",
+            "displayName": "MHz",
             "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
-            "displayName": "κιλοχέρτζ",
+            "displayName": "kHz",
             "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
-            "displayName": "χερτζ",
+            "displayName": "Hz",
             "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "χλμ.",
@@ -1213,7 +1318,7 @@
             "perUnitPattern": "{0}/εκ."
           },
           "length-millimeter": {
-            "displayName": "χιλιοστόμ.",
+            "displayName": "χλστ.",
             "unitPattern-count-one": "{0} χλστ.",
             "unitPattern-count-other": "{0} χλστ."
           },
@@ -1313,7 +1418,7 @@
             "unitPattern-count-other": "{0} μ.τ."
           },
           "mass-kilogram": {
-            "displayName": "kg",
+            "displayName": "κιλά",
             "unitPattern-count-one": "{0} κιλό",
             "unitPattern-count-other": "{0} κιλά",
             "perUnitPattern": "{0}/κιλό"
@@ -1410,11 +1515,6 @@
             "unitPattern-count-one": "{0} ίπ.",
             "unitPattern-count-other": "{0} ίπ."
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
@@ -1430,6 +1530,11 @@
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "μπαρ",
+            "unitPattern-count-one": "{0} μπαρ",
+            "unitPattern-count-other": "{0} μπαρ"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -1439,6 +1544,16 @@
             "displayName": "atm",
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1651,6 +1766,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "δύν. επιτάχ.",
             "unitPattern-count-one": "{0} G",
@@ -1861,6 +1979,11 @@
             "unitPattern-count-one": "{0} αιών.",
             "unitPattern-count-other": "{0} αιών."
           },
+          "duration-decade": {
+            "displayName": "δεκ.",
+            "unitPattern-count-one": "{0} δεκ.",
+            "unitPattern-count-other": "{0} δεκ."
+          },
           "duration-year": {
             "displayName": "έτ.",
             "unitPattern-count-one": "{0} έ",
@@ -1919,22 +2042,22 @@
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
-            "displayName": "αμπέρ",
+            "displayName": "A",
             "unitPattern-count-one": "{0} A",
             "unitPattern-count-other": "{0} A"
           },
           "electric-milliampere": {
-            "displayName": "μιλιαμπέρ",
+            "displayName": "mA",
             "unitPattern-count-one": "{0} mA",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "ωμ",
+            "displayName": "Ω",
             "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "βολτ",
+            "displayName": "V",
             "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
@@ -1978,6 +2101,11 @@
             "unitPattern-count-one": "{0} BTU",
             "unitPattern-count-other": "{0} BTU"
           },
+          "energy-therm-us": {
+            "displayName": "θερμ. μονάδες ΗΠΑ",
+            "unitPattern-count-one": "{0} θερμ. μονάδα ΗΠΑ",
+            "unitPattern-count-other": "{0} θερμ. μονάδες ΗΠΑ"
+          },
           "force-pound-force": {
             "displayName": "λίβρες δύναμης",
             "unitPattern-count-one": "{0} lbf",
@@ -1989,24 +2117,59 @@
             "unitPattern-count-other": "{0} N"
           },
           "frequency-gigahertz": {
-            "displayName": "γιγαχέρτζ",
+            "displayName": "GHz",
             "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
-            "displayName": "μεγαχέρτζ",
+            "displayName": "MHz",
             "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
-            "displayName": "κιλοχέρτζ",
+            "displayName": "kHz",
             "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
-            "displayName": "χερτζ",
+            "displayName": "Hz",
             "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "χλμ.",
@@ -2229,11 +2392,6 @@
             "unitPattern-count-one": "{0} hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
@@ -2249,6 +2407,11 @@
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "μπαρ",
+            "unitPattern-count-one": "{0} μπαρ",
+            "unitPattern-count-other": "{0} μπαρ"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -2258,6 +2421,16 @@
             "displayName": "atm",
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",

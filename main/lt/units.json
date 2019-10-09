@@ -3,8 +3,7 @@
     "lt": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14842 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "lt"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "laisvojo kritimo pagreičiai",
@@ -305,6 +307,13 @@
             "unitPattern-count-many": "{0} amžiaus",
             "unitPattern-count-other": "{0} amžių"
           },
+          "duration-decade": {
+            "displayName": "dekados",
+            "unitPattern-count-one": "{0} dekada",
+            "unitPattern-count-few": "{0} dekados",
+            "unitPattern-count-many": "{0} dekados",
+            "unitPattern-count-other": "{0} dekadų"
+          },
           "duration-year": {
             "displayName": "metai",
             "unitPattern-count-one": "{0} metai",
@@ -466,6 +475,13 @@
             "unitPattern-count-many": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "JAV termos",
+            "unitPattern-count-one": "{0} JAV terma",
+            "unitPattern-count-few": "{0} JAV termos",
+            "unitPattern-count-many": "{0} JAV termos",
+            "unitPattern-count-other": "{0} JAV termų"
+          },
           "force-pound-force": {
             "displayName": "jėgos svarai",
             "unitPattern-count-one": "{0} jėgos svaras",
@@ -507,6 +523,55 @@
             "unitPattern-count-few": "{0} hercai",
             "unitPattern-count-many": "{0} herco",
             "unitPattern-count-other": "{0} hercų"
+          },
+          "graphics-em": {
+            "displayName": "tipografinis emas",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-many": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "pikseliai",
+            "unitPattern-count-one": "{0} pikselis",
+            "unitPattern-count-few": "{0} pikseliai",
+            "unitPattern-count-many": "{0} pikselio",
+            "unitPattern-count-other": "{0} pikselių"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapikseliai",
+            "unitPattern-count-one": "{0} megapikselis",
+            "unitPattern-count-few": "{0} megapikseliai",
+            "unitPattern-count-many": "{0} megapikselio",
+            "unitPattern-count-other": "{0} megapikselių"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "pikseliai centimetre",
+            "unitPattern-count-one": "{0} pikselis centimetre",
+            "unitPattern-count-few": "{0} pikseliai centimetre",
+            "unitPattern-count-many": "{0} pikselio centimetre",
+            "unitPattern-count-other": "{0} pikselių centimetre"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "pikseliai colyje",
+            "unitPattern-count-one": "{0} pikselis colyje",
+            "unitPattern-count-few": "{0} pikseliai colyje",
+            "unitPattern-count-many": "{0} pikselio colyje",
+            "unitPattern-count-other": "{0} pikselių colyje"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "taškai centimetre",
+            "unitPattern-count-one": "{0} taškas centimetre",
+            "unitPattern-count-few": "{0} taškai centimetre",
+            "unitPattern-count-many": "{0} taško centimetre",
+            "unitPattern-count-other": "{0} taškų centimetre"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "taškai colyje",
+            "unitPattern-count-one": "{0} taškas colyje",
+            "unitPattern-count-few": "{0} taškai colyje",
+            "unitPattern-count-many": "{0} taško colyje",
+            "unitPattern-count-other": "{0} taškų colyje"
           },
           "length-kilometer": {
             "displayName": "kilometrai",
@@ -818,13 +883,6 @@
             "unitPattern-count-many": "{0} arklio galios",
             "unitPattern-count-other": "{0} arklio galių"
           },
-          "pressure-hectopascal": {
-            "displayName": "hektopaskaliai",
-            "unitPattern-count-one": "{0} hektopaskalis",
-            "unitPattern-count-few": "{0} hektopaskaliai",
-            "unitPattern-count-many": "{0} hektopaskalio",
-            "unitPattern-count-other": "{0} hektopaskalių"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "gysidabrio stulpelio milimetrai",
             "unitPattern-count-one": "{0} gysidabrio stulpelio milimetras",
@@ -846,6 +904,13 @@
             "unitPattern-count-many": "{0} gyvsidabrio stulpelio colio",
             "unitPattern-count-other": "{0} gyvsidabrio stulpelio colių"
           },
+          "pressure-bar": {
+            "displayName": "baras",
+            "unitPattern-count-one": "{0} baras",
+            "unitPattern-count-few": "{0} barai",
+            "unitPattern-count-many": "{0} baro",
+            "unitPattern-count-other": "{0} barų"
+          },
           "pressure-millibar": {
             "displayName": "milibarai",
             "unitPattern-count-one": "{0} milibaras",
@@ -859,6 +924,20 @@
             "unitPattern-count-few": "{0} atmosferos",
             "unitPattern-count-many": "{0} atmosferos",
             "unitPattern-count-other": "{0} atmosferų"
+          },
+          "pressure-pascal": {
+            "displayName": "paskaliai",
+            "unitPattern-count-one": "{0} paskalis",
+            "unitPattern-count-few": "{0} paskaliai",
+            "unitPattern-count-many": "{0} paskalio",
+            "unitPattern-count-other": "{0} paskalių"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hektopaskaliai",
+            "unitPattern-count-one": "{0} hektopaskalis",
+            "unitPattern-count-few": "{0} hektopaskaliai",
+            "unitPattern-count-many": "{0} hektopaskalio",
+            "unitPattern-count-other": "{0} hektopaskalių"
           },
           "pressure-kilopascal": {
             "displayName": "kilopaskaliai",
@@ -1149,6 +1228,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -1442,6 +1524,13 @@
             "unitPattern-count-many": "{0} a.",
             "unitPattern-count-other": "{0} a."
           },
+          "duration-decade": {
+            "displayName": "dekados",
+            "unitPattern-count-one": "{0} dek.",
+            "unitPattern-count-few": "{0} dek.",
+            "unitPattern-count-many": "{0} dek.",
+            "unitPattern-count-other": "{0} dek."
+          },
           "duration-year": {
             "displayName": "metai",
             "unitPattern-count-one": "{0} m.",
@@ -1603,6 +1692,13 @@
             "unitPattern-count-many": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "JAV terma",
+            "unitPattern-count-one": "{0} JAV terma",
+            "unitPattern-count-few": "{0} JAV termos",
+            "unitPattern-count-many": "{0} JAV termos",
+            "unitPattern-count-other": "{0} JAV termų"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -1644,6 +1740,55 @@
             "unitPattern-count-few": "{0} Hz",
             "unitPattern-count-many": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "tipografinis emas",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-many": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "pikseliai",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-few": "{0} p",
+            "unitPattern-count-many": "{0} p",
+            "unitPattern-count-other": "{0} p"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapikseliai",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-many": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "pikseliai centimetre",
+            "unitPattern-count-one": "{0} p/cm",
+            "unitPattern-count-few": "{0} p/cm",
+            "unitPattern-count-many": "{0} p/cm",
+            "unitPattern-count-other": "{0} p/cm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "pikseliai colyje",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-many": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "taškai centimetre",
+            "unitPattern-count-one": "{0} tšk./cm",
+            "unitPattern-count-few": "{0} tšk./cm",
+            "unitPattern-count-many": "{0} tšk./cm",
+            "unitPattern-count-other": "{0} tšk./cm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "taškai colyje",
+            "unitPattern-count-one": "{0} tšk./in",
+            "unitPattern-count-few": "{0} tšk./in",
+            "unitPattern-count-many": "{0} tšk./in",
+            "unitPattern-count-other": "{0} tšk./in"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1757,6 +1902,9 @@
           },
           "length-furlong": {
             "displayName": "fur",
+            "unitPattern-count-one": "{0} fur",
+            "unitPattern-count-few": "{0} fur",
+            "unitPattern-count-many": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
@@ -1952,13 +2100,6 @@
             "unitPattern-count-many": "{0} AG",
             "unitPattern-count-other": "{0} AG"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-few": "{0} hPa",
-            "unitPattern-count-many": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
@@ -1980,6 +2121,13 @@
             "unitPattern-count-many": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "baras",
+            "unitPattern-count-one": "{0} ba",
+            "unitPattern-count-few": "{0} ba",
+            "unitPattern-count-many": "{0} ba",
+            "unitPattern-count-other": "{0} ba"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -1993,6 +2141,20 @@
             "unitPattern-count-few": "{0} atm",
             "unitPattern-count-many": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "paskaliai",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-many": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-few": "{0} hPa",
+            "unitPattern-count-many": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -2195,6 +2357,9 @@
           },
           "volume-bushel": {
             "displayName": "bu",
+            "unitPattern-count-one": "{0} bu",
+            "unitPattern-count-few": "{0} bu",
+            "unitPattern-count-many": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2280,6 +2445,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -2573,6 +2741,13 @@
             "unitPattern-count-many": "{0} a.",
             "unitPattern-count-other": "{0} a."
           },
+          "duration-decade": {
+            "displayName": "dekados",
+            "unitPattern-count-one": "{0} dek.",
+            "unitPattern-count-few": "{0} dek.",
+            "unitPattern-count-many": "{0} dek.",
+            "unitPattern-count-other": "{0} dek."
+          },
           "duration-year": {
             "displayName": "metai",
             "unitPattern-count-one": "{0} m.",
@@ -2734,6 +2909,13 @@
             "unitPattern-count-many": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "JAV terma",
+            "unitPattern-count-one": "{0} JAV terma",
+            "unitPattern-count-few": "{0} JAV termos",
+            "unitPattern-count-many": "{0} JAV termos",
+            "unitPattern-count-other": "{0} JAV termų"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -2775,6 +2957,55 @@
             "unitPattern-count-few": "{0} Hz",
             "unitPattern-count-many": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "tipografinis emas",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-many": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "pikseliai",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-few": "{0} p",
+            "unitPattern-count-many": "{0} p",
+            "unitPattern-count-other": "{0} p"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapikseliai",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-many": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "pikseliai centimetre",
+            "unitPattern-count-one": "{0} p/cm",
+            "unitPattern-count-few": "{0} p/cm",
+            "unitPattern-count-many": "{0} p/cm",
+            "unitPattern-count-other": "{0} p/cm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "pikseliai colyje",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-many": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "taškai centimetre",
+            "unitPattern-count-one": "{0} tšk./cm",
+            "unitPattern-count-few": "{0} tšk./cm",
+            "unitPattern-count-many": "{0} tšk./cm",
+            "unitPattern-count-other": "{0} tšk./cm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "taškai colyje",
+            "unitPattern-count-one": "{0} tšk./in",
+            "unitPattern-count-few": "{0} tšk./in",
+            "unitPattern-count-many": "{0} tšk./in",
+            "unitPattern-count-other": "{0} tšk./in"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2888,6 +3119,9 @@
           },
           "length-furlong": {
             "displayName": "fur",
+            "unitPattern-count-one": "{0} fur",
+            "unitPattern-count-few": "{0} fur",
+            "unitPattern-count-many": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
@@ -3083,13 +3317,6 @@
             "unitPattern-count-many": "{0} AG",
             "unitPattern-count-other": "{0} AG"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-few": "{0} hPa",
-            "unitPattern-count-many": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
@@ -3111,6 +3338,13 @@
             "unitPattern-count-many": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "baras",
+            "unitPattern-count-one": "{0} ba",
+            "unitPattern-count-few": "{0} ba",
+            "unitPattern-count-many": "{0} ba",
+            "unitPattern-count-other": "{0} ba"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -3124,6 +3358,20 @@
             "unitPattern-count-few": "{0} atm",
             "unitPattern-count-many": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "paskaliai",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-many": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-few": "{0} hPa",
+            "unitPattern-count-many": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -3326,6 +3574,9 @@
           },
           "volume-bushel": {
             "displayName": "bu",
+            "unitPattern-count-one": "{0} bu",
+            "unitPattern-count-few": "{0} bu",
+            "unitPattern-count-many": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {

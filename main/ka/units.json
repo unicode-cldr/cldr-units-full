@@ -3,8 +3,7 @@
     "ka": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14817 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "ka"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ინერციის ძალა",
@@ -223,6 +225,11 @@
             "unitPattern-count-one": "{0} საუკუნე",
             "unitPattern-count-other": "{0} საუკუნე"
           },
+          "duration-decade": {
+            "displayName": "დეკადა",
+            "unitPattern-count-one": "{0} დეკადა",
+            "unitPattern-count-other": "{0} დეკადა"
+          },
           "duration-year": {
             "displayName": "წელი",
             "unitPattern-count-one": "{0} წელი",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} ბრიტანული სითბური ერთეული",
             "unitPattern-count-other": "{0} ბრიტანული სითბური ერთეული"
           },
+          "energy-therm-us": {
+            "displayName": "აშშ თერმი",
+            "unitPattern-count-one": "{0} აშშ თერმი",
+            "unitPattern-count-other": "{0} აშშ თერმი"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -369,6 +381,41 @@
             "displayName": "ჰერცი",
             "unitPattern-count-one": "{0} ჰერცი",
             "unitPattern-count-other": "{0} ჰერცი"
+          },
+          "graphics-em": {
+            "displayName": "ტიპოგრაფიული ემი",
+            "unitPattern-count-one": "{0} ემი",
+            "unitPattern-count-other": "{0} ემი"
+          },
+          "graphics-pixel": {
+            "displayName": "პიქსელი",
+            "unitPattern-count-one": "{0} პიქსელი",
+            "unitPattern-count-other": "{0} პიქსელი"
+          },
+          "graphics-megapixel": {
+            "displayName": "მეგაპიქსელი",
+            "unitPattern-count-one": "{0} მეგაპიქსელი",
+            "unitPattern-count-other": "{0} მეგაპიქსელი"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "პიქსელი სანტიმეტრზე",
+            "unitPattern-count-one": "{0} პიქსელი სანტიმეტრზე",
+            "unitPattern-count-other": "{0} პიქსელი სანტიმეტრზე"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "პიქსელი დუიმზე",
+            "unitPattern-count-one": "{0} პიქსელი დუიმზე",
+            "unitPattern-count-other": "{0} პიქსელი დუიმზე"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "წერტილი სანტიმეტრზე",
+            "unitPattern-count-one": "{0} წერტილი სანტიმეტრზე",
+            "unitPattern-count-other": "{0} წერტილი სანტიმეტრზე"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "წერტილი დუიმზე",
+            "unitPattern-count-one": "{0} წერტილი დუიმზე",
+            "unitPattern-count-other": "{0} წერტილი დუიმზე"
           },
           "length-kilometer": {
             "displayName": "კილომეტრი",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "{0} ცხენის ძალა",
             "unitPattern-count-other": "{0} ცხენის ძალა"
           },
-          "pressure-hectopascal": {
-            "displayName": "ჰექტოპასკალი",
-            "unitPattern-count-one": "{0} ჰექტოპასკალი",
-            "unitPattern-count-other": "{0} ჰექტოპასკალი"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "მილიმეტრი ვერცხლისწყლის სვეტისა",
             "unitPattern-count-one": "{0} მილიმეტრი ვერცხლისწყლის სვეტისა",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "{0} ვერცხლისწყლის დუიმი",
             "unitPattern-count-other": "{0} ვერცხლისწყლის დუიმი"
           },
+          "pressure-bar": {
+            "displayName": "ბარი",
+            "unitPattern-count-one": "{0} ბარი",
+            "unitPattern-count-other": "{0} ბარი"
+          },
           "pressure-millibar": {
             "displayName": "მილიბარი",
             "unitPattern-count-one": "{0} მილიბარი",
@@ -620,6 +667,16 @@
             "displayName": "ატმოსფეროები",
             "unitPattern-count-one": "{0} ატმოსფერო",
             "unitPattern-count-other": "{0} ატმოსფერო"
+          },
+          "pressure-pascal": {
+            "displayName": "პასკალი",
+            "unitPattern-count-one": "{0} პასკალი",
+            "unitPattern-count-other": "{0} პასკალი"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ჰექტოპასკალი",
+            "unitPattern-count-one": "{0} ჰექტოპასკალი",
+            "unitPattern-count-other": "{0} ჰექტოპასკალი"
           },
           "pressure-kilopascal": {
             "displayName": "კილოპასკალი",
@@ -832,6 +889,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ინ. ძ.",
             "unitPattern-count-one": "{0} ინ. ძ.",
@@ -1042,6 +1102,11 @@
             "unitPattern-count-one": "{0} ს.",
             "unitPattern-count-other": "{0} ს."
           },
+          "duration-decade": {
+            "displayName": "დეკადა",
+            "unitPattern-count-one": "{0} დეკადა",
+            "unitPattern-count-other": "{0} დეკადა"
+          },
           "duration-year": {
             "displayName": "წ",
             "unitPattern-count-one": "{0} წ",
@@ -1159,6 +1224,11 @@
             "unitPattern-count-one": "{0} ბსე",
             "unitPattern-count-other": "{0} ბსე"
           },
+          "energy-therm-us": {
+            "displayName": "აშშ თერმი",
+            "unitPattern-count-one": "{0} აშშ თერმი",
+            "unitPattern-count-other": "{0} აშშ თერმი"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -1188,6 +1258,41 @@
             "displayName": "ჰც.",
             "unitPattern-count-one": "{0} ჰც.",
             "unitPattern-count-other": "{0} ჰც."
+          },
+          "graphics-em": {
+            "displayName": "ემი",
+            "unitPattern-count-one": "{0} ემი",
+            "unitPattern-count-other": "{0} ემი"
+          },
+          "graphics-pixel": {
+            "displayName": "პქს",
+            "unitPattern-count-one": "{0} პქს",
+            "unitPattern-count-other": "{0} პქს"
+          },
+          "graphics-megapixel": {
+            "displayName": "მპქს",
+            "unitPattern-count-one": "{0} მპქს",
+            "unitPattern-count-other": "{0} მპქს"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "პქს/სმ-ზე",
+            "unitPattern-count-one": "{0} პქს/სმ-ზე",
+            "unitPattern-count-other": "{0} პქს/სმ-ზე"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "პიქს/დუიმზე",
+            "unitPattern-count-one": "{0} პიქს/დუიმზე",
+            "unitPattern-count-other": "{0} პიქს/დუიმზე"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "წერტ/სმ-ზე",
+            "unitPattern-count-one": "{0} წერტ/სმ-ზე",
+            "unitPattern-count-other": "{0} წერტ/სმ-ზე"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "წერტ/დუიმზე",
+            "unitPattern-count-one": "{0} წერტ/დუიმზე",
+            "unitPattern-count-other": "{0} წერტ/დუიმზე"
           },
           "length-kilometer": {
             "displayName": "კმ",
@@ -1410,11 +1515,6 @@
             "unitPattern-count-one": "{0} ცხ. ძ.",
             "unitPattern-count-other": "{0} ცხ. ძ."
           },
-          "pressure-hectopascal": {
-            "displayName": "ჰპა",
-            "unitPattern-count-one": "{0} ჰპა",
-            "unitPattern-count-other": "{0} ჰპა"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "მმ ვწყ. სვ.",
             "unitPattern-count-one": "{0} მმ ვწყ. სვ.",
@@ -1430,6 +1530,11 @@
             "unitPattern-count-one": "{0} ვრც. დმ.",
             "unitPattern-count-other": "{0} ვრც. დმ."
           },
+          "pressure-bar": {
+            "displayName": "ბარი",
+            "unitPattern-count-one": "{0} ბარი",
+            "unitPattern-count-other": "{0} ბარი"
+          },
           "pressure-millibar": {
             "displayName": "მბარი",
             "unitPattern-count-one": "{0} მბარი",
@@ -1439,6 +1544,16 @@
             "displayName": "ატმ.",
             "unitPattern-count-one": "{0} ატმ.",
             "unitPattern-count-other": "{0} ატმ."
+          },
+          "pressure-pascal": {
+            "displayName": "პა",
+            "unitPattern-count-one": "{0} პა",
+            "unitPattern-count-other": "{0} პა"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ჰპა",
+            "unitPattern-count-one": "{0} ჰპა",
+            "unitPattern-count-other": "{0} ჰპა"
           },
           "pressure-kilopascal": {
             "displayName": "კპა",
@@ -1651,6 +1766,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ინ. ძ.",
             "unitPattern-count-one": "{0} ინ. ძ.",
@@ -1861,6 +1979,11 @@
             "unitPattern-count-one": "{0} ს.",
             "unitPattern-count-other": "{0} ს."
           },
+          "duration-decade": {
+            "displayName": "დეკადა",
+            "unitPattern-count-one": "{0} დეკადა",
+            "unitPattern-count-other": "{0} დეკადა"
+          },
           "duration-year": {
             "displayName": "წ",
             "unitPattern-count-one": "{0} წ",
@@ -1978,6 +2101,11 @@
             "unitPattern-count-one": "{0} ბსე",
             "unitPattern-count-other": "{0} ბსე"
           },
+          "energy-therm-us": {
+            "displayName": "აშშ თერმი",
+            "unitPattern-count-one": "{0} აშშ თერმი",
+            "unitPattern-count-other": "{0} აშშ თერმი"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -2007,6 +2135,41 @@
             "displayName": "ჰც.",
             "unitPattern-count-one": "{0} ჰც.",
             "unitPattern-count-other": "{0} ჰც."
+          },
+          "graphics-em": {
+            "displayName": "ემი",
+            "unitPattern-count-one": "{0} ემი",
+            "unitPattern-count-other": "{0} ემი"
+          },
+          "graphics-pixel": {
+            "displayName": "პქს",
+            "unitPattern-count-one": "{0} პქს",
+            "unitPattern-count-other": "{0} პქს"
+          },
+          "graphics-megapixel": {
+            "displayName": "მპქს",
+            "unitPattern-count-one": "{0} მპქს",
+            "unitPattern-count-other": "{0} მპქს"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "პქს/სმ-ზე",
+            "unitPattern-count-one": "{0} პქს/სმ-ზე",
+            "unitPattern-count-other": "{0} პქს/სმ-ზე"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "პიქს/დუიმზე",
+            "unitPattern-count-one": "{0} პიქს/დუიმზე",
+            "unitPattern-count-other": "{0} პიქს/დუიმზე"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "წერტ/სმ-ზე",
+            "unitPattern-count-one": "{0} წერტ/სმ-ზე",
+            "unitPattern-count-other": "{0} წერტ/სმ-ზე"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "წერტ/დუიმზე",
+            "unitPattern-count-one": "{0} წერტ/დუიმზე",
+            "unitPattern-count-other": "{0} წერტ/დუიმზე"
           },
           "length-kilometer": {
             "displayName": "კმ",
@@ -2229,11 +2392,6 @@
             "unitPattern-count-one": "{0}ცხ.ძ.",
             "unitPattern-count-other": "{0}ცხ.ძ."
           },
-          "pressure-hectopascal": {
-            "displayName": "ჰპა",
-            "unitPattern-count-one": "{0} ჰპა",
-            "unitPattern-count-other": "{0} ჰპა"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "მმ ვწყ. სვ.",
             "unitPattern-count-one": "{0} მმ ვწყ. სვ.",
@@ -2249,6 +2407,11 @@
             "unitPattern-count-one": "{0} ვრც. დმ.",
             "unitPattern-count-other": "{0} ვრც. დმ."
           },
+          "pressure-bar": {
+            "displayName": "ბარი",
+            "unitPattern-count-one": "{0} ბარი",
+            "unitPattern-count-other": "{0} ბარი"
+          },
           "pressure-millibar": {
             "displayName": "მბარი",
             "unitPattern-count-one": "{0} მბრ",
@@ -2258,6 +2421,16 @@
             "displayName": "ატმ.",
             "unitPattern-count-one": "{0} ატმ.",
             "unitPattern-count-other": "{0} ატმ."
+          },
+          "pressure-pascal": {
+            "displayName": "პა",
+            "unitPattern-count-one": "{0} პა",
+            "unitPattern-count-other": "{0} პა"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ჰპა",
+            "unitPattern-count-one": "{0} ჰპა",
+            "unitPattern-count-other": "{0} ჰპა"
           },
           "pressure-kilopascal": {
             "displayName": "კპა",

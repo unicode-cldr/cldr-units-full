@@ -3,8 +3,7 @@
     "hi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "hi"
       },
@@ -13,10 +12,13 @@
           "per": {
             "compoundUnitPattern": "{0} प्रति {1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "गुरुत्व बल",
-            "unitPattern-count-one": "{0} गु–बल",
-            "unitPattern-count-other": "{0} गु–बल"
+            "unitPattern-count-one": "{0} गुरुत्व–बल",
+            "unitPattern-count-other": "{0} गुरुत्व–बल"
           },
           "acceleration-meter-per-second-squared": {
             "displayName": "मीटर/से²",
@@ -223,6 +225,11 @@
             "unitPattern-count-one": "{0} शताब्दी",
             "unitPattern-count-other": "{0} शताब्दियाँ"
           },
+          "duration-decade": {
+            "displayName": "दशकों",
+            "unitPattern-count-one": "{0} दशक",
+            "unitPattern-count-other": "{0} दशकों"
+          },
           "duration-year": {
             "displayName": "वर्ष",
             "unitPattern-count-one": "{0} वर्ष",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} ब्रिटिश थर्मल यूनिट",
             "unitPattern-count-other": "{0} ब्रिटिश थर्मल यूनिट"
           },
+          "energy-therm-us": {
+            "displayName": "यूएस थेर्म",
+            "unitPattern-count-one": "{0} यूएस थेर्म",
+            "unitPattern-count-other": "{0} यूएस थेर्म"
+          },
           "force-pound-force": {
             "displayName": "पाउंड-बल",
             "unitPattern-count-one": "{0} पाउंड-बल",
@@ -369,6 +381,41 @@
             "displayName": "हर्ट्ज़",
             "unitPattern-count-one": "{0} हर्ट्ज़",
             "unitPattern-count-other": "{0} हर्ट्ज़"
+          },
+          "graphics-em": {
+            "displayName": "टाइपोग्राफ़िक एम",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "पिक्सेल",
+            "unitPattern-count-one": "{0} पिक्सेल",
+            "unitPattern-count-other": "{0} पिक्सेल"
+          },
+          "graphics-megapixel": {
+            "displayName": "मेगापिक्सेल",
+            "unitPattern-count-one": "{0} मेगापिक्सेल",
+            "unitPattern-count-other": "{0} मेगापिक्सेल"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "पिक्सेल प्रति सेंटीमीटर",
+            "unitPattern-count-one": "{0} पिक्सेल प्रति सेंटीमीटर",
+            "unitPattern-count-other": "{0} पिक्सेल प्रति सेंटीमीटर"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "पिक्सेल प्रति इंच",
+            "unitPattern-count-one": "{0} पिक्सेल प्रति इंच",
+            "unitPattern-count-other": "{0} पिक्सेल प्रति इंच"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "बिंदु प्रति सेंटीमीटर",
+            "unitPattern-count-one": "{0} बिंदु प्रति सेंटीमीटर",
+            "unitPattern-count-other": "{0} बिंदु प्रति सेंटीमीटर"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "बिंदु प्रति इंच",
+            "unitPattern-count-one": "{0} बिंदु प्रति इंच",
+            "unitPattern-count-other": "{0} बिंदु प्रति इंच"
           },
           "length-kilometer": {
             "displayName": "किलोमीटर",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "{0} अश्वशक्ति",
             "unitPattern-count-other": "{0} अश्वशक्ति"
           },
-          "pressure-hectopascal": {
-            "displayName": "हैक्टोपास्कल",
-            "unitPattern-count-one": "{0} हैक्टोपास्कल",
-            "unitPattern-count-other": "{0} हैक्टोपास्कल"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "मर्क्यूरी मिलीमीटर",
             "unitPattern-count-one": "{0} मर्क्यूरी मिलीमीटर",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "{0} मर्करी इंच",
             "unitPattern-count-other": "{0} मर्करी इंच"
           },
+          "pressure-bar": {
+            "displayName": "बार",
+            "unitPattern-count-one": "{0} बार",
+            "unitPattern-count-other": "{0} बार"
+          },
           "pressure-millibar": {
             "displayName": "मिलीबार",
             "unitPattern-count-one": "{0} मिलीबार",
@@ -620,6 +667,16 @@
             "displayName": "वायुमण्डलीय दबाव",
             "unitPattern-count-one": "{0} वायुमंडलीय दबाव",
             "unitPattern-count-other": "{0} वायुमंडलीय दबाव"
+          },
+          "pressure-pascal": {
+            "displayName": "पास्कल",
+            "unitPattern-count-one": "{0} पास्कल",
+            "unitPattern-count-other": "{0} पास्कल"
+          },
+          "pressure-hectopascal": {
+            "displayName": "हैक्टोपास्कल",
+            "unitPattern-count-one": "{0} हैक्टोपास्कल",
+            "unitPattern-count-other": "{0} हैक्टोपास्कल"
           },
           "pressure-kilopascal": {
             "displayName": "किलोपास्कल",
@@ -653,6 +710,7 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -671,7 +729,7 @@
             "unitPattern-count-other": "{0} केल्विन"
           },
           "torque-pound-foot": {
-            "displayName": "पाउंड-फ़ीट",
+            "displayName": "पाउंड-फ़ुट",
             "unitPattern-count-one": "{0} पाउंड-फ़ुट",
             "unitPattern-count-other": "{0} पाउंड-फ़ुट"
           },
@@ -831,8 +889,11 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
-            "displayName": "गु–बल",
+            "displayName": "गुरुत्व बल",
             "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
@@ -923,6 +984,7 @@
           },
           "concentr-karat": {
             "displayName": "कैरट",
+            "unitPattern-count-one": "{0} kt",
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
@@ -937,14 +999,17 @@
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
             "displayName": "प्रतिशत",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "प्रति हज़ार",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -979,38 +1044,47 @@
           },
           "digital-petabyte": {
             "displayName": "पेटाबाइट",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
+            "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
             "displayName": "Tb",
+            "unitPattern-count-one": "{0} Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
             "displayName": "GB",
+            "unitPattern-count-one": "{0} GB",
             "unitPattern-count-other": "{0} GB"
           },
           "digital-gigabit": {
             "displayName": "Gb",
+            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
             "displayName": "MB",
+            "unitPattern-count-one": "{0} MB",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
             "displayName": "Mb",
+            "unitPattern-count-one": "{0} Mb",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
             "displayName": "kB",
+            "unitPattern-count-one": "{0} kB",
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
             "displayName": "kb",
+            "unitPattern-count-one": "{0} kb",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -1027,6 +1101,11 @@
             "displayName": "शता",
             "unitPattern-count-one": "{0} शता",
             "unitPattern-count-other": "{0} शता"
+          },
+          "duration-decade": {
+            "displayName": "दश.",
+            "unitPattern-count-one": "{0} दश.",
+            "unitPattern-count-other": "{0} दश."
           },
           "duration-year": {
             "displayName": "वर्ष",
@@ -1097,34 +1176,42 @@
           },
           "electric-ohm": {
             "displayName": "ओम",
+            "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
             "displayName": "वोल्ट",
+            "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
           "energy-kilocalorie": {
             "displayName": "kcal",
+            "unitPattern-count-one": "{0} kcal",
             "unitPattern-count-other": "{0} kcal"
           },
           "energy-calorie": {
             "displayName": "cal",
+            "unitPattern-count-one": "{0} cal",
             "unitPattern-count-other": "{0} cal"
           },
           "energy-foodcalorie": {
             "displayName": "Cal",
+            "unitPattern-count-one": "{0} Cal",
             "unitPattern-count-other": "{0} Cal"
           },
           "energy-kilojoule": {
             "displayName": "किलो जूल",
+            "unitPattern-count-one": "{0} kJ",
             "unitPattern-count-other": "{0} kJ"
           },
           "energy-joule": {
             "displayName": "जूल",
+            "unitPattern-count-one": "{0} J",
             "unitPattern-count-other": "{0} J"
           },
           "energy-kilowatt-hour": {
             "displayName": "kWh",
+            "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
           "energy-electronvolt": {
@@ -1136,6 +1223,11 @@
             "displayName": "Btu",
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "यूएस थेर्म",
+            "unitPattern-count-one": "{0} यूएस थेर्म",
+            "unitPattern-count-other": "{0} यूएस थेर्म"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1149,19 +1241,58 @@
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
+            "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
             "displayName": "MHz",
+            "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
             "displayName": "kHz",
+            "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
             "displayName": "Hz",
+            "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "पिक्सेल",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "मेगापिक्सेल",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "कि॰मी॰",
@@ -1258,6 +1389,7 @@
           },
           "length-mile-scandinavian": {
             "displayName": "smi",
+            "unitPattern-count-one": "{0} smi",
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
@@ -1272,6 +1404,7 @@
           },
           "light-lux": {
             "displayName": "लक्स",
+            "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
@@ -1354,51 +1487,73 @@
           },
           "power-gigawatt": {
             "displayName": "GW",
+            "unitPattern-count-one": "{0} GW",
             "unitPattern-count-other": "{0} GW"
           },
           "power-megawatt": {
             "displayName": "MW",
+            "unitPattern-count-one": "{0} MW",
             "unitPattern-count-other": "{0} MW"
           },
           "power-kilowatt": {
             "displayName": "kW",
+            "unitPattern-count-one": "{0} kW",
             "unitPattern-count-other": "{0} kW"
           },
           "power-watt": {
             "displayName": "वॉट",
+            "unitPattern-count-one": "{0} W",
             "unitPattern-count-other": "{0} W"
           },
           "power-milliwatt": {
             "displayName": "mW",
+            "unitPattern-count-one": "{0} mW",
             "unitPattern-count-other": "{0} mW"
           },
           "power-horsepower": {
             "displayName": "hp",
+            "unitPattern-count-one": "{0} hp",
             "unitPattern-count-other": "{0} hp"
-          },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
+            "unitPattern-count-one": "{0} mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "psi",
+            "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
             "displayName": "inHg",
+            "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
+          },
+          "pressure-bar": {
+            "displayName": "बार",
+            "unitPattern-count-one": "{0} बार",
+            "unitPattern-count-other": "{0} बार"
           },
           "pressure-millibar": {
             "displayName": "mbar",
+            "unitPattern-count-one": "{0} mbar",
             "unitPattern-count-other": "{0} mbar"
           },
           "pressure-atmosphere": {
             "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "पा॰",
+            "unitPattern-count-one": "{0} पा॰",
+            "unitPattern-count-other": "{0} पा॰"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "किपा॰",
@@ -1432,6 +1587,7 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -1446,6 +1602,7 @@
           },
           "temperature-kelvin": {
             "displayName": "K",
+            "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-foot": {
@@ -1609,6 +1766,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "गु–बल",
             "unitPattern-count-one": "{0}गु॰",
@@ -1701,6 +1861,7 @@
           },
           "concentr-karat": {
             "displayName": "कैरट",
+            "unitPattern-count-one": "{0} kt",
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
@@ -1715,14 +1876,17 @@
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
-            "displayName": "प्रतिशत",
+            "displayName": "%",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "प्रति हज़ार",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -1757,38 +1921,47 @@
           },
           "digital-petabyte": {
             "displayName": "पेटाबाइट",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "TB",
+            "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
             "displayName": "Tb",
+            "unitPattern-count-one": "{0} Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
             "displayName": "GB",
+            "unitPattern-count-one": "{0} GB",
             "unitPattern-count-other": "{0} GB"
           },
           "digital-gigabit": {
             "displayName": "Gb",
+            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
             "displayName": "MB",
+            "unitPattern-count-one": "{0} MB",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
             "displayName": "Mb",
+            "unitPattern-count-one": "{0} Mb",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
             "displayName": "kB",
+            "unitPattern-count-one": "{0} kB",
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
             "displayName": "kb",
+            "unitPattern-count-one": "{0} kb",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -1805,6 +1978,11 @@
             "displayName": "शता",
             "unitPattern-count-one": "{0} शता",
             "unitPattern-count-other": "{0} शता"
+          },
+          "duration-decade": {
+            "displayName": "दश.",
+            "unitPattern-count-one": "{0} दश.",
+            "unitPattern-count-other": "{0} दश."
           },
           "duration-year": {
             "displayName": "वर्ष",
@@ -1875,34 +2053,42 @@
           },
           "electric-ohm": {
             "displayName": "ओम",
+            "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
             "displayName": "वोल्ट",
+            "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
           "energy-kilocalorie": {
             "displayName": "kcal",
+            "unitPattern-count-one": "{0} kcal",
             "unitPattern-count-other": "{0} kcal"
           },
           "energy-calorie": {
             "displayName": "cal",
+            "unitPattern-count-one": "{0} cal",
             "unitPattern-count-other": "{0} cal"
           },
           "energy-foodcalorie": {
             "displayName": "Cal",
+            "unitPattern-count-one": "{0} Cal",
             "unitPattern-count-other": "{0} Cal"
           },
           "energy-kilojoule": {
             "displayName": "किलो जूल",
+            "unitPattern-count-one": "{0} kJ",
             "unitPattern-count-other": "{0} kJ"
           },
           "energy-joule": {
             "displayName": "जूल",
+            "unitPattern-count-one": "{0} J",
             "unitPattern-count-other": "{0} J"
           },
           "energy-kilowatt-hour": {
             "displayName": "kWh",
+            "unitPattern-count-one": "{0} kWh",
             "unitPattern-count-other": "{0} kWh"
           },
           "energy-electronvolt": {
@@ -1914,6 +2100,11 @@
             "displayName": "Btu",
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "यूएस थेर्म",
+            "unitPattern-count-one": "{0} यूएस थेर्म",
+            "unitPattern-count-other": "{0} यूएस थेर्म"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1927,19 +2118,58 @@
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
+            "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
             "displayName": "MHz",
+            "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
             "displayName": "kHz",
+            "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
             "displayName": "Hz",
+            "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "पिक्सेल",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "मेगापिक्सेल",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "कि॰मी॰",
@@ -2036,6 +2266,7 @@
           },
           "length-mile-scandinavian": {
             "displayName": "smi",
+            "unitPattern-count-one": "{0} smi",
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
@@ -2050,6 +2281,7 @@
           },
           "light-lux": {
             "displayName": "लक्स",
+            "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
@@ -2132,10 +2364,12 @@
           },
           "power-gigawatt": {
             "displayName": "GW",
+            "unitPattern-count-one": "{0} GW",
             "unitPattern-count-other": "{0} GW"
           },
           "power-megawatt": {
             "displayName": "MW",
+            "unitPattern-count-one": "{0} MW",
             "unitPattern-count-other": "{0} MW"
           },
           "power-kilowatt": {
@@ -2150,6 +2384,7 @@
           },
           "power-milliwatt": {
             "displayName": "mW",
+            "unitPattern-count-one": "{0} mW",
             "unitPattern-count-other": "{0} mW"
           },
           "power-horsepower": {
@@ -2157,23 +2392,25 @@
             "unitPattern-count-one": "{0}एचपी",
             "unitPattern-count-other": "{0}एचपी"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0}hPa",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
+            "unitPattern-count-one": "{0} mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "psi",
+            "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-hg": {
             "displayName": "inHg",
             "unitPattern-count-one": "{0}\\\" Hg",
             "unitPattern-count-other": "{0}\\\" Hg"
+          },
+          "pressure-bar": {
+            "displayName": "बार",
+            "unitPattern-count-one": "{0} बार",
+            "unitPattern-count-other": "{0} बार"
           },
           "pressure-millibar": {
             "displayName": "mbar",
@@ -2182,7 +2419,18 @@
           },
           "pressure-atmosphere": {
             "displayName": "atm",
+            "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "पा॰",
+            "unitPattern-count-one": "{0} पा॰",
+            "unitPattern-count-other": "{0} पा॰"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0}hPa",
+            "unitPattern-count-other": "{0}hPa"
           },
           "pressure-kilopascal": {
             "displayName": "किपा॰",
@@ -2216,6 +2464,7 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -2230,6 +2479,7 @@
           },
           "temperature-kelvin": {
             "displayName": "K",
+            "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-foot": {

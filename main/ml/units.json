@@ -3,8 +3,7 @@
     "ml": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14842 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "ml"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ജി-ഫോഴ്‌സ്",
@@ -134,14 +136,14 @@
             "unitPattern-count-other": "{0} പ്രതിമില്ലി"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-one": "{0}‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "പിരമിഡ്",
+            "unitPattern-count-one": "{0} പിരമിഡ്",
+            "unitPattern-count-other": "{0} പിരമിഡ്"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "മോളുകൾ",
+            "unitPattern-count-one": "{0} മോൾ",
+            "unitPattern-count-other": "{0} മോളുകൾ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ലിറ്റർ/കിലോമീറ്റർ",
@@ -164,7 +166,7 @@
             "unitPattern-count-other": "{0} മൈൽ / ഇംപീ. ഗാലൻ"
           },
           "digital-petabyte": {
-            "displayName": "PB",
+            "displayName": "പെറ്റാബൈറ്റുകൾ",
             "unitPattern-count-one": "{0} പെറ്റാബൈറ്റ്",
             "unitPattern-count-other": "{0} പെറ്റാബൈറ്റ്"
           },
@@ -222,6 +224,11 @@
             "displayName": "നൂറ്റാണ്ടുകൾ",
             "unitPattern-count-one": "{0} നൂറ്റാണ്ട്",
             "unitPattern-count-other": "{0} നൂറ്റാണ്ടുകൾ"
+          },
+          "duration-decade": {
+            "displayName": "ദശാബ്‌ദം",
+            "unitPattern-count-one": "ദശാബ്‌ദം",
+            "unitPattern-count-other": "{0} ദശാബ്‌ദം"
           },
           "duration-year": {
             "displayName": "വർഷം",
@@ -331,24 +338,29 @@
             "unitPattern-count-other": "{0} കിലോവാട്ട്/മണിക്കൂർ"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-one": "{0} eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "ഇലക്ട്രോൺവോൾട്ട്",
+            "unitPattern-count-one": "{0} ഇലക്ട്രോൺവോൾട്ട്",
+            "unitPattern-count-other": "{0} ഇലക്ട്രോൺവോൾട്ട്"
           },
           "energy-british-thermal-unit": {
-            "displayName": "BTU",
+            "displayName": "ബ്രിട്ടീഷ് തെർമൽ യൂണിറ്റ്",
             "unitPattern-count-one": "{0} ബ്രിട്ടീഷ് തെർമൽ യൂണിറ്റ്",
             "unitPattern-count-other": "{0} ബ്രിട്ടീഷ് തെർമൽ യൂണിറ്റുകൾ"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-one": "{0} lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "പൗണ്ട്സ് ഓഫ് ഫോഴ്സ്",
+            "unitPattern-count-one": "{0} പൗണ്ട് ഓഫ് ഫോഴ്സ്",
+            "unitPattern-count-other": "{0} പൗണ്ട്സ് ഓഫ് ഫോഴ്സ്"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-one": "{0} N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "ന്യൂട്ടൻസ്",
+            "unitPattern-count-one": "{0} ന്യൂട്ടൻ",
+            "unitPattern-count-other": "{0} ന്യൂട്ടൻസ്"
           },
           "frequency-gigahertz": {
             "displayName": "ജിഗാഹെർട്സ്",
@@ -369,6 +381,41 @@
             "displayName": "ഹെർട്സ്",
             "unitPattern-count-one": "{0} ഹെർട്സ്",
             "unitPattern-count-other": "{0} ഹെർട്സ്"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "കിലോമീറ്റർ",
@@ -486,9 +533,9 @@
             "unitPattern-count-other": "{0} ലക്സ്"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-one": "{0} L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "സോളാർ ലുമിനോസൈട്സ്",
+            "unitPattern-count-one": "{0} സോളാർ ലുമിനോസിറ്റി",
+            "unitPattern-count-other": "{0} സോളാർ ലുമിനോസൈട്സ്"
           },
           "mass-metric-ton": {
             "displayName": "മെട്രിക് ടൺ",
@@ -550,19 +597,19 @@
             "unitPattern-count-other": "{0} ക്യാരറ്റ്"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-one": "{0} Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "ഡാൽട്ടണുകൾ",
+            "unitPattern-count-one": "ഡാൽട്ടൻ",
+            "unitPattern-count-other": "{0} ഡാൽട്ടണുകൾ"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-one": "{0} M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "ഭൂപിണ്ഡം",
+            "unitPattern-count-one": "{0} ഭൂപിണ്ഡം",
+            "unitPattern-count-other": "{0} ഭൂപിണ്ഡം"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-one": "{0} M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "സൂര്യപിണ്ഡം",
+            "unitPattern-count-one": "{0} സൂര്യപിണ്ഡം",
+            "unitPattern-count-other": "{0} സൂര്യപിണ്ഡം"
           },
           "power-gigawatt": {
             "displayName": "ജിഗാവാട്ട്",
@@ -594,11 +641,6 @@
             "unitPattern-count-one": "{0} കുതിരശക്തി",
             "unitPattern-count-other": "{0} കുതിരശക്തി"
           },
-          "pressure-hectopascal": {
-            "displayName": "ഹെക്‌ടോപാസ്‌ക്കൽ",
-            "unitPattern-count-one": "{0} ഹെക്‌ടോപാസ്‌ക്കൽ",
-            "unitPattern-count-other": "{0} ഹെക്‌ടോപാസ്‌ക്കൽ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "മില്ലീമീറ്റർ മെർക്കുറി",
             "unitPattern-count-one": "{0} മില്ലീമീറ്റർ മെർക്കുറി",
@@ -614,6 +656,11 @@
             "unitPattern-count-one": "{0} ഇഞ്ച് ഓഫ് മെർക്കുറി",
             "unitPattern-count-other": "{0} ഇഞ്ച് ഓഫ് മെർക്കുറി"
           },
+          "pressure-bar": {
+            "displayName": "ബാറുകൾ",
+            "unitPattern-count-one": "{0} ബാർ",
+            "unitPattern-count-other": "{0} ബാറുകൾ"
+          },
           "pressure-millibar": {
             "displayName": "മില്ലിബാർ",
             "unitPattern-count-one": "{0} മില്ലിബാർ",
@@ -623,6 +670,16 @@
             "displayName": "അറ്റ്‌മോസ്‌ഫിയർ",
             "unitPattern-count-one": "{0} അറ്റ്‌മോസ്‌ഫിയർ",
             "unitPattern-count-other": "{0} അറ്റ്‌മോസ്‌ഫിയർ"
+          },
+          "pressure-pascal": {
+            "displayName": "പാസ്കൽസ്",
+            "unitPattern-count-one": "{0} പാസ്കൽ",
+            "unitPattern-count-other": "{0} പാസ്കൽസ്"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ഹെക്‌ടോപാസ്‌ക്കൽ",
+            "unitPattern-count-one": "{0} ഹെക്‌ടോപാസ്‌ക്കൽ",
+            "unitPattern-count-other": "{0} ഹെക്‌ടോപാസ്‌ക്കൽ"
           },
           "pressure-kilopascal": {
             "displayName": "കിലോപാസ്കൽ",
@@ -675,9 +732,9 @@
             "unitPattern-count-other": "{0} കെൽവിൻ"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-one": "{0} lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "പൗണ്ട് ഫീറ്റ്",
+            "unitPattern-count-one": "{0} പൗണ്ട് ഫൂട്ട്",
+            "unitPattern-count-other": "{0} പൗണ്ട് ഫീറ്റ്"
           },
           "torque-newton-meter": {
             "displayName": "ന്യൂട്ടൺ മീറ്റർ",
@@ -835,6 +892,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ജി-ഫോഴ്‌സ്",
             "unitPattern-count-one": "{0} ജി",
@@ -956,14 +1016,14 @@
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "പിരമിഡ്",
             "unitPattern-count-one": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "മോൾ",
+            "unitPattern-count-one": "{0} മോൾ",
+            "unitPattern-count-other": "{0} മോൾ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ലിറ്റർ/കി.മീ.",
@@ -986,7 +1046,7 @@
             "unitPattern-count-other": "{0} മൈ.പെ.ഗാ./ഇം‌പീ."
           },
           "digital-petabyte": {
-            "displayName": "PB",
+            "displayName": "പെ.ബൈ.",
             "unitPattern-count-one": "{0} പിബി",
             "unitPattern-count-other": "{0} പിബി"
           },
@@ -1007,6 +1067,7 @@
           },
           "digital-gigabit": {
             "displayName": "ജി.ബിറ്റ്",
+            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
@@ -1043,6 +1104,11 @@
             "displayName": "നൂ.",
             "unitPattern-count-one": "{0} നൂ.",
             "unitPattern-count-other": "{0} നൂ."
+          },
+          "duration-decade": {
+            "displayName": "ദശാബ്‌ദം",
+            "unitPattern-count-one": "{0} ദശാബ്‌ദം",
+            "unitPattern-count-other": "{0} ദശാബ്‌ദം"
           },
           "duration-year": {
             "displayName": "വർഷം",
@@ -1152,7 +1218,7 @@
             "unitPattern-count-other": "{0} കി.വാ/മ."
           },
           "energy-electronvolt": {
-            "displayName": "eV",
+            "displayName": "ഇലക്ട്രോൺവോൾട്ട്",
             "unitPattern-count-one": "{0} eV",
             "unitPattern-count-other": "{0} eV"
           },
@@ -1161,13 +1227,18 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
-            "displayName": "lbf",
+            "displayName": "പൗണ്ട് ഫോഴ്സ്",
             "unitPattern-count-one": "{0} lbf",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
-            "displayName": "N",
+            "displayName": "ന്യൂട്ടൻ",
             "unitPattern-count-one": "{0} N",
             "unitPattern-count-other": "{0} N"
           },
@@ -1190,6 +1261,41 @@
             "displayName": "ഹെ.",
             "unitPattern-count-one": "{0} ഹെ.",
             "unitPattern-count-other": "{0} ഹെ."
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "കി.മീ.",
@@ -1307,7 +1413,7 @@
             "unitPattern-count-other": "{0} ലക്സ്"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "സോളാർ ലുമിനോസൈട്സ്",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
@@ -1371,17 +1477,17 @@
             "unitPattern-count-other": "{0} CD"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-one": "{0} Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "ഡാൽട്ടണുകൾ",
+            "unitPattern-count-one": "{0} ഡാ",
+            "unitPattern-count-other": "{0} ഡാ"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "ഭൂപിണ്ഡം",
             "unitPattern-count-one": "{0} M⊕",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "സൂര്യപിണ്ഡം",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
@@ -1415,11 +1521,6 @@
             "unitPattern-count-one": "{0} എച്ച്.പി.",
             "unitPattern-count-other": "{0} എച്ച്.പി."
           },
-          "pressure-hectopascal": {
-            "displayName": "ഹെ.പാ.",
-            "unitPattern-count-one": "{0} ഹെ.പാ.",
-            "unitPattern-count-other": "{0} ഹെ.പാ."
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "മിമീ.മെ.",
             "unitPattern-count-one": "{0} മിമീ.മെ.",
@@ -1435,6 +1536,11 @@
             "unitPattern-count-one": "{0} ഇഞ്ച് മെ.",
             "unitPattern-count-other": "{0} ഇഞ്ച് മെ."
           },
+          "pressure-bar": {
+            "displayName": "ബാർ",
+            "unitPattern-count-one": "{0} ബാർ",
+            "unitPattern-count-other": "{0} ബാറുകൾ"
+          },
           "pressure-millibar": {
             "displayName": "മി.ബാ",
             "unitPattern-count-one": "{0} മി.ബാ",
@@ -1444,6 +1550,16 @@
             "displayName": "atm",
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "പാ",
+            "unitPattern-count-one": "{0} പാ",
+            "unitPattern-count-other": "{0} പാ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ഹെ.പാ.",
+            "unitPattern-count-one": "{0} ഹെ.പാ.",
+            "unitPattern-count-other": "{0} ഹെ.പാ."
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1656,6 +1772,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ജി-ഫോഴ്‌സ്",
             "unitPattern-count-one": "{0} ജി",
@@ -1777,14 +1896,14 @@
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "പിരമിഡ്",
             "unitPattern-count-one": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-one": "{0} mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "മോൾ",
+            "unitPattern-count-one": "{0} മോൾ",
+            "unitPattern-count-other": "{0} മോൾ"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ലിറ്റർ/കി.മീ.",
@@ -1807,7 +1926,7 @@
             "unitPattern-count-other": "{0} മൈ.പെ.ഗാ./ഇം‌പീ."
           },
           "digital-petabyte": {
-            "displayName": "PB",
+            "displayName": "പെ.ബൈ.",
             "unitPattern-count-one": "{0} പിബി",
             "unitPattern-count-other": "{0} പിബി"
           },
@@ -1828,6 +1947,7 @@
           },
           "digital-gigabit": {
             "displayName": "ജി.ബിറ്റ്",
+            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
@@ -1864,6 +1984,11 @@
             "displayName": "നൂ.",
             "unitPattern-count-one": "{0} നൂ.",
             "unitPattern-count-other": "{0} നൂ."
+          },
+          "duration-decade": {
+            "displayName": "ദശാബ്‌ദം",
+            "unitPattern-count-one": "{0} ദശാബ്‌ദം",
+            "unitPattern-count-other": "{0} ദശാബ്‌ദം"
           },
           "duration-year": {
             "displayName": "വ",
@@ -1973,7 +2098,7 @@
             "unitPattern-count-other": "{0} കി.വാ/മ."
           },
           "energy-electronvolt": {
-            "displayName": "eV",
+            "displayName": "ഇലക്ട്രോൺവോൾട്ട്",
             "unitPattern-count-one": "{0} eV",
             "unitPattern-count-other": "{0} eV"
           },
@@ -1982,13 +2107,18 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
-            "displayName": "lbf",
+            "displayName": "പൗണ്ട് ഫോഴ്സ്",
             "unitPattern-count-one": "{0} lbf",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
-            "displayName": "N",
+            "displayName": "ന്യൂട്ടൻ",
             "unitPattern-count-one": "{0} N",
             "unitPattern-count-other": "{0} N"
           },
@@ -2011,6 +2141,41 @@
             "displayName": "ഹെ.",
             "unitPattern-count-one": "{0} ഹെ.",
             "unitPattern-count-other": "{0} ഹെ."
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "കി.മീ.",
@@ -2128,7 +2293,7 @@
             "unitPattern-count-other": "{0} ലക്സ്"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "സോളാർ ലുമിനോസൈട്സ്",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
@@ -2192,17 +2357,17 @@
             "unitPattern-count-other": "{0}CD"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-one": "{0} Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "ഡാൽട്ടണുകൾ",
+            "unitPattern-count-one": "{0} ഡാ",
+            "unitPattern-count-other": "{0} ഡാ"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "ഭൂപിണ്ഡം",
             "unitPattern-count-one": "{0} M⊕",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "സൂര്യപിണ്ഡം",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
@@ -2236,11 +2401,6 @@
             "unitPattern-count-one": "{0} എച്ച്.പി.",
             "unitPattern-count-other": "{0} എച്ച്.പി."
           },
-          "pressure-hectopascal": {
-            "displayName": "ഹെ.പാ.",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "മിമീ.മെ.",
             "unitPattern-count-one": "{0}മിമീ.മെ.",
@@ -2256,6 +2416,11 @@
             "unitPattern-count-one": "{0}\\\" Hg",
             "unitPattern-count-other": "{0}\\\" Hg"
           },
+          "pressure-bar": {
+            "displayName": "ബാർ",
+            "unitPattern-count-one": "{0} ബാർ",
+            "unitPattern-count-other": "{0} ബാറുകൾ"
+          },
           "pressure-millibar": {
             "displayName": "മി.ബാ",
             "unitPattern-count-one": "{0} മിബാ",
@@ -2265,6 +2430,16 @@
             "displayName": "atm",
             "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "പാ",
+            "unitPattern-count-one": "{0} പാ",
+            "unitPattern-count-other": "{0} പാ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ഹെ.പാ.",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",

@@ -3,8 +3,7 @@
     "sl": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14842 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "sl"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} na {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -109,7 +111,7 @@
             "unitPattern-count-other": "{0} akrov"
           },
           "area-square-yard": {
-            "displayName": "kvadratni yard",
+            "displayName": "kvadratni jard",
             "unitPattern-count-one": "{0} kvadratni jard",
             "unitPattern-count-two": "{0} kvadratna jarda",
             "unitPattern-count-few": "{0} kvadratni jardi",
@@ -201,7 +203,7 @@
             "unitPattern-count-other": "{0} litrov na kilometer"
           },
           "consumption-liter-per-100kilometers": {
-            "displayName": "L/100km",
+            "displayName": "l/100 km",
             "unitPattern-count-one": "{0} liter na 100 kilometrov",
             "unitPattern-count-two": "{0} litra na 100 kilometrov",
             "unitPattern-count-few": "{0} litri na 100 kilometrov",
@@ -304,6 +306,13 @@
             "unitPattern-count-two": "{0} stoletji",
             "unitPattern-count-few": "{0} stoletja",
             "unitPattern-count-other": "{0} stoletij"
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-one": "{0} dec",
+            "unitPattern-count-two": "{0} dec",
+            "unitPattern-count-few": "{0} dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "let",
@@ -466,6 +475,13 @@
             "unitPattern-count-few": "{0} britanske toplotne enote",
             "unitPattern-count-other": "{0} britanskih toplotnih enot"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-two": "{0} US therm",
+            "unitPattern-count-few": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "funti sile",
             "unitPattern-count-one": "{0} funt sile",
@@ -507,6 +523,55 @@
             "unitPattern-count-two": "{0} hertza",
             "unitPattern-count-few": "{0} hertzi",
             "unitPattern-count-other": "{0} hertzev"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-two": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-two": "{0} px",
+            "unitPattern-count-few": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-two": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-two": "{0} ppcm",
+            "unitPattern-count-few": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-two": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-two": "{0} dpcm",
+            "unitPattern-count-few": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-two": "{0} dpi",
+            "unitPattern-count-few": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "kilometri",
@@ -709,10 +774,10 @@
             "unitPattern-count-other": "{0} mikrogramov"
           },
           "mass-ton": {
-            "displayName": "tone",
+            "displayName": "ameriške tone",
             "unitPattern-count-one": "{0} ameriška tona",
             "unitPattern-count-two": "{0} ameriški toni",
-            "unitPattern-count-few": "{0} tone",
+            "unitPattern-count-few": "{0} ameriške tone",
             "unitPattern-count-other": "{0} ameriških ton"
           },
           "mass-stone": {
@@ -812,13 +877,6 @@
             "unitPattern-count-few": "{0} konjske moči",
             "unitPattern-count-other": "{0} konjskih moči"
           },
-          "pressure-hectopascal": {
-            "displayName": "hektopaskali",
-            "unitPattern-count-one": "{0} hektopaskal",
-            "unitPattern-count-two": "{0} hektopaskala",
-            "unitPattern-count-few": "{0} hektopaskali",
-            "unitPattern-count-other": "{0} hektopaskalov"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "milimetri živega srebra",
             "unitPattern-count-one": "{0} milimeter živega srebra",
@@ -840,6 +898,13 @@
             "unitPattern-count-few": "{0} palci živega srebra",
             "unitPattern-count-other": "{0} palcev živega srebra"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-two": "{0} bara",
+            "unitPattern-count-few": "{0} bari",
+            "unitPattern-count-other": "{0} barov"
+          },
           "pressure-millibar": {
             "displayName": "milibari",
             "unitPattern-count-one": "{0} milibar",
@@ -853,6 +918,20 @@
             "unitPattern-count-two": "{0} atmosferi",
             "unitPattern-count-few": "{0} atmosfere",
             "unitPattern-count-other": "{0} atmosfer"
+          },
+          "pressure-pascal": {
+            "displayName": "paskali",
+            "unitPattern-count-one": "{0} paskal",
+            "unitPattern-count-two": "{0} paskala",
+            "unitPattern-count-few": "{0} paskali",
+            "unitPattern-count-other": "{0} paskalov"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hektopaskali",
+            "unitPattern-count-one": "{0} hektopaskal",
+            "unitPattern-count-two": "{0} hektopaskala",
+            "unitPattern-count-few": "{0} hektopaskali",
+            "unitPattern-count-other": "{0} hektopaskalov"
           },
           "pressure-kilopascal": {
             "displayName": "kilopaskali",
@@ -1141,6 +1220,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "G",
             "unitPattern-count-one": "{0} G",
@@ -1273,18 +1355,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-one": "{0} mg/dL",
-            "unitPattern-count-two": "{0} mg/dL",
-            "unitPattern-count-few": "{0} mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "mg/dl",
+            "unitPattern-count-one": "{0} mg/dl",
+            "unitPattern-count-two": "{0} mg/dl",
+            "unitPattern-count-few": "{0} mg/dl",
+            "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-one": "{0} mmol/L",
-            "unitPattern-count-two": "{0} mmol/L",
-            "unitPattern-count-few": "{0} mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmol/l",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-two": "{0} mmol/l",
+            "unitPattern-count-few": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
@@ -1322,11 +1404,11 @@
             "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "L/km",
-            "unitPattern-count-one": "{0} L/km",
-            "unitPattern-count-two": "{0} L/km",
-            "unitPattern-count-few": "{0} L/km",
-            "unitPattern-count-other": "{0} L/km"
+            "displayName": "l/km",
+            "unitPattern-count-one": "{0} l/km",
+            "unitPattern-count-two": "{0} l/km",
+            "unitPattern-count-few": "{0} l/km",
+            "unitPattern-count-other": "{0} l/km"
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "l/100 km",
@@ -1432,6 +1514,13 @@
             "unitPattern-count-two": "{0} stol.",
             "unitPattern-count-few": "{0} stol.",
             "unitPattern-count-other": "{0} stol."
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-one": "{0} dec",
+            "unitPattern-count-two": "{0} dec",
+            "unitPattern-count-few": "{0} dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "let",
@@ -1594,6 +1683,13 @@
             "unitPattern-count-few": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-two": "{0} US therm",
+            "unitPattern-count-few": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -1635,6 +1731,55 @@
             "unitPattern-count-two": "{0} Hz",
             "unitPattern-count-few": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-two": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-two": "{0} px",
+            "unitPattern-count-few": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-two": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-two": "{0} ppcm",
+            "unitPattern-count-few": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-two": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-two": "{0} dpcm",
+            "unitPattern-count-few": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-two": "{0} dpi",
+            "unitPattern-count-few": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1940,13 +2085,6 @@
             "unitPattern-count-few": "{0} KM",
             "unitPattern-count-other": "{0} KM"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-two": "{0} hPa",
-            "unitPattern-count-few": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHG",
@@ -1968,6 +2106,13 @@
             "unitPattern-count-few": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-two": "{0} bar",
+            "unitPattern-count-few": "{0} bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -1981,6 +2126,20 @@
             "unitPattern-count-two": "{0} atm",
             "unitPattern-count-few": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-two": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-two": "{0} hPa",
+            "unitPattern-count-few": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -2125,11 +2284,11 @@
             "unitPattern-count-other": "{0} Ml"
           },
           "volume-hectoliter": {
-            "displayName": "hL",
-            "unitPattern-count-one": "{0} hL",
-            "unitPattern-count-two": "{0} hL",
-            "unitPattern-count-few": "{0} hL",
-            "unitPattern-count-other": "{0} hL"
+            "displayName": "hl",
+            "unitPattern-count-one": "{0} hl",
+            "unitPattern-count-two": "{0} hl",
+            "unitPattern-count-few": "{0} hl",
+            "unitPattern-count-other": "{0} hl"
           },
           "volume-liter": {
             "displayName": "l",
@@ -2140,18 +2299,18 @@
             "perUnitPattern": "{0}/l"
           },
           "volume-deciliter": {
-            "displayName": "dL",
-            "unitPattern-count-one": "{0} dL",
-            "unitPattern-count-two": "{0} dL",
-            "unitPattern-count-few": "{0} dL",
-            "unitPattern-count-other": "{0} dL"
+            "displayName": "dl",
+            "unitPattern-count-one": "{0} dl",
+            "unitPattern-count-two": "{0} dl",
+            "unitPattern-count-few": "{0} dl",
+            "unitPattern-count-other": "{0} dl"
           },
           "volume-centiliter": {
-            "displayName": "cL",
-            "unitPattern-count-one": "{0} cL",
-            "unitPattern-count-two": "{0} cL",
-            "unitPattern-count-few": "{0} cL",
-            "unitPattern-count-other": "{0} cL"
+            "displayName": "cl",
+            "unitPattern-count-one": "{0} cl",
+            "unitPattern-count-two": "{0} cl",
+            "unitPattern-count-few": "{0} cl",
+            "unitPattern-count-other": "{0} cl"
           },
           "volume-milliliter": {
             "displayName": "ml",
@@ -2268,6 +2427,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G",
@@ -2401,18 +2563,18 @@
             "unitPattern-count-other": "{0} kt"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mg/dL",
-            "unitPattern-count-one": "{0} mg/dL",
-            "unitPattern-count-two": "{0} mg/dL",
-            "unitPattern-count-few": "{0} mg/dL",
-            "unitPattern-count-other": "{0} mg/dL"
+            "displayName": "mg/dl",
+            "unitPattern-count-one": "{0} mg/dl",
+            "unitPattern-count-two": "{0} mg/dl",
+            "unitPattern-count-few": "{0} mg/dl",
+            "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-one": "{0} mmol/L",
-            "unitPattern-count-two": "{0} mmol/L",
-            "unitPattern-count-few": "{0} mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmol/l",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-two": "{0} mmol/l",
+            "unitPattern-count-few": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-part-per-million": {
             "displayName": "ppm",
@@ -2450,11 +2612,11 @@
             "unitPattern-count-other": "{0} mol"
           },
           "consumption-liter-per-kilometer": {
-            "displayName": "L/km",
-            "unitPattern-count-one": "{0} L/km",
-            "unitPattern-count-two": "{0} L/km",
-            "unitPattern-count-few": "{0} L/km",
-            "unitPattern-count-other": "{0} L/km"
+            "displayName": "l/km",
+            "unitPattern-count-one": "{0} l/km",
+            "unitPattern-count-two": "{0} l/km",
+            "unitPattern-count-few": "{0} l/km",
+            "unitPattern-count-other": "{0} l/km"
           },
           "consumption-liter-per-100kilometers": {
             "displayName": "l/100 km",
@@ -2560,6 +2722,13 @@
             "unitPattern-count-two": "{0} st",
             "unitPattern-count-few": "{0} st",
             "unitPattern-count-other": "{0} st"
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-one": "{0} dec",
+            "unitPattern-count-two": "{0} dec",
+            "unitPattern-count-few": "{0} dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "let",
@@ -2722,6 +2891,13 @@
             "unitPattern-count-few": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-two": "{0} US therm",
+            "unitPattern-count-few": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "lbf",
             "unitPattern-count-one": "{0} lbf",
@@ -2763,6 +2939,55 @@
             "unitPattern-count-two": "{0} Hz",
             "unitPattern-count-few": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-two": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-two": "{0} px",
+            "unitPattern-count-few": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-two": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-two": "{0} ppcm",
+            "unitPattern-count-few": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-two": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-two": "{0} dpcm",
+            "unitPattern-count-few": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-two": "{0} dpi",
+            "unitPattern-count-few": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -3068,13 +3293,6 @@
             "unitPattern-count-few": "{0} KM",
             "unitPattern-count-other": "{0} KM"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-two": "{0} hPa",
-            "unitPattern-count-few": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHG",
@@ -3096,6 +3314,13 @@
             "unitPattern-count-few": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} bar",
+            "unitPattern-count-two": "{0} bar",
+            "unitPattern-count-few": "{0} bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-one": "{0} mbar",
@@ -3109,6 +3334,20 @@
             "unitPattern-count-two": "{0} atm",
             "unitPattern-count-few": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-two": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-two": "{0} hPa",
+            "unitPattern-count-few": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -3253,11 +3492,11 @@
             "unitPattern-count-other": "{0} Ml"
           },
           "volume-hectoliter": {
-            "displayName": "hL",
-            "unitPattern-count-one": "{0} hL",
-            "unitPattern-count-two": "{0} hL",
-            "unitPattern-count-few": "{0} hL",
-            "unitPattern-count-other": "{0} hL"
+            "displayName": "hl",
+            "unitPattern-count-one": "{0} hl",
+            "unitPattern-count-two": "{0} hl",
+            "unitPattern-count-few": "{0} hl",
+            "unitPattern-count-other": "{0} hl"
           },
           "volume-liter": {
             "displayName": "l",
@@ -3268,18 +3507,18 @@
             "perUnitPattern": "{0}/l"
           },
           "volume-deciliter": {
-            "displayName": "dL",
-            "unitPattern-count-one": "{0} dL",
-            "unitPattern-count-two": "{0} dL",
-            "unitPattern-count-few": "{0} dL",
-            "unitPattern-count-other": "{0} dL"
+            "displayName": "dl",
+            "unitPattern-count-one": "{0} dl",
+            "unitPattern-count-two": "{0} dl",
+            "unitPattern-count-few": "{0} dl",
+            "unitPattern-count-other": "{0} dl"
           },
           "volume-centiliter": {
-            "displayName": "cL",
-            "unitPattern-count-one": "{0} cL",
-            "unitPattern-count-two": "{0} cL",
-            "unitPattern-count-few": "{0} cL",
-            "unitPattern-count-other": "{0} cL"
+            "displayName": "cl",
+            "unitPattern-count-one": "{0} cl",
+            "unitPattern-count-two": "{0} cl",
+            "unitPattern-count-few": "{0} cl",
+            "unitPattern-count-other": "{0} cl"
           },
           "volume-milliliter": {
             "displayName": "ml",

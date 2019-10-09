@@ -3,8 +3,7 @@
     "uk": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "uk"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} на {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "сила тяжіння",
@@ -226,7 +228,7 @@
             "unitPattern-count-one": "{0} петабайт",
             "unitPattern-count-few": "{0} петабайти",
             "unitPattern-count-many": "{0} петабайтів",
-            "unitPattern-count-other": "{0} петабайту"
+            "unitPattern-count-other": "{0} петабайта"
           },
           "digital-terabyte": {
             "displayName": "терабайти",
@@ -304,6 +306,10 @@
             "unitPattern-count-few": "{0} століття",
             "unitPattern-count-many": "{0} століть",
             "unitPattern-count-other": "{0} століття"
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "роки",
@@ -466,6 +472,13 @@
             "unitPattern-count-many": "{0} одиниць теплових британських",
             "unitPattern-count-other": "{0} одиниці теплової британської"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} американський терм",
+            "unitPattern-count-few": "{0} американських терми",
+            "unitPattern-count-many": "{0} американських термів",
+            "unitPattern-count-other": "{0} американського терма"
+          },
           "force-pound-force": {
             "displayName": "фунт-сили",
             "unitPattern-count-one": "{0} фунт-сила",
@@ -507,6 +520,37 @@
             "unitPattern-count-few": "{0} герци",
             "unitPattern-count-many": "{0} герців",
             "unitPattern-count-other": "{0} герца"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "мегапікселі",
+            "unitPattern-count-one": "{0} мегапіксель",
+            "unitPattern-count-few": "{0} Мп",
+            "unitPattern-count-many": "{0} Мп",
+            "unitPattern-count-other": "{0} мегапікселя"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "кілометри",
@@ -812,13 +856,6 @@
             "unitPattern-count-many": "{0} кінських сил",
             "unitPattern-count-other": "{0} кінської сили"
           },
-          "pressure-hectopascal": {
-            "displayName": "гектопаскалі",
-            "unitPattern-count-one": "{0} гектопаскаль",
-            "unitPattern-count-few": "{0} гектопаскалі",
-            "unitPattern-count-many": "{0} гектопаскалів",
-            "unitPattern-count-other": "{0} гектопаскаля"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "міліметри ртутного стовпа",
             "unitPattern-count-one": "{0} міліметр ртутного стовпа",
@@ -840,6 +877,13 @@
             "unitPattern-count-many": "{0} дюймів ртутного стовпа",
             "unitPattern-count-other": "{0} дюйма ртутного стовпа"
           },
+          "pressure-bar": {
+            "displayName": "бари",
+            "unitPattern-count-one": "{0} бар",
+            "unitPattern-count-few": "{0} бари",
+            "unitPattern-count-many": "{0} барів",
+            "unitPattern-count-other": "{0} бара"
+          },
           "pressure-millibar": {
             "displayName": "мілібари",
             "unitPattern-count-one": "{0} мілібар",
@@ -853,6 +897,20 @@
             "unitPattern-count-few": "{0} атмосфери",
             "unitPattern-count-many": "{0} атмосфер",
             "unitPattern-count-other": "{0} атмосфери"
+          },
+          "pressure-pascal": {
+            "displayName": "паскалі",
+            "unitPattern-count-one": "{0} паскаль",
+            "unitPattern-count-few": "{0} паскалі",
+            "unitPattern-count-many": "{0} паскалів",
+            "unitPattern-count-other": "{0} паскаля"
+          },
+          "pressure-hectopascal": {
+            "displayName": "гектопаскалі",
+            "unitPattern-count-one": "{0} гектопаскаль",
+            "unitPattern-count-few": "{0} гектопаскалі",
+            "unitPattern-count-many": "{0} гектопаскалів",
+            "unitPattern-count-other": "{0} гектопаскаля"
           },
           "pressure-kilopascal": {
             "displayName": "кілопаскалі",
@@ -898,6 +956,9 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
+            "unitPattern-count-few": "{0}°",
+            "unitPattern-count-many": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -1141,6 +1202,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "сили тяжіння",
             "unitPattern-count-other": "{0} G"
@@ -1168,6 +1232,9 @@
           },
           "angle-degree": {
             "displayName": "градуси",
+            "unitPattern-count-one": "{0}°",
+            "unitPattern-count-few": "{0}°",
+            "unitPattern-count-many": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "angle-arc-minute": {
@@ -1282,6 +1349,9 @@
           },
           "concentr-part-per-million": {
             "displayName": "мільйонні долі",
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-few": "{0} ppm",
+            "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
@@ -1423,6 +1493,10 @@
             "unitPattern-count-few": "{0} ст.",
             "unitPattern-count-many": "{0} ст.",
             "unitPattern-count-other": "{0} ст."
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "р.",
@@ -1585,6 +1659,10 @@
             "unitPattern-count-many": "{0} Отб",
             "unitPattern-count-other": "{0} Отб"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "фунт-сила",
             "unitPattern-count-one": "{0} фнтс",
@@ -1626,6 +1704,37 @@
             "unitPattern-count-few": "{0} Гц",
             "unitPattern-count-many": "{0} Гц",
             "unitPattern-count-other": "{0} Гц"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "Мп",
+            "unitPattern-count-one": "{0} Мп",
+            "unitPattern-count-few": "{0} Мп",
+            "unitPattern-count-many": "{0} Мп",
+            "unitPattern-count-other": "{0} Мп"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "км",
@@ -1781,7 +1890,7 @@
             "unitPattern-count-other": "{0} лк"
           },
           "light-solar-luminosity": {
-            "displayName": "світність",
+            "displayName": "світності Сонця",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-few": "{0} L☉",
             "unitPattern-count-many": "{0} L☉",
@@ -1928,13 +2037,6 @@
             "unitPattern-count-many": "{0} к. с.",
             "unitPattern-count-other": "{0} к. с."
           },
-          "pressure-hectopascal": {
-            "displayName": "гПа",
-            "unitPattern-count-one": "{0} гПа",
-            "unitPattern-count-few": "{0} гПа",
-            "unitPattern-count-many": "{0} гПа",
-            "unitPattern-count-other": "{0} гПа"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "мм рт. ст.",
             "unitPattern-count-one": "{0} мм рт. ст.",
@@ -1956,6 +2058,13 @@
             "unitPattern-count-many": "{0} дюймів рт. ст.",
             "unitPattern-count-other": "{0} дюйма рт. ст."
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} бар",
+            "unitPattern-count-few": "{0} бар",
+            "unitPattern-count-many": "{0} бар",
+            "unitPattern-count-other": "{0} бар"
+          },
           "pressure-millibar": {
             "displayName": "мбар",
             "unitPattern-count-one": "{0} мбар",
@@ -1969,6 +2078,20 @@
             "unitPattern-count-few": "{0} атм",
             "unitPattern-count-many": "{0} атм",
             "unitPattern-count-other": "{0} атм"
+          },
+          "pressure-pascal": {
+            "displayName": "Па",
+            "unitPattern-count-one": "{0} Па",
+            "unitPattern-count-few": "{0} Па",
+            "unitPattern-count-many": "{0} Па",
+            "unitPattern-count-other": "{0} Па"
+          },
+          "pressure-hectopascal": {
+            "displayName": "гПа",
+            "unitPattern-count-one": "{0} гПа",
+            "unitPattern-count-few": "{0} гПа",
+            "unitPattern-count-many": "{0} гПа",
+            "unitPattern-count-other": "{0} гПа"
           },
           "pressure-kilopascal": {
             "displayName": "кПа",
@@ -2007,18 +2130,30 @@
           },
           "speed-knot": {
             "displayName": "kn",
+            "unitPattern-count-one": "{0} kn",
+            "unitPattern-count-few": "{0} kn",
+            "unitPattern-count-many": "{0} kn",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
+            "unitPattern-count-few": "{0}°",
+            "unitPattern-count-many": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "градус Цельсія",
+            "unitPattern-count-one": "{0}°C",
+            "unitPattern-count-few": "{0}°C",
+            "unitPattern-count-many": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "градус Фаренгейта",
+            "unitPattern-count-one": "{0}°F",
+            "unitPattern-count-few": "{0}°F",
+            "unitPattern-count-many": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {
@@ -2231,10 +2366,10 @@
           },
           "volume-barrel": {
             "displayName": "барель",
-            "unitPattern-count-one": "{0} бар.",
-            "unitPattern-count-few": "{0} бар.",
-            "unitPattern-count-many": "{0} бар.",
-            "unitPattern-count-other": "{0} бар."
+            "unitPattern-count-one": "{0} бр.",
+            "unitPattern-count-few": "{0} бр.",
+            "unitPattern-count-many": "{0} бр.",
+            "unitPattern-count-other": "{0} бр."
           },
           "coordinateUnit": {
             "displayName": "напрямок",
@@ -2247,6 +2382,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g-сила",
@@ -2395,6 +2533,9 @@
           },
           "concentr-part-per-million": {
             "displayName": "мільйонні долі",
+            "unitPattern-count-one": "{0} ppm",
+            "unitPattern-count-few": "{0} ppm",
+            "unitPattern-count-many": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
@@ -2536,6 +2677,10 @@
             "unitPattern-count-few": "{0}ст.",
             "unitPattern-count-many": "{0}ст.",
             "unitPattern-count-other": "{0}ст."
+          },
+          "duration-decade": {
+            "displayName": "dec",
+            "unitPattern-count-other": "{0} dec"
           },
           "duration-year": {
             "displayName": "р.",
@@ -2698,6 +2843,10 @@
             "unitPattern-count-many": "{0}Отб",
             "unitPattern-count-other": "{0}Отб"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "фнтс",
             "unitPattern-count-one": "{0}фнтс",
@@ -2740,6 +2889,37 @@
             "unitPattern-count-many": "{0} Гц",
             "unitPattern-count-other": "{0} Гц"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "Мп",
+            "unitPattern-count-one": "{0} Мп",
+            "unitPattern-count-few": "{0} Мп",
+            "unitPattern-count-many": "{0} Мп",
+            "unitPattern-count-other": "{0} Мп"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
+          },
           "length-kilometer": {
             "displayName": "км",
             "unitPattern-count-one": "{0} км",
@@ -2749,7 +2929,7 @@
             "perUnitPattern": "{0}/км"
           },
           "length-meter": {
-            "displayName": "метр",
+            "displayName": "м",
             "unitPattern-count-one": "{0} м",
             "unitPattern-count-few": "{0} м",
             "unitPattern-count-many": "{0} м",
@@ -3041,13 +3221,6 @@
             "unitPattern-count-many": "{0} к.с.",
             "unitPattern-count-other": "{0} к.с."
           },
-          "pressure-hectopascal": {
-            "displayName": "гПа",
-            "unitPattern-count-one": "{0} гПа",
-            "unitPattern-count-few": "{0} гПа",
-            "unitPattern-count-many": "{0} гПа",
-            "unitPattern-count-other": "{0} гПа"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ммрс",
             "unitPattern-count-one": "{0}ммрс",
@@ -3069,6 +3242,13 @@
             "unitPattern-count-many": "{0} дюймів рт. ст.",
             "unitPattern-count-other": "{0} дюйма рт. ст."
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-one": "{0} бар",
+            "unitPattern-count-few": "{0} бар",
+            "unitPattern-count-many": "{0} бар",
+            "unitPattern-count-other": "{0} бар"
+          },
           "pressure-millibar": {
             "displayName": "мбар",
             "unitPattern-count-one": "{0} мбар",
@@ -3082,6 +3262,20 @@
             "unitPattern-count-few": "{0} атм",
             "unitPattern-count-many": "{0} атм",
             "unitPattern-count-other": "{0} атм"
+          },
+          "pressure-pascal": {
+            "displayName": "Па",
+            "unitPattern-count-one": "{0} Па",
+            "unitPattern-count-few": "{0} Па",
+            "unitPattern-count-many": "{0} Па",
+            "unitPattern-count-other": "{0} Па"
+          },
+          "pressure-hectopascal": {
+            "displayName": "гПа",
+            "unitPattern-count-one": "{0} гПа",
+            "unitPattern-count-few": "{0} гПа",
+            "unitPattern-count-many": "{0} гПа",
+            "unitPattern-count-other": "{0} гПа"
           },
           "pressure-kilopascal": {
             "displayName": "кПа",
@@ -3127,14 +3321,23 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
+            "unitPattern-count-few": "{0}°",
+            "unitPattern-count-many": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "градус Цельсія",
+            "unitPattern-count-one": "{0}°C",
+            "unitPattern-count-few": "{0}°C",
+            "unitPattern-count-many": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "градус Фаренгейта",
+            "unitPattern-count-one": "{0}°F",
+            "unitPattern-count-few": "{0}°F",
+            "unitPattern-count-many": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {

@@ -3,8 +3,7 @@
     "si": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14817 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "si"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{1} ට {0} බැගින්"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g-බලය",
@@ -223,6 +225,11 @@
             "unitPattern-count-one": "සියවස් {0}",
             "unitPattern-count-other": "සියවස් {0}"
           },
+          "duration-decade": {
+            "displayName": "දශක",
+            "unitPattern-count-one": "දශක {0}",
+            "unitPattern-count-other": "දශක {0}"
+          },
           "duration-year": {
             "displayName": "වසර",
             "unitPattern-count-one": "වසර {0}",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} බ්‍රිතාන්‍ය තාප ඒකක",
             "unitPattern-count-other": "{0} බ්‍රිතාන්‍ය තාප ඒකක"
           },
+          "energy-therm-us": {
+            "displayName": "එක්සත් ජනපද තාප ඒකක",
+            "unitPattern-count-one": "එක්සත් ජනපද තාප ඒකක {0}",
+            "unitPattern-count-other": "එක්සත් ජනපද තාප ඒකක {0}"
+          },
           "force-pound-force": {
             "displayName": "බලයට රාත්තල්",
             "unitPattern-count-one": "{0} බලයට රාත්තල්",
@@ -369,6 +381,41 @@
             "displayName": "හට්ස්",
             "unitPattern-count-one": "හට්ස් {0}",
             "unitPattern-count-other": "හට්ස් {0}"
+          },
+          "graphics-em": {
+            "displayName": "යතුරු ලියන එම්",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "පික්සල්",
+            "unitPattern-count-one": "පික්සල් {0}",
+            "unitPattern-count-other": "පික්සල් {0}"
+          },
+          "graphics-megapixel": {
+            "displayName": "මෙගාපික්සල්",
+            "unitPattern-count-one": "මෙගාපික්සල් {0}",
+            "unitPattern-count-other": "මෙගාපික්සල් {0}"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "සෙන්ටිමීටරයකට පික්සල්",
+            "unitPattern-count-one": "සෙන්ටිමීටරයකට පික්සල් {0}",
+            "unitPattern-count-other": "සෙන්ටිමීටරයකට පික්සල් {0}"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "අඟලකට පික්සල්",
+            "unitPattern-count-one": "අඟලකට පික්සල් {0}",
+            "unitPattern-count-other": "අඟලකට පික්සල් {0}"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "සෙන්ටිමීටරයකට තිත්",
+            "unitPattern-count-one": "සෙන්ටිමීටරයකට තිත් {0}",
+            "unitPattern-count-other": "සෙන්ටිමීටරයකට තිත් {0}"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "අඟලකට තිත්",
+            "unitPattern-count-one": "අඟලකට තිත් {0}",
+            "unitPattern-count-other": "අඟලකට තිත් {0}"
           },
           "length-kilometer": {
             "displayName": "කිලෝමීටර්",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "අශ්වබල {0}",
             "unitPattern-count-other": "අශ්වබල {0}"
           },
-          "pressure-hectopascal": {
-            "displayName": "හෙක්ටොපැස්කල්",
-            "unitPattern-count-one": "හෙක්ටොපැස්කල් {0}",
-            "unitPattern-count-other": "හෙක්ටොපැස්කල් {0}"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "රසදිය මිලිමීටර",
             "unitPattern-count-one": "රසදිය මිලිමීටර {0}",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "රසදිය අඟල් {0}",
             "unitPattern-count-other": "රසදිය අඟල් {0}"
           },
+          "pressure-bar": {
+            "displayName": "බාර්",
+            "unitPattern-count-one": "බාර් {0}",
+            "unitPattern-count-other": "බාර් {0}"
+          },
           "pressure-millibar": {
             "displayName": "මිලිබාර්",
             "unitPattern-count-one": "මිලිබාර් {0}",
@@ -620,6 +667,16 @@
             "displayName": "වායුගෝල",
             "unitPattern-count-one": "වායුගෝල {0}",
             "unitPattern-count-other": "වායුගෝල {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "පැස්කල්",
+            "unitPattern-count-one": "පැස්කල් {0}",
+            "unitPattern-count-other": "පැස්කල් {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "හෙක්ටොපැස්කල්",
+            "unitPattern-count-one": "හෙක්ටොපැස්කල් {0}",
+            "unitPattern-count-other": "හෙක්ටොපැස්කල් {0}"
           },
           "pressure-kilopascal": {
             "displayName": "කිලෝ පැස්කල්",
@@ -724,9 +781,9 @@
             "unitPattern-count-other": "මෙගාලීටර් {0}"
           },
           "volume-hectoliter": {
-            "displayName": "භෙක්ටොලීටර්",
-            "unitPattern-count-one": "භෙක්ටොලීටර් {0}",
-            "unitPattern-count-other": "භෙක්ටොලීටර් {0}"
+            "displayName": "හෙක්ටොලීටර්",
+            "unitPattern-count-one": "හෙක්ටොලීටර් {0}",
+            "unitPattern-count-other": "හෙක්ටොලීටර් {0}"
           },
           "volume-liter": {
             "displayName": "ලීටර්",
@@ -831,6 +888,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g-බලය",
@@ -1042,6 +1102,11 @@
             "unitPattern-count-one": "සි {0}",
             "unitPattern-count-other": "සි {0}"
           },
+          "duration-decade": {
+            "displayName": "දශක",
+            "unitPattern-count-one": "දශක {0}",
+            "unitPattern-count-other": "දශක {0}"
+          },
           "duration-year": {
             "displayName": "වසර",
             "unitPattern-count-one": "වසර {0}",
@@ -1159,6 +1224,11 @@
             "unitPattern-count-one": "{0} බ්‍රිතාඒ",
             "unitPattern-count-other": "{0} බ්‍රිතාඒ"
           },
+          "energy-therm-us": {
+            "displayName": "එක්සත් ජනපද තාප ඒකකය",
+            "unitPattern-count-one": "එ. ජ. තාප ඒකක {0}",
+            "unitPattern-count-other": "එ. ජ. තාප ඒකක {0}"
+          },
           "force-pound-force": {
             "displayName": "බලයට-රාත්තල්",
             "unitPattern-count-one": "{0} බරා",
@@ -1188,6 +1258,41 @@
             "displayName": "හස්",
             "unitPattern-count-one": "හස් {0}",
             "unitPattern-count-other": "හස් {0}"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "පික්සල්",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "මෙගාපික්සල්",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "කි.මී",
@@ -1410,11 +1515,6 @@
             "unitPattern-count-one": "අබ {0}",
             "unitPattern-count-other": "අබ {0}"
           },
-          "pressure-hectopascal": {
-            "displayName": "හෙක්ටොපැස්කල්",
-            "unitPattern-count-one": "හෙ.පැ {0}",
-            "unitPattern-count-other": "හෙ.පැ {0}"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ර මිමී",
             "unitPattern-count-one": "ර මිමී {0}",
@@ -1430,6 +1530,11 @@
             "unitPattern-count-one": "ර අඟ {0}",
             "unitPattern-count-other": "ර අඟ {0}"
           },
+          "pressure-bar": {
+            "displayName": "බාර්",
+            "unitPattern-count-one": "බාර් {0}",
+            "unitPattern-count-other": "බාර් {0}"
+          },
           "pressure-millibar": {
             "displayName": "මිලිබාර්",
             "unitPattern-count-one": "මි.බාර් {0}",
@@ -1439,6 +1544,16 @@
             "displayName": "වායුගෝ",
             "unitPattern-count-one": "වායුගෝ {0}",
             "unitPattern-count-other": "වායුගෝ {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "පැස්",
+            "unitPattern-count-one": "පැස් {0}",
+            "unitPattern-count-other": "පැස් {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "හෙක්ටොපැස්කල්",
+            "unitPattern-count-one": "හෙ.පැ {0}",
+            "unitPattern-count-other": "හෙ.පැ {0}"
           },
           "pressure-kilopascal": {
             "displayName": "කිපැස්",
@@ -1543,9 +1658,9 @@
             "unitPattern-count-other": "මෙලී {0}"
           },
           "volume-hectoliter": {
-            "displayName": "භෙලී",
-            "unitPattern-count-one": "භෙලී {0}",
-            "unitPattern-count-other": "භෙලී {0}"
+            "displayName": "හෙලී",
+            "unitPattern-count-one": "හෙලී {0}",
+            "unitPattern-count-other": "හෙලී {0}"
           },
           "volume-liter": {
             "displayName": "ලීටර්",
@@ -1621,8 +1736,8 @@
           },
           "volume-fluid-ounce-imperial": {
             "displayName": "අධිරා. තර අවු",
-            "unitPattern-count-one": "{0} fl oz Imp.",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "unitPattern-count-one": "{0} තර අවු අධිරා.",
+            "unitPattern-count-other": "{0} තර අවු අධිරා."
           },
           "volume-tablespoon": {
             "displayName": "මේසහැදී",
@@ -1650,6 +1765,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g-බලය",
@@ -1861,6 +1979,11 @@
             "unitPattern-count-one": "සි {0}",
             "unitPattern-count-other": "සි {0}"
           },
+          "duration-decade": {
+            "displayName": "දශක",
+            "unitPattern-count-one": "දශක {0}",
+            "unitPattern-count-other": "දශක {0}"
+          },
           "duration-year": {
             "displayName": "වසර",
             "unitPattern-count-one": "ව {0}",
@@ -1978,6 +2101,11 @@
             "unitPattern-count-one": "{0} බ්‍රිතාඒ",
             "unitPattern-count-other": "{0} බ්‍රිතාඒ"
           },
+          "energy-therm-us": {
+            "displayName": "එක්සත් ජනපද තාප ඒකකය",
+            "unitPattern-count-one": "එ. ජ. තාප ඒකක {0}",
+            "unitPattern-count-other": "එ. ජ. තාප ඒකක {0}"
+          },
           "force-pound-force": {
             "displayName": "බලයට-රාත්තල්",
             "unitPattern-count-one": "{0} බරා",
@@ -2007,6 +2135,41 @@
             "displayName": "හස්",
             "unitPattern-count-one": "හස් {0}",
             "unitPattern-count-other": "හස් {0}"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "පික්සල්",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "මෙගාපික්සල්",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "කි.මී",
@@ -2229,11 +2392,6 @@
             "unitPattern-count-one": "{0} hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "හෙක්ටොපැස්කල්",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ර මිමී",
             "unitPattern-count-one": "ර මිමී {0}",
@@ -2249,6 +2407,11 @@
             "unitPattern-count-one": "රසදිය {0}\\\"",
             "unitPattern-count-other": "රසදිය {0}\\\""
           },
+          "pressure-bar": {
+            "displayName": "බාර්",
+            "unitPattern-count-one": "බාර් {0}",
+            "unitPattern-count-other": "බාර් {0}"
+          },
           "pressure-millibar": {
             "displayName": "මිලිබාර්",
             "unitPattern-count-one": "මි.බා. {0}",
@@ -2258,6 +2421,16 @@
             "displayName": "වායුගෝ",
             "unitPattern-count-one": "වායුගෝ {0}",
             "unitPattern-count-other": "වායුගෝ {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "පැස්",
+            "unitPattern-count-one": "පැස් {0}",
+            "unitPattern-count-other": "පැස් {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "හෙක්ටොපැස්කල්",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "කිපැස්",
@@ -2362,9 +2535,9 @@
             "unitPattern-count-other": "මෙලී {0}"
           },
           "volume-hectoliter": {
-            "displayName": "භෙලී",
-            "unitPattern-count-one": "භෙලී {0}",
-            "unitPattern-count-other": "භෙලී {0}"
+            "displayName": "හෙලී",
+            "unitPattern-count-one": "හෙලී {0}",
+            "unitPattern-count-other": "හෙලී {0}"
           },
           "volume-liter": {
             "displayName": "ලීටර්",
@@ -2440,8 +2613,8 @@
           },
           "volume-fluid-ounce-imperial": {
             "displayName": "අධිරා. තර අවු",
-            "unitPattern-count-one": "{0} fl oz Imp.",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "unitPattern-count-one": "{0} තර අවු අධිරා.",
+            "unitPattern-count-other": "{0} තර අවු අධිරා."
           },
           "volume-tablespoon": {
             "displayName": "මේසහැදී",

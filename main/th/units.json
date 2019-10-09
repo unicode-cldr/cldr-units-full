@@ -3,8 +3,7 @@
     "th": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "th"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}ต่อ{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "แรง G",
@@ -135,7 +137,7 @@
             "unitPattern-count-other": "{0} ไมล์ต่อแกลลอนอังกฤษ"
           },
           "digital-petabyte": {
-            "displayName": "เพตาไบต์",
+            "displayName": "เพตะไบต์",
             "unitPattern-count-other": "{0} เพตะไบต์"
           },
           "digital-terabyte": {
@@ -181,6 +183,10 @@
           "duration-century": {
             "displayName": "ศตวรรษ",
             "unitPattern-count-other": "{0} ศตวรรษ"
+          },
+          "duration-decade": {
+            "displayName": "ทศวรรษ",
+            "unitPattern-count-other": "{0} ทศวรรษ"
           },
           "duration-year": {
             "displayName": "ปี",
@@ -277,6 +283,10 @@
             "displayName": "หน่วยความร้อนอังกฤษ",
             "unitPattern-count-other": "{0} หน่วยความร้อนอังกฤษ"
           },
+          "energy-therm-us": {
+            "displayName": "เธิร์มสหรัฐฯ",
+            "unitPattern-count-other": "{0} เธิร์มสหรัฐฯ"
+          },
           "force-pound-force": {
             "displayName": "แรงปอนด์",
             "unitPattern-count-other": "{0} แรงปอนด์"
@@ -300,6 +310,34 @@
           "frequency-hertz": {
             "displayName": "เฮิรตซ์",
             "unitPattern-count-other": "{0} เฮิรตซ์"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "พิกเซล",
+            "unitPattern-count-other": "{0} พิกเซล"
+          },
+          "graphics-megapixel": {
+            "displayName": "เมกะพิกเซล",
+            "unitPattern-count-other": "{0} เมกะพิกเซล"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "พิกเซลต่อเซนติเมตร",
+            "unitPattern-count-other": "{0} พิกเซลต่อเซนติเมตร"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "พิกเซลต่อนิ้ว",
+            "unitPattern-count-other": "{0} พิกเซลต่อนิ้ว"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "จุดต่อเซนติเมตร",
+            "unitPattern-count-other": "{0} จุดต่อเซนติเมตร"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "จุดต่อนิ้ว",
+            "unitPattern-count-other": "{0} จุดต่อนิ้ว"
           },
           "length-kilometer": {
             "displayName": "กิโลเมตร",
@@ -482,10 +520,6 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0} แรงม้า"
           },
-          "pressure-hectopascal": {
-            "displayName": "เฮกโตปาสกาล",
-            "unitPattern-count-other": "{0} เฮกโตปาสกาล"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "มิลลิเมตรปรอท",
             "unitPattern-count-other": "{0} มิลลิเมตรปรอท"
@@ -498,6 +532,10 @@
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0} นิ้วปรอท"
           },
+          "pressure-bar": {
+            "displayName": "บาร์",
+            "unitPattern-count-other": "{0} บาร์"
+          },
           "pressure-millibar": {
             "displayName": "มิลลิบาร์",
             "unitPattern-count-other": "{0} มิลลิบาร์"
@@ -505,6 +543,14 @@
           "pressure-atmosphere": {
             "displayName": "บรรยากาศ",
             "unitPattern-count-other": "{0} บรรยากาศ"
+          },
+          "pressure-pascal": {
+            "displayName": "ปาสกาล",
+            "unitPattern-count-other": "{0} ปาสกาล"
+          },
+          "pressure-hectopascal": {
+            "displayName": "เฮกโตปาสกาล",
+            "unitPattern-count-other": "{0} เฮกโตปาสกาล"
           },
           "pressure-kilopascal": {
             "displayName": "กิโลปาสกาล",
@@ -679,6 +725,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "แรง G",
             "unitPattern-count-other": "{0} G"
@@ -769,11 +818,11 @@
             "unitPattern-count-other": "{0} สตล."
           },
           "concentr-percent": {
-            "displayName": "%",
+            "displayName": "เปอร์เซ็นต์",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
-            "displayName": "‰",
+            "displayName": "เปอร์มิลล์",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -782,7 +831,7 @@
           },
           "concentr-mole": {
             "displayName": "โมล",
-            "unitPattern-count-other": "{0} mol"
+            "unitPattern-count-other": "{0} โมล"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ลิตร/กม.",
@@ -847,6 +896,10 @@
           "duration-century": {
             "displayName": "ศตวรรษ",
             "unitPattern-count-other": "{0} ศตวรรษ"
+          },
+          "duration-decade": {
+            "displayName": "ทศวรรษ",
+            "unitPattern-count-other": "{0} ทศวรรษ"
           },
           "duration-year": {
             "displayName": "ปี",
@@ -943,6 +996,10 @@
             "displayName": "บีทียู",
             "unitPattern-count-other": "{0} BTU"
           },
+          "energy-therm-us": {
+            "displayName": "เธิร์ม",
+            "unitPattern-count-other": "{0} เธิร์ม"
+          },
           "force-pound-force": {
             "displayName": "แรงปอนด์",
             "unitPattern-count-other": "{0} lbf"
@@ -966,6 +1023,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "กม.",
@@ -1148,10 +1233,6 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0} แรงม้า"
           },
-          "pressure-hectopascal": {
-            "displayName": "เฮกโตปาสกาล",
-            "unitPattern-count-other": "{0} เฮกโตปาสกาล"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "มม. ปรอท",
             "unitPattern-count-other": "{0} มม. ปรอท"
@@ -1164,13 +1245,25 @@
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0} นิ้วปรอท"
           },
+          "pressure-bar": {
+            "displayName": "บาร์",
+            "unitPattern-count-other": "{0} บาร์"
+          },
           "pressure-millibar": {
             "displayName": "มิลลิบาร์",
             "unitPattern-count-other": "{0} มิลลิบาร์"
           },
           "pressure-atmosphere": {
             "displayName": "บรรยากาศ",
-            "unitPattern-count-other": "{0} atm"
+            "unitPattern-count-other": "{0} บรรยากาศ"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "เฮกโตปาสกาล",
+            "unitPattern-count-other": "{0} เฮกโตปาสกาล"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1345,6 +1438,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "แรง G",
             "unitPattern-count-other": "{0}G"
@@ -1435,11 +1531,11 @@
             "unitPattern-count-other": "{0} สตล."
           },
           "concentr-percent": {
-            "displayName": "%",
+            "displayName": "เปอร์เซ็นต์",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
-            "displayName": "‰",
+            "displayName": "เปอร์มิลล์",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -1448,7 +1544,7 @@
           },
           "concentr-mole": {
             "displayName": "โมล",
-            "unitPattern-count-other": "{0} mol"
+            "unitPattern-count-other": "{0} โมล"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "ลิตร/กม.",
@@ -1513,6 +1609,10 @@
           "duration-century": {
             "displayName": "ศตวรรษ",
             "unitPattern-count-other": "{0} ศตวรรษ"
+          },
+          "duration-decade": {
+            "displayName": "ทศวรรษ",
+            "unitPattern-count-other": "{0} ทศวรรษ"
           },
           "duration-year": {
             "displayName": "ปี",
@@ -1609,6 +1709,10 @@
             "displayName": "บีทียู",
             "unitPattern-count-other": "{0} BTU"
           },
+          "energy-therm-us": {
+            "displayName": "เธิร์ม",
+            "unitPattern-count-other": "{0} เธิร์ม"
+          },
           "force-pound-force": {
             "displayName": "แรงปอนด์",
             "unitPattern-count-other": "{0} lbf"
@@ -1632,6 +1736,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "กม.",
@@ -1814,10 +1946,6 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0}แรงม้า"
           },
-          "pressure-hectopascal": {
-            "displayName": "เฮกโตปาสกาล",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "มม. ปรอท",
             "unitPattern-count-other": "{0} มม. ปรอท"
@@ -1830,13 +1958,25 @@
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0}\\\" Hg"
           },
+          "pressure-bar": {
+            "displayName": "บาร์",
+            "unitPattern-count-other": "{0} บาร์"
+          },
           "pressure-millibar": {
             "displayName": "มิลลิบาร์",
             "unitPattern-count-other": "{0}มิลลิบาร์"
           },
           "pressure-atmosphere": {
             "displayName": "บรรยากาศ",
-            "unitPattern-count-other": "{0} atm"
+            "unitPattern-count-other": "{0} บรรยากาศ"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "เฮกโตปาสกาล",
+            "unitPattern-count-other": "{0}hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",

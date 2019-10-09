@@ -3,8 +3,7 @@
     "sd": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "sd"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "في {1} تي {0}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ڪشش ثقل",
@@ -223,6 +225,11 @@
             "unitPattern-count-one": "{0} c",
             "unitPattern-count-other": "{0} صديون"
           },
+          "duration-decade": {
+            "displayName": "ڏهاڪا",
+            "unitPattern-count-one": "{0} ڏهاڪو",
+            "unitPattern-count-other": "{0} ڏهاڪا"
+          },
           "duration-year": {
             "displayName": "سال",
             "unitPattern-count-one": "{0} سال",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} برٽش ٿرمل يونٽ",
             "unitPattern-count-other": "{0} برٽش ٿرمل يونٽس"
           },
+          "energy-therm-us": {
+            "displayName": "US ٿرمس",
+            "unitPattern-count-one": "{0} US ٿرم",
+            "unitPattern-count-other": "{0} US ٿرمس"
+          },
           "force-pound-force": {
             "displayName": "پائونڊز آف فورس",
             "unitPattern-count-one": "{0} پائونڊ آف فورس",
@@ -369,6 +381,41 @@
             "displayName": "هرٽز",
             "unitPattern-count-one": "{0} هرٽز",
             "unitPattern-count-other": "{0} هرٽز"
+          },
+          "graphics-em": {
+            "displayName": "ٽائپوگرافڪ em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} ems"
+          },
+          "graphics-pixel": {
+            "displayName": "پگزلس",
+            "unitPattern-count-one": "{0} پگزل",
+            "unitPattern-count-other": "{0} پگزلس"
+          },
+          "graphics-megapixel": {
+            "displayName": "ميگا پگزلس",
+            "unitPattern-count-one": "{0} ميگا پگزل",
+            "unitPattern-count-other": "{0} ميگا پگزلس"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "پگزلس في سينٽي ميٽر",
+            "unitPattern-count-one": "{0} پگزل في سينٽي ميٽر",
+            "unitPattern-count-other": "{0} پگزلس في سينٽي ميٽر"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "پگزلس في انچ",
+            "unitPattern-count-one": "{0} پگزل في انچ",
+            "unitPattern-count-other": "{0} پگزلس في انچ"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "في سينٽي ميٽر ڊاٽس",
+            "unitPattern-count-one": "{0} في سينٽي ميٽر ڊاٽ",
+            "unitPattern-count-other": "{0} في سينٽي ميٽر ڊاٽس"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "ڊاٽس في انچ",
+            "unitPattern-count-one": "{0} ڊاٽ في انچ",
+            "unitPattern-count-other": "{0} ڊاٽس في انچ"
           },
           "length-kilometer": {
             "displayName": "ڪلوميٽر",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "{0} هارس پاور",
             "unitPattern-count-other": "{0} هارس پاور"
           },
-          "pressure-hectopascal": {
-            "displayName": "هيڪٽوپاسڪلز",
-            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
-            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "مرڪري جو ملي ميٽر",
             "unitPattern-count-one": "مرڪري جو {0} ملي ميٽر",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "مرڪري جا {0} انچز",
             "unitPattern-count-other": "مرڪري جا {0} انچز"
           },
+          "pressure-bar": {
+            "displayName": "بارس",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بارس"
+          },
           "pressure-millibar": {
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
@@ -620,6 +667,16 @@
             "displayName": "ايٽماس فيئر",
             "unitPattern-count-one": "{0} ايٽماس فيئر",
             "unitPattern-count-other": "{0} ايٽماس فيئر"
+          },
+          "pressure-pascal": {
+            "displayName": "پاسڪلز",
+            "unitPattern-count-one": "{0} پاسڪل",
+            "unitPattern-count-other": "{0} پاسڪلز"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هيڪٽوپاسڪلز",
+            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
+            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
           },
           "pressure-kilopascal": {
             "displayName": "ڪلو پاسڪلز",
@@ -832,6 +889,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ڪشش ثقل",
             "unitPattern-count-one": "{0} ڪشش ثقل",
@@ -1042,6 +1102,11 @@
             "unitPattern-count-one": "{0} c",
             "unitPattern-count-other": "{0} c"
           },
+          "duration-decade": {
+            "displayName": "ڏهاڪا",
+            "unitPattern-count-one": "{0} ڏهاڪو",
+            "unitPattern-count-other": "{0} ڏهاڪا"
+          },
           "duration-year": {
             "displayName": "سال",
             "unitPattern-count-one": "{0} سال",
@@ -1159,6 +1224,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US ٿرم",
+            "unitPattern-count-one": "{0} US ٿرم",
+            "unitPattern-count-other": "{0} US ٿرمس"
+          },
           "force-pound-force": {
             "displayName": "پائونڊ-فورس",
             "unitPattern-count-one": "{0} lbf",
@@ -1188,6 +1258,41 @@
             "displayName": "هرٽز",
             "unitPattern-count-one": "{0} هرٽز",
             "unitPattern-count-other": "{0} هرٽز"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "پگزل",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixels",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ڪلوميٽر",
@@ -1410,11 +1515,6 @@
             "unitPattern-count-one": "{0} هارس پاور",
             "unitPattern-count-other": "{0} هارس پاور"
           },
-          "pressure-hectopascal": {
-            "displayName": "هيڪٽوپاسڪلز",
-            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
-            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "مرڪري جو ملي ميٽر",
             "unitPattern-count-one": "مرڪري جو {0} ملي ميٽر",
@@ -1430,6 +1530,11 @@
             "unitPattern-count-one": "مرڪري جا {0} انچز",
             "unitPattern-count-other": "مرڪري جا {0} انچز"
           },
+          "pressure-bar": {
+            "displayName": "بار",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بارس"
+          },
           "pressure-millibar": {
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
@@ -1439,6 +1544,16 @@
             "displayName": "ايٽماس فيئر",
             "unitPattern-count-one": "{0} ايٽماس فيئر",
             "unitPattern-count-other": "{0} ايٽماس فيئر"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هيڪٽوپاسڪلز",
+            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
+            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1651,6 +1766,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ڪشش ثقل",
             "unitPattern-count-one": "{0} ڪشش ثقل",
@@ -1861,6 +1979,11 @@
             "unitPattern-count-one": "{0} c",
             "unitPattern-count-other": "{0} c"
           },
+          "duration-decade": {
+            "displayName": "ڏهاڪا",
+            "unitPattern-count-one": "{0} ڏهاڪو",
+            "unitPattern-count-other": "{0} ڏهاڪا"
+          },
           "duration-year": {
             "displayName": "سال",
             "unitPattern-count-one": "{0} سال",
@@ -1978,6 +2101,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US ٿرم",
+            "unitPattern-count-one": "{0} US ٿرم",
+            "unitPattern-count-other": "{0} US ٿرمس"
+          },
           "force-pound-force": {
             "displayName": "پائونڊ-فورس",
             "unitPattern-count-one": "{0} lbf",
@@ -2007,6 +2135,41 @@
             "displayName": "هرٽز",
             "unitPattern-count-one": "{0} هرٽز",
             "unitPattern-count-other": "{0} هرٽز"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "پگزل",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixels",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ڪلوميٽر",
@@ -2229,11 +2392,6 @@
             "unitPattern-count-one": "{0} هارس پاور",
             "unitPattern-count-other": "{0} هارس پاور"
           },
-          "pressure-hectopascal": {
-            "displayName": "هيڪٽوپاسڪلز",
-            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
-            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "مرڪري جو ملي ميٽر",
             "unitPattern-count-one": "مرڪري جو {0} ملي ميٽر",
@@ -2249,6 +2407,11 @@
             "unitPattern-count-one": "مرڪري جا {0} انچز",
             "unitPattern-count-other": "مرڪري جا {0} انچز"
           },
+          "pressure-bar": {
+            "displayName": "بار",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بارس"
+          },
           "pressure-millibar": {
             "displayName": "ملي بارز",
             "unitPattern-count-one": "{0} ملي بارز",
@@ -2258,6 +2421,16 @@
             "displayName": "ايٽماس فيئر",
             "unitPattern-count-one": "{0} ايٽماس فيئر",
             "unitPattern-count-other": "{0} ايٽماس فيئر"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هيڪٽوپاسڪلز",
+            "unitPattern-count-one": "{0} هيڪٽوپاسڪلز",
+            "unitPattern-count-other": "{0} هيڪٽوپاسڪلز"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",

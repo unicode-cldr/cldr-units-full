@@ -3,8 +3,7 @@
     "hy": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "hy"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ազատ անկման արագացում",
@@ -93,10 +95,10 @@
             "unitPattern-count-other": "{0} քառակուսի ֆուտ"
           },
           "area-square-inch": {
-            "displayName": "քառակուսի դյույմեր",
-            "unitPattern-count-one": "{0} քառակուսի դյույմ",
-            "unitPattern-count-other": "{0} քառակուսի դյույմ",
-            "perUnitPattern": "{0} քառակուսի դյույմի վրա"
+            "displayName": "քառակուսի մատնաչափեր",
+            "unitPattern-count-one": "{0} քառակուսի մատնաչափ",
+            "unitPattern-count-other": "{0} քառակուսի մատնաչափ",
+            "perUnitPattern": "{0} քառակուսի մատնաչափի վրա"
           },
           "area-dunam": {
             "displayName": "դունամներ",
@@ -164,7 +166,7 @@
             "unitPattern-count-other": "{0} մղոն անգլիական գալոնի վրա"
           },
           "digital-petabyte": {
-            "displayName": "պետաբայթ",
+            "displayName": "պետաբայթեր",
             "unitPattern-count-one": "{0} պետաբայթ",
             "unitPattern-count-other": "{0} պետաբայթ"
           },
@@ -222,6 +224,11 @@
             "displayName": "դարեր",
             "unitPattern-count-one": "{0} դար",
             "unitPattern-count-other": "{0} դար"
+          },
+          "duration-decade": {
+            "displayName": "տասնամյակներ",
+            "unitPattern-count-one": "{0} տասնամյակ",
+            "unitPattern-count-other": "{0} տասնամյակ"
           },
           "duration-year": {
             "displayName": "տարիներ",
@@ -340,6 +347,11 @@
             "unitPattern-count-one": "{0} բրիտանական ջերմային միավոր",
             "unitPattern-count-other": "{0} բրիտանական ջերմային միավոր"
           },
+          "energy-therm-us": {
+            "displayName": "ԱՄՆ ջերմեր",
+            "unitPattern-count-one": "{0} ԱՄՆ ջերմ",
+            "unitPattern-count-other": "{0} ԱՄՆ ջերմ"
+          },
           "force-pound-force": {
             "displayName": "ֆունտ-ուժեր",
             "unitPattern-count-one": "{0} ֆունտ-ուժ",
@@ -369,6 +381,41 @@
             "displayName": "հերցեր",
             "unitPattern-count-one": "{0} հերց",
             "unitPattern-count-other": "{0} հերց"
+          },
+          "graphics-em": {
+            "displayName": "տպագրական em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "փիքսելներ",
+            "unitPattern-count-one": "{0} փիքսել",
+            "unitPattern-count-other": "{0} փիքսել"
+          },
+          "graphics-megapixel": {
+            "displayName": "մեգափիքսելներ",
+            "unitPattern-count-one": "{0} մեգափիքսել",
+            "unitPattern-count-other": "{0} մեգափիքսել"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "փիքսելներ սանտիմետրի վրա",
+            "unitPattern-count-one": "{0} փիքսել սանտիմետրի վրա",
+            "unitPattern-count-other": "{0} փիքսել սանտիմետրի վրա"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "փիքսելներ մատնաչափի վրա",
+            "unitPattern-count-one": "{0} փիքսել մատնաչափի վրա",
+            "unitPattern-count-other": "{0} փիքսել մատնաչափի վրա"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "կետեր սանտիմետրի վրա",
+            "unitPattern-count-one": "{0} կետ սանտիմետրի վրա",
+            "unitPattern-count-other": "{0} կետ սանտիմետրի վրա"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "կետեր մատնաչափի վրա",
+            "unitPattern-count-one": "{0} կետ մատնաչափի վրա",
+            "unitPattern-count-other": "{0} կետ մատնաչափի վրա"
           },
           "length-kilometer": {
             "displayName": "կիլոմետրեր",
@@ -430,10 +477,10 @@
             "perUnitPattern": "{0} ֆուտի վրա"
           },
           "length-inch": {
-            "displayName": "դյույմեր",
-            "unitPattern-count-one": "{0} դյույմ",
-            "unitPattern-count-other": "{0} դյույմ",
-            "perUnitPattern": "{0} դյույմի վրա"
+            "displayName": "մատնաչափեր",
+            "unitPattern-count-one": "{0} մատնաչափ",
+            "unitPattern-count-other": "{0} մատնաչափ",
+            "perUnitPattern": "{0} մատնաչափի վրա"
           },
           "length-parsec": {
             "displayName": "պարսեկներ",
@@ -531,15 +578,15 @@
             "perUnitPattern": "{0} ֆունտի վրա"
           },
           "mass-ounce": {
-            "displayName": "ունցիաներ",
-            "unitPattern-count-one": "{0} ունցիա",
-            "unitPattern-count-other": "{0} ունցիա",
-            "perUnitPattern": "{0} ունցիայի վրա"
+            "displayName": "ունկիներ",
+            "unitPattern-count-one": "{0} ունկի",
+            "unitPattern-count-other": "{0} ունկի",
+            "perUnitPattern": "{0} ունկիի վրա"
           },
           "mass-ounce-troy": {
-            "displayName": "տրոյական ունցիաներ",
-            "unitPattern-count-one": "{0} տրոյական ունցիա",
-            "unitPattern-count-other": "{0} տրոյական ունցիա"
+            "displayName": "տրոյական ունկիներ",
+            "unitPattern-count-one": "{0} տրոյական ունկի",
+            "unitPattern-count-other": "{0} տրոյական ունկի"
           },
           "mass-carat": {
             "displayName": "կարատներ",
@@ -563,8 +610,8 @@
           },
           "power-gigawatt": {
             "displayName": "գիգավատտեր",
-            "unitPattern-count-one": "{0} գիգավատտեր",
-            "unitPattern-count-other": "{0} գիգավատտեր"
+            "unitPattern-count-one": "{0} գիգավատտ",
+            "unitPattern-count-other": "{0} գիգավատտ"
           },
           "power-megawatt": {
             "displayName": "մեգավատտեր",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "{0} ձիաուժ",
             "unitPattern-count-other": "{0} ձիաուժ"
           },
-          "pressure-hectopascal": {
-            "displayName": "հեկտոպասկալ",
-            "unitPattern-count-one": "{0} հեկտոպասկալ",
-            "unitPattern-count-other": "{0} հեկտոպասկալ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "սնդիկի սյան միլիմետրեր",
             "unitPattern-count-one": "{0} միլիմետր սնդիկի սյուն",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "{0} դյույմ սնդիկի սյուն",
             "unitPattern-count-other": "{0} դյույմ սնդիկի սյուն"
           },
+          "pressure-bar": {
+            "displayName": "բարեր",
+            "unitPattern-count-one": "{0} բար",
+            "unitPattern-count-other": "{0} բար"
+          },
           "pressure-millibar": {
             "displayName": "միլիբարեր",
             "unitPattern-count-one": "{0} միլիբար",
@@ -621,6 +668,16 @@
             "unitPattern-count-one": "{0} մթնոլորտ",
             "unitPattern-count-other": "{0} մթնոլորտ"
           },
+          "pressure-pascal": {
+            "displayName": "պասկալներ",
+            "unitPattern-count-one": "{0} պասկալ",
+            "unitPattern-count-other": "{0} պասկալ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "հեկտոպասկալ",
+            "unitPattern-count-one": "{0} հեկտոպասկալ",
+            "unitPattern-count-other": "{0} հեկտոպասկալ"
+          },
           "pressure-kilopascal": {
             "displayName": "կիլոպասկալներ",
             "unitPattern-count-one": "{0} կիլոպասկալ",
@@ -628,7 +685,7 @@
           },
           "pressure-megapascal": {
             "displayName": "մեգապասկալներ",
-            "unitPattern-count-one": "{0} ՄՊա",
+            "unitPattern-count-one": "{0} մեգապասկալ",
             "unitPattern-count-other": "{0} մեգապասկալ"
           },
           "speed-kilometer-per-hour": {
@@ -704,7 +761,7 @@
             "unitPattern-count-other": "{0} խորանարդ մղոն"
           },
           "volume-cubic-yard": {
-            "displayName": "խորանարդ յարդ",
+            "displayName": "խորանարդ յարդեր",
             "unitPattern-count-one": "{0} խորանարդ յարդ",
             "unitPattern-count-other": "{0} խորանարդ յարդ"
           },
@@ -714,9 +771,9 @@
             "unitPattern-count-other": "{0} խորանարդ ֆուտ"
           },
           "volume-cubic-inch": {
-            "displayName": "խորանարդ դյույմ",
-            "unitPattern-count-one": "{0} խորանարդ դյույմ",
-            "unitPattern-count-other": "{0} խորանարդ դյույմ"
+            "displayName": "խորանարդ մատնաչափեր",
+            "unitPattern-count-one": "{0} խորանարդ մատնաչափ",
+            "unitPattern-count-other": "{0} խորանարդ մատնաչափ"
           },
           "volume-megaliter": {
             "displayName": "մեգալիտրեր",
@@ -750,9 +807,9 @@
             "unitPattern-count-other": "{0} միլիլիտր"
           },
           "volume-pint-metric": {
-            "displayName": "մետրիկ պինտեր",
-            "unitPattern-count-one": "{0} մետրիկ պինտ",
-            "unitPattern-count-other": "{0} մետրիկ պինտ"
+            "displayName": "մետրիկ փինթեր",
+            "unitPattern-count-one": "{0} մետրիկ փինթ",
+            "unitPattern-count-other": "{0} մետրիկ փինթ"
           },
           "volume-cup-metric": {
             "displayName": "մետրիկ բաժակներ",
@@ -786,9 +843,9 @@
             "unitPattern-count-other": "{0} քվարտ"
           },
           "volume-pint": {
-            "displayName": "պինտեր",
-            "unitPattern-count-one": "{0} պինտ",
-            "unitPattern-count-other": "{0} պինտ"
+            "displayName": "փինթեր",
+            "unitPattern-count-one": "{0} փինթ",
+            "unitPattern-count-other": "{0} փինթ"
           },
           "volume-cup": {
             "displayName": "բաժակներ",
@@ -796,14 +853,14 @@
             "unitPattern-count-other": "{0} բաժակ"
           },
           "volume-fluid-ounce": {
-            "displayName": "հեղուկ ունցիաներ",
-            "unitPattern-count-one": "{0} հեղուկ ունցիա",
-            "unitPattern-count-other": "{0} հեղուկ ունցիա"
+            "displayName": "հեղուկ ունկիներ",
+            "unitPattern-count-one": "{0} հեղուկ ունկի",
+            "unitPattern-count-other": "{0} հեղուկ ունկի"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "անգլիական հեղուկ ունցիաներ",
-            "unitPattern-count-one": "{0} անգլիական հեղուկ ունցիա",
-            "unitPattern-count-other": "{0} անգլիական հեղուկ ունցիա"
+            "displayName": "անգլիական հեղուկ ունկիներ",
+            "unitPattern-count-one": "{0} անգլիական հեղուկ ունկի",
+            "unitPattern-count-other": "{0} անգլիական հեղուկ ունկի"
           },
           "volume-tablespoon": {
             "displayName": "ճաշի գդալ",
@@ -816,21 +873,24 @@
             "unitPattern-count-other": "{0} թեյի գդալ"
           },
           "volume-barrel": {
-            "displayName": "բարելներ",
-            "unitPattern-count-one": "{0} բարել",
-            "unitPattern-count-other": "{0} բարել"
+            "displayName": "տակառներ",
+            "unitPattern-count-one": "{0} տակառ",
+            "unitPattern-count-other": "{0} տակառ"
           },
           "coordinateUnit": {
             "displayName": "ուղղություն",
             "east": "արևելյան երկարության {0}",
-            "north": "հյուսիսային լայնության {0}",
-            "south": "հարավային լայնության {0}",
+            "north": "{0} հյուսիսային լայնության",
+            "south": "{0} հարավային լայնության",
             "west": "արևմտյան երկարության {0}"
           }
         },
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g",
@@ -853,7 +913,7 @@
             "unitPattern-count-other": "{0} ռադ"
           },
           "angle-degree": {
-            "displayName": "աստիճաններ",
+            "displayName": "աստիճան",
             "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
@@ -912,10 +972,10 @@
             "unitPattern-count-other": "{0} ֆտ²"
           },
           "area-square-inch": {
-            "displayName": "դյմ²",
-            "unitPattern-count-one": "{0} դյմ²",
-            "unitPattern-count-other": "{0} դյմ²",
-            "perUnitPattern": "{0}/դյմ²"
+            "displayName": "մատ²",
+            "unitPattern-count-one": "{0} մատ²",
+            "unitPattern-count-other": "{0} մատ²",
+            "perUnitPattern": "{0}/մատ²"
           },
           "area-dunam": {
             "displayName": "դունամ",
@@ -983,12 +1043,12 @@
             "unitPattern-count-other": "{0} մղ/անգլ․ գալ"
           },
           "digital-petabyte": {
-            "displayName": "պետաբայթ",
+            "displayName": "ՊԲայթ",
             "unitPattern-count-one": "{0} ՊԲ",
             "unitPattern-count-other": "{0} ՊԲ"
           },
           "digital-terabyte": {
-            "displayName": "ՏԲ",
+            "displayName": "ՏԲայթ",
             "unitPattern-count-one": "{0} ՏԲ",
             "unitPattern-count-other": "{0} ՏԲ"
           },
@@ -998,7 +1058,7 @@
             "unitPattern-count-other": "{0} Տբիթ"
           },
           "digital-gigabyte": {
-            "displayName": "ԳԲ",
+            "displayName": "ԳԲայթ",
             "unitPattern-count-one": "{0} ԳԲ",
             "unitPattern-count-other": "{0} ԳԲ"
           },
@@ -1008,7 +1068,7 @@
             "unitPattern-count-other": "{0} Գբիթ"
           },
           "digital-megabyte": {
-            "displayName": "ՄԲ",
+            "displayName": "ՄԲայթ",
             "unitPattern-count-one": "{0} ՄԲ",
             "unitPattern-count-other": "{0} ՄԲ"
           },
@@ -1018,7 +1078,7 @@
             "unitPattern-count-other": "{0} Մբիթ"
           },
           "digital-kilobyte": {
-            "displayName": "կԲ",
+            "displayName": "կԲայթ",
             "unitPattern-count-one": "{0} կԲ",
             "unitPattern-count-other": "{0} կԲ"
           },
@@ -1029,7 +1089,7 @@
           },
           "digital-byte": {
             "displayName": "Բ",
-            "unitPattern-count-one": "{0} Բ",
+            "unitPattern-count-one": "{0} Բայթ",
             "unitPattern-count-other": "{0} Բ"
           },
           "digital-bit": {
@@ -1041,6 +1101,11 @@
             "displayName": "դ․",
             "unitPattern-count-one": "{0} դ․",
             "unitPattern-count-other": "{0} դ․"
+          },
+          "duration-decade": {
+            "displayName": "10-ամյակ",
+            "unitPattern-count-one": "{0} 10-ամյակ",
+            "unitPattern-count-other": "{0} 10-ամյակ"
           },
           "duration-year": {
             "displayName": "տ",
@@ -1110,9 +1175,9 @@
             "unitPattern-count-other": "{0} մԱ"
           },
           "electric-ohm": {
-            "displayName": "օմ",
-            "unitPattern-count-one": "{0} օմ",
-            "unitPattern-count-other": "{0} օմ"
+            "displayName": "օհմեր",
+            "unitPattern-count-one": "{0} Օհմ",
+            "unitPattern-count-other": "{0} Օհմ"
           },
           "electric-volt": {
             "displayName": "Վ",
@@ -1159,6 +1224,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "ԱՄՆ ջերմ",
+            "unitPattern-count-one": "{0} ԱՄՆ ջերմ",
+            "unitPattern-count-other": "{0} ԱՄՆ ջերմ"
+          },
           "force-pound-force": {
             "displayName": "ֆնտ․ ու․",
             "unitPattern-count-one": "{0} ֆնտ․ ու․",
@@ -1188,6 +1258,41 @@
             "displayName": "Հց",
             "unitPattern-count-one": "{0} Հց",
             "unitPattern-count-other": "{0} Հց"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "փիքսելներ",
+            "unitPattern-count-one": "{0} փքս",
+            "unitPattern-count-other": "{0} փքս"
+          },
+          "graphics-megapixel": {
+            "displayName": "մեգափիքսելներ",
+            "unitPattern-count-one": "{0} ՄՓ",
+            "unitPattern-count-other": "{0} ՄՓ"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "փսմ",
+            "unitPattern-count-one": "{0} փսմ",
+            "unitPattern-count-other": "{0} փսմ"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "փմչ",
+            "unitPattern-count-one": "{0} փմչ",
+            "unitPattern-count-other": "{0} փմչ"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "կսմ",
+            "unitPattern-count-one": "{0} կսմ",
+            "unitPattern-count-other": "{0} կսմ"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "կմչ",
+            "unitPattern-count-one": "{0} կմչ",
+            "unitPattern-count-other": "{0} կմչ"
           },
           "length-kilometer": {
             "displayName": "կմ",
@@ -1249,10 +1354,10 @@
             "perUnitPattern": "{0}/ֆտ"
           },
           "length-inch": {
-            "displayName": "դյմ",
-            "unitPattern-count-one": "{0} դյմ",
-            "unitPattern-count-other": "{0} դյմ",
-            "perUnitPattern": "{0}/դյմ"
+            "displayName": "մատ",
+            "unitPattern-count-one": "{0} մատ",
+            "unitPattern-count-other": "{0} մատ",
+            "perUnitPattern": "{0}/մատ"
           },
           "length-parsec": {
             "displayName": "պկ",
@@ -1344,21 +1449,21 @@
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
-            "displayName": "ֆունտեր",
+            "displayName": "ֆունտ",
             "unitPattern-count-one": "{0} ֆունտ",
             "unitPattern-count-other": "{0} ֆունտ",
             "perUnitPattern": "{0}/ֆունտ"
           },
           "mass-ounce": {
-            "displayName": "ունց",
-            "unitPattern-count-one": "{0} ունց",
-            "unitPattern-count-other": "{0} ունց",
-            "perUnitPattern": "{0}/ունց"
+            "displayName": "ունկ.",
+            "unitPattern-count-one": "{0} ունկ.",
+            "unitPattern-count-other": "{0} ունկ.",
+            "perUnitPattern": "{0}/ունկ."
           },
           "mass-ounce-troy": {
-            "displayName": "տրոյ․ ունց",
-            "unitPattern-count-one": "{0} տրոյ․ ունց",
-            "unitPattern-count-other": "{0} տրոյ․ ունց"
+            "displayName": "տրոյ․ ունկ.",
+            "unitPattern-count-one": "{0} տրոյ․ ունկ.",
+            "unitPattern-count-other": "{0} տրոյ․ ունկ."
           },
           "mass-carat": {
             "displayName": "կար",
@@ -1410,11 +1515,6 @@
             "unitPattern-count-one": "{0} ձ․ու․",
             "unitPattern-count-other": "{0} ձ․ու․"
           },
-          "pressure-hectopascal": {
-            "displayName": "հՊա",
-            "unitPattern-count-one": "{0} հՊա",
-            "unitPattern-count-other": "{0} հՊա"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "մմ ս.ս.",
             "unitPattern-count-one": "{0} մմ ս.ս.",
@@ -1430,6 +1530,11 @@
             "unitPattern-count-one": "{0} դյմ. ս.ս.",
             "unitPattern-count-other": "{0} դյմ. ս.ս."
           },
+          "pressure-bar": {
+            "displayName": "բար",
+            "unitPattern-count-one": "{0} բար",
+            "unitPattern-count-other": "{0} բար"
+          },
           "pressure-millibar": {
             "displayName": "մբար",
             "unitPattern-count-one": "{0} մբար",
@@ -1439,6 +1544,16 @@
             "displayName": "մթն",
             "unitPattern-count-one": "{0} մթն",
             "unitPattern-count-other": "{0} մթն"
+          },
+          "pressure-pascal": {
+            "displayName": "Պա",
+            "unitPattern-count-one": "{0} Պա",
+            "unitPattern-count-other": "{0} Պա"
+          },
+          "pressure-hectopascal": {
+            "displayName": "հՊա",
+            "unitPattern-count-one": "{0} հՊա",
+            "unitPattern-count-other": "{0} հՊա"
           },
           "pressure-kilopascal": {
             "displayName": "կՊա",
@@ -1466,9 +1581,9 @@
             "unitPattern-count-other": "{0} մղ/ժ"
           },
           "speed-knot": {
-            "displayName": "հանգույցներ",
-            "unitPattern-count-one": "{0} հանգույց",
-            "unitPattern-count-other": "{0} հանգույց"
+            "displayName": "հնգ",
+            "unitPattern-count-one": "{0} հնգ",
+            "unitPattern-count-other": "{0} հնգ"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1533,9 +1648,9 @@
             "unitPattern-count-other": "{0} ֆտ³"
           },
           "volume-cubic-inch": {
-            "displayName": "դյմ³",
-            "unitPattern-count-one": "{0} դյմ³",
-            "unitPattern-count-other": "{0} դյմ³"
+            "displayName": "մատ³",
+            "unitPattern-count-one": "{0} մատ³",
+            "unitPattern-count-other": "{0} մատ³"
           },
           "volume-megaliter": {
             "displayName": "Մլ",
@@ -1570,8 +1685,8 @@
           },
           "volume-pint-metric": {
             "displayName": "մետր․ պինտեր",
-            "unitPattern-count-one": "{0} մետր․ պինտ",
-            "unitPattern-count-other": "{0} մետր․ պինտ"
+            "unitPattern-count-one": "{0} մետր․ փինթ",
+            "unitPattern-count-other": "{0} մետր․ փինթ"
           },
           "volume-cup-metric": {
             "displayName": "մ․ բաժ․",
@@ -1605,9 +1720,9 @@
             "unitPattern-count-other": "{0} քվարտ"
           },
           "volume-pint": {
-            "displayName": "պինտեր",
-            "unitPattern-count-one": "{0} պինտ",
-            "unitPattern-count-other": "{0} պինտ"
+            "displayName": "փինթեր",
+            "unitPattern-count-one": "{0} փինթ",
+            "unitPattern-count-other": "{0} փինթ"
           },
           "volume-cup": {
             "displayName": "բաժակներ",
@@ -1615,9 +1730,9 @@
             "unitPattern-count-other": "{0} բաժ․"
           },
           "volume-fluid-ounce": {
-            "displayName": "հղ․ ունց․",
-            "unitPattern-count-one": "{0} հղ. ունց․",
-            "unitPattern-count-other": "{0} հղ. ունց․"
+            "displayName": "հղ․ ունկ․",
+            "unitPattern-count-one": "{0} հղ. ունկ․",
+            "unitPattern-count-other": "{0} հղ. ունկ․"
           },
           "volume-fluid-ounce-imperial": {
             "displayName": "ա․ հ․ ու․",
@@ -1635,9 +1750,9 @@
             "unitPattern-count-other": "{0} թգ."
           },
           "volume-barrel": {
-            "displayName": "բարել",
-            "unitPattern-count-one": "{0} բարել",
-            "unitPattern-count-other": "{0} բարել"
+            "displayName": "տակառ",
+            "unitPattern-count-one": "{0} տկռ",
+            "unitPattern-count-other": "{0} տկռ"
           },
           "coordinateUnit": {
             "displayName": "ուղղություն",
@@ -1650,6 +1765,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "g",
@@ -1672,7 +1790,7 @@
             "unitPattern-count-other": "{0} ռադ"
           },
           "angle-degree": {
-            "displayName": "աստիճաններ",
+            "displayName": "աստիճան",
             "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
@@ -1731,10 +1849,10 @@
             "unitPattern-count-other": "{0}ֆտ²"
           },
           "area-square-inch": {
-            "displayName": "դյմ²",
-            "unitPattern-count-one": "{0} դյմ²",
-            "unitPattern-count-other": "{0} դյմ²",
-            "perUnitPattern": "{0}/դյմ²"
+            "displayName": "մատ²",
+            "unitPattern-count-one": "{0} մատ²",
+            "unitPattern-count-other": "{0} մատ²",
+            "perUnitPattern": "{0}/մատ²"
           },
           "area-dunam": {
             "displayName": "դունամ",
@@ -1802,12 +1920,12 @@
             "unitPattern-count-other": "{0} մղ/անգլ․ գալ"
           },
           "digital-petabyte": {
-            "displayName": "պետաբայթ",
+            "displayName": "ՊԲայթ",
             "unitPattern-count-one": "{0} ՊԲ",
             "unitPattern-count-other": "{0} ՊԲ"
           },
           "digital-terabyte": {
-            "displayName": "ՏԲ",
+            "displayName": "ՏԲայթ",
             "unitPattern-count-one": "{0} ՏԲ",
             "unitPattern-count-other": "{0} ՏԲ"
           },
@@ -1817,7 +1935,7 @@
             "unitPattern-count-other": "{0} Տբիթ"
           },
           "digital-gigabyte": {
-            "displayName": "ԳԲ",
+            "displayName": "ԳԲայթ",
             "unitPattern-count-one": "{0} ԳԲ",
             "unitPattern-count-other": "{0} ԳԲ"
           },
@@ -1827,7 +1945,7 @@
             "unitPattern-count-other": "{0} Գբիթ"
           },
           "digital-megabyte": {
-            "displayName": "ՄԲ",
+            "displayName": "ՄԲայթ",
             "unitPattern-count-one": "{0} ՄԲ",
             "unitPattern-count-other": "{0} ՄԲ"
           },
@@ -1837,7 +1955,7 @@
             "unitPattern-count-other": "{0} Մբիթ"
           },
           "digital-kilobyte": {
-            "displayName": "կԲ",
+            "displayName": "կԲայթ",
             "unitPattern-count-one": "{0} կԲ",
             "unitPattern-count-other": "{0} կԲ"
           },
@@ -1848,7 +1966,7 @@
           },
           "digital-byte": {
             "displayName": "Բ",
-            "unitPattern-count-one": "{0} Բ",
+            "unitPattern-count-one": "{0} Բայթ",
             "unitPattern-count-other": "{0} Բ"
           },
           "digital-bit": {
@@ -1860,6 +1978,11 @@
             "displayName": "դ․",
             "unitPattern-count-one": "{0} դ․",
             "unitPattern-count-other": "{0} դ․"
+          },
+          "duration-decade": {
+            "displayName": "10-ամյակ",
+            "unitPattern-count-one": "{0} 10-ամյակ",
+            "unitPattern-count-other": "{0} 10-ամյակ"
           },
           "duration-year": {
             "displayName": "տ",
@@ -1929,9 +2052,9 @@
             "unitPattern-count-other": "{0} մԱ"
           },
           "electric-ohm": {
-            "displayName": "օմ",
-            "unitPattern-count-one": "{0} օմ",
-            "unitPattern-count-other": "{0} օմ"
+            "displayName": "օհմեր",
+            "unitPattern-count-one": "{0} Օհմ",
+            "unitPattern-count-other": "{0} Օհմ"
           },
           "electric-volt": {
             "displayName": "Վ",
@@ -1978,6 +2101,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "ԱՄՆ ջերմ",
+            "unitPattern-count-one": "{0} ԱՄՆ ջերմ",
+            "unitPattern-count-other": "{0} ԱՄՆ ջերմ"
+          },
           "force-pound-force": {
             "displayName": "ֆնտ․ ու․",
             "unitPattern-count-one": "{0} ֆնտ․ ու․",
@@ -2007,6 +2135,41 @@
             "displayName": "Հց",
             "unitPattern-count-one": "{0} Հց",
             "unitPattern-count-other": "{0} Հց"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "փիքսելներ",
+            "unitPattern-count-one": "{0} փքս",
+            "unitPattern-count-other": "{0} փքս"
+          },
+          "graphics-megapixel": {
+            "displayName": "մեգափիքսելներ",
+            "unitPattern-count-one": "{0} ՄՓ",
+            "unitPattern-count-other": "{0} ՄՓ"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "փսմ",
+            "unitPattern-count-one": "{0} փսմ",
+            "unitPattern-count-other": "{0} փսմ"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "փմչ",
+            "unitPattern-count-one": "{0} փմչ",
+            "unitPattern-count-other": "{0} փմչ"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "կսմ",
+            "unitPattern-count-one": "{0} կսմ",
+            "unitPattern-count-other": "{0} կսմ"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "կմչ",
+            "unitPattern-count-one": "{0} կմչ",
+            "unitPattern-count-other": "{0} կմչ"
           },
           "length-kilometer": {
             "displayName": "կմ",
@@ -2068,10 +2231,10 @@
             "perUnitPattern": "{0}/ֆտ"
           },
           "length-inch": {
-            "displayName": "դյմ",
+            "displayName": "մատ",
             "unitPattern-count-one": "{0}″",
             "unitPattern-count-other": "{0}″",
-            "perUnitPattern": "{0}/դյմ"
+            "perUnitPattern": "{0}/մատ"
           },
           "length-parsec": {
             "displayName": "պկ",
@@ -2163,21 +2326,21 @@
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
-            "displayName": "ֆունտեր",
+            "displayName": "ֆունտ",
             "unitPattern-count-one": "{0}#",
             "unitPattern-count-other": "{0}#",
             "perUnitPattern": "{0}/ֆունտ"
           },
           "mass-ounce": {
-            "displayName": "ունց",
+            "displayName": "ունկ.",
             "unitPattern-count-one": "{0} ունց",
             "unitPattern-count-other": "{0} ունց",
-            "perUnitPattern": "{0}/ունց"
+            "perUnitPattern": "{0}/ունկ."
           },
           "mass-ounce-troy": {
-            "displayName": "տրոյ․ ունց",
-            "unitPattern-count-one": "{0} տրոյ․ ունց",
-            "unitPattern-count-other": "{0} տրոյ․ ունց"
+            "displayName": "տրոյ․ ունկ.",
+            "unitPattern-count-one": "{0} տրոյ․ ունկ.",
+            "unitPattern-count-other": "{0} տրոյ․ ունկ."
           },
           "mass-carat": {
             "displayName": "կար",
@@ -2229,11 +2392,6 @@
             "unitPattern-count-one": "{0}ձ/ու",
             "unitPattern-count-other": "{0}ձ/ու"
           },
-          "pressure-hectopascal": {
-            "displayName": "հՊա",
-            "unitPattern-count-one": "{0} հՊա",
-            "unitPattern-count-other": "{0} հՊա"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "մմ ս.ս.",
             "unitPattern-count-one": "{0} մմ ս.ս.",
@@ -2249,6 +2407,11 @@
             "unitPattern-count-one": "{0}\\\" ս. ս.",
             "unitPattern-count-other": "{0}\\\" ս. ս"
           },
+          "pressure-bar": {
+            "displayName": "բար",
+            "unitPattern-count-one": "{0} բար",
+            "unitPattern-count-other": "{0} բար"
+          },
           "pressure-millibar": {
             "displayName": "մբար",
             "unitPattern-count-one": "{0} մբ",
@@ -2258,6 +2421,16 @@
             "displayName": "մթն",
             "unitPattern-count-one": "{0} մթն",
             "unitPattern-count-other": "{0} մթն"
+          },
+          "pressure-pascal": {
+            "displayName": "Պա",
+            "unitPattern-count-one": "{0} Պա",
+            "unitPattern-count-other": "{0} Պա"
+          },
+          "pressure-hectopascal": {
+            "displayName": "հՊա",
+            "unitPattern-count-one": "{0} հՊա",
+            "unitPattern-count-other": "{0} հՊա"
           },
           "pressure-kilopascal": {
             "displayName": "կՊա",
@@ -2285,9 +2458,9 @@
             "unitPattern-count-other": "{0}մղ/ժ"
           },
           "speed-knot": {
-            "displayName": "հանգույցներ",
-            "unitPattern-count-one": "{0} հանգույց",
-            "unitPattern-count-other": "{0} հանգույց"
+            "displayName": "հնգ",
+            "unitPattern-count-one": "{0} հնգ",
+            "unitPattern-count-other": "{0} հնգ"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -2352,9 +2525,9 @@
             "unitPattern-count-other": "{0} ֆտ³"
           },
           "volume-cubic-inch": {
-            "displayName": "դյմ³",
-            "unitPattern-count-one": "{0} դյմ³",
-            "unitPattern-count-other": "{0} դյմ³"
+            "displayName": "մատ³",
+            "unitPattern-count-one": "{0} մատ³",
+            "unitPattern-count-other": "{0} մատ³"
           },
           "volume-megaliter": {
             "displayName": "Մլ",
@@ -2389,8 +2562,8 @@
           },
           "volume-pint-metric": {
             "displayName": "մետր․ պինտեր",
-            "unitPattern-count-one": "{0} մետր․ պինտ",
-            "unitPattern-count-other": "{0} մետր․ պինտ"
+            "unitPattern-count-one": "{0} մետր․ փինթ",
+            "unitPattern-count-other": "{0} մետր․ փինթ"
           },
           "volume-cup-metric": {
             "displayName": "մ․ բաժ․",
@@ -2424,9 +2597,9 @@
             "unitPattern-count-other": "{0} քվարտ"
           },
           "volume-pint": {
-            "displayName": "պինտեր",
-            "unitPattern-count-one": "{0} պինտ",
-            "unitPattern-count-other": "{0} պինտ"
+            "displayName": "փինթեր",
+            "unitPattern-count-one": "{0} փինթ",
+            "unitPattern-count-other": "{0} փինթ"
           },
           "volume-cup": {
             "displayName": "բաժակներ",
@@ -2434,9 +2607,9 @@
             "unitPattern-count-other": "{0} բաժ․"
           },
           "volume-fluid-ounce": {
-            "displayName": "հղ․ ունց․",
-            "unitPattern-count-one": "{0} հղ. ունց․",
-            "unitPattern-count-other": "{0} հղ. ունց․"
+            "displayName": "հղ․ ունկ․",
+            "unitPattern-count-one": "{0} հղ. ունկ․",
+            "unitPattern-count-other": "{0} հղ. ունկ․"
           },
           "volume-fluid-ounce-imperial": {
             "displayName": "ա․ հ․ ու․",
@@ -2454,9 +2627,9 @@
             "unitPattern-count-other": "{0} թգ."
           },
           "volume-barrel": {
-            "displayName": "բարել",
-            "unitPattern-count-one": "{0} բարել",
-            "unitPattern-count-other": "{0} բարել"
+            "displayName": "տակառ",
+            "unitPattern-count-one": "{0} տկռ",
+            "unitPattern-count-other": "{0} տկռ"
           },
           "coordinateUnit": {
             "displayName": "ուղղ․",

@@ -3,8 +3,7 @@
     "lo": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14817 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "lo"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} ຕໍ່ {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ແຮງຕົກຕາມລຳພັງ",
@@ -182,6 +184,10 @@
             "displayName": "ສັດຕະວັດ",
             "unitPattern-count-other": "{0} ສັດຕະວັດ"
           },
+          "duration-decade": {
+            "displayName": "ທົດສະວັດ",
+            "unitPattern-count-other": "{0} ທົດສະວັດ"
+          },
           "duration-year": {
             "displayName": "ປີ",
             "unitPattern-count-other": "{0} ປີ",
@@ -242,20 +248,20 @@
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "volt",
-            "unitPattern-count-other": "{0} V"
+            "displayName": "ໂວລ",
+            "unitPattern-count-other": "{0} ໂວລ"
           },
           "energy-kilocalorie": {
-            "displayName": "kcal",
-            "unitPattern-count-other": "{0} kcal"
+            "displayName": "ກິໂລແຄລໍລີ່",
+            "unitPattern-count-other": "{0} ກິໂລແຄລໍລີ່"
           },
           "energy-calorie": {
-            "displayName": "cal",
-            "unitPattern-count-other": "{0} cal"
+            "displayName": "ແຄລໍລີ່",
+            "unitPattern-count-other": "{0} ແຄລໍລີ່"
           },
           "energy-foodcalorie": {
-            "displayName": "Cal",
-            "unitPattern-count-other": "{0} Cal"
+            "displayName": "ແຄລໍລີ່",
+            "unitPattern-count-other": "{0} ແຄລໍລີ່"
           },
           "energy-kilojoule": {
             "displayName": "kJ",
@@ -276,6 +282,10 @@
           "energy-british-thermal-unit": {
             "displayName": "ຫົວ​ໜ່ວຍ​ວັດ​ແທກ​ປະ​ລິ​ມານ​ຄວາມ​ຮ້ອນ​ຂ​ອງ​ອັງ​ກິດ",
             "unitPattern-count-other": "{0} ຫົວ​ໜ່ວຍ​ວັດ​ແທກ​ປະ​ລິ​ມານ​ຄວາມ​ຮ້ອນ​ຂ​ອງ​ອັງ​ກິດ"
+          },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
             "displayName": "ແຮງປ​ອນ",
@@ -300,6 +310,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ກິໂລແມັດ",
@@ -421,8 +459,8 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "tn",
-            "unitPattern-count-other": "{0} tn"
+            "displayName": "ໂຕນ",
+            "unitPattern-count-other": "{0} ໂຕນ"
           },
           "mass-stone": {
             "displayName": "st",
@@ -431,12 +469,12 @@
           "mass-pound": {
             "displayName": "ປອນ",
             "unitPattern-count-other": "{0} ປອນ",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/ປອນ"
           },
           "mass-ounce": {
-            "displayName": "ອອນ",
-            "unitPattern-count-other": "{0} ອອນ",
-            "perUnitPattern": "{0} ຕໍ່ ອອນ"
+            "displayName": "ອອນສ",
+            "unitPattern-count-other": "{0} ອອນສ",
+            "perUnitPattern": "{0} ຕໍ່ ອອນສ"
           },
           "mass-ounce-troy": {
             "displayName": "oz t",
@@ -482,10 +520,6 @@
             "displayName": "ແຮງມ້າ",
             "unitPattern-count-other": "{0} ແຮງມ້າ"
           },
-          "pressure-hectopascal": {
-            "displayName": "hectopascals",
-            "unitPattern-count-other": "{0} hectopascals"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
@@ -498,6 +532,10 @@
             "displayName": "in Hg",
             "unitPattern-count-other": "{0} inches of mercury"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "ມິນລິບາ",
             "unitPattern-count-other": "{0} ມິນລິບາ"
@@ -505,6 +543,14 @@
           "pressure-atmosphere": {
             "displayName": "atmospheres",
             "unitPattern-count-other": "{0} atmospheres"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hectopascals",
+            "unitPattern-count-other": "{0} hectopascals"
           },
           "pressure-kilopascal": {
             "displayName": "ກິ​ໂລ​ປາ​ສ​ການ",
@@ -527,8 +573,8 @@
             "unitPattern-count-other": "{0} ໄມລ໌ຕໍ່ຊົ່ວໂມງ"
           },
           "speed-knot": {
-            "displayName": "knot",
-            "unitPattern-count-other": "{0} knots"
+            "displayName": "ນ໋ອດ",
+            "unitPattern-count-other": "{0} ນ໋ອດ"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -626,9 +672,9 @@
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
-            "displayName": "gal",
-            "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0} per gallon"
+            "displayName": "ແກລລອນ",
+            "unitPattern-count-other": "{0} ແກລລອນ",
+            "perUnitPattern": "{0} ຕໍ່ແກລລອນ"
           },
           "volume-gallon-imperial": {
             "displayName": "ແກລລອນອັງກິດ",
@@ -678,6 +724,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ແຮງຕົກຕາມລຳພັງ",
@@ -848,6 +897,10 @@
             "displayName": "c",
             "unitPattern-count-other": "{0} c"
           },
+          "duration-decade": {
+            "displayName": "ທົດສະວັດ",
+            "unitPattern-count-other": "{0} ທົດສະວັດ"
+          },
           "duration-year": {
             "displayName": "ປີ",
             "unitPattern-count-other": "{0} ປີ",
@@ -908,20 +961,20 @@
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "volt",
-            "unitPattern-count-other": "{0} V"
+            "displayName": "ໂວລ",
+            "unitPattern-count-other": "{0} ໂວລ"
           },
           "energy-kilocalorie": {
-            "displayName": "kcal",
-            "unitPattern-count-other": "{0} kcal"
+            "displayName": "ກິໂລແຄລໍລີ່",
+            "unitPattern-count-other": "{0} ກິໂລແຄລໍລີ່"
           },
           "energy-calorie": {
-            "displayName": "cal",
-            "unitPattern-count-other": "{0} cal"
+            "displayName": "ຄລ",
+            "unitPattern-count-other": "{0} ຄລ"
           },
           "energy-foodcalorie": {
-            "displayName": "Cal",
-            "unitPattern-count-other": "{0} Cal"
+            "displayName": "ຄລ",
+            "unitPattern-count-other": "{0} ຄລ"
           },
           "energy-kilojoule": {
             "displayName": "kJ",
@@ -942,6 +995,10 @@
           "energy-british-thermal-unit": {
             "displayName": "Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -966,6 +1023,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ກມ",
@@ -1079,16 +1164,16 @@
             "perUnitPattern": "{0}/g"
           },
           "mass-milligram": {
-            "displayName": "mg",
-            "unitPattern-count-other": "{0} mg"
+            "displayName": "ມກ",
+            "unitPattern-count-other": "{0} ມກ"
           },
           "mass-microgram": {
             "displayName": "µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "tn",
-            "unitPattern-count-other": "{0} tn"
+            "displayName": "ຕ",
+            "unitPattern-count-other": "{0} ຕ"
           },
           "mass-stone": {
             "displayName": "st",
@@ -1097,12 +1182,12 @@
           "mass-pound": {
             "displayName": "ປອນ",
             "unitPattern-count-other": "{0} ປ",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/ປ"
           },
           "mass-ounce": {
-            "displayName": "ອອນ",
+            "displayName": "ອອນສ",
             "unitPattern-count-other": "{0} ອ",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/ອ"
           },
           "mass-ounce-troy": {
             "displayName": "oz t",
@@ -1148,10 +1233,6 @@
             "displayName": "ແຮງມ້າ",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPA",
-            "unitPattern-count-other": "{0} hPA"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
@@ -1164,6 +1245,10 @@
             "displayName": "in Hg",
             "unitPattern-count-other": "{0} in Hg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-other": "{0} mbar"
@@ -1171,6 +1256,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPA",
+            "unitPattern-count-other": "{0} hPA"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1221,8 +1314,8 @@
             "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
-            "displayName": "km³",
-            "unitPattern-count-other": "{0} km³"
+            "displayName": "ກມ³",
+            "unitPattern-count-other": "{0} ກມ³"
           },
           "volume-cubic-meter": {
             "displayName": "ມ³",
@@ -1292,9 +1385,9 @@
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
-            "displayName": "gal",
-            "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "displayName": "ແກລລອນ",
+            "unitPattern-count-other": "{0} ແກລລອນ",
+            "perUnitPattern": "{0}/ແກລລອນ"
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",
@@ -1344,6 +1437,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ແຮງຕົກຕາມລຳພັງ",
@@ -1514,6 +1610,10 @@
             "displayName": "c",
             "unitPattern-count-other": "{0} c"
           },
+          "duration-decade": {
+            "displayName": "ທົດສະວັດ",
+            "unitPattern-count-other": "{0} ທົດສະວັດ"
+          },
           "duration-year": {
             "displayName": "ປີ",
             "unitPattern-count-other": "{0} ປ",
@@ -1574,20 +1674,20 @@
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
-            "displayName": "volt",
-            "unitPattern-count-other": "{0} V"
+            "displayName": "ໂວລ",
+            "unitPattern-count-other": "{0} ໂວລ"
           },
           "energy-kilocalorie": {
-            "displayName": "kcal",
-            "unitPattern-count-other": "{0} kcal"
+            "displayName": "ກິໂລແຄລໍລີ່",
+            "unitPattern-count-other": "{0} ກິໂລແຄລໍລີ່"
           },
           "energy-calorie": {
-            "displayName": "cal",
-            "unitPattern-count-other": "{0} cal"
+            "displayName": "ຄລ",
+            "unitPattern-count-other": "{0} ຄລ"
           },
           "energy-foodcalorie": {
-            "displayName": "Cal",
-            "unitPattern-count-other": "{0} Cal"
+            "displayName": "ຄລ",
+            "unitPattern-count-other": "{0} ຄລ"
           },
           "energy-kilojoule": {
             "displayName": "kJ",
@@ -1608,6 +1708,10 @@
           "energy-british-thermal-unit": {
             "displayName": "Btu",
             "unitPattern-count-other": "{0} Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1632,6 +1736,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ກມ",
@@ -1745,16 +1877,16 @@
             "perUnitPattern": "{0}/g"
           },
           "mass-milligram": {
-            "displayName": "mg",
-            "unitPattern-count-other": "{0} mg"
+            "displayName": "ມກ",
+            "unitPattern-count-other": "{0} ມກ"
           },
           "mass-microgram": {
             "displayName": "µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "tn",
-            "unitPattern-count-other": "{0} tn"
+            "displayName": "ຕ",
+            "unitPattern-count-other": "{0} ຕ"
           },
           "mass-stone": {
             "displayName": "st",
@@ -1763,12 +1895,12 @@
           "mass-pound": {
             "displayName": "ປອນ",
             "unitPattern-count-other": "{0} ປ",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/ປ"
           },
           "mass-ounce": {
-            "displayName": "ອອນ",
+            "displayName": "ອອນສ",
             "unitPattern-count-other": "{0} ອ",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/ອ"
           },
           "mass-ounce-troy": {
             "displayName": "oz t",
@@ -1814,10 +1946,6 @@
             "displayName": "ແຮງມ້າ",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPA",
-            "unitPattern-count-other": "{0} hPA"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
@@ -1830,6 +1958,10 @@
             "displayName": "in Hg",
             "unitPattern-count-other": "{0} in Hg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-other": "{0} mbar"
@@ -1837,6 +1969,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPA",
+            "unitPattern-count-other": "{0} hPA"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1848,7 +1988,7 @@
           },
           "speed-kilometer-per-hour": {
             "displayName": "ກມ/ຊມ",
-            "unitPattern-count-other": "{0} km/h"
+            "unitPattern-count-other": "{0} ກມ/ຊມ"
           },
           "speed-meter-per-second": {
             "displayName": "ແມັດ/ນທ.",
@@ -1887,7 +2027,7 @@
             "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
-            "displayName": "km³",
+            "displayName": "ກມ³",
             "unitPattern-count-other": "{0} km³"
           },
           "volume-cubic-meter": {
@@ -1958,9 +2098,9 @@
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
-            "displayName": "gal",
-            "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "displayName": "ແກລລອນ",
+            "unitPattern-count-other": "{0} ແກລລອນ",
+            "perUnitPattern": "{0}/ແກລລອນ"
           },
           "volume-gallon-imperial": {
             "displayName": "Imp. gal",

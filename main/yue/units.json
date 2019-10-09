@@ -3,8 +3,7 @@
     "yue": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "yue"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "每 {1} {0}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "G 力",
@@ -182,6 +184,10 @@
             "displayName": "世紀",
             "unitPattern-count-other": "{0} 個世紀"
           },
+          "duration-decade": {
+            "displayName": "十年",
+            "unitPattern-count-other": "{0} 個十年"
+          },
           "duration-year": {
             "displayName": "年",
             "unitPattern-count-other": "{0} 年",
@@ -277,6 +283,10 @@
             "displayName": "英制熱量單位",
             "unitPattern-count-other": "{0} 英制熱量單位"
           },
+          "energy-therm-us": {
+            "displayName": "美制熱量單位",
+            "unitPattern-count-other": "{0} 美制熱量單位"
+          },
           "force-pound-force": {
             "displayName": "磅力",
             "unitPattern-count-other": "{0} 磅力"
@@ -300,6 +310,34 @@
           "frequency-hertz": {
             "displayName": "赫茲",
             "unitPattern-count-other": "{0} 赫茲"
+          },
+          "graphics-em": {
+            "displayName": "字體 em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "像素",
+            "unitPattern-count-other": "{0} 像素"
+          },
+          "graphics-megapixel": {
+            "displayName": "百萬像素",
+            "unitPattern-count-other": "{0} 百萬像素"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "每厘米像素",
+            "unitPattern-count-other": "{0} 像素/厘米"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "每吋像素",
+            "unitPattern-count-other": "{0} 像素/吋"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "每厘米點數",
+            "unitPattern-count-other": "{0} 點/厘米"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "每吋點數",
+            "unitPattern-count-other": "{0} 點/吋"
           },
           "length-kilometer": {
             "displayName": "公里",
@@ -482,10 +520,6 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0} 匹"
           },
-          "pressure-hectopascal": {
-            "displayName": "百帕",
-            "unitPattern-count-other": "{0} 百帕"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0} 毫米汞柱"
@@ -498,6 +532,10 @@
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0} 英吋汞柱"
           },
+          "pressure-bar": {
+            "displayName": "巴",
+            "unitPattern-count-other": "{0} 巴"
+          },
           "pressure-millibar": {
             "displayName": "毫巴",
             "unitPattern-count-other": "{0} 毫巴"
@@ -505,6 +543,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "帕斯卡",
+            "unitPattern-count-other": "{0} 帕斯卡"
+          },
+          "pressure-hectopascal": {
+            "displayName": "百帕",
+            "unitPattern-count-other": "{0} 百帕"
           },
           "pressure-kilopascal": {
             "displayName": "千帕",
@@ -679,6 +725,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "G 力",
             "unitPattern-count-other": "{0} G 力"
@@ -848,6 +897,10 @@
             "displayName": "世紀",
             "unitPattern-count-other": "{0} 世紀"
           },
+          "duration-decade": {
+            "displayName": "十年",
+            "unitPattern-count-other": "{0} 個十年"
+          },
           "duration-year": {
             "displayName": "年",
             "unitPattern-count-other": "{0} 年",
@@ -943,6 +996,10 @@
             "displayName": "英制熱量單位",
             "unitPattern-count-other": "{0} 英制熱量單位"
           },
+          "energy-therm-us": {
+            "displayName": "美制熱量單位",
+            "unitPattern-count-other": "{0} 美制熱量單位"
+          },
           "force-pound-force": {
             "displayName": "磅力",
             "unitPattern-count-other": "{0} 磅力"
@@ -966,6 +1023,34 @@
           "frequency-hertz": {
             "displayName": "赫茲",
             "unitPattern-count-other": "{0} 赫茲"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "像素",
+            "unitPattern-count-other": "{0} 像素"
+          },
+          "graphics-megapixel": {
+            "displayName": "百萬像素",
+            "unitPattern-count-other": "{0} 百萬像素"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "每厘米像素",
+            "unitPattern-count-other": "{0} 像素/厘米"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "每吋像素",
+            "unitPattern-count-other": "{0} 像素/吋"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "每厘米點數",
+            "unitPattern-count-other": "{0} 點/厘米"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "每吋點數",
+            "unitPattern-count-other": "{0} 點/吋"
           },
           "length-kilometer": {
             "displayName": "公里",
@@ -1148,10 +1233,6 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0} 匹"
           },
-          "pressure-hectopascal": {
-            "displayName": "百帕",
-            "unitPattern-count-other": "{0} 百帕"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0} 毫米汞柱"
@@ -1164,6 +1245,10 @@
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0} 英吋汞柱"
           },
+          "pressure-bar": {
+            "displayName": "巴",
+            "unitPattern-count-other": "{0} 巴"
+          },
           "pressure-millibar": {
             "displayName": "毫巴",
             "unitPattern-count-other": "{0} 毫巴"
@@ -1171,6 +1256,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "帕斯卡",
+            "unitPattern-count-other": "{0} 帕斯卡"
+          },
+          "pressure-hectopascal": {
+            "displayName": "百帕",
+            "unitPattern-count-other": "{0} 百帕"
           },
           "pressure-kilopascal": {
             "displayName": "千帕",
@@ -1345,6 +1438,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "G 力",
             "unitPattern-count-other": "{0}G"
@@ -1514,6 +1610,10 @@
             "displayName": "世紀",
             "unitPattern-count-other": "{0} 世紀"
           },
+          "duration-decade": {
+            "displayName": "十年",
+            "unitPattern-count-other": "{0} 個十年"
+          },
           "duration-year": {
             "displayName": "年",
             "unitPattern-count-other": "{0} 年",
@@ -1609,6 +1709,10 @@
             "displayName": "英制熱量單位",
             "unitPattern-count-other": "{0} 英制熱量單位"
           },
+          "energy-therm-us": {
+            "displayName": "美制熱量單位",
+            "unitPattern-count-other": "{0} 美制熱量單位"
+          },
           "force-pound-force": {
             "displayName": "磅力",
             "unitPattern-count-other": "{0} 磅力"
@@ -1632,6 +1736,34 @@
           "frequency-hertz": {
             "displayName": "赫茲",
             "unitPattern-count-other": "{0}Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "像素",
+            "unitPattern-count-other": "{0} 像素"
+          },
+          "graphics-megapixel": {
+            "displayName": "百萬像素",
+            "unitPattern-count-other": "{0} 百萬像素"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "每厘米像素",
+            "unitPattern-count-other": "{0} 像素/厘米"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "每吋像素",
+            "unitPattern-count-other": "{0} 像素/吋"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "每厘米點數",
+            "unitPattern-count-other": "{0} 點/厘米"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "每吋點數",
+            "unitPattern-count-other": "{0} 點/吋"
           },
           "length-kilometer": {
             "displayName": "公里",
@@ -1814,10 +1946,6 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0}匹"
           },
-          "pressure-hectopascal": {
-            "displayName": "百帕",
-            "unitPattern-count-other": "{0}百帕"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0}mmHg"
@@ -1830,6 +1958,10 @@
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0}″ Hg"
           },
+          "pressure-bar": {
+            "displayName": "巴",
+            "unitPattern-count-other": "{0} 巴"
+          },
           "pressure-millibar": {
             "displayName": "毫巴",
             "unitPattern-count-other": "{0}毫巴"
@@ -1837,6 +1969,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "帕斯卡",
+            "unitPattern-count-other": "{0} 帕斯卡"
+          },
+          "pressure-hectopascal": {
+            "displayName": "百帕",
+            "unitPattern-count-other": "{0}百帕"
           },
           "pressure-kilopascal": {
             "displayName": "千帕",

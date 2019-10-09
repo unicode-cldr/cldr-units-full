@@ -3,8 +3,7 @@
     "gd": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "gd"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} / {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "forsa-g",
@@ -131,8 +133,11 @@
             "perUnitPattern": "{0} san òirleach cheàrnagach"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "dönüm",
+            "unitPattern-count-one": "{0} dönüm",
+            "unitPattern-count-two": "{0} dhönüm",
+            "unitPattern-count-few": "{0} dönüm",
+            "unitPattern-count-other": "{0} dönüm"
           },
           "concentr-karat": {
             "displayName": "karat",
@@ -142,18 +147,18 @@
             "unitPattern-count-other": "{0} karat"
           },
           "concentr-milligram-per-deciliter": {
-            "displayName": "mille-ghrama san deicheamh-liotair",
-            "unitPattern-count-one": "{0} mhille-ghrama san deicheamh-liotair",
-            "unitPattern-count-two": "{0} mhille-ghrama san deicheamh-liotair",
-            "unitPattern-count-few": "{0} mille-ghramaichean san deicheamh-liotair",
-            "unitPattern-count-other": "{0} mille-ghrama san deicheamh-liotair"
+            "displayName": "miligram san deicheamh-liotair",
+            "unitPattern-count-one": "{0} mhiligram san deicheamh-liotair",
+            "unitPattern-count-two": "{0} mhiligram san deicheamh-liotair",
+            "unitPattern-count-few": "{0} miligramaichean san deicheamh-liotair",
+            "unitPattern-count-other": "{0} miligram san deicheamh-liotair"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mille-mhòl san liotair",
-            "unitPattern-count-one": "{0} mhille-mhòl san liotair",
-            "unitPattern-count-two": "{0} mhille-mhòl san liotair",
-            "unitPattern-count-few": "{0} mille-mhòlaichean san liotair",
-            "unitPattern-count-other": "{0} mille-mhòl san liotair"
+            "displayName": "milimòl san liotair",
+            "unitPattern-count-one": "{0} mhilimòl san liotair",
+            "unitPattern-count-two": "{0} mhilimòl san liotair",
+            "unitPattern-count-few": "{0} milimòlaichean san liotair",
+            "unitPattern-count-other": "{0} milimòl san liotair"
           },
           "concentr-part-per-million": {
             "displayName": "pàirt sa mhillean",
@@ -177,12 +182,18 @@
             "unitPattern-count-other": "{0} sa mhìle"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "sna deich mìltean",
+            "unitPattern-count-one": "{0} sna deich mìltean",
+            "unitPattern-count-two": "{0} sna deich mìltean",
+            "unitPattern-count-few": "{0} sna deich mìltean",
+            "unitPattern-count-other": "{0} sna deich mìltean"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "mòl",
+            "unitPattern-count-one": "{0} mhòl",
+            "unitPattern-count-two": "{0} mhòl",
+            "unitPattern-count-few": "{0} mòlaichean",
+            "unitPattern-count-other": "{0} mòl"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "liotair sa chilemeatair",
@@ -206,11 +217,11 @@
             "unitPattern-count-other": "{0} mìle sa ghalan"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mìle sa ghalan impireil",
-            "unitPattern-count-one": "{0} mhìle sa ghalan impireil",
-            "unitPattern-count-two": "{0} mhìle sa ghalan impireil",
-            "unitPattern-count-few": "{0} mìltean sa ghalan impireil",
-            "unitPattern-count-other": "{0} mìle sa ghalan impireil"
+            "displayName": "mìle sa ghalan ìmpireil",
+            "unitPattern-count-one": "{0} mhìle sa ghalan ìmpireil",
+            "unitPattern-count-two": "{0} mhìle sa ghalan ìmpireil",
+            "unitPattern-count-few": "{0} mìltean sa ghalan ìmpireil",
+            "unitPattern-count-other": "{0} mìle sa ghalan ìmpireil"
           },
           "digital-petabyte": {
             "displayName": "peta-baidht",
@@ -296,6 +307,13 @@
             "unitPattern-count-few": "{0} linntean",
             "unitPattern-count-other": "{0} linn"
           },
+          "duration-decade": {
+            "displayName": "deichead",
+            "unitPattern-count-one": "{0} deichead",
+            "unitPattern-count-two": "{0} dheichead",
+            "unitPattern-count-few": "{0} deicheadan",
+            "unitPattern-count-other": "{0} deichead"
+          },
           "duration-year": {
             "displayName": "bliadhna",
             "unitPattern-count-one": "{0} bhliadhna",
@@ -353,11 +371,11 @@
             "perUnitPattern": "{0} san diog"
           },
           "duration-millisecond": {
-            "displayName": "mille-dhiog",
-            "unitPattern-count-one": "{0} mhille-dhiog",
-            "unitPattern-count-two": "{0} mhille-dhiog",
-            "unitPattern-count-few": "{0} mille-dhiogan",
-            "unitPattern-count-other": "{0} mille-dhiog"
+            "displayName": "mili-diog",
+            "unitPattern-count-one": "{0} mhili-diog",
+            "unitPattern-count-two": "{0} mhili-diog",
+            "unitPattern-count-few": "{0} mili-diogan",
+            "unitPattern-count-other": "{0} mili-diog"
           },
           "duration-microsecond": {
             "displayName": "micreo-diog",
@@ -367,11 +385,11 @@
             "unitPattern-count-other": "{0} micreo-diog"
           },
           "duration-nanosecond": {
-            "displayName": "nano-dhiog",
-            "unitPattern-count-one": "{0} nano-dhiog",
-            "unitPattern-count-two": "{0} nano-dhiog",
-            "unitPattern-count-few": "{0} nano-dhiogan",
-            "unitPattern-count-other": "{0} nano-dhiog"
+            "displayName": "nano-diog",
+            "unitPattern-count-one": "{0} nano-diog",
+            "unitPattern-count-two": "{0} nano-diog",
+            "unitPattern-count-few": "{0} nano-diogan",
+            "unitPattern-count-other": "{0} nano-diog"
           },
           "electric-ampere": {
             "displayName": "ampère",
@@ -444,20 +462,39 @@
             "unitPattern-count-other": "{0} cilea-watt san uair"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "volt-eleactroin",
+            "unitPattern-count-one": "{0} volt-eleactroin",
+            "unitPattern-count-two": "{0} volt-eleactroin",
+            "unitPattern-count-few": "{0} voltaichean-eleactroin",
+            "unitPattern-count-other": "{0} volt-eleactroin"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "aonad-teasa Breatannach",
+            "unitPattern-count-one": "{0} aonad-teasa Breatannach",
+            "unitPattern-count-two": "{0} aonad-teasa Breatannach",
+            "unitPattern-count-few": "{0} aonadan-teasa Breatannach",
+            "unitPattern-count-other": "{0} aonad-teasa Breatannach"
+          },
+          "energy-therm-us": {
+            "displayName": "aonad-teasa nan SA",
+            "unitPattern-count-one": "{0} aonad-teasa nan SA",
+            "unitPattern-count-two": "{0} aonad-teasa nan SA",
+            "unitPattern-count-few": "{0} aonadan-teasa nan SA",
+            "unitPattern-count-other": "{0} aonad-teasa nan SA"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "punnd de dh’fhorsa",
+            "unitPattern-count-one": "{0} phunnd de dh’fhorsa",
+            "unitPattern-count-two": "{0} phunnd de dh’fhorsa",
+            "unitPattern-count-few": "{0} puinnd de dh’fhorsa",
+            "unitPattern-count-other": "{0} punnd de dh’fhorsa"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} newton",
+            "unitPattern-count-two": "{0} newton",
+            "unitPattern-count-few": "{0} newtonaichean",
+            "unitPattern-count-other": "{0} newton"
           },
           "frequency-gigahertz": {
             "displayName": "giga-hertz",
@@ -486,6 +523,55 @@
             "unitPattern-count-two": "{0} hertz",
             "unitPattern-count-few": "{0} hertz",
             "unitPattern-count-other": "{0} hertz"
+          },
+          "graphics-em": {
+            "displayName": "em chlò-ghrafach",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-two": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "piogsail",
+            "unitPattern-count-one": "{0} phiogsail",
+            "unitPattern-count-two": "{0} phiogsail",
+            "unitPattern-count-few": "{0} piogsailean",
+            "unitPattern-count-other": "{0} piogsail"
+          },
+          "graphics-megapixel": {
+            "displayName": "meaga-piogsail",
+            "unitPattern-count-one": "{0} mheaga-piogsail",
+            "unitPattern-count-two": "{0} mheaga-piogsail",
+            "unitPattern-count-few": "{0} meaga-piogsailean",
+            "unitPattern-count-other": "{0} meaga-piogsail"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "piogsail sa cheudameatair",
+            "unitPattern-count-one": "{0} phiogsail sa cheudameatair",
+            "unitPattern-count-two": "{0} phiogsail sa cheudameatair",
+            "unitPattern-count-few": "{0} piogsailean sa cheudameatair",
+            "unitPattern-count-other": "{0} piogsail sa cheudameatair"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "piogsail san òirleach",
+            "unitPattern-count-one": "{0} phiogsail san òirleach",
+            "unitPattern-count-two": "{0} phiogsail san òirleach",
+            "unitPattern-count-few": "{0} piogsailean san òirleach",
+            "unitPattern-count-other": "{0} piogsail san òirleach"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dotag sa cheudameatair",
+            "unitPattern-count-one": "{0} dotag sa cheudameatair",
+            "unitPattern-count-two": "{0} dhotag sa cheudameatair",
+            "unitPattern-count-few": "{0} dotagan sa cheudameatair",
+            "unitPattern-count-other": "{0} dotag sa cheudameatair"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dotag san òirleach",
+            "unitPattern-count-one": "{0} dotag san òirleach",
+            "unitPattern-count-two": "{0} dhotag san òirleach",
+            "unitPattern-count-few": "{0} dotagan san òirleach",
+            "unitPattern-count-other": "{0} dotag san òirleach"
           },
           "length-kilometer": {
             "displayName": "cilemeatair",
@@ -519,32 +605,32 @@
             "perUnitPattern": "{0} sa cheudameatair"
           },
           "length-millimeter": {
-            "displayName": "mille-mheatair",
-            "unitPattern-count-one": "{0} mhille-mheatair",
-            "unitPattern-count-two": "{0} mhille-mheatair",
-            "unitPattern-count-few": "{0} mille-mheatairean",
-            "unitPattern-count-other": "{0} mille-mheatair"
+            "displayName": "mili-meatair",
+            "unitPattern-count-one": "{0} mhili-meatair",
+            "unitPattern-count-two": "{0} mhili-meatair",
+            "unitPattern-count-few": "{0} mili-meatairean",
+            "unitPattern-count-other": "{0} mili-meatair"
           },
           "length-micrometer": {
-            "displayName": "micreo-mheatair",
-            "unitPattern-count-one": "{0} mhicreo-mheatair",
-            "unitPattern-count-two": "{0} mhicreo-mheatair",
-            "unitPattern-count-few": "{0} micreo-mheatairean",
-            "unitPattern-count-other": "{0} micreo-mheatair"
+            "displayName": "micreo-meatair",
+            "unitPattern-count-one": "{0} mhicreo-meatair",
+            "unitPattern-count-two": "{0} mhicreo-meatair",
+            "unitPattern-count-few": "{0} micreo-meatairean",
+            "unitPattern-count-other": "{0} micreo-meatair"
           },
           "length-nanometer": {
-            "displayName": "nano-mheatair",
-            "unitPattern-count-one": "{0} nano-mheatair",
-            "unitPattern-count-two": "{0} nano-mheatair",
-            "unitPattern-count-few": "{0} nano-mheatairean",
-            "unitPattern-count-other": "{0} nano-mheatair"
+            "displayName": "nano-meatair",
+            "unitPattern-count-one": "{0} nano-meatair",
+            "unitPattern-count-two": "{0} nano-meatair",
+            "unitPattern-count-few": "{0} nano-meatairean",
+            "unitPattern-count-other": "{0} nano-meatair"
           },
           "length-picometer": {
-            "displayName": "piceo-mheatair",
-            "unitPattern-count-one": "{0} phiceo-mheatair",
-            "unitPattern-count-two": "{0} phiceo-mheatair",
-            "unitPattern-count-few": "{0} piceo-mheatairean",
-            "unitPattern-count-other": "{0} piceo-mheatair"
+            "displayName": "piceo-meatair",
+            "unitPattern-count-one": "{0} phiceo-meatair",
+            "unitPattern-count-two": "{0} phiceo-meatair",
+            "unitPattern-count-few": "{0} piceo-meatairean",
+            "unitPattern-count-other": "{0} piceo-meatair"
           },
           "length-mile": {
             "displayName": "mìle",
@@ -633,8 +719,11 @@
             "unitPattern-count-other": "{0} puing"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "rèideas-grèine",
+            "unitPattern-count-one": "{0} rèideas-grèine",
+            "unitPattern-count-two": "{0} rèideas-grèine",
+            "unitPattern-count-few": "{0} rèideasan-grèine",
+            "unitPattern-count-other": "{0} rèideas-grèine"
           },
           "light-lux": {
             "displayName": "lux",
@@ -644,8 +733,11 @@
             "unitPattern-count-other": "{0} lux"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "boillsgeachd-ghrèine",
+            "unitPattern-count-one": "{0} bhoillsgeachd-ghrèine",
+            "unitPattern-count-two": "{0} bhoillsgeachd-ghrèine",
+            "unitPattern-count-few": "{0} boillsgeachdan-grèine",
+            "unitPattern-count-other": "{0} boillsgeachd-ghrèine"
           },
           "mass-metric-ton": {
             "displayName": "tunna meatrach",
@@ -663,26 +755,26 @@
             "perUnitPattern": "{0} sa chileagram"
           },
           "mass-gram": {
-            "displayName": "grama",
-            "unitPattern-count-one": "{0} ghrama",
-            "unitPattern-count-two": "{0} ghrama",
+            "displayName": "gram",
+            "unitPattern-count-one": "{0} ghram",
+            "unitPattern-count-two": "{0} ghram",
             "unitPattern-count-few": "{0} gramaichean",
-            "unitPattern-count-other": "{0} grama",
-            "perUnitPattern": "{0} sa ghrama"
+            "unitPattern-count-other": "{0} gram",
+            "perUnitPattern": "{0} sa ghram"
           },
           "mass-milligram": {
-            "displayName": "mille-ghrama",
-            "unitPattern-count-one": "{0} mhille-ghrama",
-            "unitPattern-count-two": "{0} mhille-ghrama",
-            "unitPattern-count-few": "{0} mille-ghramaichean",
-            "unitPattern-count-other": "{0} mille-ghrama"
+            "displayName": "miligram",
+            "unitPattern-count-one": "{0} mhiligram",
+            "unitPattern-count-two": "{0} mhiligram",
+            "unitPattern-count-few": "{0} miligramaichean",
+            "unitPattern-count-other": "{0} miligram"
           },
           "mass-microgram": {
-            "displayName": "micreo-ghrama",
-            "unitPattern-count-one": "{0} mhicreo-ghrama",
-            "unitPattern-count-two": "{0} mhicreo-ghrama",
-            "unitPattern-count-few": "{0} micreo-ghramaichean",
-            "unitPattern-count-other": "{0} micreo-ghrama"
+            "displayName": "micreo-gram",
+            "unitPattern-count-one": "{0} mhicreo-gram",
+            "unitPattern-count-two": "{0} mhicreo-gram",
+            "unitPattern-count-few": "{0} micreo-gramaichean",
+            "unitPattern-count-other": "{0} micreo-gram"
           },
           "mass-ton": {
             "displayName": "tunna",
@@ -729,16 +821,25 @@
             "unitPattern-count-other": "{0} carat"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} dalton",
+            "unitPattern-count-two": "{0} dhalton",
+            "unitPattern-count-few": "{0} daltonaichean",
+            "unitPattern-count-other": "{0} dalton"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "tomad-talmhainn",
+            "unitPattern-count-one": "{0} tomad-talmhainn",
+            "unitPattern-count-two": "{0} thomad-talmhainn",
+            "unitPattern-count-few": "{0} tomadan-talmhainn",
+            "unitPattern-count-other": "{0} tomad-talmhainn"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "tomad-grèine",
+            "unitPattern-count-one": "{0} tomad-grèine",
+            "unitPattern-count-two": "{0} thomad-grèine",
+            "unitPattern-count-few": "{0} tomadan-grèine",
+            "unitPattern-count-other": "{0} tomad-grèine"
           },
           "power-gigawatt": {
             "displayName": "giga-watt",
@@ -769,11 +870,11 @@
             "unitPattern-count-other": "{0} watt"
           },
           "power-milliwatt": {
-            "displayName": "mille-watt",
-            "unitPattern-count-one": "{0} mhille-watt",
-            "unitPattern-count-two": "{0} mhille-watt",
-            "unitPattern-count-few": "{0} mille-watt",
-            "unitPattern-count-other": "{0} mille-watt"
+            "displayName": "mili-watt",
+            "unitPattern-count-one": "{0} mhili-watt",
+            "unitPattern-count-two": "{0} mhili-watt",
+            "unitPattern-count-few": "{0} mili-watt",
+            "unitPattern-count-other": "{0} mili-watt"
           },
           "power-horsepower": {
             "displayName": "cumhachd-eich",
@@ -782,19 +883,12 @@
             "unitPattern-count-few": "{0} cumhachdan-eich",
             "unitPattern-count-other": "{0} cumhachd-eich"
           },
-          "pressure-hectopascal": {
-            "displayName": "heacta pascal",
-            "unitPattern-count-one": "{0} heacta pascal",
-            "unitPattern-count-two": "{0} heacta pascal",
-            "unitPattern-count-few": "{0} heacta pascal",
-            "unitPattern-count-other": "{0} heacta pascal"
-          },
           "pressure-millimeter-of-mercury": {
-            "displayName": "mille-mheatair de dh’airgead-beò",
-            "unitPattern-count-one": "{0} mhille-mheatair de dh’airgead-beò",
-            "unitPattern-count-two": "{0} mhille-mheatair de dh’airgead-beò",
-            "unitPattern-count-few": "{0} mille-mheatairean de dh’airgead-beò",
-            "unitPattern-count-other": "{0} mille-mheatair de dh’airgead-beò"
+            "displayName": "milimeatair de dh’airgead-beò",
+            "unitPattern-count-one": "{0} mhilimeatair de dh’airgead-beò",
+            "unitPattern-count-two": "{0} mhilimeatair de dh’airgead-beò",
+            "unitPattern-count-few": "{0} milimeatairean de dh’airgead-beò",
+            "unitPattern-count-other": "{0} milimeatair de dh’airgead-beò"
           },
           "pressure-pound-per-square-inch": {
             "displayName": "punnd san òirleach cheàrnagach",
@@ -810,12 +904,19 @@
             "unitPattern-count-few": "{0} òirlich de dh’airgead-beò",
             "unitPattern-count-other": "{0} òirleach de dh’airgead-beò"
           },
+          "pressure-bar": {
+            "displayName": "bàr",
+            "unitPattern-count-one": "{0} bhar",
+            "unitPattern-count-two": "{0} bhàr",
+            "unitPattern-count-few": "{0} bàraichean",
+            "unitPattern-count-other": "{0} bàr"
+          },
           "pressure-millibar": {
-            "displayName": "mille-bhàr",
-            "unitPattern-count-one": "{0} mhille-bhàr",
-            "unitPattern-count-two": "{0} mhille-bhàr",
-            "unitPattern-count-few": "{0} mille-bhàraichean",
-            "unitPattern-count-other": "{0} mille-bhàr"
+            "displayName": "milibàr",
+            "unitPattern-count-one": "{0} mhilibàr",
+            "unitPattern-count-two": "{0} mhilibàr",
+            "unitPattern-count-few": "{0} milibàraichean",
+            "unitPattern-count-other": "{0} milibàr"
           },
           "pressure-atmosphere": {
             "displayName": "brùthadh-àile",
@@ -824,13 +925,33 @@
             "unitPattern-count-few": "{0} brùthadh-àile",
             "unitPattern-count-other": "{0} brùthadh-àile"
           },
+          "pressure-pascal": {
+            "displayName": "pascal",
+            "unitPattern-count-one": "{0} phascal",
+            "unitPattern-count-two": "{0} phascal",
+            "unitPattern-count-few": "{0} pascal",
+            "unitPattern-count-other": "{0} pascal"
+          },
+          "pressure-hectopascal": {
+            "displayName": "heacta-pascal",
+            "unitPattern-count-one": "{0} heacta-pascal",
+            "unitPattern-count-two": "{0} heacta-pascal",
+            "unitPattern-count-few": "{0} heacta-pascal",
+            "unitPattern-count-other": "{0} heacta-pascal"
+          },
           "pressure-kilopascal": {
-            "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "displayName": "cileapascal",
+            "unitPattern-count-one": "{0} chileapascal",
+            "unitPattern-count-two": "{0} chileapascal",
+            "unitPattern-count-few": "{0} cileapascal",
+            "unitPattern-count-other": "{0} cileapascal"
           },
           "pressure-megapascal": {
-            "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "displayName": "meaga-pascal",
+            "unitPattern-count-one": "{0} mheaga-pascal",
+            "unitPattern-count-two": "{0} mheaga-pascal",
+            "unitPattern-count-few": "{0} meaga-pascal",
+            "unitPattern-count-other": "{0} meaga-pascal"
           },
           "speed-kilometer-per-hour": {
             "displayName": "cilemeatair san uair",
@@ -889,12 +1010,18 @@
             "unitPattern-count-other": "{0} ceum Kelvin"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "troigh-phuinnd",
+            "unitPattern-count-one": "{0} troigh-phuinnd",
+            "unitPattern-count-two": "{0} throigh-phuinnd",
+            "unitPattern-count-few": "{0} troighean-puinnd",
+            "unitPattern-count-other": "{0} troigh-phuinnd"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "newton-mheatair",
+            "unitPattern-count-one": "{0} newton-mheatair",
+            "unitPattern-count-two": "{0} newton-mheatair",
+            "unitPattern-count-few": "{0} newton-mheatairean",
+            "unitPattern-count-other": "{0} newton-mheatair"
           },
           "volume-cubic-kilometer": {
             "displayName": "cilemeatair ciùbach",
@@ -955,11 +1082,11 @@
             "unitPattern-count-other": "{0} meaga-liotair"
           },
           "volume-hectoliter": {
-            "displayName": "heactailiotair",
-            "unitPattern-count-one": "{0} heactailiotair",
-            "unitPattern-count-two": "{0} heactailiotair",
-            "unitPattern-count-few": "{0} heactailiotairean",
-            "unitPattern-count-other": "{0} heactailiotair"
+            "displayName": "heacta-liotair",
+            "unitPattern-count-one": "{0} heacta-liotair",
+            "unitPattern-count-two": "{0} heacta-liotair",
+            "unitPattern-count-few": "{0} heacta-liotairean",
+            "unitPattern-count-other": "{0} heacta-liotair"
           },
           "volume-liter": {
             "displayName": "liotair",
@@ -984,11 +1111,11 @@
             "unitPattern-count-other": "{0} ceudailiotair"
           },
           "volume-milliliter": {
-            "displayName": "mille-liotair",
-            "unitPattern-count-one": "{0} mhille-liotair",
-            "unitPattern-count-two": "{0} mhille-liotair",
-            "unitPattern-count-few": "{0} mille-liotairean",
-            "unitPattern-count-other": "{0} mille-liotair"
+            "displayName": "mililiotair",
+            "unitPattern-count-one": "{0} mhililiotair",
+            "unitPattern-count-two": "{0} mhililiotair",
+            "unitPattern-count-few": "{0} mililiotairean",
+            "unitPattern-count-other": "{0} mililiotair"
           },
           "volume-pint-metric": {
             "displayName": "pinnt meatrach",
@@ -1027,12 +1154,12 @@
             "perUnitPattern": "{0} sa ghalan"
           },
           "volume-gallon-imperial": {
-            "displayName": "galan impireil",
-            "unitPattern-count-one": "{0} ghalan impireil",
-            "unitPattern-count-two": "{0} ghalan impireil",
-            "unitPattern-count-few": "{0} galanan impireil",
-            "unitPattern-count-other": "{0} galan impireil",
-            "perUnitPattern": "{0} sa ghalan impireil"
+            "displayName": "galan ìmpireil",
+            "unitPattern-count-one": "{0} ghalan ìmpireil",
+            "unitPattern-count-two": "{0} ghalan ìmpireil",
+            "unitPattern-count-few": "{0} galanan ìmpireil",
+            "unitPattern-count-other": "{0} galan ìmpireil",
+            "perUnitPattern": "{0} sa ghalan ìmpireil"
           },
           "volume-quart": {
             "displayName": "càrt",
@@ -1063,8 +1190,11 @@
             "unitPattern-count-other": "{0} unnsa-dighe"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "unnsa-dighe ìmpireil",
+            "unitPattern-count-one": "{0} unnsa-dighe ìmpireil",
+            "unitPattern-count-two": "{0} unnsa-dighe ìmpireil",
+            "unitPattern-count-few": "{0} unnsachan-dighe ìmpireil",
+            "unitPattern-count-other": "{0} unnsa-dighe ìmpireil"
           },
           "volume-tablespoon": {
             "displayName": "spàin-bhùird",
@@ -1081,8 +1211,11 @@
             "unitPattern-count-other": "{0} spàin-teatha"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "baraill",
+            "unitPattern-count-one": "{0} bharaill",
+            "unitPattern-count-two": "{0} bharaill",
+            "unitPattern-count-few": "{0} baraillean",
+            "unitPattern-count-other": "{0} baraill"
           },
           "coordinateUnit": {
             "displayName": "comhair combaist",
@@ -1095,6 +1228,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "forsa-g",
@@ -1214,8 +1350,11 @@
             "perUnitPattern": "{0}/òirl²"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "dönüm",
+            "unitPattern-count-one": "{0} dönüm",
+            "unitPattern-count-two": "{0} dhönüm",
+            "unitPattern-count-few": "{0} dönüm",
+            "unitPattern-count-other": "{0} dönüm"
           },
           "concentr-karat": {
             "displayName": "karat",
@@ -1260,12 +1399,18 @@
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "sna deich mìltean",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-two": "{0}‱",
+            "unitPattern-count-few": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "mòl",
+            "unitPattern-count-one": "{0} mòl",
+            "unitPattern-count-two": "{0} mòl",
+            "unitPattern-count-few": "{0} mòl",
+            "unitPattern-count-other": "{0} mòl"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "liotair/km",
@@ -1289,11 +1434,11 @@
             "unitPattern-count-other": "{0} mì/g"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mìle/gal imp.",
-            "unitPattern-count-one": "{0} mhì/gal imp.",
-            "unitPattern-count-two": "{0} mhì/gal imp.",
-            "unitPattern-count-few": "{0} mì/gal imp.",
-            "unitPattern-count-other": "{0} mì/gal imp."
+            "displayName": "mìle/gal ìmp.",
+            "unitPattern-count-one": "{0} mhì/gal ìmp.",
+            "unitPattern-count-two": "{0} mhì/gal ìmp.",
+            "unitPattern-count-few": "{0} mì/gal ìmp.",
+            "unitPattern-count-other": "{0} mì/gal ìmp."
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -1379,6 +1524,13 @@
             "unitPattern-count-few": "{0} li",
             "unitPattern-count-other": "{0} li"
           },
+          "duration-decade": {
+            "displayName": "deich",
+            "unitPattern-count-one": "{0} deich",
+            "unitPattern-count-two": "{0} dheich",
+            "unitPattern-count-few": "{0} deich",
+            "unitPattern-count-other": "{0} deich"
+          },
           "duration-year": {
             "displayName": "bliadhna",
             "unitPattern-count-one": "{0} bhlia",
@@ -1436,7 +1588,7 @@
             "perUnitPattern": "{0}/d"
           },
           "duration-millisecond": {
-            "displayName": "m-dhiog",
+            "displayName": "mili-diog",
             "unitPattern-count-one": "{0} ms",
             "unitPattern-count-two": "{0} ms",
             "unitPattern-count-few": "{0} ms",
@@ -1450,7 +1602,7 @@
             "unitPattern-count-other": "{0} μs"
           },
           "duration-nanosecond": {
-            "displayName": "n-dhiog",
+            "displayName": "nano-diog",
             "unitPattern-count-one": "{0} ns",
             "unitPattern-count-two": "{0} ns",
             "unitPattern-count-few": "{0} ns",
@@ -1527,19 +1679,38 @@
             "unitPattern-count-other": "{0} kWh"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
+            "displayName": "volt-eleactroin",
+            "unitPattern-count-one": "{0} eV",
+            "unitPattern-count-two": "{0} eV",
+            "unitPattern-count-few": "{0} eV",
             "unitPattern-count-other": "{0} eV"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
+            "displayName": "aonad-teasa Breatannach",
+            "unitPattern-count-one": "{0} Btu",
+            "unitPattern-count-two": "{0} Btu",
+            "unitPattern-count-few": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "aonad-teasa nan SA",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-two": "{0} US therm",
+            "unitPattern-count-few": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
-            "displayName": "lbf",
+            "displayName": "punnd-fhorsa",
+            "unitPattern-count-one": "{0} lbf",
+            "unitPattern-count-two": "{0} lbf",
+            "unitPattern-count-few": "{0} lbf",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
-            "displayName": "N",
+            "displayName": "newton",
+            "unitPattern-count-one": "{0} N",
+            "unitPattern-count-two": "{0} N",
+            "unitPattern-count-few": "{0} N",
             "unitPattern-count-other": "{0} N"
           },
           "frequency-gigahertz": {
@@ -1569,6 +1740,55 @@
             "unitPattern-count-two": "{0} Hz",
             "unitPattern-count-few": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-two": "{0} em",
+            "unitPattern-count-few": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-two": "{0} px",
+            "unitPattern-count-few": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "meaga-piogsail",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-two": "{0} MP",
+            "unitPattern-count-few": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-two": "{0} ppcm",
+            "unitPattern-count-few": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-two": "{0} ppi",
+            "unitPattern-count-few": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-two": "{0} dpcm",
+            "unitPattern-count-few": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-two": "{0} dpi",
+            "unitPattern-count-few": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1609,7 +1829,7 @@
             "unitPattern-count-other": "{0} mm"
           },
           "length-micrometer": {
-            "displayName": "µ-mheatair",
+            "displayName": "µ-meatair",
             "unitPattern-count-one": "{0} µm",
             "unitPattern-count-two": "{0} µm",
             "unitPattern-count-few": "{0} µm",
@@ -1716,7 +1936,10 @@
             "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
+            "displayName": "rèideas-grèine",
+            "unitPattern-count-one": "{0} R☉",
+            "unitPattern-count-two": "{0} R☉",
+            "unitPattern-count-few": "{0} R☉",
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
@@ -1727,7 +1950,10 @@
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "boillsgeachd-ghrèine",
+            "unitPattern-count-one": "{0} L☉",
+            "unitPattern-count-two": "{0} L☉",
+            "unitPattern-count-few": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
@@ -1746,7 +1972,7 @@
             "perUnitPattern": "{0}/kg"
           },
           "mass-gram": {
-            "displayName": "grama",
+            "displayName": "gram",
             "unitPattern-count-one": "{0} g",
             "unitPattern-count-two": "{0} g",
             "unitPattern-count-few": "{0} g",
@@ -1812,15 +2038,24 @@
             "unitPattern-count-other": "{0} CD"
           },
           "mass-dalton": {
-            "displayName": "Da",
+            "displayName": "dalton",
+            "unitPattern-count-one": "{0} Da",
+            "unitPattern-count-two": "{0} Da",
+            "unitPattern-count-few": "{0} Da",
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "tomad-talmhainn",
+            "unitPattern-count-one": "{0} M⊕",
+            "unitPattern-count-two": "{0} M⊕",
+            "unitPattern-count-few": "{0} M⊕",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "tomad-grèine",
+            "unitPattern-count-one": "{0} M☉",
+            "unitPattern-count-two": "{0} M☉",
+            "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
           "power-gigawatt": {
@@ -1865,13 +2100,6 @@
             "unitPattern-count-few": "{0} hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0} hPa",
-            "unitPattern-count-two": "{0} hPa",
-            "unitPattern-count-few": "{0} hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
@@ -1893,6 +2121,13 @@
             "unitPattern-count-few": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bàr",
+            "unitPattern-count-one": "{0} bhàr",
+            "unitPattern-count-two": "{0} bhàr",
+            "unitPattern-count-few": "{0} bàr",
+            "unitPattern-count-other": "{0} bàr"
+          },
           "pressure-millibar": {
             "displayName": "mbàr",
             "unitPattern-count-one": "{0} mbàr",
@@ -1907,12 +2142,32 @@
             "unitPattern-count-few": "{0} àile",
             "unitPattern-count-other": "{0} àile"
           },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-two": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0} hPa",
+            "unitPattern-count-two": "{0} hPa",
+            "unitPattern-count-few": "{0} hPa",
+            "unitPattern-count-other": "{0} hPa"
+          },
           "pressure-kilopascal": {
             "displayName": "kPa",
+            "unitPattern-count-one": "{0} kPa",
+            "unitPattern-count-two": "{0} kPa",
+            "unitPattern-count-few": "{0} kPa",
             "unitPattern-count-other": "{0} kPa"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
+            "unitPattern-count-one": "{0} MPa",
+            "unitPattern-count-two": "{0} MPa",
+            "unitPattern-count-few": "{0} MPa",
             "unitPattern-count-other": "{0} MPa"
           },
           "speed-kilometer-per-hour": {
@@ -1973,10 +2228,16 @@
           },
           "torque-pound-foot": {
             "displayName": "lbf⋅ft",
+            "unitPattern-count-one": "{0} lbf⋅ft",
+            "unitPattern-count-two": "{0} lbf⋅ft",
+            "unitPattern-count-few": "{0} lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
+            "unitPattern-count-one": "{0} N⋅m",
+            "unitPattern-count-two": "{0} N⋅m",
+            "unitPattern-count-few": "{0} N⋅m",
             "unitPattern-count-other": "{0} N⋅m"
           },
           "volume-cubic-kilometer": {
@@ -2110,12 +2371,12 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "gal imp.",
-            "unitPattern-count-one": "{0} ghal imp.",
-            "unitPattern-count-two": "{0} ghal imp.",
-            "unitPattern-count-few": "{0} gal imp.",
-            "unitPattern-count-other": "{0} gal imp.",
-            "perUnitPattern": "{0}/gal imp."
+            "displayName": "gal ìmp.",
+            "unitPattern-count-one": "{0} ghal ìmp.",
+            "unitPattern-count-two": "{0} ghal ìmp.",
+            "unitPattern-count-few": "{0} gal ìmp.",
+            "unitPattern-count-other": "{0} gal ìmp.",
+            "perUnitPattern": "{0}/gal ìmp."
           },
           "volume-quart": {
             "displayName": "càrt",
@@ -2146,8 +2407,11 @@
             "unitPattern-count-other": "{0} fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "fl oz ìmp.",
+            "unitPattern-count-one": "{0} fl oz ìmp.",
+            "unitPattern-count-two": "{0} fl oz ìmp.",
+            "unitPattern-count-few": "{0} fl oz ìmp.",
+            "unitPattern-count-other": "{0} fl oz ìmp."
           },
           "volume-tablespoon": {
             "displayName": "spàin",
@@ -2164,7 +2428,10 @@
             "unitPattern-count-other": "{0} sp-t"
           },
           "volume-barrel": {
-            "displayName": "bbl",
+            "displayName": "baraill",
+            "unitPattern-count-one": "{0} bbl",
+            "unitPattern-count-two": "{0} bbl",
+            "unitPattern-count-few": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
           "coordinateUnit": {
@@ -2178,6 +2445,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "forsa-g",
@@ -2297,8 +2567,11 @@
             "perUnitPattern": "{0}/in²"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "dönüm",
+            "unitPattern-count-one": "{0}dönüm",
+            "unitPattern-count-two": "{0}dhönüm",
+            "unitPattern-count-few": "{0}dönüm",
+            "unitPattern-count-other": "{0}dönüm"
           },
           "concentr-karat": {
             "displayName": "karat",
@@ -2343,12 +2616,18 @@
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
+            "displayName": "sna deich mìltean",
+            "unitPattern-count-one": "{0}‱",
+            "unitPattern-count-two": "{0}‱",
+            "unitPattern-count-few": "{0}‱",
             "unitPattern-count-other": "{0}‱"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "mòl",
+            "unitPattern-count-one": "{0}mòl",
+            "unitPattern-count-two": "{0}mòl",
+            "unitPattern-count-few": "{0}mòl",
+            "unitPattern-count-other": "{0}mòl"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "L/km",
@@ -2461,6 +2740,13 @@
             "unitPattern-count-two": "{0}li",
             "unitPattern-count-few": "{0}li",
             "unitPattern-count-other": "{0}li"
+          },
+          "duration-decade": {
+            "displayName": "deich",
+            "unitPattern-count-one": "{0}deich",
+            "unitPattern-count-two": "{0}dheich",
+            "unitPattern-count-few": "{0}deich",
+            "unitPattern-count-other": "{0}deich"
           },
           "duration-year": {
             "displayName": "blia",
@@ -2610,20 +2896,39 @@
             "unitPattern-count-other": "{0}kWh"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "volt-eleactroin",
+            "unitPattern-count-one": "{0}eV",
+            "unitPattern-count-two": "{0}eV",
+            "unitPattern-count-few": "{0}eV",
+            "unitPattern-count-other": "{0}eV"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "aonad-teasa Breatannach",
+            "unitPattern-count-one": "{0}Btu",
+            "unitPattern-count-two": "{0}Btu",
+            "unitPattern-count-few": "{0}Btu",
+            "unitPattern-count-other": "{0}Btu"
+          },
+          "energy-therm-us": {
+            "displayName": "aonad-teasa nan SA",
+            "unitPattern-count-one": "{0}US therm",
+            "unitPattern-count-two": "{0}US therm",
+            "unitPattern-count-few": "{0}US therm",
+            "unitPattern-count-other": "{0}US therm"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "punnd-fhorsa",
+            "unitPattern-count-one": "{0}lbf",
+            "unitPattern-count-two": "{0}lbf",
+            "unitPattern-count-few": "{0}lbf",
+            "unitPattern-count-other": "{0}lbf"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "newton",
+            "unitPattern-count-one": "{0}N",
+            "unitPattern-count-two": "{0}N",
+            "unitPattern-count-few": "{0}N",
+            "unitPattern-count-other": "{0}N"
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
@@ -2652,6 +2957,55 @@
             "unitPattern-count-two": "{0}Hz",
             "unitPattern-count-few": "{0}Hz",
             "unitPattern-count-other": "{0}Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0}em",
+            "unitPattern-count-two": "{0}em",
+            "unitPattern-count-few": "{0}em",
+            "unitPattern-count-other": "{0}em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0}px",
+            "unitPattern-count-two": "{0}px",
+            "unitPattern-count-few": "{0}px",
+            "unitPattern-count-other": "{0}px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0}MP",
+            "unitPattern-count-two": "{0}MP",
+            "unitPattern-count-few": "{0}MP",
+            "unitPattern-count-other": "{0}MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0}ppcm",
+            "unitPattern-count-two": "{0}ppcm",
+            "unitPattern-count-few": "{0}ppcm",
+            "unitPattern-count-other": "{0}ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0}ppi",
+            "unitPattern-count-two": "{0}ppi",
+            "unitPattern-count-few": "{0}ppi",
+            "unitPattern-count-other": "{0}ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0}dpcm",
+            "unitPattern-count-two": "{0}dpcm",
+            "unitPattern-count-few": "{0}dpcm",
+            "unitPattern-count-other": "{0}dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0}dpi",
+            "unitPattern-count-two": "{0}dpi",
+            "unitPattern-count-few": "{0}dpi",
+            "unitPattern-count-other": "{0}dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2772,10 +3126,10 @@
           },
           "length-fathom": {
             "displayName": "aitheamh",
-            "unitPattern-count-one": "{0}fth",
-            "unitPattern-count-two": "{0}fth",
-            "unitPattern-count-few": "{0}fth",
-            "unitPattern-count-other": "{0}fth"
+            "unitPattern-count-one": "{0}aith",
+            "unitPattern-count-two": "{0}aith",
+            "unitPattern-count-few": "{0}aith",
+            "unitPattern-count-other": "{0}aith"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -2799,8 +3153,11 @@
             "unitPattern-count-other": "{0}pt"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "rèideas-grèine",
+            "unitPattern-count-one": "{0}R☉",
+            "unitPattern-count-two": "{0}R☉",
+            "unitPattern-count-few": "{0}R☉",
+            "unitPattern-count-other": "{0}R☉"
           },
           "light-lux": {
             "displayName": "lux",
@@ -2810,8 +3167,11 @@
             "unitPattern-count-other": "{0}lx"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "boillsgeachd-ghrèine",
+            "unitPattern-count-one": "{0}L☉",
+            "unitPattern-count-two": "{0}L☉",
+            "unitPattern-count-few": "{0}L☉",
+            "unitPattern-count-other": "{0}L☉"
           },
           "mass-metric-ton": {
             "displayName": "t",
@@ -2829,7 +3189,7 @@
             "perUnitPattern": "{0}/kg"
           },
           "mass-gram": {
-            "displayName": "grama",
+            "displayName": "gram",
             "unitPattern-count-one": "{0}g",
             "unitPattern-count-two": "{0}g",
             "unitPattern-count-few": "{0}g",
@@ -2896,15 +3256,24 @@
           },
           "mass-dalton": {
             "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "unitPattern-count-one": "{0}Da",
+            "unitPattern-count-two": "{0}Da",
+            "unitPattern-count-few": "{0}Da",
+            "unitPattern-count-other": "{0}Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "tomad-talmhainn",
+            "unitPattern-count-one": "{0}M⊕",
+            "unitPattern-count-two": "{0}M⊕",
+            "unitPattern-count-few": "{0}M⊕",
+            "unitPattern-count-other": "{0}M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "tomad-grèine",
+            "unitPattern-count-one": "{0}M☉",
+            "unitPattern-count-two": "{0}M☉",
+            "unitPattern-count-few": "{0}M☉",
+            "unitPattern-count-other": "{0}M☉"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2948,13 +3317,6 @@
             "unitPattern-count-few": "{0}hp",
             "unitPattern-count-other": "{0}hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-one": "{0}hPa",
-            "unitPattern-count-two": "{0}hPa",
-            "unitPattern-count-few": "{0}hPa",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0}mm Hg",
@@ -2976,6 +3338,13 @@
             "unitPattern-count-few": "{0}″ Hg",
             "unitPattern-count-other": "{0}″ Hg"
           },
+          "pressure-bar": {
+            "displayName": "bàr",
+            "unitPattern-count-one": "{0}bhàr",
+            "unitPattern-count-two": "{0}bhàr",
+            "unitPattern-count-few": "{0}bàr",
+            "unitPattern-count-other": "{0}bàr"
+          },
           "pressure-millibar": {
             "displayName": "mbàr",
             "unitPattern-count-one": "{0}mb",
@@ -2990,13 +3359,33 @@
             "unitPattern-count-few": "{0}atm",
             "unitPattern-count-other": "{0}atm"
           },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0}Pa",
+            "unitPattern-count-two": "{0}Pa",
+            "unitPattern-count-few": "{0}Pa",
+            "unitPattern-count-other": "{0}Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-one": "{0}hPa",
+            "unitPattern-count-two": "{0}hPa",
+            "unitPattern-count-few": "{0}hPa",
+            "unitPattern-count-other": "{0}hPa"
+          },
           "pressure-kilopascal": {
             "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "unitPattern-count-one": "{0}kPa",
+            "unitPattern-count-two": "{0}kPa",
+            "unitPattern-count-few": "{0}kPa",
+            "unitPattern-count-other": "{0}kPa"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "unitPattern-count-one": "{0}MPa",
+            "unitPattern-count-two": "{0}MPa",
+            "unitPattern-count-few": "{0}MPa",
+            "unitPattern-count-other": "{0}MPa"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
@@ -3056,11 +3445,17 @@
           },
           "torque-pound-foot": {
             "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "unitPattern-count-one": "{0}lbf⋅ft",
+            "unitPattern-count-two": "{0}lbf⋅ft",
+            "unitPattern-count-few": "{0}lbf⋅ft",
+            "unitPattern-count-other": "{0}lbf⋅ft"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "unitPattern-count-one": "{0}N⋅m",
+            "unitPattern-count-two": "{0}N⋅m",
+            "unitPattern-count-few": "{0}N⋅m",
+            "unitPattern-count-other": "{0}N⋅m"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -3193,12 +3588,12 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "gal imp.",
-            "unitPattern-count-one": "{0} ghal i.",
-            "unitPattern-count-two": "{0} ghal i.",
-            "unitPattern-count-few": "{0} gal i.",
-            "unitPattern-count-other": "{0} gal i.",
-            "perUnitPattern": "{0}/gal i."
+            "displayName": "gal ìmp.",
+            "unitPattern-count-one": "{0} ghal ì.",
+            "unitPattern-count-two": "{0} ghal ì.",
+            "unitPattern-count-few": "{0} gal ì.",
+            "unitPattern-count-other": "{0} gal ì.",
+            "perUnitPattern": "{0}/gal ì."
           },
           "volume-quart": {
             "displayName": "càrt",
@@ -3229,8 +3624,11 @@
             "unitPattern-count-other": "{0}fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "fl oz ìmp.",
+            "unitPattern-count-one": "{0}fl oz ì.",
+            "unitPattern-count-two": "{0}fl oz ì.",
+            "unitPattern-count-few": "{0}fl oz ì.",
+            "unitPattern-count-other": "{0}fl oz ì."
           },
           "volume-tablespoon": {
             "displayName": "sp",
@@ -3247,8 +3645,11 @@
             "unitPattern-count-other": "{0}sp-t"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "baraill",
+            "unitPattern-count-one": "{0}bbl",
+            "unitPattern-count-two": "{0}bbl",
+            "unitPattern-count-few": "{0}bbl",
+            "unitPattern-count-other": "{0}bbl"
           },
           "coordinateUnit": {
             "displayName": "comhair",

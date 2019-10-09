@@ -3,8 +3,7 @@
     "pa-Guru": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14771 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "pa",
         "script": "Guru"
@@ -13,6 +12,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} ਪ੍ਰਤੀ {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "ਗੁਰੂਤਾਕਰਸ਼ਣ ਬਲ",
@@ -224,6 +226,11 @@
             "unitPattern-count-one": "{0} ਸਦੀ",
             "unitPattern-count-other": "{0} ਸਦੀਆਂ"
           },
+          "duration-decade": {
+            "displayName": "ਦਹਾਕੇ",
+            "unitPattern-count-one": "{0} ਦਹਾਕਾ",
+            "unitPattern-count-other": "{0} ਦਹਾਕੇ"
+          },
           "duration-year": {
             "displayName": "ਸਾਲ",
             "unitPattern-count-one": "{0} ਸਾਲ",
@@ -341,6 +348,11 @@
             "unitPattern-count-one": "{0} ਬਰਤਾਨਵੀ ਤਾਪ ਇਕਾਈ",
             "unitPattern-count-other": "{0} ਬਰਤਾਨਵੀ ਤਾਪ ਇਕਾਈ"
           },
+          "energy-therm-us": {
+            "displayName": "US therms",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ ਬਲ",
             "unitPattern-count-one": "{0} ਪੌਂਡ ਬਲ",
@@ -370,6 +382,41 @@
             "displayName": "ਹਰਟਜ਼",
             "unitPattern-count-one": "{0} ਹਰਟਜ਼",
             "unitPattern-count-other": "{0} ਹਰਟਜ਼"
+          },
+          "graphics-em": {
+            "displayName": "ਟਾਈਪੋਗ੍ਰਾਫ਼ਿਕ ਐਮ",
+            "unitPattern-count-one": "{0} ਟਾਈਪੋਗ੍ਰਾਫ਼ਿਕ ਐਮ",
+            "unitPattern-count-other": "{0} ਟਾਈਪੋਗ੍ਰਾਫ਼ਿਕ ਐਮ"
+          },
+          "graphics-pixel": {
+            "displayName": "ਪਿਕਸਲ",
+            "unitPattern-count-one": "{0} ਪਿਕਸਲ",
+            "unitPattern-count-other": "{0} ਪਿਕਸਲ"
+          },
+          "graphics-megapixel": {
+            "displayName": "ਮੈਗਾਪਿਕਸਲ",
+            "unitPattern-count-one": "{0} ਮੈਗਾਪਿਕਸਲ",
+            "unitPattern-count-other": "{0} ਮੈਗਾਪਿਕਸਲ"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ਪਿਕਸਲ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ",
+            "unitPattern-count-one": "{0} ਪਿਕਸਲ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ",
+            "unitPattern-count-other": "{0} ਪਿਕਸਲ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ਪਿਕਸਲ ਪ੍ਰਤੀ ਇੰਚ",
+            "unitPattern-count-one": "{0} ਪਿਕਸਲ ਪ੍ਰਤੀ ਇੰਚ",
+            "unitPattern-count-other": "{0} ਪਿਕਸਲ ਪ੍ਰਤੀ ਇੰਚ"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "ਡਾਟ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ",
+            "unitPattern-count-one": "{0} ਡਾਟ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ",
+            "unitPattern-count-other": "{0} ਡਾਟ ਪ੍ਰਤੀ ਸੈਂਟੀਮੀਟਰ"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ",
+            "unitPattern-count-one": "{0} ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ",
+            "unitPattern-count-other": "{0} ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ"
           },
           "length-kilometer": {
             "displayName": "ਕਿਲੋਮੀਟਰ",
@@ -595,11 +642,6 @@
             "unitPattern-count-one": "{0} ਹੌਰਸਪਾਵਰ",
             "unitPattern-count-other": "{0} ਹੌਰਸਪਾਵਰ"
           },
-          "pressure-hectopascal": {
-            "displayName": "ਹੈਕਟੋਪਾਸਕਲ",
-            "unitPattern-count-one": "{0} ਹੈਕਟੋਪਾਸਕਲ",
-            "unitPattern-count-other": "{0} ਹੈਕਟੋਪਾਸਕਲ"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ਮਿਲੀਮੀਟਰ ਪਾਰਾ",
             "unitPattern-count-one": "{0} ਮਿਲੀਮੀਟਰ ਪਾਰਾ",
@@ -615,6 +657,11 @@
             "unitPattern-count-one": "{0} ਇੰਚ ਪਾਰਾ",
             "unitPattern-count-other": "{0} ਇੰਚ ਪਾਰਾ"
           },
+          "pressure-bar": {
+            "displayName": "ਬਾਰ",
+            "unitPattern-count-one": "{0} ਬਾਰ",
+            "unitPattern-count-other": "{0} ਬਾਰ"
+          },
           "pressure-millibar": {
             "displayName": "ਮਿਲੀਬਾਰ",
             "unitPattern-count-one": "{0} ਮਿਲੀਬਾਰ",
@@ -624,6 +671,16 @@
             "displayName": "ਵਾਯੂਮੰਡਲ",
             "unitPattern-count-one": "{0} ਵਾਯੂਮੰਡਲ",
             "unitPattern-count-other": "{0} ਵਾਯੂਮੰਡਲ"
+          },
+          "pressure-pascal": {
+            "displayName": "ਪੈਸਕਲ",
+            "unitPattern-count-one": "{0} ਪੈਸਕਲ",
+            "unitPattern-count-other": "{0} ਪੈਸਕਲ"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ਹੈਕਟੋਪਾਸਕਲ",
+            "unitPattern-count-one": "{0} ਹੈਕਟੋਪਾਸਕਲ",
+            "unitPattern-count-other": "{0} ਹੈਕਟੋਪਾਸਕਲ"
           },
           "pressure-kilopascal": {
             "displayName": "ਕਿੱਲੋਪਾਸਕਲ",
@@ -657,6 +714,7 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -826,18 +884,22 @@
           },
           "coordinateUnit": {
             "displayName": "ਮੁੱਖ ਦਿਸ਼ਾ",
-            "east": "{0}ਪੂ",
-            "north": "{0}ਉ",
-            "south": "{0}ਦੱ",
-            "west": "{0}ਪੱ"
+            "east": "{0} ਪੂਰਬ",
+            "north": "{0} ਉੱਤਰ",
+            "south": "{0} ਦੱਖਣ",
+            "west": "{0} ਪੱਛਮ"
           }
         },
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ਗੁਰੂਤਾਕਰਸ਼ਣ ਬਲ",
+            "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-second-squared": {
@@ -942,14 +1004,17 @@
           },
           "concentr-part-per-million": {
             "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
             "displayName": "ਪ੍ਰਤੀਸ਼ਤ",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ਪਰਮਾਈਲ",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -984,38 +1049,47 @@
           },
           "digital-petabyte": {
             "displayName": "ਪੈਟਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
             "displayName": "ਟੈਰਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} TB",
             "unitPattern-count-other": "{0} TB"
           },
           "digital-terabit": {
             "displayName": "ਟੇਰਾਬਿਟ",
+            "unitPattern-count-one": "{0} Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
             "displayName": "ਗੀਗਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} GB",
             "unitPattern-count-other": "{0} GB"
           },
           "digital-gigabit": {
             "displayName": "Gbit",
+            "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-other": "{0} Gb"
           },
           "digital-megabyte": {
             "displayName": "ਮੈਗਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} MB",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
             "displayName": "ਮੈਗਾਬਿਟ",
+            "unitPattern-count-one": "{0} Mb",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
             "displayName": "ਕਿਲੋਬਾਇਟ",
+            "unitPattern-count-one": "{0} kB",
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
             "displayName": "ਕਿਲੋਬਿਟ",
+            "unitPattern-count-one": "{0} kb",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -1032,6 +1106,11 @@
             "displayName": "ਸਦੀ",
             "unitPattern-count-one": "{0} ਸਦੀ",
             "unitPattern-count-other": "{0} ਸਦੀ"
+          },
+          "duration-decade": {
+            "displayName": "ਦਹਾ",
+            "unitPattern-count-one": "{0} ਦਹਾ",
+            "unitPattern-count-other": "{0} ਦਹਾ"
           },
           "duration-year": {
             "displayName": "ਸਾਲ",
@@ -1082,26 +1161,32 @@
           },
           "duration-microsecond": {
             "displayName": "ਮਾਈਕਰੋਸਕਿੰਟ",
+            "unitPattern-count-one": "{0} μs",
             "unitPattern-count-other": "{0} μs"
           },
           "duration-nanosecond": {
             "displayName": "ਨੈਨੋਸਕਿੰਟ",
+            "unitPattern-count-one": "{0} ns",
             "unitPattern-count-other": "{0} ns"
           },
           "electric-ampere": {
             "displayName": "ਐਮਪੀਅਰ",
+            "unitPattern-count-one": "{0} A",
             "unitPattern-count-other": "{0} A"
           },
           "electric-milliampere": {
             "displayName": "ਮਿਲੀਐਮਪੀਅਰ",
+            "unitPattern-count-one": "{0} mA",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
             "displayName": "ਓਹਮ",
+            "unitPattern-count-one": "{0} Ω",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
             "displayName": "ਵੋਲਟ",
+            "unitPattern-count-one": "{0} V",
             "unitPattern-count-other": "{0} V"
           },
           "energy-kilocalorie": {
@@ -1126,6 +1211,7 @@
           },
           "energy-joule": {
             "displayName": "ਜੂਲ",
+            "unitPattern-count-one": "{0} J",
             "unitPattern-count-other": "{0} J"
           },
           "energy-kilowatt-hour": {
@@ -1143,6 +1229,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ-ਬਲ",
             "unitPattern-count-one": "{0} lbf",
@@ -1155,19 +1246,58 @@
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
+            "unitPattern-count-one": "{0} GHz",
             "unitPattern-count-other": "{0} GHz"
           },
           "frequency-megahertz": {
             "displayName": "MHz",
+            "unitPattern-count-one": "{0} MHz",
             "unitPattern-count-other": "{0} MHz"
           },
           "frequency-kilohertz": {
             "displayName": "kHz",
+            "unitPattern-count-one": "{0} kHz",
             "unitPattern-count-other": "{0} kHz"
           },
           "frequency-hertz": {
             "displayName": "Hz",
+            "unitPattern-count-one": "{0} Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ਕਿ.ਮੀ.",
@@ -1199,6 +1329,7 @@
           },
           "length-micrometer": {
             "displayName": "ਮਾਈਕਰੋਮੀਟਰ",
+            "unitPattern-count-one": "{0} µm",
             "unitPattern-count-other": "{0} µm"
           },
           "length-nanometer": {
@@ -1245,6 +1376,7 @@
           },
           "length-astronomical-unit": {
             "displayName": "au",
+            "unitPattern-count-one": "{0} au",
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
@@ -1269,6 +1401,7 @@
           },
           "length-point": {
             "displayName": "ਪੁਆਇੰਟ",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
@@ -1288,6 +1421,7 @@
           },
           "mass-metric-ton": {
             "displayName": "t",
+            "unitPattern-count-one": "{0} t",
             "unitPattern-count-other": "{0} t"
           },
           "mass-kilogram": {
@@ -1309,6 +1443,7 @@
           },
           "mass-microgram": {
             "displayName": "µg",
+            "unitPattern-count-one": "{0} µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
@@ -1388,11 +1523,6 @@
             "unitPattern-count-one": "{0} ਹੌਰਸਪਾਵਰ",
             "unitPattern-count-other": "{0} ਹੌਰਸਪਾਵਰ"
           },
-          "pressure-hectopascal": {
-            "displayName": "ਹੈ.ਪਾ.",
-            "unitPattern-count-one": "{0} ਹੈ.ਪਾ.",
-            "unitPattern-count-other": "{0} ਹੈ.ਪਾ."
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ਮਿ.ਮੀ. ਪਾਰਾ",
             "unitPattern-count-one": "{0} ਮਿ.ਮੀ. ਪਾਰਾ",
@@ -1408,6 +1538,11 @@
             "unitPattern-count-one": "{0} ਇੰਚ ਪਾਰਾ",
             "unitPattern-count-other": "{0} ਇੰਚ ਪਾਰਾ"
           },
+          "pressure-bar": {
+            "displayName": "ਬਾਰ",
+            "unitPattern-count-one": "{0} ਬਾਰ",
+            "unitPattern-count-other": "{0} ਬਾਰ"
+          },
           "pressure-millibar": {
             "displayName": "ਮਿਲੀਬਾਰ",
             "unitPattern-count-one": "{0} ਮਿਲੀਬਾਰ",
@@ -1417,6 +1552,16 @@
             "displayName": "ਵਾ. ਮੰ.",
             "unitPattern-count-one": "{0} ਵਾ. ਮੰ.",
             "unitPattern-count-other": "{0} ਵਾ. ਮੰ."
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ਹੈ.ਪਾ.",
+            "unitPattern-count-one": "{0} ਹੈ.ਪਾ.",
+            "unitPattern-count-other": "{0} ਹੈ.ਪਾ."
           },
           "pressure-kilopascal": {
             "displayName": "ਕਿ.ਪਾ",
@@ -1445,22 +1590,27 @@
           },
           "speed-knot": {
             "displayName": "kn",
+            "unitPattern-count-one": "{0} kn",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "ਦਰਜਾ ਸੈਲਸੀਅਸ",
+            "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "ਦਰਜਾ ਫਾਰੇਨਹਾਈਟ",
+            "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {
             "displayName": "K",
+            "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-foot": {
@@ -1625,6 +1775,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "ਗੁਰੂਤਾਕਰਸ਼ਣ ਬਲ",
             "unitPattern-count-one": "{0}G",
@@ -1732,14 +1885,17 @@
           },
           "concentr-part-per-million": {
             "displayName": "ਹਿੱਸੇ/ਮਿਲੀਅਨ",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
             "displayName": "ਪ੍ਰਤੀਸ਼ਤ",
+            "unitPattern-count-one": "{0}%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
             "displayName": "ਪਰਮਾਈਲ",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -1774,6 +1930,7 @@
           },
           "digital-petabyte": {
             "displayName": "ਪੈਟਾਬਾਇਟ",
+            "unitPattern-count-one": "{0} PB",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1830,6 +1987,11 @@
             "displayName": "ਸਦੀ",
             "unitPattern-count-one": "{0} ਸਦੀ",
             "unitPattern-count-other": "{0} ਸਦੀ"
+          },
+          "duration-decade": {
+            "displayName": "ਦਹਾ",
+            "unitPattern-count-one": "{0} ਦਹਾ",
+            "unitPattern-count-other": "{0} ਦਹਾ"
           },
           "duration-year": {
             "displayName": "ਸਾਲ",
@@ -1948,6 +2110,11 @@
             "unitPattern-count-one": "{0} Btu",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "US therm",
+            "unitPattern-count-one": "{0} US therm",
+            "unitPattern-count-other": "{0} US therm"
+          },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ-ਬਲ",
             "unitPattern-count-one": "{0} lbf",
@@ -1977,6 +2144,41 @@
             "displayName": "Hz",
             "unitPattern-count-one": "{0}Hz",
             "unitPattern-count-other": "{0}Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "ਕਿ.ਮੀ.",
@@ -2008,6 +2210,7 @@
           },
           "length-micrometer": {
             "displayName": "ਮਾਇਕ੍ਰੋ. ਮੀ.",
+            "unitPattern-count-one": "{0} µm",
             "unitPattern-count-other": "{0} µm"
           },
           "length-nanometer": {
@@ -2079,6 +2282,7 @@
           },
           "length-point": {
             "displayName": "ਪੁਆਇੰਟ",
+            "unitPattern-count-one": "{0} pt",
             "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
@@ -2098,6 +2302,7 @@
           },
           "mass-metric-ton": {
             "displayName": "t",
+            "unitPattern-count-one": "{0} t",
             "unitPattern-count-other": "{0} t"
           },
           "mass-kilogram": {
@@ -2119,6 +2324,7 @@
           },
           "mass-microgram": {
             "displayName": "µg",
+            "unitPattern-count-one": "{0} µg",
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
@@ -2198,11 +2404,6 @@
             "unitPattern-count-one": "{0}hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "ਹੈ.ਪਾ.",
-            "unitPattern-count-one": "{0} ਹੈ.ਪਾ.",
-            "unitPattern-count-other": "{0} ਹੈ.ਪਾ."
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "ਮਿ.ਮੀ. ਪਾਰਾ",
             "unitPattern-count-one": "{0} ਮਿ.ਮੀ. ਪਾਰਾ",
@@ -2218,6 +2419,11 @@
             "unitPattern-count-one": "{0}\\\" ਪਾਰਾ",
             "unitPattern-count-other": "{0}\\\" ਪਾਰਾ"
           },
+          "pressure-bar": {
+            "displayName": "ਬਾਰ",
+            "unitPattern-count-one": "{0} ਬਾਰ",
+            "unitPattern-count-other": "{0} ਬਾਰ"
+          },
           "pressure-millibar": {
             "displayName": "ਮਿਲੀਬਾਰ",
             "unitPattern-count-one": "{0} ਮਿ.ਬਾ.",
@@ -2227,6 +2433,16 @@
             "displayName": "ਵਾ. ਮੰ.",
             "unitPattern-count-one": "{0} ਵਾ. ਮੰ.",
             "unitPattern-count-other": "{0} ਵਾ. ਮੰ."
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "ਹੈ.ਪਾ.",
+            "unitPattern-count-one": "{0} ਹੈ.ਪਾ.",
+            "unitPattern-count-other": "{0} ਹੈ.ਪਾ."
           },
           "pressure-kilopascal": {
             "displayName": "ਕਿ.ਪਾ",
@@ -2255,14 +2471,17 @@
           },
           "speed-knot": {
             "displayName": "kn",
+            "unitPattern-count-one": "{0} kn",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
-            "displayName": "ਦਰਜਾ ਸੈਲਸੀਅਸ",
+            "displayName": "°C",
+            "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {

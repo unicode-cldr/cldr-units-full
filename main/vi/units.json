@@ -3,8 +3,7 @@
     "vi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "vi"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "lực g",
@@ -131,7 +133,7 @@
             "unitPattern-count-other": "{0} dặm/gallon"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
+            "displayName": "dặm/galông Anh",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
@@ -181,6 +183,10 @@
           "duration-century": {
             "displayName": "thế kỷ",
             "unitPattern-count-other": "{0} thế kỷ"
+          },
+          "duration-decade": {
+            "displayName": "thập kỷ",
+            "unitPattern-count-other": "{0} thập kỷ"
           },
           "duration-year": {
             "displayName": "năm",
@@ -238,7 +244,7 @@
             "unitPattern-count-other": "{0} mili ampe"
           },
           "electric-ohm": {
-            "displayName": "Ω",
+            "displayName": "ohm",
             "unitPattern-count-other": "{0} ohm"
           },
           "electric-volt": {
@@ -277,6 +283,10 @@
             "displayName": "đơn vị nhiệt Anh",
             "unitPattern-count-other": "{0} đơn vị nhiệt Anh"
           },
+          "energy-therm-us": {
+            "displayName": "đơn vị nhiệt Mỹ",
+            "unitPattern-count-other": "{0} đơn vị nhiệt Mỹ"
+          },
           "force-pound-force": {
             "displayName": "pound lực",
             "unitPattern-count-other": "{0} pound lực"
@@ -300,6 +310,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "pixel",
+            "unitPattern-count-other": "{0} pixel"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-other": "{0} megapixel"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "pixel/xentimét",
+            "unitPattern-count-other": "{0} pixel/xentimét"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "pixel/inch",
+            "unitPattern-count-other": "{0} pixel/inch"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "chấm/xentimét",
+            "unitPattern-count-other": "{0} chấm/xentimét"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "chấm/inch",
+            "unitPattern-count-other": "{0} chấm/inch"
           },
           "length-kilometer": {
             "displayName": "kilômét",
@@ -363,8 +401,8 @@
             "unitPattern-count-other": "{0} năm ánh sáng"
           },
           "length-astronomical-unit": {
-            "displayName": "au",
-            "unitPattern-count-other": "{0} au"
+            "displayName": "đơn vị thiên văn",
+            "unitPattern-count-other": "{0} đơn vị thiên văn"
           },
           "length-furlong": {
             "displayName": "fur",
@@ -399,8 +437,8 @@
             "unitPattern-count-other": "{0} độ sáng của mặt trời"
           },
           "mass-metric-ton": {
-            "displayName": "MT",
-            "unitPattern-count-other": "{0} MT"
+            "displayName": "tấn hệ mét",
+            "unitPattern-count-other": "{0} tấn hệ mét"
           },
           "mass-kilogram": {
             "displayName": "kilôgam",
@@ -434,13 +472,13 @@
             "perUnitPattern": "{0}/lb"
           },
           "mass-ounce": {
-            "displayName": "oz",
-            "unitPattern-count-other": "{0} oz",
-            "perUnitPattern": "{0}/oz"
+            "displayName": "aoxơ",
+            "unitPattern-count-other": "{0} aoxơ",
+            "perUnitPattern": "{0}/aoxơ"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
-            "unitPattern-count-other": "{0} oz t"
+            "displayName": "troi ao-xơ",
+            "unitPattern-count-other": "{0} troi ao-xơ"
           },
           "mass-carat": {
             "displayName": "carat",
@@ -482,21 +520,21 @@
             "displayName": "mã lực",
             "unitPattern-count-other": "{0} mã lực"
           },
-          "pressure-hectopascal": {
-            "displayName": "héctô pascal",
-            "unitPattern-count-other": "{0} héctô pascal"
-          },
           "pressure-millimeter-of-mercury": {
-            "displayName": "mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "milimét thủy ngân",
+            "unitPattern-count-other": "{0} milimét thủy ngân"
           },
           "pressure-pound-per-square-inch": {
-            "displayName": "psi",
-            "unitPattern-count-other": "{0} psi"
+            "displayName": "pound/inch vuông",
+            "unitPattern-count-other": "{0} pound/inch vuông"
           },
           "pressure-inch-hg": {
             "displayName": "inch thủy ngân",
             "unitPattern-count-other": "{0} inch thủy ngân"
+          },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
           },
           "pressure-millibar": {
             "displayName": "millibar",
@@ -505,6 +543,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} átmốtphe"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "héctô pascal",
+            "unitPattern-count-other": "{0} héctô pascal"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -640,16 +686,16 @@
             "unitPattern-count-other": "{0} quart"
           },
           "volume-pint": {
-            "displayName": "pint",
-            "unitPattern-count-other": "{0} pint"
+            "displayName": "panh",
+            "unitPattern-count-other": "{0} panh"
           },
           "volume-cup": {
             "displayName": "c",
             "unitPattern-count-other": "{0} cup"
           },
           "volume-fluid-ounce": {
-            "displayName": "fl oz",
-            "unitPattern-count-other": "{0} fl oz"
+            "displayName": "aoxơ chất lỏng",
+            "unitPattern-count-other": "{0} aoxơ chất lỏng"
           },
           "volume-fluid-ounce-imperial": {
             "displayName": "Aoxơ chất lỏng theo hệ đo lường Anh",
@@ -679,6 +725,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "lực g",
             "unitPattern-count-other": "{0} G"
@@ -688,8 +737,8 @@
             "unitPattern-count-other": "{0} m/s²"
           },
           "angle-revolution": {
-            "displayName": "rev",
-            "unitPattern-count-other": "{0} rev"
+            "displayName": "vòng",
+            "unitPattern-count-other": "{0} vòng"
           },
           "angle-radian": {
             "displayName": "rad",
@@ -848,6 +897,10 @@
             "displayName": "thế kỷ",
             "unitPattern-count-other": "{0} thế kỷ"
           },
+          "duration-decade": {
+            "displayName": "thập kỷ",
+            "unitPattern-count-other": "{0} thập kỷ"
+          },
           "duration-year": {
             "displayName": "năm",
             "unitPattern-count-other": "{0} năm",
@@ -943,6 +996,10 @@
             "displayName": "BTU",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "therm Mỹ",
+            "unitPattern-count-other": "{0} therm Mỹ"
+          },
           "force-pound-force": {
             "displayName": "pound-lực",
             "unitPattern-count-other": "{0} lbf"
@@ -966,6 +1023,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1105,12 +1190,12 @@
             "perUnitPattern": "{0}/oz"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
-            "unitPattern-count-other": "{0} oz t"
+            "displayName": "ozt",
+            "unitPattern-count-other": "{0} ozt"
           },
           "mass-carat": {
-            "displayName": "CD",
-            "unitPattern-count-other": "{0} CD"
+            "displayName": "cara",
+            "unitPattern-count-other": "{0} CT"
           },
           "mass-dalton": {
             "displayName": "dalton",
@@ -1148,10 +1233,6 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
@@ -1164,6 +1245,10 @@
             "displayName": "inHg",
             "unitPattern-count-other": "{0} inHg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-other": "{0} mbar"
@@ -1171,6 +1256,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1294,7 +1387,7 @@
           "volume-gallon": {
             "displayName": "gal",
             "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "perUnitPattern": "{0}/gal Mỹ"
           },
           "volume-gallon-imperial": {
             "displayName": "gal Anh",
@@ -1318,8 +1411,8 @@
             "unitPattern-count-other": "{0} fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "fl oz Anh",
+            "unitPattern-count-other": "{0} fl oz Anh"
           },
           "volume-tablespoon": {
             "displayName": "thìa xúp",
@@ -1345,6 +1438,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "lực g",
             "unitPattern-count-other": "{0}G"
@@ -1354,8 +1450,8 @@
             "unitPattern-count-other": "{0} m/s²"
           },
           "angle-revolution": {
-            "displayName": "rev",
-            "unitPattern-count-other": "{0} rev"
+            "displayName": "vòng",
+            "unitPattern-count-other": "{0} vòng"
           },
           "angle-radian": {
             "displayName": "rad",
@@ -1514,6 +1610,10 @@
             "displayName": "thế kỷ",
             "unitPattern-count-other": "{0} thế kỷ"
           },
+          "duration-decade": {
+            "displayName": "thập kỷ",
+            "unitPattern-count-other": "{0} thập kỷ"
+          },
           "duration-year": {
             "displayName": "năm",
             "unitPattern-count-other": "{0} năm",
@@ -1609,6 +1709,10 @@
             "displayName": "BTU",
             "unitPattern-count-other": "{0} Btu"
           },
+          "energy-therm-us": {
+            "displayName": "therm Mỹ",
+            "unitPattern-count-other": "{0} therm Mỹ"
+          },
           "force-pound-force": {
             "displayName": "pound-lực",
             "unitPattern-count-other": "{0} lbf"
@@ -1632,6 +1736,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "megapixel",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-other": "{0} dpi"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1771,12 +1903,12 @@
             "perUnitPattern": "{0}/oz"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
-            "unitPattern-count-other": "{0} oz t"
+            "displayName": "ozt",
+            "unitPattern-count-other": "{0} ozt"
           },
           "mass-carat": {
-            "displayName": "CD",
-            "unitPattern-count-other": "{0} CD"
+            "displayName": "cara",
+            "unitPattern-count-other": "{0} CT"
           },
           "mass-dalton": {
             "displayName": "dalton",
@@ -1814,10 +1946,6 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0}hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
@@ -1830,6 +1958,10 @@
             "displayName": "inHg",
             "unitPattern-count-other": "{0}\\\" Hg"
           },
+          "pressure-bar": {
+            "displayName": "bar",
+            "unitPattern-count-other": "{0} bar"
+          },
           "pressure-millibar": {
             "displayName": "mbar",
             "unitPattern-count-other": "{0}mb"
@@ -1837,6 +1969,14 @@
           "pressure-atmosphere": {
             "displayName": "atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-other": "{0}hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
@@ -1960,7 +2100,7 @@
           "volume-gallon": {
             "displayName": "gal",
             "unitPattern-count-other": "{0} gal",
-            "perUnitPattern": "{0}/gal"
+            "perUnitPattern": "{0}/gal Mỹ"
           },
           "volume-gallon-imperial": {
             "displayName": "gal Anh",
@@ -1984,7 +2124,7 @@
             "unitPattern-count-other": "{0} fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Oz",
+            "displayName": "fl oz Anh",
             "unitPattern-count-other": "{0} fl ozIm"
           },
           "volume-tablespoon": {

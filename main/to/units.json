@@ -3,8 +3,7 @@
     "to": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14782 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "to"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} ʻi he {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "k-mālohi",
@@ -53,12 +55,12 @@
           "area-square-meter": {
             "displayName": "mita sikuea ʻe",
             "unitPattern-count-other": "mita sikuea ʻe {0}",
-            "perUnitPattern": "{0}/m²"
+            "perUnitPattern": "{0} he mita sikuea"
           },
           "area-square-centimeter": {
             "displayName": "senitimita sikuea",
             "unitPattern-count-other": "senitimita sikuea ʻe {0}",
-            "perUnitPattern": "{0}/cm²"
+            "perUnitPattern": "{0} he senitimita sikuea"
           },
           "area-square-mile": {
             "displayName": "maile sikuea",
@@ -80,11 +82,11 @@
           "area-square-inch": {
             "displayName": "ʻinisi sikuea",
             "unitPattern-count-other": "ʻinisi sikuea ʻe {0}",
-            "perUnitPattern": "{0}/in²"
+            "perUnitPattern": "{0} he ʻinisi sikuea"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "tunami",
+            "unitPattern-count-other": "tunami ʻe {0}"
           },
           "concentr-karat": {
             "displayName": "kalati",
@@ -103,20 +105,20 @@
             "unitPattern-count-other": "konga ʻe {0} he miliona"
           },
           "concentr-percent": {
-            "displayName": "%",
-            "unitPattern-count-other": "{0}%"
+            "displayName": "peseti",
+            "unitPattern-count-other": "peseti ʻe {0}"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "pemili",
+            "unitPattern-count-other": "pemili ʻe {0}"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "pemano",
+            "unitPattern-count-other": "pemano ʻe {0}"
           },
           "concentr-mole": {
-            "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "displayName": "molo",
+            "unitPattern-count-other": "molo ʻe {0}"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "lita he kilomita",
@@ -135,8 +137,8 @@
             "unitPattern-count-other": "maile ʻe {0} he kālani fakaʻemipaea"
           },
           "digital-petabyte": {
-            "displayName": "PB",
-            "unitPattern-count-other": "PB ʻe {0}"
+            "displayName": "petapaiti",
+            "unitPattern-count-other": "petapaiti ʻe {0}"
           },
           "digital-terabyte": {
             "displayName": "telapaiti",
@@ -179,28 +181,32 @@
             "unitPattern-count-other": "piti ʻe {0}"
           },
           "duration-century": {
-            "displayName": "c",
-            "unitPattern-count-other": "{0} c"
+            "displayName": "teautaʻu",
+            "unitPattern-count-other": "teautaʻu ʻe {0}"
+          },
+          "duration-decade": {
+            "displayName": "honofuluʻitaʻu",
+            "unitPattern-count-other": "honofuluʻitaʻu ʻe {0}"
           },
           "duration-year": {
             "displayName": "taʻu",
             "unitPattern-count-other": "taʻu ʻe {0}",
-            "perUnitPattern": "{0}/y"
+            "perUnitPattern": "{0} he taʻu"
           },
           "duration-month": {
             "displayName": "māhina",
             "unitPattern-count-other": "māhina ʻe {0}",
-            "perUnitPattern": "{0}/m"
+            "perUnitPattern": "{0} he māhina"
           },
           "duration-week": {
             "displayName": "uike",
             "unitPattern-count-other": "uike ʻe {0}",
-            "perUnitPattern": "{0}/w"
+            "perUnitPattern": "{0} he uike"
           },
           "duration-day": {
             "displayName": "ʻaho",
             "unitPattern-count-other": "ʻaho ʻe {0}",
-            "perUnitPattern": "{0}/d"
+            "perUnitPattern": "{0} he ʻaho"
           },
           "duration-hour": {
             "displayName": "houa",
@@ -210,7 +216,7 @@
           "duration-minute": {
             "displayName": "miniti",
             "unitPattern-count-other": "miniti ʻe {0}",
-            "perUnitPattern": "{0}/min"
+            "perUnitPattern": "{0} he miniti"
           },
           "duration-second": {
             "displayName": "sekoni",
@@ -270,20 +276,24 @@
             "unitPattern-count-other": "kilouate-houa ʻe {0}"
           },
           "energy-electronvolt": {
-            "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "displayName": "volotāʻelekitō",
+            "unitPattern-count-other": "volotāʻelekitō ʻe {0}"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ʻiuniti māfana fakapilitānia",
+            "unitPattern-count-other": "ʻiuniti māfana fakapilitānia ʻe {0}"
+          },
+          "energy-therm-us": {
+            "displayName": "ʻiuniti māfana fakaʻamelika",
+            "unitPattern-count-other": "ʻiuniti māfana fakaʻamelika ʻe {0}"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "pāunimālohi",
+            "unitPattern-count-other": "pāunimālohi ʻe {0}"
           },
           "force-newton": {
-            "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "displayName": "Niutoni",
+            "unitPattern-count-other": "Niutoni ʻe {0}"
           },
           "frequency-gigahertz": {
             "displayName": "kikahēti",
@@ -301,15 +311,43 @@
             "displayName": "hēti",
             "unitPattern-count-other": "hēti ʻe {0}"
           },
+          "graphics-em": {
+            "displayName": "ʻemi fakataipe",
+            "unitPattern-count-other": "ʻemi fakataipe ʻe {0}"
+          },
+          "graphics-pixel": {
+            "displayName": "meʻatā",
+            "unitPattern-count-other": "meʻatā ʻe {0}"
+          },
+          "graphics-megapixel": {
+            "displayName": "Mekameʻatā",
+            "unitPattern-count-other": "Mekameʻatā ʻe {0}"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "meʻatā he senitimita",
+            "unitPattern-count-other": "meʻatā ʻe {0} he senitimita"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "meʻatā he ʻinisi",
+            "unitPattern-count-other": "meʻatā ʻe {0} he ʻinisi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "toti he senitimita",
+            "unitPattern-count-other": "toti ʻe {0} he senitimita"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "toti he ʻinisi",
+            "unitPattern-count-other": "toti ʻe {0} he ʻinisi"
+          },
           "length-kilometer": {
             "displayName": "kilomita",
             "unitPattern-count-other": "kilomita ʻe {0}",
-            "perUnitPattern": "{0}/km"
+            "perUnitPattern": "{0} he kilomita"
           },
           "length-meter": {
             "displayName": "mita",
             "unitPattern-count-other": "mita ʻe {0}",
-            "perUnitPattern": "{0}/m"
+            "perUnitPattern": "{0} he mita"
           },
           "length-decimeter": {
             "displayName": "tesimita",
@@ -318,7 +356,7 @@
           "length-centimeter": {
             "displayName": "senitimita",
             "unitPattern-count-other": "senitimita ʻe {0}",
-            "perUnitPattern": "{0}/cm"
+            "perUnitPattern": "{0} he senitimita"
           },
           "length-millimeter": {
             "displayName": "milimita",
@@ -347,12 +385,12 @@
           "length-foot": {
             "displayName": "fute",
             "unitPattern-count-other": "fute ʻe {0}",
-            "perUnitPattern": "{0}/ft"
+            "perUnitPattern": "{0} he fute"
           },
           "length-inch": {
             "displayName": "ʻinisi",
             "unitPattern-count-other": "ʻinisi ʻe {0}",
-            "perUnitPattern": "{0}/in"
+            "perUnitPattern": "{0} he ʻinisi"
           },
           "length-parsec": {
             "displayName": "ngaofesekoni",
@@ -379,24 +417,24 @@
             "unitPattern-count-other": "maile ʻi tahi ʻe {0}"
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "maile fakasikanitinavia",
+            "unitPattern-count-other": "maile fakasikanitinavia ʻe {0}"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "poini",
+            "unitPattern-count-other": "poini ʻe {0}"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "lētiasi fakalaʻā",
+            "unitPattern-count-other": "lētiasi fakalaʻā ʻe {0}"
           },
           "light-lux": {
             "displayName": "lukisi",
             "unitPattern-count-other": "lukisi ʻe {0}"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "huhulu fakalaʻā",
+            "unitPattern-count-other": "huhulu fakalaʻā ʻe {0}"
           },
           "mass-metric-ton": {
             "displayName": "toni",
@@ -405,12 +443,12 @@
           "mass-kilogram": {
             "displayName": "kilokalami",
             "unitPattern-count-other": "kilokalami ʻe {0}",
-            "perUnitPattern": "{0}/kg"
+            "perUnitPattern": "{0} he kilokalami"
           },
           "mass-gram": {
             "displayName": "kalami",
             "unitPattern-count-other": "kalami ʻe {0}",
-            "perUnitPattern": "{0}/g"
+            "perUnitPattern": "{0} he kalami"
           },
           "mass-milligram": {
             "displayName": "milikalami",
@@ -431,12 +469,12 @@
           "mass-pound": {
             "displayName": "pāuni",
             "unitPattern-count-other": "pāuni ʻe {0}",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0} he pāuni"
           },
           "mass-ounce": {
             "displayName": "ʻaunise",
             "unitPattern-count-other": "ʻaunisi ʻe {0}",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0} he ʻaunise"
           },
           "mass-ounce-troy": {
             "displayName": "ʻaunisi koula",
@@ -447,16 +485,16 @@
             "unitPattern-count-other": "kalati ʻe {0}"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "talatoni",
+            "unitPattern-count-other": "talatoni ʻe {0}"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "mamafa ʻo māmani",
+            "unitPattern-count-other": "mamafa ʻo māmani ʻe {0}"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "mamafa ʻo e laʻā",
+            "unitPattern-count-other": "mamafa ʻo e laʻā ʻe {0}"
           },
           "power-gigawatt": {
             "displayName": "kikauate",
@@ -482,10 +520,6 @@
             "displayName": "hoosipaoa",
             "unitPattern-count-other": "hoosipaoa ʻe {0}"
           },
-          "pressure-hectopascal": {
-            "displayName": "hēkitopasikale",
-            "unitPattern-count-other": "hēkitopasikale ʻe {0}"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "milimita meakuli",
             "unitPattern-count-other": "milimita meakuli ʻe {0}"
@@ -498,21 +532,33 @@
             "displayName": "ʻinisi meakuli",
             "unitPattern-count-other": "ʻinisi meakuli ʻe {0}"
           },
+          "pressure-bar": {
+            "displayName": "pā",
+            "unitPattern-count-other": "pā ʻe {0}"
+          },
           "pressure-millibar": {
             "displayName": "milipā",
             "unitPattern-count-other": "milipā ʻe {0}"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "ʻatimosifia",
+            "unitPattern-count-other": "ʻatimosifia ʻe {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "pasikale",
+            "unitPattern-count-other": "pasikale ʻe {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hēkitopasikale",
+            "unitPattern-count-other": "hēkitopasikale ʻe {0}"
           },
           "pressure-kilopascal": {
-            "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "displayName": "kilopasikale",
+            "unitPattern-count-other": "kilopasikale ʻe {0}"
           },
           "pressure-megapascal": {
-            "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "displayName": "mekapasikale",
+            "unitPattern-count-other": "mekapasikale ʻe {0}"
           },
           "speed-kilometer-per-hour": {
             "displayName": "kilomita he houa",
@@ -527,8 +573,8 @@
             "unitPattern-count-other": "maile he houa ʻe {0}"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "fakapona",
+            "unitPattern-count-other": "fakapona ʻe {0}"
           },
           "temperature-generic": {
             "displayName": "tikili",
@@ -547,12 +593,12 @@
             "unitPattern-count-other": "kelevini ʻe {0}"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "pāunifute",
+            "unitPattern-count-other": "pāunifute ʻe {0}"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "Niutonimita",
+            "unitPattern-count-other": "Niutonimita ʻe {0}"
           },
           "volume-cubic-kilometer": {
             "displayName": "kilomita kiupiki",
@@ -561,12 +607,12 @@
           "volume-cubic-meter": {
             "displayName": "mita kiupiki",
             "unitPattern-count-other": "mita kiupiki ʻe {0}",
-            "perUnitPattern": "{0}/m³"
+            "perUnitPattern": "{0} he mita kiupiki"
           },
           "volume-cubic-centimeter": {
             "displayName": "senitimita kiupiki",
             "unitPattern-count-other": "senitimita kiupiki ʻe {0}",
-            "perUnitPattern": "{0}/cm³"
+            "perUnitPattern": "{0} he senitimita kiupiki"
           },
           "volume-cubic-mile": {
             "displayName": "maile kiupiki",
@@ -595,7 +641,7 @@
           "volume-liter": {
             "displayName": "lita",
             "unitPattern-count-other": "lita ʻe {0}",
-            "perUnitPattern": "{0}/l"
+            "perUnitPattern": "{0} he lita"
           },
           "volume-deciliter": {
             "displayName": "tesilita",
@@ -610,12 +656,12 @@
             "unitPattern-count-other": "mililita ʻe {0}"
           },
           "volume-pint-metric": {
-            "displayName": "mpt",
-            "unitPattern-count-other": "{0} mpt"
+            "displayName": "painite fakamita",
+            "unitPattern-count-other": "painite fakamita ʻe {0}"
           },
           "volume-cup-metric": {
-            "displayName": "mcup",
-            "unitPattern-count-other": "{0} mc"
+            "displayName": "ipu fakamita",
+            "unitPattern-count-other": "ipu fakamita ʻe {0}"
           },
           "volume-acre-foot": {
             "displayName": "ʻeka-fute",
@@ -628,7 +674,7 @@
           "volume-gallon": {
             "displayName": "kālani",
             "unitPattern-count-other": "kālani ʻe {0}",
-            "perUnitPattern": "{0}/gal US"
+            "perUnitPattern": "{0} he kālani"
           },
           "volume-gallon-imperial": {
             "displayName": "kālani fakaʻemipaea",
@@ -652,8 +698,8 @@
             "unitPattern-count-other": "ʻaunise tafe ʻe {0}"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ʻaunise fakaʻemipaea",
+            "unitPattern-count-other": "ʻaunise fakaʻemipaea ʻe {0}"
           },
           "volume-tablespoon": {
             "displayName": "sēpuni tēpile",
@@ -664,11 +710,11 @@
             "unitPattern-count-other": "sēpuni tī ʻe {0}"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "paelo",
+            "unitPattern-count-other": "paelo ʻe {0}"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "fua tefitoʻi",
             "east": "hahake ʻe {0}",
             "north": "tokelau ʻe {0}",
             "south": "tonga ʻe {0}",
@@ -678,6 +724,9 @@
         "short": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "k-mā",
@@ -724,7 +773,7 @@
           "area-square-centimeter": {
             "displayName": "sm²",
             "unitPattern-count-other": "sm² ʻe {0}",
-            "perUnitPattern": "{0}/cm²"
+            "perUnitPattern": "{0}/sm²"
           },
           "area-square-mile": {
             "displayName": "mi²",
@@ -749,8 +798,8 @@
             "perUnitPattern": "{0}/in²"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "tunami",
+            "unitPattern-count-other": "tunami ʻe {0}"
           },
           "concentr-karat": {
             "displayName": "kt",
@@ -770,19 +819,19 @@
           },
           "concentr-percent": {
             "displayName": "%",
-            "unitPattern-count-other": "{0}%"
+            "unitPattern-count-other": "% ʻe {0}"
           },
           "concentr-permille": {
             "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "unitPattern-count-other": "‰ ʻe {0}"
           },
           "concentr-permyriad": {
             "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "unitPattern-count-other": "‱ ʻe {0}"
           },
           "concentr-mole": {
             "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "unitPattern-count-other": "mol ʻe {0}"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -845,28 +894,32 @@
             "unitPattern-count-other": "piti ʻe {0}"
           },
           "duration-century": {
-            "displayName": "c",
-            "unitPattern-count-other": "{0} c"
+            "displayName": "tt",
+            "unitPattern-count-other": "tt ʻe {0}"
+          },
+          "duration-decade": {
+            "displayName": "ht",
+            "unitPattern-count-other": "ht ʻe {0}"
           },
           "duration-year": {
             "displayName": "taʻu",
             "unitPattern-count-other": "taʻu ʻe {0}",
-            "perUnitPattern": "{0}/y"
+            "perUnitPattern": "{0} /t"
           },
           "duration-month": {
             "displayName": "mā",
             "unitPattern-count-other": "mā ʻe {0}",
-            "perUnitPattern": "{0}/m"
+            "perUnitPattern": "{0} /mā"
           },
           "duration-week": {
             "displayName": "u",
             "unitPattern-count-other": "u ʻe {0}",
-            "perUnitPattern": "{0}/w"
+            "perUnitPattern": "{0} /u"
           },
           "duration-day": {
             "displayName": "ʻa",
             "unitPattern-count-other": "ʻa ʻe {0}",
-            "perUnitPattern": "{0}/d"
+            "perUnitPattern": "{0} /ʻa"
           },
           "duration-hour": {
             "displayName": "h",
@@ -876,7 +929,7 @@
           "duration-minute": {
             "displayName": "m",
             "unitPattern-count-other": "m ʻe {0}",
-            "perUnitPattern": "{0}/min"
+            "perUnitPattern": "{0} /m"
           },
           "duration-second": {
             "displayName": "s",
@@ -937,19 +990,23 @@
           },
           "energy-electronvolt": {
             "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "unitPattern-count-other": "eV ʻe {0}"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "imfP",
+            "unitPattern-count-other": "imfP ʻe {0}"
+          },
+          "energy-therm-us": {
+            "displayName": "imfA",
+            "unitPattern-count-other": "imfA ʻe {0}"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "pāmā",
+            "unitPattern-count-other": "pāmā ʻe {0}"
           },
           "force-newton": {
             "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "unitPattern-count-other": "N ʻe {0}"
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
@@ -966,6 +1023,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "Hz ʻe {0}"
+          },
+          "graphics-em": {
+            "displayName": "ʻemi",
+            "unitPattern-count-other": "ʻemi ʻe {0}"
+          },
+          "graphics-pixel": {
+            "displayName": "meʻatā",
+            "unitPattern-count-other": "meʻatā ʻe {0}"
+          },
+          "graphics-megapixel": {
+            "displayName": "Mmeʻatā",
+            "unitPattern-count-other": "Mmeʻatā ʻe {0}"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "meʻatā/sm",
+            "unitPattern-count-other": "meʻatā ʻe {0}/sm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "meʻatā/in",
+            "unitPattern-count-other": "meʻatā ʻe {0}/in"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "toti/sm",
+            "unitPattern-count-other": "toti ʻe {0}/sm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "toti/in",
+            "unitPattern-count-other": "toti ʻe {0}/in"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -984,7 +1069,7 @@
           "length-centimeter": {
             "displayName": "sm",
             "unitPattern-count-other": "sm ʻe {0}",
-            "perUnitPattern": "{0}/cm"
+            "perUnitPattern": "{0} /sm"
           },
           "length-millimeter": {
             "displayName": "mm",
@@ -1045,24 +1130,24 @@
             "unitPattern-count-other": "mt ʻe {0}"
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "msi",
+            "unitPattern-count-other": "msi ʻe {0}"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "pn",
+            "unitPattern-count-other": "pn ʻe {0}"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "L☉",
+            "unitPattern-count-other": "L☉ ʻe {0}"
           },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-other": "lx ʻe {0}"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "H☉",
+            "unitPattern-count-other": "H☉ ʻe {0}"
           },
           "mass-metric-ton": {
             "displayName": "to",
@@ -1071,12 +1156,12 @@
           "mass-kilogram": {
             "displayName": "kk",
             "unitPattern-count-other": "kk ʻe {0}",
-            "perUnitPattern": "{0}/kg"
+            "perUnitPattern": "{0}/kk"
           },
           "mass-gram": {
             "displayName": "k",
             "unitPattern-count-other": "k ʻe {0}",
-            "perUnitPattern": "{0}/g"
+            "perUnitPattern": "{0}/k"
           },
           "mass-milligram": {
             "displayName": "mk",
@@ -1095,14 +1180,14 @@
             "unitPattern-count-other": "st ʻe {0}"
           },
           "mass-pound": {
-            "displayName": "pā",
-            "unitPattern-count-other": "pā ʻe {0}",
-            "perUnitPattern": "{0}/lb"
+            "displayName": "pāu",
+            "unitPattern-count-other": "pāu ʻe {0}",
+            "perUnitPattern": "{0}/pāu"
           },
           "mass-ounce": {
             "displayName": "ʻau",
             "unitPattern-count-other": "ʻau ʻe {0}",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/ʻau"
           },
           "mass-ounce-troy": {
             "displayName": "ʻau-k",
@@ -1113,16 +1198,16 @@
             "unitPattern-count-other": "kt ʻe {0}"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "tlt",
+            "unitPattern-count-other": "tlt ʻe {0}"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "mamafa ⊕",
+            "unitPattern-count-other": "mamafa ⊕ ʻe {0}"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "mamafa ☉",
+            "unitPattern-count-other": "mamafa ☉ ʻe {0}"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1148,10 +1233,6 @@
             "displayName": "hp",
             "unitPattern-count-other": "hp ʻe {0}"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "hPa ʻe {0}"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm-Hg",
             "unitPattern-count-other": "mm-Hg ʻe {0}"
@@ -1164,21 +1245,33 @@
             "displayName": "in-Hg",
             "unitPattern-count-other": "in-Hg ʻe {0}"
           },
+          "pressure-bar": {
+            "displayName": "pā",
+            "unitPattern-count-other": "pā ʻe {0}"
+          },
           "pressure-millibar": {
             "displayName": "mpā",
             "unitPattern-count-other": "mpā ʻe {0}"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "ʻati",
+            "unitPattern-count-other": "ʻati ʻe {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "Pā ʻe {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-other": "hPa ʻe {0}"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "unitPattern-count-other": "kPa ʻe {0}"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "unitPattern-count-other": "MPa ʻe {0}"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
@@ -1193,8 +1286,8 @@
             "unitPattern-count-other": "mi/h ʻe {0}"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "fp",
+            "unitPattern-count-other": "fp ʻe {0}"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1213,12 +1306,12 @@
             "unitPattern-count-other": "K ʻe {0}"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "pā⋅ft",
+            "unitPattern-count-other": "pā⋅ft ʻe {0}"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "unitPattern-count-other": "N⋅m ʻe {0}"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1232,7 +1325,7 @@
           "volume-cubic-centimeter": {
             "displayName": "sm³",
             "unitPattern-count-other": "sm³ ʻe {0}",
-            "perUnitPattern": "{0}/cm³"
+            "perUnitPattern": "{0}/sm³"
           },
           "volume-cubic-mile": {
             "displayName": "mi³",
@@ -1276,12 +1369,12 @@
             "unitPattern-count-other": "ml ʻe {0}"
           },
           "volume-pint-metric": {
-            "displayName": "mpt",
-            "unitPattern-count-other": "{0} mpt"
+            "displayName": "ptm",
+            "unitPattern-count-other": "ptm ʻe {0}"
           },
           "volume-cup-metric": {
-            "displayName": "mcup",
-            "unitPattern-count-other": "{0} mc"
+            "displayName": "ipm",
+            "unitPattern-count-other": "ipm ʻe {0}"
           },
           "volume-acre-foot": {
             "displayName": "ʻe-ft",
@@ -1294,7 +1387,7 @@
           "volume-gallon": {
             "displayName": "kā",
             "unitPattern-count-other": "kā ʻe {0}",
-            "perUnitPattern": "{0}/gal US"
+            "perUnitPattern": "{0}/kā"
           },
           "volume-gallon-imperial": {
             "displayName": "kāʻem",
@@ -1318,8 +1411,8 @@
             "unitPattern-count-other": "ʻau-tf ʻe {0}"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ʻau-ʻem",
+            "unitPattern-count-other": "ʻau-ʻem ʻe {0}"
           },
           "volume-tablespoon": {
             "displayName": "sētē",
@@ -1330,11 +1423,11 @@
             "unitPattern-count-other": "sētī ʻe {0}"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "paelo",
+            "unitPattern-count-other": "paelo ʻe {0}"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "fua",
             "east": "ha ʻe {0}",
             "north": "tk ʻe {0}",
             "south": "to ʻe {0}",
@@ -1344,6 +1437,9 @@
         "narrow": {
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "k-mā",
@@ -1390,7 +1486,7 @@
           "area-square-centimeter": {
             "displayName": "sm²",
             "unitPattern-count-other": "{0} sm²",
-            "perUnitPattern": "{0}/cm²"
+            "perUnitPattern": "{0}/sm²"
           },
           "area-square-mile": {
             "displayName": "mi²",
@@ -1415,8 +1511,8 @@
             "perUnitPattern": "{0}/in²"
           },
           "area-dunam": {
-            "displayName": "dunam",
-            "unitPattern-count-other": "{0} dunam"
+            "displayName": "tunami",
+            "unitPattern-count-other": "tunami ʻe {0}"
           },
           "concentr-karat": {
             "displayName": "kt",
@@ -1440,15 +1536,15 @@
           },
           "concentr-permille": {
             "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "unitPattern-count-other": "‰ ʻe {0}"
           },
           "concentr-permyriad": {
             "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "unitPattern-count-other": "‱ ʻe {0}"
           },
           "concentr-mole": {
             "displayName": "mol",
-            "unitPattern-count-other": "{0} mol"
+            "unitPattern-count-other": "mol ʻe {0}"
           },
           "consumption-liter-per-kilometer": {
             "displayName": "l/km",
@@ -1511,28 +1607,32 @@
             "unitPattern-count-other": "{0} b"
           },
           "duration-century": {
-            "displayName": "c",
-            "unitPattern-count-other": "{0} c"
+            "displayName": "tt",
+            "unitPattern-count-other": "tt ʻe {0}"
+          },
+          "duration-decade": {
+            "displayName": "ht",
+            "unitPattern-count-other": "ht ʻe {0}"
           },
           "duration-year": {
             "displayName": "t",
             "unitPattern-count-other": "{0} t",
-            "perUnitPattern": "{0}/y"
+            "perUnitPattern": "{0} /t"
           },
           "duration-month": {
             "displayName": "m",
             "unitPattern-count-other": "{0} m",
-            "perUnitPattern": "{0}/m"
+            "perUnitPattern": "{0} /mā"
           },
           "duration-week": {
             "displayName": "u",
             "unitPattern-count-other": "{0} u",
-            "perUnitPattern": "{0}/w"
+            "perUnitPattern": "{0} /u"
           },
           "duration-day": {
             "displayName": "ʻa",
             "unitPattern-count-other": "{0} ʻa",
-            "perUnitPattern": "{0}/d"
+            "perUnitPattern": "{0} /ʻa"
           },
           "duration-hour": {
             "displayName": "h",
@@ -1542,7 +1642,7 @@
           "duration-minute": {
             "displayName": "m",
             "unitPattern-count-other": "{0} m",
-            "perUnitPattern": "{0}/min"
+            "perUnitPattern": "{0} /m"
           },
           "duration-second": {
             "displayName": "s",
@@ -1603,19 +1703,23 @@
           },
           "energy-electronvolt": {
             "displayName": "eV",
-            "unitPattern-count-other": "{0} eV"
+            "unitPattern-count-other": "eV ʻe {0}"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "imfP",
+            "unitPattern-count-other": "imfP ʻe {0}"
+          },
+          "energy-therm-us": {
+            "displayName": "imfA",
+            "unitPattern-count-other": "imfA ʻe {0}"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "pāmā",
+            "unitPattern-count-other": "pāmā ʻe {0}"
           },
           "force-newton": {
             "displayName": "N",
-            "unitPattern-count-other": "{0} N"
+            "unitPattern-count-other": "N ʻe {0}"
           },
           "frequency-gigahertz": {
             "displayName": "GHz",
@@ -1632,6 +1736,34 @@
           "frequency-hertz": {
             "displayName": "Hz",
             "unitPattern-count-other": "{0} Hz"
+          },
+          "graphics-em": {
+            "displayName": "ʻemi",
+            "unitPattern-count-other": "ʻemi ʻe {0}"
+          },
+          "graphics-pixel": {
+            "displayName": "meʻatā",
+            "unitPattern-count-other": "meʻatā ʻe {0}"
+          },
+          "graphics-megapixel": {
+            "displayName": "Mmeʻatā",
+            "unitPattern-count-other": "Mmeʻatā ʻe {0}"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "meʻatā/sm",
+            "unitPattern-count-other": "meʻatā ʻe {0}/sm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "meʻatā/in",
+            "unitPattern-count-other": "meʻatā ʻe {0}/in"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "toti/sm",
+            "unitPattern-count-other": "toti ʻe {0}/sm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "toti/in",
+            "unitPattern-count-other": "toti ʻe {0}/in"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1650,7 +1782,7 @@
           "length-centimeter": {
             "displayName": "sm",
             "unitPattern-count-other": "{0} sm",
-            "perUnitPattern": "{0}/cm"
+            "perUnitPattern": "{0} /sm"
           },
           "length-millimeter": {
             "displayName": "mm",
@@ -1711,24 +1843,24 @@
             "unitPattern-count-other": "{0} mt"
           },
           "length-mile-scandinavian": {
-            "displayName": "smi",
-            "unitPattern-count-other": "{0} smi"
+            "displayName": "msi",
+            "unitPattern-count-other": "msi ʻe {0}"
           },
           "length-point": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "pn",
+            "unitPattern-count-other": "pn ʻe {0}"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "L☉",
+            "unitPattern-count-other": "L☉ ʻe {0}"
           },
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "H☉",
+            "unitPattern-count-other": "H☉ ʻe {0}"
           },
           "mass-metric-ton": {
             "displayName": "to",
@@ -1737,12 +1869,12 @@
           "mass-kilogram": {
             "displayName": "kk",
             "unitPattern-count-other": "{0} kk",
-            "perUnitPattern": "{0}/kg"
+            "perUnitPattern": "{0}/kk"
           },
           "mass-gram": {
             "displayName": "k",
             "unitPattern-count-other": "{0} k",
-            "perUnitPattern": "{0}/g"
+            "perUnitPattern": "{0}/k"
           },
           "mass-milligram": {
             "displayName": "mk",
@@ -1761,14 +1893,14 @@
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
-            "displayName": "pā",
-            "unitPattern-count-other": "{0} pā",
-            "perUnitPattern": "{0}/lb"
+            "displayName": "pāu",
+            "unitPattern-count-other": "{0} pāu",
+            "perUnitPattern": "{0}/pāu"
           },
           "mass-ounce": {
             "displayName": "ʻau",
             "unitPattern-count-other": "{0} ʻau",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/ʻau"
           },
           "mass-ounce-troy": {
             "displayName": "ʻau-k",
@@ -1779,16 +1911,16 @@
             "unitPattern-count-other": "{0} kt"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "tlt",
+            "unitPattern-count-other": "tlt ʻe {0}"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "mamafa ⊕",
+            "unitPattern-count-other": "mamafa ⊕ ʻe {0}"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "mamafa ☉",
+            "unitPattern-count-other": "mamafa ☉ ʻe {0}"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1814,10 +1946,6 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "{0} hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "mm-Hg",
             "unitPattern-count-other": "{0} mm-Hg"
@@ -1830,21 +1958,33 @@
             "displayName": "in-Hg",
             "unitPattern-count-other": "{0} in-Hg"
           },
+          "pressure-bar": {
+            "displayName": "pā",
+            "unitPattern-count-other": "pā ʻe {0}"
+          },
           "pressure-millibar": {
             "displayName": "mpā",
             "unitPattern-count-other": "{0} mpā"
           },
           "pressure-atmosphere": {
-            "displayName": "atm",
-            "unitPattern-count-other": "{0} atm"
+            "displayName": "ʻati",
+            "unitPattern-count-other": "ʻati ʻe {0}"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-other": "Pā ʻe {0}"
+          },
+          "pressure-hectopascal": {
+            "displayName": "hPa",
+            "unitPattern-count-other": "{0} hPa"
           },
           "pressure-kilopascal": {
             "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "unitPattern-count-other": "kPa ʻe {0}"
           },
           "pressure-megapascal": {
             "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "unitPattern-count-other": "MPa ʻe {0}"
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
@@ -1859,8 +1999,8 @@
             "unitPattern-count-other": "{0} mi/h"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "fp",
+            "unitPattern-count-other": "fp ʻe {0}"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -1879,12 +2019,12 @@
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "pā⋅ft",
+            "unitPattern-count-other": "pā⋅ft ʻe {0}"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "unitPattern-count-other": "N⋅m ʻe {0}"
           },
           "volume-cubic-kilometer": {
             "displayName": "km³",
@@ -1898,7 +2038,7 @@
           "volume-cubic-centimeter": {
             "displayName": "sm³",
             "unitPattern-count-other": "{0} sm³",
-            "perUnitPattern": "{0}/cm³"
+            "perUnitPattern": "{0}/sm³"
           },
           "volume-cubic-mile": {
             "displayName": "mi³",
@@ -1942,12 +2082,12 @@
             "unitPattern-count-other": "{0} ml"
           },
           "volume-pint-metric": {
-            "displayName": "mpt",
-            "unitPattern-count-other": "{0} mpt"
+            "displayName": "ptm",
+            "unitPattern-count-other": "ptm ʻe {0}"
           },
           "volume-cup-metric": {
-            "displayName": "mcup",
-            "unitPattern-count-other": "{0} mc"
+            "displayName": "ipm",
+            "unitPattern-count-other": "ipm ʻe {0}"
           },
           "volume-acre-foot": {
             "displayName": "ʻe-ft",
@@ -1960,7 +2100,7 @@
           "volume-gallon": {
             "displayName": "kā",
             "unitPattern-count-other": "{0} kā",
-            "perUnitPattern": "{0}/gal US"
+            "perUnitPattern": "{0}/kā"
           },
           "volume-gallon-imperial": {
             "displayName": "kāʻem",
@@ -1984,8 +2124,8 @@
             "unitPattern-count-other": "{0} ʻau-tf"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ʻau-ʻem",
+            "unitPattern-count-other": "ʻau-ʻem ʻe {0}"
           },
           "volume-tablespoon": {
             "displayName": "sētē",
@@ -1996,11 +2136,11 @@
             "unitPattern-count-other": "{0} sētī"
           },
           "volume-barrel": {
-            "displayName": "bbl",
-            "unitPattern-count-other": "{0} bbl"
+            "displayName": "paelo",
+            "unitPattern-count-other": "paelo ʻe {0}"
           },
           "coordinateUnit": {
-            "displayName": "direction",
+            "displayName": "fua",
             "east": "{0} ha",
             "north": "{0} tk",
             "south": "{0} to",

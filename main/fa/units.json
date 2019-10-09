@@ -3,8 +3,7 @@
     "fa": {
       "identity": {
         "version": {
-          "_number": "$Revision: 14982 $",
-          "_cldrVersion": "35.1"
+          "_cldrVersion": "36"
         },
         "language": "fa"
       },
@@ -12,6 +11,9 @@
         "long": {
           "per": {
             "compoundUnitPattern": "{0} در {1}"
+          },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
             "displayName": "نیروی جاذبه",
@@ -52,7 +54,7 @@
             "displayName": "کیلومتر مربع",
             "unitPattern-count-one": "{0} کیلومتر مربع",
             "unitPattern-count-other": "{0} کیلومتر مربع",
-            "perUnitPattern": "کیلومتر مربع در {0}"
+            "perUnitPattern": "{0} در کیلومتر مربع"
           },
           "area-hectare": {
             "displayName": "هکتار",
@@ -223,6 +225,11 @@
             "unitPattern-count-one": "{0} سده",
             "unitPattern-count-other": "{0} سده"
           },
+          "duration-decade": {
+            "displayName": "دهه",
+            "unitPattern-count-one": "{0} دهه",
+            "unitPattern-count-other": "{0} دهه"
+          },
           "duration-year": {
             "displayName": "سال",
             "unitPattern-count-one": "{0} سال",
@@ -332,13 +339,18 @@
           },
           "energy-electronvolt": {
             "displayName": "الکترون ولت",
-            "unitPattern-count-one": "{0} الکترون ولت",
+            "unitPattern-count-one": "{0} الکترون‌ولت",
             "unitPattern-count-other": "{0} الکترون‌ولت"
           },
           "energy-british-thermal-unit": {
             "displayName": "بی‌تی‌یو",
             "unitPattern-count-one": "{0} بی‌تی‌یو",
             "unitPattern-count-other": "{0} بی‌تی‌یو"
+          },
+          "energy-therm-us": {
+            "displayName": "ترم آمریکایی",
+            "unitPattern-count-one": "{0} ترم آمریکایی",
+            "unitPattern-count-other": "{0} ترم آمریکایی"
           },
           "force-pound-force": {
             "displayName": "پوند-نیرو",
@@ -370,17 +382,52 @@
             "unitPattern-count-one": "{0} هرتز",
             "unitPattern-count-other": "{0} هرتز"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "پیکسل",
+            "unitPattern-count-one": "{0} پیکسل",
+            "unitPattern-count-other": "{0} پیکسل"
+          },
+          "graphics-megapixel": {
+            "displayName": "مگاپیکسل",
+            "unitPattern-count-one": "{0} مگاپیکسل",
+            "unitPattern-count-other": "{0} مگاپیکسل"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "پیکسل در سانتی‌متر",
+            "unitPattern-count-one": "{0} پیکسل در سانتی‌متر",
+            "unitPattern-count-other": "{0} پیکسل در سانتی‌متر"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "پیکسل در اینچ",
+            "unitPattern-count-one": "{0} پیکسل در اینچ",
+            "unitPattern-count-other": "{0} پیکسل در اینچ"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "نقطه در سانتی‌متر",
+            "unitPattern-count-one": "{0} نقطه در سانتی‌متر",
+            "unitPattern-count-other": "{0} نقطه در سانتی‌متر"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "نقطه در اینچ",
+            "unitPattern-count-one": "{0} نقطه در اینچ",
+            "unitPattern-count-other": "{0} نقطه در اینچ"
+          },
           "length-kilometer": {
             "displayName": "کیلومتر",
             "unitPattern-count-one": "{0} کیلومتر",
             "unitPattern-count-other": "{0} کیلومتر",
-            "perUnitPattern": "{0}/کیلومتر"
+            "perUnitPattern": "{0} در کیلومتر"
           },
           "length-meter": {
             "displayName": "متر",
             "unitPattern-count-one": "{0} متر",
             "unitPattern-count-other": "{0} متر",
-            "perUnitPattern": "{0}/متر"
+            "perUnitPattern": "{0} در متر"
           },
           "length-decimeter": {
             "displayName": "دسی‌متر",
@@ -391,7 +438,7 @@
             "displayName": "سانتی‌متر",
             "unitPattern-count-one": "{0} سانتی‌متر",
             "unitPattern-count-other": "{0} سانتی‌متر",
-            "perUnitPattern": "{0}/سانتی‌متر"
+            "perUnitPattern": "{0} در سانتی‌متر"
           },
           "length-millimeter": {
             "displayName": "میلی‌متر",
@@ -433,7 +480,7 @@
             "displayName": "اینچ",
             "unitPattern-count-one": "{0} اینچ",
             "unitPattern-count-other": "{0} اینچ",
-            "perUnitPattern": "{0}/اینچ"
+            "perUnitPattern": "{0} در اینچ"
           },
           "length-parsec": {
             "displayName": "پارسک",
@@ -469,9 +516,9 @@
             "unitPattern-count-other": "{0} مایل اسکاندیناوی"
           },
           "length-point": {
-            "displayName": "امتیاز",
-            "unitPattern-count-one": "{0} امتیاز",
-            "unitPattern-count-other": "{0} امتیاز"
+            "displayName": "پونت",
+            "unitPattern-count-one": "{0} پونت",
+            "unitPattern-count-other": "{0} پونت"
           },
           "length-solar-radius": {
             "displayName": "شعاع خورشید",
@@ -591,11 +638,6 @@
             "unitPattern-count-one": "{0} اسب بخار",
             "unitPattern-count-other": "{0} اسب بخار"
           },
-          "pressure-hectopascal": {
-            "displayName": "هکتوپاسکال",
-            "unitPattern-count-one": "{0} هکتوپاسکال",
-            "unitPattern-count-other": "{0} هکتوپاسکال"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "میلی‌متر جیوه",
             "unitPattern-count-one": "{0} میلی‌متر جیوه",
@@ -611,6 +653,11 @@
             "unitPattern-count-one": "{0} اینچ جیوه",
             "unitPattern-count-other": "{0} اینچ جیوه"
           },
+          "pressure-bar": {
+            "displayName": "بار",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بار"
+          },
           "pressure-millibar": {
             "displayName": "میلی‌بار",
             "unitPattern-count-one": "{0} میلی‌بار",
@@ -620,6 +667,16 @@
             "displayName": "اتمسفر",
             "unitPattern-count-one": "{0} اتمسفر",
             "unitPattern-count-other": "{0} اتمسفر"
+          },
+          "pressure-pascal": {
+            "displayName": "پاسکال",
+            "unitPattern-count-one": "{0} پاسکال",
+            "unitPattern-count-other": "{0} پاسکال"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هکتوپاسکال",
+            "unitPattern-count-one": "{0} هکتوپاسکال",
+            "unitPattern-count-other": "{0} هکتوپاسکال"
           },
           "pressure-kilopascal": {
             "displayName": "کیلوپاسکال",
@@ -653,6 +710,7 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
@@ -831,6 +889,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "نیروی جاذبه",
             "unitPattern-count-one": "{0} جاذبه",
@@ -928,14 +989,17 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "میلی‌گرم در دسی‌لیتر",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "میلی‌مول/لیتر",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "بخش/میلیون",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
@@ -945,6 +1009,7 @@
           },
           "concentr-permille": {
             "displayName": "هزارم",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -974,6 +1039,7 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "مایل/امپریال گالن",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
@@ -1035,6 +1101,11 @@
             "displayName": "سده",
             "unitPattern-count-one": "{0} سده",
             "unitPattern-count-other": "{0} سده"
+          },
+          "duration-decade": {
+            "displayName": "دهه",
+            "unitPattern-count-one": "{0} دهه",
+            "unitPattern-count-other": "{0} دهه"
           },
           "duration-year": {
             "displayName": "سال",
@@ -1140,8 +1211,8 @@
           },
           "energy-kilowatt-hour": {
             "displayName": "ک.وات‌ساعت",
-            "unitPattern-count-one": "{0} ک.وات‌ساعت",
-            "unitPattern-count-other": "{0} ک.وات‌ساعت"
+            "unitPattern-count-one": "{0} ک.و.ساعت",
+            "unitPattern-count-other": "{0} ک.و.ساعت"
           },
           "energy-electronvolt": {
             "displayName": "الکترون‌ولت",
@@ -1152,6 +1223,11 @@
             "displayName": "بی‌تی‌یو",
             "unitPattern-count-one": "{0} بی‌تی‌یو",
             "unitPattern-count-other": "{0} بی‌تی‌یو"
+          },
+          "energy-therm-us": {
+            "displayName": "ترم آمریکایی",
+            "unitPattern-count-one": "{0} ترم آمریکایی",
+            "unitPattern-count-other": "{0} ترم آمریکایی"
           },
           "force-pound-force": {
             "displayName": "پوند-نیرو",
@@ -1183,17 +1259,52 @@
             "unitPattern-count-one": "{0} هرتز",
             "unitPattern-count-other": "{0} هرتز"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
+          },
           "length-kilometer": {
             "displayName": "کیلومتر",
             "unitPattern-count-one": "{0} کیلومتر",
             "unitPattern-count-other": "{0} کیلومتر",
-            "perUnitPattern": "{0}/کیلومتر"
+            "perUnitPattern": "{0} در کیلومتر"
           },
           "length-meter": {
             "displayName": "متر",
             "unitPattern-count-one": "{0} متر",
             "unitPattern-count-other": "{0} متر",
-            "perUnitPattern": "{0}/متر"
+            "perUnitPattern": "{0} در متر"
           },
           "length-decimeter": {
             "displayName": "دسی‌متر",
@@ -1282,7 +1393,7 @@
             "unitPattern-count-other": "{0}‎ smi"
           },
           "length-point": {
-            "displayName": "امتیاز",
+            "displayName": "پونت",
             "unitPattern-count-one": "{0} امتیاز",
             "unitPattern-count-other": "{0} امتیاز"
           },
@@ -1404,11 +1515,6 @@
             "unitPattern-count-one": "{0} اسب بخار",
             "unitPattern-count-other": "{0} اسب بخار"
           },
-          "pressure-hectopascal": {
-            "displayName": "هکتوپاسکال",
-            "unitPattern-count-one": "{0}‎ hPa",
-            "unitPattern-count-other": "{0}‎ hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "میلی‌متر جیوه",
             "unitPattern-count-one": "{0} م‌م جیوه",
@@ -1424,6 +1530,11 @@
             "unitPattern-count-one": "{0} اینچ جیوه",
             "unitPattern-count-other": "{0} اینچ جیوه"
           },
+          "pressure-bar": {
+            "displayName": "بار",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بار"
+          },
           "pressure-millibar": {
             "displayName": "میلی‌بار",
             "unitPattern-count-one": "{0} میلی‌بار",
@@ -1431,7 +1542,18 @@
           },
           "pressure-atmosphere": {
             "displayName": "اتمسفر",
+            "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هکتوپاسکال",
+            "unitPattern-count-one": "{0}‎ hPa",
+            "unitPattern-count-other": "{0}‎ hPa"
           },
           "pressure-kilopascal": {
             "displayName": "ک.پاسکال",
@@ -1465,14 +1587,17 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "درجهٔ سلسیوس",
+            "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "درجهٔ فارنهایت",
+            "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {
@@ -1641,6 +1766,9 @@
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
+          "times": {
+            "compoundUnitPattern": "{0}⋅{1}"
+          },
           "acceleration-g-force": {
             "displayName": "نیروی جاذبه",
             "unitPattern-count-one": "{0}G",
@@ -1738,14 +1866,17 @@
           },
           "concentr-milligram-per-deciliter": {
             "displayName": "میلی‌گرم در دسی‌لیتر",
+            "unitPattern-count-one": "{0} mg/dL",
             "unitPattern-count-other": "{0} mg/dL"
           },
           "concentr-millimole-per-liter": {
             "displayName": "میلی‌مول/لیتر",
+            "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-part-per-million": {
             "displayName": "بخش/میلیون",
+            "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
@@ -1755,6 +1886,7 @@
           },
           "concentr-permille": {
             "displayName": "هزارم",
+            "unitPattern-count-one": "{0}‰",
             "unitPattern-count-other": "{0}‰"
           },
           "concentr-permyriad": {
@@ -1784,6 +1916,7 @@
           },
           "consumption-mile-per-gallon-imperial": {
             "displayName": "مایل/امپریال گالن",
+            "unitPattern-count-one": "{0} mpg Imp.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
@@ -1845,6 +1978,11 @@
             "displayName": "سده",
             "unitPattern-count-one": "{0} سده",
             "unitPattern-count-other": "{0} سده"
+          },
+          "duration-decade": {
+            "displayName": "دهه",
+            "unitPattern-count-one": "{0} دهه",
+            "unitPattern-count-other": "{0} دهه"
           },
           "duration-year": {
             "displayName": "سال",
@@ -1950,8 +2088,8 @@
           },
           "energy-kilowatt-hour": {
             "displayName": "ک.وات‌ساعت",
-            "unitPattern-count-one": "{0} ک.وات‌ساعت",
-            "unitPattern-count-other": "{0} ک.وات‌ساعت"
+            "unitPattern-count-one": "{0} ک.و.ساعت",
+            "unitPattern-count-other": "{0} ک.و.ساعت"
           },
           "energy-electronvolt": {
             "displayName": "الکترون‌ولت",
@@ -1962,6 +2100,11 @@
             "displayName": "بی‌تی‌یو",
             "unitPattern-count-one": "{0} بی‌تی‌یو",
             "unitPattern-count-other": "{0} بی‌تی‌یو"
+          },
+          "energy-therm-us": {
+            "displayName": "ترم آمریکایی",
+            "unitPattern-count-one": "{0} ترم آمریکایی",
+            "unitPattern-count-other": "{0} ترم آمریکایی"
           },
           "force-pound-force": {
             "displayName": "پوند-نیرو",
@@ -1993,11 +2136,46 @@
             "unitPattern-count-one": "{0} هرتز",
             "unitPattern-count-other": "{0} هرتز"
           },
+          "graphics-em": {
+            "displayName": "em",
+            "unitPattern-count-one": "{0} em",
+            "unitPattern-count-other": "{0} em"
+          },
+          "graphics-pixel": {
+            "displayName": "px",
+            "unitPattern-count-one": "{0} px",
+            "unitPattern-count-other": "{0} px"
+          },
+          "graphics-megapixel": {
+            "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
+            "unitPattern-count-other": "{0} MP"
+          },
+          "graphics-pixel-per-centimeter": {
+            "displayName": "ppcm",
+            "unitPattern-count-one": "{0} ppcm",
+            "unitPattern-count-other": "{0} ppcm"
+          },
+          "graphics-pixel-per-inch": {
+            "displayName": "ppi",
+            "unitPattern-count-one": "{0} ppi",
+            "unitPattern-count-other": "{0} ppi"
+          },
+          "graphics-dot-per-centimeter": {
+            "displayName": "dpcm",
+            "unitPattern-count-one": "{0} dpcm",
+            "unitPattern-count-other": "{0} dpcm"
+          },
+          "graphics-dot-per-inch": {
+            "displayName": "dpi",
+            "unitPattern-count-one": "{0} dpi",
+            "unitPattern-count-other": "{0} dpi"
+          },
           "length-kilometer": {
             "displayName": "کیلومتر",
             "unitPattern-count-one": "{0}km",
             "unitPattern-count-other": "{0}km",
-            "perUnitPattern": "{0}/کیلومتر"
+            "perUnitPattern": "{0} در کیلومتر"
           },
           "length-meter": {
             "displayName": "متر",
@@ -2092,7 +2270,7 @@
             "unitPattern-count-other": "{0}‎ smi"
           },
           "length-point": {
-            "displayName": "امتیاز",
+            "displayName": "پونت",
             "unitPattern-count-one": "{0} امتیاز",
             "unitPattern-count-other": "{0} امتیاز"
           },
@@ -2215,11 +2393,6 @@
             "unitPattern-count-one": "{0}hp",
             "unitPattern-count-other": "{0}hp"
           },
-          "pressure-hectopascal": {
-            "displayName": "هکتوپاسکال",
-            "unitPattern-count-one": "{0}hPa",
-            "unitPattern-count-other": "{0}hPa"
-          },
           "pressure-millimeter-of-mercury": {
             "displayName": "میلی‌متر جیوه",
             "unitPattern-count-one": "{0} م‌م جیوه",
@@ -2235,6 +2408,11 @@
             "unitPattern-count-one": "{0}inHg",
             "unitPattern-count-other": "{0}inHg"
           },
+          "pressure-bar": {
+            "displayName": "بار",
+            "unitPattern-count-one": "{0} بار",
+            "unitPattern-count-other": "{0} بار"
+          },
           "pressure-millibar": {
             "displayName": "میلی‌بار",
             "unitPattern-count-one": "{0}mbar",
@@ -2242,7 +2420,18 @@
           },
           "pressure-atmosphere": {
             "displayName": "اتمسفر",
+            "unitPattern-count-one": "{0} atm",
             "unitPattern-count-other": "{0} atm"
+          },
+          "pressure-pascal": {
+            "displayName": "Pa",
+            "unitPattern-count-one": "{0} Pa",
+            "unitPattern-count-other": "{0} Pa"
+          },
+          "pressure-hectopascal": {
+            "displayName": "هکتوپاسکال",
+            "unitPattern-count-one": "{0}hPa",
+            "unitPattern-count-other": "{0}hPa"
           },
           "pressure-kilopascal": {
             "displayName": "ک.پاسکال",
@@ -2276,14 +2465,17 @@
           },
           "temperature-generic": {
             "displayName": "°",
+            "unitPattern-count-one": "{0}°",
             "unitPattern-count-other": "{0}°"
           },
           "temperature-celsius": {
             "displayName": "‎°C",
+            "unitPattern-count-one": "{0}°C",
             "unitPattern-count-other": "{0}°C"
           },
           "temperature-fahrenheit": {
             "displayName": "‎°F",
+            "unitPattern-count-one": "{0}°F",
             "unitPattern-count-other": "{0}°F"
           },
           "temperature-kelvin": {
