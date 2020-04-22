@@ -3,15 +3,89 @@
     "ru-UA": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "ru",
         "territory": "UA"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "деци{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "санти{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "милли{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "микро{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "нано{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "пико{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "фемто{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "атто{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "зепто{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "иокто{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "дека{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "гекто{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "кило{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "мега{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "гига{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "тера{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "пета{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "экса{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "зетта{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "иотта{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "кв. {0}",
+            "compoundUnitPattern1": "кв. {0}",
+            "compoundUnitPattern1": "кв. {0}",
+            "compoundUnitPattern1": "кв. {0}",
+            "compoundUnitPattern1": "кв. {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "куб. {0}",
+            "compoundUnitPattern1": "куб. {0}",
+            "compoundUnitPattern1": "куб. {0}",
+            "compoundUnitPattern1": "куб. {0}",
+            "compoundUnitPattern1": "куб. {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -23,7 +97,7 @@
             "unitPattern-count-many": "{0} g",
             "unitPattern-count-other": "{0} g"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "метры в секунду в квадрате",
             "unitPattern-count-one": "{0} метр в секунду в квадрате",
             "unitPattern-count-few": "{0} метра в секунду в квадрате",
@@ -161,7 +235,7 @@
             "unitPattern-count-many": "{0} миллимолей на литр",
             "unitPattern-count-other": "{0} миллимоля на литр"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "миллионные доли",
             "unitPattern-count-one": "{0} миллионная доля",
             "unitPattern-count-few": "{0} миллионные доли",
@@ -203,7 +277,7 @@
             "unitPattern-count-many": "{0} литров на километр",
             "unitPattern-count-other": "{0} литра на километр"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "литры на 100 километров",
             "unitPattern-count-one": "{0} литр на 100 километров",
             "unitPattern-count-few": "{0} литра на 100 километров",
@@ -884,21 +958,21 @@
             "unitPattern-count-many": "{0} лошадиных сил",
             "unitPattern-count-other": "{0} лошадиной силы"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "миллиметры ртутного столба",
             "unitPattern-count-one": "{0} миллиметр ртутного столба",
             "unitPattern-count-few": "{0} миллиметра ртутного столба",
             "unitPattern-count-many": "{0} миллиметров ртутного столба",
             "unitPattern-count-other": "{0} миллиметра ртутного столба"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "фунты на квадратный дюйм",
             "unitPattern-count-one": "{0} фунт на квадратный дюйм",
             "unitPattern-count-few": "{0} фунта на квадратный дюйм",
             "unitPattern-count-many": "{0} фунтов на квадратный дюйм",
             "unitPattern-count-other": "{0} фунта на квадратный дюйм"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "дюймы ртутного столба",
             "unitPattern-count-one": "{0} дюйм ртутного столба",
             "unitPattern-count-few": "{0} дюйма ртутного столба",
@@ -1010,7 +1084,7 @@
             "unitPattern-count-many": "{0} кельвинов",
             "unitPattern-count-other": "{0} кельвина"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "фунт-футы",
             "unitPattern-count-one": "{0} фунт-фут",
             "unitPattern-count-few": "{0} фунт-фута",
@@ -1224,8 +1298,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "д{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "с{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "м{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "мк{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "н{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "п{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ф{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "а{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "з{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "и{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "да{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "г{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "к{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "М{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "Г{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "Т{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "П{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "Э{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "З{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "И{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1237,7 +1379,7 @@
             "unitPattern-count-many": "{0} g",
             "unitPattern-count-other": "{0} g"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "м/с²",
             "unitPattern-count-one": "{0} м/с²",
             "unitPattern-count-few": "{0} м/с²",
@@ -1375,7 +1517,7 @@
             "unitPattern-count-many": "{0} ммоль/л",
             "unitPattern-count-other": "{0} ммоль/л"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-few": "{0} ppm",
@@ -1417,7 +1559,7 @@
             "unitPattern-count-many": "{0} л/км",
             "unitPattern-count-other": "{0} л/км"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "л/100 км",
             "unitPattern-count-one": "{0} л/100 км",
             "unitPattern-count-few": "{0} л/100 км",
@@ -2089,21 +2231,21 @@
             "unitPattern-count-many": "{0} л. с.",
             "unitPattern-count-other": "{0} л. с."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "мм рт. ст.",
             "unitPattern-count-one": "{0} мм рт. ст.",
             "unitPattern-count-few": "{0} мм рт. ст.",
             "unitPattern-count-many": "{0} мм рт. ст.",
             "unitPattern-count-other": "{0} мм рт. ст."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ф. на дюйм²",
             "unitPattern-count-one": "{0} ф/дюйм²",
             "unitPattern-count-few": "{0} ф/дюйм²",
             "unitPattern-count-many": "{0} ф/дюйм²",
             "unitPattern-count-other": "{0} ф/дюйм²"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "д. рт. ст.",
             "unitPattern-count-one": "{0} д. рт. ст.",
             "unitPattern-count-few": "{0} д. рт. ст.",
@@ -2215,7 +2357,7 @@
             "unitPattern-count-many": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "фнт-фт",
             "unitPattern-count-one": "{0} фнт-фт",
             "unitPattern-count-few": "{0} фнт-фт",
@@ -2429,8 +2571,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "д{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "с{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "м{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "мк{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "н{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "п{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ф{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "а{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "з{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "и{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "да{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "г{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "к{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "М{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "Г{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "Т{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "П{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "Э{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "З{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "И{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2442,7 +2652,7 @@
             "unitPattern-count-many": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "м/с²",
             "unitPattern-count-one": "{0} м/с²",
             "unitPattern-count-few": "{0} м/с²",
@@ -2580,7 +2790,7 @@
             "unitPattern-count-many": "{0} ммоль/л",
             "unitPattern-count-other": "{0} ммоль/л"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-few": "{0} ppm",
@@ -2622,7 +2832,7 @@
             "unitPattern-count-many": "{0} л/км",
             "unitPattern-count-other": "{0} л/км"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "л/100 км",
             "unitPattern-count-one": "{0} л/100 км",
             "unitPattern-count-few": "{0} л/100 км",
@@ -3294,21 +3504,21 @@
             "unitPattern-count-many": "{0} л.с.",
             "unitPattern-count-other": "{0} л.с."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "мм рт. ст.",
             "unitPattern-count-one": "{0} мм рт. ст.",
             "unitPattern-count-few": "{0} мм рт. ст.",
             "unitPattern-count-many": "{0} мм рт. ст.",
             "unitPattern-count-other": "{0} мм рт. ст."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ф. на дюйм²",
             "unitPattern-count-one": "{0} ф./дюйм²",
             "unitPattern-count-few": "{0} ф./дюйм²",
             "unitPattern-count-many": "{0} ф./дюйм²",
             "unitPattern-count-other": "{0} ф./дюйм²"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "д. рт. ст.",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-few": "{0} inHg",
@@ -3420,7 +3630,7 @@
             "unitPattern-count-many": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "фнт-фт",
             "unitPattern-count-one": "{0} фнт-фт",
             "unitPattern-count-few": "{0} фнт-фт",

@@ -3,7 +3,7 @@
     "zh-Hant-HK": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "zh",
         "script": "Hant",
@@ -11,8 +11,76 @@
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} 分米"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} 厘米"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} 毫米"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} 微米"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} 納米"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} 皮米"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} 飛米"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} 阿米"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} 介米"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} 攸米"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} 公丈"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} 公引"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} 公里"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} 百萬米"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} 吉米"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} 太米"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} 拍米"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} 艾米"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} 澤米"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} 佑米"
+          },
           "per": {
             "compoundUnitPattern": "{0}每{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -21,7 +89,7 @@
             "displayName": "G 力",
             "unitPattern-count-other": "{0} G 力"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "米/平方秒",
             "unitPattern-count-other": "{0} 米/平方秒"
           },
@@ -102,7 +170,7 @@
             "displayName": "每公升毫摩爾",
             "unitPattern-count-other": "每公升 {0} 毫摩爾"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -126,7 +194,7 @@
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0} 公升/公里"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "公升/100公里",
             "unitPattern-count-other": "每 100 公里 {0} 公升"
           },
@@ -522,15 +590,15 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0} 匹"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0} 毫米汞柱"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "磅/平方吋",
             "unitPattern-count-other": "{0} 磅/平方吋"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0} 英吋汞柱"
           },
@@ -594,7 +662,7 @@
             "displayName": "開爾文",
             "unitPattern-count-other": "{0} 開爾文"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "磅尺",
             "unitPattern-count-other": "{0} 磅尺"
           },
@@ -724,8 +792,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} 分米"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} 厘米"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} 毫米"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} 微米"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} 納米"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} 皮米"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} 飛米"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} 阿米"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} 介米"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} 攸米"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} 公丈"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} 公引"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} 公里"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} 百萬米"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} 吉米"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} 太米"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} 拍米"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} 艾米"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} 澤米"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} 佑米"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -734,7 +870,7 @@
             "displayName": "G 力",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "米每平方秒",
             "unitPattern-count-other": "{0} 米每平方秒"
           },
@@ -815,7 +951,7 @@
             "displayName": "毫摩爾/公升",
             "unitPattern-count-other": "{0} 毫摩爾/公升"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -839,7 +975,7 @@
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0} 升每公里"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "升/100 公里",
             "unitPattern-count-other": "{0} 升/100 公里"
           },
@@ -1235,15 +1371,15 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0} 匹"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0} 毫米汞柱"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "磅每平方吋",
             "unitPattern-count-other": "{0} 磅每平方吋"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0} 英吋汞柱"
           },
@@ -1307,7 +1443,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -1437,8 +1573,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} 分米"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} 厘米"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} 毫米"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} 微米"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} 納米"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} 皮米"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} 飛米"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} 阿米"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} 介米"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} 攸米"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} 公丈"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} 公引"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} 公里"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} 百萬米"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} 吉米"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} 太米"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} 拍米"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} 艾米"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} 澤米"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} 佑米"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1447,7 +1651,7 @@
             "displayName": "G 力",
             "unitPattern-count-other": "{0}G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "米每平方秒",
             "unitPattern-count-other": "{0}m/s²"
           },
@@ -1528,7 +1732,7 @@
             "displayName": "毫摩爾/公升",
             "unitPattern-count-other": "{0}mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "百萬分率",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -1552,7 +1756,7 @@
             "displayName": "公升/公里",
             "unitPattern-count-other": "{0}L/km"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "升/100公里",
             "unitPattern-count-other": "{0}L/100km"
           },
@@ -1948,15 +2152,15 @@
             "displayName": "匹",
             "unitPattern-count-other": "{0}匹"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "毫米汞柱",
             "unitPattern-count-other": "{0}mmHg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "磅每平方吋",
             "unitPattern-count-other": "{0}psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "英吋汞柱",
             "unitPattern-count-other": "{0}″ Hg"
           },
@@ -2020,7 +2224,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0}°K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },

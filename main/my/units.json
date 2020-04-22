@@ -3,14 +3,82 @@
     "my": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "my"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "ဒက်စီ {0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "စင်တီ {0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "မီလီ {0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "မိုက်ခရို {0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "နာနို {0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "ပီကို {0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ဖမ်တို {0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "အက်တို {0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ဇက်ပ်တို {0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ယောက်တို {0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "ဒက်ကာ {0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ဟက်တို {0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "ကီလို {0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "မီဂါ {0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "ဂစ်ဂါ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "တယ်ရာ {0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "ပက်တာ {0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "အိတ်စ်ဆာ {0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ဇက်တာ {0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "ယိုဒါ {0}"
+          },
           "per": {
             "compoundUnitPattern": "တစ်{1} လျှင် {0}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "နှစ်ထပ်ကိန်း {0}",
+            "compoundUnitPattern1": "နှစ်ထပ်ကိန်း {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "ကုဗ {0}",
+            "compoundUnitPattern1": "ကုဗ {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -19,7 +87,7 @@
             "displayName": "ဆွဲငင်အား",
             "unitPattern-count-other": "{0} ဆွဲငင်အား"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "မီတာ/စက္ကန့်နှစ်ထပ်ကိန်း",
             "unitPattern-count-other": "{0} မီတာ/စက္ကန့်နှစ်ထပ်ကိန်း"
           },
@@ -100,7 +168,7 @@
             "displayName": "တစ်လီတာရှိ မီလီမိုးလ်",
             "unitPattern-count-other": "တစ်လီတာရှိ {0} မီလီမိုးလ်"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "တစ်သန်းပုံ တစ်ပုံ",
             "unitPattern-count-other": "တစ်သန်းပုံ {0} ပုံ"
           },
@@ -124,7 +192,7 @@
             "displayName": "တစ်ကီလိုမီတာရှိ လီတာ",
             "unitPattern-count-other": "တစ်ကီလိုမီတာရှိ {0} လီတာ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "တစ်ရာကီလိုမီတာရှိ လီတာ",
             "unitPattern-count-other": "တစ်ရာကီလိုမီတာရှိ {0} လီတာ"
           },
@@ -520,15 +588,15 @@
             "displayName": "မြင်းကောင်ရေအား",
             "unitPattern-count-other": "{0} မြင်းကောင်ရေအား"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "ပြဒါးမီလီမီတာ",
             "unitPattern-count-other": "{0} ပြဒါးမီလီမီတာ"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ပေါင်/စတုရန်းလက်မ",
             "unitPattern-count-other": "တစ်စတုရန်းလက်မလျှင် {0} ပေါင်"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "ပြဒါးလက်မ",
             "unitPattern-count-other": "{0} ပြဒါးလက်မ"
           },
@@ -592,7 +660,7 @@
             "displayName": "ကယ်လ်ဗင်",
             "unitPattern-count-other": "{0} ကယ်လ်ဗင်"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf.ft",
             "unitPattern-count-other": "{0} lbf.ft"
           },
@@ -722,8 +790,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "d{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "c{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "m{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "n{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "p{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "f{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "a{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "z{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "y{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "da{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "h{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "k{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "M{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -732,7 +868,7 @@
             "displayName": "ဆွဲငင်အား",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "မီတာ/စက္ကန့်နှစ်ထပ်ကိန်း",
             "unitPattern-count-other": "{0} m/s²"
           },
@@ -813,7 +949,7 @@
             "displayName": "mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "တစ်သန်းပုံ တစ်ပုံ",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -837,7 +973,7 @@
             "displayName": "လီတာ/ကီလိုမီတာ",
             "unitPattern-count-other": "{0} L/km"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "တစ်ရာကီလိုမီတာရှိ လီတာ",
             "unitPattern-count-other": "{0} L/100 km"
           },
@@ -1233,15 +1369,15 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ပေါင်/စတုရန်းလက်မ",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -1305,7 +1441,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf.ft",
             "unitPattern-count-other": "{0} lbf.ft"
           },
@@ -1435,8 +1571,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "d{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "c{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "m{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "n{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "p{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "f{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "a{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "z{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "y{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "da{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "h{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "k{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "M{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z {0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y {0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1445,7 +1649,7 @@
             "displayName": "ဆွဲငင်အား",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "မီတာ/စက္ကန့်နှစ်ထပ်ကိန်း",
             "unitPattern-count-other": "{0} m/s²"
           },
@@ -1526,7 +1730,7 @@
             "displayName": "mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "တစ်သန်းပုံ တစ်ပုံ",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -1550,7 +1754,7 @@
             "displayName": "လီတာ/ကီလိုမီတာ",
             "unitPattern-count-other": "{0} L/km"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "L/100km",
             "unitPattern-count-other": "{0} L/100km"
           },
@@ -1946,15 +2150,15 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ပေါင်/စတုရန်းလက်မ",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -2018,7 +2222,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf.ft",
             "unitPattern-count-other": "{0} lbf.ft"
           },

@@ -3,15 +3,85 @@
     "ta-SG": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "ta",
         "territory": "SG"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "டெசி{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "சென்டி{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "மில்லி{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "மைக்ரோ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "நானோ{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "பிக்கோ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "பெம்டோ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "அட்டோ{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ஜெப்டோ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "யொக்டோ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "டெக்கா{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ஹெக்டா{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "கிலோ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "மெகா{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "ஜிகா{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "டெரா{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "பெட்டா{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "எக்ஸா{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ஜெட்டா{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "யாட்டா{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "சதுர {0}",
+            "compoundUnitPattern1": "சதுர {0}",
+            "compoundUnitPattern1": "சதுர {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "கன {0}",
+            "compoundUnitPattern1": "கன {0}",
+            "compoundUnitPattern1": "கன {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -21,7 +91,7 @@
             "unitPattern-count-one": "{0} ஜி-ஃபோர்ஸ்",
             "unitPattern-count-other": "{0} ஜி-ஃபோர்ஸ்"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "மீட்டர்/சதுரவிநாடி",
             "unitPattern-count-one": "{0} மீட்டர்/சதுரவிநாடி",
             "unitPattern-count-other": "{0} மீட்டர்கள்/சதுரவிநாடி"
@@ -121,7 +191,7 @@
             "unitPattern-count-one": "{0} மில்லிமோல்/லிட்டர்",
             "unitPattern-count-other": "{0} மில்லிமோல்கள்/லிட்டர்"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "பகுதிகள்/மில்லியன்",
             "unitPattern-count-one": "{0} பகுதி/மில்லியன்",
             "unitPattern-count-other": "{0} பகுதிகள்/மில்லியன்"
@@ -151,7 +221,7 @@
             "unitPattern-count-one": "{0} லிட்டர்/கிலோமீட்டர்",
             "unitPattern-count-other": "{0} லிட்டர்கள்/கிலோமீட்டர்"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "லிட்டர்/100கி.மீ",
             "unitPattern-count-one": "{0} லிட்டர்/100கி.மீ",
             "unitPattern-count-other": "{0} லிட்டர்/100கி.மீ"
@@ -640,17 +710,17 @@
             "unitPattern-count-one": "{0} குதிரைத்திறன்",
             "unitPattern-count-other": "{0} குதிரைத்திறன்"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "பாதரச மில்லிமீட்டர்கள்",
             "unitPattern-count-one": "{0} பாதரச மில்லிமீட்டர்",
             "unitPattern-count-other": "{0} பாதரச மில்லிமீட்டர்கள்"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "பவுண்டுகள்/சதுர அங்குலம்",
             "unitPattern-count-one": "{0} பவுண்டு/சதுர அங்குலம்",
             "unitPattern-count-other": "{0} பவுண்டுகள்/சதுர அங்குலம்"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "பாதரச அங்குலங்கள்",
             "unitPattern-count-one": "{0} பாதரச அங்குலம்",
             "unitPattern-count-other": "{0} பாதரச அங்குலங்கள்"
@@ -730,7 +800,7 @@
             "unitPattern-count-one": "{0} கெல்வின்",
             "unitPattern-count-other": "{0} கெல்வின்"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "பவுண்ட்-அடி",
             "unitPattern-count-one": "{0} பவுண்ட்-அடி",
             "unitPattern-count-other": "{0} பவுண்ட்-அடி"
@@ -888,8 +958,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "டெ.{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "செ.{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "மி.{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "நா.{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "பி.{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "பெ.{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "அட்.{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ஜெப்.{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "யொ.{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "டெக்.{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ஹெ.{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "கி.{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "மெ.{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "ஜி.{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "டெரா{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "பெட்.{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "எ.{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ஜெ.{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "யா.{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -899,7 +1037,7 @@
             "unitPattern-count-one": "{0} ஜி.ஃபோ.",
             "unitPattern-count-other": "{0} ஜி.ஃபோ."
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "மீ/வி²",
             "unitPattern-count-one": "{0} மீ/வி²",
             "unitPattern-count-other": "{0} மீ/வி²"
@@ -999,7 +1137,7 @@
             "unitPattern-count-one": "{0} மி.மோ./லி.",
             "unitPattern-count-other": "{0} மி.மோ./லி."
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ப./மி.",
             "unitPattern-count-one": "{0} ப./மி.",
             "unitPattern-count-other": "{0} ப./மி."
@@ -1028,7 +1166,7 @@
             "unitPattern-count-one": "{0} லி./கி.மீ.",
             "unitPattern-count-other": "{0} லி./கி.மீ."
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "லி./100கி.மீ",
             "unitPattern-count-one": "{0} லி./100கி.மீ",
             "unitPattern-count-other": "{0} லி./100கி.மீ"
@@ -1511,17 +1649,17 @@
             "unitPattern-count-one": "{0} கு.தி.",
             "unitPattern-count-other": "{0} கு.தி."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "பாத. மி.மீ.",
             "unitPattern-count-one": "{0} பாத. மி.மீ.",
             "unitPattern-count-other": "{0} பாத. மி.மீ."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "பாத. அங்.",
             "unitPattern-count-one": "{0} பாத. அங்.",
             "unitPattern-count-other": "{0} பாத. அங்."
@@ -1601,7 +1739,7 @@
             "unitPattern-count-one": "{0} கெல்.",
             "unitPattern-count-other": "{0} கெல்."
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ப.அடி",
             "unitPattern-count-one": "{0} ப.அடி",
             "unitPattern-count-other": "{0} ப.அடி"
@@ -1757,8 +1895,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "டெ.{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "செ.{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "மி.{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "மைக்ரோ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "நா.{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "பி.{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "பெ.{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "அட்.{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ஜெப்.{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "யொ.{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "டெக்.{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ஹெ.{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "கி.{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "மெ.{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "ஜி.{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "டெரா{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "பெட்.{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "எ.{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ஜெ.{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "யா.{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1768,7 +1974,7 @@
             "unitPattern-count-one": "{0} ஜி.ஃபோ.",
             "unitPattern-count-other": "{0} ஜி.ஃபோ."
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "மீ/வி²",
             "unitPattern-count-one": "{0} மீ/வி²",
             "unitPattern-count-other": "{0} மீ/வி²"
@@ -1868,7 +2074,7 @@
             "unitPattern-count-one": "{0} மி.மோ./லி.",
             "unitPattern-count-other": "{0} மி.மோ./லி."
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ப./மி.",
             "unitPattern-count-one": "{0} ப./மி.",
             "unitPattern-count-other": "{0} ப./மி."
@@ -1897,7 +2103,7 @@
             "unitPattern-count-one": "{0} லி./கி.மீ.",
             "unitPattern-count-other": "{0} லி./கி.மீ."
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "லி./100கி.மீ",
             "unitPattern-count-one": "{0}லி./100கி.மீ",
             "unitPattern-count-other": "{0}லி./100கி.மீ"
@@ -2380,17 +2586,17 @@
             "unitPattern-count-one": "{0} கு.வே.",
             "unitPattern-count-other": "{0} கு.வே."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "பாத. மி.மீ.",
             "unitPattern-count-one": "{0} பாத. மி.மீ.",
             "unitPattern-count-other": "{0} பாத. மி.மீ."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "பா. அங்.",
             "unitPattern-count-one": "{0} பா.அங்.",
             "unitPattern-count-other": "{0} பா.அங்."
@@ -2470,7 +2676,7 @@
             "unitPattern-count-one": "{0} கெல்.",
             "unitPattern-count-other": "{0} கெல்."
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ப.அடி",
             "unitPattern-count-one": "{0} ப.அடி",
             "unitPattern-count-other": "{0} ப.அடி"

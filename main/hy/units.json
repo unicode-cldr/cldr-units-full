@@ -3,14 +3,84 @@
     "hy": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "hy"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "դեցի{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "սանտի{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "միլի{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "միկրո{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "նանո{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "պիկո{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ֆեմտո{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "ատտո{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "զեպտո{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "յոկտո{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "դեկա{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "հեկտո{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "կիլո{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "մեգա{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "գիգա{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "տերա{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "պետա{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "էքսա{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "զետտա{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "յոտտա{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "քառակուսի {0}",
+            "compoundUnitPattern1": "քառակուսի {0}",
+            "compoundUnitPattern1": "քառակուսի {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "խորանարդ {0}",
+            "compoundUnitPattern1": "խորանարդ {0}",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -20,7 +90,7 @@
             "unitPattern-count-one": "{0} g",
             "unitPattern-count-other": "{0} g"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "մետրեր/վայրկյան քառակուսի",
             "unitPattern-count-one": "{0} մետր/վայրկյան քառակուսի",
             "unitPattern-count-other": "{0} մետր/վայրկյան քառակուսի"
@@ -120,7 +190,7 @@
             "unitPattern-count-one": "{0} միլիմոլ լիտրի վրա",
             "unitPattern-count-other": "{0} միլիմոլ լիտրի վրա"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "մասնիկներ միլիոնի վրա",
             "unitPattern-count-one": "{0} մասնիկ միլիոնի վրա",
             "unitPattern-count-other": "{0} մասնիկ միլիոնի վրա"
@@ -150,7 +220,7 @@
             "unitPattern-count-one": "{0} լիտր կիլոմետրի վրա",
             "unitPattern-count-other": "{0} լիտր կիլոմետրի վրա"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "լիտրեր 100 կիլոմետրի վրա",
             "unitPattern-count-one": "{0} լիտր 100 կիլոմետրի վրա",
             "unitPattern-count-other": "{0} լիտր 100 կիլոմետրի վրա"
@@ -637,17 +707,17 @@
             "unitPattern-count-one": "{0} ձիաուժ",
             "unitPattern-count-other": "{0} ձիաուժ"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "սնդիկի սյան միլիմետրեր",
             "unitPattern-count-one": "{0} միլիմետր սնդիկի սյուն",
             "unitPattern-count-other": "{0} միլիմետր սնդիկի սյուն"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ֆունտեր քառակուսի դյույմի վրա",
             "unitPattern-count-one": "{0} ֆունտ քառակուսի դյույմի վրա",
             "unitPattern-count-other": "{0} ֆունտ քառակուսի դյույմի վրա"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "սնդիկի սյան դյույմեր",
             "unitPattern-count-one": "{0} դյույմ սնդիկի սյուն",
             "unitPattern-count-other": "{0} դյույմ սնդիկի սյուն"
@@ -727,7 +797,7 @@
             "unitPattern-count-one": "{0} կելվին",
             "unitPattern-count-other": "{0} կելվին"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ֆունտ-ֆուտեր",
             "unitPattern-count-one": "{0} ֆունտ-ֆուտ",
             "unitPattern-count-other": "{0} ֆունտ-ֆուտ"
@@ -885,8 +955,78 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "դ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "ս{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "մ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "մկ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ն{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "պ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ֆ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "ա{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "զ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "յ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "դա{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "հ{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "կ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "Մ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "Գ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "Տ{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "Պ{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "Է{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Զ{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Յ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -896,7 +1036,7 @@
             "unitPattern-count-one": "{0} g",
             "unitPattern-count-other": "{0} g"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "մ/վ²",
             "unitPattern-count-one": "{0} մ/վ²",
             "unitPattern-count-other": "{0} մ/վ²"
@@ -996,7 +1136,7 @@
             "unitPattern-count-one": "{0} մմոլ/լ",
             "unitPattern-count-other": "{0} մմոլ/լ"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "մասնիկ/միլիոն",
             "unitPattern-count-one": "{0} մասնիկ/միլիոն",
             "unitPattern-count-other": "{0} մասնիկ/միլիոն"
@@ -1026,7 +1166,7 @@
             "unitPattern-count-one": "{0} լ/կմ",
             "unitPattern-count-other": "{0} լ/կմ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "լ/100 կմ",
             "unitPattern-count-one": "{0} լ/100 կմ",
             "unitPattern-count-other": "{0} լ/100 կմ"
@@ -1509,17 +1649,17 @@
             "unitPattern-count-one": "{0} ձ․ու․",
             "unitPattern-count-other": "{0} ձ․ու․"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "մմ ս.ս.",
             "unitPattern-count-one": "{0} մմ ս.ս.",
             "unitPattern-count-other": "{0} մմ ս.ս."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ֆ․/քառ․ դյմ",
             "unitPattern-count-one": "{0} ֆ./քառ․ դյմ",
             "unitPattern-count-other": "{0} ֆ./քառ․ դյմ"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "դյույմ ս.ս.",
             "unitPattern-count-one": "{0} դյմ. ս.ս.",
             "unitPattern-count-other": "{0} դյմ. ս.ս."
@@ -1599,7 +1739,7 @@
             "unitPattern-count-one": "{0} Կ",
             "unitPattern-count-other": "{0} Կ"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ֆնտ-ֆտ",
             "unitPattern-count-one": "{0} ֆնտ-ֆտ",
             "unitPattern-count-other": "{0} ֆնտ-ֆտ"
@@ -1757,8 +1897,78 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "դ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "ս{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "մ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "մկ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ն{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "պ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ֆ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "ա{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "զ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "յ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "դա{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "հ{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "կ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "Մ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "Գ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "Տ{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "Պ{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "Է{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Զ{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Յ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1768,7 +1978,7 @@
             "unitPattern-count-one": "{0}G",
             "unitPattern-count-other": "{0}G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "մ/վ²",
             "unitPattern-count-one": "{0} մ/վ²",
             "unitPattern-count-other": "{0} մ/վ²"
@@ -1868,7 +2078,7 @@
             "unitPattern-count-one": "{0} մմոլ/լ",
             "unitPattern-count-other": "{0} մմոլ/լ"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "մասնիկ/միլիոն",
             "unitPattern-count-one": "{0} մասնիկ/միլիոն",
             "unitPattern-count-other": "{0} մասնիկ/միլիոն"
@@ -1898,7 +2108,7 @@
             "unitPattern-count-one": "{0} լ/կմ",
             "unitPattern-count-other": "{0} լ/կմ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "լ/100 կմ",
             "unitPattern-count-one": "{0} լ/100 կմ",
             "unitPattern-count-other": "{0} լ/100 կմ"
@@ -2381,17 +2591,17 @@
             "unitPattern-count-one": "{0}ձ/ու",
             "unitPattern-count-other": "{0}ձ/ու"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "մմ ս.ս.",
             "unitPattern-count-one": "{0} մմ ս.ս.",
             "unitPattern-count-other": "{0} մմ ս.ս."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ֆ․/քառ․ դյմ",
             "unitPattern-count-one": "{0} ֆ./քառ․ դյմ",
             "unitPattern-count-other": "{0} ֆ./քառ․ դյմ"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "դյույմ ս.ս.",
             "unitPattern-count-one": "{0}\\\" ս. ս.",
             "unitPattern-count-other": "{0}\\\" ս. ս"
@@ -2471,7 +2681,7 @@
             "unitPattern-count-one": "{0} Կ",
             "unitPattern-count-other": "{0} Կ"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ֆնտ-ֆտ",
             "unitPattern-count-one": "{0} ֆնտ-ֆտ",
             "unitPattern-count-other": "{0} ֆնտ-ֆտ"

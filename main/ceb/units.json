@@ -3,14 +3,84 @@
     "ceb": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "ceb"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "deci{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "centi{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "milli{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "micro{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "nano{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "pico{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "femto{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "atto{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "zepto{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "yocto{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "deka{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "hecto{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "kilo{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "mega{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "giga{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "tera{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "peta{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "exa{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "zetta{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "yotta{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} kada {1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "square {0}",
+            "compoundUnitPattern1": "square {0}",
+            "compoundUnitPattern1": "square {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "cubic {0}",
+            "compoundUnitPattern1": "cubic {0}",
+            "compoundUnitPattern1": "cubic {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -20,7 +90,7 @@
             "unitPattern-count-one": "{0} g-force",
             "unitPattern-count-other": "{0} g-force"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "mga metro kada second squared",
             "unitPattern-count-one": "{0} ka metro kada second squared",
             "unitPattern-count-other": "{0} ka mga metro kada second squared"
@@ -120,7 +190,7 @@
             "unitPattern-count-one": "{0} ka millimole kada litro",
             "unitPattern-count-other": "{0} ka mga millimole kada litro"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "mga part per million",
             "unitPattern-count-one": "{0} ka part per million",
             "unitPattern-count-other": "{0} ka mga part per million"
@@ -150,7 +220,7 @@
             "unitPattern-count-one": "{0} litro kada kilometro",
             "unitPattern-count-other": "{0} ka mga litro kada kilometro"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "mga litro kada 100 kilometro",
             "unitPattern-count-one": "{0} ka litro kada 100 kilometro",
             "unitPattern-count-other": "{0} ka litro kada 100 kilometro"
@@ -638,17 +708,17 @@
             "unitPattern-count-one": "{0} ka horsepower",
             "unitPattern-count-other": "{0} ka horsepower"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mga millimetro sa mercury",
             "unitPattern-count-one": "{0} ka millimetro sa mercury",
             "unitPattern-count-other": "{0} ka mga millimetro sa mercury"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "mga pound kada kuwadradong pulgada",
             "unitPattern-count-one": "{0} ka pound kada kuwadradong pulgada",
             "unitPattern-count-other": "{0} ka mga pound kada kuwadradong pulgada"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "mga pulgada sa mercury",
             "unitPattern-count-one": "{0} ka pulgada sa mercury",
             "unitPattern-count-other": "{0} ka mga pulgada sa mercury"
@@ -727,10 +797,10 @@
             "unitPattern-count-one": "{0} ka kelvin",
             "unitPattern-count-other": "{0} ka mga kelvin"
           },
-          "torque-pound-foot": {
-            "displayName": "mga pound-foot",
-            "unitPattern-count-one": "{0} ka pound-foot",
-            "unitPattern-count-other": "{0} ka mga pound-foot"
+          "torque-pound-force-foot": {
+            "displayName": "mga pound-force-foot",
+            "unitPattern-count-one": "{0} ka pound-force-foot",
+            "unitPattern-count-other": "{0} ka mga pound-force-foot"
           },
           "torque-newton-meter": {
             "displayName": "mga newton-meter",
@@ -885,8 +955,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "d{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "c{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "m{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "n{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "p{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "f{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "a{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "z{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "y{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "da{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "h{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "k{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "M{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -895,7 +1033,7 @@
             "displayName": "g-force",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "mga metro/sec²",
             "unitPattern-count-other": "{0} m/s²"
           },
@@ -983,7 +1121,7 @@
             "displayName": "millimol/litro",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "mga part/million",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -1008,7 +1146,7 @@
             "displayName": "mga litro/km",
             "unitPattern-count-other": "{0} L/km"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "L/100 km",
             "unitPattern-count-one": "{0} L/100 km",
             "unitPattern-count-other": "{0} L/100 km"
@@ -1125,7 +1263,7 @@
           },
           "duration-microsecond": {
             "displayName": "μsecs",
-            "unitPattern-count-other": "{0} μs"
+            "unitPattern-count-other": "{0} µs"
           },
           "duration-nanosecond": {
             "displayName": "mga nanosec",
@@ -1420,16 +1558,16 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
             "unitPattern-count-other": "{0} mmHg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -1496,7 +1634,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -1631,8 +1769,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "d{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "c{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "m{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "n{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "p{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "f{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "a{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "z{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "y{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "da{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "h{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "k{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "M{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1641,7 +1847,7 @@
             "displayName": "g-force",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "mga metro/sec²",
             "unitPattern-count-other": "{0} m/s²"
           },
@@ -1729,12 +1935,12 @@
             "displayName": "millimol/litro",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "mga part/million",
             "unitPattern-count-other": "{0} ppm"
           },
           "concentr-percent": {
-            "displayName": "porsyento",
+            "displayName": "%",
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
@@ -1754,7 +1960,7 @@
             "displayName": "mga litro/km",
             "unitPattern-count-other": "{0} L/km"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "L/100km",
             "unitPattern-count-one": "{0}L/100km",
             "unitPattern-count-other": "{0}L/100km"
@@ -1856,7 +2062,7 @@
           "duration-minute": {
             "displayName": "minuto",
             "unitPattern-count-one": "{0} minuto",
-            "unitPattern-count-other": "{0}minuto",
+            "unitPattern-count-other": "{0} minuto",
             "perUnitPattern": "{0}/minuto"
           },
           "duration-second": {
@@ -1872,7 +2078,7 @@
           },
           "duration-microsecond": {
             "displayName": "μsecs",
-            "unitPattern-count-other": "{0} μs"
+            "unitPattern-count-other": "{0} µs"
           },
           "duration-nanosecond": {
             "displayName": "mga nanosec",
@@ -2172,16 +2378,16 @@
             "displayName": "hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
             "unitPattern-count-other": "{0} mmHg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -2249,7 +2455,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -2377,10 +2583,10 @@
           },
           "coordinateUnit": {
             "displayName": "direksyon",
-            "east": "{0} E",
-            "north": "{0} N",
-            "south": "{0} S",
-            "west": "{0} W"
+            "east": "{0}E",
+            "north": "{0}N",
+            "south": "{0}S",
+            "west": "{0}W"
           }
         },
         "durationUnit-type-hm": {

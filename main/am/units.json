@@ -3,14 +3,82 @@
     "am": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "am"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "ደሲ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "ሴንቲ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "ሚሊ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "ማይክሮ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ናኖ{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "ፒኮ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ፌምቶ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "አቶ{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ዜብቶ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ዮክቶ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "ዴካ{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ሄክቶ{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "ኪሎ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "ሜጋ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} በ{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -20,7 +88,7 @@
             "unitPattern-count-one": "{0} ጂ-ኃይል",
             "unitPattern-count-other": "{0} ጂ-ኃይል"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "ሜ/ሰ²",
             "unitPattern-count-one": "{0} ሜ/ሰ²",
             "unitPattern-count-other": "{0} ሜ/ሰ²"
@@ -120,7 +188,7 @@
             "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -148,7 +216,7 @@
             "unitPattern-count-one": "{0} ሊ/ኪሜ",
             "unitPattern-count-other": "{0} ሊ/ኪሜ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ሊትሮች በ100 ኪሎሜትሮች",
             "unitPattern-count-one": "{0} ሊትር በ100 ኪሎሜትሮች",
             "unitPattern-count-other": "{0} ሊትሮች በ100 ኪሎሜትሮች"
@@ -627,17 +695,17 @@
             "unitPattern-count-one": "{0} የፈረስ ጉልበት",
             "unitPattern-count-other": "{0} የፈረስ ጉልበት"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "ኢንች ሜርኩሪ",
             "unitPattern-count-one": "{0} ኢንች ሜርኩሪ",
             "unitPattern-count-other": "{0} ኢንች ሜርኩሪ"
@@ -717,7 +785,7 @@
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -873,8 +941,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "ደ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "ሴ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "ሚ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ና{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "ፒ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ፌ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "አ{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ዜ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ዮ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "ዴ{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ሄ{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "ኪ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "ሜ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -884,7 +1020,7 @@
             "unitPattern-count-one": "{0} ጂ",
             "unitPattern-count-other": "{0} ጂ"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "ሜ/ሰ²",
             "unitPattern-count-one": "{0} ሜ/ሰ²",
             "unitPattern-count-other": "{0} ሜ/ሰ²"
@@ -984,7 +1120,7 @@
             "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1012,7 +1148,7 @@
             "unitPattern-count-one": "{0} ሊ/ኪሜ",
             "unitPattern-count-other": "{0} ሊ/ኪሜ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ሊትር በ100 ኪሎሜትሮች",
             "unitPattern-count-one": "{0} ሊ/100ኪሜ",
             "unitPattern-count-other": "{0} ሊ/100ኪሜ"
@@ -1491,17 +1627,17 @@
             "unitPattern-count-one": "{0} የፈጉ",
             "unitPattern-count-other": "{0} የፈጉ"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "ኢንች ሜርኩሪ",
             "unitPattern-count-one": "{0} ኢሜ",
             "unitPattern-count-other": "{0} ኢንሜር"
@@ -1581,7 +1717,7 @@
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -1737,8 +1873,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "ደ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "ሴ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "ሚ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µ{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ና{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "ፒ{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "ፌ{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "አ{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ዜ{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ዮ{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "ዴ{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "ሄ{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "ኪ{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "ሜ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "G{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "T{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "P{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "E{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "Z{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "Y{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1748,7 +1952,7 @@
             "unitPattern-count-one": "{0} ጂ",
             "unitPattern-count-other": "{0} ጂ"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "ሜ/ሰ²",
             "unitPattern-count-one": "{0} ሜ/ሰ²",
             "unitPattern-count-other": "{0} ሜ/ሰ²"
@@ -1848,7 +2052,7 @@
             "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1876,7 +2080,7 @@
             "unitPattern-count-one": "{0} ሊ/ኪሜ",
             "unitPattern-count-other": "{0} ሊ/ኪሜ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ሊትር በ100 ኪሎሜትሮች",
             "unitPattern-count-one": "{0}ሊበ100ኪሜ",
             "unitPattern-count-other": "{0}ሊበ100ኪሜ"
@@ -2355,17 +2559,17 @@
             "unitPattern-count-one": "{0} የፈረስ ኃይል",
             "unitPattern-count-other": "{0} የፈረስ ኃይል"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mm Hg",
             "unitPattern-count-one": "{0} mm Hg",
             "unitPattern-count-other": "{0} mm Hg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "ኢንች ሜርኩሪ",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
@@ -2445,7 +2649,7 @@
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },

@@ -3,14 +3,84 @@
     "el": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "el"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "δεκατο-{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "εκατοστο-{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "χιλιοστο-{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "μικρο-{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "νανο-{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "πικο-{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "φεμτο-{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "αττο-{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ζεπτο-{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "γιοκτο-{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "δεκα-{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "εκατο-{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "χιλιο-{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "μεγα-{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "γιγα-{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "τερα-{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "πετα-{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "εξα-{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ζεττα-{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "γιοττα-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} ανά {1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "τετραγωνικό {0}",
+            "compoundUnitPattern1": "τετραγωνικό {0}",
+            "compoundUnitPattern1": "τετραγωνικά {0}"
+          },
+          "power3": {
+            "compoundUnitPattern1": "κυβικό {0}",
+            "compoundUnitPattern1": "κυβικό {0}",
+            "compoundUnitPattern1": "κυβικά {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -20,7 +90,7 @@
             "unitPattern-count-one": "{0} δύναμη επιτάχυνσης",
             "unitPattern-count-other": "{0} δύναμη επιτάχυνσης"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "μέτρα ανά τετραγωνικό δευτερόλεπτο",
             "unitPattern-count-one": "{0} μέτρο ανά τετραγωνικό δευτερόλεπτο",
             "unitPattern-count-other": "{0} μέτρα ανά τετραγωνικό δευτερόλεπτο"
@@ -120,7 +190,7 @@
             "unitPattern-count-one": "{0} χιλιοστογραμμομόριο ανά λίτρο",
             "unitPattern-count-other": "{0} χιλιοστογραμμομόρια ανά λίτρο"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "μέρη ανά εκατομμύριο",
             "unitPattern-count-one": "{0} μέρος ανά εκατομμύριο",
             "unitPattern-count-other": "{0} μέρη ανά εκατομμύριο"
@@ -150,7 +220,7 @@
             "unitPattern-count-one": "{0} λίτρο ανά χιλιόμετρο",
             "unitPattern-count-other": "{0} λίτρα ανά χιλιόμετρο"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "λίτρα ανά 100 χιλιόμετρα",
             "unitPattern-count-one": "{0} λίτρο ανά 100 χιλιόμετρα",
             "unitPattern-count-other": "{0} λίτρα ανά 100 χιλιόμετρα"
@@ -638,17 +708,17 @@
             "unitPattern-count-one": "{0} ίππος",
             "unitPattern-count-other": "{0} ίπποι"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "χιλιοστόμετρα στήλης υδραργύρου",
             "unitPattern-count-one": "{0} χιλιοστόμετρο στήλης υδραργύρου",
             "unitPattern-count-other": "{0} χιλιοστόμετρα στήλης υδραργύρου"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "λίβρες ανά τετραγωνική ίντσα",
             "unitPattern-count-one": "{0} λίβρα ανά τετραγωνική ίντσα",
             "unitPattern-count-other": "{0} λίβρες ανά τετραγωνική ίντσα"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "ίντσες στήλης υδραργύρου",
             "unitPattern-count-one": "{0} ίντσα στήλης υδραργύρου",
             "unitPattern-count-other": "{0} ίντσες στήλης υδραργύρου"
@@ -728,7 +798,7 @@
             "unitPattern-count-one": "{0} βαθμός Κέλβιν",
             "unitPattern-count-other": "{0} βαθμοί Κέλβιν"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "λίβρες-πόδια",
             "unitPattern-count-one": "{0} λίβρα-πόδι",
             "unitPattern-count-other": "{0} λίβρες-πόδια"
@@ -886,8 +956,77 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "δκτ-{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "εκστ-{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "χλστ-{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "µκρ-{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "νν-{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "πκ-{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "φμτ-{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "ατ-{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ζπτ-{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "γκτ-{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "δκ-{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "εκτ-{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "χλ-{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "μγ-{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "γγ-{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "τρ-{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "πτ-{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "εξ-{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ζτ-{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "γττ-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -897,7 +1036,7 @@
             "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "μέτρα/τετρ. δευτ.",
             "unitPattern-count-one": "{0} m/s²",
             "unitPattern-count-other": "{0} m/s²"
@@ -997,7 +1136,7 @@
             "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1027,7 +1166,7 @@
             "unitPattern-count-one": "{0} λίτρο/χλμ",
             "unitPattern-count-other": "{0} λίτρα/χλμ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "λ./100 χλμ.",
             "unitPattern-count-one": "{0} λ./100 χλμ.",
             "unitPattern-count-other": "{0} λ./100 χλμ."
@@ -1507,17 +1646,17 @@
             "unitPattern-count-one": "{0} ίπ.",
             "unitPattern-count-other": "{0} ίπ."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
             "unitPattern-count-other": "{0} mmHg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
@@ -1597,7 +1736,7 @@
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "λβρ⋅πδ",
             "unitPattern-count-one": "{0} λβρ⋅πδ",
             "unitPattern-count-other": "{0} λβρ⋅πδ"
@@ -1755,8 +1894,77 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "δεκατ-{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "εκατοστ-{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "χιλιοστ-{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "μικρ-{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "ναν-{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "πικ-{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "φεμτ-{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "αττ-{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "ζεπ-{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "γιοκ-{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "δεκ-{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "εκατ-{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "χιλ-{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "μεγ-{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "γιγ-{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "τερ-{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "πετ-{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "εξ-{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "ζετ-{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "γιοτ-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1766,7 +1974,7 @@
             "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "μέτρα/τετρ. δευτ.",
             "unitPattern-count-one": "{0} m/s²",
             "unitPattern-count-other": "{0} m/s²"
@@ -1866,7 +2074,7 @@
             "unitPattern-count-one": "{0} mmol/L",
             "unitPattern-count-other": "{0} mmol/L"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1896,7 +2104,7 @@
             "unitPattern-count-one": "{0} λίτρο/χλμ",
             "unitPattern-count-other": "{0} λίτρα/χλμ"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "λ/100 χλμ",
             "unitPattern-count-one": "{0} λ/100 χλμ",
             "unitPattern-count-other": "{0} λ/100 χλμ"
@@ -2376,17 +2584,17 @@
             "unitPattern-count-one": "{0} hp",
             "unitPattern-count-other": "{0} hp"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "mmHg",
             "unitPattern-count-one": "{0} mmHg",
             "unitPattern-count-other": "{0} mmHg"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "inHg",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
@@ -2466,7 +2674,7 @@
             "unitPattern-count-one": "{0} K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "λβρ⋅πδ",
             "unitPattern-count-one": "{0} λβρ⋅πδ",
             "unitPattern-count-other": "{0} λβρ⋅πδ"

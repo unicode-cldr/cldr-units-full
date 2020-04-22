@@ -3,14 +3,82 @@
     "kk": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "kk"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} дециметр"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} сантиметр"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} миллиметр"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} микрометр"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} нанометр"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} пикометр"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} фемтометр"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} аттометр"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} зептометр"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} йоктометр"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} декаметр"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} гектометр"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} километр"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} мегаметр"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} гигаметр"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} тераметр"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} петаметр"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} эксаметр"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} зеттаметр"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} йоттаметр"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -20,7 +88,7 @@
             "unitPattern-count-one": "{0} гравитациялық күш",
             "unitPattern-count-other": "{0} гравитациялық күш"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "метр/шаршы секунд",
             "unitPattern-count-one": "{0} метр/шаршы секунд",
             "unitPattern-count-other": "{0} метр/шаршы секунд"
@@ -120,7 +188,7 @@
             "unitPattern-count-one": "{0} миллимоль/литр",
             "unitPattern-count-other": "{0} миллимоль/литр"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "миллиондық үлес",
             "unitPattern-count-one": "{0} миллиондық үлес",
             "unitPattern-count-other": "{0} миллиондық үлес"
@@ -150,7 +218,7 @@
             "unitPattern-count-one": "{0} литр/километр",
             "unitPattern-count-other": "{0} литр/километр"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "литр/100 километр",
             "unitPattern-count-one": "{0} литр/100 километр",
             "unitPattern-count-other": "{0} литр/100 километр"
@@ -348,9 +416,9 @@
             "unitPattern-count-other": "{0} британдық жылу бірлігі"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
-            "unitPattern-count-one": "{0} амер. термі",
-            "unitPattern-count-other": "{0} амер. термі"
+            "displayName": "америка термі",
+            "unitPattern-count-one": "{0} америка термі",
+            "unitPattern-count-other": "{0} америка термі"
           },
           "force-pound-force": {
             "displayName": "фунт-күш",
@@ -638,17 +706,17 @@
             "unitPattern-count-one": "{0} ат күші",
             "unitPattern-count-other": "{0} ат күші"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "миллиметр сынап бағанасы",
             "unitPattern-count-one": "{0} миллиметр сынап бағанасы",
             "unitPattern-count-other": "{0} миллиметр сынап бағанасы"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "фунт/шаршы дюйм",
             "unitPattern-count-one": "{0} фунт/шаршы дюйм",
             "unitPattern-count-other": "{0} фунт/шаршы дюйм"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "дюйм сынап бағанасы",
             "unitPattern-count-one": "{0} дюйм сынап бағанасы",
             "unitPattern-count-other": "{0} дюйм сынап бағанасы"
@@ -728,7 +796,7 @@
             "unitPattern-count-one": "{0} кельвин",
             "unitPattern-count-other": "{0} кельвин"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "фунт-фут",
             "unitPattern-count-one": "{0} фунт-фут",
             "unitPattern-count-other": "{0} фунт-фут"
@@ -886,8 +954,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} дм"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} см"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} мм"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} мкм"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} нм"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} пм"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} фм"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} ам"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} зм"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} йм"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} дам"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} гм"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} км"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} Мм"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} Гм"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} Тм"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} Пм"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} Эм"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} Зм"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} Йм"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -897,7 +1033,7 @@
             "unitPattern-count-one": "{0} G",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "метр/сек²",
             "unitPattern-count-one": "{0} м/с²",
             "unitPattern-count-other": "{0} м/с²"
@@ -997,7 +1133,7 @@
             "unitPattern-count-one": "{0} ммоль/л",
             "unitPattern-count-other": "{0} ммоль/л"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1027,7 +1163,7 @@
             "unitPattern-count-one": "{0} л/км",
             "unitPattern-count-other": "{0} л/км"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "л/100 км",
             "unitPattern-count-one": "{0} л/100 км",
             "unitPattern-count-other": "{0} л/100 км"
@@ -1225,7 +1361,7 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
+            "displayName": "америка термі",
             "unitPattern-count-one": "{0} амер. термі",
             "unitPattern-count-other": "{0} амер. термі"
           },
@@ -1513,17 +1649,17 @@
             "unitPattern-count-one": "{0} а. к.",
             "unitPattern-count-other": "{0} а. к."
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "мм с.б.",
             "unitPattern-count-one": "{0} мм с.б.",
             "unitPattern-count-other": "{0} мм с.б."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "дюйм сынап бағанасы",
             "unitPattern-count-one": "{0} дюйм с.б.",
             "unitPattern-count-other": "{0} дюйм с.б."
@@ -1603,7 +1739,7 @@
             "unitPattern-count-one": "{0} К",
             "unitPattern-count-other": "{0} К"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-one": "{0} lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
@@ -1761,8 +1897,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "{0} дм"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "{0} см"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "{0} мм"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "{0} мкм"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "{0} нм"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "{0} пм"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "{0} фм"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "{0} ам"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "{0} зм"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "{0} йм"
+          },
+          "10p1": {
+            "unitPrefixPattern": "{0} дам"
+          },
+          "10p2": {
+            "unitPrefixPattern": "{0} гм"
+          },
+          "10p3": {
+            "unitPrefixPattern": "{0} км"
+          },
+          "10p6": {
+            "unitPrefixPattern": "{0} Мм"
+          },
+          "10p9": {
+            "unitPrefixPattern": "{0} Гм"
+          },
+          "10p12": {
+            "unitPrefixPattern": "{0} Тм"
+          },
+          "10p15": {
+            "unitPrefixPattern": "{0} Пм"
+          },
+          "10p18": {
+            "unitPrefixPattern": "{0} Эм"
+          },
+          "10p21": {
+            "unitPrefixPattern": "{0} Зм"
+          },
+          "10p24": {
+            "unitPrefixPattern": "{0} Йм"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1772,7 +1976,7 @@
             "unitPattern-count-one": "{0} г",
             "unitPattern-count-other": "{0} г"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "метр/сек²",
             "unitPattern-count-one": "{0} м/с²",
             "unitPattern-count-other": "{0} м/с²"
@@ -1872,7 +2076,7 @@
             "unitPattern-count-one": "{0} ммоль/л",
             "unitPattern-count-other": "{0} ммоль/л"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ppm",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
@@ -1902,7 +2106,7 @@
             "unitPattern-count-one": "{0} л/км",
             "unitPattern-count-other": "{0} л/км"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "л/100 км",
             "unitPattern-count-one": "{0} л/100 км",
             "unitPattern-count-other": "{0} л/100 км"
@@ -2100,7 +2304,7 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
+            "displayName": "америка термі",
             "unitPattern-count-one": "{0} амер. термі",
             "unitPattern-count-other": "{0} амер. термі"
           },
@@ -2388,17 +2592,17 @@
             "unitPattern-count-one": "{0} ат күші",
             "unitPattern-count-other": "{0} ат күші"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "мм с.б.",
             "unitPattern-count-one": "{0} мм с.б.",
             "unitPattern-count-other": "{0} мм с.б."
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
             "unitPattern-count-one": "{0} psi",
             "unitPattern-count-other": "{0} psi"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "дюйм сынап бағанасы",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
@@ -2478,7 +2682,7 @@
             "unitPattern-count-one": "{0} К",
             "unitPattern-count-other": "{0} К"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-one": "{0} lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"

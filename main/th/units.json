@@ -3,14 +3,82 @@
     "th": {
       "identity": {
         "version": {
-          "_cldrVersion": "36"
+          "_cldrVersion": "37"
         },
         "language": "th"
       },
       "units": {
         "long": {
+          "10p-1": {
+            "unitPrefixPattern": "เดซิ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "เซนติ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "มิลลิ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "ไมโคร{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "นาโน{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "พิโค{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "เฟมโต{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "อัตโต{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "เซปโต{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ยอกโต{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "เดคา{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "เฮกโต{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "กิโล{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "เมกะ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "จิกะ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "เทระ{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "เพตะ{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "เอกซะ{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "เซตตะ{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "ยอตตะ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}ต่อ{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -19,7 +87,7 @@
             "displayName": "แรง G",
             "unitPattern-count-other": "{0} แรง G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "เมตรต่อวินาทีกำลังสอง",
             "unitPattern-count-other": "{0} เมตรต่อวินาทีกำลังสอง"
           },
@@ -100,7 +168,7 @@
             "displayName": "มิลลิโมลต่อลิตร",
             "unitPattern-count-other": "{0} มิลลิโมลต่อลิตร"
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ส่วนต่อล้าน",
             "unitPattern-count-other": "{0} ส่วนต่อล้าน"
           },
@@ -124,7 +192,7 @@
             "displayName": "ลิตรต่อกิโลเมตร",
             "unitPattern-count-other": "{0} ลิตรต่อกิโลเมตร"
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ลิตรต่อ100 กิโลเมตร",
             "unitPattern-count-other": "{0} ลิตรต่อ100 กิโลเมตร"
           },
@@ -520,15 +588,15 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0} แรงม้า"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "มิลลิเมตรปรอท",
             "unitPattern-count-other": "{0} มิลลิเมตรปรอท"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ปอนด์ต่อตารางนิ้ว",
             "unitPattern-count-other": "{0} ปอนด์ต่อตารางนิ้ว"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0} นิ้วปรอท"
           },
@@ -592,7 +660,7 @@
             "displayName": "เคลวิน",
             "unitPattern-count-other": "{0} เคลวิน"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "ปอนด์-ฟุต",
             "unitPattern-count-other": "{0} ปอนด์-ฟุต"
           },
@@ -722,8 +790,76 @@
           }
         },
         "short": {
+          "10p-1": {
+            "unitPrefixPattern": "เดซิ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "เซนติ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "มิลลิ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "ไมโคร{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "นาโน{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "พิโค{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "เฟมโต{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "อัตโต{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "เซปโต{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ยอกโต{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "เดคา{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "เฮกโต{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "กิโล{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "เมกะ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "จิกะ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "เทระ{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "เพตะ{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "เอกซะ{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "เซตตะ{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "ยอตตะ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -732,7 +868,7 @@
             "displayName": "แรง G",
             "unitPattern-count-other": "{0} G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "เมตร/วินาที²",
             "unitPattern-count-other": "{0} ม./วิ²"
           },
@@ -813,7 +949,7 @@
             "displayName": "มิลลิโมล/ลิตร",
             "unitPattern-count-other": "{0} มลม./ล."
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ส่วน/ล้าน",
             "unitPattern-count-other": "{0} สตล."
           },
@@ -837,7 +973,7 @@
             "displayName": "ลิตร/กม.",
             "unitPattern-count-other": "{0} ล./กม."
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ล./100 กม.",
             "unitPattern-count-other": "{0} ล./100กม."
           },
@@ -1233,15 +1369,15 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0} แรงม้า"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "มม. ปรอท",
             "unitPattern-count-other": "{0} มม. ปรอท"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ปอนด์/ตร.นิ้ว",
             "unitPattern-count-other": "{0} ปอนด์/ตร.นิ้ว"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0} นิ้วปรอท"
           },
@@ -1305,7 +1441,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
@@ -1435,8 +1571,76 @@
           }
         },
         "narrow": {
+          "10p-1": {
+            "unitPrefixPattern": "เดซิ{0}"
+          },
+          "10p-2": {
+            "unitPrefixPattern": "เซนติ{0}"
+          },
+          "10p-3": {
+            "unitPrefixPattern": "มิลลิ{0}"
+          },
+          "10p-6": {
+            "unitPrefixPattern": "ไมโคร{0}"
+          },
+          "10p-9": {
+            "unitPrefixPattern": "นาโน{0}"
+          },
+          "10p-12": {
+            "unitPrefixPattern": "พิโค{0}"
+          },
+          "10p-15": {
+            "unitPrefixPattern": "เฟมโต{0}"
+          },
+          "10p-18": {
+            "unitPrefixPattern": "อัตโต{0}"
+          },
+          "10p-21": {
+            "unitPrefixPattern": "เซปโต{0}"
+          },
+          "10p-24": {
+            "unitPrefixPattern": "ยอกโต{0}"
+          },
+          "10p1": {
+            "unitPrefixPattern": "เดคา{0}"
+          },
+          "10p2": {
+            "unitPrefixPattern": "เฮกโต{0}"
+          },
+          "10p3": {
+            "unitPrefixPattern": "กิโล{0}"
+          },
+          "10p6": {
+            "unitPrefixPattern": "เมกะ{0}"
+          },
+          "10p9": {
+            "unitPrefixPattern": "จิกะ{0}"
+          },
+          "10p12": {
+            "unitPrefixPattern": "เทระ{0}"
+          },
+          "10p15": {
+            "unitPrefixPattern": "เพตะ{0}"
+          },
+          "10p18": {
+            "unitPrefixPattern": "เอกซะ{0}"
+          },
+          "10p21": {
+            "unitPrefixPattern": "เซตตะ{0}"
+          },
+          "10p24": {
+            "unitPrefixPattern": "ยอตตะ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
+          },
+          "power2": {
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1": "{0}²"
+          },
+          "power3": {
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1445,7 +1649,7 @@
             "displayName": "แรง G",
             "unitPattern-count-other": "{0}G"
           },
-          "acceleration-meter-per-second-squared": {
+          "acceleration-meter-per-square-second": {
             "displayName": "เมตร/วินาที²",
             "unitPattern-count-other": "{0} ม./วิ²"
           },
@@ -1526,7 +1730,7 @@
             "displayName": "มิลลิโมล/ลิตร",
             "unitPattern-count-other": "{0} มลม./ล."
           },
-          "concentr-part-per-million": {
+          "concentr-permillion": {
             "displayName": "ส่วน/ล้าน",
             "unitPattern-count-other": "{0} สตล."
           },
@@ -1550,7 +1754,7 @@
             "displayName": "ลิตร/กม.",
             "unitPattern-count-other": "{0} ล./กม."
           },
-          "consumption-liter-per-100kilometers": {
+          "consumption-liter-per-100-kilometer": {
             "displayName": "ล. /100 กม.",
             "unitPattern-count-other": "{0} ล./100กม."
           },
@@ -1946,15 +2150,15 @@
             "displayName": "แรงม้า",
             "unitPattern-count-other": "{0}แรงม้า"
           },
-          "pressure-millimeter-of-mercury": {
+          "pressure-millimeter-ofhg": {
             "displayName": "มม. ปรอท",
             "unitPattern-count-other": "{0} มม. ปรอท"
           },
-          "pressure-pound-per-square-inch": {
+          "pressure-pound-force-per-square-inch": {
             "displayName": "ปอนด์/ตร.นิ้ว",
             "unitPattern-count-other": "{0} ปอนด์/ตร.นิ้ว"
           },
-          "pressure-inch-hg": {
+          "pressure-inch-ofhg": {
             "displayName": "นิ้วปรอท",
             "unitPattern-count-other": "{0}\\\" Hg"
           },
@@ -2018,7 +2222,7 @@
             "displayName": "K",
             "unitPattern-count-other": "{0} K"
           },
-          "torque-pound-foot": {
+          "torque-pound-force-foot": {
             "displayName": "lbf⋅ft",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
