@@ -3,7 +3,7 @@
     "cy": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "cy"
       },
@@ -69,26 +69,50 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0} sgwâr",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} sgwâr",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} sgwâr"
+            "compoundUnitPattern1-count-zero": "{0} sgwâr",
+            "compoundUnitPattern1-count-one": "{0} sgwâr",
+            "compoundUnitPattern1-count-two": "{0} sgwâr",
+            "compoundUnitPattern1-count-few": "{0} sgwâr",
+            "compoundUnitPattern1-count-many": "{0} sgwâr",
+            "compoundUnitPattern1-count-other": "{0} sgwâr"
           },
           "power3": {
             "compoundUnitPattern1": "{0} ciwbig",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} ciwbig",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} ciwbig"
+            "compoundUnitPattern1-count-zero": "{0} ciwbig",
+            "compoundUnitPattern1-count-one": "{0} ciwbig",
+            "compoundUnitPattern1-count-two": "{0} ciwbig",
+            "compoundUnitPattern1-count-few": "{0} ciwbig",
+            "compoundUnitPattern1-count-many": "{0} ciwbig",
+            "compoundUnitPattern1-count-other": "{0} ciwbig"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -282,7 +306,7 @@
             "displayName": "rhannau pob miliwn",
             "unitPattern-count-zero": "{0} rhan pob miliwn",
             "unitPattern-count-one": "{0} rhan pob miliwn",
-            "unitPattern-count-two": "{0} rhan pob miliwn",
+            "unitPattern-count-two": "{0} ran pob miliwn",
             "unitPattern-count-few": "{0} rhan pob miliwn",
             "unitPattern-count-many": "{0} rhan pob miliwn",
             "unitPattern-count-other": "{0} rhan pob miliwn"
@@ -740,7 +764,7 @@
             "unitPattern-count-other": "{0} herts"
           },
           "graphics-em": {
-            "displayName": "em",
+            "displayName": "em argraffyddol",
             "unitPattern-count-other": "{0} em"
           },
           "graphics-pixel": {
@@ -791,11 +815,29 @@
           "graphics-dot-per-inch": {
             "displayName": "dotiau mewn modfedd",
             "unitPattern-count-zero": "{0} dpi",
-            "unitPattern-count-one": "{0} mewn modfedd",
+            "unitPattern-count-one": "{0} dot mewn modfedd",
             "unitPattern-count-two": "{0} dpi",
             "unitPattern-count-few": "{0} dpi",
             "unitPattern-count-many": "{0} dpi",
             "unitPattern-count-other": "{0} dot mewn modfedd"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-zero": "{0} dot",
+            "unitPattern-count-one": "{0} dot",
+            "unitPattern-count-two": "{0} ddot",
+            "unitPattern-count-few": "{0} dot",
+            "unitPattern-count-many": "{0} dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "radiws y Ddaear",
+            "unitPattern-count-zero": "{0} R⊕",
+            "unitPattern-count-one": "{0} radiws y Ddaear",
+            "unitPattern-count-two": "{0} R⊕",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-many": "{0} R⊕",
+            "unitPattern-count-other": "{0} radiws y Ddaear"
           },
           "length-kilometer": {
             "displayName": "cilometrau",
@@ -1000,6 +1042,14 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lwcs"
           },
+          "light-candela": {
+            "displayName": "candela",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lwmen",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "goleueddau solar",
             "unitPattern-count-zero": "{0} L☉",
@@ -1139,6 +1189,15 @@
             "unitPattern-count-many": "{0} M☉",
             "unitPattern-count-other": "{0} más solar"
           },
+          "mass-grain": {
+            "displayName": "graen",
+            "unitPattern-count-zero": "{0} graen",
+            "unitPattern-count-one": "{0} graen",
+            "unitPattern-count-two": "{0} raen",
+            "unitPattern-count-few": "{0} graen",
+            "unitPattern-count-many": "{0} graen",
+            "unitPattern-count-other": "{0} graen"
+          },
           "power-gigawatt": {
             "displayName": "gigawatiau",
             "unitPattern-count-zero": "{0} gigawat",
@@ -1195,11 +1254,11 @@
           },
           "pressure-millimeter-ofhg": {
             "displayName": "milimetrau o fercwri",
-            "unitPattern-count-zero": "{0} mm Hg",
+            "unitPattern-count-zero": "{0} mmHg",
             "unitPattern-count-one": "{0} milimetr o fercwri",
-            "unitPattern-count-two": "{0} mm Hg",
-            "unitPattern-count-few": "{0} mm Hg",
-            "unitPattern-count-many": "{0} mm Hg",
+            "unitPattern-count-two": "{0} mmHg",
+            "unitPattern-count-few": "{0} mmHg",
+            "unitPattern-count-many": "{0} mmHg",
             "unitPattern-count-other": "{0} milimetr o fercwri"
           },
           "pressure-pound-force-per-square-inch": {
@@ -1213,11 +1272,11 @@
           },
           "pressure-inch-ofhg": {
             "displayName": "modfeddi o fercwri",
-            "unitPattern-count-zero": "{0} ″ Hg",
+            "unitPattern-count-zero": "{0} inHg",
             "unitPattern-count-one": "{0} fodfedd o fercwri",
-            "unitPattern-count-two": "{0} ″ Hg",
-            "unitPattern-count-few": "{0} ″ Hg",
-            "unitPattern-count-many": "{0} ″ Hg",
+            "unitPattern-count-two": "{0} inHg",
+            "unitPattern-count-few": "{0} inHg",
+            "unitPattern-count-many": "{0} inHg",
             "unitPattern-count-other": "{0} modfedd o fercwri"
           },
           "pressure-bar": {
@@ -1243,8 +1302,13 @@
             "unitPattern-count-other": "{0} atmosffer"
           },
           "pressure-pascal": {
-            "displayName": "pascals",
-            "unitPattern-count-other": "{0} Pa"
+            "displayName": "pascalau",
+            "unitPattern-count-zero": "{0} Pa",
+            "unitPattern-count-one": "{0} pascal",
+            "unitPattern-count-two": "{0} Pa",
+            "unitPattern-count-few": "{0} Pa",
+            "unitPattern-count-many": "{0} Pa",
+            "unitPattern-count-other": "{0} pascal"
           },
           "pressure-hectopascal": {
             "displayName": "hectopascalau",
@@ -1348,7 +1412,7 @@
           "torque-pound-force-foot": {
             "displayName": "pwys-troedfeddi",
             "unitPattern-count-zero": "{0} lbf⋅ft",
-            "unitPattern-count-one": "{0} pwys-troedfedd",
+            "unitPattern-count-one": "{0} pwys o rym⋅droedfedd",
             "unitPattern-count-two": "{0} lbf⋅ft",
             "unitPattern-count-few": "{0} lbf⋅ft",
             "unitPattern-count-many": "{0} lbf⋅ft",
@@ -1512,11 +1576,11 @@
           },
           "volume-bushel": {
             "displayName": "bwsielau",
-            "unitPattern-count-zero": "{0} bwsiel",
+            "unitPattern-count-zero": "{0} bw",
             "unitPattern-count-one": "{0} bwsiel",
-            "unitPattern-count-two": "{0} bwsiel",
-            "unitPattern-count-few": "{0} bwsiel",
-            "unitPattern-count-many": "{0} bwsiel",
+            "unitPattern-count-two": "{0} bw",
+            "unitPattern-count-few": "{0} bw",
+            "unitPattern-count-many": "{0} bw",
             "unitPattern-count-other": "{0} bwsiel"
           },
           "volume-gallon": {
@@ -1611,6 +1675,69 @@
             "unitPattern-count-many": "{0} bbl",
             "unitPattern-count-other": "{0} barel"
           },
+          "volume-dessert-spoon": {
+            "displayName": "llond llwy bwdin",
+            "unitPattern-count-zero": "{0} dstspn",
+            "unitPattern-count-one": "{0} llond llwy bwdin",
+            "unitPattern-count-two": "{0} dstspn",
+            "unitPattern-count-few": "{0} dstspn",
+            "unitPattern-count-many": "{0} dstspn",
+            "unitPattern-count-other": "{0} llond llwy bwdin"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "llond llwy bwdin imp.",
+            "unitPattern-count-zero": "{0} dstspn Imp",
+            "unitPattern-count-one": "{0} llond llwy bwdin imp.",
+            "unitPattern-count-two": "{0} dstspn Imp",
+            "unitPattern-count-few": "{0} dstspn Imp",
+            "unitPattern-count-many": "{0} dstspn Imp",
+            "unitPattern-count-other": "{0} llond llwy bwdin imp."
+          },
+          "volume-drop": {
+            "displayName": "diferyn",
+            "unitPattern-count-zero": "{0} diferyn",
+            "unitPattern-count-one": "{0} diferyn",
+            "unitPattern-count-two": "{0} ddiferyn",
+            "unitPattern-count-few": "{0} diferyn",
+            "unitPattern-count-many": "{0} diferyn",
+            "unitPattern-count-other": "{0} diferyn"
+          },
+          "volume-dram": {
+            "displayName": "dracmon hylifol",
+            "unitPattern-count-zero": "{0} dracmon hy",
+            "unitPattern-count-one": "{0} dracmon hy",
+            "unitPattern-count-two": "{0} ddracmon hy",
+            "unitPattern-count-few": "{0} dracmon hy",
+            "unitPattern-count-many": "{0} dracmon hy",
+            "unitPattern-count-other": "{0} dracmon hy"
+          },
+          "volume-jigger": {
+            "displayName": "joch",
+            "unitPattern-count-zero": "{0} joch",
+            "unitPattern-count-one": "{0} joch",
+            "unitPattern-count-two": "{0} joch",
+            "unitPattern-count-few": "{0} joch",
+            "unitPattern-count-many": "{0} joch",
+            "unitPattern-count-other": "{0} joch"
+          },
+          "volume-pinch": {
+            "displayName": "pinsiad",
+            "unitPattern-count-zero": "{0} pinsiad",
+            "unitPattern-count-one": "{0} pinsiad",
+            "unitPattern-count-two": "{0} binsiad",
+            "unitPattern-count-few": "{0} phinsiad",
+            "unitPattern-count-many": "{0} pinsiad",
+            "unitPattern-count-other": "{0} pinsiad"
+          },
+          "volume-quart-imperial": {
+            "displayName": "chwart Imp",
+            "unitPattern-count-zero": "{0} cht Imp.",
+            "unitPattern-count-one": "{0} cht Imp.",
+            "unitPattern-count-two": "{0} cht Imp.",
+            "unitPattern-count-few": "{0} cht Imp.",
+            "unitPattern-count-many": "{0} cht Imp.",
+            "unitPattern-count-other": "{0} cht Imp."
+          },
           "coordinateUnit": {
             "displayName": "cyfeiriad cardinal",
             "east": "{0} i’r dwyrain",
@@ -1680,16 +1807,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1987,7 +2138,7 @@
             "unitPattern-count-other": "{0} GB"
           },
           "digital-gigabit": {
-            "displayName": "Gb",
+            "displayName": "Gbit",
             "unitPattern-count-zero": "{0} Gb",
             "unitPattern-count-one": "{0} Gb",
             "unitPattern-count-two": "{0} Gb",
@@ -2000,7 +2151,7 @@
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
+            "displayName": "Mbit",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
@@ -2013,7 +2164,7 @@
             "unitPattern-count-other": "{0} kB"
           },
           "digital-kilobit": {
-            "displayName": "kb",
+            "displayName": "kbit",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -2045,12 +2196,12 @@
           },
           "duration-decade": {
             "displayName": "deg",
-            "unitPattern-count-zero": "{0} degawd",
-            "unitPattern-count-one": "{0} degawd",
+            "unitPattern-count-zero": "{0} deg",
+            "unitPattern-count-one": "{0} deg",
             "unitPattern-count-two": "{0} degawd",
-            "unitPattern-count-few": "{0} degawd",
-            "unitPattern-count-many": "{0} degawd",
-            "unitPattern-count-other": "{0} degawd"
+            "unitPattern-count-few": "{0} deg",
+            "unitPattern-count-many": "{0} deg",
+            "unitPattern-count-other": "{0} deg"
           },
           "duration-year": {
             "displayName": "blynyddoedd",
@@ -2074,13 +2225,13 @@
           },
           "duration-week": {
             "displayName": "wythnosau",
-            "unitPattern-count-zero": "{0} wythnos",
-            "unitPattern-count-one": "{0} wythnos",
-            "unitPattern-count-two": "{0} wythnos",
-            "unitPattern-count-few": "{0} wythnos",
-            "unitPattern-count-many": "{0} wythnos",
-            "unitPattern-count-other": "{0} wythnos",
-            "perUnitPattern": "{0}/wythnos"
+            "unitPattern-count-zero": "{0} ws",
+            "unitPattern-count-one": "{0} ws",
+            "unitPattern-count-two": "{0} ws",
+            "unitPattern-count-few": "{0} ws",
+            "unitPattern-count-many": "{0} ws",
+            "unitPattern-count-other": "{0} ws",
+            "perUnitPattern": "{0}/ws"
           },
           "duration-day": {
             "displayName": "diwrnodau",
@@ -2308,6 +2459,19 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-zero": "{0} dot",
+            "unitPattern-count-one": "{0} dot",
+            "unitPattern-count-two": "{0} ddot",
+            "unitPattern-count-few": "{0} dot",
+            "unitPattern-count-many": "{0} dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-zero": "{0} km",
@@ -2450,7 +2614,12 @@
           },
           "length-furlong": {
             "displayName": "ystadenni",
-            "unitPattern-count-other": "{0} fur"
+            "unitPattern-count-zero": "{0} yst",
+            "unitPattern-count-one": "{0} yst",
+            "unitPattern-count-two": "{0} yst",
+            "unitPattern-count-few": "{0} yst",
+            "unitPattern-count-many": "{0} yst",
+            "unitPattern-count-other": "{0} yst"
           },
           "length-fathom": {
             "displayName": "gwrhydau",
@@ -2500,6 +2669,14 @@
             "unitPattern-count-few": "{0} lx",
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "goleueddau solar",
@@ -2620,6 +2797,15 @@
             "displayName": "masau solar",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "graen",
+            "unitPattern-count-zero": "{0} graen",
+            "unitPattern-count-one": "{0} graen",
+            "unitPattern-count-two": "{0} raen",
+            "unitPattern-count-few": "{0} graen",
+            "unitPattern-count-many": "{0} graen",
+            "unitPattern-count-other": "{0} graen"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-zero": "{0} GW",
@@ -2670,8 +2856,13 @@
             "unitPattern-count-other": "{0} hp"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-zero": "{0} mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-two": "{0} mmHg",
+            "unitPattern-count-few": "{0} mmHg",
+            "unitPattern-count-many": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
@@ -2683,13 +2874,13 @@
             "unitPattern-count-other": "{0} psi"
           },
           "pressure-inch-ofhg": {
-            "displayName": "\\\" Hg",
-            "unitPattern-count-zero": "{0} ″ Hg",
-            "unitPattern-count-one": "{0} ″ Hg",
-            "unitPattern-count-two": "{0} ″ Hg",
-            "unitPattern-count-few": "{0} ″ Hg",
-            "unitPattern-count-many": "{0} ″ Hg",
-            "unitPattern-count-other": "{0} ″ Hg"
+            "displayName": "inHg",
+            "unitPattern-count-zero": "{0} inHg",
+            "unitPattern-count-one": "{0} inHg",
+            "unitPattern-count-two": "{0} inHg",
+            "unitPattern-count-few": "{0} inHg",
+            "unitPattern-count-many": "{0} inHg",
+            "unitPattern-count-other": "{0} inHg"
           },
           "pressure-bar": {
             "displayName": "bar",
@@ -2948,12 +3139,12 @@
           },
           "volume-bushel": {
             "displayName": "bwsielau",
-            "unitPattern-count-zero": "{0} bwsiel",
-            "unitPattern-count-one": "{0} bwsiel",
-            "unitPattern-count-two": "{0} bwsiel",
-            "unitPattern-count-few": "{0} bwsiel",
-            "unitPattern-count-many": "{0} bwsiel",
-            "unitPattern-count-other": "{0} bwsiel"
+            "unitPattern-count-zero": "{0} bw",
+            "unitPattern-count-one": "{0} bw",
+            "unitPattern-count-two": "{0} bw",
+            "unitPattern-count-few": "{0} bw",
+            "unitPattern-count-many": "{0} bw",
+            "unitPattern-count-other": "{0} bw"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -3037,6 +3228,59 @@
             "displayName": "barel",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "diferyn",
+            "unitPattern-count-zero": "{0} diferyn",
+            "unitPattern-count-one": "{0} diferyn",
+            "unitPattern-count-two": "{0} ddiferyn",
+            "unitPattern-count-few": "{0} diferyn",
+            "unitPattern-count-many": "{0} diferyn",
+            "unitPattern-count-other": "{0} diferyn"
+          },
+          "volume-dram": {
+            "displayName": "dracmon hylifol",
+            "unitPattern-count-zero": "{0} dracmon hy",
+            "unitPattern-count-one": "{0} dracmon hy",
+            "unitPattern-count-two": "{0} ddracmon hy",
+            "unitPattern-count-few": "{0} dracmon hy",
+            "unitPattern-count-many": "{0} dracmon hy",
+            "unitPattern-count-other": "{0} dracmon hy"
+          },
+          "volume-jigger": {
+            "displayName": "joch",
+            "unitPattern-count-zero": "{0} joch",
+            "unitPattern-count-one": "{0} joch",
+            "unitPattern-count-two": "{0} joch",
+            "unitPattern-count-few": "{0} joch",
+            "unitPattern-count-many": "{0} joch",
+            "unitPattern-count-other": "{0} joch"
+          },
+          "volume-pinch": {
+            "displayName": "pinsiad",
+            "unitPattern-count-zero": "{0} pinsiad",
+            "unitPattern-count-one": "{0} pinsiad",
+            "unitPattern-count-two": "{0} binsiad",
+            "unitPattern-count-few": "{0} phinsiad",
+            "unitPattern-count-many": "{0} pinsiad",
+            "unitPattern-count-other": "{0} pinsiad"
+          },
+          "volume-quart-imperial": {
+            "displayName": "cht Imp.",
+            "unitPattern-count-zero": "{0} cht Imp.",
+            "unitPattern-count-one": "{0} cht Imp.",
+            "unitPattern-count-two": "{0} cht Imp.",
+            "unitPattern-count-few": "{0} cht Imp.",
+            "unitPattern-count-many": "{0} cht Imp.",
+            "unitPattern-count-other": "{0} cht Imp."
+          },
           "coordinateUnit": {
             "displayName": "cyfeiriad",
             "east": "{0} dn",
@@ -3106,16 +3350,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -3436,7 +3704,7 @@
             "unitPattern-count-other": "{0}MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
+            "displayName": "Mbit",
             "unitPattern-count-other": "{0} Mb"
           },
           "digital-kilobyte": {
@@ -3449,7 +3717,7 @@
             "unitPattern-count-other": "{0}kB"
           },
           "digital-kilobit": {
-            "displayName": "kb",
+            "displayName": "kbit",
             "unitPattern-count-other": "{0} kb"
           },
           "digital-byte": {
@@ -3481,12 +3749,12 @@
           },
           "duration-decade": {
             "displayName": "deg",
-            "unitPattern-count-zero": "{0} degawd",
-            "unitPattern-count-one": "{0} degawd",
+            "unitPattern-count-zero": "{0} deg",
+            "unitPattern-count-one": "{0} deg",
             "unitPattern-count-two": "{0} degawd",
-            "unitPattern-count-few": "{0} degawd",
-            "unitPattern-count-many": "{0} degawd",
-            "unitPattern-count-other": "{0} degawd"
+            "unitPattern-count-few": "{0} deg",
+            "unitPattern-count-many": "{0} deg",
+            "unitPattern-count-other": "{0} deg"
           },
           "duration-year": {
             "displayName": "bl",
@@ -3509,12 +3777,12 @@
             "perUnitPattern": "{0}/m"
           },
           "duration-week": {
-            "displayName": "w",
-            "unitPattern-count-zero": "{0}w",
+            "displayName": "ws",
+            "unitPattern-count-zero": "{0} ws",
             "unitPattern-count-one": "{0}w",
-            "unitPattern-count-two": "{0}w",
-            "unitPattern-count-few": "{0}w",
-            "unitPattern-count-many": "{0}w",
+            "unitPattern-count-two": "{0} ws",
+            "unitPattern-count-few": "{0} ws",
+            "unitPattern-count-many": "{0} ws",
             "unitPattern-count-other": "{0}w",
             "perUnitPattern": "{0}/w"
           },
@@ -3759,6 +4027,19 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-zero": "{0} dot",
+            "unitPattern-count-one": "{0} dot",
+            "unitPattern-count-two": "{0} ddot",
+            "unitPattern-count-few": "{0} dot",
+            "unitPattern-count-many": "{0} dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-zero": "{0}km",
@@ -3901,7 +4182,12 @@
           },
           "length-furlong": {
             "displayName": "ystadenni",
-            "unitPattern-count-other": "{0} fur"
+            "unitPattern-count-zero": "{0} yst",
+            "unitPattern-count-one": "{0} yst",
+            "unitPattern-count-two": "{0} yst",
+            "unitPattern-count-few": "{0} yst",
+            "unitPattern-count-many": "{0} yst",
+            "unitPattern-count-other": "{0} yst"
           },
           "length-fathom": {
             "displayName": "gwrhydau",
@@ -3951,6 +4237,14 @@
             "unitPattern-count-few": "{0}lx",
             "unitPattern-count-many": "{0}lx",
             "unitPattern-count-other": "{0}lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "goleueddau solar",
@@ -4070,6 +4364,15 @@
           "mass-solar-mass": {
             "displayName": "masau solar",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "graen",
+            "unitPattern-count-zero": "{0} graen",
+            "unitPattern-count-one": "{0} graen",
+            "unitPattern-count-two": "{0} raen",
+            "unitPattern-count-few": "{0} graen",
+            "unitPattern-count-many": "{0} graen",
+            "unitPattern-count-other": "{0} graen"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -4424,12 +4727,12 @@
           },
           "volume-bushel": {
             "displayName": "bwsielau",
-            "unitPattern-count-zero": "{0} bwsiel",
-            "unitPattern-count-one": "{0} bwsiel",
-            "unitPattern-count-two": "{0} bwsiel",
-            "unitPattern-count-few": "{0} bwsiel",
-            "unitPattern-count-many": "{0} bwsiel",
-            "unitPattern-count-other": "{0} bwsiel"
+            "unitPattern-count-zero": "{0} bw",
+            "unitPattern-count-one": "{0} bw",
+            "unitPattern-count-two": "{0} bw",
+            "unitPattern-count-few": "{0} bw",
+            "unitPattern-count-many": "{0} bw",
+            "unitPattern-count-other": "{0} bw"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -4512,6 +4815,59 @@
           "volume-barrel": {
             "displayName": "barel",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "diferyn",
+            "unitPattern-count-zero": "{0} diferyn",
+            "unitPattern-count-one": "{0} diferyn",
+            "unitPattern-count-two": "{0} ddiferyn",
+            "unitPattern-count-few": "{0} diferyn",
+            "unitPattern-count-many": "{0} diferyn",
+            "unitPattern-count-other": "{0} diferyn"
+          },
+          "volume-dram": {
+            "displayName": "dracmon hylifol",
+            "unitPattern-count-zero": "{0} dracmon hy",
+            "unitPattern-count-one": "{0} dracmon hy",
+            "unitPattern-count-two": "{0} ddracmon hy",
+            "unitPattern-count-few": "{0} dracmon hy",
+            "unitPattern-count-many": "{0} dracmon hy",
+            "unitPattern-count-other": "{0} dracmon hy"
+          },
+          "volume-jigger": {
+            "displayName": "joch",
+            "unitPattern-count-zero": "{0} joch",
+            "unitPattern-count-one": "{0} joch",
+            "unitPattern-count-two": "{0} joch",
+            "unitPattern-count-few": "{0} joch",
+            "unitPattern-count-many": "{0} joch",
+            "unitPattern-count-other": "{0} joch"
+          },
+          "volume-pinch": {
+            "displayName": "pinsiad",
+            "unitPattern-count-zero": "{0} pinsiad",
+            "unitPattern-count-one": "{0} pinsiad",
+            "unitPattern-count-two": "{0} binsiad",
+            "unitPattern-count-few": "{0} phinsiad",
+            "unitPattern-count-many": "{0} pinsiad",
+            "unitPattern-count-other": "{0} pinsiad"
+          },
+          "volume-quart-imperial": {
+            "displayName": "cht Imp.",
+            "unitPattern-count-zero": "{0} cht Imp.",
+            "unitPattern-count-one": "{0} cht Imp.",
+            "unitPattern-count-two": "{0} cht Imp.",
+            "unitPattern-count-few": "{0} cht Imp.",
+            "unitPattern-count-many": "{0} cht Imp.",
+            "unitPattern-count-other": "{0} cht Imp."
           },
           "coordinateUnit": {
             "displayName": "cyfeiriad",

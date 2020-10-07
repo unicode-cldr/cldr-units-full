@@ -3,7 +3,7 @@
     "ko": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ko"
       },
@@ -69,16 +69,40 @@
           "10p24": {
             "unitPrefixPattern": "요타{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "키비{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "메비{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "기비{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "테비{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "페비{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "엑스비{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "제비{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "요비{0}"
+          },
           "per": {
             "compoundUnitPattern": "{1}당 {0}"
           },
           "power2": {
             "compoundUnitPattern1": "제곱{0}",
-            "compoundUnitPattern1": "제곱{0}"
+            "compoundUnitPattern1-count-other": "제곱{0}"
           },
           "power3": {
             "compoundUnitPattern1": "세제곱{0}",
-            "compoundUnitPattern1": "세제곱{0}"
+            "compoundUnitPattern1-count-other": "세제곱{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -88,8 +112,8 @@
             "unitPattern-count-other": "{0} 중력가속도"
           },
           "acceleration-meter-per-square-second": {
-            "displayName": "제곱 초당 미터",
-            "unitPattern-count-other": "{0}제곱 초당 미터"
+            "displayName": "미터 매 초 제곱",
+            "unitPattern-count-other": "제곱 초당 {0}미터"
           },
           "angle-revolution": {
             "displayName": "회전",
@@ -254,7 +278,7 @@
           },
           "duration-decade": {
             "displayName": "dec",
-            "unitPattern-count-other": "{0} dec"
+            "unitPattern-count-other": "{0}dec"
           },
           "duration-year": {
             "displayName": "년",
@@ -352,8 +376,8 @@
             "unitPattern-count-other": "{0}영국 열량 단위"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "displayName": "미국 섬",
+            "unitPattern-count-other": "{0}섬"
           },
           "force-pound-force": {
             "displayName": "파운드포스",
@@ -381,31 +405,39 @@
           },
           "graphics-em": {
             "displayName": "em",
-            "unitPattern-count-other": "{0} em"
+            "unitPattern-count-other": "{0}em"
           },
           "graphics-pixel": {
             "displayName": "px",
-            "unitPattern-count-other": "{0} px"
+            "unitPattern-count-other": "{0}px"
           },
           "graphics-megapixel": {
             "displayName": "MP",
-            "unitPattern-count-other": "{0} MP"
+            "unitPattern-count-other": "{0}MP"
           },
           "graphics-pixel-per-centimeter": {
             "displayName": "ppcm",
-            "unitPattern-count-other": "{0} ppcm"
+            "unitPattern-count-other": "{0}ppcm"
           },
           "graphics-pixel-per-inch": {
             "displayName": "ppi",
-            "unitPattern-count-other": "{0} ppi"
+            "unitPattern-count-other": "{0}ppi"
           },
           "graphics-dot-per-centimeter": {
             "displayName": "dpcm",
-            "unitPattern-count-other": "{0} dpcm"
+            "unitPattern-count-other": "{0}dpcm"
           },
           "graphics-dot-per-inch": {
             "displayName": "dpi",
-            "unitPattern-count-other": "{0} dpi"
+            "unitPattern-count-other": "{0}dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0}dot"
+          },
+          "length-earth-radius": {
+            "displayName": "지구 반경",
+            "unitPattern-count-other": "{0}지구 반경"
           },
           "length-kilometer": {
             "displayName": "킬로미터",
@@ -494,11 +526,19 @@
           },
           "length-solar-radius": {
             "displayName": "태양 반경",
-            "unitPattern-count-other": "{0} 태양 반경"
+            "unitPattern-count-other": "{0}태양 반경"
           },
           "light-lux": {
             "displayName": "룩스",
             "unitPattern-count-other": "{0}룩스"
+          },
+          "light-candela": {
+            "displayName": "칸델라",
+            "unitPattern-count-other": "{0}칸델라"
+          },
+          "light-lumen": {
+            "displayName": "루멘",
+            "unitPattern-count-other": "{0}루멘"
           },
           "light-solar-luminosity": {
             "displayName": "태양 광도",
@@ -564,6 +604,10 @@
             "displayName": "태양 질량",
             "unitPattern-count-other": "{0}태양 질량"
           },
+          "mass-grain": {
+            "displayName": "그레인",
+            "unitPattern-count-other": "{0}그레인"
+          },
           "power-gigawatt": {
             "displayName": "기가와트",
             "unitPattern-count-other": "{0}기가와트"
@@ -601,8 +645,8 @@
             "unitPattern-count-other": "{0}수은주인치"
           },
           "pressure-bar": {
-            "displayName": "bar",
-            "unitPattern-count-other": "{0} bar"
+            "displayName": "바",
+            "unitPattern-count-other": "{0}바"
           },
           "pressure-millibar": {
             "displayName": "밀리바",
@@ -613,8 +657,8 @@
             "unitPattern-count-other": "{0}atm"
           },
           "pressure-pascal": {
-            "displayName": "Pa",
-            "unitPattern-count-other": "{0} Pa"
+            "displayName": "파스칼",
+            "unitPattern-count-other": "{0}파스칼"
           },
           "pressure-hectopascal": {
             "displayName": "헥토파스칼",
@@ -633,11 +677,11 @@
             "unitPattern-count-other": "시속 {0}킬로미터"
           },
           "speed-meter-per-second": {
-            "displayName": "m/s",
+            "displayName": "미터 매 초",
             "unitPattern-count-other": "초속 {0}미터"
           },
           "speed-mile-per-hour": {
-            "displayName": "mi/h",
+            "displayName": "시간당 마일",
             "unitPattern-count-other": "시속 {0}마일"
           },
           "speed-knot": {
@@ -736,8 +780,8 @@
             "unitPattern-count-other": "{0}에이커 피트"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "부셸",
+            "unitPattern-count-other": "{0}부셸"
           },
           "volume-gallon": {
             "displayName": "갤런",
@@ -780,6 +824,34 @@
           "volume-barrel": {
             "displayName": "배럴",
             "unitPattern-count-other": "{0}배럴"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "디저트스푼",
+            "unitPattern-count-other": "{0}디저트스푼"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "영국 디저트스푼",
+            "unitPattern-count-other": "{0}영국 디저트스푼"
+          },
+          "volume-drop": {
+            "displayName": "방울",
+            "unitPattern-count-other": "{0}방울"
+          },
+          "volume-dram": {
+            "displayName": "영국 액량 드램",
+            "unitPattern-count-other": "{0}영국 액량 드램"
+          },
+          "volume-jigger": {
+            "displayName": "지거",
+            "unitPattern-count-other": "{0}지거"
+          },
+          "volume-pinch": {
+            "displayName": "꼬집",
+            "unitPattern-count-other": "{0}꼬집"
+          },
+          "volume-quart-imperial": {
+            "displayName": "영국 쿼트",
+            "unitPattern-count-other": "{0}영국 쿼트"
           },
           "coordinateUnit": {
             "displayName": "방향",
@@ -850,16 +922,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1035,7 +1131,7 @@
           },
           "duration-decade": {
             "displayName": "dec",
-            "unitPattern-count-other": "{0} dec"
+            "unitPattern-count-other": "{0}dec"
           },
           "duration-year": {
             "displayName": "년",
@@ -1133,8 +1229,8 @@
             "unitPattern-count-other": "{0}Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "displayName": "미국 섬",
+            "unitPattern-count-other": "{0}섬"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1162,31 +1258,39 @@
           },
           "graphics-em": {
             "displayName": "em",
-            "unitPattern-count-other": "{0} em"
+            "unitPattern-count-other": "{0}em"
           },
           "graphics-pixel": {
             "displayName": "px",
-            "unitPattern-count-other": "{0} px"
+            "unitPattern-count-other": "{0}px"
           },
           "graphics-megapixel": {
             "displayName": "MP",
-            "unitPattern-count-other": "{0} MP"
+            "unitPattern-count-other": "{0}MP"
           },
           "graphics-pixel-per-centimeter": {
             "displayName": "ppcm",
-            "unitPattern-count-other": "{0} ppcm"
+            "unitPattern-count-other": "{0}ppcm"
           },
           "graphics-pixel-per-inch": {
             "displayName": "ppi",
-            "unitPattern-count-other": "{0} ppi"
+            "unitPattern-count-other": "{0}ppi"
           },
           "graphics-dot-per-centimeter": {
             "displayName": "dpcm",
-            "unitPattern-count-other": "{0} dpcm"
+            "unitPattern-count-other": "{0}dpcm"
           },
           "graphics-dot-per-inch": {
             "displayName": "dpi",
-            "unitPattern-count-other": "{0} dpi"
+            "unitPattern-count-other": "{0}dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0}dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0}R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1229,7 +1333,7 @@
           },
           "length-yard": {
             "displayName": "yd",
-            "unitPattern-count-other": "{0}야드"
+            "unitPattern-count-other": "{0}yd"
           },
           "length-foot": {
             "displayName": "ft",
@@ -1280,6 +1384,14 @@
           "light-lux": {
             "displayName": "lx",
             "unitPattern-count-other": "{0}lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0}cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0}lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1345,6 +1457,10 @@
             "displayName": "M☉",
             "unitPattern-count-other": "{0}M☉"
           },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-other": "{0}grain"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-other": "{0}GW"
@@ -1383,7 +1499,7 @@
           },
           "pressure-bar": {
             "displayName": "bar",
-            "unitPattern-count-other": "{0} bar"
+            "unitPattern-count-other": "{0}bar"
           },
           "pressure-millibar": {
             "displayName": "mbar",
@@ -1395,7 +1511,7 @@
           },
           "pressure-pascal": {
             "displayName": "Pa",
-            "unitPattern-count-other": "{0} Pa"
+            "unitPattern-count-other": "{0}Pa"
           },
           "pressure-hectopascal": {
             "displayName": "hPa",
@@ -1518,7 +1634,7 @@
           },
           "volume-bushel": {
             "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "unitPattern-count-other": "{0}bu"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -1561,6 +1677,34 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0}bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0}dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0}dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "drop",
+            "unitPattern-count-other": "{0}drop"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0}dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0}jigger"
+          },
+          "volume-pinch": {
+            "displayName": "pinch",
+            "unitPattern-count-other": "{0}pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0}qt Imp."
           },
           "coordinateUnit": {
             "displayName": "쪽",
@@ -1631,16 +1775,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1816,7 +1984,7 @@
           },
           "duration-decade": {
             "displayName": "dec",
-            "unitPattern-count-other": "{0} dec"
+            "unitPattern-count-other": "{0}dec"
           },
           "duration-year": {
             "displayName": "년",
@@ -1914,8 +2082,8 @@
             "unitPattern-count-other": "{0}Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "displayName": "미국 섬",
+            "unitPattern-count-other": "{0}섬"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1943,31 +2111,39 @@
           },
           "graphics-em": {
             "displayName": "em",
-            "unitPattern-count-other": "{0} em"
+            "unitPattern-count-other": "{0}em"
           },
           "graphics-pixel": {
             "displayName": "px",
-            "unitPattern-count-other": "{0} px"
+            "unitPattern-count-other": "{0}px"
           },
           "graphics-megapixel": {
             "displayName": "MP",
-            "unitPattern-count-other": "{0} MP"
+            "unitPattern-count-other": "{0}MP"
           },
           "graphics-pixel-per-centimeter": {
             "displayName": "ppcm",
-            "unitPattern-count-other": "{0} ppcm"
+            "unitPattern-count-other": "{0}ppcm"
           },
           "graphics-pixel-per-inch": {
             "displayName": "ppi",
-            "unitPattern-count-other": "{0} ppi"
+            "unitPattern-count-other": "{0}ppi"
           },
           "graphics-dot-per-centimeter": {
             "displayName": "dpcm",
-            "unitPattern-count-other": "{0} dpcm"
+            "unitPattern-count-other": "{0}dpcm"
           },
           "graphics-dot-per-inch": {
             "displayName": "dpi",
-            "unitPattern-count-other": "{0} dpi"
+            "unitPattern-count-other": "{0}dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0}dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0}R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2062,6 +2238,14 @@
             "displayName": "lx",
             "unitPattern-count-other": "{0}lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0}cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0}lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0}L☉"
@@ -2126,6 +2310,10 @@
             "displayName": "M☉",
             "unitPattern-count-other": "{0}M☉"
           },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-other": "{0}grain"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-other": "{0}GW"
@@ -2164,7 +2352,7 @@
           },
           "pressure-bar": {
             "displayName": "bar",
-            "unitPattern-count-other": "{0} bar"
+            "unitPattern-count-other": "{0}bar"
           },
           "pressure-millibar": {
             "displayName": "mbar",
@@ -2176,7 +2364,7 @@
           },
           "pressure-pascal": {
             "displayName": "Pa",
-            "unitPattern-count-other": "{0} Pa"
+            "unitPattern-count-other": "{0}Pa"
           },
           "pressure-hectopascal": {
             "displayName": "hPa",
@@ -2299,7 +2487,7 @@
           },
           "volume-bushel": {
             "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "unitPattern-count-other": "{0}bu"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -2342,6 +2530,34 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0}bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0}dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0}dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "drop",
+            "unitPattern-count-other": "{0}drop"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0}dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0}jigger"
+          },
+          "volume-pinch": {
+            "displayName": "pinch",
+            "unitPattern-count-other": "{0}pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0}qt Imp."
           },
           "coordinateUnit": {
             "displayName": "쪽",

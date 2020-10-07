@@ -3,7 +3,7 @@
     "af-NA": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "af",
         "territory": "NA"
@@ -70,18 +70,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} per {1}"
           },
           "power2": {
             "compoundUnitPattern1": "vierkante {0}",
-            "compoundUnitPattern1": "vierkante {0}",
-            "compoundUnitPattern1": "vierkante {0}"
+            "compoundUnitPattern1-count-one": "vierkante {0}",
+            "compoundUnitPattern1-count-other": "vierkante {0}"
           },
           "power3": {
             "compoundUnitPattern1": "kubieke {0}",
-            "compoundUnitPattern1": "kubieke {0}",
-            "compoundUnitPattern1": "kubieke {0}"
+            "compoundUnitPattern1-count-one": "kubieke {0}",
+            "compoundUnitPattern1-count-other": "kubieke {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -341,7 +365,7 @@
             "displayName": "sekondes",
             "unitPattern-count-one": "{0} sekonde",
             "unitPattern-count-other": "{0} sekondes",
-            "perUnitPattern": "{0}/s"
+            "perUnitPattern": "{0} per sekonde"
           },
           "duration-millisecond": {
             "displayName": "millisekondes",
@@ -464,19 +488,19 @@
             "unitPattern-count-other": "{0} pieksels"
           },
           "graphics-megapixel": {
-            "displayName": "Mpx",
-            "unitPattern-count-one": "{0} Mpx",
-            "unitPattern-count-other": "{0} Mpx"
+            "displayName": "megapieksels",
+            "unitPattern-count-one": "{0} megapieksel",
+            "unitPattern-count-other": "{0} megapieksels"
           },
           "graphics-pixel-per-centimeter": {
-            "displayName": "px/cm",
-            "unitPattern-count-one": "{0} px/cm",
-            "unitPattern-count-other": "{0} px/cm"
+            "displayName": "pieksels per sentimeter",
+            "unitPattern-count-one": "{0} pieksel per sentimeter",
+            "unitPattern-count-other": "{0} pieksels per sentimeter"
           },
           "graphics-pixel-per-inch": {
-            "displayName": "px/dm.",
-            "unitPattern-count-one": "{0} px/dm.",
-            "unitPattern-count-other": "{0} px/dm."
+            "displayName": "pieksels per duim",
+            "unitPattern-count-one": "{0} pieksel per duim",
+            "unitPattern-count-other": "{0} pieksels per duim"
           },
           "graphics-dot-per-centimeter": {
             "displayName": "stippels per sentimeter",
@@ -487,6 +511,16 @@
             "displayName": "stippels per duim",
             "unitPattern-count-one": "{0} stippel per duim",
             "unitPattern-count-other": "{0} stippels per duim"
+          },
+          "graphics-dot": {
+            "displayName": "stippel",
+            "unitPattern-count-one": "{0}stippel",
+            "unitPattern-count-other": "{0}stippel"
+          },
+          "length-earth-radius": {
+            "displayName": "aardstraal",
+            "unitPattern-count-one": "{0} aardstraal",
+            "unitPattern-count-other": "{0} aardstraal"
           },
           "length-kilometer": {
             "displayName": "kilometer",
@@ -569,12 +603,14 @@
             "unitPattern-count-other": "{0} astronomiese eenhede"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlongs",
+            "unitPattern-count-one": "{0} furlong",
+            "unitPattern-count-other": "{0} furlongs"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "vaam",
+            "unitPattern-count-one": "{0} vaam",
+            "unitPattern-count-other": "{0} vaam"
           },
           "length-nautical-mile": {
             "displayName": "seemyl",
@@ -600,6 +636,16 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-other": "{0} lumen"
           },
           "light-solar-luminosity": {
             "displayName": "sonligsterkte",
@@ -639,8 +685,9 @@
             "unitPattern-count-other": "{0} VSA-ton"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "stone",
+            "unitPattern-count-one": "{0} stone",
+            "unitPattern-count-other": "{0} stone"
           },
           "mass-pound": {
             "displayName": "pond",
@@ -678,6 +725,11 @@
             "displayName": "sonmassas",
             "unitPattern-count-one": "{0} sonmassa",
             "unitPattern-count-other": "{0} sonmassas"
+          },
+          "mass-grain": {
+            "displayName": "korrelgewig",
+            "unitPattern-count-one": "{0} korrelgewig",
+            "unitPattern-count-other": "{0} korrelgewig"
           },
           "power-gigawatt": {
             "displayName": "gigawatt",
@@ -781,8 +833,8 @@
           },
           "temperature-generic": {
             "displayName": "°",
-            "unitPattern-count-one": "{0}°",
-            "unitPattern-count-other": "{0}°"
+            "unitPattern-count-one": "{0} graad",
+            "unitPattern-count-other": "{0} graad"
           },
           "temperature-celsius": {
             "displayName": "grade Celsius",
@@ -801,7 +853,7 @@
           },
           "torque-pound-force-foot": {
             "displayName": "pondvoet",
-            "unitPattern-count-one": "{0} pondvoet",
+            "unitPattern-count-one": "{0} pondvoetkrag",
             "unitPattern-count-other": "{0} pondvoet"
           },
           "torque-newton-meter": {
@@ -894,7 +946,8 @@
           },
           "volume-bushel": {
             "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "unitPattern-count-one": "{0} skepel",
+            "unitPattern-count-other": "{0} skepel"
           },
           "volume-gallon": {
             "displayName": "gelling",
@@ -947,6 +1000,41 @@
             "displayName": "vate",
             "unitPattern-count-one": "{0} vat",
             "unitPattern-count-other": "{0} vate"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dessertlepel",
+            "unitPattern-count-one": "{0} dstlpl.",
+            "unitPattern-count-other": "{0} dessertlepel"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "Engelse dessertlepel",
+            "unitPattern-count-one": "{0} Engelse dessertlepel",
+            "unitPattern-count-other": "{0} Engelse dessertlepel"
+          },
+          "volume-drop": {
+            "displayName": "druppel",
+            "unitPattern-count-one": "{0} druppel",
+            "unitPattern-count-other": "{0} druppels"
+          },
+          "volume-dram": {
+            "displayName": "dragme",
+            "unitPattern-count-one": "{0} dragme",
+            "unitPattern-count-other": "{0} dragme"
+          },
+          "volume-jigger": {
+            "displayName": "sopie",
+            "unitPattern-count-one": "{0} sopie",
+            "unitPattern-count-other": "{0} sopies"
+          },
+          "volume-pinch": {
+            "displayName": "knypie",
+            "unitPattern-count-one": "{0} knypie",
+            "unitPattern-count-other": "{0} knypie"
+          },
+          "volume-quart-imperial": {
+            "displayName": "kwartgelling",
+            "unitPattern-count-one": "{0} Engelse kwartgelling",
+            "unitPattern-count-other": "{0} Engelse kwartgelling"
           },
           "coordinateUnit": {
             "displayName": "kompasrigting",
@@ -1017,16 +1105,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1289,7 +1401,7 @@
             "perUnitPattern": "{0}/s."
           },
           "duration-millisecond": {
-            "displayName": "millisekondes",
+            "displayName": "millisek.",
             "unitPattern-count-one": "{0} ms.",
             "unitPattern-count-other": "{0} ms"
           },
@@ -1433,6 +1545,15 @@
             "unitPattern-count-one": "{0} stip./dm.",
             "unitPattern-count-other": "{0} stip./dm."
           },
+          "graphics-dot": {
+            "displayName": "stip.",
+            "unitPattern-count-one": "{0} stip.",
+            "unitPattern-count-other": "{0} stip."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1514,12 +1635,14 @@
             "unitPattern-count-other": "{0} AE"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlongs",
+            "unitPattern-count-one": "{0} fur.",
+            "unitPattern-count-other": "{0} fur."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "vaam",
+            "unitPattern-count-one": "{0} vaam",
+            "unitPattern-count-other": "{0} vaam"
           },
           "length-nautical-mile": {
             "displayName": "sm.",
@@ -1545,6 +1668,14 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "sonligsterkte",
@@ -1584,7 +1715,7 @@
             "unitPattern-count-other": "{0} VSA-t."
           },
           "mass-stone": {
-            "displayName": "st",
+            "displayName": "stone",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -1623,6 +1754,11 @@
             "displayName": "sonmassas",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "korrelgewig",
+            "unitPattern-count-one": "{0} korrelgewig",
+            "unitPattern-count-other": "{0} korrelgewig"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1839,7 +1975,8 @@
           },
           "volume-bushel": {
             "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "unitPattern-count-one": "{0} skepel",
+            "unitPattern-count-other": "{0} skepel"
           },
           "volume-gallon": {
             "displayName": "gell.",
@@ -1892,6 +2029,41 @@
             "displayName": "vat",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstlpl.",
+            "unitPattern-count-one": "{0} dstlpl.",
+            "unitPattern-count-other": "{0} dstlpl."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstlpl. Eng.",
+            "unitPattern-count-one": "{0} dstlpl. Eng.",
+            "unitPattern-count-other": "{0} dstlpl. Eng."
+          },
+          "volume-drop": {
+            "displayName": "druppel",
+            "unitPattern-count-one": "{0} druppel",
+            "unitPattern-count-other": "{0} druppels"
+          },
+          "volume-dram": {
+            "displayName": "dragme vloeistof",
+            "unitPattern-count-one": "{0} dr. vl.",
+            "unitPattern-count-other": "{0} dr. vl."
+          },
+          "volume-jigger": {
+            "displayName": "sopie",
+            "unitPattern-count-one": "{0} sopie",
+            "unitPattern-count-other": "{0} sopies"
+          },
+          "volume-pinch": {
+            "displayName": "knypie",
+            "unitPattern-count-one": "{0} knypie",
+            "unitPattern-count-other": "{0} knypie"
+          },
+          "volume-quart-imperial": {
+            "displayName": "kwart Eng.",
+            "unitPattern-count-one": "{0} kwart Eng.",
+            "unitPattern-count-other": "{0} kwart Eng."
           },
           "coordinateUnit": {
             "displayName": "rigting",
@@ -1962,16 +2134,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2378,6 +2574,15 @@
             "unitPattern-count-one": "{0} stip./dm.",
             "unitPattern-count-other": "{0} stip./dm."
           },
+          "graphics-dot": {
+            "displayName": "stip.",
+            "unitPattern-count-one": "{0} stip.",
+            "unitPattern-count-other": "{0} stip."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2459,12 +2664,14 @@
             "unitPattern-count-other": "{0} AE"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlongs",
+            "unitPattern-count-one": "{0} fur.",
+            "unitPattern-count-other": "{0} fur."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "vaam",
+            "unitPattern-count-one": "{0} vaam",
+            "unitPattern-count-other": "{0} vaam"
           },
           "length-nautical-mile": {
             "displayName": "sm.",
@@ -2490,6 +2697,14 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "sonligsterkte",
@@ -2529,7 +2744,7 @@
             "unitPattern-count-other": "{0} VSA-t."
           },
           "mass-stone": {
-            "displayName": "st",
+            "displayName": "stone",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -2568,6 +2783,11 @@
             "displayName": "sonmassas",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "korrelgewig",
+            "unitPattern-count-one": "{0} korrelgewig",
+            "unitPattern-count-other": "{0} korrelgewig"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2784,7 +3004,8 @@
           },
           "volume-bushel": {
             "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "unitPattern-count-one": "{0} skepel",
+            "unitPattern-count-other": "{0} skepel"
           },
           "volume-gallon": {
             "displayName": "gell.",
@@ -2838,6 +3059,41 @@
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstlpl.",
+            "unitPattern-count-one": "{0} dstlpl.",
+            "unitPattern-count-other": "{0} dstlpl."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstlpl. Eng.",
+            "unitPattern-count-one": "{0} dstlpl. Eng.",
+            "unitPattern-count-other": "{0} dstlpl. Eng."
+          },
+          "volume-drop": {
+            "displayName": "druppel",
+            "unitPattern-count-one": "{0} druppel",
+            "unitPattern-count-other": "{0} druppels"
+          },
+          "volume-dram": {
+            "displayName": "dragme vloeistof",
+            "unitPattern-count-one": "{0} dr. vl.",
+            "unitPattern-count-other": "{0} dr. vl."
+          },
+          "volume-jigger": {
+            "displayName": "sopie",
+            "unitPattern-count-one": "{0} sopie",
+            "unitPattern-count-other": "{0} sopies"
+          },
+          "volume-pinch": {
+            "displayName": "knypie",
+            "unitPattern-count-one": "{0} knypie",
+            "unitPattern-count-other": "{0} knypie"
+          },
+          "volume-quart-imperial": {
+            "displayName": "kwart Eng.",
+            "unitPattern-count-one": "{0} kwart Eng.",
+            "unitPattern-count-other": "{0} kwart Eng."
+          },
           "coordinateUnit": {
             "displayName": "rigting",
             "east": "{0} O",
@@ -2847,10 +3103,10 @@
           }
         },
         "durationUnit-type-hm": {
-          "durationUnitPattern": "h:mm"
+          "durationUnitPattern": "hh:mm"
         },
         "durationUnit-type-hms": {
-          "durationUnitPattern": "h:mm:ss"
+          "durationUnitPattern": "hh:mm:ss"
         },
         "durationUnit-type-ms": {
           "durationUnitPattern": "mm:ss"

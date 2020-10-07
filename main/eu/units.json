@@ -3,7 +3,7 @@
     "eu": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "eu"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0} karratu",
-            "compoundUnitPattern1": "{0} karratu",
-            "compoundUnitPattern1": "{0} karratu"
+            "compoundUnitPattern1-count-one": "{0} karratu",
+            "compoundUnitPattern1-count-other": "{0} karratu"
           },
           "power3": {
             "compoundUnitPattern1": "{0} kubiko",
-            "compoundUnitPattern1": "{0} kubiko",
-            "compoundUnitPattern1": "{0} kubiko"
+            "compoundUnitPattern1-count-one": "{0} kubiko",
+            "compoundUnitPattern1-count-other": "{0} kubiko"
           },
           "times": {
             "compoundUnitPattern": "{0}-{1}"
@@ -483,6 +507,16 @@
             "unitPattern-count-one": "{0} puntu hazbeteko",
             "unitPattern-count-other": "{0} puntu hazbeteko"
           },
+          "graphics-dot": {
+            "displayName": "puntua",
+            "unitPattern-count-one": "{0} puntu",
+            "unitPattern-count-other": "{0} puntu"
+          },
+          "length-earth-radius": {
+            "displayName": "Lurraren erradio",
+            "unitPattern-count-one": "{0} Lurraren erradio",
+            "unitPattern-count-other": "{0} Lurraren erradio"
+          },
           "length-kilometer": {
             "displayName": "kilometro",
             "unitPattern-count-one": "{0} kilometro",
@@ -564,12 +598,14 @@
             "unitPattern-count-other": "{0} unitate astronomiko"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "fulong",
+            "unitPattern-count-one": "{0} furlong",
+            "unitPattern-count-other": "{0} furlong"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "besoa",
+            "unitPattern-count-one": "{0} beso",
+            "unitPattern-count-other": "{0} beso"
           },
           "length-nautical-mile": {
             "displayName": "milia nautiko",
@@ -583,8 +619,8 @@
           },
           "length-point": {
             "displayName": "puntu",
-            "unitPattern-count-one": "{0} puntu",
-            "unitPattern-count-other": "{0} puntu"
+            "unitPattern-count-one": "{0} puntu tipografiko",
+            "unitPattern-count-other": "{0} puntu tipografiko"
           },
           "length-solar-radius": {
             "displayName": "eguzki-erradio",
@@ -595,6 +631,16 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumena",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-other": "{0} lumen"
           },
           "light-solar-luminosity": {
             "displayName": "eguzki-argitasun",
@@ -634,8 +680,9 @@
             "unitPattern-count-other": "{0} AEBko tona"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "stone-a",
+            "unitPattern-count-one": "{0} stone",
+            "unitPattern-count-other": "{0} stone"
           },
           "mass-pound": {
             "displayName": "librak",
@@ -662,7 +709,7 @@
           "mass-dalton": {
             "displayName": "dalton",
             "unitPattern-count-one": "{0} dalton",
-            "unitPattern-count-other": "{0} daltons"
+            "unitPattern-count-other": "{0} dalton"
           },
           "mass-earth-mass": {
             "displayName": "lur-masa",
@@ -673,6 +720,11 @@
             "displayName": "eguzki-masa",
             "unitPattern-count-one": "{0} eguzki-masa",
             "unitPattern-count-other": "{0} eguzki-masa"
+          },
+          "mass-grain": {
+            "displayName": "alea",
+            "unitPattern-count-one": "{0} ale",
+            "unitPattern-count-other": "{0} ale"
           },
           "power-gigawatt": {
             "displayName": "gigawatt-ak",
@@ -770,7 +822,7 @@
             "unitPattern-count-other": "{0} milia orduko"
           },
           "speed-knot": {
-            "displayName": "knot",
+            "displayName": "korapilo",
             "unitPattern-count-one": "{0} korapilo",
             "unitPattern-count-other": "{0} korapilo"
           },
@@ -888,8 +940,9 @@
             "unitPattern-count-other": "{0} akre-oin"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bushelak",
+            "unitPattern-count-one": "{0} bushel",
+            "unitPattern-count-other": "{0} bushel"
           },
           "volume-gallon": {
             "displayName": "galoi",
@@ -942,6 +995,41 @@
             "displayName": "upel",
             "unitPattern-count-one": "{0} upel",
             "unitPattern-count-other": "{0} upel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "postre-koilarakada",
+            "unitPattern-count-one": "{0} postre-koilarakada",
+            "unitPattern-count-other": "{0} postre-koilarakada"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "Postre-koilarakada inperiala",
+            "unitPattern-count-one": "{0} postre-koilarakada inperial",
+            "unitPattern-count-other": "{0} postre-koilarakada inperial"
+          },
+          "volume-drop": {
+            "displayName": "tanta",
+            "unitPattern-count-one": "{0} tanta",
+            "unitPattern-count-other": "{0} tanta"
+          },
+          "volume-dram": {
+            "displayName": "dram fluidoa",
+            "unitPattern-count-one": "{0} dram fluido",
+            "unitPattern-count-other": "{0} dram fluido"
+          },
+          "volume-jigger": {
+            "displayName": "txupitoa",
+            "unitPattern-count-one": "{0} txupito",
+            "unitPattern-count-other": "{0} txupito"
+          },
+          "volume-pinch": {
+            "displayName": "pinch-a",
+            "unitPattern-count-one": "{0} pinch",
+            "unitPattern-count-other": "{0} pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "laurden inperiala",
+            "unitPattern-count-one": "{0} laurden inperial",
+            "unitPattern-count-other": "{0} laurden inperial"
           },
           "coordinateUnit": {
             "displayName": "puntu kardinala",
@@ -1012,16 +1100,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}{1}"
@@ -1422,6 +1534,14 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "puntua",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1499,16 +1619,18 @@
           },
           "length-astronomical-unit": {
             "displayName": "ua",
-            "unitPattern-count-one": "{0} au",
-            "unitPattern-count-other": "{0} au"
+            "unitPattern-count-one": "{0} ua",
+            "unitPattern-count-other": "{0} ua"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlong",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "unitPattern-count-one": "{0} fm",
+            "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1522,8 +1644,8 @@
           },
           "length-point": {
             "displayName": "puntu",
-            "unitPattern-count-one": "{0} puntu",
-            "unitPattern-count-other": "{0} puntu"
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "eguzki-erradio",
@@ -1533,6 +1655,16 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-one": "{0} cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "eguzki-argitasun",
@@ -1572,6 +1704,7 @@
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -1609,6 +1742,11 @@
             "displayName": "eguzki-masa",
             "unitPattern-count-one": "{0} eguzki-masa",
             "unitPattern-count-other": "{0} eguzki-masa"
+          },
+          "mass-grain": {
+            "displayName": "alea",
+            "unitPattern-count-one": "{0} ale",
+            "unitPattern-count-other": "{0} ale"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1824,7 +1962,8 @@
             "unitPattern-count-other": "{0} akre-oin"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "bushelak",
+            "unitPattern-count-one": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -1878,6 +2017,41 @@
             "displayName": "upel",
             "unitPattern-count-one": "{0} upel",
             "unitPattern-count-other": "{0} upel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "postre-koilar.",
+            "unitPattern-count-one": "{0} postre-koilar.",
+            "unitPattern-count-other": "{0} postre-koilar."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "postre-koilar. inp.",
+            "unitPattern-count-one": "{0} postre-koilar. inp.",
+            "unitPattern-count-other": "{0} postre-koilar. inp."
+          },
+          "volume-drop": {
+            "displayName": "tanta",
+            "unitPattern-count-one": "{0} tanta",
+            "unitPattern-count-other": "{0} tanta"
+          },
+          "volume-dram": {
+            "displayName": "dram fluidoa",
+            "unitPattern-count-one": "{0} dram fl",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "txupitoa",
+            "unitPattern-count-one": "{0} txupito",
+            "unitPattern-count-other": "{0} txupito"
+          },
+          "volume-pinch": {
+            "displayName": "pinch-a",
+            "unitPattern-count-one": "{0} pinch",
+            "unitPattern-count-other": "{0} pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-one": "{0} qt Imp.",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "norabidea",
@@ -1948,16 +2122,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}{1}"
@@ -2358,6 +2556,14 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "puntua",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2435,16 +2641,18 @@
           },
           "length-astronomical-unit": {
             "displayName": "ua",
-            "unitPattern-count-one": "{0} au",
-            "unitPattern-count-other": "{0} au"
+            "unitPattern-count-one": "{0} ua",
+            "unitPattern-count-other": "{0} ua"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlong",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
             "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "unitPattern-count-one": "{0} fm",
+            "unitPattern-count-other": "{0} fm"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -2458,8 +2666,8 @@
           },
           "length-point": {
             "displayName": "puntu",
-            "unitPattern-count-one": "{0} puntu",
-            "unitPattern-count-other": "{0} puntu"
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "eguzki-erradio",
@@ -2469,6 +2677,16 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-one": "{0} cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "eguzki-argitasun",
@@ -2508,6 +2726,7 @@
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -2545,6 +2764,11 @@
             "displayName": "eguzki-masa",
             "unitPattern-count-one": "{0} eguzki-masa",
             "unitPattern-count-other": "{0} eguzki-masa"
+          },
+          "mass-grain": {
+            "displayName": "alea",
+            "unitPattern-count-one": "{0} ale",
+            "unitPattern-count-other": "{0} ale"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2760,7 +2984,8 @@
             "unitPattern-count-other": "{0} akre-oin"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "bushelak",
+            "unitPattern-count-one": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2814,6 +3039,41 @@
             "displayName": "upel",
             "unitPattern-count-one": "{0} upel",
             "unitPattern-count-other": "{0} upel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "postre-koilar.",
+            "unitPattern-count-one": "{0} postre-koilar.",
+            "unitPattern-count-other": "{0} postre-koilar."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "postre-koilar. inp.",
+            "unitPattern-count-one": "{0} postre-koilar. inp.",
+            "unitPattern-count-other": "{0} postre-koilar. inp."
+          },
+          "volume-drop": {
+            "displayName": "tanta",
+            "unitPattern-count-one": "{0} tanta",
+            "unitPattern-count-other": "{0} tanta"
+          },
+          "volume-dram": {
+            "displayName": "dram fluidoa",
+            "unitPattern-count-one": "{0} dram fl",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "txupitoa",
+            "unitPattern-count-one": "{0} txupito",
+            "unitPattern-count-other": "{0} txupito"
+          },
+          "volume-pinch": {
+            "displayName": "pinch-a",
+            "unitPattern-count-one": "{0} pinch",
+            "unitPattern-count-other": "{0} pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-one": "{0} qt Imp.",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "norabidea",

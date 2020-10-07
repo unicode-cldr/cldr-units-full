@@ -3,7 +3,7 @@
     "ml": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ml"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "യൊറ്റാ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
-            "compoundUnitPattern1": "വർഗ്ഗം {0}",
-            "compoundUnitPattern1": "വർഗ്ഗം {0}",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1-count-one": "വർഗ്ഗം {0}",
+            "compoundUnitPattern1-count-other": "വർഗ്ഗം {0}"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "ക്യുബിക് {0}",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "ക്യുബിക് {0}",
+            "compoundUnitPattern1-count-other": "ക്യുബിക് {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -487,6 +511,14 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "കിലോമീറ്റർ",
             "unitPattern-count-one": "{0} കിലോമീറ്റർ",
@@ -601,6 +633,14 @@
             "unitPattern-count-one": "{0} ലക്സ്",
             "unitPattern-count-other": "{0} ലക്സ്"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "സോളാർ ലുമിനോസൈട്സ്",
             "unitPattern-count-one": "{0} സോളാർ ലുമിനോസിറ്റി",
@@ -679,6 +719,11 @@
             "displayName": "സൂര്യപിണ്ഡം",
             "unitPattern-count-one": "{0} സൂര്യപിണ്ഡം",
             "unitPattern-count-other": "{0} സൂര്യപിണ്ഡം"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} gr",
+            "unitPattern-count-other": "{0} gr"
           },
           "power-gigawatt": {
             "displayName": "ജിഗാവാട്ട്",
@@ -948,6 +993,37 @@
             "unitPattern-count-one": "{0} ബാരൽ",
             "unitPattern-count-other": "{0} ബാരൽ"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "drop",
+            "unitPattern-count-other": "{0} drop"
+          },
+          "volume-dram": {
+            "displayName": "dram",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dram"
+          },
+          "volume-jigger": {
+            "displayName": "ജിഗർ",
+            "unitPattern-count-one": "{0} ജിഗർ",
+            "unitPattern-count-other": "{0} ജിഗർ"
+          },
+          "volume-pinch": {
+            "displayName": "നുള്ള്",
+            "unitPattern-count-one": "{0} നുള്ള്",
+            "unitPattern-count-other": "{0} നുള്ള്"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
+          },
           "coordinateUnit": {
             "displayName": "കാർഡിനൽ ദിശ",
             "east": "{0} കിഴക്ക്",
@@ -1017,16 +1093,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1428,6 +1528,14 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "കി.മീ.",
             "unitPattern-count-one": "{0} കി.മീ.",
@@ -1542,6 +1650,14 @@
             "unitPattern-count-one": "{0} ലക്സ്",
             "unitPattern-count-other": "{0} ലക്സ്"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "സോളാർ ലുമിനോസൈട്സ്",
             "unitPattern-count-other": "{0} L☉"
@@ -1617,6 +1733,11 @@
           "mass-solar-mass": {
             "displayName": "സൂര്യപിണ്ഡം",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} gr",
+            "unitPattern-count-other": "{0} gr"
           },
           "power-gigawatt": {
             "displayName": "ജി.വാ.",
@@ -1881,6 +2002,36 @@
             "displayName": "ബാരൽ",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "drop",
+            "unitPattern-count-other": "{0} drop"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "ജിഗർ",
+            "unitPattern-count-one": "{0} ജിഗർ",
+            "unitPattern-count-other": "{0} ജിഗർ"
+          },
+          "volume-pinch": {
+            "displayName": "നുള്ള്",
+            "unitPattern-count-one": "{0} നുള്ള്",
+            "unitPattern-count-other": "{0} നുള്ള്"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
+          },
           "coordinateUnit": {
             "displayName": "ദിശ",
             "east": "{0} കി.",
@@ -1950,16 +2101,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2361,6 +2536,14 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "കി.മീ.",
             "unitPattern-count-one": "{0} കി.മീ.",
@@ -2475,6 +2658,14 @@
             "unitPattern-count-one": "{0} ലക്സ്",
             "unitPattern-count-other": "{0} ലക്സ്"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "സോളാർ ലുമിനോസൈട്സ്",
             "unitPattern-count-other": "{0} L☉"
@@ -2550,6 +2741,11 @@
           "mass-solar-mass": {
             "displayName": "സൂര്യപിണ്ഡം",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} gr",
+            "unitPattern-count-other": "{0} gr"
           },
           "power-gigawatt": {
             "displayName": "ജി.വാ.",
@@ -2813,6 +3009,36 @@
           "volume-barrel": {
             "displayName": "ബാരൽ",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "drop",
+            "unitPattern-count-other": "{0} drop"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "ജിഗർ",
+            "unitPattern-count-one": "{0} ജിഗർ",
+            "unitPattern-count-other": "{0} ജിഗർ"
+          },
+          "volume-pinch": {
+            "displayName": "നുള്ള്",
+            "unitPattern-count-one": "{0} നുള്ള്",
+            "unitPattern-count-other": "{0} നുള്ള്"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "ദിശ",

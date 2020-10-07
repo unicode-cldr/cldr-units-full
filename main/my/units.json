@@ -3,7 +3,7 @@
     "my": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "my"
       },
@@ -69,16 +69,40 @@
           "10p24": {
             "unitPrefixPattern": "ယိုဒါ {0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "{0}ကီဘီ"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "{0}မက်ဘီ"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "{0}ဂီဘီ"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "{0}တယ်ဘီ"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "{0}ပယ်ဘီ"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "{0}အိတ်ဇ်ဘီ"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "{0}ဇက်ဘီ"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "{0}ယိုဘီ"
+          },
           "per": {
             "compoundUnitPattern": "တစ်{1} လျှင် {0}"
           },
           "power2": {
             "compoundUnitPattern1": "နှစ်ထပ်ကိန်း {0}",
-            "compoundUnitPattern1": "နှစ်ထပ်ကိန်း {0}"
+            "compoundUnitPattern1-count-other": "နှစ်ထပ်ကိန်း {0}"
           },
           "power3": {
             "compoundUnitPattern1": "ကုဗ {0}",
-            "compoundUnitPattern1": "ကုဗ {0}"
+            "compoundUnitPattern1-count-other": "ကုဗ {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -407,6 +431,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "အစက်",
+            "unitPattern-count-other": "{0} အစက်"
+          },
+          "length-earth-radius": {
+            "displayName": "ကမ္ဘာ့ အချင်းဝက်",
+            "unitPattern-count-other": "{0} ကမ္ဘာ့အချင်းဝက်"
+          },
           "length-kilometer": {
             "displayName": "ကီလိုမီတာ",
             "unitPattern-count-other": "{0} ကီလိုမီတာ",
@@ -473,12 +505,12 @@
             "unitPattern-count-other": "{0} နက်ခတ်တဗဒေယူနဈ"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ဖာလုံ",
+            "unitPattern-count-other": "{0} ဖာလုံ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ဖန်တမ်",
+            "unitPattern-count-other": "{0} ဖန်တမ်"
           },
           "length-nautical-mile": {
             "displayName": "ရေမိုင်",
@@ -499,6 +531,14 @@
           "light-lux": {
             "displayName": "လတ်ခ်",
             "unitPattern-count-other": "{0} လတ်ခ်"
+          },
+          "light-candela": {
+            "displayName": "ကန်ဒဲလာ",
+            "unitPattern-count-other": "{0} ကန်ဒဲလာ"
+          },
+          "light-lumen": {
+            "displayName": "လူမန်",
+            "unitPattern-count-other": "{0} လူမန်"
           },
           "light-solar-luminosity": {
             "displayName": "ဆိုလာ လူမီနိုစီတီးစ်",
@@ -531,8 +571,8 @@
             "unitPattern-count-other": "{0} တန်"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "စတုန်",
+            "unitPattern-count-other": "{0} စတုန်"
           },
           "mass-pound": {
             "displayName": "ပေါင်",
@@ -563,6 +603,10 @@
           "mass-solar-mass": {
             "displayName": "နေရောင်ခြည် ဒြပ်ထု",
             "unitPattern-count-other": "{0} နေရောင်ခြည် ဒြပ်ထု"
+          },
+          "mass-grain": {
+            "displayName": "ဂရိန်",
+            "unitPattern-count-other": "{0} ဂရိန်"
           },
           "power-gigawatt": {
             "displayName": "ဂစ်ဂါဝပ်",
@@ -601,8 +645,8 @@
             "unitPattern-count-other": "{0} ပြဒါးလက်မ"
           },
           "pressure-bar": {
-            "displayName": "bars",
-            "unitPattern-count-other": "{0} bars"
+            "displayName": "ဘား",
+            "unitPattern-count-other": "{0} ဘား"
           },
           "pressure-millibar": {
             "displayName": "မီလီဘား",
@@ -736,8 +780,8 @@
             "unitPattern-count-other": "{0} ဧက-ပေ"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "၈ ဂါလံဝင်ပုံး",
+            "unitPattern-count-other": "၈ ဂါလံဝင်ပုံး {0} ပုံး"
           },
           "volume-gallon": {
             "displayName": "ဂါလံ",
@@ -780,6 +824,34 @@
           "volume-barrel": {
             "displayName": "ဘယ်ရလ်စ်",
             "unitPattern-count-other": "{0} ဘယ်ရလ်စ်"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "အချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ဗြိတိသျှသုံး အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "ဗြိတိသျှသုံး အချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-drop": {
+            "displayName": "တစ်စက်",
+            "unitPattern-count-other": "{0} စက်"
+          },
+          "volume-dram": {
+            "displayName": "ဒရမ်",
+            "unitPattern-count-other": "{0} ဒရမ်"
+          },
+          "volume-jigger": {
+            "displayName": "ပက်",
+            "unitPattern-count-other": "{0} ပက်"
+          },
+          "volume-pinch": {
+            "displayName": "တစ်ဆိတ်",
+            "unitPattern-count-other": "{0} ဆိတ်"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ဗြိတိသျှသုံး ကွတ်",
+            "unitPattern-count-other": "ဗြိတိသျှသုံး {0} ကွတ်"
           },
           "coordinateUnit": {
             "displayName": "အရပ် လေးမျက်နှာ",
@@ -850,16 +922,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "{0}ကီဘီ"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "{0}မက်ဘီ"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "{0}ဂီဘီ"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "{0}တယ်ဘီ"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "{0}ပယ်ဘီ"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "{0}အိတ်ဇ်ဘီ"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "{0}ဇက်ဘီ"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "{0}ယိုဘီ"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -986,7 +1082,7 @@
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
-            "displayName": "PB",
+            "displayName": "ပက်တာဘိုက်",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1134,7 +1230,7 @@
           },
           "energy-therm-us": {
             "displayName": "ယူအက်စ် သာမယ်လ်",
-            "unitPattern-count-other": "{0} ယူအက်စပ် သာမယ်လ်"
+            "unitPattern-count-other": "{0} ယူအက်စ်သာမယ်လ်"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1187,6 +1283,14 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "အစက်",
+            "unitPattern-count-other": "{0} အစက်"
+          },
+          "length-earth-radius": {
+            "displayName": "ကမ္ဘာ့အချင်းဝက်",
+            "unitPattern-count-other": "{0} ကမ္ဘာ့အချင်းဝက်"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1254,12 +1358,12 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ဖာလုံ",
+            "unitPattern-count-other": "{0} ဖာလုံ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ဖန်တမ်",
+            "unitPattern-count-other": "{0} ဖန်တမ်"
           },
           "length-nautical-mile": {
             "displayName": "ရေမိုင်",
@@ -1280,6 +1384,14 @@
           "light-lux": {
             "displayName": "လတ်ခ်",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "ကန်ဒဲလာ",
+            "unitPattern-count-other": "{0} ကန်ဒဲလာ"
+          },
+          "light-lumen": {
+            "displayName": "လူမန်",
+            "unitPattern-count-other": "{0} လူမန်"
           },
           "light-solar-luminosity": {
             "displayName": "ဆိုလာ လူမီနိုစီးတီးစ်",
@@ -1312,8 +1424,8 @@
             "unitPattern-count-other": "{0} tn"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "စတုန်",
+            "unitPattern-count-other": "{0} စတုန်"
           },
           "mass-pound": {
             "displayName": "ပေါင်",
@@ -1344,6 +1456,10 @@
           "mass-solar-mass": {
             "displayName": "နေရောင်ခြည် ဒြပ်ထု",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "ဂရိန်",
+            "unitPattern-count-other": "{0} ဂရိန်"
           },
           "power-gigawatt": {
             "displayName": "ဂစ်ဂါဝပ်",
@@ -1382,8 +1498,8 @@
             "unitPattern-count-other": "{0} inHg"
           },
           "pressure-bar": {
-            "displayName": "bar",
-            "unitPattern-count-other": "{0} bars"
+            "displayName": "ဘား",
+            "unitPattern-count-other": "{0} ဘား"
           },
           "pressure-millibar": {
             "displayName": "မီလီဘား",
@@ -1517,8 +1633,8 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "၈ ဂါလံဝင်ပုံး",
+            "unitPattern-count-other": "၈ ဂါလံဝင်ပုံး {0} ပုံး"
           },
           "volume-gallon": {
             "displayName": "ဂါလံ",
@@ -1526,8 +1642,8 @@
             "perUnitPattern": "{0}/gal US"
           },
           "volume-gallon-imperial": {
-            "displayName": "ယူကဂေါလံ",
-            "unitPattern-count-other": "{0} ယူကဂေါလံ",
+            "displayName": "ယူကေ ဂါလံ",
+            "unitPattern-count-other": "{0} ယူကေ ဂါလံ",
             "perUnitPattern": "{0}/gal Imp."
           },
           "volume-quart": {
@@ -1561,6 +1677,34 @@
           "volume-barrel": {
             "displayName": "ဘယ်ရလ်",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "အချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ဗြိတိသျှသုံး အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "ဗြိတိသျှသုံးအချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-drop": {
+            "displayName": "တစ်စက်",
+            "unitPattern-count-other": "{0} စက်"
+          },
+          "volume-dram": {
+            "displayName": "ဒရမ်",
+            "unitPattern-count-other": "{0} ဒရမ်"
+          },
+          "volume-jigger": {
+            "displayName": "ပက်",
+            "unitPattern-count-other": "{0} ပက်"
+          },
+          "volume-pinch": {
+            "displayName": "တစ်ဆိတ်",
+            "unitPattern-count-other": "{0} ဆိတ်"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ဗြိတိသျှသုံး ကွတ်",
+            "unitPattern-count-other": "ဗြိတိသျှသုံး {0} ကွတ်"
           },
           "coordinateUnit": {
             "displayName": "လမ်းကြောင်း",
@@ -1631,16 +1775,40 @@
           "10p24": {
             "unitPrefixPattern": "Y {0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "{0}ကီဘီ"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "{0}မက်ဘီ"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "{0}ဂီဘီ"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "{0}တယ်ဘီ"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "{0}ပယ်ဘီ"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "{0}အိတ်ဇ်ဘီ"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "{0}ဇက်ဘီ"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "{0}ယိုဘီ"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1767,7 +1935,7 @@
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
-            "displayName": "PB",
+            "displayName": "ပက်တာဘိုက်",
             "unitPattern-count-other": "{0} PB"
           },
           "digital-terabyte": {
@@ -1915,7 +2083,7 @@
           },
           "energy-therm-us": {
             "displayName": "ယူအက်စ် သာမယ်လ်",
-            "unitPattern-count-other": "{0} ယူအက်စပ် သာမယ်လ်"
+            "unitPattern-count-other": "{0} ယူအက်စ်သာမယ်လ်"
           },
           "force-pound-force": {
             "displayName": "lbf",
@@ -1968,6 +2136,14 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "အစက်",
+            "unitPattern-count-other": "{0} အစက်"
+          },
+          "length-earth-radius": {
+            "displayName": "ကမ္ဘာ့အချင်းဝက်",
+            "unitPattern-count-other": "{0} ကမ္ဘာ့အချင်းဝက်"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2035,12 +2211,12 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ဖာလုံ",
+            "unitPattern-count-other": "{0} ဖာလုံ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ဖန်တမ်",
+            "unitPattern-count-other": "{0} ဖန်တမ်"
           },
           "length-nautical-mile": {
             "displayName": "ရေမိုင်",
@@ -2061,6 +2237,14 @@
           "light-lux": {
             "displayName": "လတ်ခ်",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "ကန်ဒဲလာ",
+            "unitPattern-count-other": "{0} ကန်ဒဲလာ"
+          },
+          "light-lumen": {
+            "displayName": "လူမန်",
+            "unitPattern-count-other": "{0} လူမန်"
           },
           "light-solar-luminosity": {
             "displayName": "ဆိုလာ လူမီနိုစီးတီးစ်",
@@ -2093,8 +2277,8 @@
             "unitPattern-count-other": "{0} tn"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "စတုန်",
+            "unitPattern-count-other": "{0} စတုန်"
           },
           "mass-pound": {
             "displayName": "ပေါင်",
@@ -2125,6 +2309,10 @@
           "mass-solar-mass": {
             "displayName": "နေရောင်ခြည် ဒြပ်ထု",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "ဂရိန်",
+            "unitPattern-count-other": "{0} ဂရိန်"
           },
           "power-gigawatt": {
             "displayName": "ဂစ်ဂါဝပ်",
@@ -2163,8 +2351,8 @@
             "unitPattern-count-other": "{0} inHg"
           },
           "pressure-bar": {
-            "displayName": "bar",
-            "unitPattern-count-other": "{0} bars"
+            "displayName": "ဘား",
+            "unitPattern-count-other": "{0} ဘား"
           },
           "pressure-millibar": {
             "displayName": "မီလီဘား",
@@ -2298,8 +2486,8 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "၈ ဂါလံဝင်ပုံး",
+            "unitPattern-count-other": "၈ ဂါလံဝင်ပုံး {0} ပုံး"
           },
           "volume-gallon": {
             "displayName": "ဂါလံ",
@@ -2307,8 +2495,8 @@
             "perUnitPattern": "{0}/gal US"
           },
           "volume-gallon-imperial": {
-            "displayName": "ယူကဂေါလံ",
-            "unitPattern-count-other": "{0} ယူကဂေါလံ",
+            "displayName": "ယူကေ ဂါလံ",
+            "unitPattern-count-other": "{0} ယူကေ ဂါလံ",
             "perUnitPattern": "{0}/gal Imp."
           },
           "volume-quart": {
@@ -2342,6 +2530,34 @@
           "volume-barrel": {
             "displayName": "ဘယ်ရလ်",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "အချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ဗြိတိသျှသုံး အချိုပွဲဇွန်း",
+            "unitPattern-count-other": "ဗြိတိသျှသုံးအချိုပွဲဇွန်း {0} ဇွန်း"
+          },
+          "volume-drop": {
+            "displayName": "တစ်စက်",
+            "unitPattern-count-other": "{0} စက်"
+          },
+          "volume-dram": {
+            "displayName": "ဒရမ်",
+            "unitPattern-count-other": "{0} ဒရမ်"
+          },
+          "volume-jigger": {
+            "displayName": "ပက်",
+            "unitPattern-count-other": "{0} ပက်"
+          },
+          "volume-pinch": {
+            "displayName": "တစ်ဆိတ်",
+            "unitPattern-count-other": "{0} ဆိတ်"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ဗြိတိသျှသုံး ကွတ်",
+            "unitPattern-count-other": "ဗြိတိသျှသုံး {0} ကွတ်"
           },
           "coordinateUnit": {
             "displayName": "လမ်းကြောင်း",

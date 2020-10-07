@@ -3,7 +3,7 @@
     "kok": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "kok"
       },
@@ -69,23 +69,47 @@
           "10p24": {
             "unitPrefixPattern": "योटा{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "किबी{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "मेबी{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "जीबी{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "टेबी{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "पेबी{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "एक्सबी{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "जेबी{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "योबे{0}"
+          },
           "per": {
-            "compoundUnitPattern": "{1} क {0}"
+            "compoundUnitPattern": "{0} दर {1}"
           },
           "power2": {
             "compoundUnitPattern1": "चवकोण {0}",
-            "compoundUnitPattern1": "चवकोण {0}"
+            "compoundUnitPattern1-count-other": "चवकोण {0}"
           },
           "power3": {
             "compoundUnitPattern1": "घनाकार {0}",
-            "compoundUnitPattern1": "घनाकार {0}"
+            "compoundUnitPattern1-count-other": "घनाकार {0}"
           },
           "times": {
-            "compoundUnitPattern": "{0}⋅{1}"
+            "compoundUnitPattern": "{0}-{1}"
           },
           "acceleration-g-force": {
-            "displayName": "g-force",
-            "unitPattern-count-other": "{0} G"
+            "displayName": "जी-फोर्स",
+            "unitPattern-count-other": "{0} जी-फोर्स"
           },
           "acceleration-meter-per-square-second": {
             "displayName": "मी/से²",
@@ -169,8 +193,8 @@
             "unitPattern-count-other": "{0} मिलिमोल्स/लि"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "पार्ट पर मिलियन",
+            "unitPattern-count-other": "{0} पार्ट पर मिलियन"
           },
           "concentr-percent": {
             "displayName": "टक्को",
@@ -181,8 +205,8 @@
             "unitPattern-count-other": "{0} दरमायल"
           },
           "concentr-permyriad": {
-            "displayName": "‱",
-            "unitPattern-count-other": "{0}‱"
+            "displayName": "परमिरियड",
+            "unitPattern-count-other": "{0} परमिरियड"
           },
           "concentr-mole": {
             "displayName": "मोल्स",
@@ -197,12 +221,12 @@
             "unitPattern-count-other": "{0} लिटर/100किलोमीटर"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "mpg US",
-            "unitPattern-count-other": "{0} mpg US"
+            "displayName": "मैल दर गॅलोन",
+            "unitPattern-count-other": "{0} मैल दर गॅलोन"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
-            "unitPattern-count-other": "{0} mpg Imp."
+            "displayName": "मैल दर इंपिरियल गॅलोन",
+            "unitPattern-count-other": "{0} मैल दर इंपिरियल गॅलोन"
           },
           "digital-petabyte": {
             "displayName": "पेटाबायट",
@@ -308,12 +332,12 @@
             "unitPattern-count-other": "{0} एम्पियर"
           },
           "electric-milliampere": {
-            "displayName": "mA",
-            "unitPattern-count-other": "{0} mA"
+            "displayName": "मिलिएम्पियर",
+            "unitPattern-count-other": "{0} मिलिएम्पियर"
           },
           "electric-ohm": {
             "displayName": "ओम",
-            "unitPattern-count-other": "{0} Ω"
+            "unitPattern-count-other": "{0} ओम"
           },
           "electric-volt": {
             "displayName": "वोल्ट",
@@ -356,8 +380,8 @@
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
-            "displayName": "lbf",
-            "unitPattern-count-other": "{0} lbf"
+            "displayName": "पावंड ऑफ फोर्स",
+            "unitPattern-count-other": "{0} पावंड ऑफ फोर्स"
           },
           "force-newton": {
             "displayName": "न्युटन",
@@ -406,6 +430,14 @@
           "graphics-dot-per-inch": {
             "displayName": "दर इंचाक ठिपके",
             "unitPattern-count-other": "दर इंचाक ठिपके {0}"
+          },
+          "graphics-dot": {
+            "displayName": "ठिपको",
+            "unitPattern-count-other": "{0}ठिपको"
+          },
+          "length-earth-radius": {
+            "displayName": "पृथ्वी त्रिज्या",
+            "unitPattern-count-other": "{0} पृथ्वी त्रिज्या"
           },
           "length-kilometer": {
             "displayName": "किलोमीटर",
@@ -461,8 +493,8 @@
             "perUnitPattern": "दर इंच {0}"
           },
           "length-parsec": {
-            "displayName": "पॅरासे",
-            "unitPattern-count-other": "{0} पॅरासे"
+            "displayName": "पासेक्स",
+            "unitPattern-count-other": "{0} पासेक्स"
           },
           "length-light-year": {
             "displayName": "प्रकाश वर्सां",
@@ -473,12 +505,12 @@
             "unitPattern-count-other": "{0} खगोलशास्त्रीय प्रमाण"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "फर्लांग",
+            "unitPattern-count-other": "{0} फर्लांग"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "फॅदम",
+            "unitPattern-count-other": "{0} फॅदम"
           },
           "length-nautical-mile": {
             "displayName": "नॉटिकल मायल्स",
@@ -497,12 +529,20 @@
             "unitPattern-count-other": "{0} सौर त्रिज्या"
           },
           "light-lux": {
-            "displayName": "lx",
-            "unitPattern-count-other": "{0} lx"
+            "displayName": "लक्स",
+            "unitPattern-count-other": "{0} लक्स"
+          },
+          "light-candela": {
+            "displayName": "कॅन्डेला",
+            "unitPattern-count-other": "{0} कॅन्डेला"
+          },
+          "light-lumen": {
+            "displayName": "ल्युमन",
+            "unitPattern-count-other": "{0} ल्युमन"
           },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "सौर ल्युमिनोसायटिस",
+            "unitPattern-count-other": "{0} सौर ल्युमिनोसायटिस"
           },
           "mass-metric-ton": {
             "displayName": "मॅट्रिक टन",
@@ -531,38 +571,42 @@
             "unitPattern-count-other": "{0} टन"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "स्टोन",
+            "unitPattern-count-other": "{0} स्टोन"
           },
           "mass-pound": {
             "displayName": "पौंड",
             "unitPattern-count-other": "{0} पौंड",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0} दर पौंड"
           },
           "mass-ounce": {
-            "displayName": "oz",
-            "unitPattern-count-other": "{0} oz",
-            "perUnitPattern": "{0}/oz"
+            "displayName": "औंस",
+            "unitPattern-count-other": "{0} औंस",
+            "perUnitPattern": "{0} दर औंस"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
-            "unitPattern-count-other": "{0} oz t"
+            "displayName": "ट्रॉय औंस",
+            "unitPattern-count-other": "{0} ट्रॉय औंस"
           },
           "mass-carat": {
             "displayName": "कॅरट",
             "unitPattern-count-other": "{0} कॅरट"
           },
           "mass-dalton": {
-            "displayName": "Da",
-            "unitPattern-count-other": "{0} Da"
+            "displayName": "डाल्टन",
+            "unitPattern-count-other": "{0} डाल्टन"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
-            "unitPattern-count-other": "{0} M⊕"
+            "displayName": "पृथ्वी वस्तुमान",
+            "unitPattern-count-other": "{0} पृथ्वी वस्तुमान"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
-            "unitPattern-count-other": "{0} M☉"
+            "displayName": "सौर वस्तुमान",
+            "unitPattern-count-other": "{0} सौर वस्तुमान"
+          },
+          "mass-grain": {
+            "displayName": "कण",
+            "unitPattern-count-other": "{0} कण"
           },
           "power-gigawatt": {
             "displayName": "गिगावॉट्स",
@@ -589,24 +633,24 @@
             "unitPattern-count-other": "{0} हॉर्सपावर"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "मिलिमीटर ऑफ मर्क्युरी",
+            "unitPattern-count-other": "{0} मिलिमीटर ऑफ मर्क्युरी"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "psi",
-            "unitPattern-count-other": "{0} psi"
+            "displayName": "पावंड दर चौरस इंच",
+            "unitPattern-count-other": "{0} पावंड दर चौरस इंच"
           },
           "pressure-inch-ofhg": {
-            "displayName": "inHg",
-            "unitPattern-count-other": "{0} inHg"
+            "displayName": "इंचेस ऑफ मर्क्युरी",
+            "unitPattern-count-other": "{0} इंचेस ऑफ मर्क्युरी"
           },
           "pressure-bar": {
             "displayName": "पट्टी",
             "unitPattern-count-other": "{0} पट्ट्यो"
           },
           "pressure-millibar": {
-            "displayName": "mbar",
-            "unitPattern-count-other": "{0} mbar"
+            "displayName": "मिलिबार",
+            "unitPattern-count-other": "{0} मिलिबार"
           },
           "pressure-atmosphere": {
             "displayName": "अटमोसपियर",
@@ -617,16 +661,16 @@
             "unitPattern-count-other": "{0} पास्कल"
           },
           "pressure-hectopascal": {
-            "displayName": "hPa",
-            "unitPattern-count-other": "{0} hPa"
+            "displayName": "हेक्टोपास्कल",
+            "unitPattern-count-other": "{0} हेक्टोपास्कल"
           },
           "pressure-kilopascal": {
-            "displayName": "kPa",
-            "unitPattern-count-other": "{0} kPa"
+            "displayName": "किलोपास्कल",
+            "unitPattern-count-other": "{0} किलोपास्कल"
           },
           "pressure-megapascal": {
-            "displayName": "MPa",
-            "unitPattern-count-other": "{0} MPa"
+            "displayName": "मेगापास्कल",
+            "unitPattern-count-other": "{0} किलोपास्कल्स"
           },
           "speed-kilometer-per-hour": {
             "displayName": "किमी/व",
@@ -641,8 +685,8 @@
             "unitPattern-count-other": "{0} मा/व"
           },
           "speed-knot": {
-            "displayName": "kn",
-            "unitPattern-count-other": "{0} kn"
+            "displayName": "नॉट",
+            "unitPattern-count-other": "{0} नॉट"
           },
           "temperature-generic": {
             "displayName": "°",
@@ -661,8 +705,8 @@
             "unitPattern-count-other": "{0} केल्वीन"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "पावंड-फूट",
+            "unitPattern-count-other": "{0} पावंड-फूट"
           },
           "torque-newton-meter": {
             "displayName": "न्युटन-मीटर",
@@ -678,32 +722,32 @@
             "perUnitPattern": "{0}/मी³"
           },
           "volume-cubic-centimeter": {
-            "displayName": "सेमी³",
-            "unitPattern-count-other": "{0} सेमी³",
-            "perUnitPattern": "{0}/सेमी³"
+            "displayName": "क्युबीक सेंटीमीटर",
+            "unitPattern-count-other": "{0} क्युबीक सेंटीमीटर",
+            "perUnitPattern": "{0} दर क्युबीक सेंटीमीटर"
           },
           "volume-cubic-mile": {
-            "displayName": "मा³",
-            "unitPattern-count-other": "{0} मा³"
+            "displayName": "क्युबीक मील",
+            "unitPattern-count-other": "{0} क्युबीक मील"
           },
           "volume-cubic-yard": {
-            "displayName": "या³",
-            "unitPattern-count-other": "{0} या³"
+            "displayName": "क्युबीक यार्ड",
+            "unitPattern-count-other": "{0} क्युबीक यार्ड"
           },
           "volume-cubic-foot": {
-            "displayName": "फू³",
-            "unitPattern-count-other": "{0} फू³"
+            "displayName": "क्युबीक फूट",
+            "unitPattern-count-other": "{0} क्युबीक फूट"
           },
           "volume-cubic-inch": {
-            "displayName": "इं³",
-            "unitPattern-count-other": "{0} इं³"
+            "displayName": "क्युबीक इंच",
+            "unitPattern-count-other": "{0} क्युबीक इंच"
           },
           "volume-megaliter": {
             "displayName": "मॅगालिटर",
             "unitPattern-count-other": "{0} मॅगालिटर"
           },
           "volume-hectoliter": {
-            "displayName": "hL",
+            "displayName": "हॅक्टोलीटर",
             "unitPattern-count-other": "{0} hL"
           },
           "volume-liter": {
@@ -712,20 +756,20 @@
             "perUnitPattern": "{0}/लिटर"
           },
           "volume-deciliter": {
-            "displayName": "dL",
-            "unitPattern-count-other": "{0} dL"
+            "displayName": "डेसिलीटर",
+            "unitPattern-count-other": "{0} डेसिलीटर"
           },
           "volume-centiliter": {
-            "displayName": "cL",
-            "unitPattern-count-other": "{0} cL"
+            "displayName": "सेंटिलीटर",
+            "unitPattern-count-other": "{0} सेंटिलीटर"
           },
           "volume-milliliter": {
             "displayName": "मिलिलिटर",
             "unitPattern-count-other": "{0} मिलिलिटर"
           },
           "volume-pint-metric": {
-            "displayName": "mpt",
-            "unitPattern-count-other": "{0} mpt"
+            "displayName": "मॅट्रिक पाइंट",
+            "unitPattern-count-other": "{0} मॅट्रिक पाइंट"
           },
           "volume-cup-metric": {
             "displayName": "मॅट्रिक कप",
@@ -736,8 +780,8 @@
             "unitPattern-count-other": "{0} एकर-फूट"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "बुशेल्स",
+            "unitPattern-count-other": "{0} बुशेल्स"
           },
           "volume-gallon": {
             "displayName": "गॅलोन",
@@ -745,17 +789,17 @@
             "perUnitPattern": "दर गॅलोन {0}"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इंपिरियल गॅलोन",
+            "unitPattern-count-other": "{0} इंप. गॅलोन",
+            "perUnitPattern": "{0} दर इंप. गॅलोन"
           },
           "volume-quart": {
             "displayName": "क्वार्त",
             "unitPattern-count-other": "{0} क्वार्त"
           },
           "volume-pint": {
-            "displayName": "pt",
-            "unitPattern-count-other": "{0} pt"
+            "displayName": "पाइंट",
+            "unitPattern-count-other": "{0} पाइंट"
           },
           "volume-cup": {
             "displayName": "कप",
@@ -766,8 +810,8 @@
             "unitPattern-count-other": "{0} फ्लुइड औंस"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "इंपिरियल फ्लुइड औंस",
+            "unitPattern-count-other": "{0} इंप. फ्लुइड औंस"
           },
           "volume-tablespoon": {
             "displayName": "व्हडलें कुलेर",
@@ -780,6 +824,34 @@
           "volume-barrel": {
             "displayName": "बॅरल",
             "unitPattern-count-other": "{0} बॅरल"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "डिझर्ट कुलेर",
+            "unitPattern-count-other": "{0} डिझर्ट कुलेर"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "इंपिरियल डिझर्ट कुलेर",
+            "unitPattern-count-other": "{0} इंप. डिझर्ट कुलेर"
+          },
+          "volume-drop": {
+            "displayName": "थेंबो",
+            "unitPattern-count-other": "{0} थेंबो"
+          },
+          "volume-dram": {
+            "displayName": "ड्रॅम",
+            "unitPattern-count-other": "{0} ड्रॅम"
+          },
+          "volume-jigger": {
+            "displayName": "जिगर",
+            "unitPattern-count-other": "{0} जिगर"
+          },
+          "volume-pinch": {
+            "displayName": "चिमटी",
+            "unitPattern-count-other": "{0} चिमटी"
+          },
+          "volume-quart-imperial": {
+            "displayName": "इंपिरियल क्वार्त",
+            "unitPattern-count-other": "{0} इंप. क्वार्त"
           },
           "coordinateUnit": {
             "displayName": "मुख्य दिका",
@@ -850,22 +922,46 @@
           "10p24": {
             "unitPrefixPattern": "यो{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "क{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "मे{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "जी{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "टी{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "पी{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "इ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ज{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "य{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
-            "displayName": "g-force",
+            "displayName": "जी-फोर्स",
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-square-second": {
@@ -978,11 +1074,11 @@
             "unitPattern-count-other": "{0} लि/100किमी"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "mpg US",
-            "unitPattern-count-other": "{0} mpg US"
+            "displayName": "मैल/गॅ",
+            "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
+            "displayName": "मैल/गॅ इंप.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
@@ -1089,11 +1185,11 @@
             "unitPattern-count-other": "{0} ए"
           },
           "electric-milliampere": {
-            "displayName": "mA",
+            "displayName": "मिलिएम्प",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "ओम्स",
+            "displayName": "ओम",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
@@ -1137,7 +1233,7 @@
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
-            "displayName": "lbf",
+            "displayName": "पावंड-फोर्स",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
@@ -1187,6 +1283,14 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ठिपको",
+            "unitPattern-count-other": "{0} ठिपको"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "किमी",
@@ -1242,7 +1346,7 @@
             "perUnitPattern": "{0}/in"
           },
           "length-parsec": {
-            "displayName": "pc",
+            "displayName": "पासेक",
             "unitPattern-count-other": "{0} pc"
           },
           "length-light-year": {
@@ -1254,11 +1358,11 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "फर्लांग",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "फॅदम",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -1278,11 +1382,19 @@
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
-            "displayName": "lx",
+            "displayName": "लक्स",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "सौर ल्युमिनोसायटिस",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
@@ -1312,21 +1424,21 @@
             "unitPattern-count-other": "{0} टन"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "स्टोन",
+            "unitPattern-count-other": "{0} स्टोन"
           },
           "mass-pound": {
-            "displayName": "lb",
+            "displayName": "पौंड",
             "unitPattern-count-other": "{0} lb",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/पौंड"
           },
           "mass-ounce": {
-            "displayName": "oz",
+            "displayName": "औंस",
             "unitPattern-count-other": "{0} oz",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/औंस"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
+            "displayName": "औंस ट्रॉय",
             "unitPattern-count-other": "{0} oz t"
           },
           "mass-carat": {
@@ -1334,16 +1446,20 @@
             "unitPattern-count-other": "{0} कॅ"
           },
           "mass-dalton": {
-            "displayName": "Da",
+            "displayName": "डाल्टन",
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "पृथ्वी वस्तुमान",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "सौर वस्तुमान",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "कण",
+            "unitPattern-count-other": "{0} कण"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1422,7 +1538,7 @@
             "unitPattern-count-other": "{0} मा/व"
           },
           "speed-knot": {
-            "displayName": "kn",
+            "displayName": "नॉट",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
@@ -1442,7 +1558,7 @@
             "unitPattern-count-other": "{0} के"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
+            "displayName": "पावंड-फूट",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
           "torque-newton-meter": {
@@ -1468,16 +1584,16 @@
             "unitPattern-count-other": "{0} mi³"
           },
           "volume-cubic-yard": {
-            "displayName": "या³",
-            "unitPattern-count-other": "{0} या³"
+            "displayName": "यार्ड³",
+            "unitPattern-count-other": "{0} yd³"
           },
           "volume-cubic-foot": {
-            "displayName": "फू³",
-            "unitPattern-count-other": "{0} फू³"
+            "displayName": "फूट³",
+            "unitPattern-count-other": "{0} ft³"
           },
           "volume-cubic-inch": {
             "displayName": "इंच³",
-            "unitPattern-count-other": "{0} इ³"
+            "unitPattern-count-other": "{0} in³"
           },
           "volume-megaliter": {
             "displayName": "ML",
@@ -1514,10 +1630,10 @@
           },
           "volume-acre-foot": {
             "displayName": "एकर फू",
-            "unitPattern-count-other": "{0} ए फू"
+            "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "बुशेल्स",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -1526,16 +1642,16 @@
             "perUnitPattern": "{0}/गॅलो युएस"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इंप.गॅलोन",
+            "unitPattern-count-other": "{0} गॅल इंप.",
+            "perUnitPattern": "{0}/गॅलोन इंप."
           },
           "volume-quart": {
             "displayName": "क्वा",
             "unitPattern-count-other": "{0} क्वा"
           },
           "volume-pint": {
-            "displayName": "pt",
+            "displayName": "पाइंट",
             "unitPattern-count-other": "{0} pt"
           },
           "volume-cup": {
@@ -1561,6 +1677,34 @@
           "volume-barrel": {
             "displayName": "बॅरल",
             "unitPattern-count-other": "{0} बॅरल"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "डिझ. कुलेर",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "डिझ. कुलेर इंप",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "थेंबो",
+            "unitPattern-count-other": "{0} थेंबो"
+          },
+          "volume-dram": {
+            "displayName": "ड्रॅम फ्लुइड",
+            "unitPattern-count-other": "{0} ड्रॅम फ्लु"
+          },
+          "volume-jigger": {
+            "displayName": "जिगर",
+            "unitPattern-count-other": "{0} जिगर"
+          },
+          "volume-pinch": {
+            "displayName": "चिमटी",
+            "unitPattern-count-other": "{0} चिमटी"
+          },
+          "volume-quart-imperial": {
+            "displayName": "क्वार्त इंप",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "दिका",
@@ -1631,22 +1775,46 @@
           "10p24": {
             "unitPrefixPattern": "यो {0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "कि {0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "मे {0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "जी {0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "टी {0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "पी {0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "इ {0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "जे {0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "यो {0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
           },
           "acceleration-g-force": {
-            "displayName": "g-force",
+            "displayName": "जी-फोर्स",
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-square-second": {
@@ -1759,11 +1927,11 @@
             "unitPattern-count-other": "{0} लि/100किमी"
           },
           "consumption-mile-per-gallon": {
-            "displayName": "mpg US",
-            "unitPattern-count-other": "{0} mpg US"
+            "displayName": "मैल/गॅ",
+            "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "mpg Imp.",
+            "displayName": "मैल/गॅ इंप.",
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
@@ -1870,11 +2038,11 @@
             "unitPattern-count-other": "{0} ए"
           },
           "electric-milliampere": {
-            "displayName": "mA",
+            "displayName": "मिलिएम्प",
             "unitPattern-count-other": "{0} mA"
           },
           "electric-ohm": {
-            "displayName": "ओम्स",
+            "displayName": "ओम",
             "unitPattern-count-other": "{0} Ω"
           },
           "electric-volt": {
@@ -1918,7 +2086,7 @@
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
-            "displayName": "lbf",
+            "displayName": "पावंड-फोर्स",
             "unitPattern-count-other": "{0} lbf"
           },
           "force-newton": {
@@ -1968,6 +2136,14 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ठिपको",
+            "unitPattern-count-other": "{0} ठिपको"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "किमी",
@@ -2023,7 +2199,7 @@
             "perUnitPattern": "{0}/in"
           },
           "length-parsec": {
-            "displayName": "pc",
+            "displayName": "पासेक",
             "unitPattern-count-other": "{0} pc"
           },
           "length-light-year": {
@@ -2035,11 +2211,11 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "फर्लांग",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "फॅदम",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -2059,11 +2235,19 @@
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
-            "displayName": "lx",
+            "displayName": "लक्स",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
-            "displayName": "L☉",
+            "displayName": "सौर ल्युमिनोसायटिस",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
@@ -2093,21 +2277,21 @@
             "unitPattern-count-other": "{0} टन"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "स्टोन",
+            "unitPattern-count-other": "{0} स्टोन"
           },
           "mass-pound": {
-            "displayName": "lb",
+            "displayName": "पौंड",
             "unitPattern-count-other": "{0} lb",
-            "perUnitPattern": "{0}/lb"
+            "perUnitPattern": "{0}/पौंड"
           },
           "mass-ounce": {
-            "displayName": "oz",
+            "displayName": "औंस",
             "unitPattern-count-other": "{0} oz",
-            "perUnitPattern": "{0}/oz"
+            "perUnitPattern": "{0}/औंस"
           },
           "mass-ounce-troy": {
-            "displayName": "oz t",
+            "displayName": "औंस ट्रॉय",
             "unitPattern-count-other": "{0} oz t"
           },
           "mass-carat": {
@@ -2115,16 +2299,20 @@
             "unitPattern-count-other": "{0} कॅ"
           },
           "mass-dalton": {
-            "displayName": "Da",
+            "displayName": "डाल्टन",
             "unitPattern-count-other": "{0} Da"
           },
           "mass-earth-mass": {
-            "displayName": "M⊕",
+            "displayName": "पृथ्वी वस्तुमान",
             "unitPattern-count-other": "{0} M⊕"
           },
           "mass-solar-mass": {
-            "displayName": "M☉",
+            "displayName": "सौर वस्तुमान",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "कण",
+            "unitPattern-count-other": "{0} कण"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2203,7 +2391,7 @@
             "unitPattern-count-other": "{0} मा/व"
           },
           "speed-knot": {
-            "displayName": "kn",
+            "displayName": "नॉट",
             "unitPattern-count-other": "{0} kn"
           },
           "temperature-generic": {
@@ -2223,7 +2411,7 @@
             "unitPattern-count-other": "{0} के"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
+            "displayName": "पावंड-फूट",
             "unitPattern-count-other": "{0} lbf⋅ft"
           },
           "torque-newton-meter": {
@@ -2249,16 +2437,16 @@
             "unitPattern-count-other": "{0} mi³"
           },
           "volume-cubic-yard": {
-            "displayName": "या³",
-            "unitPattern-count-other": "{0} या³"
+            "displayName": "यार्ड³",
+            "unitPattern-count-other": "{0} yd³"
           },
           "volume-cubic-foot": {
-            "displayName": "फू³",
-            "unitPattern-count-other": "{0} फू³"
+            "displayName": "फूट³",
+            "unitPattern-count-other": "{0} ft³"
           },
           "volume-cubic-inch": {
             "displayName": "इंच³",
-            "unitPattern-count-other": "{0} इ³"
+            "unitPattern-count-other": "{0} in³"
           },
           "volume-megaliter": {
             "displayName": "ML",
@@ -2295,10 +2483,10 @@
           },
           "volume-acre-foot": {
             "displayName": "एकर फू",
-            "unitPattern-count-other": "{0} ए फू"
+            "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "बुशेल्स",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2307,16 +2495,16 @@
             "perUnitPattern": "{0}/गॅलो युएस"
           },
           "volume-gallon-imperial": {
-            "displayName": "Imp. gal",
-            "unitPattern-count-other": "{0} gal Imp.",
-            "perUnitPattern": "{0}/gal Imp."
+            "displayName": "इंप.गॅलोन",
+            "unitPattern-count-other": "{0} गॅल इंप.",
+            "perUnitPattern": "{0}/गॅलोन इंप."
           },
           "volume-quart": {
             "displayName": "क्वा",
             "unitPattern-count-other": "{0} क्वा"
           },
           "volume-pint": {
-            "displayName": "pt",
+            "displayName": "पाइंट",
             "unitPattern-count-other": "{0} pt"
           },
           "volume-cup": {
@@ -2342,6 +2530,34 @@
           "volume-barrel": {
             "displayName": "बॅरल",
             "unitPattern-count-other": "{0} बॅरल"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "डिझ. कुलेर",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "डिझ. कुलेर इंप",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "थेंबो",
+            "unitPattern-count-other": "{0} थेंबो"
+          },
+          "volume-dram": {
+            "displayName": "ड्रॅम फ्लुइड",
+            "unitPattern-count-other": "{0} ड्रॅम फ्लु"
+          },
+          "volume-jigger": {
+            "displayName": "जिगर",
+            "unitPattern-count-other": "{0} जिगर"
+          },
+          "volume-pinch": {
+            "displayName": "चिमटी",
+            "unitPattern-count-other": "{0} चिमटी"
+          },
+          "volume-quart-imperial": {
+            "displayName": "क्वार्त इंप",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "दिका",

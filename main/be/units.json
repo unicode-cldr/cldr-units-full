@@ -3,7 +3,7 @@
     "be": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "be"
       },
@@ -69,22 +69,46 @@
           "10p24": {
             "unitPrefixPattern": "ёта{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "кібі{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "мебі{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "гібі{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "тэбі{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "пебі{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "эксбі{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "зэбі{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "ёбі{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
-            "compoundUnitPattern1": "квадратныя {0}",
-            "compoundUnitPattern1": "квадратны {0}",
-            "compoundUnitPattern1": "квадратныя {0}",
-            "compoundUnitPattern1": "квадратных {0}",
-            "compoundUnitPattern1": "кв. {0}"
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1-count-one": "квадратны {0}",
+            "compoundUnitPattern1-count-few": "квадратныя {0}",
+            "compoundUnitPattern1-count-many": "квадратных {0}",
+            "compoundUnitPattern1-count-other": "кв. {0}"
           },
           "power3": {
-            "compoundUnitPattern1": "кубічныя {0}",
-            "compoundUnitPattern1": "кубічны {0}",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "куб. {0}"
+            "compoundUnitPattern1-count-one": "куб. {0}",
+            "compoundUnitPattern1-count-few": "куб. {0}",
+            "compoundUnitPattern1-count-many": "куб. {0}",
+            "compoundUnitPattern1-count-other": "куб. {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -235,7 +259,7 @@
             "unitPattern-count-other": "{0} мілімоля на літр"
           },
           "concentr-permillion": {
-            "displayName": "частак на мільён",
+            "displayName": "часткі на мільён",
             "unitPattern-count-one": "{0} частка на мільён",
             "unitPattern-count-few": "{0} часткі на мільён",
             "unitPattern-count-many": "{0} частак на мільён",
@@ -647,6 +671,20 @@
             "unitPattern-count-many": "{0} кропак на цалю",
             "unitPattern-count-other": "{0} кропкі на цалю"
           },
+          "graphics-dot": {
+            "displayName": "кропкі",
+            "unitPattern-count-one": "{0} кропка",
+            "unitPattern-count-few": "{0} кропкі",
+            "unitPattern-count-many": "{0} кропак",
+            "unitPattern-count-other": "{0} кропкі"
+          },
+          "length-earth-radius": {
+            "displayName": "радыус Зямлі",
+            "unitPattern-count-one": "{0} радыус Зямлі",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-many": "{0} R⊕",
+            "unitPattern-count-other": "{0} радыуса Зямлі"
+          },
           "length-kilometer": {
             "displayName": "кіламетры",
             "unitPattern-count-one": "{0} кіламетр",
@@ -758,12 +796,18 @@
             "unitPattern-count-other": "{0} астранамічнай адзінкі"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фурлонгі",
+            "unitPattern-count-one": "{0} фурлонг",
+            "unitPattern-count-few": "{0} фурлонгі",
+            "unitPattern-count-many": "{0} фурлонгаў",
+            "unitPattern-count-other": "{0} фурлонга"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "фатамы",
+            "unitPattern-count-one": "{0} фатам",
+            "unitPattern-count-few": "{0} фатамы",
+            "unitPattern-count-many": "{0} фатамаў",
+            "unitPattern-count-other": "{0} фатама"
           },
           "length-nautical-mile": {
             "displayName": "марскія мілі",
@@ -799,6 +843,20 @@
             "unitPattern-count-few": "{0} люксы",
             "unitPattern-count-many": "{0} люксаў",
             "unitPattern-count-other": "{0} люкса"
+          },
+          "light-candela": {
+            "displayName": "кандэла",
+            "unitPattern-count-one": "{0} кандэла",
+            "unitPattern-count-few": "{0} кандэлы",
+            "unitPattern-count-many": "{0} кандэл",
+            "unitPattern-count-other": "{0} кандэлы"
+          },
+          "light-lumen": {
+            "displayName": "люмен",
+            "unitPattern-count-one": "{0} люмен",
+            "unitPattern-count-few": "{0} люмены",
+            "unitPattern-count-many": "{0} люменаў",
+            "unitPattern-count-other": "{0} люмена"
           },
           "light-solar-luminosity": {
             "displayName": "сонечныя свяцільнасці",
@@ -852,8 +910,11 @@
             "unitPattern-count-other": "{0} амерыканскай тоны"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стоны",
+            "unitPattern-count-one": "{0} стоўн",
+            "unitPattern-count-few": "{0} стоны",
+            "unitPattern-count-many": "{0} стонаў",
+            "unitPattern-count-other": "{0} стона"
           },
           "mass-pound": {
             "displayName": "фунты",
@@ -905,6 +966,13 @@
             "unitPattern-count-few": "{0} масы Сонца",
             "unitPattern-count-many": "{0} мас Сонца",
             "unitPattern-count-other": "{0} масы Сонца"
+          },
+          "mass-grain": {
+            "displayName": "граны",
+            "unitPattern-count-one": "{0} гран",
+            "unitPattern-count-few": "{0} граны",
+            "unitPattern-count-many": "{0} гранаў",
+            "unitPattern-count-other": "{0} грана"
           },
           "power-gigawatt": {
             "displayName": "гігаваты",
@@ -1204,8 +1272,11 @@
             "unitPattern-count-other": "{0} акр-фута"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "бушалі",
+            "unitPattern-count-one": "{0} бушаль",
+            "unitPattern-count-few": "{0} бушалі",
+            "unitPattern-count-many": "{0} бушаляў",
+            "unitPattern-count-other": "{0} бушаля"
           },
           "volume-gallon": {
             "displayName": "галоны",
@@ -1279,6 +1350,55 @@
             "unitPattern-count-many": "{0} барэляў",
             "unitPattern-count-other": "{0} барэля"
           },
+          "volume-dessert-spoon": {
+            "displayName": "дэсертная лыжка",
+            "unitPattern-count-one": "{0} дэсертная лыжка",
+            "unitPattern-count-few": "{0} дэсертныя лыжкі",
+            "unitPattern-count-many": "{0} дэсертных лыжак",
+            "unitPattern-count-other": "{0} дэсертнай лыжкі"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "брытанская дэсертная лыжка",
+            "unitPattern-count-one": "{0} брытанская дэсертная лыжка",
+            "unitPattern-count-few": "{0} брыт. дэс. л.",
+            "unitPattern-count-many": "{0} брыт. дэс. л.",
+            "unitPattern-count-other": "{0} брытанскай дэсертнай лыжкі"
+          },
+          "volume-drop": {
+            "displayName": "кропля",
+            "unitPattern-count-one": "{0} кропля",
+            "unitPattern-count-few": "{0} кроплі",
+            "unitPattern-count-many": "{0} кропляў",
+            "unitPattern-count-other": "{0} кроплі"
+          },
+          "volume-dram": {
+            "displayName": "драхма",
+            "unitPattern-count-one": "{0} драхма",
+            "unitPattern-count-few": "{0} вад. драхмы",
+            "unitPattern-count-many": "{0} вад. драхмаў",
+            "unitPattern-count-other": "{0} вад. драхмы"
+          },
+          "volume-jigger": {
+            "displayName": "джыгер",
+            "unitPattern-count-one": "{0} джыгер",
+            "unitPattern-count-few": "{0} джыгеры",
+            "unitPattern-count-many": "{0} джыгераў",
+            "unitPattern-count-other": "{0} джыгера"
+          },
+          "volume-pinch": {
+            "displayName": "дробка",
+            "unitPattern-count-one": "{0} дробка",
+            "unitPattern-count-few": "{0} дробкі",
+            "unitPattern-count-many": "{0} дробак",
+            "unitPattern-count-other": "{0} дробкі"
+          },
+          "volume-quart-imperial": {
+            "displayName": "брыт. кварта",
+            "unitPattern-count-one": "{0} брыт. кварта",
+            "unitPattern-count-few": "{0} брыт. кварты",
+            "unitPattern-count-many": "{0} брыт. кварт",
+            "unitPattern-count-other": "{0} брыт. кварты"
+          },
           "coordinateUnit": {
             "displayName": "кірунак свету",
             "east": "{0} усходняй даўгаты",
@@ -1348,22 +1468,46 @@
           "10p24": {
             "unitPrefixPattern": "Ё{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Кі{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Мі{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Гі{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ті{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Пі{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Эі{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Зі{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Ёі{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-few": "{0}²",
+            "compoundUnitPattern1-count-many": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-few": "{0}³",
+            "compoundUnitPattern1-count-many": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1577,7 +1721,7 @@
             "unitPattern-count-other": "{0} мілі/імп. галон"
           },
           "digital-petabyte": {
-            "displayName": "ПБайт",
+            "displayName": "ПБ",
             "unitPattern-count-one": "{0} ПБ",
             "unitPattern-count-few": "{0} ПБ",
             "unitPattern-count-many": "{0} ПБ",
@@ -1640,14 +1784,14 @@
             "unitPattern-count-other": "{0} кбіт"
           },
           "digital-byte": {
-            "displayName": "байты",
+            "displayName": "байт",
             "unitPattern-count-one": "{0} байт",
             "unitPattern-count-few": "{0} байты",
             "unitPattern-count-many": "{0} байт",
             "unitPattern-count-other": "{0} байта"
           },
           "digital-bit": {
-            "displayName": "біты",
+            "displayName": "біт",
             "unitPattern-count-one": "{0} біт",
             "unitPattern-count-few": "{0} біты",
             "unitPattern-count-many": "{0} біт",
@@ -1926,6 +2070,17 @@
             "unitPattern-count-many": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "кр",
+            "unitPattern-count-one": "{0} кр",
+            "unitPattern-count-few": "{0} кр",
+            "unitPattern-count-many": "{0} кр",
+            "unitPattern-count-other": "{0} кр"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "км",
             "unitPattern-count-one": "{0} км",
@@ -2037,12 +2192,18 @@
             "unitPattern-count-other": "{0} а. а."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фурлонгі",
+            "unitPattern-count-one": "{0} фур.",
+            "unitPattern-count-few": "{0} фур.",
+            "unitPattern-count-many": "{0} фур.",
+            "unitPattern-count-other": "{0} фур."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "фатамы",
+            "unitPattern-count-one": "{0} фат.",
+            "unitPattern-count-few": "{0} фат.",
+            "unitPattern-count-many": "{0} фат.",
+            "unitPattern-count-other": "{0} фат."
           },
           "length-nautical-mile": {
             "displayName": "мар. мілі",
@@ -2078,6 +2239,20 @@
             "unitPattern-count-few": "{0} лк",
             "unitPattern-count-many": "{0} лк",
             "unitPattern-count-other": "{0} лк"
+          },
+          "light-candela": {
+            "displayName": "кд",
+            "unitPattern-count-one": "{0} кд",
+            "unitPattern-count-few": "{0} кд",
+            "unitPattern-count-many": "{0} кд",
+            "unitPattern-count-other": "{0} кд"
+          },
+          "light-lumen": {
+            "displayName": "лм",
+            "unitPattern-count-one": "{0} лм",
+            "unitPattern-count-few": "{0} лм",
+            "unitPattern-count-many": "{0} лм",
+            "unitPattern-count-other": "{0} лм"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2131,8 +2306,11 @@
             "unitPattern-count-other": "{0} амер. т"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стоны",
+            "unitPattern-count-one": "{0} стон",
+            "unitPattern-count-few": "{0} стоны",
+            "unitPattern-count-many": "{0} стонаў",
+            "unitPattern-count-other": "{0} стона"
           },
           "mass-pound": {
             "displayName": "фунты",
@@ -2184,6 +2362,13 @@
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-many": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "гран",
+            "unitPattern-count-one": "{0} гран",
+            "unitPattern-count-few": "{0} граны",
+            "unitPattern-count-many": "{0} гранаў",
+            "unitPattern-count-other": "{0} грана"
           },
           "power-gigawatt": {
             "displayName": "ГВт",
@@ -2483,8 +2668,11 @@
             "unitPattern-count-other": "{0} акр-фута"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "бушалі",
+            "unitPattern-count-one": "{0} буш.",
+            "unitPattern-count-few": "{0} буш.",
+            "unitPattern-count-many": "{0} буш.",
+            "unitPattern-count-other": "{0} буш."
           },
           "volume-gallon": {
             "displayName": "гал",
@@ -2558,6 +2746,55 @@
             "unitPattern-count-many": "{0} барэляў",
             "unitPattern-count-other": "{0} барэля"
           },
+          "volume-dessert-spoon": {
+            "displayName": "дэс. л.",
+            "unitPattern-count-one": "{0} дэс. л.",
+            "unitPattern-count-few": "{0} дэс. л.",
+            "unitPattern-count-many": "{0} дэс. л.",
+            "unitPattern-count-other": "{0} дэс. л."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "брыт. дэс. л.",
+            "unitPattern-count-one": "{0} брыт. дэс. л.",
+            "unitPattern-count-few": "{0} брыт. дэс. л.",
+            "unitPattern-count-many": "{0} брыт. дэс. л.",
+            "unitPattern-count-other": "{0} брыт. дэс. л."
+          },
+          "volume-drop": {
+            "displayName": "кропля",
+            "unitPattern-count-one": "{0} кропля",
+            "unitPattern-count-few": "{0} кроплі",
+            "unitPattern-count-many": "{0} кропель",
+            "unitPattern-count-other": "{0} кроплі"
+          },
+          "volume-dram": {
+            "displayName": "вад. драхма",
+            "unitPattern-count-one": "{0} вад. драхма",
+            "unitPattern-count-few": "{0} вад. драхмы",
+            "unitPattern-count-many": "{0} вад. драхмаў",
+            "unitPattern-count-other": "{0} вад. драхмы"
+          },
+          "volume-jigger": {
+            "displayName": "джыгер",
+            "unitPattern-count-one": "{0} джыгер",
+            "unitPattern-count-few": "{0} джыгеры",
+            "unitPattern-count-many": "{0} джыгераў",
+            "unitPattern-count-other": "{0} джыгера"
+          },
+          "volume-pinch": {
+            "displayName": "дробка",
+            "unitPattern-count-one": "{0} дробка",
+            "unitPattern-count-few": "{0} дробкі",
+            "unitPattern-count-many": "{0} дробак",
+            "unitPattern-count-other": "{0} дробкі"
+          },
+          "volume-quart-imperial": {
+            "displayName": "брыт. кварта",
+            "unitPattern-count-one": "{0} брыт. кварта",
+            "unitPattern-count-few": "{0} брыт. кварты",
+            "unitPattern-count-many": "{0} брыт. кварт",
+            "unitPattern-count-other": "{0} брыт. кварты"
+          },
           "coordinateUnit": {
             "displayName": "кірунак",
             "east": "{0} усх. д.",
@@ -2627,22 +2864,46 @@
           "10p24": {
             "unitPrefixPattern": "Ё{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Кі{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Мі{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Гі{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ті{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Пі{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Эі{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Зі{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Ёі{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-few": "{0}²",
+            "compoundUnitPattern1-count-many": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-few": "{0}³",
+            "compoundUnitPattern1-count-many": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2856,7 +3117,7 @@
             "unitPattern-count-other": "{0} мілі/імп. галон"
           },
           "digital-petabyte": {
-            "displayName": "ПБайт",
+            "displayName": "ПБ",
             "unitPattern-count-one": "{0} ПБ",
             "unitPattern-count-few": "{0} ПБ",
             "unitPattern-count-many": "{0} ПБ",
@@ -2919,14 +3180,14 @@
             "unitPattern-count-other": "{0} кбіт"
           },
           "digital-byte": {
-            "displayName": "байты",
+            "displayName": "байт",
             "unitPattern-count-one": "{0} байт",
             "unitPattern-count-few": "{0} байты",
             "unitPattern-count-many": "{0} байт",
             "unitPattern-count-other": "{0} байта"
           },
           "digital-bit": {
-            "displayName": "біты",
+            "displayName": "біт",
             "unitPattern-count-one": "{0} біт",
             "unitPattern-count-few": "{0} біты",
             "unitPattern-count-many": "{0} біт",
@@ -3205,6 +3466,17 @@
             "unitPattern-count-many": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "кр",
+            "unitPattern-count-one": "{0} кр",
+            "unitPattern-count-few": "{0} кр",
+            "unitPattern-count-many": "{0} кр",
+            "unitPattern-count-other": "{0} кр"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "км",
             "unitPattern-count-one": "{0} км",
@@ -3316,12 +3588,18 @@
             "unitPattern-count-other": "{0} а. а."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "фурлонгі",
+            "unitPattern-count-one": "{0} фур.",
+            "unitPattern-count-few": "{0} фур.",
+            "unitPattern-count-many": "{0} фур.",
+            "unitPattern-count-other": "{0} фур."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "фатамы",
+            "unitPattern-count-one": "{0} фат.",
+            "unitPattern-count-few": "{0} фат.",
+            "unitPattern-count-many": "{0} фат.",
+            "unitPattern-count-other": "{0} фат."
           },
           "length-nautical-mile": {
             "displayName": "мар. мілі",
@@ -3357,6 +3635,20 @@
             "unitPattern-count-few": "{0} лк",
             "unitPattern-count-many": "{0} лк",
             "unitPattern-count-other": "{0} лк"
+          },
+          "light-candela": {
+            "displayName": "кд",
+            "unitPattern-count-one": "{0} кд",
+            "unitPattern-count-few": "{0} кд",
+            "unitPattern-count-many": "{0} кд",
+            "unitPattern-count-other": "{0} кд"
+          },
+          "light-lumen": {
+            "displayName": "лм",
+            "unitPattern-count-one": "{0} лм",
+            "unitPattern-count-few": "{0} лм",
+            "unitPattern-count-many": "{0} лм",
+            "unitPattern-count-other": "{0} лм"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -3410,8 +3702,11 @@
             "unitPattern-count-other": "{0} амер. т"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "стоны",
+            "unitPattern-count-one": "{0} стон",
+            "unitPattern-count-few": "{0} стоны",
+            "unitPattern-count-many": "{0} стонаў",
+            "unitPattern-count-other": "{0} стона"
           },
           "mass-pound": {
             "displayName": "фунты",
@@ -3463,6 +3758,13 @@
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-many": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "гран",
+            "unitPattern-count-one": "{0} гран",
+            "unitPattern-count-few": "{0} граны",
+            "unitPattern-count-many": "{0} гранаў",
+            "unitPattern-count-other": "{0} грана"
           },
           "power-gigawatt": {
             "displayName": "ГВт",
@@ -3762,8 +4064,11 @@
             "unitPattern-count-other": "{0} акр-фута"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "бушалі",
+            "unitPattern-count-one": "{0} буш.",
+            "unitPattern-count-few": "{0} буш.",
+            "unitPattern-count-many": "{0} буш.",
+            "unitPattern-count-other": "{0} буш."
           },
           "volume-gallon": {
             "displayName": "гал",
@@ -3836,6 +4141,55 @@
             "unitPattern-count-few": "{0} барэлі",
             "unitPattern-count-many": "{0} барэляў",
             "unitPattern-count-other": "{0} барэля"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "дэс. л.",
+            "unitPattern-count-one": "{0} дэс. л.",
+            "unitPattern-count-few": "{0} дэс. л.",
+            "unitPattern-count-many": "{0} дэс. л.",
+            "unitPattern-count-other": "{0} дэс. л."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "брыт. дэс. л.",
+            "unitPattern-count-one": "{0} брыт. дэс. л.",
+            "unitPattern-count-few": "{0} брыт. дэс. л.",
+            "unitPattern-count-many": "{0} брыт. дэс. л.",
+            "unitPattern-count-other": "{0} брыт. дэс. л."
+          },
+          "volume-drop": {
+            "displayName": "кропля",
+            "unitPattern-count-one": "{0} кропля",
+            "unitPattern-count-few": "{0} кроплі",
+            "unitPattern-count-many": "{0} кропель",
+            "unitPattern-count-other": "{0} кроплі"
+          },
+          "volume-dram": {
+            "displayName": "вад. драхма",
+            "unitPattern-count-one": "{0} вад. драхма",
+            "unitPattern-count-few": "{0} вад. драхмы",
+            "unitPattern-count-many": "{0} вад. драхмаў",
+            "unitPattern-count-other": "{0} вад. драхмы"
+          },
+          "volume-jigger": {
+            "displayName": "джыгер",
+            "unitPattern-count-one": "{0} джыгер",
+            "unitPattern-count-few": "{0} джыгеры",
+            "unitPattern-count-many": "{0} джыгераў",
+            "unitPattern-count-other": "{0} джыгера"
+          },
+          "volume-pinch": {
+            "displayName": "дробка",
+            "unitPattern-count-one": "{0} дробка",
+            "unitPattern-count-few": "{0} дробкі",
+            "unitPattern-count-many": "{0} дробак",
+            "unitPattern-count-other": "{0} дробкі"
+          },
+          "volume-quart-imperial": {
+            "displayName": "брыт. кварта",
+            "unitPattern-count-one": "{0} брыт. кварта",
+            "unitPattern-count-few": "{0} брыт. кварты",
+            "unitPattern-count-many": "{0} брыт. кварт",
+            "unitPattern-count-other": "{0} брыт. кварты"
           },
           "coordinateUnit": {
             "displayName": "кірунак",

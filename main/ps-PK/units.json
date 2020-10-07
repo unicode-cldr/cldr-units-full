@@ -3,7 +3,7 @@
     "ps-PK": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ps",
         "territory": "PK"
@@ -70,18 +70,42 @@
           "10p24": {
             "unitPrefixPattern": "یوټا {0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}في {1}"
           },
           "power2": {
-            "compoundUnitPattern1": "مربع {0}",
-            "compoundUnitPattern1": "{0}مربع",
-            "compoundUnitPattern1": "{0} مربع"
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1-count-one": "{0}مربع",
+            "compoundUnitPattern1-count-other": "{0} مربع"
           },
           "power3": {
-            "compoundUnitPattern1": "کیوبک {0}",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}معکب"
+            "compoundUnitPattern1-count-one": "کیوبک {0}",
+            "compoundUnitPattern1-count-other": "{0}معکب"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -349,7 +373,7 @@
             "unitPattern-count-other": "{0} ms"
           },
           "duration-microsecond": {
-            "displayName": "مايکرو ثانيه",
+            "displayName": "مايکرو ثانيې",
             "unitPattern-count-one": "{0} μs",
             "unitPattern-count-other": "{0} μs"
           },
@@ -415,11 +439,12 @@
           },
           "energy-british-thermal-unit": {
             "displayName": "بريتانوي ترمل يونټس",
-            "unitPattern-count-one": "{0} بريتانوي ترمل يونټ",
-            "unitPattern-count-other": "{0} بريتانوي ترمل يونټس"
+            "unitPattern-count-one": "برتانوي ترمل یونټ",
+            "unitPattern-count-other": "{0} برتانوي ترمل يونټس"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
+            "displayName": "متحده ایالاتو ترمامونه",
+            "unitPattern-count-one": "{0} US therm",
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
@@ -453,7 +478,7 @@
             "unitPattern-count-other": "{0} هرټز"
           },
           "graphics-em": {
-            "displayName": "em",
+            "displayName": "ټايپو ګرافيک em",
             "unitPattern-count-other": "{0} em"
           },
           "graphics-pixel": {
@@ -462,6 +487,7 @@
           },
           "graphics-megapixel": {
             "displayName": "ميګا فکسلسز",
+            "unitPattern-count-one": "{0} MP",
             "unitPattern-count-other": "{0} MP"
           },
           "graphics-pixel-per-centimeter": {
@@ -479,6 +505,15 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "کيلو ميتره",
@@ -547,8 +582,8 @@
           },
           "length-parsec": {
             "displayName": "پارسيکس",
-            "unitPattern-count-one": "{0} pc",
-            "unitPattern-count-other": "{0} pc"
+            "unitPattern-count-one": "{0} في ثانيه",
+            "unitPattern-count-other": "{0} في ثانيې"
           },
           "length-light-year": {
             "displayName": "نوري کالونه",
@@ -561,12 +596,14 @@
             "unitPattern-count-other": "{0} فلکي احدے"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "فرلانګونه",
+            "unitPattern-count-one": "{0} fur",
+            "unitPattern-count-other": "{0} فرلانګونه"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "فتومونه",
+            "unitPattern-count-one": "{0} fathom",
+            "unitPattern-count-other": "{0} فتومونه"
           },
           "length-nautical-mile": {
             "displayName": "بحري ميلونه",
@@ -592,6 +629,14 @@
             "displayName": "لکس",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "لمريز ځلښتونه",
@@ -670,6 +715,10 @@
             "displayName": "لمريز حجم",
             "unitPattern-count-one": "{0} لمريز حجم",
             "unitPattern-count-other": "{0} لمريز حجم"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "ګيګا واټس",
@@ -884,8 +933,9 @@
             "unitPattern-count-other": "{0} اکړ فټ"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "بوشیل",
+            "unitPattern-count-one": "{0} bu",
+            "unitPattern-count-other": "{0} بوشیل"
           },
           "volume-gallon": {
             "displayName": "ګيلنز",
@@ -938,6 +988,40 @@
             "displayName": "بيرلز",
             "unitPattern-count-one": "{0} بېرل",
             "unitPattern-count-other": "{0} بېرلز"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "مچ چمچ",
+            "unitPattern-count-one": "{0} dessert spoon",
+            "unitPattern-count-other": "{0} مچ چمچ"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "څاڅک",
+            "unitPattern-count-one": "{0} څاڅک",
+            "unitPattern-count-other": "{0} څاڅک"
+          },
+          "volume-dram": {
+            "displayName": "ډرام",
+            "unitPattern-count-one": "{0} ډرام",
+            "unitPattern-count-other": "{0} ډرام"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-one": "{0} جګر",
+            "unitPattern-count-other": "{0} جګر"
+          },
+          "volume-pinch": {
+            "displayName": "چنه",
+            "unitPattern-count-one": "{0} چنه",
+            "unitPattern-count-other": "{0} چنه"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-one": "{0} Imp. quart",
+            "unitPattern-count-other": "{0} Imp. quart"
           },
           "coordinateUnit": {
             "displayName": "کارډنل اړخ",
@@ -1008,18 +1092,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "مربع {0}",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "مربع {0}",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1355,7 +1463,8 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
+            "displayName": "US تهرم",
+            "unitPattern-count-one": "{0} US therm",
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
@@ -1396,6 +1505,7 @@
           },
           "graphics-megapixel": {
             "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
             "unitPattern-count-other": "{0} MP"
           },
           "graphics-pixel-per-centimeter": {
@@ -1413,6 +1523,15 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -1480,7 +1599,7 @@
             "perUnitPattern": "{0}/in"
           },
           "length-parsec": {
-            "displayName": "parsecs",
+            "displayName": "پارسيکس",
             "unitPattern-count-one": "{0} pc",
             "unitPattern-count-other": "{0} pc"
           },
@@ -1495,11 +1614,13 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "فرلانګونه",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "فتومونه",
+            "unitPattern-count-one": "{0} fth",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -1525,6 +1646,14 @@
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "لمريز ځلښتونه",
@@ -1599,6 +1728,10 @@
           "mass-solar-mass": {
             "displayName": "لمريز حجم",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1809,7 +1942,8 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "بوشیل",
+            "unitPattern-count-one": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -1861,6 +1995,40 @@
           "volume-barrel": {
             "displayName": "بېرل",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-one": "{0} dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "څاڅک",
+            "unitPattern-count-one": "{0} څاڅک",
+            "unitPattern-count-other": "{0} څاڅک"
+          },
+          "volume-dram": {
+            "displayName": "ډرام مایع",
+            "unitPattern-count-one": "{0} dram fl",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-one": "{0} جګر",
+            "unitPattern-count-other": "{0} جګر"
+          },
+          "volume-pinch": {
+            "displayName": "چنه",
+            "unitPattern-count-one": "{0} چنه",
+            "unitPattern-count-other": "{0} چنه"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-one": "{0} qt Imp.",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "اړخ",
@@ -1931,18 +2099,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "مربع {0}",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "مربع {0}",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2278,7 +2470,8 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "US therm",
+            "displayName": "US تهرم",
+            "unitPattern-count-one": "{0} US therm",
             "unitPattern-count-other": "{0} US therm"
           },
           "force-pound-force": {
@@ -2319,6 +2512,7 @@
           },
           "graphics-megapixel": {
             "displayName": "MP",
+            "unitPattern-count-one": "{0} MP",
             "unitPattern-count-other": "{0} MP"
           },
           "graphics-pixel-per-centimeter": {
@@ -2336,6 +2530,15 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2403,7 +2606,7 @@
             "perUnitPattern": "{0}/in"
           },
           "length-parsec": {
-            "displayName": "parsecs",
+            "displayName": "پارسيکس",
             "unitPattern-count-one": "{0} pc",
             "unitPattern-count-other": "{0} pc"
           },
@@ -2418,11 +2621,13 @@
             "unitPattern-count-other": "{0} au"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "فرلانګونه",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "فتومونه",
+            "unitPattern-count-one": "{0} fth",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -2448,6 +2653,14 @@
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "لمريز ځلښتونه",
@@ -2522,6 +2735,10 @@
           "mass-solar-mass": {
             "displayName": "لمريز حجم",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2696,7 +2913,7 @@
             "unitPattern-count-other": "{0} hL"
           },
           "volume-liter": {
-            "displayName": "ليټرز",
+            "displayName": "لیټر",
             "unitPattern-count-one": "{0}L",
             "unitPattern-count-other": "{0}L",
             "perUnitPattern": "{0}/L"
@@ -2732,7 +2949,8 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "بوشیل",
+            "unitPattern-count-one": "{0} bu",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2784,6 +3002,40 @@
           "volume-barrel": {
             "displayName": "بېرل",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-one": "{0} dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "څاڅک",
+            "unitPattern-count-one": "{0} څاڅک",
+            "unitPattern-count-other": "{0} څاڅک"
+          },
+          "volume-dram": {
+            "displayName": "ډرام مایع",
+            "unitPattern-count-one": "{0} dram fl",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-one": "{0} جګر",
+            "unitPattern-count-other": "{0} جګر"
+          },
+          "volume-pinch": {
+            "displayName": "چنه",
+            "unitPattern-count-one": "{0} چنه",
+            "unitPattern-count-other": "{0} چنه"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-one": "{0} qt Imp.",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "اړخ",

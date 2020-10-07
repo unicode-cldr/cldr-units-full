@@ -3,7 +3,7 @@
     "lt": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "lt"
       },
@@ -69,16 +69,46 @@
           "10p24": {
             "unitPrefixPattern": "jota{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0} kvadratu",
+            "compoundUnitPattern1-count-few": "{0} kvadratu",
+            "compoundUnitPattern1-count-many": "{0} kvadratu",
+            "compoundUnitPattern1-count-other": "{0} kvadratu"
           },
           "power3": {
-            "compoundUnitPattern1": "kub. {0}",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1-count-one": "{0} kubu",
+            "compoundUnitPattern1-count-few": "{0} kubu",
+            "compoundUnitPattern1-count-many": "{0} kubu",
+            "compoundUnitPattern1-count-other": "{0} kubu"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -632,6 +662,20 @@
             "unitPattern-count-many": "{0} taško colyje",
             "unitPattern-count-other": "{0} taškų colyje"
           },
+          "graphics-dot": {
+            "displayName": "taškas",
+            "unitPattern-count-one": "{0} taškas",
+            "unitPattern-count-few": "{0} taškai",
+            "unitPattern-count-many": "{0} taško",
+            "unitPattern-count-other": "{0} taškų"
+          },
+          "length-earth-radius": {
+            "displayName": "žemės spindulys",
+            "unitPattern-count-one": "{0} žemės spindulys",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-many": "{0} R⊕",
+            "unitPattern-count-other": "{0} žemės spindulių"
+          },
           "length-kilometer": {
             "displayName": "kilometrai",
             "unitPattern-count-one": "{0} kilometras",
@@ -788,6 +832,20 @@
             "unitPattern-count-many": "{0} liukso",
             "unitPattern-count-other": "{0} liuksų"
           },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-few": "{0} cd",
+            "unitPattern-count-many": "{0} cd",
+            "unitPattern-count-other": "{0} kandelų"
+          },
+          "light-lumen": {
+            "displayName": "liumenas",
+            "unitPattern-count-one": "{0} liumenas",
+            "unitPattern-count-few": "{0} lm",
+            "unitPattern-count-many": "{0} lm",
+            "unitPattern-count-other": "{0} liumenų"
+          },
           "light-solar-luminosity": {
             "displayName": "saulės šviesis",
             "unitPattern-count-other": "{0} L☉"
@@ -887,6 +945,13 @@
           "mass-solar-mass": {
             "displayName": "saulės masė",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grūdas",
+            "unitPattern-count-one": "{0} grūdas",
+            "unitPattern-count-few": "{0} grūdai",
+            "unitPattern-count-many": "{0} grūdo",
+            "unitPattern-count-other": "{0} grūdų"
           },
           "power-gigawatt": {
             "displayName": "gigavatai",
@@ -1261,6 +1326,55 @@
             "unitPattern-count-many": "{0} barelio",
             "unitPattern-count-other": "{0} barelių"
           },
+          "volume-dessert-spoon": {
+            "displayName": "desertinis šaukštelis",
+            "unitPattern-count-one": "{0} desertinis šaukštelis",
+            "unitPattern-count-few": "{0} desertiniai šaukšteliai",
+            "unitPattern-count-many": "{0} desertinio šaukštelio",
+            "unitPattern-count-other": "{0} desertinių šaukštelių"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. desertinis šaukštelis",
+            "unitPattern-count-one": "{0} imp. desertinis šaukštelis",
+            "unitPattern-count-few": "{0} imp. desertiniai šaukšteliai",
+            "unitPattern-count-many": "{0} imp. desertinio šaukštelio",
+            "unitPattern-count-other": "{0} imp. desertinių šaukštelių"
+          },
+          "volume-drop": {
+            "displayName": "lašas",
+            "unitPattern-count-one": "{0} lašas",
+            "unitPattern-count-few": "{0} lašai",
+            "unitPattern-count-many": "{0} lašo",
+            "unitPattern-count-other": "{0} lašų"
+          },
+          "volume-dram": {
+            "displayName": "skysčio drachma",
+            "unitPattern-count-one": "{0} skysčio drachma",
+            "unitPattern-count-few": "{0} skysčio drachmos",
+            "unitPattern-count-many": "{0} skysčio drachmos",
+            "unitPattern-count-other": "{0} skysčio drachmų"
+          },
+          "volume-jigger": {
+            "displayName": "džigeris",
+            "unitPattern-count-one": "{0} džigeris",
+            "unitPattern-count-few": "{0} džigeriai",
+            "unitPattern-count-many": "{0} džigerio",
+            "unitPattern-count-other": "{0} džigerio"
+          },
+          "volume-pinch": {
+            "displayName": "žiupsnelis",
+            "unitPattern-count-one": "{0} žiupsnelių",
+            "unitPattern-count-few": "{0} žiupsneliai",
+            "unitPattern-count-many": "{0} žiupsnelio",
+            "unitPattern-count-other": "{0} žiupsnelis"
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp. kvorta",
+            "unitPattern-count-one": "{0} imp. kvorta",
+            "unitPattern-count-few": "{0} imp. kvortos",
+            "unitPattern-count-many": "{0} imp. kvortos",
+            "unitPattern-count-other": "{0} imp. kvortų"
+          },
           "coordinateUnit": {
             "displayName": "pagrindinė kryptis",
             "east": "{0} rytų",
@@ -1330,16 +1444,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1875,6 +2013,20 @@
             "unitPattern-count-many": "{0} tšk./in",
             "unitPattern-count-other": "{0} tšk./in"
           },
+          "graphics-dot": {
+            "displayName": "tšk.",
+            "unitPattern-count-one": "{0} tšk.",
+            "unitPattern-count-few": "{0} tšk.",
+            "unitPattern-count-many": "{0} tšk.",
+            "unitPattern-count-other": "{0} tšk."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-many": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2031,6 +2183,20 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-one": "{0} cd",
+            "unitPattern-count-few": "{0} cd",
+            "unitPattern-count-many": "{0} cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-few": "{0} lm",
+            "unitPattern-count-many": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -2127,6 +2293,13 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grūdas",
+            "unitPattern-count-one": "{0} grūdas",
+            "unitPattern-count-few": "{0} grūdai",
+            "unitPattern-count-many": "{0} grūdo",
+            "unitPattern-count-other": "{0} grūdų"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2489,6 +2662,55 @@
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "des. š.",
+            "unitPattern-count-one": "{0} des. š.",
+            "unitPattern-count-few": "{0} des. š.",
+            "unitPattern-count-many": "{0} des. š.",
+            "unitPattern-count-other": "{0} des. š."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. des. š.",
+            "unitPattern-count-one": "{0} imp. des. š.",
+            "unitPattern-count-few": "{0} imp. des. š.",
+            "unitPattern-count-many": "{0} imp. des. š.",
+            "unitPattern-count-other": "{0} imp. des. š."
+          },
+          "volume-drop": {
+            "displayName": "laš.",
+            "unitPattern-count-one": "{0} laš.",
+            "unitPattern-count-few": "{0} laš.",
+            "unitPattern-count-many": "{0} laš.",
+            "unitPattern-count-other": "{0} laš."
+          },
+          "volume-dram": {
+            "displayName": "sk. drach.",
+            "unitPattern-count-one": "{0} sk. drach.",
+            "unitPattern-count-few": "{0} sk. drach.",
+            "unitPattern-count-many": "{0} sk. drach.",
+            "unitPattern-count-other": "{0} sk. drach."
+          },
+          "volume-jigger": {
+            "displayName": "džigeris",
+            "unitPattern-count-one": "{0} džigeris",
+            "unitPattern-count-few": "{0} džigeriai",
+            "unitPattern-count-many": "{0} džigerio",
+            "unitPattern-count-other": "{0} džigerio"
+          },
+          "volume-pinch": {
+            "displayName": "žiupsn.",
+            "unitPattern-count-one": "{0} žiupsn.",
+            "unitPattern-count-few": "{0} žiupsn.",
+            "unitPattern-count-many": "{0} žiupsn.",
+            "unitPattern-count-other": "{0} žiupsn."
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp. kv.",
+            "unitPattern-count-one": "{0} imp. kv.",
+            "unitPattern-count-few": "{0} imp. kv.",
+            "unitPattern-count-many": "{0} imp. kv.",
+            "unitPattern-count-other": "{0} imp. kv."
+          },
           "coordinateUnit": {
             "displayName": "kryptis",
             "east": "{0} R",
@@ -2558,16 +2780,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -3103,6 +3349,20 @@
             "unitPattern-count-many": "{0} tšk./in",
             "unitPattern-count-other": "{0} tšk./in"
           },
+          "graphics-dot": {
+            "displayName": "tšk.",
+            "unitPattern-count-one": "{0} tšk.",
+            "unitPattern-count-few": "{0} tšk.",
+            "unitPattern-count-many": "{0} tšk.",
+            "unitPattern-count-other": "{0} tšk."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-many": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -3259,6 +3519,20 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-one": "{0} cd",
+            "unitPattern-count-few": "{0} cd",
+            "unitPattern-count-many": "{0} cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-few": "{0} lm",
+            "unitPattern-count-many": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -3355,6 +3629,13 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grūdas",
+            "unitPattern-count-one": "{0} grūdas",
+            "unitPattern-count-few": "{0} grūdai",
+            "unitPattern-count-many": "{0} grūdo",
+            "unitPattern-count-other": "{0} grūdų"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -3716,6 +3997,55 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "des. š.",
+            "unitPattern-count-one": "{0} des. š.",
+            "unitPattern-count-few": "{0} des. š.",
+            "unitPattern-count-many": "{0} des. š.",
+            "unitPattern-count-other": "{0} des. š."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. des. š.",
+            "unitPattern-count-one": "{0} imp. des. š.",
+            "unitPattern-count-few": "{0} imp. des. š.",
+            "unitPattern-count-many": "{0} imp. des. š.",
+            "unitPattern-count-other": "{0} imp. des. š."
+          },
+          "volume-drop": {
+            "displayName": "laš.",
+            "unitPattern-count-one": "{0} laš.",
+            "unitPattern-count-few": "{0} laš.",
+            "unitPattern-count-many": "{0} laš.",
+            "unitPattern-count-other": "{0} laš."
+          },
+          "volume-dram": {
+            "displayName": "sk. drach.",
+            "unitPattern-count-one": "{0} sk. drach.",
+            "unitPattern-count-few": "{0} sk. drach.",
+            "unitPattern-count-many": "{0} sk. drach.",
+            "unitPattern-count-other": "{0} sk. drach."
+          },
+          "volume-jigger": {
+            "displayName": "džigeris",
+            "unitPattern-count-one": "{0} džigeris",
+            "unitPattern-count-few": "{0} džigeriai",
+            "unitPattern-count-many": "{0} džigerio",
+            "unitPattern-count-other": "{0} džigerio"
+          },
+          "volume-pinch": {
+            "displayName": "žiupsn.",
+            "unitPattern-count-one": "{0} žiupsn.",
+            "unitPattern-count-few": "{0} žiupsn.",
+            "unitPattern-count-many": "{0} žiupsn.",
+            "unitPattern-count-other": "{0} žiupsn."
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp. kv.",
+            "unitPattern-count-one": "{0} imp. kv.",
+            "unitPattern-count-few": "{0} imp. kv.",
+            "unitPattern-count-many": "{0} imp. kv.",
+            "unitPattern-count-other": "{0} imp. kv."
           },
           "coordinateUnit": {
             "displayName": "kryptis",

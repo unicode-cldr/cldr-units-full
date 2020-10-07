@@ -3,7 +3,7 @@
     "el-CY": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "el",
         "territory": "CY"
@@ -70,18 +70,42 @@
           "10p24": {
             "unitPrefixPattern": "γιοττα-{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "κιμπι-{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "μεμπι-{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "γκιμπι-{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "τεμπι-{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "πεμπι-{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "εξμπι-{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ζεμπι-{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "γιομπι-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} ανά {1}"
           },
           "power2": {
             "compoundUnitPattern1": "τετραγωνικό {0}",
-            "compoundUnitPattern1": "τετραγωνικό {0}",
-            "compoundUnitPattern1": "τετραγωνικά {0}"
+            "compoundUnitPattern1-count-one": "τετραγωνικό {0}",
+            "compoundUnitPattern1-count-other": "τετραγωνικά {0}"
           },
           "power3": {
             "compoundUnitPattern1": "κυβικό {0}",
-            "compoundUnitPattern1": "κυβικό {0}",
-            "compoundUnitPattern1": "κυβικά {0}"
+            "compoundUnitPattern1-count-one": "κυβικό {0}",
+            "compoundUnitPattern1-count-other": "κυβικά {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -420,7 +444,7 @@
           },
           "energy-therm-us": {
             "displayName": "θερμικές μονάδες ΗΠΑ",
-            "unitPattern-count-one": "{0} θερμ. μονάδα ΗΠΑ",
+            "unitPattern-count-one": "{0} θερμική μονάδα ΗΠΑ",
             "unitPattern-count-other": "{0} θερμικές μονάδες ΗΠΑ"
           },
           "force-pound-force": {
@@ -487,6 +511,16 @@
             "displayName": "κουκκίδες ανά ίντσα",
             "unitPattern-count-one": "{0} κουκκίδα ανά ίντσα",
             "unitPattern-count-other": "{0} κουκκίδες ανά ίντσα"
+          },
+          "graphics-dot": {
+            "displayName": "κουκκίδα",
+            "unitPattern-count-one": "{0} κουκκίδα",
+            "unitPattern-count-other": "{0} κουκκίδες"
+          },
+          "length-earth-radius": {
+            "displayName": "ακτίνα της Γης",
+            "unitPattern-count-one": "{0} ακτίνα της Γης",
+            "unitPattern-count-other": "{0} ακτίνες της Γης"
           },
           "length-kilometer": {
             "displayName": "χιλιόμετρα",
@@ -569,12 +603,14 @@
             "unitPattern-count-other": "{0} αστρονομικές μονάδες"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "φέρλονγκ",
+            "unitPattern-count-one": "{0} φέρλονγκ",
+            "unitPattern-count-other": "{0} φέρλονγκ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "οργιές",
+            "unitPattern-count-one": "{0} οργιά",
+            "unitPattern-count-other": "{0} οργιές"
           },
           "length-nautical-mile": {
             "displayName": "ναυτικά μίλια",
@@ -601,15 +637,25 @@
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
           },
+          "light-candela": {
+            "displayName": "καντέλα",
+            "unitPattern-count-one": "{0} καντέλα",
+            "unitPattern-count-other": "{0} καντέλα"
+          },
+          "light-lumen": {
+            "displayName": "λούμεν",
+            "unitPattern-count-one": "{0} λούμεν",
+            "unitPattern-count-other": "{0} λούμεν"
+          },
           "light-solar-luminosity": {
             "displayName": "ηλιακές φωτεινότητες",
             "unitPattern-count-one": "{0} ηλιακή φωτεινότητα",
             "unitPattern-count-other": "{0} ηλιακές φωτεινότητες"
           },
           "mass-metric-ton": {
-            "displayName": "μετρικοί τόνοι",
-            "unitPattern-count-one": "{0} μετρικός τόνος",
-            "unitPattern-count-other": "{0} μετρικοί τόνοι"
+            "displayName": "τόνοι",
+            "unitPattern-count-one": "{0} τόνος",
+            "unitPattern-count-other": "{0} τόνοι"
           },
           "mass-kilogram": {
             "displayName": "χιλιόγραμμα",
@@ -634,13 +680,14 @@
             "unitPattern-count-other": "{0} μικρογραμμάρια"
           },
           "mass-ton": {
-            "displayName": "τόνοι",
-            "unitPattern-count-one": "{0} τόνος",
-            "unitPattern-count-other": "{0} τόνοι"
+            "displayName": "τόνοι ΗΠΑ",
+            "unitPattern-count-one": "{0} τόνος ΗΠΑ",
+            "unitPattern-count-other": "{0} τόνοι ΗΠΑ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "stone",
+            "unitPattern-count-one": "{0} stone",
+            "unitPattern-count-other": "{0} stone"
           },
           "mass-pound": {
             "displayName": "λίβρες",
@@ -678,6 +725,11 @@
             "displayName": "μάζες του Ήλιου",
             "unitPattern-count-one": "{0} μάζα του Ήλιου",
             "unitPattern-count-other": "{0} μάζες του Ήλιου"
+          },
+          "mass-grain": {
+            "displayName": "κόκκος",
+            "unitPattern-count-one": "{0} κόκκος",
+            "unitPattern-count-other": "{0} κόκκοι"
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -893,8 +945,9 @@
             "unitPattern-count-other": "{0} ακρ-πόδια"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "μπούσελ",
+            "unitPattern-count-one": "{0} μπούσελ",
+            "unitPattern-count-other": "{0} μπούσελ"
           },
           "volume-gallon": {
             "displayName": "γαλόνια",
@@ -947,6 +1000,41 @@
             "displayName": "βαρέλια",
             "unitPattern-count-one": "{0} βαρέλι",
             "unitPattern-count-other": "{0} βαρέλια"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "κουταλιά φρούτου",
+            "unitPattern-count-one": "{0} κουταλιά φρούτου",
+            "unitPattern-count-other": "{0} κουταλιές φρούτου"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "αγγλοσαξονική κουταλιά φρούτου",
+            "unitPattern-count-one": "{0} αγγλοσαξονική κουταλιά φρούτου",
+            "unitPattern-count-other": "{0} αγγλοσαξονικές κουταλιές φρούτου"
+          },
+          "volume-drop": {
+            "displayName": "σταγόνα",
+            "unitPattern-count-one": "{0} σταγόνα",
+            "unitPattern-count-other": "{0} σταγόνες"
+          },
+          "volume-dram": {
+            "displayName": "δράμι",
+            "unitPattern-count-one": "{0} δράμι",
+            "unitPattern-count-other": "{0} δράμια"
+          },
+          "volume-jigger": {
+            "displayName": "μεζούρα",
+            "unitPattern-count-one": "{0} μεζούρα",
+            "unitPattern-count-other": "{0} μεζούρες"
+          },
+          "volume-pinch": {
+            "displayName": "πρέζα",
+            "unitPattern-count-one": "{0} πρέζα",
+            "unitPattern-count-other": "{0} πρέζες"
+          },
+          "volume-quart-imperial": {
+            "displayName": "αγγλοσαξονικά τέταρτα του γαλονιού",
+            "unitPattern-count-one": "{0} αγγλοσαξονικό τέταρτο του γαλονιού",
+            "unitPattern-count-other": "{0} αγγλοσαξονικά τέταρτα του γαλονιού"
           },
           "coordinateUnit": {
             "displayName": "σημεία ορίζοντα",
@@ -1017,17 +1105,41 @@
           "10p24": {
             "unitPrefixPattern": "γττ-{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "κμπ-{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "μμπ-{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "γκμ-{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "τμπ-{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "πμπ-{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "εξμ-{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ζμπ-{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "γμπ-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1138,7 +1250,7 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
+            "displayName": "μέρη/εκατ.",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -1427,6 +1539,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "κουκ.",
+            "unitPattern-count-one": "{0} κουκ.",
+            "unitPattern-count-other": "{0} κουκ."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "χλμ.",
             "unitPattern-count-one": "{0} χλμ.",
@@ -1508,12 +1630,14 @@
             "unitPattern-count-other": "{0} α.μ."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "φέρλ.",
+            "unitPattern-count-one": "{0} φέρλ.",
+            "unitPattern-count-other": "{0} φέρλ."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "οργιές",
+            "unitPattern-count-one": "{0} οργ.",
+            "unitPattern-count-other": "{0} οργ."
           },
           "length-nautical-mile": {
             "displayName": "ν.μ.",
@@ -1539,15 +1663,25 @@
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
           },
+          "light-candela": {
+            "displayName": "καντ.",
+            "unitPattern-count-one": "{0} καντ.",
+            "unitPattern-count-other": "{0} καντ."
+          },
+          "light-lumen": {
+            "displayName": "λμ",
+            "unitPattern-count-one": "{0} λμ.",
+            "unitPattern-count-other": "{0} λμ."
+          },
           "light-solar-luminosity": {
             "displayName": "ηλιακές φωτεινότητες",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
-            "displayName": "μ.τ.",
-            "unitPattern-count-one": "{0} μ.τ.",
-            "unitPattern-count-other": "{0} μ.τ."
+            "displayName": "τ.",
+            "unitPattern-count-one": "{0} τ.",
+            "unitPattern-count-other": "{0} τ."
           },
           "mass-kilogram": {
             "displayName": "κιλά",
@@ -1572,12 +1706,13 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "τόνοι",
-            "unitPattern-count-one": "{0} τ.",
-            "unitPattern-count-other": "{0} τ."
+            "displayName": "τόνοι ΗΠΑ",
+            "unitPattern-count-one": "{0} τ. ΗΠΑ",
+            "unitPattern-count-other": "{0} τ. ΗΠΑ"
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -1616,6 +1751,11 @@
             "displayName": "μάζες Ήλιου",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "κόκ.",
+            "unitPattern-count-one": "{0} κόκ.",
+            "unitPattern-count-other": "{0} κόκ."
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -1831,8 +1971,9 @@
             "unitPattern-count-other": "{0} ακρ πδ"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "μπ.",
+            "unitPattern-count-one": "{0} μπ.",
+            "unitPattern-count-other": "{0} μπ."
           },
           "volume-gallon": {
             "displayName": "γαλ.",
@@ -1885,6 +2026,41 @@
             "displayName": "βαρέλι",
             "unitPattern-count-one": "{0} βρλ",
             "unitPattern-count-other": "{0} βρλ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "κ.φρ.",
+            "unitPattern-count-one": "{0} κ.φρ.",
+            "unitPattern-count-other": "{0} κ.φρ."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "αγγλ. κουτ. φρ.",
+            "unitPattern-count-one": "{0} αγγλ. κουτ. φρ.",
+            "unitPattern-count-other": "{0} αγγλ. κουτ. φρ."
+          },
+          "volume-drop": {
+            "displayName": "σταγ.",
+            "unitPattern-count-one": "{0} σταγ.",
+            "unitPattern-count-other": "{0} σταγ."
+          },
+          "volume-dram": {
+            "displayName": "δράμι όγκου",
+            "unitPattern-count-one": "{0} δρ. όγκου",
+            "unitPattern-count-other": "{0} δρ. όγκου"
+          },
+          "volume-jigger": {
+            "displayName": "μεζ.",
+            "unitPattern-count-one": "{0} μεζ.",
+            "unitPattern-count-other": "{0} μεζ."
+          },
+          "volume-pinch": {
+            "displayName": "πρ.",
+            "unitPattern-count-one": "{0} πρ.",
+            "unitPattern-count-other": "{0} πρ."
+          },
+          "volume-quart-imperial": {
+            "displayName": "αγγλ. τέτ. γαλ.",
+            "unitPattern-count-one": "{0} αγγλ. τέτ. γαλ.",
+            "unitPattern-count-other": "{0} αγγλ. τέτ. γαλ."
           },
           "coordinateUnit": {
             "displayName": "σημείο",
@@ -1955,17 +2131,41 @@
           "10p24": {
             "unitPrefixPattern": "γιοτ-{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "κμπ-{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "μμπ-{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "γκμ-{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "τμπ-{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "πμπ-{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "εξμ-{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ζμπ-{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "γμπ-{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2076,7 +2276,7 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
+            "displayName": "μέρη/εκατ.",
             "unitPattern-count-one": "{0} ppm",
             "unitPattern-count-other": "{0} ppm"
           },
@@ -2365,6 +2565,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "κουκ.",
+            "unitPattern-count-one": "{0} κουκ.",
+            "unitPattern-count-other": "{0} κουκ."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "χλμ.",
             "unitPattern-count-one": "{0} χλμ.",
@@ -2446,12 +2656,14 @@
             "unitPattern-count-other": "{0} α.μ."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "φέρλ.",
+            "unitPattern-count-one": "{0} φέρλ.",
+            "unitPattern-count-other": "{0} φέρλ."
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "οργιές",
+            "unitPattern-count-one": "{0} οργ.",
+            "unitPattern-count-other": "{0} οργ."
           },
           "length-nautical-mile": {
             "displayName": "ν.μ.",
@@ -2477,15 +2689,25 @@
             "unitPattern-count-one": "{0} λουξ",
             "unitPattern-count-other": "{0} λουξ"
           },
+          "light-candela": {
+            "displayName": "καντ.",
+            "unitPattern-count-one": "{0} καντ.",
+            "unitPattern-count-other": "{0} καντ."
+          },
+          "light-lumen": {
+            "displayName": "λμ",
+            "unitPattern-count-one": "{0} λμ.",
+            "unitPattern-count-other": "{0} λμ."
+          },
           "light-solar-luminosity": {
             "displayName": "ηλιακές φωτεινότητες",
             "unitPattern-count-one": "{0} L☉",
             "unitPattern-count-other": "{0} L☉"
           },
           "mass-metric-ton": {
-            "displayName": "μ.τ.",
-            "unitPattern-count-one": "{0} μ.τ.",
-            "unitPattern-count-other": "{0} μ.τ."
+            "displayName": "τ.",
+            "unitPattern-count-one": "{0} τ.",
+            "unitPattern-count-other": "{0} τ."
           },
           "mass-kilogram": {
             "displayName": "kg",
@@ -2510,12 +2732,13 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "τόνοι",
-            "unitPattern-count-one": "{0} τ.",
-            "unitPattern-count-other": "{0} τ."
+            "displayName": "τόνοι ΗΠΑ",
+            "unitPattern-count-one": "{0} τ. ΗΠΑ",
+            "unitPattern-count-other": "{0} τ. ΗΠΑ"
           },
           "mass-stone": {
             "displayName": "st",
+            "unitPattern-count-one": "{0} st",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -2554,6 +2777,11 @@
             "displayName": "μάζες Ήλιου",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "κόκ.",
+            "unitPattern-count-one": "{0} κόκ.",
+            "unitPattern-count-other": "{0} κόκ."
           },
           "power-gigawatt": {
             "displayName": "γιγαβάτ",
@@ -2769,8 +2997,9 @@
             "unitPattern-count-other": "{0} ακρ πδ"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "μπ.",
+            "unitPattern-count-one": "{0} μπ.",
+            "unitPattern-count-other": "{0} μπ."
           },
           "volume-gallon": {
             "displayName": "γαλ.",
@@ -2823,6 +3052,41 @@
             "displayName": "βαρέλι",
             "unitPattern-count-one": "{0} βρλ",
             "unitPattern-count-other": "{0} βρλ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "κ.φρ.",
+            "unitPattern-count-one": "{0} κ.φρ.",
+            "unitPattern-count-other": "{0} κ.φρ."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "αγγλ. κουτ. φρ.",
+            "unitPattern-count-one": "{0} αγγλ. κουτ. φρ.",
+            "unitPattern-count-other": "{0} αγγλ. κουτ. φρ."
+          },
+          "volume-drop": {
+            "displayName": "σταγ.",
+            "unitPattern-count-one": "{0} σταγ.",
+            "unitPattern-count-other": "{0} σταγ."
+          },
+          "volume-dram": {
+            "displayName": "δράμι όγκου",
+            "unitPattern-count-one": "{0} δρ. όγκου",
+            "unitPattern-count-other": "{0} δρ. όγκου"
+          },
+          "volume-jigger": {
+            "displayName": "μεζ.",
+            "unitPattern-count-one": "{0} μεζ.",
+            "unitPattern-count-other": "{0} μεζ."
+          },
+          "volume-pinch": {
+            "displayName": "πρ.",
+            "unitPattern-count-one": "{0} πρ.",
+            "unitPattern-count-other": "{0} πρ."
+          },
+          "volume-quart-imperial": {
+            "displayName": "αγγλ. τέτ. γαλ.",
+            "unitPattern-count-one": "{0} αγγλ. τέτ. γαλ.",
+            "unitPattern-count-other": "{0} αγγλ. τέτ. γαλ."
           },
           "coordinateUnit": {
             "displayName": "σημεία",

@@ -3,7 +3,7 @@
     "lv": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "lv"
       },
@@ -69,20 +69,44 @@
           "10p24": {
             "unitPrefixPattern": "jota{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "eksbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "jobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
-            "compoundUnitPattern1": "kvadrāt{0}",
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "kvadrāt{0}",
-            "compoundUnitPattern1": "kvadrāt{0}"
+            "compoundUnitPattern1-count-zero": "kvadrāt{0}",
+            "compoundUnitPattern1-count-one": "kvadrāt{0}",
+            "compoundUnitPattern1-count-other": "kvadrāt{0}"
           },
           "power3": {
-            "compoundUnitPattern1": "kubik{0}",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "kubik{0}",
-            "compoundUnitPattern1": "kubik{0}"
+            "compoundUnitPattern1-count-zero": "kubik{0}",
+            "compoundUnitPattern1-count-one": "kubik{0}",
+            "compoundUnitPattern1-count-other": "kubik{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -94,10 +118,10 @@
             "unitPattern-count-other": "{0} smagumspēks"
           },
           "acceleration-meter-per-square-second": {
-            "displayName": "metri kvadrātsekundē",
-            "unitPattern-count-zero": "{0} metru kvadrātsekundē",
-            "unitPattern-count-one": "{0} metrs kvadrātsekundē",
-            "unitPattern-count-other": "{0} metri kvadrātsekundē"
+            "displayName": "metri sekundē kvadrātā",
+            "unitPattern-count-zero": "{0} metru sekundē kvadrātā",
+            "unitPattern-count-one": "{0} metrs sekundē kvadrātā",
+            "unitPattern-count-other": "{0} metri sekundē kvadrātā"
           },
           "angle-revolution": {
             "displayName": "apgrieziens",
@@ -565,6 +589,18 @@
             "unitPattern-count-one": "{0} punkts collā",
             "unitPattern-count-other": "{0} punkti collā"
           },
+          "graphics-dot": {
+            "displayName": "punkts",
+            "unitPattern-count-zero": "{0} p.",
+            "unitPattern-count-one": "{0} p.",
+            "unitPattern-count-other": "{0} p."
+          },
+          "length-earth-radius": {
+            "displayName": "Zemes rādiuss",
+            "unitPattern-count-zero": "{0} R⊕",
+            "unitPattern-count-one": "{0} Zemes rādiuss",
+            "unitPattern-count-other": "{0} Zemes rādiuss"
+          },
           "length-kilometer": {
             "displayName": "kilometri",
             "unitPattern-count-zero": "{0} kilometru",
@@ -702,6 +738,18 @@
             "unitPattern-count-one": "{0} lukss",
             "unitPattern-count-other": "{0} luksi"
           },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-zero": "{0} kandelu",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandelas"
+          },
+          "light-lumen": {
+            "displayName": "lūmens",
+            "unitPattern-count-zero": "{0} lūmenu",
+            "unitPattern-count-one": "{0} lūmens",
+            "unitPattern-count-other": "{0} lūmeni"
+          },
           "light-solar-luminosity": {
             "displayName": "Saules starjauda",
             "unitPattern-count-zero": "{0} L☉",
@@ -795,6 +843,12 @@
             "unitPattern-count-zero": "{0} M☉",
             "unitPattern-count-one": "{0} Saules masa",
             "unitPattern-count-other": "{0} Saules masas"
+          },
+          "mass-grain": {
+            "displayName": "grans",
+            "unitPattern-count-zero": "{0} granu",
+            "unitPattern-count-one": "{0} grans",
+            "unitPattern-count-other": "{0} grana"
           },
           "power-gigawatt": {
             "displayName": "gigavati",
@@ -1046,14 +1100,16 @@
             "unitPattern-count-other": "{0} metriskās glāzes"
           },
           "volume-acre-foot": {
-            "displayName": "akrpēdas",
+            "displayName": "akrpēda",
             "unitPattern-count-zero": "{0} akrpēdu",
             "unitPattern-count-one": "{0} akrpēda",
             "unitPattern-count-other": "{0} akrpēdas"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bušelis",
+            "unitPattern-count-zero": "{0} bušeļu",
+            "unitPattern-count-one": "{0} bušelis",
+            "unitPattern-count-other": "{0} bušeļi"
           },
           "volume-gallon": {
             "displayName": "galoni",
@@ -1116,6 +1172,48 @@
             "unitPattern-count-zero": "{0} bbl",
             "unitPattern-count-one": "{0} barels",
             "unitPattern-count-other": "{0} bareli"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "deserta karote",
+            "unitPattern-count-zero": "{0} deserta karošu",
+            "unitPattern-count-one": "{0} deserta karote",
+            "unitPattern-count-other": "{0} deserta karotes"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "britu deserta karote",
+            "unitPattern-count-zero": "{0} britu deserta karošu",
+            "unitPattern-count-one": "{0} britu deserta karote",
+            "unitPattern-count-other": "{0} britu deserta karotes"
+          },
+          "volume-drop": {
+            "displayName": "piliens",
+            "unitPattern-count-zero": "{0} pilienu",
+            "unitPattern-count-one": "{0} piliens",
+            "unitPattern-count-other": "{0} pilieni"
+          },
+          "volume-dram": {
+            "displayName": "šķidruma drahma",
+            "unitPattern-count-zero": "{0} šķidruma drahmu",
+            "unitPattern-count-one": "{0} šķidruma drahma",
+            "unitPattern-count-other": "{0} šķidruma drahmas"
+          },
+          "volume-jigger": {
+            "displayName": "mērglāzīte",
+            "unitPattern-count-zero": "{0} mērglāzīšu",
+            "unitPattern-count-one": "{0} mērglāzīte",
+            "unitPattern-count-other": "{0} mērglāzītes"
+          },
+          "volume-pinch": {
+            "displayName": "šķipsniņa",
+            "unitPattern-count-zero": "{0} šķipsniņu",
+            "unitPattern-count-one": "{0} šķipsniņa",
+            "unitPattern-count-other": "{0} šķipsniņas"
+          },
+          "volume-quart-imperial": {
+            "displayName": "britu kvarta",
+            "unitPattern-count-zero": "{0} britu kvartu",
+            "unitPattern-count-one": "{0} britu kvarta",
+            "unitPattern-count-other": "{0} britu kvartas"
           },
           "coordinateUnit": {
             "displayName": "debespuse",
@@ -1186,16 +1284,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1207,7 +1329,7 @@
             "unitPattern-count-other": "{0} G"
           },
           "acceleration-meter-per-square-second": {
-            "displayName": "metri kvadrātsekundē",
+            "displayName": "metri sekundē kvadrātā",
             "unitPattern-count-zero": "{0} m/s²",
             "unitPattern-count-one": "{0} m/s²",
             "unitPattern-count-other": "{0} m/s²"
@@ -1320,10 +1442,10 @@
             "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-zero": "{0} mmol/L",
-            "unitPattern-count-one": "{0} mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmol/l",
+            "unitPattern-count-zero": "{0} mmol/l",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-permillion": {
             "displayName": "miljonās daļas",
@@ -1666,6 +1788,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "punkts",
+            "unitPattern-count-zero": "{0} p.",
+            "unitPattern-count-one": "{0} p.",
+            "unitPattern-count-other": "{0} p."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-zero": "{0} km",
@@ -1801,6 +1933,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lūmens",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Saules starjauda",
             "unitPattern-count-zero": "{0} L☉",
@@ -1894,6 +2034,12 @@
             "unitPattern-count-zero": "{0} M☉",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gr.",
+            "unitPattern-count-zero": "{0} gr.",
+            "unitPattern-count-one": "{0} gr.",
+            "unitPattern-count-other": "{0} gr."
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2035,7 +2181,7 @@
           },
           "torque-pound-force-foot": {
             "displayName": "mārciņpēda",
-            "unitPattern-count-zero": "{0} mārc. pēdas",
+            "unitPattern-count-zero": "{0} mārc. pēdu",
             "unitPattern-count-one": "{0} mārc. pēda",
             "unitPattern-count-other": "{0} mārc. pēdas"
           },
@@ -2133,10 +2279,10 @@
             "unitPattern-count-other": "{0} mpt"
           },
           "volume-cup-metric": {
-            "displayName": "metr.gl.",
-            "unitPattern-count-zero": "{0} metr.gl.",
-            "unitPattern-count-one": "{0} metr.gl.",
-            "unitPattern-count-other": "{0} metr.gl."
+            "displayName": "metr. gl.",
+            "unitPattern-count-zero": "{0} metr. gl.",
+            "unitPattern-count-one": "{0} metr. gl.",
+            "unitPattern-count-other": "{0} metr. gl."
           },
           "volume-acre-foot": {
             "displayName": "ac ft",
@@ -2210,6 +2356,48 @@
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "des. kar.",
+            "unitPattern-count-zero": "{0} des. kar.",
+            "unitPattern-count-one": "{0} des. kar.",
+            "unitPattern-count-other": "{0} des. kar."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "britu des. kar.",
+            "unitPattern-count-zero": "{0} britu des. kar.",
+            "unitPattern-count-one": "{0} britu des. kar.",
+            "unitPattern-count-other": "{0} britu des. kar."
+          },
+          "volume-drop": {
+            "displayName": "pil.",
+            "unitPattern-count-zero": "{0} pil.",
+            "unitPattern-count-one": "{0} pil.",
+            "unitPattern-count-other": "{0} pil."
+          },
+          "volume-dram": {
+            "displayName": "šķidruma drahma",
+            "unitPattern-count-zero": "{0} šķi. drahmu",
+            "unitPattern-count-one": "{0} šķ. drahma",
+            "unitPattern-count-other": "{0} šķ. drahmas"
+          },
+          "volume-jigger": {
+            "displayName": "mērglāzīte",
+            "unitPattern-count-zero": "{0} mērgl.",
+            "unitPattern-count-one": "{0} mērgl.",
+            "unitPattern-count-other": "{0} mērgl."
+          },
+          "volume-pinch": {
+            "displayName": "šķips.",
+            "unitPattern-count-zero": "{0} šķips.",
+            "unitPattern-count-one": "{0} šķips.",
+            "unitPattern-count-other": "{0} šķips."
+          },
+          "volume-quart-imperial": {
+            "displayName": "IQT",
+            "unitPattern-count-zero": "{0} IQT",
+            "unitPattern-count-one": "{0} IQT",
+            "unitPattern-count-other": "{0} IQT"
+          },
           "coordinateUnit": {
             "displayName": "debespuse",
             "east": "{0}A",
@@ -2279,16 +2467,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2300,7 +2512,7 @@
             "unitPattern-count-other": "{0}G"
           },
           "acceleration-meter-per-square-second": {
-            "displayName": "metri kvadrātsekundē",
+            "displayName": "metri sekundē kvadrātā",
             "unitPattern-count-zero": "{0} m/s²",
             "unitPattern-count-one": "{0} m/s²",
             "unitPattern-count-other": "{0} m/s²"
@@ -2413,10 +2625,10 @@
             "unitPattern-count-other": "{0} mg/dl"
           },
           "concentr-millimole-per-liter": {
-            "displayName": "mmol/L",
-            "unitPattern-count-zero": "{0} mmol/L",
-            "unitPattern-count-one": "{0} mmol/L",
-            "unitPattern-count-other": "{0} mmol/L"
+            "displayName": "mmol/l",
+            "unitPattern-count-zero": "{0} mmol/l",
+            "unitPattern-count-one": "{0} mmol/l",
+            "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-permillion": {
             "displayName": "miljonās daļas",
@@ -2759,6 +2971,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "punkts",
+            "unitPattern-count-zero": "{0} p.",
+            "unitPattern-count-one": "{0} p.",
+            "unitPattern-count-other": "{0} p."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-zero": "{0} km",
@@ -2896,6 +3118,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lūmens",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Saules starjauda",
             "unitPattern-count-zero": "{0} L☉",
@@ -2989,6 +3219,12 @@
             "unitPattern-count-zero": "{0} M☉",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gr.",
+            "unitPattern-count-zero": "{0} gr.",
+            "unitPattern-count-one": "{0} gr.",
+            "unitPattern-count-other": "{0} gr."
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -3084,7 +3320,7 @@
           },
           "speed-kilometer-per-hour": {
             "displayName": "km/h",
-            "unitPattern-count-zero": "{0}km/h",
+            "unitPattern-count-zero": "{0} km/h",
             "unitPattern-count-one": "{0} km/h",
             "unitPattern-count-other": "{0} km/h"
           },
@@ -3132,7 +3368,7 @@
           },
           "torque-pound-force-foot": {
             "displayName": "mārciņpēda",
-            "unitPattern-count-zero": "{0} mārc. pēdas",
+            "unitPattern-count-zero": "{0} mārc. pēdu",
             "unitPattern-count-one": "{0} mārc. pēda",
             "unitPattern-count-other": "{0} mārc. pēdas"
           },
@@ -3200,7 +3436,7 @@
           },
           "volume-liter": {
             "displayName": "l",
-            "unitPattern-count-zero": "{0}l",
+            "unitPattern-count-zero": "{0} l",
             "unitPattern-count-one": "{0} l",
             "unitPattern-count-other": "{0} l",
             "perUnitPattern": "{0}/l"
@@ -3230,10 +3466,10 @@
             "unitPattern-count-other": "{0} mpt"
           },
           "volume-cup-metric": {
-            "displayName": "metr.gl.",
-            "unitPattern-count-zero": "{0} metr.gl.",
-            "unitPattern-count-one": "{0} metr.gl.",
-            "unitPattern-count-other": "{0} metr.gl."
+            "displayName": "metr. gl.",
+            "unitPattern-count-zero": "{0} metr. gl.",
+            "unitPattern-count-one": "{0} metr. gl.",
+            "unitPattern-count-other": "{0} metr. gl."
           },
           "volume-acre-foot": {
             "displayName": "ac ft",
@@ -3306,6 +3542,48 @@
             "unitPattern-count-zero": "{0} bbl",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "des. kar.",
+            "unitPattern-count-zero": "{0} des. kar.",
+            "unitPattern-count-one": "{0} des. kar.",
+            "unitPattern-count-other": "{0} des. kar."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "britu des. kar.",
+            "unitPattern-count-zero": "{0} britu des. kar.",
+            "unitPattern-count-one": "{0} britu des. kar.",
+            "unitPattern-count-other": "{0} britu des. kar."
+          },
+          "volume-drop": {
+            "displayName": "pil.",
+            "unitPattern-count-zero": "{0} pil.",
+            "unitPattern-count-one": "{0} pil.",
+            "unitPattern-count-other": "{0} pil."
+          },
+          "volume-dram": {
+            "displayName": "šķidruma drahma",
+            "unitPattern-count-zero": "{0} šķi. drahmu",
+            "unitPattern-count-one": "{0} šķ. drahma",
+            "unitPattern-count-other": "{0} šķ. drahmas"
+          },
+          "volume-jigger": {
+            "displayName": "mērglāzīte",
+            "unitPattern-count-zero": "{0} mērgl.",
+            "unitPattern-count-one": "{0} mērgl.",
+            "unitPattern-count-other": "{0} mērgl."
+          },
+          "volume-pinch": {
+            "displayName": "šķips.",
+            "unitPattern-count-zero": "{0} šķips.",
+            "unitPattern-count-one": "{0} šķips.",
+            "unitPattern-count-other": "{0} šķips."
+          },
+          "volume-quart-imperial": {
+            "displayName": "IQT",
+            "unitPattern-count-zero": "{0} IQT",
+            "unitPattern-count-one": "{0} IQT",
+            "unitPattern-count-other": "{0} IQT"
           },
           "coordinateUnit": {
             "displayName": "debespuse",

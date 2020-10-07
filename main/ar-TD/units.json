@@ -3,7 +3,7 @@
     "ar-TD": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ar",
         "territory": "TD"
@@ -70,26 +70,50 @@
           "10p24": {
             "unitPrefixPattern": "يوتا{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "كيبي{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ميبي{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "غيبي{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "تيبي{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "بيبي{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "إكسبي{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "زيبي{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "يوبي{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} لكل {1}"
           },
           "power2": {
-            "compoundUnitPattern1": "{0} مربّع",
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} مربّع",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} مربّع"
+            "compoundUnitPattern1-count-zero": "{0} مربّع",
+            "compoundUnitPattern1-count-one": "{0} مربّع",
+            "compoundUnitPattern1-count-two": "{0} مربّعان",
+            "compoundUnitPattern1-count-few": "{0} مربّعة",
+            "compoundUnitPattern1-count-many": "{0} مربّعًا",
+            "compoundUnitPattern1-count-other": "{0} مربّع"
           },
           "power3": {
-            "compoundUnitPattern1": "{0} مكعّب",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} مكعّب",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} مكعّب"
+            "compoundUnitPattern1-count-zero": "{0} مكعّب",
+            "compoundUnitPattern1-count-one": "{0} مكعّب",
+            "compoundUnitPattern1-count-two": "{0} مكعّبان",
+            "compoundUnitPattern1-count-few": "{0} مكعّبة",
+            "compoundUnitPattern1-count-many": "{0} مكعبًا",
+            "compoundUnitPattern1-count-other": "{0} مكعّب"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -803,6 +827,24 @@
             "unitPattern-count-many": "{0} نقطة لكل بوصة",
             "unitPattern-count-other": "{0} نقطة لكل بوصة"
           },
+          "graphics-dot": {
+            "displayName": "بكسل",
+            "unitPattern-count-zero": "{0} بكسل",
+            "unitPattern-count-one": "{0} بكسل",
+            "unitPattern-count-two": "{0} بكسل",
+            "unitPattern-count-few": "{0} بكسل",
+            "unitPattern-count-many": "{0} بكسل",
+            "unitPattern-count-other": "{0} بكسل"
+          },
+          "length-earth-radius": {
+            "displayName": "نصف قطر أرضي",
+            "unitPattern-count-zero": "{0} نصف قطر أرضي",
+            "unitPattern-count-one": "{0} نصف قطر أرضي",
+            "unitPattern-count-two": "{0} نصف قطر أرضي",
+            "unitPattern-count-few": "{0} نصف قطر أرضي",
+            "unitPattern-count-many": "{0} نصف قطر أرضي",
+            "unitPattern-count-other": "{0} نصف قطر أرضي"
+          },
           "length-kilometer": {
             "displayName": "كيلومتر",
             "unitPattern-count-zero": "{0} كيلومتر",
@@ -944,12 +986,22 @@
             "unitPattern-count-other": "{0} وحدة فلكية"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "فرلنغ",
+            "unitPattern-count-zero": "{0} فرلنغ",
+            "unitPattern-count-one": "{0} فرلنغ",
+            "unitPattern-count-two": "{0} فرلنغ",
+            "unitPattern-count-few": "{0} فرلنغ",
+            "unitPattern-count-many": "{0} فرلنغ",
+            "unitPattern-count-other": "{0} فرلنغ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "قامة",
+            "unitPattern-count-zero": "{0} قامة",
+            "unitPattern-count-one": "{0} قامة",
+            "unitPattern-count-two": "{0} قامة",
+            "unitPattern-count-few": "{0} قامة",
+            "unitPattern-count-many": "{0} قامة",
+            "unitPattern-count-other": "{0} قامة"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -995,6 +1047,24 @@
             "unitPattern-count-few": "{0} لكس",
             "unitPattern-count-many": "{0} لكس",
             "unitPattern-count-other": "{0} لكس"
+          },
+          "light-candela": {
+            "displayName": "شمعة",
+            "unitPattern-count-zero": "{0} شمعة",
+            "unitPattern-count-one": "{0} شمعة",
+            "unitPattern-count-two": "{0} شمعة",
+            "unitPattern-count-few": "{0} شمعة",
+            "unitPattern-count-many": "{0} شمعة",
+            "unitPattern-count-other": "{0} شمعة"
+          },
+          "light-lumen": {
+            "displayName": "لومن",
+            "unitPattern-count-zero": "{0} لومن",
+            "unitPattern-count-one": "{0} لومن",
+            "unitPattern-count-two": "{0} لومن",
+            "unitPattern-count-few": "{0} لومن",
+            "unitPattern-count-many": "{0} لومن",
+            "unitPattern-count-other": "{0} لومن"
           },
           "light-solar-luminosity": {
             "displayName": "ضياء شمسي",
@@ -1062,15 +1132,20 @@
             "unitPattern-count-other": "{0} طن"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ستون",
+            "unitPattern-count-zero": "{0} ستون",
+            "unitPattern-count-one": "{0} ستون",
+            "unitPattern-count-two": "{0} ستون",
+            "unitPattern-count-few": "{0} ستون",
+            "unitPattern-count-many": "{0} ستون",
+            "unitPattern-count-other": "{0} ستون"
           },
           "mass-pound": {
             "displayName": "رطل",
             "unitPattern-count-zero": "{0} رطل",
             "unitPattern-count-one": "{0} رطل",
             "unitPattern-count-two": "رطلان",
-            "unitPattern-count-few": "{0} أرطل",
+            "unitPattern-count-few": "{0} رطل",
             "unitPattern-count-many": "{0} رطلًا",
             "unitPattern-count-other": "{0} رطل",
             "perUnitPattern": "{0}/رطل"
@@ -1129,6 +1204,15 @@
             "unitPattern-count-few": "{0} كتلة شمسية",
             "unitPattern-count-many": "{0} كتلة شمسية",
             "unitPattern-count-other": "{0} كتلة شمسية"
+          },
+          "mass-grain": {
+            "displayName": "قمحة",
+            "unitPattern-count-zero": "{0} قمحة",
+            "unitPattern-count-one": "{0} قمحة",
+            "unitPattern-count-two": "{0} قمحة",
+            "unitPattern-count-few": "{0} قمحة",
+            "unitPattern-count-many": "{0} قمحة",
+            "unitPattern-count-other": "{0} قمحة"
           },
           "power-gigawatt": {
             "displayName": "غيغا واط",
@@ -1512,8 +1596,13 @@
             "unitPattern-count-other": "{0} فدان قدم"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "بوشل",
+            "unitPattern-count-zero": "{0} بوشل",
+            "unitPattern-count-one": "{0} بوشل",
+            "unitPattern-count-two": "{0} بوشل",
+            "unitPattern-count-few": "{0} بوشل",
+            "unitPattern-count-many": "{0} بوشل",
+            "unitPattern-count-other": "{0} بوشل"
           },
           "volume-gallon": {
             "displayName": "غالون",
@@ -1607,6 +1696,69 @@
             "unitPattern-count-many": "{0} برميلًا",
             "unitPattern-count-other": "{0} برميل"
           },
+          "volume-dessert-spoon": {
+            "displayName": "ملعقة حلو",
+            "unitPattern-count-zero": "{0} ملعقة حلو",
+            "unitPattern-count-one": "{0} ملعقة حلو",
+            "unitPattern-count-two": "{0} ملعقة حلو",
+            "unitPattern-count-few": "{0} ملعقة حلو",
+            "unitPattern-count-many": "{0} ملعقة حلو",
+            "unitPattern-count-other": "{0} ملعقة حلو"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ملعقة حلو إمبراطوري",
+            "unitPattern-count-zero": "{0} ملعقة حلو إمبراطوري",
+            "unitPattern-count-one": "{0} ملعقة حلو إمبراطوري",
+            "unitPattern-count-two": "{0} ملعقة حلو إمبراطوري",
+            "unitPattern-count-few": "{0} ملعقة حلو إمبراطوري",
+            "unitPattern-count-many": "{0} ملعقة حلو إمبراطوري",
+            "unitPattern-count-other": "{0} ملعقة حلو إمبراطوري"
+          },
+          "volume-drop": {
+            "displayName": "قطرة",
+            "unitPattern-count-zero": "{0} قطرة",
+            "unitPattern-count-one": "{0} قطرة",
+            "unitPattern-count-two": "قطرتان",
+            "unitPattern-count-few": "{0} قطرات",
+            "unitPattern-count-many": "{0} قطرة",
+            "unitPattern-count-other": "{0} قطرة"
+          },
+          "volume-dram": {
+            "displayName": "درهم سائل",
+            "unitPattern-count-zero": "{0} درهم سائل",
+            "unitPattern-count-one": "{0} درهم",
+            "unitPattern-count-two": "{0} درهم سائل",
+            "unitPattern-count-few": "{0} درهم سائل",
+            "unitPattern-count-many": "{0} درهم سائل",
+            "unitPattern-count-other": "{0} درهم"
+          },
+          "volume-jigger": {
+            "displayName": "قدح",
+            "unitPattern-count-zero": "{0} قدح",
+            "unitPattern-count-one": "{0} قدح",
+            "unitPattern-count-two": "{0} قدح",
+            "unitPattern-count-few": "{0} أقداح",
+            "unitPattern-count-many": "{0} قدح",
+            "unitPattern-count-other": "{0} قدح"
+          },
+          "volume-pinch": {
+            "displayName": "رشّة",
+            "unitPattern-count-zero": "{0} رشّة",
+            "unitPattern-count-one": "{0} رشّة",
+            "unitPattern-count-two": "{0} رشّة",
+            "unitPattern-count-few": "{0} رشّات",
+            "unitPattern-count-many": "{0} رشّة",
+            "unitPattern-count-other": "{0} رشّة"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ربع غالون إمبراطوري",
+            "unitPattern-count-zero": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-one": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-two": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-few": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-many": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-other": "{0} ربع غالون إمبراطوري"
+          },
           "coordinateUnit": {
             "displayName": "اتجاه أساسي",
             "east": "{0} شرقًا",
@@ -1676,16 +1828,40 @@
           "10p24": {
             "unitPrefixPattern": "يو{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "كيبي{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ميبي{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "غيبي{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "تيبي{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "بيبي{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "إكسبي{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "زيبي{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "يوبي{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2382,10 +2558,10 @@
             "unitPattern-count-other": "{0} بكسل/بوصة"
           },
           "graphics-dot-per-centimeter": {
-            "displayName": "نقطة لكل سنتيمتر",
+            "displayName": "نقطة/سم",
             "unitPattern-count-zero": "{0} نقطة/سم",
             "unitPattern-count-one": "{0} نقطة/سم",
-            "unitPattern-count-two": "نقطتان/سم",
+            "unitPattern-count-two": "{0} نقطة/سم",
             "unitPattern-count-few": "{0} نقاط/سم",
             "unitPattern-count-many": "{0} نقطة/سم",
             "unitPattern-count-other": "{0} نقطة/سم"
@@ -2394,10 +2570,28 @@
             "displayName": "نقطة لكل بوصة",
             "unitPattern-count-zero": "{0} نقطة/بوصة",
             "unitPattern-count-one": "{0} نقطة/بوصة",
-            "unitPattern-count-two": "نقطتان/بوصة",
+            "unitPattern-count-two": "{0} نقطة/بوصة",
             "unitPattern-count-few": "{0} نقاط/بوصة",
             "unitPattern-count-many": "{0} نقطة/بوصة",
             "unitPattern-count-other": "{0} نقطة/بوصة"
+          },
+          "graphics-dot": {
+            "displayName": "بكسل",
+            "unitPattern-count-zero": "{0} بكسل",
+            "unitPattern-count-one": "{0} بكسل",
+            "unitPattern-count-two": "{0} بكسل",
+            "unitPattern-count-few": "{0} بكسل",
+            "unitPattern-count-many": "{0} بكسل",
+            "unitPattern-count-other": "{0} بكسل"
+          },
+          "length-earth-radius": {
+            "displayName": "نق أرضي",
+            "unitPattern-count-zero": "{0} نق أرضي",
+            "unitPattern-count-one": "{0} نق أرضي",
+            "unitPattern-count-two": "{0} نق أرضي",
+            "unitPattern-count-few": "{0} نق أرضي",
+            "unitPattern-count-many": "{0} نق أرضي",
+            "unitPattern-count-other": "{0} نق أرضي"
           },
           "length-kilometer": {
             "displayName": "كم",
@@ -2540,12 +2734,22 @@
             "unitPattern-count-other": "{0} و.ف."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "فرلنغ",
+            "unitPattern-count-zero": "{0} فرلنغ",
+            "unitPattern-count-one": "{0} فرلنغ",
+            "unitPattern-count-two": "{0} فرلنغ",
+            "unitPattern-count-few": "{0} فرلنغ",
+            "unitPattern-count-many": "{0} فرلنغ",
+            "unitPattern-count-other": "{0} فرلنغ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "قامة",
+            "unitPattern-count-zero": "{0} قامة",
+            "unitPattern-count-one": "{0} قامة",
+            "unitPattern-count-two": "{0} قامة",
+            "unitPattern-count-few": "{0} قامة",
+            "unitPattern-count-many": "{0} قامة",
+            "unitPattern-count-other": "{0} قامة"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -2591,6 +2795,24 @@
             "unitPattern-count-few": "{0} لكس",
             "unitPattern-count-many": "{0} لكس",
             "unitPattern-count-other": "{0} لكس"
+          },
+          "light-candela": {
+            "displayName": "شمعة",
+            "unitPattern-count-zero": "{0} شمعة",
+            "unitPattern-count-one": "{0} شمعة",
+            "unitPattern-count-two": "{0} شمعة",
+            "unitPattern-count-few": "{0} شمعة",
+            "unitPattern-count-many": "{0} شمعة",
+            "unitPattern-count-other": "{0} شمعة"
+          },
+          "light-lumen": {
+            "displayName": "لومن",
+            "unitPattern-count-zero": "{0} لومن",
+            "unitPattern-count-one": "{0} لومن",
+            "unitPattern-count-two": "{0} لومن",
+            "unitPattern-count-few": "{0} لومن",
+            "unitPattern-count-many": "{0} لومن",
+            "unitPattern-count-other": "{0} لومن"
           },
           "light-solar-luminosity": {
             "displayName": "ضياء شمسي",
@@ -2658,8 +2880,13 @@
             "unitPattern-count-other": "{0} طن"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ستون",
+            "unitPattern-count-zero": "{0} ستون",
+            "unitPattern-count-one": "{0} ستون",
+            "unitPattern-count-two": "{0} ستون",
+            "unitPattern-count-few": "{0} ستون",
+            "unitPattern-count-many": "{0} ستون",
+            "unitPattern-count-other": "{0} ستون"
           },
           "mass-pound": {
             "displayName": "رطل",
@@ -2725,6 +2952,15 @@
             "unitPattern-count-few": "{0} كتلة شمسية",
             "unitPattern-count-many": "{0} كتلة شمسية",
             "unitPattern-count-other": "{0} كتلة شمسية"
+          },
+          "mass-grain": {
+            "displayName": "قمحة",
+            "unitPattern-count-zero": "{0} قمحة",
+            "unitPattern-count-one": "{0} قمحة",
+            "unitPattern-count-two": "{0} قمحة",
+            "unitPattern-count-few": "{0} قمحة",
+            "unitPattern-count-many": "{0} قمحة",
+            "unitPattern-count-other": "{0} قمحة"
           },
           "power-gigawatt": {
             "displayName": "غ واط",
@@ -3108,8 +3344,13 @@
             "unitPattern-count-other": "{0} فدان قدم"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "بوشل",
+            "unitPattern-count-zero": "{0} بوشل",
+            "unitPattern-count-one": "{0} بوشل",
+            "unitPattern-count-two": "{0} بوشل",
+            "unitPattern-count-few": "{0} بوشل",
+            "unitPattern-count-many": "{0} بوشل",
+            "unitPattern-count-other": "{0} بوشل"
           },
           "volume-gallon": {
             "displayName": "غالون",
@@ -3198,6 +3439,69 @@
             "unitPattern-count-many": "{0} برميلًا",
             "unitPattern-count-other": "{0} برميل"
           },
+          "volume-dessert-spoon": {
+            "displayName": "ملعقة ح.",
+            "unitPattern-count-zero": "{0} ملعقة ح.",
+            "unitPattern-count-one": "{0} ملعقة ح.",
+            "unitPattern-count-two": "{0} ملعقة ح.",
+            "unitPattern-count-few": "{0} ملعقة ح.",
+            "unitPattern-count-many": "{0} ملعقة ح.",
+            "unitPattern-count-other": "{0} ملعقة ح."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ملعقة حلو إمبراطوري",
+            "unitPattern-count-zero": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-one": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-two": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-few": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-many": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-other": "{0} ملعقة ح. إمبراطوري"
+          },
+          "volume-drop": {
+            "displayName": "قطرة",
+            "unitPattern-count-zero": "{0} قطرة",
+            "unitPattern-count-one": "{0} قطرة",
+            "unitPattern-count-two": "{0} قطرة",
+            "unitPattern-count-few": "{0} قطرة",
+            "unitPattern-count-many": "{0} قطرة",
+            "unitPattern-count-other": "{0} قطرة"
+          },
+          "volume-dram": {
+            "displayName": "درهم سائل",
+            "unitPattern-count-zero": "{0} درهم سائل",
+            "unitPattern-count-one": "{0} درهم سائل",
+            "unitPattern-count-two": "{0} درهم سائل",
+            "unitPattern-count-few": "{0} درهم سائل",
+            "unitPattern-count-many": "{0} درهم سائل",
+            "unitPattern-count-other": "{0} درهم سائل"
+          },
+          "volume-jigger": {
+            "displayName": "قدح",
+            "unitPattern-count-zero": "{0} قدح",
+            "unitPattern-count-one": "{0} قدح",
+            "unitPattern-count-two": "{0} قدح",
+            "unitPattern-count-few": "{0} أقداح",
+            "unitPattern-count-many": "{0} قدح",
+            "unitPattern-count-other": "{0} قدح"
+          },
+          "volume-pinch": {
+            "displayName": "رشّة",
+            "unitPattern-count-zero": "{0} رشّة",
+            "unitPattern-count-one": "{0} رشّة",
+            "unitPattern-count-two": "{0} رشّة",
+            "unitPattern-count-few": "{0} رشّة",
+            "unitPattern-count-many": "{0} رشّة",
+            "unitPattern-count-other": "{0} رشّة"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ربع غالون إمبراطوري",
+            "unitPattern-count-zero": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-one": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-two": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-few": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-many": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-other": "{0} ربع غالون إمبراطوري"
+          },
           "coordinateUnit": {
             "displayName": "اتجاه",
             "east": "{0} شرق",
@@ -3267,16 +3571,40 @@
           "10p24": {
             "unitPrefixPattern": "يو{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "كيبي{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ميبي{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "غيبي{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "تيبي{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "بيبي{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "إكسبي{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "زيبي{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "يوبي{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -3674,8 +4002,8 @@
             "unitPattern-count-zero": "{0} شهر",
             "unitPattern-count-one": "شهر",
             "unitPattern-count-two": "شهران",
-            "unitPattern-count-few": "{0} شهر",
-            "unitPattern-count-many": "{0} شهر",
+            "unitPattern-count-few": "{0} أشهر",
+            "unitPattern-count-many": "{0} شهرًا",
             "unitPattern-count-other": "{0} شهر",
             "perUnitPattern": "{0}/ش"
           },
@@ -3973,10 +4301,10 @@
             "unitPattern-count-other": "{0} بكسل/بوصة"
           },
           "graphics-dot-per-centimeter": {
-            "displayName": "نقطة لكل سنتيمتر",
+            "displayName": "نقطة/سم",
             "unitPattern-count-zero": "{0} نقطة/سم",
             "unitPattern-count-one": "{0} نقطة/سم",
-            "unitPattern-count-two": "نقطتان/سم",
+            "unitPattern-count-two": "{0} نقطة/سم",
             "unitPattern-count-few": "{0} نقاط/سم",
             "unitPattern-count-many": "{0} نقطة/سم",
             "unitPattern-count-other": "{0} نقطة/سم"
@@ -3985,10 +4313,28 @@
             "displayName": "نقطة لكل بوصة",
             "unitPattern-count-zero": "{0} نقطة/بوصة",
             "unitPattern-count-one": "{0} نقطة/بوصة",
-            "unitPattern-count-two": "نقطتان/بوصة",
+            "unitPattern-count-two": "{0} نقطة/بوصة",
             "unitPattern-count-few": "{0} نقاط/بوصة",
             "unitPattern-count-many": "{0} نقطة/بوصة",
             "unitPattern-count-other": "{0} نقطة/بوصة"
+          },
+          "graphics-dot": {
+            "displayName": "بكسل",
+            "unitPattern-count-zero": "{0} بكسل",
+            "unitPattern-count-one": "{0} بكسل",
+            "unitPattern-count-two": "{0} بكسل",
+            "unitPattern-count-few": "{0} بكسل",
+            "unitPattern-count-many": "{0} بكسل",
+            "unitPattern-count-other": "{0} بكسل"
+          },
+          "length-earth-radius": {
+            "displayName": "نق أرضي",
+            "unitPattern-count-zero": "{0} نق أرضي",
+            "unitPattern-count-one": "{0} نق أرضي",
+            "unitPattern-count-two": "{0} نق أرضي",
+            "unitPattern-count-few": "{0} نق أرضي",
+            "unitPattern-count-many": "{0} نق أرضي",
+            "unitPattern-count-other": "{0} نق أرضي"
           },
           "length-kilometer": {
             "displayName": "كم",
@@ -4131,12 +4477,22 @@
             "unitPattern-count-other": "{0} و.ف."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "فرلنغ",
+            "unitPattern-count-zero": "{0} فرلنغ",
+            "unitPattern-count-one": "{0} فرلنغ",
+            "unitPattern-count-two": "{0} فرلنغ",
+            "unitPattern-count-few": "{0} فرلنغ",
+            "unitPattern-count-many": "{0} فرلنغ",
+            "unitPattern-count-other": "{0} فرلنغ"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "قامة",
+            "unitPattern-count-zero": "{0} قامة",
+            "unitPattern-count-one": "{0} قامة",
+            "unitPattern-count-two": "{0} قامة",
+            "unitPattern-count-few": "{0} قامة",
+            "unitPattern-count-many": "{0} قامة",
+            "unitPattern-count-other": "{0} قامة"
           },
           "length-nautical-mile": {
             "displayName": "ميل بحري",
@@ -4182,6 +4538,24 @@
             "unitPattern-count-few": "{0} لكس",
             "unitPattern-count-many": "{0} لكس",
             "unitPattern-count-other": "{0} لكس"
+          },
+          "light-candela": {
+            "displayName": "شمعة",
+            "unitPattern-count-zero": "{0} شمعة",
+            "unitPattern-count-one": "{0} شمعة",
+            "unitPattern-count-two": "{0} شمعة",
+            "unitPattern-count-few": "{0} شمعة",
+            "unitPattern-count-many": "{0} شمعة",
+            "unitPattern-count-other": "{0} شمعة"
+          },
+          "light-lumen": {
+            "displayName": "لومن",
+            "unitPattern-count-zero": "{0} لومن",
+            "unitPattern-count-one": "{0} لومن",
+            "unitPattern-count-two": "{0} لومن",
+            "unitPattern-count-few": "{0} لومن",
+            "unitPattern-count-many": "{0} لومن",
+            "unitPattern-count-other": "{0} لومن"
           },
           "light-solar-luminosity": {
             "displayName": "ضياء شمسي",
@@ -4249,8 +4623,13 @@
             "unitPattern-count-other": "{0} طن"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ستون",
+            "unitPattern-count-zero": "{0} ستون",
+            "unitPattern-count-one": "{0} ستون",
+            "unitPattern-count-two": "{0} ستون",
+            "unitPattern-count-few": "{0} ستون",
+            "unitPattern-count-many": "{0} ستون",
+            "unitPattern-count-other": "{0} ستون"
           },
           "mass-pound": {
             "displayName": "رطل",
@@ -4316,6 +4695,15 @@
             "unitPattern-count-few": "{0} كتلة شمسية",
             "unitPattern-count-many": "{0} كتلة شمسية",
             "unitPattern-count-other": "{0} كتلة شمسية"
+          },
+          "mass-grain": {
+            "displayName": "قمحة",
+            "unitPattern-count-zero": "{0} قمحة",
+            "unitPattern-count-one": "{0} قمحة",
+            "unitPattern-count-two": "{0} قمحة",
+            "unitPattern-count-few": "{0} قمحة",
+            "unitPattern-count-many": "{0} قمحة",
+            "unitPattern-count-other": "{0} قمحة"
           },
           "power-gigawatt": {
             "displayName": "غ واط",
@@ -4699,8 +5087,13 @@
             "unitPattern-count-other": "{0} فدان قدم"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "بوشل",
+            "unitPattern-count-zero": "{0} بوشل",
+            "unitPattern-count-one": "{0} بوشل",
+            "unitPattern-count-two": "{0} بوشل",
+            "unitPattern-count-few": "{0} بوشل",
+            "unitPattern-count-many": "{0} بوشل",
+            "unitPattern-count-other": "{0} بوشل"
           },
           "volume-gallon": {
             "displayName": "غالون",
@@ -4788,6 +5181,69 @@
             "unitPattern-count-few": "{0} براميل",
             "unitPattern-count-many": "{0} برميلًا",
             "unitPattern-count-other": "{0} برميل"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ملعقة ح.",
+            "unitPattern-count-zero": "{0} ملعقة ح.",
+            "unitPattern-count-one": "{0} ملعقة ح.",
+            "unitPattern-count-two": "{0} ملعقة ح.",
+            "unitPattern-count-few": "{0} ملعقة ح.",
+            "unitPattern-count-many": "{0} ملعقة ح.",
+            "unitPattern-count-other": "{0} ملعقة ح."
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ملعقة حلو إمبراطوري",
+            "unitPattern-count-zero": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-one": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-two": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-few": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-many": "{0} ملعقة ح. إمبراطوري",
+            "unitPattern-count-other": "{0} ملعقة ح. إمبراطوري"
+          },
+          "volume-drop": {
+            "displayName": "قطرة",
+            "unitPattern-count-zero": "{0} قطرة",
+            "unitPattern-count-one": "{0} قطرة",
+            "unitPattern-count-two": "{0} قطرة",
+            "unitPattern-count-few": "{0} قطرة",
+            "unitPattern-count-many": "{0} قطرة",
+            "unitPattern-count-other": "{0} قطرة"
+          },
+          "volume-dram": {
+            "displayName": "درهم سائل",
+            "unitPattern-count-zero": "{0} درهم سائل",
+            "unitPattern-count-one": "{0} درهم سائل",
+            "unitPattern-count-two": "{0} درهم سائل",
+            "unitPattern-count-few": "{0} درهم سائل",
+            "unitPattern-count-many": "{0} درهم سائل",
+            "unitPattern-count-other": "{0} درهم سائل"
+          },
+          "volume-jigger": {
+            "displayName": "قدح",
+            "unitPattern-count-zero": "{0} قدح",
+            "unitPattern-count-one": "{0} قدح",
+            "unitPattern-count-two": "{0} قدح",
+            "unitPattern-count-few": "{0} أقداح",
+            "unitPattern-count-many": "{0} قدح",
+            "unitPattern-count-other": "{0} قدح"
+          },
+          "volume-pinch": {
+            "displayName": "رشّة",
+            "unitPattern-count-zero": "{0} رشّة",
+            "unitPattern-count-one": "{0} رشّة",
+            "unitPattern-count-two": "{0} رشّة",
+            "unitPattern-count-few": "{0} رشّة",
+            "unitPattern-count-many": "{0} رشّة",
+            "unitPattern-count-other": "{0} رشّة"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ربع غالون إمبراطوري",
+            "unitPattern-count-zero": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-one": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-two": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-few": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-many": "{0} ربع غالون إمبراطوري",
+            "unitPattern-count-other": "{0} ربع غالون إمبراطوري"
           },
           "coordinateUnit": {
             "displayName": "اتجاه",

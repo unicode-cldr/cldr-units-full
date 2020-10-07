@@ -3,7 +3,7 @@
     "pa-Guru": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "pa",
         "script": "Guru"
@@ -70,18 +70,42 @@
           "10p24": {
             "unitPrefixPattern": "ਯੋਟਾ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "ਕੀਬੀ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ਮੇਬੀ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ਗੀਬੀ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ਟੇਬੀ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "ਪੇਬੀ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ਐਕਸਬੀ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ਜ਼ੇਬੀ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "ਯੋਬ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} ਪ੍ਰਤੀ {1}"
           },
           "power2": {
             "compoundUnitPattern1": "ਵਰਗ{0}",
-            "compoundUnitPattern1": "ਵਰਗ{0}",
-            "compoundUnitPattern1": "ਵਰਗ{0}"
+            "compoundUnitPattern1-count-one": "ਵਰਗ{0}",
+            "compoundUnitPattern1-count-other": "ਵਰਗ{0}"
           },
           "power3": {
             "compoundUnitPattern1": "ਘਣ{0}",
-            "compoundUnitPattern1": "ਘਣ{0}",
-            "compoundUnitPattern1": "ਘਣ{0}"
+            "compoundUnitPattern1-count-one": "ਘਣ{0}",
+            "compoundUnitPattern1-count-other": "ਘਣ{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -420,8 +444,8 @@
           },
           "energy-therm-us": {
             "displayName": "US therms",
-            "unitPattern-count-one": "{0} US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "unitPattern-count-one": "{0} ਯੂ.ਐਸ. ਥੈਰਮ",
+            "unitPattern-count-other": "{0} ਯੂ.ਐਸ. ਥੈਰਮ"
           },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ ਬਲ",
@@ -487,6 +511,16 @@
             "displayName": "ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ",
             "unitPattern-count-one": "{0} ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ",
             "unitPattern-count-other": "{0} ਡਾਟ ਪ੍ਰਤੀ ਇੰਚ"
+          },
+          "graphics-dot": {
+            "displayName": "ਡਾਟ",
+            "unitPattern-count-one": "{0} ਡਾਟ",
+            "unitPattern-count-other": "{0} ਡਾਟ"
+          },
+          "length-earth-radius": {
+            "displayName": "ਧਰਤੀ ਦਾ ਘੇਰਾ",
+            "unitPattern-count-one": "{0} ਧਰਤੀ ਦਾ ਘੇਰਾ",
+            "unitPattern-count-other": "{0} ਧਰਤੀ ਦਾ ਘੇਰਾ"
           },
           "length-kilometer": {
             "displayName": "ਕਿਲੋਮੀਟਰ",
@@ -603,6 +637,16 @@
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
           },
+          "light-candela": {
+            "displayName": "ਕੈਂਡੇਲਾ",
+            "unitPattern-count-one": "{0} ਕੈਂਡੇਲਾ",
+            "unitPattern-count-other": "{0} ਕੈਂਡੇਲਾ"
+          },
+          "light-lumen": {
+            "displayName": "ਲੁਮੇਨ",
+            "unitPattern-count-one": "{0} ਲੁਮੇਨ",
+            "unitPattern-count-other": "{0} ਲੁਮੇਨ"
+          },
           "light-solar-luminosity": {
             "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
             "unitPattern-count-one": "{0} ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
@@ -636,9 +680,9 @@
             "unitPattern-count-other": "{0} ਮਾਈਕਰੋਗ੍ਰਾਮ"
           },
           "mass-ton": {
-            "displayName": "ਟਨ",
-            "unitPattern-count-one": "{0} ਟਨ",
-            "unitPattern-count-other": "{0} ਟਨ"
+            "displayName": "ਅਮਰੀਕੀ ਟਨ",
+            "unitPattern-count-one": "{0} ਅਮਰੀਕੀ ਟਨ",
+            "unitPattern-count-other": "{0} ਅਮਰੀਕੀ ਟਨ"
           },
           "mass-stone": {
             "displayName": "ਸਟੋਨ",
@@ -681,6 +725,11 @@
             "displayName": "ਸੋਲਰ ਮਾਸ",
             "unitPattern-count-one": "{0} ਸੋਲਰ ਮਾਸ",
             "unitPattern-count-other": "{0} ਸੋਲਰ ਮਾਸ"
+          },
+          "mass-grain": {
+            "displayName": "ਗ੍ਰੇਨ",
+            "unitPattern-count-one": "{0} ਗ੍ਰੇਨ",
+            "unitPattern-count-other": "{0} ਗ੍ਰੇਨ"
           },
           "power-gigawatt": {
             "displayName": "ਗੀਗਾਵਾਟ",
@@ -804,7 +853,7 @@
           },
           "torque-pound-force-foot": {
             "displayName": "ਪੌਂਡ-ਫੁੱਟ",
-            "unitPattern-count-one": "{0} ਪੌਂਡ-ਫੁੱਟ",
+            "unitPattern-count-one": "{0} ਪੌਂਡ-ਬਲ-ਫੁੱਟ",
             "unitPattern-count-other": "{0} ਪੌਂਡ-ਫੁੱਟ"
           },
           "torque-newton-meter": {
@@ -952,6 +1001,41 @@
             "unitPattern-count-one": "{0} ਬੈਰਲ",
             "unitPattern-count-other": "{0} ਬੈਰਲ"
           },
+          "volume-dessert-spoon": {
+            "displayName": "ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-other": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਇੰਪੀਰੀਅਲ ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-other": "{0} ਇੰਪੀਰੀਅਲ ਡੈਜ਼ਰਟ ਸਪੂਨ"
+          },
+          "volume-drop": {
+            "displayName": "ਬੂੰਦ",
+            "unitPattern-count-one": "{0} ਬੂੰਦ",
+            "unitPattern-count-other": "{0} ਬੂੰਦ"
+          },
+          "volume-dram": {
+            "displayName": "ਚੁਸਕੀ",
+            "unitPattern-count-one": "{0} ਚੁਸਕੀ",
+            "unitPattern-count-other": "{0} ਚੁਸਕੀ"
+          },
+          "volume-jigger": {
+            "displayName": "ਚੱਕਾ",
+            "unitPattern-count-one": "{0} ਚੱਕਾ",
+            "unitPattern-count-other": "{0} ਚੱਕਾ"
+          },
+          "volume-pinch": {
+            "displayName": "ਚੁਟਕੀ",
+            "unitPattern-count-one": "{0} ਚੁਟਕੀ",
+            "unitPattern-count-other": "{0} ਚੁਟਕੀ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਚੁਥਾਈ ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਇੰਪੀਰੀਅਲ ਚੁਥਾਈ ਗੈਲਨ",
+            "unitPattern-count-other": "{0} ਇੰਪੀਰੀਅਲ ਚੁਥਾਈ ਗੈਲਨ"
+          },
           "coordinateUnit": {
             "displayName": "ਮੁੱਖ ਦਿਸ਼ਾ",
             "east": "{0} ਪੂਰਬ",
@@ -1021,18 +1105,42 @@
           "10p24": {
             "unitPrefixPattern": "ਯੋਟਾ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "ਕੀ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ਮੀ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ਗੀ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ਟੀ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "ਪੀ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ਈ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ਜ਼ੀ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "ਯੀ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1368,8 +1476,8 @@
           },
           "energy-therm-us": {
             "displayName": "US therm",
-            "unitPattern-count-one": "{0} US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "unitPattern-count-one": "{0} ਯੂ.ਐਸ. ਥੈਰਮ",
+            "unitPattern-count-other": "{0} ਯੂ.ਐਸ. ਥੈਰਮ"
           },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ-ਬਲ",
@@ -1434,6 +1542,15 @@
             "displayName": "dpi",
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ਡਾਟ",
+            "unitPattern-count-one": "{0} ਡਾਟ",
+            "unitPattern-count-other": "{0} ਡਾਟ"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "ਕਿ.ਮੀ.",
@@ -1549,6 +1666,15 @@
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "ਲੁਮੇਨ",
+            "unitPattern-count-one": "{0} ਲੁਮੇਨ",
+            "unitPattern-count-other": "{0} ਲੁਮੇਨ"
+          },
           "light-solar-luminosity": {
             "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
             "unitPattern-count-other": "{0} L☉"
@@ -1581,9 +1707,9 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "ਟਨ",
-            "unitPattern-count-one": "{0} ਟਨ",
-            "unitPattern-count-other": "{0} ਟਨ"
+            "displayName": "ਅਮਰੀਕੀ ਟਨ",
+            "unitPattern-count-one": "{0} ਅਮਰੀਕੀ ਟਨ",
+            "unitPattern-count-other": "{0} ਅਮਰੀਕੀ ਟਨ"
           },
           "mass-stone": {
             "displayName": "ਸਟੋਨ",
@@ -1624,6 +1750,11 @@
           "mass-solar-mass": {
             "displayName": "ਸੋਲਰ ਮਾਸ",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "ਗ੍ਰੇਨ",
+            "unitPattern-count-one": "{0} ਗ੍ਰੇਨ",
+            "unitPattern-count-other": "{0} ਗ੍ਰੇਨ"
           },
           "power-gigawatt": {
             "displayName": "ਗੀ.ਵਾਟ",
@@ -1875,8 +2006,9 @@
             "unitPattern-count-other": "{0} ਤ. ਔਂਸ"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ਇੰਪ. ਫਲੂ. ਔ.",
+            "unitPattern-count-one": "{0} ਫਲੂ. ਔ. ਇੰਪ.",
+            "unitPattern-count-other": "{0} ਫਲੂ. ਔ. ਇੰਪ."
           },
           "volume-tablespoon": {
             "displayName": "ਟੇਬਲ ਸਪੂਨ",
@@ -1892,6 +2024,41 @@
             "displayName": "ਬੈਰਲ",
             "unitPattern-count-one": "{0} ਬੈਰਲ",
             "unitPattern-count-other": "{0} ਬੈਰਲ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-other": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਇੰਪ. ਡੈ. ਸ.",
+            "unitPattern-count-other": "{0} ਇੰਪ. ਡੈ. ਸ."
+          },
+          "volume-drop": {
+            "displayName": "ਬੂੰਦ",
+            "unitPattern-count-one": "{0} ਬੂੰਦ",
+            "unitPattern-count-other": "{0} ਬੂੰਦ"
+          },
+          "volume-dram": {
+            "displayName": "ਚੁਸਕੀ ਭਰ",
+            "unitPattern-count-one": "{0} ਚੁਸਕੀ ਭਰ",
+            "unitPattern-count-other": "{0} ਚੁਸਕੀ ਭਰ"
+          },
+          "volume-jigger": {
+            "displayName": "ਚੱਕਾ",
+            "unitPattern-count-one": "{0} ਚੱਕਾ",
+            "unitPattern-count-other": "{0} ਚੱਕਾ"
+          },
+          "volume-pinch": {
+            "displayName": "ਚੁਟਕੀ",
+            "unitPattern-count-one": "{0} ਚੁਟਕੀ",
+            "unitPattern-count-other": "{0} ਚੁਟਕੀ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਚੁਥਾਈ ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਇੰਪ. ਚੁ. ਗੈ.",
+            "unitPattern-count-other": "{0} ਇੰਪ. ਚੁ. ਗੈ."
           },
           "coordinateUnit": {
             "displayName": "ਦਿਸ਼ਾ",
@@ -1962,18 +2129,42 @@
           "10p24": {
             "unitPrefixPattern": "ਯੋਟਾ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "ਕੀ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "ਮੀ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ਗੀ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ਟੀ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "ਪੀ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ਈ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ਜ਼ੀ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "ਯੀ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2236,8 +2427,8 @@
           },
           "duration-millisecond": {
             "displayName": "ਮਿਲੀਸਕਿੰਟ",
-            "unitPattern-count-one": "{0} ਮਿਲੀਸਕਿੰਟ",
-            "unitPattern-count-other": "{0} ਮਿਲੀਸਕਿੰਟ"
+            "unitPattern-count-one": "{0} ਮਿ.ਸ.",
+            "unitPattern-count-other": "{0} ਮਿ.ਸ."
           },
           "duration-microsecond": {
             "displayName": "ਮਾਈਕਰੋਸਕਿੰਟ",
@@ -2309,8 +2500,8 @@
           },
           "energy-therm-us": {
             "displayName": "US therm",
-            "unitPattern-count-one": "{0} US therm",
-            "unitPattern-count-other": "{0} US therm"
+            "unitPattern-count-one": "{0} ਯੂ.ਐਸ. ਥੈਰਮ",
+            "unitPattern-count-other": "{0} ਯੂ.ਐਸ. ਥੈਰਮ"
           },
           "force-pound-force": {
             "displayName": "ਪੌਂਡ-ਬਲ",
@@ -2375,6 +2566,15 @@
             "displayName": "dpi",
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ਡਾਟ",
+            "unitPattern-count-one": "{0} ਡਾਟ",
+            "unitPattern-count-other": "{0} ਡਾਟ"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "ਕਿ.ਮੀ.",
@@ -2490,6 +2690,15 @@
             "unitPattern-count-one": "{0} ਲਕਸ",
             "unitPattern-count-other": "{0} ਲਕਸ"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "ਲੁਮੇਨ",
+            "unitPattern-count-one": "{0} ਲੁਮੇਨ",
+            "unitPattern-count-other": "{0} ਲੁਮੇਨ"
+          },
           "light-solar-luminosity": {
             "displayName": "ਸੋਲਰ ਲੂਮਨਾਸਿਟੀ",
             "unitPattern-count-other": "{0} L☉"
@@ -2522,7 +2731,7 @@
             "unitPattern-count-other": "{0} µg"
           },
           "mass-ton": {
-            "displayName": "ਟਨ",
+            "displayName": "ਅਮਰੀਕੀ ਟਨ",
             "unitPattern-count-one": "{0}ਟਨ",
             "unitPattern-count-other": "{0}ਟਨ"
           },
@@ -2565,6 +2774,11 @@
           "mass-solar-mass": {
             "displayName": "ਸੋਲਰ ਮਾਸ",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "ਗ੍ਰੇਨ",
+            "unitPattern-count-one": "{0} ਗ੍ਰੇਨ",
+            "unitPattern-count-other": "{0} ਗ੍ਰੇਨ"
           },
           "power-gigawatt": {
             "displayName": "ਗੀ.ਵਾਟ",
@@ -2816,8 +3030,9 @@
             "unitPattern-count-other": "{0} ਤ. ਔਂਸ"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "Imp. fl oz",
-            "unitPattern-count-other": "{0} fl oz Imp."
+            "displayName": "ਇੰਪ. ਫਲੂ. ਔ.",
+            "unitPattern-count-one": "{0} ਫਲੂ. ਔ. ਇੰਪ.",
+            "unitPattern-count-other": "{0} ਫਲੂ. ਔ. ਇੰਪ."
           },
           "volume-tablespoon": {
             "displayName": "ਟੇਬਲ ਸਪੂਨ",
@@ -2833,6 +3048,41 @@
             "displayName": "ਬੈਰਲ",
             "unitPattern-count-one": "{0} ਬੈਰਲ",
             "unitPattern-count-other": "{0} ਬੈਰਲ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-other": "{0} ਡੈਜ਼ਰਟ ਸਪੂਨ"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਡੈਜ਼ਰਟ ਸਪੂਨ",
+            "unitPattern-count-one": "{0} ਇੰਪ. ਡੈ. ਸ.",
+            "unitPattern-count-other": "{0} ਇੰਪ. ਡੈ. ਸ."
+          },
+          "volume-drop": {
+            "displayName": "ਬੂੰਦ",
+            "unitPattern-count-one": "{0} ਬੂੰਦ",
+            "unitPattern-count-other": "{0} ਬੂੰਦ"
+          },
+          "volume-dram": {
+            "displayName": "ਚੁਸਕੀ ਭਰ",
+            "unitPattern-count-one": "{0} ਚੁਸਕੀ ਭਰ",
+            "unitPattern-count-other": "{0} ਚੁਸਕੀ ਭਰ"
+          },
+          "volume-jigger": {
+            "displayName": "ਚੱਕਾ",
+            "unitPattern-count-one": "{0} ਚੱਕਾ",
+            "unitPattern-count-other": "{0} ਚੱਕਾ"
+          },
+          "volume-pinch": {
+            "displayName": "ਚੁਟਕੀ",
+            "unitPattern-count-one": "{0} ਚੁਟਕੀ",
+            "unitPattern-count-other": "{0} ਚੁਟਕੀ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ਇੰਪੀਰੀਅਲ ਚੁਥਾਈ ਗੈਲਨ",
+            "unitPattern-count-one": "{0} ਇੰਪ. ਚੁ. ਗੈ.",
+            "unitPattern-count-other": "{0} ਇੰਪ. ਚੁ. ਗੈ."
           },
           "coordinateUnit": {
             "displayName": "ਦਿਸ਼ਾ",

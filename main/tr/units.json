@@ -3,7 +3,7 @@
     "tr": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "tr"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}kare",
-            "compoundUnitPattern1": "{0}kare",
-            "compoundUnitPattern1": "{0}kare"
+            "compoundUnitPattern1-count-one": "{0}kare",
+            "compoundUnitPattern1-count-other": "{0}kare"
           },
           "power3": {
             "compoundUnitPattern1": "{0}küp",
-            "compoundUnitPattern1": "{0}küp",
-            "compoundUnitPattern1": "{0}küp"
+            "compoundUnitPattern1-count-one": "{0}küp",
+            "compoundUnitPattern1-count-other": "{0}küp"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -485,6 +509,16 @@
             "unitPattern-count-one": "{0} nokta/inç",
             "unitPattern-count-other": "{0} nokta/inç"
           },
+          "graphics-dot": {
+            "displayName": "nokta",
+            "unitPattern-count-one": "{0} nokta",
+            "unitPattern-count-other": "{0} nokta"
+          },
+          "length-earth-radius": {
+            "displayName": "Dünya yarıçapı",
+            "unitPattern-count-one": "{0} Dünya yarıçapı",
+            "unitPattern-count-other": "{0} Dünya yarıçapı"
+          },
           "length-kilometer": {
             "displayName": "kilometre",
             "unitPattern-count-one": "{0} kilometre",
@@ -600,6 +634,16 @@
             "unitPattern-count-one": "{0} lüks",
             "unitPattern-count-other": "{0} lüks"
           },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lümen",
+            "unitPattern-count-one": "{0} lümen",
+            "unitPattern-count-other": "{0} lümen"
+          },
           "light-solar-luminosity": {
             "displayName": "Güneş parlaklığı",
             "unitPattern-count-one": "{0} Güneş parlaklığı",
@@ -678,6 +722,11 @@
             "displayName": "Güneş kütlesi",
             "unitPattern-count-one": "{0} Güneş kütlesi",
             "unitPattern-count-other": "{0} Güneş kütlesi"
+          },
+          "mass-grain": {
+            "displayName": "tane",
+            "unitPattern-count-one": "{0} tane",
+            "unitPattern-count-other": "{0} tane"
           },
           "power-gigawatt": {
             "displayName": "gigavat",
@@ -939,14 +988,48 @@
             "unitPattern-count-other": "{0} yemek kaşığı"
           },
           "volume-teaspoon": {
-            "displayName": "tatlı kaşığı",
-            "unitPattern-count-one": "{0} tatlı kaşığı",
-            "unitPattern-count-other": "{0} tatlı kaşığı"
+            "displayName": "çay kaşığı",
+            "unitPattern-count-one": "{0} çay kaşığı",
+            "unitPattern-count-other": "{0} çay kaşığı"
           },
           "volume-barrel": {
             "displayName": "varil",
             "unitPattern-count-one": "{0} varil",
             "unitPattern-count-other": "{0} varil"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "tatlı kaşığı",
+            "unitPattern-count-one": "{0} tatlı kaşığı",
+            "unitPattern-count-other": "{0} tatlı kaşığı"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "İng. tatlı kaşığı",
+            "unitPattern-count-one": "{0} İng. tatlı kaşığı",
+            "unitPattern-count-other": "{0} İng. tatlı kaşığı"
+          },
+          "volume-drop": {
+            "displayName": "damla",
+            "unitPattern-count-one": "{0} damla",
+            "unitPattern-count-other": "{0} damla"
+          },
+          "volume-dram": {
+            "displayName": "dram",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dram"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "tutam",
+            "unitPattern-count-one": "{0} tutam",
+            "unitPattern-count-other": "{0} tutam"
+          },
+          "volume-quart-imperial": {
+            "displayName": "İng. quart",
+            "unitPattern-count-one": "{0} İng. quart",
+            "unitPattern-count-other": "{0} İng. quart"
           },
           "coordinateUnit": {
             "displayName": "ana yön",
@@ -1017,16 +1100,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1424,6 +1531,15 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "nokta",
+            "unitPattern-count-one": "{0} nokta",
+            "unitPattern-count-other": "{0} nokta"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1539,6 +1655,14 @@
             "unitPattern-count-one": "{0} lüks",
             "unitPattern-count-other": "{0} lüks"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Güneş parlaklığı",
             "unitPattern-count-one": "{0} L☉",
@@ -1618,6 +1742,11 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "tane",
+            "unitPattern-count-one": "{0} tane",
+            "unitPattern-count-other": "{0} tane"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-one": "{0} GW",
@@ -1649,9 +1778,9 @@
             "unitPattern-count-other": "{0} bg"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm Hg",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-force-per-square-inch": {
             "displayName": "lb/in²",
@@ -1877,14 +2006,48 @@
             "unitPattern-count-other": "{0} yk"
           },
           "volume-teaspoon": {
-            "displayName": "tk",
-            "unitPattern-count-one": "{0} tk",
-            "unitPattern-count-other": "{0} tk"
+            "displayName": "çk",
+            "unitPattern-count-one": "{0} çk",
+            "unitPattern-count-other": "{0} çk"
           },
           "volume-barrel": {
             "displayName": "varil",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "tat. kaşığı",
+            "unitPattern-count-one": "{0} tat. kaşığı",
+            "unitPattern-count-other": "{0} tat. kaşığı"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "İng. tat. kaşığı",
+            "unitPattern-count-one": "{0} İng. tat. kaşığı",
+            "unitPattern-count-other": "{0} İng. tat. kaşığı"
+          },
+          "volume-drop": {
+            "displayName": "damla",
+            "unitPattern-count-one": "{0} damla",
+            "unitPattern-count-other": "{0} damla"
+          },
+          "volume-dram": {
+            "displayName": "sıvı dram",
+            "unitPattern-count-one": "{0} sıvı dram",
+            "unitPattern-count-other": "{0} sıvı dram"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "tutam",
+            "unitPattern-count-one": "{0} tutam",
+            "unitPattern-count-other": "{0} tutam"
+          },
+          "volume-quart-imperial": {
+            "displayName": "İng quart",
+            "unitPattern-count-one": "{0} İng. quart",
+            "unitPattern-count-other": "{0} İng. quart"
           },
           "coordinateUnit": {
             "displayName": "yön",
@@ -1955,16 +2118,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2362,6 +2549,15 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "nokta",
+            "unitPattern-count-one": "{0} nokta",
+            "unitPattern-count-other": "{0} nokta"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2369,7 +2565,7 @@
             "perUnitPattern": "{0}/km"
           },
           "length-meter": {
-            "displayName": "metre",
+            "displayName": "m",
             "unitPattern-count-one": "{0} m",
             "unitPattern-count-other": "{0} m",
             "perUnitPattern": "{0}/m"
@@ -2477,6 +2673,14 @@
             "unitPattern-count-one": "{0} lüks",
             "unitPattern-count-other": "{0} lüks"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Güneş parlaklığı",
             "unitPattern-count-one": "{0} L☉",
@@ -2555,6 +2759,11 @@
             "displayName": "Güneş kütlesi",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "tane",
+            "unitPattern-count-one": "{0} tane",
+            "unitPattern-count-other": "{0} tane"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2815,7 +3024,7 @@
             "unitPattern-count-other": "{0} yk"
           },
           "volume-teaspoon": {
-            "displayName": "tk",
+            "displayName": "çk",
             "unitPattern-count-one": "{0} çk",
             "unitPattern-count-other": "{0} çk"
           },
@@ -2823,6 +3032,40 @@
             "displayName": "varil",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "tat. kaşığı",
+            "unitPattern-count-one": "{0} tat. kaşığı",
+            "unitPattern-count-other": "{0} tat. kaşığı"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "İng. tat. kaşığı",
+            "unitPattern-count-one": "{0} İng. tat. kaşığı",
+            "unitPattern-count-other": "{0} İng. tat. kaşığı"
+          },
+          "volume-drop": {
+            "displayName": "damla",
+            "unitPattern-count-one": "{0} damla",
+            "unitPattern-count-other": "{0} damla"
+          },
+          "volume-dram": {
+            "displayName": "sıvı dram",
+            "unitPattern-count-one": "{0} sıvı dram",
+            "unitPattern-count-other": "{0} sıvı dram"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "tutam",
+            "unitPattern-count-one": "{0} tutam",
+            "unitPattern-count-other": "{0} tutam"
+          },
+          "volume-quart-imperial": {
+            "displayName": "İng quart",
+            "unitPattern-count-one": "{0} İng. quart",
+            "unitPattern-count-other": "{0} İng. quart"
           },
           "coordinateUnit": {
             "displayName": "yön",

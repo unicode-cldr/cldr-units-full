@@ -3,7 +3,7 @@
     "fi": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "fi"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "jotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "eksbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "tsebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "jobi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "neliö{0}",
-            "compoundUnitPattern1": "neliö{0}",
-            "compoundUnitPattern1": "neliö{0}"
+            "compoundUnitPattern1-count-one": "neliö{0}",
+            "compoundUnitPattern1-count-other": "neliö{0}"
           },
           "power3": {
             "compoundUnitPattern1": "kuutio{0}",
-            "compoundUnitPattern1": "kuutio{0}",
-            "compoundUnitPattern1": "kuutio{0}"
+            "compoundUnitPattern1-count-one": "kuutio{0}",
+            "compoundUnitPattern1-count-other": "kuutio{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -191,9 +215,9 @@
             "unitPattern-count-other": "{0} mmol/l"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
-            "unitPattern-count-one": "{0} ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "miljoonasosat",
+            "unitPattern-count-one": "{0} miljoonasosa",
+            "unitPattern-count-other": "{0} miljoonasosaa"
           },
           "concentr-percent": {
             "displayName": "prosentit",
@@ -296,8 +320,9 @@
             "unitPattern-count-other": "{0} vuosisataa"
           },
           "duration-decade": {
-            "displayName": "dec",
-            "unitPattern-count-other": "{0} dec"
+            "displayName": "vuosikymmenet",
+            "unitPattern-count-one": "{0} vuosikymmen",
+            "unitPattern-count-other": "{0} vuosikymmentä"
           },
           "duration-year": {
             "displayName": "vuodet",
@@ -478,6 +503,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "piste",
+            "unitPattern-count-one": "{0} piste",
+            "unitPattern-count-other": "{0} pistettä"
+          },
+          "length-earth-radius": {
+            "displayName": "Maan säteet",
+            "unitPattern-count-one": "{0} Maan säde",
+            "unitPattern-count-other": "{0} Maan sädettä"
+          },
           "length-kilometer": {
             "displayName": "kilometrit",
             "unitPattern-count-one": "{0} kilometri",
@@ -593,6 +628,16 @@
             "unitPattern-count-one": "{0} luksi",
             "unitPattern-count-other": "{0} luksia"
           },
+          "light-candela": {
+            "displayName": "kandelat",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandelaa"
+          },
+          "light-lumen": {
+            "displayName": "luumenit",
+            "unitPattern-count-one": "{0} luumen",
+            "unitPattern-count-other": "{0} luumenia"
+          },
           "light-solar-luminosity": {
             "displayName": "Auringon luminositeetit",
             "unitPattern-count-one": "{0} Auringon luminositeetti",
@@ -672,6 +717,11 @@
             "unitPattern-count-one": "{0} auringon massa",
             "unitPattern-count-other": "{0} auringon massaa"
           },
+          "mass-grain": {
+            "displayName": "graanit",
+            "unitPattern-count-one": "{0} graani",
+            "unitPattern-count-other": "{0} graania"
+          },
           "power-gigawatt": {
             "displayName": "gigawatit",
             "unitPattern-count-one": "{0} gigawatti",
@@ -704,8 +754,8 @@
           },
           "pressure-millimeter-ofhg": {
             "displayName": "elohopeamillimetrit",
-            "unitPattern-count-one": "{0} millimetri elohopeaa",
-            "unitPattern-count-other": "{0} millimetriä elohopeaa"
+            "unitPattern-count-one": "{0} elohopeamillimetri",
+            "unitPattern-count-other": "{0} elohopeamillimetriä"
           },
           "pressure-pound-force-per-square-inch": {
             "displayName": "paunat / neliötuuma",
@@ -714,8 +764,8 @@
           },
           "pressure-inch-ofhg": {
             "displayName": "elohopeatuumat",
-            "unitPattern-count-one": "{0} tuuma elohopeaa",
-            "unitPattern-count-other": "{0} tuumaa elohopeaa"
+            "unitPattern-count-one": "{0} elohopeatuuma",
+            "unitPattern-count-other": "{0} elohopeatuumaa"
           },
           "pressure-bar": {
             "displayName": "baarit",
@@ -942,6 +992,41 @@
             "unitPattern-count-one": "{0} barreli",
             "unitPattern-count-other": "{0} barrelia"
           },
+          "volume-dessert-spoon": {
+            "displayName": "jälkiruokalusikat",
+            "unitPattern-count-one": "{0} jälkiruokalusikka",
+            "unitPattern-count-other": "{0} jälkiruokalusikkaa"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "Imp. jälkiruokalusikat",
+            "unitPattern-count-one": "{0} imp. jälkiruokalusikka",
+            "unitPattern-count-other": "{0} imp. jälkiruokalusikkaa"
+          },
+          "volume-drop": {
+            "displayName": "tipat",
+            "unitPattern-count-one": "{0} tippa",
+            "unitPattern-count-other": "{0} tippaa"
+          },
+          "volume-dram": {
+            "displayName": "dramit",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dramia"
+          },
+          "volume-jigger": {
+            "displayName": "jiggerit",
+            "unitPattern-count-one": "{0} jigger",
+            "unitPattern-count-other": "{0} jiggeriä"
+          },
+          "volume-pinch": {
+            "displayName": "ripaus",
+            "unitPattern-count-one": "{0} ripaus",
+            "unitPattern-count-other": "{0} ripausta"
+          },
+          "volume-quart-imperial": {
+            "displayName": "Imp. neljännesgallonat",
+            "unitPattern-count-one": "{0} imp. neljännesgallona",
+            "unitPattern-count-other": "{0} imp. neljännesgallonaa"
+          },
           "coordinateUnit": {
             "displayName": "pääilmansuunta",
             "east": "{0}I",
@@ -1011,18 +1096,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1419,6 +1528,15 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "piste",
+            "unitPattern-count-one": "{0} piste",
+            "unitPattern-count-other": "{0} pistettä"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1533,6 +1651,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Auringon luminositeetit",
             "unitPattern-count-one": "{0} L☉",
@@ -1610,6 +1736,11 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "graanit",
+            "unitPattern-count-one": "{0} graani",
+            "unitPattern-count-other": "{0} graania"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-one": "{0} GW",
@@ -1641,9 +1772,9 @@
             "unitPattern-count-other": "{0} hv"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm Hg",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "displayName": "mmHg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
@@ -1873,6 +2004,40 @@
             "displayName": "barrelit",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "jrkl",
+            "unitPattern-count-one": "{0} jrkl",
+            "unitPattern-count-other": "{0} jrkl"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. jrkl",
+            "unitPattern-count-one": "{0} imp. jrkl",
+            "unitPattern-count-other": "{0} imp. jrkl"
+          },
+          "volume-drop": {
+            "displayName": "tipat",
+            "unitPattern-count-one": "{0} tippa",
+            "unitPattern-count-other": "{0} tippaa"
+          },
+          "volume-dram": {
+            "displayName": "dramit",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dramia"
+          },
+          "volume-jigger": {
+            "displayName": "jiggerit",
+            "unitPattern-count-one": "{0} jigger",
+            "unitPattern-count-other": "{0} jiggeriä"
+          },
+          "volume-pinch": {
+            "displayName": "ripaus",
+            "unitPattern-count-one": "{0} ripaus",
+            "unitPattern-count-other": "{0} ripausta"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
+          },
           "coordinateUnit": {
             "displayName": "ilmansuunta",
             "east": "{0}I",
@@ -1942,18 +2107,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2358,6 +2547,15 @@
             "unitPattern-count-one": "{0}dpi",
             "unitPattern-count-other": "{0}dpi"
           },
+          "graphics-dot": {
+            "displayName": "piste",
+            "unitPattern-count-one": "{0} piste",
+            "unitPattern-count-other": "{0} pistettä"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0}km",
@@ -2473,6 +2671,14 @@
             "unitPattern-count-one": "{0}lx",
             "unitPattern-count-other": "{0}lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-one": "{0}L☉",
@@ -2551,6 +2757,11 @@
             "displayName": "M☉",
             "unitPattern-count-one": "{0}M☉",
             "unitPattern-count-other": "{0}M☉"
+          },
+          "mass-grain": {
+            "displayName": "graanit",
+            "unitPattern-count-one": "{0} graani",
+            "unitPattern-count-other": "{0} graania"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2820,6 +3031,40 @@
             "displayName": "bbl",
             "unitPattern-count-one": "{0}bbl",
             "unitPattern-count-other": "{0}bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "jrkl",
+            "unitPattern-count-one": "{0} jrkl",
+            "unitPattern-count-other": "{0} jrkl"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. jrkl",
+            "unitPattern-count-one": "{0} imp. jrkl",
+            "unitPattern-count-other": "{0} imp. jrkl"
+          },
+          "volume-drop": {
+            "displayName": "tipat",
+            "unitPattern-count-one": "{0} tippa",
+            "unitPattern-count-other": "{0} tippaa"
+          },
+          "volume-dram": {
+            "displayName": "dramit",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dramia"
+          },
+          "volume-jigger": {
+            "displayName": "jiggerit",
+            "unitPattern-count-one": "{0} jigger",
+            "unitPattern-count-other": "{0} jiggeriä"
+          },
+          "volume-pinch": {
+            "displayName": "ripaus",
+            "unitPattern-count-one": "{0} ripaus",
+            "unitPattern-count-other": "{0} ripausta"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "suunta",

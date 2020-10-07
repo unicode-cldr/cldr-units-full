@@ -3,7 +3,7 @@
     "uz": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "uz"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "eksbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0} kvadrat",
-            "compoundUnitPattern1": "{0} kvadrat",
-            "compoundUnitPattern1": "{0} kvadrat"
+            "compoundUnitPattern1-count-one": "{0} kvadrat",
+            "compoundUnitPattern1-count-other": "{0} kvadrat"
           },
           "power3": {
             "compoundUnitPattern1": "{0} kub",
-            "compoundUnitPattern1": "{0} kub",
-            "compoundUnitPattern1": "{0} kub"
+            "compoundUnitPattern1-count-one": "{0} kub",
+            "compoundUnitPattern1-count-other": "{0} kub"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -191,9 +215,9 @@
             "unitPattern-count-other": "{0} millimol/litr"
           },
           "concentr-permillion": {
-            "displayName": "millionning ulushi",
-            "unitPattern-count-one": "milliondan {0}",
-            "unitPattern-count-other": "milliondan {0}"
+            "displayName": "qism/million",
+            "unitPattern-count-one": "{0} qism/million",
+            "unitPattern-count-other": "{0} qism/million"
           },
           "concentr-percent": {
             "displayName": "foiz",
@@ -487,6 +511,16 @@
             "unitPattern-count-one": "{0} nuqta/duym",
             "unitPattern-count-other": "{0} nuqta/duym"
           },
+          "graphics-dot": {
+            "displayName": "piksel",
+            "unitPattern-count-one": "{0} piksel",
+            "unitPattern-count-other": "{0} piksel"
+          },
+          "length-earth-radius": {
+            "displayName": "yer radiusi",
+            "unitPattern-count-one": "{0} yer radiusi",
+            "unitPattern-count-other": "{0} yer radiusi"
+          },
           "length-kilometer": {
             "displayName": "kilometr",
             "unitPattern-count-one": "{0} kilometr",
@@ -568,12 +602,14 @@
             "unitPattern-count-other": "{0} astronomik birlik"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "farlong",
+            "unitPattern-count-one": "{0} farlong",
+            "unitPattern-count-other": "{0} farlong"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "fatom",
+            "unitPattern-count-one": "{0} fatom",
+            "unitPattern-count-other": "{0} fatom"
           },
           "length-nautical-mile": {
             "displayName": "dengiz mili",
@@ -599,6 +635,16 @@
             "displayName": "lyuks",
             "unitPattern-count-one": "{0} lyuks",
             "unitPattern-count-other": "{0} lyuks"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-other": "{0} lumen"
           },
           "light-solar-luminosity": {
             "displayName": "quyosh nuri kuchi",
@@ -638,8 +684,9 @@
             "unitPattern-count-other": "{0} amerika tonnasi"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "tosh",
+            "unitPattern-count-one": "{0} tosh",
+            "unitPattern-count-other": "{0} tosh"
           },
           "mass-pound": {
             "displayName": "funt",
@@ -678,6 +725,11 @@
             "unitPattern-count-one": "{0} quyosh massasi",
             "unitPattern-count-other": "{0} quyosh massasi"
           },
+          "mass-grain": {
+            "displayName": "gran",
+            "unitPattern-count-one": "{0} gran",
+            "unitPattern-count-other": "{0} gran"
+          },
           "power-gigawatt": {
             "displayName": "gigavatt",
             "unitPattern-count-one": "{0} gigavatt",
@@ -714,9 +766,9 @@
             "unitPattern-count-other": "{0} mm simob ustuni"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "funt/kvadrat duym",
-            "unitPattern-count-one": "{0} funt/kvadrat duym",
-            "unitPattern-count-other": "{0} funt/kvadrat duym"
+            "displayName": "funt/duym kvadrat",
+            "unitPattern-count-one": "{0} funt/duym kvadrat",
+            "unitPattern-count-other": "{0} funt/duym kvadrat"
           },
           "pressure-inch-ofhg": {
             "displayName": "duym simob ustuni",
@@ -800,7 +852,7 @@
           },
           "torque-pound-force-foot": {
             "displayName": "funt-fut",
-            "unitPattern-count-one": "{0} funt-fut",
+            "unitPattern-count-one": "{0} funt-kuch-fut",
             "unitPattern-count-other": "{0} funt-fut"
           },
           "torque-newton-meter": {
@@ -892,8 +944,9 @@
             "unitPattern-count-other": "{0} akrofut"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bushel",
+            "unitPattern-count-one": "{0} bushel",
+            "unitPattern-count-other": "{0} bushel"
           },
           "volume-gallon": {
             "displayName": "gallon",
@@ -946,6 +999,41 @@
             "displayName": "barrel",
             "unitPattern-count-one": "{0} barrel",
             "unitPattern-count-other": "{0} barrel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desert qoshiq",
+            "unitPattern-count-one": "{0} desert qoshiq",
+            "unitPattern-count-other": "{0} desert qoshiq"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp. desert qoshiq",
+            "unitPattern-count-one": "{0} imp. desert qoshiq",
+            "unitPattern-count-other": "{0} imp. desert qoshiq"
+          },
+          "volume-drop": {
+            "displayName": "tomchi",
+            "unitPattern-count-one": "{0} tomchi",
+            "unitPattern-count-other": "{0} tomchi"
+          },
+          "volume-dram": {
+            "displayName": "draxma",
+            "unitPattern-count-one": "{0} draxma",
+            "unitPattern-count-other": "{0} draxma"
+          },
+          "volume-jigger": {
+            "displayName": "qadah",
+            "unitPattern-count-one": "{0} qadah",
+            "unitPattern-count-other": "{0} qadah"
+          },
+          "volume-pinch": {
+            "displayName": "chimdim",
+            "unitPattern-count-one": "{0} chimdim",
+            "unitPattern-count-other": "{0} chimdim"
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp kvarta",
+            "unitPattern-count-one": "{0} imp. kvarta",
+            "unitPattern-count-other": "{0} imp. kvarta"
           },
           "coordinateUnit": {
             "displayName": "yo‘nalish",
@@ -1016,18 +1104,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1138,9 +1250,9 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
-            "unitPattern-count-one": "{0} ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "qism/million",
+            "unitPattern-count-one": "{0} qism/million",
+            "unitPattern-count-other": "{0} qism/million"
           },
           "concentr-percent": {
             "displayName": "foiz",
@@ -1434,6 +1546,16 @@
             "unitPattern-count-one": "{0} nuqta/duym",
             "unitPattern-count-other": "{0} nuqta/duym"
           },
+          "graphics-dot": {
+            "displayName": "piksel",
+            "unitPattern-count-one": "{0} piksel",
+            "unitPattern-count-other": "{0} piksel"
+          },
+          "length-earth-radius": {
+            "displayName": "yer radiusi",
+            "unitPattern-count-one": "{0} yer radiusi",
+            "unitPattern-count-other": "{0} yer radiusi"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1515,12 +1637,14 @@
             "unitPattern-count-other": "{0} a.b."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "farlong",
+            "unitPattern-count-one": "{0} farlong",
+            "unitPattern-count-other": "{0} farlong"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "fatom",
+            "unitPattern-count-one": "{0} fatom",
+            "unitPattern-count-other": "{0} fatom"
           },
           "length-nautical-mile": {
             "displayName": "den. mili",
@@ -1546,6 +1670,16 @@
             "displayName": "lk",
             "unitPattern-count-one": "{0} lk",
             "unitPattern-count-other": "{0} lk"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "quyosh nuri kuchi",
@@ -1585,8 +1719,9 @@
             "unitPattern-count-other": "{0} amer. t"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "tosh",
+            "unitPattern-count-one": "{0} tosh",
+            "unitPattern-count-other": "{0} tosh"
           },
           "mass-pound": {
             "displayName": "funt",
@@ -1625,6 +1760,11 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "gran",
+            "unitPattern-count-one": "{0} gran",
+            "unitPattern-count-other": "{0} gran"
+          },
           "power-gigawatt": {
             "displayName": "GVt",
             "unitPattern-count-one": "{0} GVt",
@@ -1656,19 +1796,19 @@
             "unitPattern-count-other": "{0} o.k."
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm sim.ust",
-            "unitPattern-count-one": "{0} mm sim.ust",
-            "unitPattern-count-other": "{0} mm sim.ust"
+            "displayName": "mm Hg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "funt/kv.dy",
-            "unitPattern-count-one": "{0} funt/kv.dy",
-            "unitPattern-count-other": "{0} funt/kv.dy"
+            "displayName": "funt/dy.kv",
+            "unitPattern-count-one": "{0} funt/dy.kv",
+            "unitPattern-count-other": "{0} funt/dy.kv"
           },
           "pressure-inch-ofhg": {
-            "displayName": "dy sim.ust",
-            "unitPattern-count-one": "{0} dy sim.ust",
-            "unitPattern-count-other": "{0} dy sim.ust"
+            "displayName": "inHg",
+            "unitPattern-count-one": "{0} inHg",
+            "unitPattern-count-other": "{0} inHg"
           },
           "pressure-bar": {
             "displayName": "bar",
@@ -1746,9 +1886,9 @@
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-force-foot": {
-            "displayName": "funt-fut",
-            "unitPattern-count-one": "{0} funt-fut",
-            "unitPattern-count-other": "{0} funt-fut"
+            "displayName": "funt-kuch-fut",
+            "unitPattern-count-one": "{0} funt-kuch-fut",
+            "unitPattern-count-other": "{0} funt-kuch-fut"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
@@ -1839,8 +1979,9 @@
             "unitPattern-count-other": "{0} akrofut"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bushel",
+            "unitPattern-count-one": "{0} bushel",
+            "unitPattern-count-other": "{0} bushel"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -1893,6 +2034,41 @@
             "displayName": "barrel",
             "unitPattern-count-one": "{0} barrel",
             "unitPattern-count-other": "{0} barrel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desert qoshiq",
+            "unitPattern-count-one": "{0} desert qoshiq",
+            "unitPattern-count-other": "{0} desert qoshiq"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp desert qoshiq",
+            "unitPattern-count-one": "{0} imp desert qoshiq",
+            "unitPattern-count-other": "{0} imp desert qoshiq"
+          },
+          "volume-drop": {
+            "displayName": "tomchi",
+            "unitPattern-count-one": "{0} tomchi",
+            "unitPattern-count-other": "{0} tomchi"
+          },
+          "volume-dram": {
+            "displayName": "suyuqlik draxmasi",
+            "unitPattern-count-one": "{0} suyuqlik draxmasi",
+            "unitPattern-count-other": "{0} suyuqlik draxmasi"
+          },
+          "volume-jigger": {
+            "displayName": "qadah",
+            "unitPattern-count-one": "{0} qadah",
+            "unitPattern-count-other": "{0} qadah"
+          },
+          "volume-pinch": {
+            "displayName": "chimdim",
+            "unitPattern-count-one": "{0} chimdim",
+            "unitPattern-count-other": "{0} chimdim"
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp kvarta",
+            "unitPattern-count-one": "{0} imp. kvarta",
+            "unitPattern-count-other": "{0} imp. kvarta"
           },
           "coordinateUnit": {
             "displayName": "yo‘nalish",
@@ -1963,18 +2139,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2085,9 +2285,9 @@
             "unitPattern-count-other": "{0} mmol/L"
           },
           "concentr-permillion": {
-            "displayName": "ppm",
-            "unitPattern-count-one": "{0} ppm",
-            "unitPattern-count-other": "{0} ppm"
+            "displayName": "qism/million",
+            "unitPattern-count-one": "{0} qism/million",
+            "unitPattern-count-other": "{0} qism/million"
           },
           "concentr-percent": {
             "displayName": "%",
@@ -2381,6 +2581,16 @@
             "unitPattern-count-one": "{0} nuqta/duym",
             "unitPattern-count-other": "{0} nuqta/duym"
           },
+          "graphics-dot": {
+            "displayName": "piksel",
+            "unitPattern-count-one": "{0} piksel",
+            "unitPattern-count-other": "{0} piksel"
+          },
+          "length-earth-radius": {
+            "displayName": "yer radiusi",
+            "unitPattern-count-one": "{0} yer radiusi",
+            "unitPattern-count-other": "{0} yer radiusi"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2462,12 +2672,14 @@
             "unitPattern-count-other": "{0} a.b."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "farlong",
+            "unitPattern-count-one": "{0} farlong",
+            "unitPattern-count-other": "{0} farlong"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "fatom",
+            "unitPattern-count-one": "{0} fatom",
+            "unitPattern-count-other": "{0} fatom"
           },
           "length-nautical-mile": {
             "displayName": "den. mili",
@@ -2493,6 +2705,16 @@
             "displayName": "lk",
             "unitPattern-count-one": "{0} lk",
             "unitPattern-count-other": "{0} lk"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-one": "{0} lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "quyosh nuri kuchi",
@@ -2532,8 +2754,9 @@
             "unitPattern-count-other": "{0} amer. t"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "tosh",
+            "unitPattern-count-one": "{0} tosh",
+            "unitPattern-count-other": "{0} tosh"
           },
           "mass-pound": {
             "displayName": "funt",
@@ -2572,6 +2795,11 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "gran",
+            "unitPattern-count-one": "{0} gran",
+            "unitPattern-count-other": "{0} gran"
+          },
           "power-gigawatt": {
             "displayName": "GVt",
             "unitPattern-count-one": "{0} GVt",
@@ -2603,17 +2831,17 @@
             "unitPattern-count-other": "{0} hp"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "mm sim.ust",
-            "unitPattern-count-one": "{0} mm sim.ust",
-            "unitPattern-count-other": "{0} mm sim.ust"
+            "displayName": "mm Hg",
+            "unitPattern-count-one": "{0} mmHg",
+            "unitPattern-count-other": "{0} mmHg"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "funt/kv.dy",
-            "unitPattern-count-one": "{0} funt/kv.dy",
-            "unitPattern-count-other": "{0} funt/kv.dy"
+            "displayName": "funt/dy.kv",
+            "unitPattern-count-one": "{0} funt/dy.kv",
+            "unitPattern-count-other": "{0} funt/dy.kv"
           },
           "pressure-inch-ofhg": {
-            "displayName": "dy sim.ust",
+            "displayName": "inHg",
             "unitPattern-count-one": "{0} inHg",
             "unitPattern-count-other": "{0} inHg"
           },
@@ -2693,9 +2921,9 @@
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-force-foot": {
-            "displayName": "funt-fut",
-            "unitPattern-count-one": "{0} funt-fut",
-            "unitPattern-count-other": "{0} funt-fut"
+            "displayName": "funt-kuch-fut",
+            "unitPattern-count-one": "{0} funt-kuch-fut",
+            "unitPattern-count-other": "{0} funt-kuch-fut"
           },
           "torque-newton-meter": {
             "displayName": "N⋅m",
@@ -2786,8 +3014,9 @@
             "unitPattern-count-other": "{0} akrofut"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bushel",
+            "unitPattern-count-one": "{0} bushel",
+            "unitPattern-count-other": "{0} bushel"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -2840,6 +3069,41 @@
             "displayName": "barrel",
             "unitPattern-count-one": "{0} barrel",
             "unitPattern-count-other": "{0} barrel"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desert qoshiq",
+            "unitPattern-count-one": "{0} desert qoshiq",
+            "unitPattern-count-other": "{0} desert qoshiq"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imp desert qoshiq",
+            "unitPattern-count-one": "{0} imp desert qoshiq",
+            "unitPattern-count-other": "{0} imp desert qoshiq"
+          },
+          "volume-drop": {
+            "displayName": "tomchi",
+            "unitPattern-count-one": "{0} tomchi",
+            "unitPattern-count-other": "{0} tomchi"
+          },
+          "volume-dram": {
+            "displayName": "suyuqlik draxmasi",
+            "unitPattern-count-one": "{0} suyuqlik draxmasi",
+            "unitPattern-count-other": "{0} suyuqlik draxmasi"
+          },
+          "volume-jigger": {
+            "displayName": "qadah",
+            "unitPattern-count-one": "{0} qadah",
+            "unitPattern-count-other": "{0} qadah"
+          },
+          "volume-pinch": {
+            "displayName": "chimdim",
+            "unitPattern-count-one": "{0} chimdim",
+            "unitPattern-count-other": "{0} chimdim"
+          },
+          "volume-quart-imperial": {
+            "displayName": "imp kvarta",
+            "unitPattern-count-one": "{0} imp. kvarta",
+            "unitPattern-count-other": "{0} imp. kvarta"
           },
           "coordinateUnit": {
             "displayName": "yo‘nalish",

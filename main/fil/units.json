@@ -3,7 +3,7 @@
     "fil": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "fil"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} kada {1}"
           },
           "power2": {
             "compoundUnitPattern1": "square {0}",
-            "compoundUnitPattern1": "{0} kuwadrado",
-            "compoundUnitPattern1": "{0} kuwadrado"
+            "compoundUnitPattern1-count-one": "{0} kuwadrado",
+            "compoundUnitPattern1-count-other": "{0} kuwadrado"
           },
           "power3": {
             "compoundUnitPattern1": "cubic {0}",
-            "compoundUnitPattern1": "cubic na {0}",
-            "compoundUnitPattern1": "cubic {0}"
+            "compoundUnitPattern1-count-one": "cubic na {0}",
+            "compoundUnitPattern1-count-other": "cubic {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -485,6 +509,16 @@
             "unitPattern-count-one": "{0} tuldok bawat pulgada",
             "unitPattern-count-other": "{0} tuldok bawat pulgada"
           },
+          "graphics-dot": {
+            "displayName": "tuldok",
+            "unitPattern-count-one": "{0} tuldok",
+            "unitPattern-count-other": "{0} tuldok"
+          },
+          "length-earth-radius": {
+            "displayName": "earth radius",
+            "unitPattern-count-one": "{0} earth radius",
+            "unitPattern-count-other": "{0} na earth radius"
+          },
           "length-kilometer": {
             "displayName": "kilometro",
             "unitPattern-count-one": "{0} kilometro",
@@ -600,6 +634,16 @@
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} na lux"
           },
+          "light-candela": {
+            "displayName": "candela",
+            "unitPattern-count-one": "{0} candela",
+            "unitPattern-count-other": "{0} candela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-other": "{0} lumen"
+          },
           "light-solar-luminosity": {
             "displayName": "solar luminosity",
             "unitPattern-count-one": "{0} solar luminosity",
@@ -678,6 +722,11 @@
             "displayName": "solar mass",
             "unitPattern-count-one": "{0} solar mass",
             "unitPattern-count-other": "{0} solar mass"
+          },
+          "mass-grain": {
+            "displayName": "butil",
+            "unitPattern-count-one": "{0} butil",
+            "unitPattern-count-other": "{0} butil"
           },
           "power-gigawatt": {
             "displayName": "gigawatts",
@@ -892,8 +941,9 @@
             "unitPattern-count-other": "{0} acre-feet"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "mga bushel",
+            "unitPattern-count-one": "{0} bushel",
+            "unitPattern-count-other": "{0} mga bushel"
           },
           "volume-gallon": {
             "displayName": "galon",
@@ -946,6 +996,39 @@
             "displayName": "bariles",
             "unitPattern-count-one": "{0} bariles",
             "unitPattern-count-other": "{0} bariles"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "kutsarang panghimagas",
+            "unitPattern-count-one": "{0} kutsarang panghimagas",
+            "unitPattern-count-other": "{0} kutsarang panghimagas"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "Imp. na kutsarang panghimagas",
+            "unitPattern-count-one": "{0} Imp. na kutsarang panghimagas",
+            "unitPattern-count-other": "{0} Imp. na kutsarang panghimagas"
+          },
+          "volume-drop": {
+            "displayName": "patak",
+            "unitPattern-count-one": "{0} patak",
+            "unitPattern-count-other": "{0} patak"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "karampot",
+            "unitPattern-count-one": "{0} karampot",
+            "unitPattern-count-other": "{0} karampot"
+          },
+          "volume-quart-imperial": {
+            "displayName": "Imp. na kuwart",
+            "unitPattern-count-one": "{0} Imp. na kuwart",
+            "unitPattern-count-other": "{0} Imp. na kuwart"
           },
           "coordinateUnit": {
             "displayName": "cardinal direction",
@@ -1016,16 +1099,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1423,6 +1530,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "tuldok",
+            "unitPattern-count-one": "{0} tuldok",
+            "unitPattern-count-other": "{0} tuldok"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} na R⊕",
+            "unitPattern-count-other": "{0} na R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1537,6 +1654,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "solar luminosity",
             "unitPattern-count-one": "{0} L☉",
@@ -1615,6 +1740,11 @@
             "displayName": "solar mass",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "butil",
+            "unitPattern-count-one": "{0} butil",
+            "unitPattern-count-other": "{0} butil"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1828,7 +1958,7 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "mga bushel",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -1880,6 +2010,36 @@
           "volume-barrel": {
             "displayName": "bariles",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "patak",
+            "unitPattern-count-one": "{0} patak",
+            "unitPattern-count-other": "{0} patak"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "karampot",
+            "unitPattern-count-one": "{0} karampot",
+            "unitPattern-count-other": "{0} karampot"
+          },
+          "volume-quart-imperial": {
+            "displayName": "Imp na kuwart",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "direction",
@@ -1950,16 +2110,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2357,6 +2541,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "tuldok",
+            "unitPattern-count-one": "{0} tuldok",
+            "unitPattern-count-other": "{0} tuldok"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} na R⊕",
+            "unitPattern-count-other": "{0} na R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0}km",
@@ -2471,6 +2665,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "solar luminosity",
             "unitPattern-count-one": "{0} L☉",
@@ -2549,6 +2751,11 @@
             "displayName": "solar mass",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "butil",
+            "unitPattern-count-one": "{0} butil",
+            "unitPattern-count-other": "{0} butil"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2762,7 +2969,7 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "mga bushel",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2814,6 +3021,36 @@
           "volume-barrel": {
             "displayName": "bariles",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "patak",
+            "unitPattern-count-one": "{0} patak",
+            "unitPattern-count-other": "{0} patak"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "karampot",
+            "unitPattern-count-one": "{0} karampot",
+            "unitPattern-count-other": "{0} karampot"
+          },
+          "volume-quart-imperial": {
+            "displayName": "Imp na kuwart",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "direction",

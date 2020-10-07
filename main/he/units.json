@@ -3,7 +3,7 @@
     "he": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "he"
       },
@@ -69,22 +69,46 @@
           "10p24": {
             "unitPrefixPattern": "יוטא{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "קיבי{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "מבי{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ג׳יבי{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "טבי{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "פבי{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "אקסבי{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "זבי{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "יובא{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} ל{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} בריבוע",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0} בריבוע",
+            "compoundUnitPattern1-count-two": "{0} בריבוע",
+            "compoundUnitPattern1-count-many": "{0} בריבוע",
+            "compoundUnitPattern1-count-other": "{0} בריבוע"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} מעוקב",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0} מעוקב",
+            "compoundUnitPattern1-count-two": "{0} מעוקב",
+            "compoundUnitPattern1-count-many": "{0} מעוקב",
+            "compoundUnitPattern1-count-other": "{0} מעוקב"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -644,6 +668,20 @@
             "unitPattern-count-many": "‎{0} dpi‎",
             "unitPattern-count-other": "‎{0} dots per inch‎"
           },
+          "graphics-dot": {
+            "displayName": "נקודה קטנה",
+            "unitPattern-count-one": "{0} נקודה",
+            "unitPattern-count-two": "{0} נקודות קטנות",
+            "unitPattern-count-many": "{0} נקודות קטנות",
+            "unitPattern-count-other": "{0} נקודות קטנות"
+          },
+          "length-earth-radius": {
+            "displayName": "רדיוס כדור-הארץ",
+            "unitPattern-count-one": "רדיוס כדור-הארץ",
+            "unitPattern-count-two": "{0} רדיוס כדור-הארץ",
+            "unitPattern-count-many": "{0} רדיוס כדור-הארץ",
+            "unitPattern-count-other": "{0} רדיוס כדור-הארץ"
+          },
           "length-kilometer": {
             "displayName": "קילומטרים",
             "unitPattern-count-one": "קילומטר {0}",
@@ -755,12 +793,18 @@
             "unitPattern-count-other": "{0} יחידות אסטרונומיות"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "פורלונג",
+            "unitPattern-count-one": "{0} פורלונג",
+            "unitPattern-count-two": "{0} פורלונג",
+            "unitPattern-count-many": "{0} פורלונג",
+            "unitPattern-count-other": "{0} פורלונג"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "פתום",
+            "unitPattern-count-one": "{0} פתום",
+            "unitPattern-count-two": "{0} פתום",
+            "unitPattern-count-many": "{0} פתום",
+            "unitPattern-count-other": "{0} פתום"
           },
           "length-nautical-mile": {
             "displayName": "מייל ימי",
@@ -796,6 +840,20 @@
             "unitPattern-count-two": "{0} לוקס",
             "unitPattern-count-many": "{0} לוקס",
             "unitPattern-count-other": "{0} לוקס"
+          },
+          "light-candela": {
+            "displayName": "קנדלה",
+            "unitPattern-count-one": "קנדלה",
+            "unitPattern-count-two": "{0} קנדלה",
+            "unitPattern-count-many": "{0} קנדלה",
+            "unitPattern-count-other": "{0} קנדלה"
+          },
+          "light-lumen": {
+            "displayName": "לומן",
+            "unitPattern-count-one": "לומן {0}",
+            "unitPattern-count-two": "{0} לומן",
+            "unitPattern-count-many": "{0} לומן",
+            "unitPattern-count-other": "{0} לומן"
           },
           "light-solar-luminosity": {
             "displayName": "אנרגיה סולארית ביחידת זמן",
@@ -902,6 +960,13 @@
             "unitPattern-count-two": "{0} מסות שמש",
             "unitPattern-count-many": "{0} מסות שמש",
             "unitPattern-count-other": "{0} מסות שמש"
+          },
+          "mass-grain": {
+            "displayName": "גרעין",
+            "unitPattern-count-one": "גרעין {0}",
+            "unitPattern-count-two": "{0} גרעינים",
+            "unitPattern-count-many": "{0} גרעינים",
+            "unitPattern-count-other": "{0} גרעינים"
           },
           "power-gigawatt": {
             "displayName": "ג׳יגה ואט",
@@ -1072,11 +1137,11 @@
             "unitPattern-count-other": "{0} קלווין"
           },
           "torque-pound-force-foot": {
-            "displayName": "כוח פאונד",
-            "unitPattern-count-one": "{0} כוח פאונד",
-            "unitPattern-count-two": "{0} כוח פאונד",
-            "unitPattern-count-many": "{0} כוח פאונד",
-            "unitPattern-count-other": "{0} כוח פאונד"
+            "displayName": "רגל-פאונד",
+            "unitPattern-count-one": "{0} רגל-פאונד",
+            "unitPattern-count-two": "{0} רגל-פאונד",
+            "unitPattern-count-many": "{0} רגל-פאונד",
+            "unitPattern-count-other": "{0} רגל-פאונד"
           },
           "torque-newton-meter": {
             "displayName": "ניוטון-מטר",
@@ -1201,8 +1266,11 @@
             "unitPattern-count-other": "{0} אקר-רגל"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "בושל",
+            "unitPattern-count-one": "{0} בושל",
+            "unitPattern-count-two": "{0} בושל",
+            "unitPattern-count-many": "{0} בושל",
+            "unitPattern-count-other": "{0} בושל"
           },
           "volume-gallon": {
             "displayName": "גלון",
@@ -1276,6 +1344,55 @@
             "unitPattern-count-many": "{0} חביות",
             "unitPattern-count-other": "{0} חביות"
           },
+          "volume-dessert-spoon": {
+            "displayName": "כפית קינוחים",
+            "unitPattern-count-one": "כפית קינוחים",
+            "unitPattern-count-two": "{0} כפיות קינוחים",
+            "unitPattern-count-many": "{0} כפיות קינוחים",
+            "unitPattern-count-other": "{0} כפיות קינוחים"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "כפית קינוחים בארה״ב",
+            "unitPattern-count-one": "כפית קינוחים בארה״ב",
+            "unitPattern-count-two": "{0} כפיות קינוחים בארה\\\"ב",
+            "unitPattern-count-many": "{0} כפיות קינוחים בארה\\\"ב",
+            "unitPattern-count-other": "{0} כפיות קינוחים בארה\\\"ב"
+          },
+          "volume-drop": {
+            "displayName": "טיפה",
+            "unitPattern-count-one": "טיפה",
+            "unitPattern-count-two": "{0} טיפות",
+            "unitPattern-count-many": "{0} טיפות",
+            "unitPattern-count-other": "{0} טיפות"
+          },
+          "volume-dram": {
+            "displayName": "דראם אלכוהול",
+            "unitPattern-count-one": "דראם אלכוהול {0}",
+            "unitPattern-count-two": "{0} דראם אלכוהול",
+            "unitPattern-count-many": "{0} דראם אלכוהול",
+            "unitPattern-count-other": "{0} דראם אלכוהול"
+          },
+          "volume-jigger": {
+            "displayName": "ג׳יגר",
+            "unitPattern-count-one": "ג'יגר {0}",
+            "unitPattern-count-two": "{0} ג'יגר",
+            "unitPattern-count-many": "{0} ג'יגר",
+            "unitPattern-count-other": "{0} ג'יגר"
+          },
+          "volume-pinch": {
+            "displayName": "פינץ׳",
+            "unitPattern-count-one": "פינץ' {0}",
+            "unitPattern-count-two": "{0} פינץ'",
+            "unitPattern-count-many": "{0} פינץ'",
+            "unitPattern-count-other": "{0} פינץ'"
+          },
+          "volume-quart-imperial": {
+            "displayName": "קווארט אימפריאלי",
+            "unitPattern-count-one": "קווארט אימפריאלי {0}",
+            "unitPattern-count-two": "{0} קווארטות אימפריאליות",
+            "unitPattern-count-many": "{0} קווארטות אימפריאליות",
+            "unitPattern-count-other": "{0} קווארטות אימפריאליות"
+          },
           "coordinateUnit": {
             "displayName": "רוחות השמיים",
             "east": "{0} מזרח",
@@ -1345,16 +1462,40 @@
           "10p24": {
             "unitPrefixPattern": "יוטא{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1896,6 +2037,17 @@
             "unitPattern-count-many": "‎{0} dpi‎",
             "unitPattern-count-other": "‎{0} dpi‎"
           },
+          "graphics-dot": {
+            "displayName": "נקודה קטנה",
+            "unitPattern-count-one": "{0} נק′ קטנה",
+            "unitPattern-count-two": "{0} נק′ קטנות",
+            "unitPattern-count-many": "{0} נק′ קטנות",
+            "unitPattern-count-other": "{0} נק′ קטנות"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "ק״מ",
             "unitPattern-count-one": "{0} ק״מ",
@@ -2049,6 +2201,14 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -2145,6 +2305,13 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "גרעין",
+            "unitPattern-count-one": "גרעין {0}",
+            "unitPattern-count-two": "{0} גרעינים",
+            "unitPattern-count-many": "{0} גרעינים",
+            "unitPattern-count-other": "{0} גרעינים"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2504,6 +2671,40 @@
             "unitPattern-count-many": "‎{0} bbl",
             "unitPattern-count-other": "‎{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "טיפה",
+            "unitPattern-count-one": "טיפה",
+            "unitPattern-count-two": "{0} טיפות",
+            "unitPattern-count-many": "{0} טיפות",
+            "unitPattern-count-other": "{0} טיפות"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "פינץ׳",
+            "unitPattern-count-one": "{0} פינץ'",
+            "unitPattern-count-two": "{0} פינץ'",
+            "unitPattern-count-many": "{0} פינץ'",
+            "unitPattern-count-other": "{0} פינץ'"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
+          },
           "coordinateUnit": {
             "displayName": "כיוון",
             "east": "{0} מז׳",
@@ -2573,16 +2774,40 @@
           "10p24": {
             "unitPrefixPattern": "יוטא{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -3124,6 +3349,17 @@
             "unitPattern-count-many": "‎{0} dpi‎",
             "unitPattern-count-other": "‎{0} dpi‎"
           },
+          "graphics-dot": {
+            "displayName": "נקודה קטנה",
+            "unitPattern-count-one": "{0} נק′ קטנה",
+            "unitPattern-count-two": "{0} נק′ קטנות",
+            "unitPattern-count-many": "{0} נק′ קטנות",
+            "unitPattern-count-other": "{0} נק′ קטנות"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "ק״מ",
             "unitPattern-count-one": "{0} ק״מ",
@@ -3277,6 +3513,14 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -3373,6 +3617,13 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "גרעין",
+            "unitPattern-count-one": "גרעין {0}",
+            "unitPattern-count-two": "{0} גרעינים",
+            "unitPattern-count-many": "{0} גרעינים",
+            "unitPattern-count-other": "{0} גרעינים"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -3731,6 +3982,40 @@
             "unitPattern-count-two": "‎{0} bbl",
             "unitPattern-count-many": "‎{0} bbl",
             "unitPattern-count-other": "‎{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "טיפה",
+            "unitPattern-count-one": "טיפה",
+            "unitPattern-count-two": "{0} טיפות",
+            "unitPattern-count-many": "{0} טיפות",
+            "unitPattern-count-other": "{0} טיפות"
+          },
+          "volume-dram": {
+            "displayName": "dram fluid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "פינץ׳",
+            "unitPattern-count-one": "{0} פינץ'",
+            "unitPattern-count-two": "{0} פינץ'",
+            "unitPattern-count-many": "{0} פינץ'",
+            "unitPattern-count-other": "{0} פינץ'"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "כיוון",

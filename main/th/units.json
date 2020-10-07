@@ -3,7 +3,7 @@
     "th": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "th"
       },
@@ -69,16 +69,40 @@
           "10p24": {
             "unitPrefixPattern": "ยอตตะ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "กิบิ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "เมบิ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "จิบิ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "เทบิ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "เพบิ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "เอ็กซ์บิ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "เซบิ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "โยบี{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}ต่อ{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "ตาราง{0}"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "ลูกบาศก์{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -193,8 +217,8 @@
             "unitPattern-count-other": "{0} ลิตรต่อกิโลเมตร"
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "ลิตรต่อ100 กิโลเมตร",
-            "unitPattern-count-other": "{0} ลิตรต่อ100 กิโลเมตร"
+            "displayName": "ลิตรต่อ 100 กิโลเมตร",
+            "unitPattern-count-other": "{0} ลิตรต่อ 100 กิโลเมตร"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ไมล์ต่อแกลลอน",
@@ -407,6 +431,14 @@
             "displayName": "จุดต่อนิ้ว",
             "unitPattern-count-other": "{0} จุดต่อนิ้ว"
           },
+          "graphics-dot": {
+            "displayName": "ดอท",
+            "unitPattern-count-other": "{0} ดอท"
+          },
+          "length-earth-radius": {
+            "displayName": "รัศมีของโลก",
+            "unitPattern-count-other": "{0} รัศมีของโลก"
+          },
           "length-kilometer": {
             "displayName": "กิโลเมตร",
             "unitPattern-count-other": "{0} กิโลเมตร",
@@ -473,12 +505,12 @@
             "unitPattern-count-other": "{0} หน่วยดาราศาสตร์"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "เฟอร์ลอง",
+            "unitPattern-count-other": "{0} เฟอร์ลอง"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ฟาทอม",
+            "unitPattern-count-other": "{0} ฟาทอม"
           },
           "length-nautical-mile": {
             "displayName": "ไมล์ทะเล",
@@ -499,6 +531,14 @@
           "light-lux": {
             "displayName": "ลักซ์",
             "unitPattern-count-other": "{0} ลักซ์"
+          },
+          "light-candela": {
+            "displayName": "แรงเทียน",
+            "unitPattern-count-other": "{0} แรงเทียน"
+          },
+          "light-lumen": {
+            "displayName": "ลูเมน",
+            "unitPattern-count-other": "{0} ลูเมน"
           },
           "light-solar-luminosity": {
             "displayName": "ความสว่างดวงอาทิตย์",
@@ -531,8 +571,8 @@
             "unitPattern-count-other": "{0} ตัน"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "สโตน",
+            "unitPattern-count-other": "{0} สโตน"
           },
           "mass-pound": {
             "displayName": "ปอนด์",
@@ -563,6 +603,10 @@
           "mass-solar-mass": {
             "displayName": "มวลดวงอาทิตย์",
             "unitPattern-count-other": "{0} มวลดวงอาทิตย์"
+          },
+          "mass-grain": {
+            "displayName": "เกรน",
+            "unitPattern-count-other": "{0} เกรน"
           },
           "power-gigawatt": {
             "displayName": "กิกะวัตต์",
@@ -736,8 +780,8 @@
             "unitPattern-count-other": "{0} เอเคอร์-ฟุต"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "บุชเชล",
+            "unitPattern-count-other": "{0} บุชเชล"
           },
           "volume-gallon": {
             "displayName": "แกลลอน",
@@ -780,6 +824,34 @@
           "volume-barrel": {
             "displayName": "บาร์เรล",
             "unitPattern-count-other": "{0} บาร์เรล"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ช้อนขนม",
+            "unitPattern-count-other": "{0} ช้อนขนม"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ช้อนขนม - อังกฤษ",
+            "unitPattern-count-other": "{0} ช้อนขนม - อังกฤษ"
+          },
+          "volume-drop": {
+            "displayName": "หยด",
+            "unitPattern-count-other": "{0} หยด"
+          },
+          "volume-dram": {
+            "displayName": "แดรม",
+            "unitPattern-count-other": "{0} แดรม"
+          },
+          "volume-jigger": {
+            "displayName": "จิกเกอร์",
+            "unitPattern-count-other": "{0} จิกเกอร์"
+          },
+          "volume-pinch": {
+            "displayName": "หยิบมือ",
+            "unitPattern-count-other": "{0} หยิบมือ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ควอร์ตอังกฤษ",
+            "unitPattern-count-other": "{0} ควอร์ตอังกฤษ"
           },
           "coordinateUnit": {
             "displayName": "สี่ทิศหลัก",
@@ -850,16 +922,40 @@
           "10p24": {
             "unitPrefixPattern": "ยอตตะ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "กิบิ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "เมบิ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "จิบิ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "เทบิ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "เพบิ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "เอ็กซ์บิ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "เซบิ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "โยบี{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -975,7 +1071,7 @@
           },
           "consumption-liter-per-100-kilometer": {
             "displayName": "ล./100 กม.",
-            "unitPattern-count-other": "{0} ล./100กม."
+            "unitPattern-count-other": "{0} ล./100 กม."
           },
           "consumption-mile-per-gallon": {
             "displayName": "ไมล์/แกลลอน",
@@ -1188,6 +1284,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "ดอท",
+            "unitPattern-count-other": "{0} ดอท"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "กม.",
             "unitPattern-count-other": "{0} กม.",
@@ -1254,11 +1358,11 @@
             "unitPattern-count-other": "{0} หน่วยดาราศาสตร์"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "เฟอร์ลอง",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "ฟาทอม",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -1280,6 +1384,14 @@
           "light-lux": {
             "displayName": "ลักซ์",
             "unitPattern-count-other": "{0} ลักซ์"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "ความสว่างดวงอาทิตย์",
@@ -1312,7 +1424,7 @@
             "unitPattern-count-other": "{0} ตัน"
           },
           "mass-stone": {
-            "displayName": "st",
+            "displayName": "สโตน",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -1344,6 +1456,10 @@
           "mass-solar-mass": {
             "displayName": "มวลดวงอาทิตย์",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "เกรน",
+            "unitPattern-count-other": "{0} เกรน"
           },
           "power-gigawatt": {
             "displayName": "กิกะวัตต์",
@@ -1517,7 +1633,7 @@
             "unitPattern-count-other": "{0} เอเคอร์-ฟุต"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "บุชเชล",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -1561,6 +1677,34 @@
           "volume-barrel": {
             "displayName": "บาร์เรล",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ช้อนขนม",
+            "unitPattern-count-other": "{0} ช้อนขนม"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ช้อนขนม - อังกฤษ",
+            "unitPattern-count-other": "{0} ช้อนขนม - อังกฤษ"
+          },
+          "volume-drop": {
+            "displayName": "หยด",
+            "unitPattern-count-other": "{0} หยด"
+          },
+          "volume-dram": {
+            "displayName": "แดรมของเหลว",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "จิกเกอร์",
+            "unitPattern-count-other": "{0} จิกเกอร์"
+          },
+          "volume-pinch": {
+            "displayName": "หยิบมือ",
+            "unitPattern-count-other": "{0} หยิบมือ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "ทิศหลัก",
@@ -1631,16 +1775,40 @@
           "10p24": {
             "unitPrefixPattern": "ยอตตะ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "กิบิ{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "เมบิ{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "จิบิ{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "เทบิ{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "เพบิ{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "เอ็กซ์บิ{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "เซบิ{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "โยบี{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1755,7 +1923,7 @@
             "unitPattern-count-other": "{0} ล./กม."
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "ล. /100 กม.",
+            "displayName": "ล./100กม.",
             "unitPattern-count-other": "{0} ล./100กม."
           },
           "consumption-mile-per-gallon": {
@@ -1969,6 +2137,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "ดอท",
+            "unitPattern-count-other": "{0} ดอท"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "กม.",
             "unitPattern-count-other": "{0}กม.",
@@ -2035,11 +2211,11 @@
             "unitPattern-count-other": "{0} หน่วยดาราศาสตร์"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "เฟอร์ลอง",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "ฟาทอม",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -2061,6 +2237,14 @@
           "light-lux": {
             "displayName": "ลักซ์",
             "unitPattern-count-other": "{0} ลักซ์"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "ความสว่างดวงอาทิตย์",
@@ -2093,7 +2277,7 @@
             "unitPattern-count-other": "{0} ตัน"
           },
           "mass-stone": {
-            "displayName": "st",
+            "displayName": "สโตน",
             "unitPattern-count-other": "{0} st"
           },
           "mass-pound": {
@@ -2125,6 +2309,10 @@
           "mass-solar-mass": {
             "displayName": "มวลดวงอาทิตย์",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "เกรน",
+            "unitPattern-count-other": "{0} เกรน"
           },
           "power-gigawatt": {
             "displayName": "กิกะวัตต์",
@@ -2298,7 +2486,7 @@
             "unitPattern-count-other": "{0} เอเคอร์-ฟุต"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "บุชเชล",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2342,6 +2530,34 @@
           "volume-barrel": {
             "displayName": "บาร์เรล",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ช้อนขนม",
+            "unitPattern-count-other": "{0} ช้อนขนม"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ช้อนขนม - อังกฤษ",
+            "unitPattern-count-other": "{0} ช้อนขนม - อังกฤษ"
+          },
+          "volume-drop": {
+            "displayName": "หยด",
+            "unitPattern-count-other": "{0} หยด"
+          },
+          "volume-dram": {
+            "displayName": "แดรมของเหลว",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "จิกเกอร์",
+            "unitPattern-count-other": "{0} จิกเกอร์"
+          },
+          "volume-pinch": {
+            "displayName": "หยิบมือ",
+            "unitPattern-count-other": "{0} หยิบมือ"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "ทิศ",

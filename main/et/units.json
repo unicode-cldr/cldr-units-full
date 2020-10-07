@@ -3,7 +3,7 @@
     "et": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "et"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "jota{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "eksbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "jobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} {1} kohta"
           },
           "power2": {
             "compoundUnitPattern1": "ruut{0}",
-            "compoundUnitPattern1": "ruut{0}",
-            "compoundUnitPattern1": "ruut{0}"
+            "compoundUnitPattern1-count-one": "ruut{0}",
+            "compoundUnitPattern1-count-other": "ruut{0}"
           },
           "power3": {
             "compoundUnitPattern1": "kuup{0}",
-            "compoundUnitPattern1": "kuup{0}",
-            "compoundUnitPattern1": "kuup{0}"
+            "compoundUnitPattern1-count-one": "kuup{0}",
+            "compoundUnitPattern1-count-other": "kuup{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -487,6 +511,16 @@
             "unitPattern-count-one": "{0} punkt tolli kohta",
             "unitPattern-count-other": "{0} punkti tolli kohta"
           },
+          "graphics-dot": {
+            "displayName": "punkt",
+            "unitPattern-count-one": "{0} punkt",
+            "unitPattern-count-other": "{0} punkti"
+          },
+          "length-earth-radius": {
+            "displayName": "Maa raadius",
+            "unitPattern-count-one": "{0} Maa raadius",
+            "unitPattern-count-other": "{0} Maa raadiust"
+          },
           "length-kilometer": {
             "displayName": "kilomeetrid",
             "unitPattern-count-one": "{0} kilomeeter",
@@ -588,9 +622,9 @@
             "unitPattern-count-other": "{0} Skandinaavia miili"
           },
           "length-point": {
-            "displayName": "punktid",
-            "unitPattern-count-one": "{0} punkt",
-            "unitPattern-count-other": "{0} punkti"
+            "displayName": "tüpograafilised punktid",
+            "unitPattern-count-one": "{0} tüpograafiline punkt",
+            "unitPattern-count-other": "{0} tüpograafilist punkti"
           },
           "length-solar-radius": {
             "displayName": "Päikese raadiused",
@@ -601,6 +635,16 @@
             "displayName": "luks",
             "unitPattern-count-one": "{0} luks",
             "unitPattern-count-other": "{0} luksi"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandelat"
+          },
+          "light-lumen": {
+            "displayName": "luumen",
+            "unitPattern-count-one": "{0} luumen",
+            "unitPattern-count-other": "{0} luumenit"
           },
           "light-solar-luminosity": {
             "displayName": "Päikese heledus",
@@ -680,6 +724,11 @@
             "displayName": "Päikese massid",
             "unitPattern-count-one": "{0} Päikese massi",
             "unitPattern-count-other": "{0} Päikese massi"
+          },
+          "mass-grain": {
+            "displayName": "graan",
+            "unitPattern-count-one": "{0} graan",
+            "unitPattern-count-other": "{0} graani"
           },
           "power-gigawatt": {
             "displayName": "gigavatid",
@@ -951,6 +1000,41 @@
             "unitPattern-count-one": "{0} barrel",
             "unitPattern-count-other": "{0} barrelit"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dessertlusikas",
+            "unitPattern-count-one": "{0} dessertlusikas",
+            "unitPattern-count-other": "{0} dessertlusikat"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "inglise dessertlusikas",
+            "unitPattern-count-one": "{0} inglise dessertlusikas",
+            "unitPattern-count-other": "{0} inglise dessertlusikat"
+          },
+          "volume-drop": {
+            "displayName": "tilk",
+            "unitPattern-count-one": "{0} tilk",
+            "unitPattern-count-other": "{0} tilka"
+          },
+          "volume-dram": {
+            "displayName": "drahm",
+            "unitPattern-count-one": "{0} drahm",
+            "unitPattern-count-other": "{0} drahmi"
+          },
+          "volume-jigger": {
+            "displayName": "pits",
+            "unitPattern-count-one": "{0} pits",
+            "unitPattern-count-other": "{0} pitsi"
+          },
+          "volume-pinch": {
+            "displayName": "näputäis",
+            "unitPattern-count-one": "{0} näputäis",
+            "unitPattern-count-other": "{0} näputäit"
+          },
+          "volume-quart-imperial": {
+            "displayName": "inglise kvart",
+            "unitPattern-count-one": "{0} inglise kvart",
+            "unitPattern-count-other": "{0} inglise kvarti"
+          },
           "coordinateUnit": {
             "displayName": "põhiilmakaar",
             "east": "{0} idapikkust",
@@ -1020,16 +1104,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1435,6 +1543,15 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "p",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-other": "{0} p"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1549,6 +1666,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Päikese heledus",
             "unitPattern-count-one": "{0} L☉",
@@ -1626,6 +1751,11 @@
             "displayName": "Päikese massid",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "graan",
+            "unitPattern-count-one": "{0} graan",
+            "unitPattern-count-other": "{0} graani"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1895,6 +2025,40 @@
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ingl dl",
+            "unitPattern-count-one": "{0} ingl dl",
+            "unitPattern-count-other": "{0} ingl dl"
+          },
+          "volume-drop": {
+            "displayName": "tilk",
+            "unitPattern-count-one": "{0} tilk",
+            "unitPattern-count-other": "{0} tilka"
+          },
+          "volume-dram": {
+            "displayName": "drahm vedelikku",
+            "unitPattern-count-one": "{0} drahm vedelikku",
+            "unitPattern-count-other": "{0} drahmi vedelikku"
+          },
+          "volume-jigger": {
+            "displayName": "pits",
+            "unitPattern-count-one": "{0} pits",
+            "unitPattern-count-other": "{0} pitsi"
+          },
+          "volume-pinch": {
+            "displayName": "näputäis",
+            "unitPattern-count-one": "{0} näputäis",
+            "unitPattern-count-other": "{0} näputäit"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ingl kvart",
+            "unitPattern-count-one": "{0} ingl kvart",
+            "unitPattern-count-other": "{0} ingl kvarti"
+          },
           "coordinateUnit": {
             "displayName": "ilmakaar",
             "east": "{0} ip",
@@ -1964,16 +2128,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2379,6 +2567,15 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "p",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-other": "{0} p"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2493,6 +2690,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "Päikese heledus",
             "unitPattern-count-one": "{0} L☉",
@@ -2570,6 +2775,11 @@
             "displayName": "Päikese massid",
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "graan",
+            "unitPattern-count-one": "{0} graan",
+            "unitPattern-count-other": "{0} graani"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2838,6 +3048,40 @@
             "displayName": "barrel",
             "unitPattern-count-one": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ingl dl",
+            "unitPattern-count-one": "{0} ingl dl",
+            "unitPattern-count-other": "{0} ingl dl"
+          },
+          "volume-drop": {
+            "displayName": "tilk",
+            "unitPattern-count-one": "{0} tilk",
+            "unitPattern-count-other": "{0} tilka"
+          },
+          "volume-dram": {
+            "displayName": "drahm vedelikku",
+            "unitPattern-count-one": "{0} drahm vedelikku",
+            "unitPattern-count-other": "{0} drahmi vedelikku"
+          },
+          "volume-jigger": {
+            "displayName": "pits",
+            "unitPattern-count-one": "{0} pits",
+            "unitPattern-count-other": "{0} pitsi"
+          },
+          "volume-pinch": {
+            "displayName": "näputäis",
+            "unitPattern-count-one": "{0} näputäis",
+            "unitPattern-count-other": "{0} näputäit"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ingl kvart",
+            "unitPattern-count-one": "{0} ingl kvart",
+            "unitPattern-count-other": "{0} ingl kvarti"
           },
           "coordinateUnit": {
             "displayName": "ilmakaar",

@@ -3,82 +3,106 @@
     "kea": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "kea"
       },
       "units": {
         "long": {
           "10p-1": {
-            "unitPrefixPattern": "d{0}"
+            "unitPrefixPattern": "desi{0}"
           },
           "10p-2": {
-            "unitPrefixPattern": "c{0}"
+            "unitPrefixPattern": "senti{0}"
           },
           "10p-3": {
-            "unitPrefixPattern": "m{0}"
+            "unitPrefixPattern": "mili{0}"
           },
           "10p-6": {
-            "unitPrefixPattern": "µ{0}"
+            "unitPrefixPattern": "mikro{0}"
           },
           "10p-9": {
-            "unitPrefixPattern": "n{0}"
+            "unitPrefixPattern": "nano{0}"
           },
           "10p-12": {
-            "unitPrefixPattern": "p{0}"
+            "unitPrefixPattern": "piko{0}"
           },
           "10p-15": {
-            "unitPrefixPattern": "f{0}"
+            "unitPrefixPattern": "femto{0}"
           },
           "10p-18": {
-            "unitPrefixPattern": "a{0}"
+            "unitPrefixPattern": "atto{0}"
           },
           "10p-21": {
-            "unitPrefixPattern": "z{0}"
+            "unitPrefixPattern": "zepto{0}"
           },
           "10p-24": {
-            "unitPrefixPattern": "y{0}"
+            "unitPrefixPattern": "yocto{0}"
           },
           "10p1": {
-            "unitPrefixPattern": "da{0}"
+            "unitPrefixPattern": "deka{0}"
           },
           "10p2": {
-            "unitPrefixPattern": "h{0}"
+            "unitPrefixPattern": "ekto{0}"
           },
           "10p3": {
-            "unitPrefixPattern": "k{0}"
+            "unitPrefixPattern": "kilo{0}"
           },
           "10p6": {
-            "unitPrefixPattern": "M{0}"
+            "unitPrefixPattern": "mega{0}"
           },
           "10p9": {
-            "unitPrefixPattern": "G{0}"
+            "unitPrefixPattern": "jiga{0}"
           },
           "10p12": {
-            "unitPrefixPattern": "T{0}"
+            "unitPrefixPattern": "tera{0}"
           },
           "10p15": {
-            "unitPrefixPattern": "P{0}"
+            "unitPrefixPattern": "peta{0}"
           },
           "10p18": {
-            "unitPrefixPattern": "E{0}"
+            "unitPrefixPattern": "exa{0}"
           },
           "10p21": {
-            "unitPrefixPattern": "Z{0}"
+            "unitPrefixPattern": "zetta{0}"
           },
           "10p24": {
-            "unitPrefixPattern": "Y{0}"
+            "unitPrefixPattern": "yotta{0}"
+          },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
           },
           "per": {
             "compoundUnitPattern": "{0} pur {1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0} kuadradu"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0} kúbiku"
           },
           "times": {
             "compoundUnitPattern": "{0}-{1}"
@@ -201,8 +225,8 @@
             "unitPattern-count-other": "{0} milha pur galãu"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "milha pur galãu imperial",
-            "unitPattern-count-other": "{0} milha pur galãu imperial"
+            "displayName": "milha pur galãu britániku",
+            "unitPattern-count-other": "{0} milha pur galãu britániku"
           },
           "digital-petabyte": {
             "displayName": "petabyte",
@@ -407,6 +431,14 @@
             "displayName": "pontu pur pulegada",
             "unitPattern-count-other": "{0} pontu pur pulegada"
           },
+          "graphics-dot": {
+            "displayName": "pontu",
+            "unitPattern-count-other": "{0} pontu"
+          },
+          "length-earth-radius": {
+            "displayName": "raiu di Tera",
+            "unitPattern-count-other": "{0} raiu di Tera"
+          },
           "length-kilometer": {
             "displayName": "kilómetru",
             "unitPattern-count-other": "{0} kilómetru",
@@ -489,8 +521,8 @@
             "unitPattern-count-other": "{0} milha skandinavu"
           },
           "length-point": {
-            "displayName": "pontu",
-            "unitPattern-count-other": "{0} pontu"
+            "displayName": "pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "raiu solar",
@@ -499,6 +531,14 @@
           "light-lux": {
             "displayName": "lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-other": "{0} lumen"
           },
           "light-solar-luminosity": {
             "displayName": "luminozidadi solar",
@@ -563,6 +603,10 @@
           "mass-solar-mass": {
             "displayName": "masa di Sol",
             "unitPattern-count-other": "{0} masa di Sol"
+          },
+          "mass-grain": {
+            "displayName": "grãu",
+            "unitPattern-count-other": "{0} grãu"
           },
           "power-gigawatt": {
             "displayName": "jigawatt",
@@ -745,9 +789,9 @@
             "perUnitPattern": "{0} pur galãu"
           },
           "volume-gallon-imperial": {
-            "displayName": "galãu imperial",
-            "unitPattern-count-other": "{0} galãu imperial",
-            "perUnitPattern": "{0} pur galãu imperial"
+            "displayName": "galãu britániku",
+            "unitPattern-count-other": "{0} galãu britániku",
+            "perUnitPattern": "{0} pur galãu britániku"
           },
           "volume-quart": {
             "displayName": "kuart",
@@ -766,8 +810,8 @@
             "unitPattern-count-other": "{0} ónsa fluídu"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "ónsa fluídu imperial",
-            "unitPattern-count-other": "{0} ónsa fluídu imperial"
+            "displayName": "ónsa fluídu britániku",
+            "unitPattern-count-other": "{0} ónsa fluídu britániku"
           },
           "volume-tablespoon": {
             "displayName": "kudjer di sopa",
@@ -780,6 +824,34 @@
           "volume-barrel": {
             "displayName": "baril",
             "unitPattern-count-other": "{0} baril"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "kudjer di subrimeza",
+            "unitPattern-count-other": "{0} kudjer di subrimeza"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "kudjer di subrimeza britániku",
+            "unitPattern-count-other": "{0} kudjer di subrimeza britániku"
+          },
+          "volume-drop": {
+            "displayName": "gota",
+            "unitPattern-count-other": "{0} gota"
+          },
+          "volume-dram": {
+            "displayName": "drakma fluídu",
+            "unitPattern-count-other": "{0} drakma fluídu"
+          },
+          "volume-jigger": {
+            "displayName": "kopu di xot",
+            "unitPattern-count-other": "{0} kopu di xot"
+          },
+          "volume-pinch": {
+            "displayName": "pitada",
+            "unitPattern-count-other": "{0} pitada"
+          },
+          "volume-quart-imperial": {
+            "displayName": "kuart britániku",
+            "unitPattern-count-other": "{0} kuart britániku"
           },
           "coordinateUnit": {
             "displayName": "direson kardial",
@@ -850,16 +922,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -982,8 +1078,8 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "milha/gal imp.",
-            "unitPattern-count-other": "{0} mpg imp."
+            "displayName": "milha/gal brit.",
+            "unitPattern-count-other": "{0} mpg brit."
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -1188,6 +1284,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-other": "{0} km",
@@ -1270,16 +1374,24 @@
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
-            "displayName": "pontu",
+            "displayName": "pt",
             "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
-            "displayName": "raiu solar",
+            "displayName": "R☉",
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
             "displayName": "lux",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1344,6 +1456,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grãu",
+            "unitPattern-count-other": "{0} grãu"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1526,9 +1642,9 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "gal imp.",
-            "unitPattern-count-other": "{0} gal imp.",
-            "perUnitPattern": "{0}/gal imp."
+            "displayName": "gal brit.",
+            "unitPattern-count-other": "{0} gal brit.",
+            "perUnitPattern": "{0}/gal brit."
           },
           "volume-quart": {
             "displayName": "qt",
@@ -1547,8 +1663,8 @@
             "unitPattern-count-other": "{0} fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "fl oz imp.",
-            "unitPattern-count-other": "{0} fl oz imp."
+            "displayName": "fl oz brit.",
+            "unitPattern-count-other": "{0} fl oz brit."
           },
           "volume-tablespoon": {
             "displayName": "ks",
@@ -1561,6 +1677,34 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn brit.",
+            "unitPattern-count-other": "{0} dstspn brit."
+          },
+          "volume-drop": {
+            "displayName": "gota",
+            "unitPattern-count-other": "{0} gota"
+          },
+          "volume-dram": {
+            "displayName": "drakma fl.",
+            "unitPattern-count-other": "{0} drakma fl."
+          },
+          "volume-jigger": {
+            "displayName": "kopu x.",
+            "unitPattern-count-other": "{0} kopu x."
+          },
+          "volume-pinch": {
+            "displayName": "pit.",
+            "unitPattern-count-other": "{0} pit."
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt brit.",
+            "unitPattern-count-other": "{0} qt brit."
           },
           "coordinateUnit": {
             "displayName": "direson",
@@ -1631,16 +1775,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1763,8 +1931,8 @@
             "unitPattern-count-other": "{0} mpg"
           },
           "consumption-mile-per-gallon-imperial": {
-            "displayName": "milha/gal imp.",
-            "unitPattern-count-other": "{0} mpg imp."
+            "displayName": "milha/gal brit.",
+            "unitPattern-count-other": "{0} mpg brit."
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -1969,6 +2137,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dot",
+            "unitPattern-count-other": "{0} dot"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-other": "{0} km",
@@ -2051,16 +2227,24 @@
             "unitPattern-count-other": "{0} smi"
           },
           "length-point": {
-            "displayName": "pontu",
+            "displayName": "pt",
             "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
-            "displayName": "raiu solar",
+            "displayName": "R☉",
             "unitPattern-count-other": "{0} R☉"
           },
           "light-lux": {
             "displayName": "lux",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2125,6 +2309,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grãu",
+            "unitPattern-count-other": "{0} grãu"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2307,9 +2495,9 @@
             "perUnitPattern": "{0}/gal"
           },
           "volume-gallon-imperial": {
-            "displayName": "gal imp.",
-            "unitPattern-count-other": "{0} gal imp.",
-            "perUnitPattern": "{0}/gal imp."
+            "displayName": "gal brit.",
+            "unitPattern-count-other": "{0} gal brit.",
+            "perUnitPattern": "{0}/gal brit."
           },
           "volume-quart": {
             "displayName": "qt",
@@ -2328,8 +2516,8 @@
             "unitPattern-count-other": "{0} fl oz"
           },
           "volume-fluid-ounce-imperial": {
-            "displayName": "fl oz imp.",
-            "unitPattern-count-other": "{0} fl oz imp."
+            "displayName": "fl oz brit.",
+            "unitPattern-count-other": "{0} fl oz brit."
           },
           "volume-tablespoon": {
             "displayName": "ks",
@@ -2342,6 +2530,34 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn brit.",
+            "unitPattern-count-other": "{0} dstspn brit."
+          },
+          "volume-drop": {
+            "displayName": "gota",
+            "unitPattern-count-other": "{0} gota"
+          },
+          "volume-dram": {
+            "displayName": "drakma fl.",
+            "unitPattern-count-other": "{0} drakma fl."
+          },
+          "volume-jigger": {
+            "displayName": "kopu x.",
+            "unitPattern-count-other": "{0} kopu x."
+          },
+          "volume-pinch": {
+            "displayName": "pit.",
+            "unitPattern-count-other": "{0} pit."
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt brit.",
+            "unitPattern-count-other": "{0} qt brit."
           },
           "coordinateUnit": {
             "displayName": "direson",

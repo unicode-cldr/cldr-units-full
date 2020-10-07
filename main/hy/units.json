@@ -3,7 +3,7 @@
     "hy": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "hy"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "յոտտա{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "կիբի{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "մեբի{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "գիբի{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "տեբի{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "փեբի{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Էքսբի{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "զեբի{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Յոբի{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
-            "compoundUnitPattern1": "քառակուսի {0}",
-            "compoundUnitPattern1": "քառակուսի {0}",
-            "compoundUnitPattern1": "քառակուսի {0}"
+            "compoundUnitPattern1": "{0}²",
+            "compoundUnitPattern1-count-one": "քառակուսի {0}",
+            "compoundUnitPattern1-count-other": "քառակուսի {0}"
           },
           "power3": {
-            "compoundUnitPattern1": "խորանարդ {0}",
-            "compoundUnitPattern1": "խորանարդ {0}",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1": "{0}³",
+            "compoundUnitPattern1-count-one": "խորանարդ {0}",
+            "compoundUnitPattern1-count-other": "խորանարդ {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -486,6 +510,16 @@
             "unitPattern-count-one": "{0} կետ մատնաչափի վրա",
             "unitPattern-count-other": "{0} կետ մատնաչափի վրա"
           },
+          "graphics-dot": {
+            "displayName": "կետ",
+            "unitPattern-count-one": "{0} կետ",
+            "unitPattern-count-other": "{0} կետ"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "կիլոմետրեր",
             "unitPattern-count-one": "{0} կիլոմետր",
@@ -567,8 +601,9 @@
             "unitPattern-count-other": "{0} աստղագիտական միավոր"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ֆուրլոնգ",
+            "unitPattern-count-one": "{0} ֆուրլոնգ",
+            "unitPattern-count-other": "{0} ֆուրլոնգ"
           },
           "length-fathom": {
             "displayName": "fm",
@@ -585,9 +620,9 @@
             "unitPattern-count-other": "{0} սկանդինավյան մղոն"
           },
           "length-point": {
-            "displayName": "կետեր",
-            "unitPattern-count-one": "{0} կետ",
-            "unitPattern-count-other": "{0} կետ"
+            "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "արեգակնային շառավիղներ",
@@ -598,6 +633,16 @@
             "displayName": "լյուքսեր",
             "unitPattern-count-one": "{0} լյուքս",
             "unitPattern-count-other": "{0} լյուքս"
+          },
+          "light-candela": {
+            "displayName": "կանդելա",
+            "unitPattern-count-one": "{0} կանդելա",
+            "unitPattern-count-other": "{0} կանդելա"
+          },
+          "light-lumen": {
+            "displayName": "լմ",
+            "unitPattern-count-one": "{0} լմ",
+            "unitPattern-count-other": "{0} լմ"
           },
           "light-solar-luminosity": {
             "displayName": "արեգակնային լուսատվություններ",
@@ -637,8 +682,9 @@
             "unitPattern-count-other": "{0} ամերիկյան տոննա"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "սթոուն",
+            "unitPattern-count-one": "{0} սթոուն",
+            "unitPattern-count-other": "{0} սթոուն"
           },
           "mass-pound": {
             "displayName": "ֆունտեր",
@@ -676,6 +722,11 @@
             "displayName": "արեգակնային զանգվածներ",
             "unitPattern-count-one": "{0} արեգակնային զանգված",
             "unitPattern-count-other": "{0} արեգակնային զանգված"
+          },
+          "mass-grain": {
+            "displayName": "գրան",
+            "unitPattern-count-one": "{0} գրան",
+            "unitPattern-count-other": "{0} գրան"
           },
           "power-gigawatt": {
             "displayName": "գիգավատտեր",
@@ -891,8 +942,9 @@
             "unitPattern-count-other": "{0} ակրոֆուտ"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "բուշել",
+            "unitPattern-count-one": "{0} բուշել",
+            "unitPattern-count-other": "{0} բուշել"
           },
           "volume-gallon": {
             "displayName": "գալոններ",
@@ -945,6 +997,41 @@
             "displayName": "տակառներ",
             "unitPattern-count-one": "{0} տակառ",
             "unitPattern-count-other": "{0} տակառ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ագ․",
+            "unitPattern-count-one": "{0} աղանդերի գդալ",
+            "unitPattern-count-other": "{0} աղանդերի գդալ"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "անգլ․ ագ․",
+            "unitPattern-count-one": "{0} անգլիական աղանդերի գդալ",
+            "unitPattern-count-other": "{0} անգլիական աղանդերի գդալ"
+          },
+          "volume-drop": {
+            "displayName": "կաթիլ",
+            "unitPattern-count-one": "{0} կաթիլ",
+            "unitPattern-count-other": "{0} կաթիլ"
+          },
+          "volume-dram": {
+            "displayName": "դրամ",
+            "unitPattern-count-one": "{0} դրամ",
+            "unitPattern-count-other": "{0} դրամ"
+          },
+          "volume-jigger": {
+            "displayName": "ջիգեր",
+            "unitPattern-count-one": "{0} ջիգեր",
+            "unitPattern-count-other": "{0} ջիգեր"
+          },
+          "volume-pinch": {
+            "displayName": "պտղունց",
+            "unitPattern-count-one": "{0} պտղունց",
+            "unitPattern-count-other": "{0} պտղունց"
+          },
+          "volume-quart-imperial": {
+            "displayName": "անգլիական քվարտ",
+            "unitPattern-count-one": "{0} անգլիական քվարտ",
+            "unitPattern-count-other": "{0} անգլիական քվարտ"
           },
           "coordinateUnit": {
             "displayName": "ուղղություն",
@@ -1015,18 +1102,42 @@
           "10p24": {
             "unitPrefixPattern": "Յ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Կի{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Մի{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Գի{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Տի{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Փի{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Էի{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Զի{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Յի{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1138,8 +1249,8 @@
           },
           "concentr-permillion": {
             "displayName": "մասնիկ/միլիոն",
-            "unitPattern-count-one": "{0} մասնիկ/միլիոն",
-            "unitPattern-count-other": "{0} մասնիկ/միլիոն"
+            "unitPattern-count-one": "{0} մմվ",
+            "unitPattern-count-other": "{0} մմվ"
           },
           "concentr-percent": {
             "displayName": "տոկոս",
@@ -1167,9 +1278,9 @@
             "unitPattern-count-other": "{0} լ/կմ"
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "լ/100 կմ",
-            "unitPattern-count-one": "{0} լ/100 կմ",
-            "unitPattern-count-other": "{0} լ/100 կմ"
+            "displayName": "Լ/100 կմ",
+            "unitPattern-count-one": "{0} Լ/100 կմ",
+            "unitPattern-count-other": "{0} Լ/100 կմ"
           },
           "consumption-mile-per-gallon": {
             "displayName": "մղ/գալ",
@@ -1359,8 +1470,9 @@
             "unitPattern-count-other": "{0} էՎ"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ԲՋՄ",
+            "unitPattern-count-one": "{0} Բջմ",
+            "unitPattern-count-other": "{0} Բջմ"
           },
           "energy-therm-us": {
             "displayName": "ԱՄՆ ջերմ",
@@ -1430,6 +1542,16 @@
             "displayName": "կմչ",
             "unitPattern-count-one": "{0} կմչ",
             "unitPattern-count-other": "{0} կմչ"
+          },
+          "graphics-dot": {
+            "displayName": "կետ",
+            "unitPattern-count-one": "{0} կետ",
+            "unitPattern-count-other": "{0} կետ"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "կմ",
@@ -1512,8 +1634,9 @@
             "unitPattern-count-other": "{0} ա.մ."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ֆուրլոնգ",
+            "unitPattern-count-one": "{0} ֆուրլ․",
+            "unitPattern-count-other": "{0} ֆուրլ․"
           },
           "length-fathom": {
             "displayName": "fm",
@@ -1530,9 +1653,9 @@
             "unitPattern-count-other": "{0} սկանդ․ մղ"
           },
           "length-point": {
-            "displayName": "կտ",
-            "unitPattern-count-one": "{0} կտ",
-            "unitPattern-count-other": "{0} կտ"
+            "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "R☉",
@@ -1543,6 +1666,16 @@
             "displayName": "լք",
             "unitPattern-count-one": "{0} լք",
             "unitPattern-count-other": "{0} լք"
+          },
+          "light-candela": {
+            "displayName": "կդ",
+            "unitPattern-count-one": "{0} կդ",
+            "unitPattern-count-other": "{0} կդ"
+          },
+          "light-lumen": {
+            "displayName": "լմ",
+            "unitPattern-count-one": "{0} լմ",
+            "unitPattern-count-other": "{0} լմ"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1581,8 +1714,9 @@
             "unitPattern-count-other": "{0} ամեր․ տ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "սթոուն",
+            "unitPattern-count-one": "{0} սթոուն",
+            "unitPattern-count-other": "{0} սթոուն"
           },
           "mass-pound": {
             "displayName": "ֆունտ",
@@ -1618,6 +1752,11 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "գրան",
+            "unitPattern-count-one": "{0} գրան",
+            "unitPattern-count-other": "{0} գրան"
           },
           "power-gigawatt": {
             "displayName": "ԳՎտ",
@@ -1888,6 +2027,41 @@
             "unitPattern-count-one": "{0} տկռ",
             "unitPattern-count-other": "{0} տկռ"
           },
+          "volume-dessert-spoon": {
+            "displayName": "ագ․",
+            "unitPattern-count-one": "{0} ագ․",
+            "unitPattern-count-other": "{0} ագ․"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "անգլ․ ագ․",
+            "unitPattern-count-one": "{0} անգլ․ ագ․",
+            "unitPattern-count-other": "{0} անգլ․ ագ․"
+          },
+          "volume-drop": {
+            "displayName": "կաթիլ",
+            "unitPattern-count-one": "{0} կաթիլ",
+            "unitPattern-count-other": "{0} կաթիլ"
+          },
+          "volume-dram": {
+            "displayName": "հեղուկ դրամ",
+            "unitPattern-count-one": "{0} հեղուկ դրամ",
+            "unitPattern-count-other": "{0} հեղուկ դրամ"
+          },
+          "volume-jigger": {
+            "displayName": "ջիգեր",
+            "unitPattern-count-one": "{0} ջիգեր",
+            "unitPattern-count-other": "{0} ջիգեր"
+          },
+          "volume-pinch": {
+            "displayName": "պտղունց",
+            "unitPattern-count-one": "{0} պտղունց",
+            "unitPattern-count-other": "{0} պտղունց"
+          },
+          "volume-quart-imperial": {
+            "displayName": "անգլիական քվարտ",
+            "unitPattern-count-one": "{0} անգլիական քվարտ",
+            "unitPattern-count-other": "{0} անգլիական քվարտ"
+          },
           "coordinateUnit": {
             "displayName": "ուղղություն",
             "east": "{0} ավ․ ե․",
@@ -1957,18 +2131,42 @@
           "10p24": {
             "unitPrefixPattern": "Յ{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Կի{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Մի{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Գի{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Տի{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Փի{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Էի{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Զի{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Յի{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2080,8 +2278,8 @@
           },
           "concentr-permillion": {
             "displayName": "մասնիկ/միլիոն",
-            "unitPattern-count-one": "{0} մասնիկ/միլիոն",
-            "unitPattern-count-other": "{0} մասնիկ/միլիոն"
+            "unitPattern-count-one": "{0} մմվ",
+            "unitPattern-count-other": "{0} մմվ"
           },
           "concentr-percent": {
             "displayName": "%",
@@ -2109,9 +2307,9 @@
             "unitPattern-count-other": "{0} լ/կմ"
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "լ/100 կմ",
-            "unitPattern-count-one": "{0} լ/100 կմ",
-            "unitPattern-count-other": "{0} լ/100 կմ"
+            "displayName": "Լ/100 կմ",
+            "unitPattern-count-one": "{0} Լ/100 կմ",
+            "unitPattern-count-other": "{0} Լ/100 կմ"
           },
           "consumption-mile-per-gallon": {
             "displayName": "մղ/գալ",
@@ -2301,8 +2499,9 @@
             "unitPattern-count-other": "{0} էՎ"
           },
           "energy-british-thermal-unit": {
-            "displayName": "Btu",
-            "unitPattern-count-other": "{0} Btu"
+            "displayName": "ԲՋՄ",
+            "unitPattern-count-one": "{0} Բջմ",
+            "unitPattern-count-other": "{0} Բջմ"
           },
           "energy-therm-us": {
             "displayName": "ԱՄՆ ջերմ",
@@ -2372,6 +2571,16 @@
             "displayName": "կմչ",
             "unitPattern-count-one": "{0} կմչ",
             "unitPattern-count-other": "{0} կմչ"
+          },
+          "graphics-dot": {
+            "displayName": "կետ",
+            "unitPattern-count-one": "{0} կետ",
+            "unitPattern-count-other": "{0} կետ"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "կմ",
@@ -2454,8 +2663,9 @@
             "unitPattern-count-other": "{0} ա.մ."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ֆուրլոնգ",
+            "unitPattern-count-one": "{0} ֆուրլ․",
+            "unitPattern-count-other": "{0} ֆուրլ․"
           },
           "length-fathom": {
             "displayName": "fm",
@@ -2472,9 +2682,9 @@
             "unitPattern-count-other": "{0} սկանդ․ մղ"
           },
           "length-point": {
-            "displayName": "կտ",
-            "unitPattern-count-one": "{0} կտ",
-            "unitPattern-count-other": "{0} կտ"
+            "displayName": "pt",
+            "unitPattern-count-one": "{0} pt",
+            "unitPattern-count-other": "{0} pt"
           },
           "length-solar-radius": {
             "displayName": "R☉",
@@ -2485,6 +2695,16 @@
             "displayName": "լք",
             "unitPattern-count-one": "{0} լք",
             "unitPattern-count-other": "{0} լք"
+          },
+          "light-candela": {
+            "displayName": "կդ",
+            "unitPattern-count-one": "{0} կդ",
+            "unitPattern-count-other": "{0} կդ"
+          },
+          "light-lumen": {
+            "displayName": "լմ",
+            "unitPattern-count-one": "{0} լմ",
+            "unitPattern-count-other": "{0} լմ"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2523,8 +2743,9 @@
             "unitPattern-count-other": "{0} ամեր․ տ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "սթոուն",
+            "unitPattern-count-one": "{0} սթոուն",
+            "unitPattern-count-other": "{0} սթոուն"
           },
           "mass-pound": {
             "displayName": "ֆունտ",
@@ -2560,6 +2781,11 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "գրան",
+            "unitPattern-count-one": "{0} գրան",
+            "unitPattern-count-other": "{0} գրան"
           },
           "power-gigawatt": {
             "displayName": "ԳՎտ",
@@ -2829,6 +3055,41 @@
             "displayName": "տակառ",
             "unitPattern-count-one": "{0} տկռ",
             "unitPattern-count-other": "{0} տկռ"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "ագ․",
+            "unitPattern-count-one": "{0} ագ․",
+            "unitPattern-count-other": "{0} ագ․"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "անգլ․ ագ․",
+            "unitPattern-count-one": "{0} անգլ․ ագ․",
+            "unitPattern-count-other": "{0} անգլ․ ագ․"
+          },
+          "volume-drop": {
+            "displayName": "կաթիլ",
+            "unitPattern-count-one": "{0} կաթիլ",
+            "unitPattern-count-other": "{0} կաթիլ"
+          },
+          "volume-dram": {
+            "displayName": "հեղուկ դրամ",
+            "unitPattern-count-one": "{0} հեղուկ դրամ",
+            "unitPattern-count-other": "{0} հեղուկ դրամ"
+          },
+          "volume-jigger": {
+            "displayName": "ջիգեր",
+            "unitPattern-count-one": "{0} ջիգեր",
+            "unitPattern-count-other": "{0} ջիգեր"
+          },
+          "volume-pinch": {
+            "displayName": "պտղունց",
+            "unitPattern-count-one": "{0} պտղունց",
+            "unitPattern-count-other": "{0} պտղունց"
+          },
+          "volume-quart-imperial": {
+            "displayName": "անգլիական քվարտ",
+            "unitPattern-count-one": "{0} անգլիական քվարտ",
+            "unitPattern-count-other": "{0} անգլիական քվարտ"
           },
           "coordinateUnit": {
             "displayName": "ուղղ․",

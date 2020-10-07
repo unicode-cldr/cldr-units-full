@@ -3,7 +3,7 @@
     "si": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "si"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "යොටා{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "කිබි{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "මෙබි{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ගිබි{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ටෙබි{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "පෙබි{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "එක්ස්බි{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "සෙබි{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "යොබේ{0}"
+          },
           "per": {
             "compoundUnitPattern": "{1} ට {0} බැගින්"
           },
           "power2": {
             "compoundUnitPattern1": "වර්ගය {0}",
-            "compoundUnitPattern1": "වර්ග {0}",
-            "compoundUnitPattern1": "වර්ග {0}"
+            "compoundUnitPattern1-count-one": "වර්ග {0}",
+            "compoundUnitPattern1-count-other": "වර්ග {0}"
           },
           "power3": {
             "compoundUnitPattern1": "ඝන {0}",
-            "compoundUnitPattern1": "ඝන {0}",
-            "compoundUnitPattern1": "ඝන {0}"
+            "compoundUnitPattern1-count-one": "ඝන {0}",
+            "compoundUnitPattern1-count-other": "ඝන {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -221,9 +245,9 @@
             "unitPattern-count-other": "කිලෝ මීටරයට ලීටරය {0}"
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "කිලෝ මීටර 100 ට ලීටර",
-            "unitPattern-count-one": "කිලෝ මීටර 100 ට ලීටර {0}",
-            "unitPattern-count-other": "කිලෝ මීටර 100 ට ලීටර {0}"
+            "displayName": "කිලෝමීටර 100ට ලීටර",
+            "unitPattern-count-one": "කිලෝමීටර 100ට ලීටර {0}",
+            "unitPattern-count-other": "කිලෝමීටර 100ට ලීටර {0}"
           },
           "consumption-mile-per-gallon": {
             "displayName": "ගැලුමට හැතැප්ම",
@@ -487,6 +511,16 @@
             "unitPattern-count-one": "අඟලකට තිත් {0}",
             "unitPattern-count-other": "අඟලකට තිත් {0}"
           },
+          "graphics-dot": {
+            "displayName": "තිත",
+            "unitPattern-count-one": "{0}තිත",
+            "unitPattern-count-other": "{0}තිත"
+          },
+          "length-earth-radius": {
+            "displayName": "පෘථිවි අරය",
+            "unitPattern-count-one": "පෘථිවි අර {0}",
+            "unitPattern-count-other": "පෘථිවි අර {0}"
+          },
           "length-kilometer": {
             "displayName": "කිලෝමීටර්",
             "unitPattern-count-one": "කිලෝමීටර් {0}",
@@ -568,12 +602,14 @@
             "unitPattern-count-other": "නක්ෂත්‍ර ඒකක {0}"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "පර්ලොම",
+            "unitPattern-count-one": "{0} පර්ලොමය",
+            "unitPattern-count-other": "පර්ලොම {0}"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "බඹය",
+            "unitPattern-count-one": "{0} බඹය",
+            "unitPattern-count-other": "බඹ {0}"
           },
           "length-nautical-mile": {
             "displayName": "නාවුක සැතපුම්",
@@ -599,6 +635,16 @@
             "displayName": "ලක්ස්",
             "unitPattern-count-one": "ලක්ස් {0}",
             "unitPattern-count-other": "ලක්ස් {0}"
+          },
+          "light-candela": {
+            "displayName": "කැන්ඩෙලා",
+            "unitPattern-count-one": "{0} කැන්ඩෙලා",
+            "unitPattern-count-other": "කැන්ඩෙලා {0}"
+          },
+          "light-lumen": {
+            "displayName": "ලූමනය",
+            "unitPattern-count-one": "{0} ලූමනය",
+            "unitPattern-count-other": "ලූමන {0}"
           },
           "light-solar-luminosity": {
             "displayName": "සූර්ය දීප්ති",
@@ -638,8 +684,9 @@
             "unitPattern-count-other": "ටොන් {0}"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ගල්",
+            "unitPattern-count-one": "{0} ගල",
+            "unitPattern-count-other": "ගල් {0}"
           },
           "mass-pound": {
             "displayName": "රාත්තල්",
@@ -678,6 +725,11 @@
             "unitPattern-count-one": "{0} සූර්ය ස්කන්ධ",
             "unitPattern-count-other": "{0} සූර්ය ස්කන්ධ"
           },
+          "mass-grain": {
+            "displayName": "ඇබිත්ත",
+            "unitPattern-count-one": "{0} ඇබිත්ත",
+            "unitPattern-count-other": "ඇබිති {0}"
+          },
           "power-gigawatt": {
             "displayName": "ගිගා වොට්",
             "unitPattern-count-one": "ගිගා වොට් {0}",
@@ -714,9 +766,9 @@
             "unitPattern-count-other": "රසදිය මිලිමීටර {0}"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "වර්ග අලඟකට රාත්තල්",
-            "unitPattern-count-one": "වර්ග අලඟකට රාත්තල් {0}",
-            "unitPattern-count-other": "වර්ග අලඟකට රාත්තල් {0}"
+            "displayName": "වර්ග අඟලකට රාත්තල්",
+            "unitPattern-count-one": "වර්ග අඟලකට රාත්තල් {0}",
+            "unitPattern-count-other": "වර්ග අඟලකට රාත්තල් {0}"
           },
           "pressure-inch-ofhg": {
             "displayName": "රසදිය අඟල්",
@@ -892,8 +944,9 @@
             "unitPattern-count-other": "අක්කර-අඩි {0}"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "බුසල්",
+            "unitPattern-count-one": "{0} බුසල",
+            "unitPattern-count-other": "බුසල් {0}"
           },
           "volume-gallon": {
             "displayName": "ගැලුම්",
@@ -947,6 +1000,41 @@
             "unitPattern-count-one": "{0} බැරල්",
             "unitPattern-count-other": "{0} බැරල්"
           },
+          "volume-dessert-spoon": {
+            "displayName": "අතුරුපස හැන්ද",
+            "unitPattern-count-one": "{0} අතුරුපස හැන්ද",
+            "unitPattern-count-other": "අතුරුපස හැඳි {0}"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ඉම්පීරියල් අතුරුපස හැන්ද",
+            "unitPattern-count-one": "{0} ඉම්පීරියල් අතුරුපස හැන්ද",
+            "unitPattern-count-other": "ඉම්පීරියල් අතුරුපස හැඳි {0}"
+          },
+          "volume-drop": {
+            "displayName": "බින්දුව",
+            "unitPattern-count-one": "{0} බින්දුව",
+            "unitPattern-count-other": "බින්දු {0}"
+          },
+          "volume-dram": {
+            "displayName": "ඩ්‍රූම",
+            "unitPattern-count-one": "{0} ඩ්‍රූම",
+            "unitPattern-count-other": "ඩ්‍රූම {0}"
+          },
+          "volume-jigger": {
+            "displayName": "තැටි වාහකය",
+            "unitPattern-count-one": "{0} තැටි වාහකය",
+            "unitPattern-count-other": "තැටි වාහක {0}"
+          },
+          "volume-pinch": {
+            "displayName": "ඩිංග",
+            "unitPattern-count-one": "{0} ඩිංග",
+            "unitPattern-count-other": "ඩිංග {0}"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ඉම්පීරියල් නැළිය",
+            "unitPattern-count-one": "{0} ඉම්පීරියල් නැළිය",
+            "unitPattern-count-other": "ඉම්පීරියල් නැළි {0}"
+          },
           "coordinateUnit": {
             "displayName": "කාර්ඩිනල් දිශාව",
             "east": "{0}නැ",
@@ -993,13 +1081,13 @@
             "unitPrefixPattern": "හෙ{0}"
           },
           "10p3": {
-            "unitPrefixPattern": "කි{0}"
+            "unitPrefixPattern": "ක{0}"
           },
           "10p6": {
             "unitPrefixPattern": "මෙ{0}"
           },
           "10p9": {
-            "unitPrefixPattern": "ගි{0}"
+            "unitPrefixPattern": "ගිගා{0}"
           },
           "10p12": {
             "unitPrefixPattern": "ටෙ{0}"
@@ -1016,16 +1104,40 @@
           "10p24": {
             "unitPrefixPattern": "යොට{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "කි{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "මෙබි{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ගි{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ටි{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "පෙබි{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "එයි{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "සි{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "යි{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1432,6 +1544,16 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "තිත",
+            "unitPattern-count-one": "{0} තිත",
+            "unitPattern-count-other": "තිත් {0}"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "කි.මී",
             "unitPattern-count-one": "කි.මී {0}",
@@ -1513,12 +1635,14 @@
             "unitPattern-count-other": "නඒ {0}"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "පර්ලොම",
+            "unitPattern-count-one": "පර්ලොම {0}",
+            "unitPattern-count-other": "පර්ලොම {0}"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "බඹය",
+            "unitPattern-count-one": "බඹ {0}",
+            "unitPattern-count-other": "බඹ {0}"
           },
           "length-nautical-mile": {
             "displayName": "නාසැත",
@@ -1544,6 +1668,16 @@
             "displayName": "ලක්ස්",
             "unitPattern-count-one": "ලක් {0}",
             "unitPattern-count-other": "ලක් {0}"
+          },
+          "light-candela": {
+            "displayName": "කැන්ඩෙලා",
+            "unitPattern-count-one": "කැන්ඩෙලා {0}",
+            "unitPattern-count-other": "කැන්ඩෙලා {0}"
+          },
+          "light-lumen": {
+            "displayName": "ලූමනය",
+            "unitPattern-count-one": "ලූමන {0}",
+            "unitPattern-count-other": "ලූමන {0}"
           },
           "light-solar-luminosity": {
             "displayName": "සූර්ය දීප්ති",
@@ -1583,8 +1717,9 @@
             "unitPattern-count-other": "ටොන් {0}"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ගල්",
+            "unitPattern-count-one": "ගල් {0}",
+            "unitPattern-count-other": "ගල් {0}"
           },
           "mass-pound": {
             "displayName": "රාත්තල්",
@@ -1623,6 +1758,11 @@
             "unitPattern-count-one": "{0} ස්☉",
             "unitPattern-count-other": "{0} ස්☉"
           },
+          "mass-grain": {
+            "displayName": "ඇබිත්ත",
+            "unitPattern-count-one": "ඇබිති {0}",
+            "unitPattern-count-other": "ඇබිති {0}"
+          },
           "power-gigawatt": {
             "displayName": "ගිවො",
             "unitPattern-count-one": "ගිවො {0}",
@@ -1659,9 +1799,9 @@
             "unitPattern-count-other": "ර මිමී {0}"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "වඅ රා",
-            "unitPattern-count-one": "වඅ රා {0}",
-            "unitPattern-count-other": "වඅ රා {0}"
+            "displayName": "වඅරා",
+            "unitPattern-count-one": "වඅරා {0}",
+            "unitPattern-count-other": "වඅරා {0}"
           },
           "pressure-inch-ofhg": {
             "displayName": "ර අඟ",
@@ -1837,8 +1977,9 @@
             "unitPattern-count-other": "අක්-අඩි {0}"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "බුසල්",
+            "unitPattern-count-one": "බුසල් {0}",
+            "unitPattern-count-other": "බුසල් {0}"
           },
           "volume-gallon": {
             "displayName": "ගැලු",
@@ -1891,6 +2032,41 @@
             "displayName": "බැරල්",
             "unitPattern-count-one": "{0} බැරල්",
             "unitPattern-count-other": "{0} බැරල්"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "අතුරුපස හැන්ද",
+            "unitPattern-count-one": "අතුරුපස හැඳි {0}",
+            "unitPattern-count-other": "අතුරුපස හැඳි {0}"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ඉම්පීරියල් අතුරුපස හැන්ද",
+            "unitPattern-count-one": "ඉම්පී. අතුරුපස හැඳි {0}",
+            "unitPattern-count-other": "ඉම්පී. අතුරුපස හැඳි {0}"
+          },
+          "volume-drop": {
+            "displayName": "බින්දුව",
+            "unitPattern-count-one": "බින්දු {0}",
+            "unitPattern-count-other": "බින්දු {0}"
+          },
+          "volume-dram": {
+            "displayName": "ඩ්‍රූම තරල",
+            "unitPattern-count-one": "ඩ්‍රූම තරල {0}",
+            "unitPattern-count-other": "ඩ්‍රූම තරල {0}"
+          },
+          "volume-jigger": {
+            "displayName": "තැටි වාහකය",
+            "unitPattern-count-one": "තැටි වාහක {0}",
+            "unitPattern-count-other": "තැටි වාහක {0}"
+          },
+          "volume-pinch": {
+            "displayName": "ඩිංග",
+            "unitPattern-count-one": "ඩිංග {0}",
+            "unitPattern-count-other": "ඩිංග {0}"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ඉම්පීරියල් නැළිය",
+            "unitPattern-count-one": "ඉම්පීරියල් නැළි {0}",
+            "unitPattern-count-other": "ඉම්පීරියල් නැළි {0}"
           },
           "coordinateUnit": {
             "displayName": "දිශාව",
@@ -1961,16 +2137,40 @@
           "10p24": {
             "unitPrefixPattern": "යො{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "කි{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "මි{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "ගි{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ටි{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "පි{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "එයි{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "සි{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "යි{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2377,6 +2577,16 @@
             "unitPattern-count-one": "{0} dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "තිත",
+            "unitPattern-count-one": "{0} තිත",
+            "unitPattern-count-other": "තිත් {0}"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "කි.මී",
             "unitPattern-count-one": "කි.මී {0}",
@@ -2458,12 +2668,14 @@
             "unitPattern-count-other": "නඒ {0}"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "පර්ලොම",
+            "unitPattern-count-one": "පර්ලොම {0}",
+            "unitPattern-count-other": "පර්ලොම {0}"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "බඹය",
+            "unitPattern-count-one": "බඹ {0}",
+            "unitPattern-count-other": "බඹ {0}"
           },
           "length-nautical-mile": {
             "displayName": "නාසැත",
@@ -2489,6 +2701,16 @@
             "displayName": "ලක්ස්",
             "unitPattern-count-one": "ලක් {0}",
             "unitPattern-count-other": "ලක් {0}"
+          },
+          "light-candela": {
+            "displayName": "කැන්ඩෙලා",
+            "unitPattern-count-one": "කැන්ඩෙලා {0}",
+            "unitPattern-count-other": "කැන්ඩෙලා {0}"
+          },
+          "light-lumen": {
+            "displayName": "ලූමනය",
+            "unitPattern-count-one": "ලූමන {0}",
+            "unitPattern-count-other": "ලූමන {0}"
           },
           "light-solar-luminosity": {
             "displayName": "සූර්ය දීප්ති",
@@ -2528,8 +2750,9 @@
             "unitPattern-count-other": "ටොන් {0}"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "ගල්",
+            "unitPattern-count-one": "ගල් {0}",
+            "unitPattern-count-other": "ගල් {0}"
           },
           "mass-pound": {
             "displayName": "රාත්තල්",
@@ -2568,6 +2791,11 @@
             "unitPattern-count-one": "{0} ස්☉",
             "unitPattern-count-other": "{0} ස්☉"
           },
+          "mass-grain": {
+            "displayName": "ඇබිත්ත",
+            "unitPattern-count-one": "ඇබිති {0}",
+            "unitPattern-count-other": "ඇබිති {0}"
+          },
           "power-gigawatt": {
             "displayName": "ගිවො",
             "unitPattern-count-one": "ගිවො {0}",
@@ -2604,9 +2832,9 @@
             "unitPattern-count-other": "ර මිමී {0}"
           },
           "pressure-pound-force-per-square-inch": {
-            "displayName": "වඅ රා",
-            "unitPattern-count-one": "වඅ රා {0}",
-            "unitPattern-count-other": "වඅ රා {0}"
+            "displayName": "වඅරා",
+            "unitPattern-count-one": "වඅරා {0}",
+            "unitPattern-count-other": "වඅරා {0}"
           },
           "pressure-inch-ofhg": {
             "displayName": "ර අඟ",
@@ -2782,8 +3010,9 @@
             "unitPattern-count-other": "අක්-අඩි {0}"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "බුසල්",
+            "unitPattern-count-one": "බුසල් {0}",
+            "unitPattern-count-other": "බුසල් {0}"
           },
           "volume-gallon": {
             "displayName": "ගැලු",
@@ -2836,6 +3065,41 @@
             "displayName": "බැරල්",
             "unitPattern-count-one": "{0} බැරල්",
             "unitPattern-count-other": "{0} බැරල්"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "අතුරුපස හැන්ද",
+            "unitPattern-count-one": "අතුරුපස හැඳි {0}",
+            "unitPattern-count-other": "අතුරුපස හැඳි {0}"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ඉම්පීරියල් අතුරුපස හැන්ද",
+            "unitPattern-count-one": "ඉම්පී. අතුරුපස හැඳි {0}",
+            "unitPattern-count-other": "ඉම්පී. අතුරුපස හැඳි {0}"
+          },
+          "volume-drop": {
+            "displayName": "බින්දුව",
+            "unitPattern-count-one": "බින්දු {0}",
+            "unitPattern-count-other": "බින්දු {0}"
+          },
+          "volume-dram": {
+            "displayName": "ඩ්‍රූම තරල",
+            "unitPattern-count-one": "ඩ්‍රූම තරල {0}",
+            "unitPattern-count-other": "ඩ්‍රූම තරල {0}"
+          },
+          "volume-jigger": {
+            "displayName": "තැටි වාහකය",
+            "unitPattern-count-one": "තැටි වාහක {0}",
+            "unitPattern-count-other": "තැටි වාහක {0}"
+          },
+          "volume-pinch": {
+            "displayName": "ඩිංග",
+            "unitPattern-count-one": "ඩිංග {0}",
+            "unitPattern-count-other": "ඩිංග {0}"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ඉම්පීරියල් නැළිය",
+            "unitPattern-count-one": "ඉම්පීරියල් නැළි {0}",
+            "unitPattern-count-other": "ඉම්පීරියල් නැළි {0}"
           },
           "coordinateUnit": {
             "displayName": "දිශාව",

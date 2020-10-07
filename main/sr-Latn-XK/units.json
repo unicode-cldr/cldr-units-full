@@ -3,7 +3,7 @@
     "sr-Latn-XK": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "sr",
         "script": "Latn",
@@ -71,20 +71,44 @@
           "10p24": {
             "unitPrefixPattern": "jota{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "eksbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "jobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "kvadratni {0}",
-            "compoundUnitPattern1": "kvadratni {0}",
-            "compoundUnitPattern1": "kvadratna {0}",
-            "compoundUnitPattern1": "kvadratnih {0}"
+            "compoundUnitPattern1-count-one": "kvadratni {0}",
+            "compoundUnitPattern1-count-few": "kvadratna {0}",
+            "compoundUnitPattern1-count-other": "kvadratnih {0}"
           },
           "power3": {
             "compoundUnitPattern1": "kubni {0}",
-            "compoundUnitPattern1": "kubni {0}",
-            "compoundUnitPattern1": "kubna {0}",
-            "compoundUnitPattern1": "kubnih {0}"
+            "compoundUnitPattern1-count-one": "kubni {0}",
+            "compoundUnitPattern1-count-few": "kubna {0}",
+            "compoundUnitPattern1-count-other": "kubnih {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -249,7 +273,7 @@
             "unitPattern-count-other": "{0} litara po kilometru"
           },
           "consumption-liter-per-100-kilometer": {
-            "displayName": "L/100km",
+            "displayName": "litri na 100 kilometara",
             "unitPattern-count-one": "{0} litar na 100 kilometara",
             "unitPattern-count-few": "{0} litra na 100 kilometara",
             "unitPattern-count-other": "{0} litara na 100 kilometara"
@@ -270,7 +294,7 @@
             "displayName": "petabajti",
             "unitPattern-count-one": "{0} petabajt",
             "unitPattern-count-few": "{0} petabajta",
-            "unitPattern-count-other": "{0} petabajta"
+            "unitPattern-count-other": "{0} petabajtova"
           },
           "digital-terabyte": {
             "displayName": "terabajti",
@@ -282,43 +306,43 @@
             "displayName": "terabitovi",
             "unitPattern-count-one": "{0} terabit",
             "unitPattern-count-few": "{0} terabita",
-            "unitPattern-count-other": "{0} terabita"
+            "unitPattern-count-other": "{0} terabitova"
           },
           "digital-gigabyte": {
             "displayName": "gigabajti",
             "unitPattern-count-one": "{0} gigabajt",
             "unitPattern-count-few": "{0} gigabajta",
-            "unitPattern-count-other": "{0} gigabajta"
+            "unitPattern-count-other": "{0} gigabajtova"
           },
           "digital-gigabit": {
             "displayName": "gigabitovi",
             "unitPattern-count-one": "{0} gigabit",
             "unitPattern-count-few": "{0} gigabita",
-            "unitPattern-count-other": "{0} gigabita"
+            "unitPattern-count-other": "{0} gigabitova"
           },
           "digital-megabyte": {
             "displayName": "megabajti",
             "unitPattern-count-one": "{0} megabajt",
             "unitPattern-count-few": "{0} megabajta",
-            "unitPattern-count-other": "{0} megabajta"
+            "unitPattern-count-other": "{0} megabajtova"
           },
           "digital-megabit": {
             "displayName": "megabitovi",
             "unitPattern-count-one": "{0} megabit",
             "unitPattern-count-few": "{0} megabita",
-            "unitPattern-count-other": "{0} megabita"
+            "unitPattern-count-other": "{0} megabitova"
           },
           "digital-kilobyte": {
             "displayName": "kilobajti",
             "unitPattern-count-one": "{0} kilobajt",
             "unitPattern-count-few": "{0} kilobajta",
-            "unitPattern-count-other": "{0} kilobajta"
+            "unitPattern-count-other": "{0} kilobajtova"
           },
           "digital-kilobit": {
             "displayName": "kilobitovi",
             "unitPattern-count-one": "{0} kilobit",
             "unitPattern-count-few": "{0} kilobita",
-            "unitPattern-count-other": "{0} kilobita"
+            "unitPattern-count-other": "{0} kilobitova"
           },
           "digital-byte": {
             "displayName": "bajtovi",
@@ -551,6 +575,18 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "tačka",
+            "unitPattern-count-one": "{0} tačka",
+            "unitPattern-count-few": "{0} tačke",
+            "unitPattern-count-other": "{0} tačaka"
+          },
+          "length-earth-radius": {
+            "displayName": "poluprečnik Zemlje",
+            "unitPattern-count-one": "{0} poluprečnik Zemlje",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-other": "{0} poluprečnika Zemlje"
+          },
           "length-kilometer": {
             "displayName": "kilometri",
             "unitPattern-count-one": "{0} kilometar",
@@ -647,12 +683,16 @@
             "unitPattern-count-other": "{0} astronomskih jedinica"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlonzi",
+            "unitPattern-count-one": "{0} furlong",
+            "unitPattern-count-few": "{0} furlonga",
+            "unitPattern-count-other": "{0} furlonga"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "hvati",
+            "unitPattern-count-one": "{0} hvat",
+            "unitPattern-count-few": "{0} hvata",
+            "unitPattern-count-other": "{0} hvati"
           },
           "length-nautical-mile": {
             "displayName": "nautičke milje",
@@ -683,6 +723,18 @@
             "unitPattern-count-one": "{0} luks",
             "unitPattern-count-few": "{0} luksa",
             "unitPattern-count-other": "{0} luksa"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-few": "{0} kandele",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-few": "{0} lumena",
+            "unitPattern-count-other": "{0} lumena"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -727,8 +779,10 @@
             "unitPattern-count-other": "{0} tona"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "američke tone",
+            "unitPattern-count-one": "{0} američka tona",
+            "unitPattern-count-few": "{0} američke tone",
+            "unitPattern-count-other": "{0} američkih tona"
           },
           "mass-pound": {
             "displayName": "funte",
@@ -773,6 +827,12 @@
             "unitPattern-count-one": "{0} masa sunca",
             "unitPattern-count-few": "{0} mase sunca",
             "unitPattern-count-other": "{0} masa sunca"
+          },
+          "mass-grain": {
+            "displayName": "grejn",
+            "unitPattern-count-one": "{0} grejn",
+            "unitPattern-count-few": "{0} grejna",
+            "unitPattern-count-other": "{0} grejna"
           },
           "power-gigawatt": {
             "displayName": "gigavati",
@@ -919,10 +979,10 @@
             "unitPattern-count-other": "{0} kelvina"
           },
           "torque-pound-force-foot": {
-            "displayName": "funta-fiti",
-            "unitPattern-count-one": "{0} funta-fit",
-            "unitPattern-count-few": "{0} funta-fita",
-            "unitPattern-count-other": "{0} funta-fita"
+            "displayName": "funta-stope",
+            "unitPattern-count-one": "{0} funta sile stope",
+            "unitPattern-count-few": "{0} funte sile stope",
+            "unitPattern-count-other": "{0} funti sile stope"
           },
           "torque-newton-meter": {
             "displayName": "njutn-metri",
@@ -1030,8 +1090,10 @@
             "unitPattern-count-other": "{0} aker stopa"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "bušeli",
+            "unitPattern-count-one": "{0} bušel",
+            "unitPattern-count-few": "{0} bušela",
+            "unitPattern-count-other": "{0} bušela"
           },
           "volume-gallon": {
             "displayName": "galoni",
@@ -1094,6 +1156,48 @@
             "unitPattern-count-one": "{0} barel",
             "unitPattern-count-few": "{0} barela",
             "unitPattern-count-other": "{0} barela"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desertna kašičica",
+            "unitPattern-count-one": "{0} desertna kašičica",
+            "unitPattern-count-few": "{0} desertne kašičice",
+            "unitPattern-count-other": "{0} desertnih kašičica"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "imperijska desertna kašičica",
+            "unitPattern-count-one": "{0} imperijska desertna kašičica",
+            "unitPattern-count-few": "{0} imperijske desertne kašičice",
+            "unitPattern-count-other": "{0} imperijskih desertnih kašičica"
+          },
+          "volume-drop": {
+            "displayName": "kap",
+            "unitPattern-count-one": "{0} kap",
+            "unitPattern-count-few": "{0} kapi",
+            "unitPattern-count-other": "{0} kapi"
+          },
+          "volume-dram": {
+            "displayName": "dram tečnosti",
+            "unitPattern-count-one": "{0} dram tečnosti",
+            "unitPattern-count-few": "{0} drama tečnosti",
+            "unitPattern-count-other": "{0} drama tečnosti"
+          },
+          "volume-jigger": {
+            "displayName": "džiger",
+            "unitPattern-count-one": "{0} džiger",
+            "unitPattern-count-few": "{0} džigera",
+            "unitPattern-count-other": "{0} džigera"
+          },
+          "volume-pinch": {
+            "displayName": "prstohvat",
+            "unitPattern-count-one": "{0} prstohvat",
+            "unitPattern-count-few": "{0} prstohvata",
+            "unitPattern-count-other": "{0} prstohvata"
+          },
+          "volume-quart-imperial": {
+            "displayName": "imperijska četvrtina",
+            "unitPattern-count-one": "{0} imperijska četvrtina",
+            "unitPattern-count-few": "{0} imperijske četvrtine",
+            "unitPattern-count-other": "{0} imperijskih četvrtina"
           },
           "coordinateUnit": {
             "displayName": "glavni pravac",
@@ -1164,18 +1268,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-few": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1636,6 +1764,18 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "tačka",
+            "unitPattern-count-one": "{0} tačka",
+            "unitPattern-count-few": "{0} tačke",
+            "unitPattern-count-other": "{0} tačaka"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1732,11 +1872,15 @@
             "unitPattern-count-other": "{0} aj"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlonzi",
+            "unitPattern-count-one": "{0} fur",
+            "unitPattern-count-few": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "hv",
+            "unitPattern-count-one": "{0} fth",
+            "unitPattern-count-few": "{0} fth",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -1766,6 +1910,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-few": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1850,6 +2002,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grejn",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2160,6 +2316,36 @@
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "kap",
+            "unitPattern-count-one": "{0} kap",
+            "unitPattern-count-few": "{0} kapi",
+            "unitPattern-count-other": "{0} kapi"
+          },
+          "volume-dram": {
+            "displayName": "dram tečnosti",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "džiger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "prstohvat",
+            "unitPattern-count-other": "{0} pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
+          },
           "coordinateUnit": {
             "displayName": "pravac",
             "east": "{0}I",
@@ -2229,18 +2415,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-few": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2701,6 +2911,18 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "tačka",
+            "unitPattern-count-one": "{0} tačka",
+            "unitPattern-count-few": "{0} tačke",
+            "unitPattern-count-other": "{0} tačaka"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-one": "{0} R⊕",
+            "unitPattern-count-few": "{0} R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2797,11 +3019,15 @@
             "unitPattern-count-other": "{0} aj"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlonzi",
+            "unitPattern-count-one": "{0} fur",
+            "unitPattern-count-few": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "hv",
+            "unitPattern-count-one": "{0} fth",
+            "unitPattern-count-few": "{0} fth",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -2831,6 +3057,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-few": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2915,6 +3149,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grejn",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -3224,6 +3462,36 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "kap",
+            "unitPattern-count-one": "{0} kap",
+            "unitPattern-count-few": "{0} kapi",
+            "unitPattern-count-other": "{0} kapi"
+          },
+          "volume-dram": {
+            "displayName": "dram tečnosti",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "džiger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "prstohvat",
+            "unitPattern-count-other": "{0} pinch"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "pravac",

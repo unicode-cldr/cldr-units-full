@@ -3,7 +3,7 @@
     "yo-BJ": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "yo",
         "territory": "BJ"
@@ -70,16 +70,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mɛ́bì {0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gíbí {0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tɛbi {0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pɛbi {0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ɛ́síbì {0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "sɛ́bì {0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yóòbù {0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -178,8 +202,8 @@
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "ìdákan nínú ɛgbɛ̀rún",
+            "unitPattern-count-other": "{0} ìdákan nínú ɛgbɛ̀rún"
           },
           "concentr-permyriad": {
             "displayName": "‱",
@@ -206,48 +230,48 @@
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
-            "displayName": "PB",
-            "unitPattern-count-other": "{0} PB"
+            "displayName": "àwɔn pɛ́tábáìtì",
+            "unitPattern-count-other": "{0} àwɔn pɛ́tábáìtì"
           },
           "digital-terabyte": {
-            "displayName": "TB",
-            "unitPattern-count-other": "{0} TB"
+            "displayName": "àwɔn tɛ́rábáìtì",
+            "unitPattern-count-other": "{0} àwɔn tɛ́rábáìtì"
           },
           "digital-terabit": {
-            "displayName": "Tb",
-            "unitPattern-count-other": "{0} Tb"
+            "displayName": "àwɔn tɛ́rábíìtì",
+            "unitPattern-count-other": "{0} àwɔn tɛ́rábíìtì"
           },
           "digital-gigabyte": {
-            "displayName": "GB",
-            "unitPattern-count-other": "{0} GB"
+            "displayName": "àwɔn gígábáìtì",
+            "unitPattern-count-other": "{0} àwɔn gígábáìtì"
           },
           "digital-gigabit": {
-            "displayName": "Gb",
-            "unitPattern-count-other": "{0} Gb"
+            "displayName": "àwɔn gígábíìtì",
+            "unitPattern-count-other": "{0} àwɔn gígábíìtì"
           },
           "digital-megabyte": {
-            "displayName": "MB",
-            "unitPattern-count-other": "{0} MB"
+            "displayName": "àwɔn mégábáìtì",
+            "unitPattern-count-other": "{0} àwɔn mégábáìtì"
           },
           "digital-megabit": {
-            "displayName": "Mb",
-            "unitPattern-count-other": "{0} Mb"
+            "displayName": "àwɔn mégábíìtì",
+            "unitPattern-count-other": "{0} àwɔn mégábíìtì"
           },
           "digital-kilobyte": {
-            "displayName": "kB",
-            "unitPattern-count-other": "{0} kB"
+            "displayName": "àwɔn kílóbáìtì",
+            "unitPattern-count-other": "{0} àwɔn kílóbáìtì"
           },
           "digital-kilobit": {
-            "displayName": "kb",
-            "unitPattern-count-other": "{0} kb"
+            "displayName": "àwɔn kílóbíìtì",
+            "unitPattern-count-other": "{0} àwɔ́n kílóbíìtì"
           },
           "digital-byte": {
-            "displayName": "byte",
-            "unitPattern-count-other": "{0} byte"
+            "displayName": "àwɔ́n báìtì",
+            "unitPattern-count-other": "{0} àwɔ́n báìtì"
           },
           "digital-bit": {
-            "displayName": "bit",
-            "unitPattern-count-other": "{0} bit"
+            "displayName": "àwɔ́n bíìtì",
+            "unitPattern-count-other": "{0} àwɔ́n bíìtì"
           },
           "duration-century": {
             "displayName": "ɔ̀rúndún",
@@ -408,6 +432,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dɔ́ɔ̀tì",
+            "unitPattern-count-other": "{0} dɔ́ɔ̀tì"
+          },
+          "length-earth-radius": {
+            "displayName": "ìdinwɔ̀n ayé",
+            "unitPattern-count-other": "{0} ìdinwɔ̀n ayé"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-other": "{0} km",
@@ -501,6 +533,14 @@
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "kandɛ́là",
+            "unitPattern-count-other": "{0} kandɛ́là"
+          },
+          "light-lumen": {
+            "displayName": "lumɛ́ɛ̀nì",
+            "unitPattern-count-other": "{0} lumɛ́ɛ̀nì"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -564,6 +604,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "giréènì",
+            "unitPattern-count-other": "{0} gíréènì"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -782,6 +826,34 @@
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "àmì shíbí oúnjɛ́ kékeré",
+            "unitPattern-count-other": "{0} àmì shíbí oúnjɛ́ kékeré"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "shíbí oúnjɛ kékeré",
+            "unitPattern-count-other": "{0} àmì oúnjɛ kékeré"
+          },
+          "volume-drop": {
+            "displayName": "dírɔ́pù",
+            "unitPattern-count-other": "{0} dírɔ́pù"
+          },
+          "volume-dram": {
+            "displayName": "omi dírámù",
+            "unitPattern-count-other": "{0} àmì omi dírámù"
+          },
+          "volume-jigger": {
+            "displayName": "jígà",
+            "unitPattern-count-other": "{0} jígà"
+          },
+          "volume-pinch": {
+            "displayName": "píńshì",
+            "unitPattern-count-other": "{0} píńshì"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ìdásímérin",
+            "unitPattern-count-other": "{0} ìdásímérin"
+          },
           "coordinateUnit": {
             "displayName": "direction",
             "east": "{0}E",
@@ -851,16 +923,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "àmì Kí {0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "àmì Mi {0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "àmì Gi {0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "àmì Ti {0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "àmì Pi {0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "àmì Ei {0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "àmì Sí {0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "àmì {0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -959,8 +1055,8 @@
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "ìdákan nínú ɛgbɛ̀rún",
+            "unitPattern-count-other": "{0} àmì ìdákan"
           },
           "concentr-permyriad": {
             "displayName": "‱",
@@ -987,48 +1083,48 @@
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
-            "displayName": "PB",
-            "unitPattern-count-other": "{0} PB"
+            "displayName": "Píbáìtì",
+            "unitPattern-count-other": "{0} Píbáìtì"
           },
           "digital-terabyte": {
-            "displayName": "TB",
-            "unitPattern-count-other": "{0} TB"
+            "displayName": "Tíbáìtì",
+            "unitPattern-count-other": "{0} Tíbáìtì"
           },
           "digital-terabit": {
             "displayName": "Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
-            "displayName": "GB",
-            "unitPattern-count-other": "{0} GB"
+            "displayName": "jíbáìtì",
+            "unitPattern-count-other": "{0} jíbáìtì"
           },
           "digital-gigabit": {
-            "displayName": "Gb",
-            "unitPattern-count-other": "{0} Gb"
+            "displayName": "jíbíìtì",
+            "unitPattern-count-other": "{0}jíbíìtì"
           },
           "digital-megabyte": {
-            "displayName": "MB",
+            "displayName": "ɛ́mbáìtì",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
-            "unitPattern-count-other": "{0} Mb"
+            "displayName": "ɛ́mbíìtì",
+            "unitPattern-count-other": "{0} ɛ́mbiì"
           },
           "digital-kilobyte": {
-            "displayName": "kB",
-            "unitPattern-count-other": "{0} kB"
+            "displayName": "kébáìtì",
+            "unitPattern-count-other": "{0} kébáìtì"
           },
           "digital-kilobit": {
-            "displayName": "kb",
-            "unitPattern-count-other": "{0} kb"
+            "displayName": "kébiì",
+            "unitPattern-count-other": "{0} kébiì"
           },
           "digital-byte": {
-            "displayName": "byte",
-            "unitPattern-count-other": "{0} byte"
+            "displayName": "báìtì",
+            "unitPattern-count-other": "{0} báìtì"
           },
           "digital-bit": {
-            "displayName": "bit",
-            "unitPattern-count-other": "{0} bit"
+            "displayName": "bíìtì",
+            "unitPattern-count-other": "{0} bíìtì"
           },
           "duration-century": {
             "displayName": "c",
@@ -1189,6 +1285,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dɔ́ɔ̀tì",
+            "unitPattern-count-other": "{0} dɔ́ɔ̀tì"
+          },
+          "length-earth-radius": {
+            "displayName": "àmì ìdínwɔ̀n ayé",
+            "unitPattern-count-other": "{0} àmì ìdínwɔ̀n ayé"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-other": "{0} km",
@@ -1282,6 +1386,14 @@
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "sídiì",
+            "unitPattern-count-other": "{0} sídiì"
+          },
+          "light-lumen": {
+            "displayName": "àmì lumɛ́ɛ̀nì",
+            "unitPattern-count-other": "{0} àmi lumɛ́ɛ̀nì"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -1345,6 +1457,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gíréènì",
+            "unitPattern-count-other": "{0} gíréènì"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -1563,6 +1679,34 @@
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "shíbí oúnjɛ́ kékeré",
+            "unitPattern-count-other": "{0} shíbí oúnjɛ́ kékeré"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "àmì oúnjɛ kékeré",
+            "unitPattern-count-other": "{0} àmì oúnjɛ kékeré"
+          },
+          "volume-drop": {
+            "displayName": "dírɔ́pù",
+            "unitPattern-count-other": "{0} dírɔ́pù"
+          },
+          "volume-dram": {
+            "displayName": "omi dírámù",
+            "unitPattern-count-other": "{0} àmì omi dírámù"
+          },
+          "volume-jigger": {
+            "displayName": "jígà",
+            "unitPattern-count-other": "{0} jígà"
+          },
+          "volume-pinch": {
+            "displayName": "píńshì",
+            "unitPattern-count-other": "{0} píńshì"
+          },
+          "volume-quart-imperial": {
+            "displayName": "àmì ìdásímérin",
+            "unitPattern-count-other": "{0} àmì ìdásímérin"
+          },
           "coordinateUnit": {
             "displayName": "direction",
             "east": "{0}E",
@@ -1632,16 +1776,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "àmì Ki {0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "àmì Mi {0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "àmì Gi {0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "àmì Ti {0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "àmì Pí {0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "àmì Ei {0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "àmì Sí {0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "àmì Yí {0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1740,8 +1908,8 @@
             "unitPattern-count-other": "{0}%"
           },
           "concentr-permille": {
-            "displayName": "‰",
-            "unitPattern-count-other": "{0}‰"
+            "displayName": "ìdákan nínú ɛgbɛ̀rún",
+            "unitPattern-count-other": "{0} àmì ìdákan"
           },
           "concentr-permyriad": {
             "displayName": "‱",
@@ -1768,48 +1936,48 @@
             "unitPattern-count-other": "{0} mpg Imp."
           },
           "digital-petabyte": {
-            "displayName": "PB",
-            "unitPattern-count-other": "{0} PB"
+            "displayName": "Píbáìtì",
+            "unitPattern-count-other": "{0} Píbáìtì"
           },
           "digital-terabyte": {
-            "displayName": "TB",
-            "unitPattern-count-other": "{0} TB"
+            "displayName": "Tíbáìtì",
+            "unitPattern-count-other": "{0} Tíbáìtì"
           },
           "digital-terabit": {
             "displayName": "Tb",
             "unitPattern-count-other": "{0} Tb"
           },
           "digital-gigabyte": {
-            "displayName": "GB",
-            "unitPattern-count-other": "{0} GB"
+            "displayName": "jíbáìtì",
+            "unitPattern-count-other": "{0} jíbáìtì"
           },
           "digital-gigabit": {
-            "displayName": "Gb",
-            "unitPattern-count-other": "{0} Gb"
+            "displayName": "jíbíìtì",
+            "unitPattern-count-other": "{0}jíbíìtì"
           },
           "digital-megabyte": {
-            "displayName": "MB",
+            "displayName": "ɛ́mbáìtì",
             "unitPattern-count-other": "{0} MB"
           },
           "digital-megabit": {
-            "displayName": "Mb",
-            "unitPattern-count-other": "{0} Mb"
+            "displayName": "ɛ́mbíìtì",
+            "unitPattern-count-other": "{0} ɛ́mbiì"
           },
           "digital-kilobyte": {
-            "displayName": "kB",
-            "unitPattern-count-other": "{0} kB"
+            "displayName": "kébáìtì",
+            "unitPattern-count-other": "{0} kébáìtì"
           },
           "digital-kilobit": {
-            "displayName": "kb",
-            "unitPattern-count-other": "{0} kb"
+            "displayName": "kébiì",
+            "unitPattern-count-other": "{0} kébiì"
           },
           "digital-byte": {
-            "displayName": "byte",
-            "unitPattern-count-other": "{0} byte"
+            "displayName": "báìtì",
+            "unitPattern-count-other": "{0} báìtì"
           },
           "digital-bit": {
-            "displayName": "bit",
-            "unitPattern-count-other": "{0} bit"
+            "displayName": "bíìtì",
+            "unitPattern-count-other": "{0} bíìtì"
           },
           "duration-century": {
             "displayName": "c",
@@ -1970,6 +2138,14 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "dɔ́ɔ̀tì",
+            "unitPattern-count-other": "{0} dɔ́ɔ̀tì"
+          },
+          "length-earth-radius": {
+            "displayName": "àmì ìdínwɔ̀n ayé",
+            "unitPattern-count-other": "{0} àmì ìdínwɔ̀n ayé"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-other": "{0} km",
@@ -2063,6 +2239,14 @@
             "displayName": "lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "sídiì",
+            "unitPattern-count-other": "{0} sídiì"
+          },
+          "light-lumen": {
+            "displayName": "àmì lumɛ́ɛ̀nì",
+            "unitPattern-count-other": "{0} àmi lumɛ́ɛ̀nì"
+          },
           "light-solar-luminosity": {
             "displayName": "L☉",
             "unitPattern-count-other": "{0} L☉"
@@ -2126,6 +2310,10 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gíréènì",
+            "unitPattern-count-other": "{0} gíréènì"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2343,6 +2531,34 @@
           "volume-barrel": {
             "displayName": "bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "shíbí oúnjɛ́ kékeré",
+            "unitPattern-count-other": "{0} shíbí oúnjɛ́ kékeré"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "àmì oúnjɛ kékeré",
+            "unitPattern-count-other": "{0} àmì oúnjɛ kékeré"
+          },
+          "volume-drop": {
+            "displayName": "dírɔ́pù",
+            "unitPattern-count-other": "{0} dírɔ́pù"
+          },
+          "volume-dram": {
+            "displayName": "omi dírámù",
+            "unitPattern-count-other": "{0} àmì omi dírámù"
+          },
+          "volume-jigger": {
+            "displayName": "jígà",
+            "unitPattern-count-other": "{0} jígà"
+          },
+          "volume-pinch": {
+            "displayName": "píńshì",
+            "unitPattern-count-other": "{0} píńshì"
+          },
+          "volume-quart-imperial": {
+            "displayName": "àmì ìdásímérin",
+            "unitPattern-count-other": "{0} àmì ìdásímérin"
           },
           "coordinateUnit": {
             "displayName": "direction",

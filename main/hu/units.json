@@ -3,7 +3,7 @@
     "hu": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "hu"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} per {1}"
           },
           "power2": {
-            "compoundUnitPattern1": "négyzet{0}",
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "négyzet{0}",
+            "compoundUnitPattern1-count-other": "négyzet{0}"
           },
           "power3": {
-            "compoundUnitPattern1": "köb{0}",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "köb{0}",
+            "compoundUnitPattern1-count-other": "köb{0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -486,6 +510,16 @@
             "unitPattern-count-one": "{0} pont per hüvelyk",
             "unitPattern-count-other": "{0} pont per hüvelyk"
           },
+          "graphics-dot": {
+            "displayName": "képpont",
+            "unitPattern-count-one": "képpont",
+            "unitPattern-count-other": "{0} képpont"
+          },
+          "length-earth-radius": {
+            "displayName": "földsugár",
+            "unitPattern-count-one": "{0} földsugár",
+            "unitPattern-count-other": "{0} földsugár"
+          },
           "length-kilometer": {
             "displayName": "kilométer",
             "unitPattern-count-one": "{0} kilométer",
@@ -567,12 +601,14 @@
             "unitPattern-count-other": "{0} csillagászati egység"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlong",
+            "unitPattern-count-one": "{0} furlong",
+            "unitPattern-count-other": "{0} furlong"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "öl",
+            "unitPattern-count-one": "{0} öl",
+            "unitPattern-count-other": "{0} öl"
           },
           "length-nautical-mile": {
             "displayName": "tengeri mérföld",
@@ -598,6 +634,16 @@
             "displayName": "lux",
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-other": "{0} lux"
+          },
+          "light-candela": {
+            "displayName": "kandela",
+            "unitPattern-count-one": "{0} kandela",
+            "unitPattern-count-other": "{0} kandela"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-other": "{0} lumen"
           },
           "light-solar-luminosity": {
             "displayName": "Nap-fényerő",
@@ -632,9 +678,9 @@
             "unitPattern-count-other": "{0} mikrogramm"
           },
           "mass-ton": {
-            "displayName": "tonna",
-            "unitPattern-count-one": "{0} tonna",
-            "unitPattern-count-other": "{0} tonna"
+            "displayName": "amerikai tonna",
+            "unitPattern-count-one": "{0} amerikai tonna",
+            "unitPattern-count-other": "{0} amerikai tonna"
           },
           "mass-stone": {
             "displayName": "stone",
@@ -677,6 +723,11 @@
             "displayName": "Nap-tömeg",
             "unitPattern-count-one": "{0} Nap-tömeg",
             "unitPattern-count-other": "{0} Nap-tömeg"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} grain",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "gigawatt",
@@ -891,8 +942,9 @@
             "unitPattern-count-other": "{0} hold-láb"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "véka",
+            "unitPattern-count-one": "{0} véka",
+            "unitPattern-count-other": "{0} véka"
           },
           "volume-gallon": {
             "displayName": "gallon",
@@ -945,6 +997,41 @@
             "displayName": "hordó",
             "unitPattern-count-one": "{0} hordó",
             "unitPattern-count-other": "{0} hordó"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desszertkanál",
+            "unitPattern-count-one": "{0} desszertkanál",
+            "unitPattern-count-other": "{0} desszertkanál"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "bir. desszertkanál",
+            "unitPattern-count-one": "{0} bir. desszertkanál",
+            "unitPattern-count-other": "{0} bir. desszertkanál"
+          },
+          "volume-drop": {
+            "displayName": "csepp",
+            "unitPattern-count-one": "{0} csepp",
+            "unitPattern-count-other": "{0} csepp"
+          },
+          "volume-dram": {
+            "displayName": "dram",
+            "unitPattern-count-one": "{0} dram",
+            "unitPattern-count-other": "{0} dram"
+          },
+          "volume-jigger": {
+            "displayName": "adagolópohár",
+            "unitPattern-count-one": "{0} adagolópohár",
+            "unitPattern-count-other": "{0} adagolópohár"
+          },
+          "volume-pinch": {
+            "displayName": "csipet",
+            "unitPattern-count-one": "{0} csipet",
+            "unitPattern-count-other": "{0} csipet"
+          },
+          "volume-quart-imperial": {
+            "displayName": "birodalmi kvart",
+            "unitPattern-count-one": "{0} birodalmi kvart",
+            "unitPattern-count-other": "{0} birodalmi kvart"
           },
           "coordinateUnit": {
             "displayName": "kardinális irány",
@@ -1015,18 +1102,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1269,15 +1380,15 @@
           },
           "duration-hour": {
             "displayName": "h",
-            "unitPattern-count-one": "{0} h",
-            "unitPattern-count-other": "{0} h",
-            "perUnitPattern": "{0}/h"
+            "unitPattern-count-one": "{0} ó",
+            "unitPattern-count-other": "{0} ó",
+            "perUnitPattern": "{0}/ó"
           },
           "duration-minute": {
-            "displayName": "min",
-            "unitPattern-count-one": "{0} min",
-            "unitPattern-count-other": "{0} min",
-            "perUnitPattern": "{0}/min"
+            "displayName": "p",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-other": "{0} p",
+            "perUnitPattern": "{0}/p"
           },
           "duration-second": {
             "displayName": "s",
@@ -1421,6 +1532,15 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "képpont",
+            "unitPattern-count-one": "{0} képpont",
+            "unitPattern-count-other": "{0} képpont"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1502,12 +1622,14 @@
             "unitPattern-count-other": "{0} CsE"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlong",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "öl",
+            "unitPattern-count-one": "{0} öl",
+            "unitPattern-count-other": "{0} öl"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -1532,6 +1654,14 @@
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1607,6 +1737,11 @@
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
           },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} grain",
+            "unitPattern-count-other": "{0} grain"
+          },
           "power-gigawatt": {
             "displayName": "GW",
             "unitPattern-count-one": "{0} GW",
@@ -1639,8 +1774,8 @@
           },
           "pressure-millimeter-ofhg": {
             "displayName": "Hgmm",
-            "unitPattern-count-one": "{0} mm Hg",
-            "unitPattern-count-other": "{0} mm Hg"
+            "unitPattern-count-one": "{0} Hgmm",
+            "unitPattern-count-other": "{0} Hgmm"
           },
           "pressure-pound-force-per-square-inch": {
             "displayName": "psi",
@@ -1817,8 +1952,9 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "véka",
+            "unitPattern-count-one": "{0} véka",
+            "unitPattern-count-other": "{0} véka"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -1871,6 +2007,41 @@
             "displayName": "hordó",
             "unitPattern-count-one": "{0} hordó",
             "unitPattern-count-other": "{0} hordó"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desszertkanál",
+            "unitPattern-count-one": "{0} desszertkanál",
+            "unitPattern-count-other": "{0} desszertkanál"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "bir. desszertkanál",
+            "unitPattern-count-one": "{0} bir. desszertkanál",
+            "unitPattern-count-other": "{0} bir. desszertkanál"
+          },
+          "volume-drop": {
+            "displayName": "csepp",
+            "unitPattern-count-one": "{0} csepp",
+            "unitPattern-count-other": "{0} csepp"
+          },
+          "volume-dram": {
+            "displayName": "fluid dram",
+            "unitPattern-count-one": "{0} fl dram",
+            "unitPattern-count-other": "{0} fl dram"
+          },
+          "volume-jigger": {
+            "displayName": "adagolópohár",
+            "unitPattern-count-one": "{0} adagolópohár",
+            "unitPattern-count-other": "{0} adagolópohár"
+          },
+          "volume-pinch": {
+            "displayName": "csipet",
+            "unitPattern-count-one": "{0} csipet",
+            "unitPattern-count-other": "{0} csipet"
+          },
+          "volume-quart-imperial": {
+            "displayName": "bir. qt",
+            "unitPattern-count-one": "{0} bir. qt",
+            "unitPattern-count-other": "{0} bir. qt"
           },
           "coordinateUnit": {
             "displayName": "irány",
@@ -1941,18 +2112,42 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2194,15 +2389,15 @@
             "perUnitPattern": "{0}/nap"
           },
           "duration-hour": {
-            "displayName": "h",
-            "unitPattern-count-one": "{0} h",
+            "displayName": "ó",
+            "unitPattern-count-one": "{0} ó",
             "unitPattern-count-other": "{0} h",
             "perUnitPattern": "{0}/h"
           },
           "duration-minute": {
-            "displayName": "min",
-            "unitPattern-count-one": "{0} min",
-            "unitPattern-count-other": "{0} min",
+            "displayName": "p",
+            "unitPattern-count-one": "{0} p",
+            "unitPattern-count-other": "{0} p",
             "perUnitPattern": "{0}/min"
           },
           "duration-second": {
@@ -2347,6 +2542,15 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "képpont",
+            "unitPattern-count-one": "{0} képpont",
+            "unitPattern-count-other": "{0} képpont"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2428,12 +2632,14 @@
             "unitPattern-count-other": "{0} CsE"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlong",
+            "unitPattern-count-one": "{0} fur",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "öl",
+            "unitPattern-count-one": "{0} öl",
+            "unitPattern-count-other": "{0} öl"
           },
           "length-nautical-mile": {
             "displayName": "nmi",
@@ -2458,6 +2664,14 @@
             "displayName": "lx",
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2533,6 +2747,11 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "grain",
+            "unitPattern-count-one": "{0} grain",
+            "unitPattern-count-other": "{0} grain"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2744,8 +2963,9 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "véka",
+            "unitPattern-count-one": "{0} véka",
+            "unitPattern-count-other": "{0} véka"
           },
           "volume-gallon": {
             "displayName": "gal",
@@ -2798,6 +3018,41 @@
             "displayName": "hordó",
             "unitPattern-count-one": "{0} hordó",
             "unitPattern-count-other": "{0} hordó"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "desszertkanál",
+            "unitPattern-count-one": "{0} desszertkanál",
+            "unitPattern-count-other": "{0} desszertkanál"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "bir. desszertkanál",
+            "unitPattern-count-one": "{0} bir. desszertkanál",
+            "unitPattern-count-other": "{0} bir. desszertkanál"
+          },
+          "volume-drop": {
+            "displayName": "csepp",
+            "unitPattern-count-one": "{0} csepp",
+            "unitPattern-count-other": "{0} csepp"
+          },
+          "volume-dram": {
+            "displayName": "fluid dram",
+            "unitPattern-count-one": "{0} fl dram",
+            "unitPattern-count-other": "{0} fl dram"
+          },
+          "volume-jigger": {
+            "displayName": "adagolópohár",
+            "unitPattern-count-one": "{0} adagolópohár",
+            "unitPattern-count-other": "{0} adagolópohár"
+          },
+          "volume-pinch": {
+            "displayName": "csipet",
+            "unitPattern-count-one": "{0} csipet",
+            "unitPattern-count-other": "{0} csipet"
+          },
+          "volume-quart-imperial": {
+            "displayName": "bir. qt",
+            "unitPattern-count-one": "{0} bir. qt",
+            "unitPattern-count-other": "{0} bir. qt"
           },
           "coordinateUnit": {
             "displayName": "irány",

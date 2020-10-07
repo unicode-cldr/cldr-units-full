@@ -3,7 +3,7 @@
     "ka": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ka"
       },
@@ -69,18 +69,42 @@
           "10p24": {
             "unitPrefixPattern": "იოტა{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "კიბი{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "მები{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "გიბი{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ტები{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "პები{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ექსბი{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ზები{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "იობი{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "კვადრატული {0}",
-            "compoundUnitPattern1": "კვადრატული {0}",
-            "compoundUnitPattern1": "კვადრატული {0}"
+            "compoundUnitPattern1-count-one": "კვადრატული {0}",
+            "compoundUnitPattern1-count-other": "კვადრატული {0}"
           },
           "power3": {
             "compoundUnitPattern1": "კუბური {0}",
-            "compoundUnitPattern1": "კუბური {0}",
-            "compoundUnitPattern1": "კუბური {0}"
+            "compoundUnitPattern1-count-one": "კუბური {0}",
+            "compoundUnitPattern1-count-other": "კუბური {0}"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -483,6 +507,16 @@
             "unitPattern-count-one": "{0} წერტილი დუიმზე",
             "unitPattern-count-other": "{0} წერტილი დუიმზე"
           },
+          "graphics-dot": {
+            "displayName": "წერტილი",
+            "unitPattern-count-one": "{0} წერტილი",
+            "unitPattern-count-other": "{0} წერტილი"
+          },
+          "length-earth-radius": {
+            "displayName": "დედამიწის რადიუსი",
+            "unitPattern-count-one": "{0} დედამიწის რადიუსი",
+            "unitPattern-count-other": "{0} დედამიწის რადიუსი"
+          },
           "length-kilometer": {
             "displayName": "კილომეტრი",
             "unitPattern-count-one": "{0} კილომეტრი",
@@ -564,12 +598,14 @@
             "unitPattern-count-other": "{0} ასტრონომიული ერთეული"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ფურლონგი",
+            "unitPattern-count-one": "{0} ფურლონგი",
+            "unitPattern-count-other": "{0} ფურლონგი"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ფატომი",
+            "unitPattern-count-one": "{0} ფატომი",
+            "unitPattern-count-other": "{0} ფატომი"
           },
           "length-nautical-mile": {
             "displayName": "საზღვაო მილი",
@@ -587,17 +623,29 @@
             "unitPattern-count-other": "{0} პუნქტი"
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "მზის რადიუსი",
+            "unitPattern-count-one": "{0} მზის რადიუსი",
+            "unitPattern-count-other": "{0} მზის რადიუსი"
           },
           "light-lux": {
             "displayName": "ლუქსი",
             "unitPattern-count-one": "{0} ლუქსი",
             "unitPattern-count-other": "{0} ლუქსი"
           },
+          "light-candela": {
+            "displayName": "კანდელა",
+            "unitPattern-count-one": "{0} კანდელა",
+            "unitPattern-count-other": "{0} კანდელა"
+          },
+          "light-lumen": {
+            "displayName": "ლუმენი",
+            "unitPattern-count-one": "{0} ლუმენი",
+            "unitPattern-count-other": "{0} ლუმენი"
+          },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "მზის სხივიერობა",
+            "unitPattern-count-one": "{0} მზის სხივიერობა",
+            "unitPattern-count-other": "{0} მზის სხივიერობა"
           },
           "mass-metric-ton": {
             "displayName": "მეტრული ტონა",
@@ -632,8 +680,9 @@
             "unitPattern-count-other": "{0} ტ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "სტოუნი",
+            "unitPattern-count-one": "{0} სტოუნი",
+            "unitPattern-count-other": "{0} სტოუნი"
           },
           "mass-pound": {
             "displayName": "ფუნტი",
@@ -671,6 +720,11 @@
             "displayName": "მზის მასა",
             "unitPattern-count-one": "{0} მზის მასა",
             "unitPattern-count-other": "{0} მზის მასა"
+          },
+          "mass-grain": {
+            "displayName": "გრანი",
+            "unitPattern-count-one": "{0} გრანი",
+            "unitPattern-count-other": "{0} გრანი"
           },
           "power-gigawatt": {
             "displayName": "გიგავატი",
@@ -793,12 +847,14 @@
             "unitPattern-count-other": "{0} კელვინის გრადუსი"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ფუნტი-ფუტი",
+            "unitPattern-count-one": "{0} ფუნტი-ფუტი",
+            "unitPattern-count-other": "{0} ფუნტი-ფუტი"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ნიუტონ-მეტრი",
+            "unitPattern-count-one": "{0} ნიუტონ-მეტრი",
+            "unitPattern-count-other": "{0} ნიუტონ-მეტრი"
           },
           "volume-cubic-kilometer": {
             "displayName": "კუბური კილომეტრი",
@@ -884,8 +940,9 @@
             "unitPattern-count-other": "{0} აკრი-ფუტი"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "ბუშელი",
+            "unitPattern-count-one": "{0} ბუშელი",
+            "unitPattern-count-other": "{0} ბუშელი"
           },
           "volume-gallon": {
             "displayName": "გალონი",
@@ -938,6 +995,41 @@
             "displayName": "ბარელი",
             "unitPattern-count-one": "{0} ბარელი",
             "unitPattern-count-other": "{0} ბარელი"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "დესერტის კოვზი",
+            "unitPattern-count-one": "{0} დესერტის კოვზი",
+            "unitPattern-count-other": "{0} დესერტის კოვზი"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ბრიტ. დესერტის კოვზი",
+            "unitPattern-count-one": "{0} ბრიტ. დესერტის კოვზი",
+            "unitPattern-count-other": "{0} ბრიტ. დესერტის კოვზი"
+          },
+          "volume-drop": {
+            "displayName": "წვეთი",
+            "unitPattern-count-one": "{0} წვეთი",
+            "unitPattern-count-other": "{0} წვეთი"
+          },
+          "volume-dram": {
+            "displayName": "ბრიტანული თხევადი დრაქმა",
+            "unitPattern-count-one": "{0} ბრიტანული თხევადი დრაქმა",
+            "unitPattern-count-other": "{0} ბრიტანული თხევადი დრაქმა"
+          },
+          "volume-jigger": {
+            "displayName": "ჯიგერი",
+            "unitPattern-count-one": "{0} ჯიგერი",
+            "unitPattern-count-other": "{0} ჯიგერი"
+          },
+          "volume-pinch": {
+            "displayName": "მწიკვი",
+            "unitPattern-count-one": "{0} მწიკვი",
+            "unitPattern-count-other": "{0} მწიკვი"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ბრიტანული კვარტი",
+            "unitPattern-count-one": "{0} ბრიტანული კვარტი",
+            "unitPattern-count-other": "{0} ბრიტანული კვარტი"
           },
           "coordinateUnit": {
             "displayName": "კარდინალური მიმართულება",
@@ -1008,18 +1100,42 @@
           "10p24": {
             "unitPrefixPattern": "ი{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "კი{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "მე{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "გი{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ტე{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "პე{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ექს{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ზე{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "იო{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -1422,6 +1538,16 @@
             "unitPattern-count-one": "{0} წერტ/დუიმზე",
             "unitPattern-count-other": "{0} წერტ/დუიმზე"
           },
+          "graphics-dot": {
+            "displayName": "წერტილი",
+            "unitPattern-count-one": "{0} წერტილი",
+            "unitPattern-count-other": "{0} წერტილი"
+          },
+          "length-earth-radius": {
+            "displayName": "⊕ რადიუსი",
+            "unitPattern-count-one": "{0} ⊕ რადიუსი",
+            "unitPattern-count-other": "{0} ⊕ რადიუსი"
+          },
           "length-kilometer": {
             "displayName": "კმ",
             "unitPattern-count-one": "{0} კმ",
@@ -1503,12 +1629,14 @@
             "unitPattern-count-other": "{0} ა.ე."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ფურლონგი",
+            "unitPattern-count-one": "{0} ფურლონგი",
+            "unitPattern-count-other": "{0} ფურლონგი"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ფატომი",
+            "unitPattern-count-one": "{0} ფატომი",
+            "unitPattern-count-other": "{0} ფატომი"
           },
           "length-nautical-mile": {
             "displayName": "საზღვაო მილი",
@@ -1526,17 +1654,29 @@
             "unitPattern-count-other": "{0} პქნტ."
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "☉ რადიუსი",
+            "unitPattern-count-one": "{0} ☉ რადიუსი",
+            "unitPattern-count-other": "{0} ☉ რადიუსი"
           },
           "light-lux": {
             "displayName": "ლუქსი",
             "unitPattern-count-one": "{0} ლუქსი",
             "unitPattern-count-other": "{0} ლუქსი"
           },
+          "light-candela": {
+            "displayName": "კდ",
+            "unitPattern-count-one": "{0} კდ",
+            "unitPattern-count-other": "{0} კდ"
+          },
+          "light-lumen": {
+            "displayName": "ლმ",
+            "unitPattern-count-one": "{0} ლმ",
+            "unitPattern-count-other": "{0} ლმ"
+          },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "☉ სხივიერობა",
+            "unitPattern-count-one": "{0} ☉ სხივიერობა",
+            "unitPattern-count-other": "{0} ☉ სხივიერობა"
           },
           "mass-metric-ton": {
             "displayName": "მტ",
@@ -1571,8 +1711,9 @@
             "unitPattern-count-other": "{0} ტ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "სტოუნი",
+            "unitPattern-count-one": "{0} სტოუნი",
+            "unitPattern-count-other": "{0} სტოუნი"
           },
           "mass-pound": {
             "displayName": "ფუნტი",
@@ -1608,6 +1749,11 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "გრანი",
+            "unitPattern-count-one": "{0} გრანი",
+            "unitPattern-count-other": "{0} გრანი"
           },
           "power-gigawatt": {
             "displayName": "გვტ",
@@ -1730,12 +1876,14 @@
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ფუნტი-ფუტი",
+            "unitPattern-count-one": "{0} ფუნტი-ფუტი",
+            "unitPattern-count-other": "{0} ფუნტი-ფუტი"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ნიუტ. მ",
+            "unitPattern-count-one": "{0} ნიუტ. მ",
+            "unitPattern-count-other": "{0} ნიუტ. მ"
           },
           "volume-cubic-kilometer": {
             "displayName": "კუბური კილომეტრი",
@@ -1821,8 +1969,9 @@
             "unitPattern-count-other": "{0} აკრ.ფტ."
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "ბუშელი",
+            "unitPattern-count-one": "{0} ბუშელი",
+            "unitPattern-count-other": "{0} ბუშელი"
           },
           "volume-gallon": {
             "displayName": "გალონი",
@@ -1875,6 +2024,41 @@
             "displayName": "ბარელი",
             "unitPattern-count-one": "{0} ბარ.",
             "unitPattern-count-other": "{0} ბარ."
+          },
+          "volume-dessert-spoon": {
+            "displayName": "დესერტის კოვზი",
+            "unitPattern-count-one": "{0} დესერტის კოვზი",
+            "unitPattern-count-other": "{0} დესერტის კოვზი"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ბრიტ. დესერტის კოვზი",
+            "unitPattern-count-one": "{0} ბრიტ. დეს. კოვზი",
+            "unitPattern-count-other": "{0} ბრიტ. დეს. კოვზი"
+          },
+          "volume-drop": {
+            "displayName": "წვეთი",
+            "unitPattern-count-one": "{0} წვეთი",
+            "unitPattern-count-other": "{0} წვეთი"
+          },
+          "volume-dram": {
+            "displayName": "ბრიტ. თხევადი დრაქმა",
+            "unitPattern-count-one": "{0} ბრიტ. თხევ. დრაქმა",
+            "unitPattern-count-other": "{0} ბრიტ. თხევ. დრაქმა"
+          },
+          "volume-jigger": {
+            "displayName": "ჯიგერი",
+            "unitPattern-count-one": "{0} ჯიგერი",
+            "unitPattern-count-other": "{0} ჯიგერი"
+          },
+          "volume-pinch": {
+            "displayName": "მწიკვი",
+            "unitPattern-count-one": "{0} მწიკვი",
+            "unitPattern-count-other": "{0} მწიკვი"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ბრიტ. კვარტი",
+            "unitPattern-count-one": "{0} ბრიტ. კვარტი",
+            "unitPattern-count-other": "{0} ბრიტ. კვარტი"
           },
           "coordinateUnit": {
             "displayName": "მიმართულება",
@@ -1945,18 +2129,42 @@
           "10p24": {
             "unitPrefixPattern": "ი{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "კი{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "მე{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "გი{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "ტე{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "პე{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "ექს{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "ზე{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "იო{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0}²",
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0}³",
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2359,6 +2567,16 @@
             "unitPattern-count-one": "{0} წერტ/დუიმზე",
             "unitPattern-count-other": "{0} წერტ/დუიმზე"
           },
+          "graphics-dot": {
+            "displayName": "წერტილი",
+            "unitPattern-count-one": "{0} წერტილი",
+            "unitPattern-count-other": "{0} წერტილი"
+          },
+          "length-earth-radius": {
+            "displayName": "⊕ რადიუსი",
+            "unitPattern-count-one": "{0} ⊕ რადიუსი",
+            "unitPattern-count-other": "{0} ⊕ რადიუსი"
+          },
           "length-kilometer": {
             "displayName": "კმ",
             "unitPattern-count-one": "{0} კმ",
@@ -2440,12 +2658,14 @@
             "unitPattern-count-other": "{0} ა.ე."
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "ფურლონგი",
+            "unitPattern-count-one": "{0} ფურლონგი",
+            "unitPattern-count-other": "{0} ფურლონგი"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "ფატომი",
+            "unitPattern-count-one": "{0} ფატომი",
+            "unitPattern-count-other": "{0} ფატომი"
           },
           "length-nautical-mile": {
             "displayName": "საზღვაო მილი",
@@ -2463,17 +2683,29 @@
             "unitPattern-count-other": "{0} პქნტ."
           },
           "length-solar-radius": {
-            "displayName": "R☉",
-            "unitPattern-count-other": "{0} R☉"
+            "displayName": "☉ რადიუსი",
+            "unitPattern-count-one": "{0} ☉ რადიუსი",
+            "unitPattern-count-other": "{0} ☉ რადიუსი"
           },
           "light-lux": {
             "displayName": "ლუქსი",
             "unitPattern-count-one": "{0} ლუქსი",
             "unitPattern-count-other": "{0} ლუქსი"
           },
+          "light-candela": {
+            "displayName": "კდ",
+            "unitPattern-count-one": "{0} კდ",
+            "unitPattern-count-other": "{0} კდ"
+          },
+          "light-lumen": {
+            "displayName": "ლმ",
+            "unitPattern-count-one": "{0} ლმ",
+            "unitPattern-count-other": "{0} ლმ"
+          },
           "light-solar-luminosity": {
-            "displayName": "L☉",
-            "unitPattern-count-other": "{0} L☉"
+            "displayName": "☉ სხივიერობა",
+            "unitPattern-count-one": "{0} ☉ სხივიერობა",
+            "unitPattern-count-other": "{0} ☉ სხივიერობა"
           },
           "mass-metric-ton": {
             "displayName": "მტ",
@@ -2508,8 +2740,9 @@
             "unitPattern-count-other": "{0} ტ"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "სტოუნი",
+            "unitPattern-count-one": "{0} სტოუნი",
+            "unitPattern-count-other": "{0} სტოუნი"
           },
           "mass-pound": {
             "displayName": "ფუნტი",
@@ -2545,6 +2778,11 @@
           "mass-solar-mass": {
             "displayName": "M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "გრანი",
+            "unitPattern-count-one": "{0} გრანი",
+            "unitPattern-count-other": "{0} გრანი"
           },
           "power-gigawatt": {
             "displayName": "გვტ",
@@ -2667,12 +2905,14 @@
             "unitPattern-count-other": "{0} K"
           },
           "torque-pound-force-foot": {
-            "displayName": "lbf⋅ft",
-            "unitPattern-count-other": "{0} lbf⋅ft"
+            "displayName": "ფუნტი-ფუტი",
+            "unitPattern-count-one": "{0} ფუნტი-ფუტი",
+            "unitPattern-count-other": "{0} ფუნტი-ფუტი"
           },
           "torque-newton-meter": {
-            "displayName": "N⋅m",
-            "unitPattern-count-other": "{0} N⋅m"
+            "displayName": "ნიუტ. მ",
+            "unitPattern-count-one": "{0} ნიუტ. მ",
+            "unitPattern-count-other": "{0} ნიუტ. მ"
           },
           "volume-cubic-kilometer": {
             "displayName": "კუბური კილომეტრი",
@@ -2758,8 +2998,9 @@
             "unitPattern-count-other": "{0} აკრ.ფტ."
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "ბუშელი",
+            "unitPattern-count-one": "{0} ბუშელი",
+            "unitPattern-count-other": "{0} ბუშელი"
           },
           "volume-gallon": {
             "displayName": "გალონი",
@@ -2812,6 +3053,41 @@
             "displayName": "ბარელი",
             "unitPattern-count-one": "{0} ბარ.",
             "unitPattern-count-other": "{0} ბარ."
+          },
+          "volume-dessert-spoon": {
+            "displayName": "დესერტის კოვზი",
+            "unitPattern-count-one": "{0} დესერტის კოვზი",
+            "unitPattern-count-other": "{0} დესერტის კოვზი"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "ბრიტ. დესერტის კოვზი",
+            "unitPattern-count-one": "{0} ბრიტ. დეს. კოვზი",
+            "unitPattern-count-other": "{0} ბრიტ. დეს. კოვზი"
+          },
+          "volume-drop": {
+            "displayName": "წვეთი",
+            "unitPattern-count-one": "{0} წვეთი",
+            "unitPattern-count-other": "{0} წვეთი"
+          },
+          "volume-dram": {
+            "displayName": "ბრიტ. თხევადი დრაქმა",
+            "unitPattern-count-one": "{0} ბრიტ. თხევ. დრაქმა",
+            "unitPattern-count-other": "{0} ბრიტ. თხევ. დრაქმა"
+          },
+          "volume-jigger": {
+            "displayName": "ჯიგერი",
+            "unitPattern-count-one": "{0} ჯიგერი",
+            "unitPattern-count-other": "{0} ჯიგერი"
+          },
+          "volume-pinch": {
+            "displayName": "მწიკვი",
+            "unitPattern-count-one": "{0} მწიკვი",
+            "unitPattern-count-other": "{0} მწიკვი"
+          },
+          "volume-quart-imperial": {
+            "displayName": "ბრიტ. კვარტი",
+            "unitPattern-count-one": "{0} ბრიტ. კვარტი",
+            "unitPattern-count-other": "{0} ბრიტ. კვარტი"
           },
           "coordinateUnit": {
             "displayName": "მიმართულება",

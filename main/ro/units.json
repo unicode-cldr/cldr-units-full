@@ -3,7 +3,7 @@
     "ro": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ro"
       },
@@ -69,16 +69,44 @@
           "10p24": {
             "unitPrefixPattern": "yotta{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "kibi{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "mebi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "gibi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "tebi{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "pebi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "exbi{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "zebi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "yobe{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} pe {1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-one": "{0} pătrat/ă",
+            "compoundUnitPattern1-count-few": "{0} pătrați/pătrate",
+            "compoundUnitPattern1-count-other": "{0} pătrați/pătrate"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-one": "{0} cub",
+            "compoundUnitPattern1-count-few": "{0} cubi",
+            "compoundUnitPattern1-count-other": "{0} cubi"
           },
           "times": {
             "compoundUnitPattern": "{0}-{1}"
@@ -550,7 +578,7 @@
             "unitPattern-count-other": "{0} de pixeli pe inch"
           },
           "graphics-dot-per-centimeter": {
-            "displayName": "puncte pe centimeru",
+            "displayName": "puncte pe centimetru",
             "unitPattern-count-one": "{0} punct pe centimetru",
             "unitPattern-count-few": "{0} puncte pe centimetru",
             "unitPattern-count-other": "{0} de puncte pe centimetru"
@@ -560,6 +588,18 @@
             "unitPattern-count-one": "{0} punct pe inch",
             "unitPattern-count-few": "{0} puncte pe inch",
             "unitPattern-count-other": "{0} de puncte pe inch"
+          },
+          "graphics-dot": {
+            "displayName": "punct",
+            "unitPattern-count-one": "{0} punct",
+            "unitPattern-count-few": "{0} puncte",
+            "unitPattern-count-other": "{0} de puncte"
+          },
+          "length-earth-radius": {
+            "displayName": "rază terestră",
+            "unitPattern-count-one": "{0} rază terestră",
+            "unitPattern-count-few": "{0} raze terestre",
+            "unitPattern-count-other": "{0} de raze terestre"
           },
           "length-kilometer": {
             "displayName": "kilometri",
@@ -657,12 +697,16 @@
             "unitPattern-count-other": "{0} de unități astronomice"
           },
           "length-furlong": {
-            "displayName": "fur",
-            "unitPattern-count-other": "{0} fur"
+            "displayName": "furlongi",
+            "unitPattern-count-one": "{0} furlong",
+            "unitPattern-count-few": "{0} furlongi",
+            "unitPattern-count-other": "{0} de furlongi"
           },
           "length-fathom": {
-            "displayName": "fm",
-            "unitPattern-count-other": "{0} fth"
+            "displayName": "fathomi",
+            "unitPattern-count-one": "{0} fathom",
+            "unitPattern-count-few": "{0} fathomi",
+            "unitPattern-count-other": "{0} de fathomi"
           },
           "length-nautical-mile": {
             "displayName": "mile nautice",
@@ -678,9 +722,9 @@
           },
           "length-point": {
             "displayName": "puncte",
-            "unitPattern-count-one": "{0} punct",
-            "unitPattern-count-few": "{0} puncte",
-            "unitPattern-count-other": "{0} de puncte"
+            "unitPattern-count-one": "{0} punct tipografic",
+            "unitPattern-count-few": "{0} puncte tipografice",
+            "unitPattern-count-other": "{0} de puncte tipografice"
           },
           "length-solar-radius": {
             "displayName": "raze solare",
@@ -693,6 +737,18 @@
             "unitPattern-count-one": "{0} lux",
             "unitPattern-count-few": "{0} lucși",
             "unitPattern-count-other": "{0} de lucși"
+          },
+          "light-candela": {
+            "displayName": "candelă",
+            "unitPattern-count-one": "{0} candelă",
+            "unitPattern-count-few": "{0} candele",
+            "unitPattern-count-other": "{0} de candele"
+          },
+          "light-lumen": {
+            "displayName": "lumen",
+            "unitPattern-count-one": "{0} lumen",
+            "unitPattern-count-few": "{0} lumeni",
+            "unitPattern-count-other": "{0} de lumeni"
           },
           "light-solar-luminosity": {
             "displayName": "luminozități solare",
@@ -739,8 +795,10 @@
             "unitPattern-count-other": "{0} de tone scurte"
           },
           "mass-stone": {
-            "displayName": "st",
-            "unitPattern-count-other": "{0} st"
+            "displayName": "stone",
+            "unitPattern-count-one": "{0} stone",
+            "unitPattern-count-few": "{0} stone",
+            "unitPattern-count-other": "{0} de stone"
           },
           "mass-pound": {
             "displayName": "livre",
@@ -785,6 +843,12 @@
             "unitPattern-count-one": "{0} masă solară",
             "unitPattern-count-few": "{0} mase solare",
             "unitPattern-count-other": "{0} de mase solare"
+          },
+          "mass-grain": {
+            "displayName": "boabă",
+            "unitPattern-count-one": "{0} boabă",
+            "unitPattern-count-few": "{0} boabe",
+            "unitPattern-count-other": "{0} de boabe"
           },
           "power-gigawatt": {
             "displayName": "gigawați",
@@ -1042,8 +1106,10 @@
             "unitPattern-count-other": "{0} de acru-picioare"
           },
           "volume-bushel": {
-            "displayName": "bu",
-            "unitPattern-count-other": "{0} bu"
+            "displayName": "banițe",
+            "unitPattern-count-one": "{0} baniță",
+            "unitPattern-count-few": "{0} banițe",
+            "unitPattern-count-other": "{0} de banițe"
           },
           "volume-gallon": {
             "displayName": "galoane",
@@ -1106,6 +1172,48 @@
             "unitPattern-count-one": "{0} baril",
             "unitPattern-count-few": "{0} barili",
             "unitPattern-count-other": "{0} de barili"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "lingură de desert",
+            "unitPattern-count-one": "{0} lingură de desert",
+            "unitPattern-count-few": "{0} linguri de desert",
+            "unitPattern-count-other": "{0} de linguri de desert"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "Lingură de desert imperială",
+            "unitPattern-count-one": "{0} lingură de desert imperială",
+            "unitPattern-count-few": "{0} linguri de desert imperiale",
+            "unitPattern-count-other": "{0} de linguri de desert imperiale"
+          },
+          "volume-drop": {
+            "displayName": "picătură",
+            "unitPattern-count-one": "{0} picătură",
+            "unitPattern-count-few": "{0} picături",
+            "unitPattern-count-other": "{0} de picături"
+          },
+          "volume-dram": {
+            "displayName": "dram lichid",
+            "unitPattern-count-one": "{0} dram lichid",
+            "unitPattern-count-few": "{0} drami lichizi",
+            "unitPattern-count-other": "{0} de drami lichizi"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-one": "{0} jigger",
+            "unitPattern-count-few": "{0} jiggere",
+            "unitPattern-count-other": "{0} de jiggere"
+          },
+          "volume-pinch": {
+            "displayName": "vârf de cuțit",
+            "unitPattern-count-one": "{0} vârf de cuțit",
+            "unitPattern-count-few": "{0} vârfuri de cuțit",
+            "unitPattern-count-other": "{0} de vârfuri de cuțit"
+          },
+          "volume-quart-imperial": {
+            "displayName": "quart imperial",
+            "unitPattern-count-one": "{0} quart imperial",
+            "unitPattern-count-few": "{0} quarte imperiale",
+            "unitPattern-count-other": "{0} de quarte imperiale"
           },
           "coordinateUnit": {
             "displayName": "punct cardinal",
@@ -1176,16 +1284,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}{1}"
@@ -1656,6 +1788,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "pct.",
+            "unitPattern-count-one": "{0} pct",
+            "unitPattern-count-few": "{0} pct.",
+            "unitPattern-count-other": "{0} de pct."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -1752,11 +1894,11 @@
             "unitPattern-count-other": "{0} ua"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlongi",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "fathomi",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -1786,6 +1928,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-few": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -1878,6 +2028,12 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "boabă",
+            "unitPattern-count-one": "{0} boabă",
+            "unitPattern-count-few": "{0} boabe",
+            "unitPattern-count-other": "{0} boabe"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2129,7 +2285,7 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "banițe",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -2191,6 +2347,38 @@
           "volume-barrel": {
             "displayName": "baril",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "picătură",
+            "unitPattern-count-one": "{0} picătură",
+            "unitPattern-count-few": "{0} picături",
+            "unitPattern-count-other": "{0} de picături"
+          },
+          "volume-dram": {
+            "displayName": "dram lichid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "vârf",
+            "unitPattern-count-one": "{0} vârf",
+            "unitPattern-count-few": "{0} vârfuri",
+            "unitPattern-count-other": "{0} de vârfuri"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "direcție",
@@ -2261,16 +2449,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}{1}"
@@ -2741,6 +2953,16 @@
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
           },
+          "graphics-dot": {
+            "displayName": "pct.",
+            "unitPattern-count-one": "{0} pct",
+            "unitPattern-count-few": "{0} pct.",
+            "unitPattern-count-other": "{0} de pct."
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
+          },
           "length-kilometer": {
             "displayName": "km",
             "unitPattern-count-one": "{0} km",
@@ -2837,11 +3059,11 @@
             "unitPattern-count-other": "{0} ua"
           },
           "length-furlong": {
-            "displayName": "fur",
+            "displayName": "furlongi",
             "unitPattern-count-other": "{0} fur"
           },
           "length-fathom": {
-            "displayName": "fm",
+            "displayName": "fathomi",
             "unitPattern-count-other": "{0} fth"
           },
           "length-nautical-mile": {
@@ -2871,6 +3093,14 @@
             "unitPattern-count-one": "{0} lx",
             "unitPattern-count-few": "{0} lx",
             "unitPattern-count-other": "{0} lx"
+          },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
           },
           "light-solar-luminosity": {
             "displayName": "L☉",
@@ -2965,6 +3195,12 @@
             "unitPattern-count-one": "{0} M☉",
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "boabă",
+            "unitPattern-count-one": "{0} boabă",
+            "unitPattern-count-few": "{0} boabe",
+            "unitPattern-count-other": "{0} boabe"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -3216,7 +3452,7 @@
             "unitPattern-count-other": "{0} ac ft"
           },
           "volume-bushel": {
-            "displayName": "bu",
+            "displayName": "banițe",
             "unitPattern-count-other": "{0} bu"
           },
           "volume-gallon": {
@@ -3278,6 +3514,38 @@
           "volume-barrel": {
             "displayName": "baril",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "dstspn",
+            "unitPattern-count-other": "{0} dstspn"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "dstspn Imp",
+            "unitPattern-count-other": "{0} dstspn Imp"
+          },
+          "volume-drop": {
+            "displayName": "picătură",
+            "unitPattern-count-one": "{0} picătură",
+            "unitPattern-count-few": "{0} picături",
+            "unitPattern-count-other": "{0} de picături"
+          },
+          "volume-dram": {
+            "displayName": "dram lichid",
+            "unitPattern-count-other": "{0} dram fl"
+          },
+          "volume-jigger": {
+            "displayName": "jigger",
+            "unitPattern-count-other": "{0} jigger"
+          },
+          "volume-pinch": {
+            "displayName": "vârf",
+            "unitPattern-count-one": "{0} vârf",
+            "unitPattern-count-few": "{0} vârfuri",
+            "unitPattern-count-other": "{0} de vârfuri"
+          },
+          "volume-quart-imperial": {
+            "displayName": "qt Imp",
+            "unitPattern-count-other": "{0} qt Imp."
           },
           "coordinateUnit": {
             "displayName": "direcție",

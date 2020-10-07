@@ -3,7 +3,7 @@
     "ga": {
       "identity": {
         "version": {
-          "_cldrVersion": "37"
+          "_cldrVersion": "38"
         },
         "language": "ga"
       },
@@ -69,24 +69,48 @@
           "10p24": {
             "unitPrefixPattern": "yotai{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "cibi-{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0} sa {1}"
           },
           "power2": {
-            "compoundUnitPattern1": "{0} cearnach",
-            "compoundUnitPattern1": "{0} cearnaithe",
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0} chearnaithe"
+            "compoundUnitPattern1-count-one": "{0} cearnaithe",
+            "compoundUnitPattern1-count-two": "{0} chearnacha",
+            "compoundUnitPattern1-count-few": "{0} chearnacha",
+            "compoundUnitPattern1-count-many": "{0} chearnacha",
+            "compoundUnitPattern1-count-other": "{0} chearnaithe"
           },
           "power3": {
-            "compoundUnitPattern1": "{0} ciúbach",
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0} ciúbach"
+            "compoundUnitPattern1-count-one": "{0} ciúbach",
+            "compoundUnitPattern1-count-two": "{0} chiúbacha",
+            "compoundUnitPattern1-count-few": "{0} chiúbacha",
+            "compoundUnitPattern1-count-many": "{0} chiúbacha",
+            "compoundUnitPattern1-count-other": "{0} ciúbach"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -225,7 +249,7 @@
             "perUnitPattern": "{0} san orlach cearnach"
           },
           "area-dunam": {
-            "displayName": "dunaim",
+            "displayName": "dúnaim",
             "unitPattern-count-one": "{0} dunam",
             "unitPattern-count-two": "{0} dhunam",
             "unitPattern-count-few": "{0} dhunam",
@@ -233,10 +257,10 @@
             "unitPattern-count-other": "{0} dunam"
           },
           "concentr-karat": {
-            "displayName": "carait óir",
+            "displayName": "carait",
             "unitPattern-count-one": "{0} charat óir",
             "unitPattern-count-two": "{0} charat óir",
-            "unitPattern-count-few": "{0} charat óir",
+            "unitPattern-count-few": "{0} charat",
             "unitPattern-count-many": "{0} gcarat óir",
             "unitPattern-count-other": "{0} carat óir"
           },
@@ -258,11 +282,11 @@
           },
           "concentr-permillion": {
             "displayName": "codanna sa mhilliún",
-            "unitPattern-count-one": "{0} sa mhilliún",
-            "unitPattern-count-two": "{0} sa mhilliún",
-            "unitPattern-count-few": "{0} sa mhilliún",
-            "unitPattern-count-many": "{0} sa mhilliún",
-            "unitPattern-count-other": "{0} sa mhilliún"
+            "unitPattern-count-one": "{0} chuid sa mhilliún",
+            "unitPattern-count-two": "{0} chuid sa mhilliún",
+            "unitPattern-count-few": "{0} chuid sa mhilliún",
+            "unitPattern-count-many": "{0} gcuid sa mhilliún",
+            "unitPattern-count-other": "{0} cuid sa mhilliún"
           },
           "concentr-percent": {
             "displayName": "faoin gcéad",
@@ -281,8 +305,8 @@
             "unitPattern-count-other": "{0} faoin míle"
           },
           "concentr-permyriad": {
-            "displayName": "permeiriad",
-            "unitPattern-count-one": "{0} permeiriad",
+            "displayName": "faoin deich míle",
+            "unitPattern-count-one": "{0} faoin deich míle",
             "unitPattern-count-two": "{0}‱",
             "unitPattern-count-few": "{0}‱",
             "unitPattern-count-many": "{0}‱",
@@ -329,7 +353,7 @@
             "unitPattern-count-other": "{0} míle sa ghalún impiriúil"
           },
           "digital-petabyte": {
-            "displayName": "peitibheart",
+            "displayName": "peitibhearta",
             "unitPattern-count-one": "{0} peitibheart",
             "unitPattern-count-two": "{0} PB",
             "unitPattern-count-few": "{0} PB",
@@ -600,28 +624,28 @@
             "unitPattern-count-other": "{0} cileavatuair"
           },
           "energy-electronvolt": {
-            "displayName": "leictravoltaí",
+            "displayName": "leictreonvoltanna",
             "unitPattern-count-one": "{0} leictreavolta",
             "unitPattern-count-two": "{0} eV",
             "unitPattern-count-few": "{0} eV",
             "unitPattern-count-many": "{0} eV",
-            "unitPattern-count-other": "{0} leictreavoltaí"
+            "unitPattern-count-other": "{0} leictreonvolta"
           },
           "energy-british-thermal-unit": {
-            "displayName": "aonad teirmeach Briotanach",
-            "unitPattern-count-one": "{0} aonad teirmeach Briontanach",
+            "displayName": "teas-aonaid Bhriotanacha",
+            "unitPattern-count-one": "{0} theas-aonad Briotanach",
             "unitPattern-count-two": "{0} Btu",
             "unitPattern-count-few": "{0} Btu",
             "unitPattern-count-many": "{0} Btu",
             "unitPattern-count-other": "{0} aonad teirmeach Briotanach"
           },
           "energy-therm-us": {
-            "displayName": "teirmeacha US",
-            "unitPattern-count-one": "{0} teirm US",
-            "unitPattern-count-two": "{0} theirm US",
-            "unitPattern-count-few": "{0} theirm US",
-            "unitPattern-count-many": "{0} dteirm US",
-            "unitPattern-count-other": "{0} teirm US"
+            "displayName": "teirmeacha SAM",
+            "unitPattern-count-one": "{0} teirm SAM",
+            "unitPattern-count-two": "{0} theirm SAM",
+            "unitPattern-count-few": "{0} theirm SAM",
+            "unitPattern-count-many": "{0} dteirm SAM",
+            "unitPattern-count-other": "{0} teirm SAM"
           },
           "force-pound-force": {
             "displayName": "puint fórsa",
@@ -672,56 +696,76 @@
             "unitPattern-count-other": "{0} heirts"
           },
           "graphics-em": {
-            "displayName": "eim chlógrafach",
-            "unitPattern-count-other": "{0} em"
+            "displayName": "eim chlóghrafach",
+            "unitPattern-count-one": "{0} eim",
+            "unitPattern-count-two": "{0} eim",
+            "unitPattern-count-few": "{0} eim",
+            "unitPattern-count-many": "{0} n-eim",
+            "unitPattern-count-other": "{0} eim"
           },
           "graphics-pixel": {
             "displayName": "picteilíní",
-            "unitPattern-count-one": "{0} picteilín",
-            "unitPattern-count-two": "{0} px",
-            "unitPattern-count-few": "{0} px",
-            "unitPattern-count-many": "{0} px",
+            "unitPattern-count-one": "{0} phicteilín",
+            "unitPattern-count-two": "{0} phicteilín",
+            "unitPattern-count-few": "{0} phicteilín",
+            "unitPattern-count-many": "{0} bpicteilín",
             "unitPattern-count-other": "{0} picteilín"
           },
           "graphics-megapixel": {
             "displayName": "meigiphicteilíní",
-            "unitPattern-count-one": "{0} meigiphicteilín",
-            "unitPattern-count-two": "{0} MP",
-            "unitPattern-count-few": "{0} MP",
-            "unitPattern-count-many": "{0} MP",
+            "unitPattern-count-one": "{0} mheigiphicteilín",
+            "unitPattern-count-two": "{0} mheigiphicteilín",
+            "unitPattern-count-few": "{0} mheigiphicteilín",
+            "unitPattern-count-many": "{0} meigiphicteilín",
             "unitPattern-count-other": "{0} meigiphicteilín"
           },
           "graphics-pixel-per-centimeter": {
             "displayName": "picteilíní sa cheintiméadar",
-            "unitPattern-count-one": "{0} picteilín sa cheintiméadar",
-            "unitPattern-count-two": "{0} ppcm",
-            "unitPattern-count-few": "{0} ppcm",
-            "unitPattern-count-many": "{0} ppcm",
-            "unitPattern-count-other": "{0} picteilíní sa cheintiméadar"
+            "unitPattern-count-one": "{0} phicteilín sa cheintiméadar",
+            "unitPattern-count-two": "{0} phicteilín sa cheintiméadar",
+            "unitPattern-count-few": "{0} phicteilín sa cheintiméadar",
+            "unitPattern-count-many": "{0} bpicteilín sa cheintiméadar",
+            "unitPattern-count-other": "{0} picteilín sa cheintiméadar"
           },
           "graphics-pixel-per-inch": {
             "displayName": "picteilíní san orlach",
-            "unitPattern-count-one": "{0} picteilín san orlach",
-            "unitPattern-count-two": "{0} ppi",
-            "unitPattern-count-few": "{0} ppi",
-            "unitPattern-count-many": "{0} ppi",
+            "unitPattern-count-one": "{0} phicteilín san orlach",
+            "unitPattern-count-two": "{0} phicteilín san orlach",
+            "unitPattern-count-few": "{0} phicteilín san orlach",
+            "unitPattern-count-many": "{0} bpicteilín san orlach",
             "unitPattern-count-other": "{0} picteilín san orlach"
           },
           "graphics-dot-per-centimeter": {
             "displayName": "poncanna sa cheintiméadar",
-            "unitPattern-count-one": "{0} ponc sa cheintiméadar",
-            "unitPattern-count-two": "{0} dpcm",
-            "unitPattern-count-few": "{0} dpcm",
-            "unitPattern-count-many": "{0} dpcm",
-            "unitPattern-count-other": "{0} poncanna sa cheintiméadar"
+            "unitPattern-count-one": "{0} phonc sa cheintiméadar",
+            "unitPattern-count-two": "{0} phonc sa cheintiméadar",
+            "unitPattern-count-few": "{0} phonc sa cheintiméadar",
+            "unitPattern-count-many": "{0} bponc sa cheintiméadar",
+            "unitPattern-count-other": "{0} ponc sa cheintiméadar"
           },
           "graphics-dot-per-inch": {
             "displayName": "poncanna san orlach",
-            "unitPattern-count-one": "{0} ponc san orlach",
-            "unitPattern-count-two": "{0} dpi",
-            "unitPattern-count-few": "{0} dpi",
-            "unitPattern-count-many": "{0} dpi",
-            "unitPattern-count-other": "{0} poncanna san orlach"
+            "unitPattern-count-one": "{0} phonc san orlach",
+            "unitPattern-count-two": "{0} phonc san orlach",
+            "unitPattern-count-few": "{0} phonc san orlach",
+            "unitPattern-count-many": "{0} bponc san orlach",
+            "unitPattern-count-other": "{0} ponc san orlach"
+          },
+          "graphics-dot": {
+            "displayName": "ponc",
+            "unitPattern-count-one": "{0} phonc",
+            "unitPattern-count-two": "{0} phonc",
+            "unitPattern-count-few": "{0} phonc",
+            "unitPattern-count-many": "{0} bponc",
+            "unitPattern-count-other": "{0} ponc"
+          },
+          "length-earth-radius": {
+            "displayName": "ga an domhain",
+            "unitPattern-count-one": "{0} gha an domhain",
+            "unitPattern-count-two": "{0} gha an domhain",
+            "unitPattern-count-few": "{0} gha an domhain",
+            "unitPattern-count-many": "{0} nga an domhain",
+            "unitPattern-count-other": "{0} ga an domhain"
           },
           "length-kilometer": {
             "displayName": "ciliméadair",
@@ -889,12 +933,12 @@
             "unitPattern-count-other": "{0} pointe"
           },
           "length-solar-radius": {
-            "displayName": "raonta gréine",
-            "unitPattern-count-one": "{0} raon gréine",
-            "unitPattern-count-two": "{0} R☉",
-            "unitPattern-count-few": "{0} R☉",
-            "unitPattern-count-many": "{0} R☉",
-            "unitPattern-count-other": "{0} raon gréine"
+            "displayName": "grianghathanna",
+            "unitPattern-count-one": "{0} ghriangha",
+            "unitPattern-count-two": "{0} ghriangha",
+            "unitPattern-count-few": "{0} ghriangha",
+            "unitPattern-count-many": "{0} ngriangha",
+            "unitPattern-count-other": "{0} griangha"
           },
           "light-lux": {
             "displayName": "lucsa",
@@ -904,13 +948,29 @@
             "unitPattern-count-many": "{0} lucsa",
             "unitPattern-count-other": "{0} lucsa"
           },
+          "light-candela": {
+            "displayName": "caindéile",
+            "unitPattern-count-one": "{0} chaindéile",
+            "unitPattern-count-two": "{0} chaindéile",
+            "unitPattern-count-few": "{0} chaindéile",
+            "unitPattern-count-many": "{0} gcaindéile",
+            "unitPattern-count-other": "{0} caindéile"
+          },
+          "light-lumen": {
+            "displayName": "lúman",
+            "unitPattern-count-one": "{0} lúman",
+            "unitPattern-count-two": "{0} lúman",
+            "unitPattern-count-few": "{0} lúman",
+            "unitPattern-count-many": "{0} lúman",
+            "unitPattern-count-other": "{0} lúman"
+          },
           "light-solar-luminosity": {
-            "displayName": "lonrachtaí gréine",
-            "unitPattern-count-one": "{0} lonracht ghréine",
-            "unitPattern-count-two": "{0} L☉",
+            "displayName": "grianlonrachas",
+            "unitPattern-count-one": "{0} ghrianlonrachas",
+            "unitPattern-count-two": "{0} ghrianlonrachas",
             "unitPattern-count-few": "{0} L☉",
             "unitPattern-count-many": "{0} L☉",
-            "unitPattern-count-other": "{0} lonracht ghréine"
+            "unitPattern-count-other": "{0} grianlonrachas"
           },
           "mass-metric-ton": {
             "displayName": "tonnaí méadracha",
@@ -1022,11 +1082,19 @@
           },
           "mass-solar-mass": {
             "displayName": "maiseanna gréine",
-            "unitPattern-count-one": "{0} mais ghréine",
+            "unitPattern-count-one": "{0} mhais ghréine",
             "unitPattern-count-two": "{0} mhais ghréine",
             "unitPattern-count-few": "{0} mhais ghréine",
             "unitPattern-count-many": "{0} mais ghréine",
             "unitPattern-count-other": "{0} mais ghréine"
+          },
+          "mass-grain": {
+            "displayName": "gráinne",
+            "unitPattern-count-one": "{0} ghráinne",
+            "unitPattern-count-two": "{0} ghráinne",
+            "unitPattern-count-few": "{0} ghráinne",
+            "unitPattern-count-many": "{0} ngráinne",
+            "unitPattern-count-other": "{0} gráinne"
           },
           "power-gigawatt": {
             "displayName": "gigeavatanna",
@@ -1077,7 +1145,7 @@
             "unitPattern-count-other": "{0} each-chumhacht"
           },
           "pressure-millimeter-ofhg": {
-            "displayName": "milliméadair mhearcair",
+            "displayName": "milliméadair mearcair",
             "unitPattern-count-one": "{0} mhilliméadar mearcair",
             "unitPattern-count-two": "{0} mhilliméadar mearcair",
             "unitPattern-count-few": "{0} mhilliméadar mearcair",
@@ -1101,7 +1169,7 @@
             "unitPattern-count-other": "{0} orlach mearcair"
           },
           "pressure-bar": {
-            "displayName": "barraí",
+            "displayName": "bair",
             "unitPattern-count-one": "{0} bharra",
             "unitPattern-count-two": "{0} bharra",
             "unitPattern-count-few": "{0} bharra",
@@ -1117,16 +1185,20 @@
             "unitPattern-count-other": "{0} milleabar"
           },
           "pressure-atmosphere": {
-            "displayName": "atmaisféar",
+            "displayName": "atmaisféir",
             "unitPattern-count-one": "{0} atmaisféar",
-            "unitPattern-count-two": "{0} atm",
-            "unitPattern-count-few": "{0} atm",
-            "unitPattern-count-many": "{0} atm",
+            "unitPattern-count-two": "{0} atmaisféar",
+            "unitPattern-count-few": "{0} atmaisféar",
+            "unitPattern-count-many": "{0} n-atmaisféar",
             "unitPattern-count-other": "{0} atmaisféar"
           },
           "pressure-pascal": {
-            "displayName": "Pa",
-            "unitPattern-count-other": "{0} Pa"
+            "displayName": "Pascail",
+            "unitPattern-count-one": "{0} phascal",
+            "unitPattern-count-two": "{0} phascal",
+            "unitPattern-count-few": "{0} phascal",
+            "unitPattern-count-many": "{0} bpascal",
+            "unitPattern-count-other": "{0} pascal"
           },
           "pressure-hectopascal": {
             "displayName": "heicteapascail",
@@ -1138,7 +1210,7 @@
           },
           "pressure-kilopascal": {
             "displayName": "cileapascail",
-            "unitPattern-count-one": "{0} cileapascal",
+            "unitPattern-count-one": "{0} chileapascal",
             "unitPattern-count-two": "{0} kPa",
             "unitPattern-count-few": "{0} kPa",
             "unitPattern-count-many": "{0} kPa",
@@ -1146,7 +1218,7 @@
           },
           "pressure-megapascal": {
             "displayName": "meigeapascail",
-            "unitPattern-count-one": "meigeapascal",
+            "unitPattern-count-one": "{0} mheigeapascal",
             "unitPattern-count-two": "{0} MPa",
             "unitPattern-count-few": "{0} MPa",
             "unitPattern-count-many": "{0} MPa",
@@ -1226,8 +1298,8 @@
           },
           "torque-newton-meter": {
             "displayName": "méadar niútain",
-            "unitPattern-count-one": "{0} méadar niútain",
-            "unitPattern-count-two": "{0} N⋅m",
+            "unitPattern-count-one": "{0} mhéadar niútain",
+            "unitPattern-count-two": "{0} mhéadar niútain",
             "unitPattern-count-few": "{0} N⋅m",
             "unitPattern-count-many": "{0} N⋅m",
             "unitPattern-count-other": "{0} méadar niútain"
@@ -1424,7 +1496,7 @@
           "volume-fluid-ounce-imperial": {
             "displayName": "Unsaí leachtacha impiriúla",
             "unitPattern-count-one": "{0} unsa leachtach impiriúil",
-            "unitPattern-count-two": "{0} unsa leachtach impiriúil",
+            "unitPattern-count-two": "{0} unsa leachtacha impiriúla",
             "unitPattern-count-few": "{0} fl oz Imp.",
             "unitPattern-count-many": "{0} fl oz Imp.",
             "unitPattern-count-other": "{0} fl oz Imp."
@@ -1452,6 +1524,62 @@
             "unitPattern-count-few": "{0} bbl",
             "unitPattern-count-many": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "spúnóga milseoige",
+            "unitPattern-count-one": "{0} spúnóg mhilseoige",
+            "unitPattern-count-two": "{0} spúnóg mhilseoige",
+            "unitPattern-count-few": "{0} spúnóg mhilseoige",
+            "unitPattern-count-many": "{0} spúnóg mhilseoige",
+            "unitPattern-count-other": "{0} spúnóg mhilseoige"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "spúnóga milseoige impiriúla",
+            "unitPattern-count-one": "{0} spúnóg mhilseoige impiriúil",
+            "unitPattern-count-two": "{0} spúnóg mhilseoige impiriúla",
+            "unitPattern-count-few": "{0} spúnóg mhilseoige impiriúla",
+            "unitPattern-count-many": "{0} spúnóg mhilseoige impiriúla",
+            "unitPattern-count-other": "{0} spúnóg mhilseoige impiriúol"
+          },
+          "volume-drop": {
+            "displayName": "braon",
+            "unitPattern-count-one": "{0} bhraon",
+            "unitPattern-count-two": "{0} bhraon",
+            "unitPattern-count-few": "{0} bhraon",
+            "unitPattern-count-many": "{0} mbraon",
+            "unitPattern-count-other": "{0} braon"
+          },
+          "volume-dram": {
+            "displayName": "dram leachtach",
+            "unitPattern-count-one": "{0} dram leachtach",
+            "unitPattern-count-two": "{0} dhram leachtacha",
+            "unitPattern-count-few": "{0} dhram leachtacha",
+            "unitPattern-count-many": "{0} ndram leachtacha",
+            "unitPattern-count-other": "{0} dram leachtach"
+          },
+          "volume-jigger": {
+            "displayName": "miosúr",
+            "unitPattern-count-one": "{0} mhiosúr",
+            "unitPattern-count-two": "{0} mhiosúr",
+            "unitPattern-count-few": "{0} mhiosúr",
+            "unitPattern-count-many": "{0} miosúr",
+            "unitPattern-count-other": "{0} miosúr"
+          },
+          "volume-pinch": {
+            "displayName": "pinse",
+            "unitPattern-count-one": "{0} phinse",
+            "unitPattern-count-two": "{0} phinse",
+            "unitPattern-count-few": "{0} phinse",
+            "unitPattern-count-many": "{0} bpinse",
+            "unitPattern-count-other": "{0} pinse"
+          },
+          "volume-quart-imperial": {
+            "displayName": "cárt impiriúil",
+            "unitPattern-count-one": "{0} chárt impiriúil",
+            "unitPattern-count-two": "{0} chárt impiriúla",
+            "unitPattern-count-few": "{0} chárt impiriúla",
+            "unitPattern-count-many": "{0} gcárt impiriúla",
+            "unitPattern-count-other": "{0} cárt impiriúil"
           },
           "coordinateUnit": {
             "displayName": "príomhaird",
@@ -1522,16 +1650,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -2057,12 +2209,12 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "teirmeacha US",
-            "unitPattern-count-one": "{0} teirm US",
-            "unitPattern-count-two": "{0} theirm US",
-            "unitPattern-count-few": "{0} theirm US",
-            "unitPattern-count-many": "{0} dteirm US",
-            "unitPattern-count-other": "{0} teirm US"
+            "displayName": "teirmeacha SAM",
+            "unitPattern-count-one": "{0} teirm SAM",
+            "unitPattern-count-two": "{0} theirm SAM",
+            "unitPattern-count-few": "{0} theirm SAM",
+            "unitPattern-count-many": "{0} dteirm SAM",
+            "unitPattern-count-other": "{0} teirm SAM"
           },
           "force-pound-force": {
             "displayName": "punt-fhórsa",
@@ -2113,8 +2265,12 @@
             "unitPattern-count-other": "{0} Hz"
           },
           "graphics-em": {
-            "displayName": "em",
-            "unitPattern-count-other": "{0} em"
+            "displayName": "eim",
+            "unitPattern-count-one": "{0} eim",
+            "unitPattern-count-two": "{0} eim",
+            "unitPattern-count-few": "{0} eim",
+            "unitPattern-count-many": "{0} n-eim",
+            "unitPattern-count-other": "{0} eim"
           },
           "graphics-pixel": {
             "displayName": "picteilíní",
@@ -2139,6 +2295,18 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ponc",
+            "unitPattern-count-one": "{0} phonc",
+            "unitPattern-count-two": "{0} phonc",
+            "unitPattern-count-few": "{0} phonc",
+            "unitPattern-count-many": "{0} bponc",
+            "unitPattern-count-other": "{0} ponc"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -2321,6 +2489,14 @@
             "unitPattern-count-many": "{0} lx",
             "unitPattern-count-other": "{0} lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "lonrachtaí gréine",
             "unitPattern-count-one": "{0} L☉",
@@ -2444,6 +2620,14 @@
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-many": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gráinne",
+            "unitPattern-count-one": "{0} ghráinne",
+            "unitPattern-count-two": "{0} ghráinne",
+            "unitPattern-count-few": "{0} ghráinne",
+            "unitPattern-count-many": "{0} ngráinne",
+            "unitPattern-count-other": "{0} gráinne"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -2870,6 +3054,62 @@
             "unitPattern-count-many": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
           },
+          "volume-dessert-spoon": {
+            "displayName": "spmhil",
+            "unitPattern-count-one": "{0} spmhil",
+            "unitPattern-count-two": "{0} spmhil",
+            "unitPattern-count-few": "{0} spmhil",
+            "unitPattern-count-many": "{0} spmhil",
+            "unitPattern-count-other": "{0} spmhil"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "spmhil imp",
+            "unitPattern-count-one": "{0} spmhil imp",
+            "unitPattern-count-two": "{0} spmhil imp",
+            "unitPattern-count-few": "{0} spmhil imp",
+            "unitPattern-count-many": "{0} spmhil imp",
+            "unitPattern-count-other": "{0} spmhil imp"
+          },
+          "volume-drop": {
+            "displayName": "braon",
+            "unitPattern-count-one": "{0} bhraon",
+            "unitPattern-count-two": "{0} bhraon",
+            "unitPattern-count-few": "{0} bhraon",
+            "unitPattern-count-many": "{0} mbraon",
+            "unitPattern-count-other": "{0} braon"
+          },
+          "volume-dram": {
+            "displayName": "dr l.",
+            "unitPattern-count-one": "{0} dr l.",
+            "unitPattern-count-two": "{0} dr l.",
+            "unitPattern-count-few": "{0} dr l.",
+            "unitPattern-count-many": "{0} dr l.",
+            "unitPattern-count-other": "{0} dr l."
+          },
+          "volume-jigger": {
+            "displayName": "miosúr",
+            "unitPattern-count-one": "{0} mhiosúr",
+            "unitPattern-count-two": "{0} mhiosúr",
+            "unitPattern-count-few": "{0} mhiosúr",
+            "unitPattern-count-many": "{0} miosúr",
+            "unitPattern-count-other": "{0} miosúr"
+          },
+          "volume-pinch": {
+            "displayName": "pinse",
+            "unitPattern-count-one": "{0} phinse",
+            "unitPattern-count-two": "{0} phinse",
+            "unitPattern-count-few": "{0} phinse",
+            "unitPattern-count-many": "{0} bpinse",
+            "unitPattern-count-other": "{0} pinse"
+          },
+          "volume-quart-imperial": {
+            "displayName": "cárt impiriúil",
+            "unitPattern-count-one": "{0} chárt impiriúil",
+            "unitPattern-count-two": "{0} chárt impiriúla",
+            "unitPattern-count-few": "{0} chárt impiriúla",
+            "unitPattern-count-many": "{0} gcárt impiriúla",
+            "unitPattern-count-other": "{0} cárt impiriúil"
+          },
           "coordinateUnit": {
             "displayName": "treo",
             "east": "{0}O",
@@ -2939,16 +3179,40 @@
           "10p24": {
             "unitPrefixPattern": "Y{0}"
           },
+          "1024p1": {
+            "unitPrefixPattern": "Ki{0}"
+          },
+          "1024p2": {
+            "unitPrefixPattern": "Mi{0}"
+          },
+          "1024p3": {
+            "unitPrefixPattern": "Gi{0}"
+          },
+          "1024p4": {
+            "unitPrefixPattern": "Ti{0}"
+          },
+          "1024p5": {
+            "unitPrefixPattern": "Pi{0}"
+          },
+          "1024p6": {
+            "unitPrefixPattern": "Ei{0}"
+          },
+          "1024p7": {
+            "unitPrefixPattern": "Zi{0}"
+          },
+          "1024p8": {
+            "unitPrefixPattern": "Yi{0}"
+          },
           "per": {
             "compoundUnitPattern": "{0}/{1}"
           },
           "power2": {
             "compoundUnitPattern1": "{0}²",
-            "compoundUnitPattern1": "{0}²"
+            "compoundUnitPattern1-count-other": "{0}²"
           },
           "power3": {
             "compoundUnitPattern1": "{0}³",
-            "compoundUnitPattern1": "{0}³"
+            "compoundUnitPattern1-count-other": "{0}³"
           },
           "times": {
             "compoundUnitPattern": "{0}⋅{1}"
@@ -3474,12 +3738,12 @@
             "unitPattern-count-other": "{0} Btu"
           },
           "energy-therm-us": {
-            "displayName": "teirmeacha US",
-            "unitPattern-count-one": "{0} teirm US",
-            "unitPattern-count-two": "{0} theirm US",
-            "unitPattern-count-few": "{0} theirm US",
-            "unitPattern-count-many": "{0} dteirm US",
-            "unitPattern-count-other": "{0} teirm US"
+            "displayName": "teirmeacha SAM",
+            "unitPattern-count-one": "{0} teirm SAM",
+            "unitPattern-count-two": "{0} theirm SAM",
+            "unitPattern-count-few": "{0} theirm SAM",
+            "unitPattern-count-many": "{0} dteirm SAM",
+            "unitPattern-count-other": "{0} teirm SAM"
           },
           "force-pound-force": {
             "displayName": "punt-fhórsa",
@@ -3530,8 +3794,12 @@
             "unitPattern-count-other": "{0}Hz"
           },
           "graphics-em": {
-            "displayName": "em",
-            "unitPattern-count-other": "{0} em"
+            "displayName": "eim",
+            "unitPattern-count-one": "{0} eim",
+            "unitPattern-count-two": "{0} eim",
+            "unitPattern-count-few": "{0} eim",
+            "unitPattern-count-many": "{0} n-eim",
+            "unitPattern-count-other": "{0} eim"
           },
           "graphics-pixel": {
             "displayName": "picteilíní",
@@ -3556,6 +3824,18 @@
           "graphics-dot-per-inch": {
             "displayName": "dpi",
             "unitPattern-count-other": "{0} dpi"
+          },
+          "graphics-dot": {
+            "displayName": "ponc",
+            "unitPattern-count-one": "{0} phonc",
+            "unitPattern-count-two": "{0} phonc",
+            "unitPattern-count-few": "{0} phonc",
+            "unitPattern-count-many": "{0} bponc",
+            "unitPattern-count-other": "{0} ponc"
+          },
+          "length-earth-radius": {
+            "displayName": "R⊕",
+            "unitPattern-count-other": "{0} R⊕"
           },
           "length-kilometer": {
             "displayName": "km",
@@ -3738,6 +4018,14 @@
             "unitPattern-count-many": "{0}lx",
             "unitPattern-count-other": "{0}lx"
           },
+          "light-candela": {
+            "displayName": "cd",
+            "unitPattern-count-other": "{0} cd"
+          },
+          "light-lumen": {
+            "displayName": "lm",
+            "unitPattern-count-other": "{0} lm"
+          },
           "light-solar-luminosity": {
             "displayName": "lonrachtaí gréine",
             "unitPattern-count-one": "{0} L☉",
@@ -3861,6 +4149,14 @@
             "unitPattern-count-few": "{0} M☉",
             "unitPattern-count-many": "{0} M☉",
             "unitPattern-count-other": "{0} M☉"
+          },
+          "mass-grain": {
+            "displayName": "gráinne",
+            "unitPattern-count-one": "{0} ghráinne",
+            "unitPattern-count-two": "{0} ghráinne",
+            "unitPattern-count-few": "{0} ghráinne",
+            "unitPattern-count-many": "{0} ngráinne",
+            "unitPattern-count-other": "{0} gráinne"
           },
           "power-gigawatt": {
             "displayName": "GW",
@@ -4286,6 +4582,62 @@
             "unitPattern-count-few": "{0} bbl",
             "unitPattern-count-many": "{0} bbl",
             "unitPattern-count-other": "{0} bbl"
+          },
+          "volume-dessert-spoon": {
+            "displayName": "spmhil",
+            "unitPattern-count-one": "{0} spmhil",
+            "unitPattern-count-two": "{0} spmhil",
+            "unitPattern-count-few": "{0} spmhil",
+            "unitPattern-count-many": "{0} spmhil",
+            "unitPattern-count-other": "{0} spmhil"
+          },
+          "volume-dessert-spoon-imperial": {
+            "displayName": "spmhil imp",
+            "unitPattern-count-one": "{0} spmhil imp",
+            "unitPattern-count-two": "{0} spmhil imp",
+            "unitPattern-count-few": "{0} spmhil imp",
+            "unitPattern-count-many": "{0} spmhil imp",
+            "unitPattern-count-other": "{0} spmhil imp"
+          },
+          "volume-drop": {
+            "displayName": "braon",
+            "unitPattern-count-one": "{0} bhraon",
+            "unitPattern-count-two": "{0} bhraon",
+            "unitPattern-count-few": "{0} bhraon",
+            "unitPattern-count-many": "{0} mbraon",
+            "unitPattern-count-other": "{0} braon"
+          },
+          "volume-dram": {
+            "displayName": "dr l.",
+            "unitPattern-count-one": "{0} dr l.",
+            "unitPattern-count-two": "{0} dr l.",
+            "unitPattern-count-few": "{0} dr l.",
+            "unitPattern-count-many": "{0} dr l.",
+            "unitPattern-count-other": "{0} dr l."
+          },
+          "volume-jigger": {
+            "displayName": "miosúr",
+            "unitPattern-count-one": "{0} mhiosúr",
+            "unitPattern-count-two": "{0} mhiosúr",
+            "unitPattern-count-few": "{0} mhiosúr",
+            "unitPattern-count-many": "{0} miosúr",
+            "unitPattern-count-other": "{0} miosúr"
+          },
+          "volume-pinch": {
+            "displayName": "pinse",
+            "unitPattern-count-one": "{0} phinse",
+            "unitPattern-count-two": "{0} phinse",
+            "unitPattern-count-few": "{0} phinse",
+            "unitPattern-count-many": "{0} bpinse",
+            "unitPattern-count-other": "{0} pinse"
+          },
+          "volume-quart-imperial": {
+            "displayName": "cárt impiriúil",
+            "unitPattern-count-one": "{0} chárt impiriúil",
+            "unitPattern-count-two": "{0} chárt impiriúla",
+            "unitPattern-count-few": "{0} chárt impiriúla",
+            "unitPattern-count-many": "{0} gcárt impiriúla",
+            "unitPattern-count-other": "{0} cárt impiriúil"
           },
           "coordinateUnit": {
             "displayName": "treo",
